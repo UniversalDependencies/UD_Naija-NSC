@@ -6,11 +6,17 @@ A Universal Dependencies corpus for spoken Naija (Nigerian Pidgin).
 
 The corpus is based on dialogues and monologues and comprises 948 sentences and 12863 tokens.
 
-Sentences are annotated with the following metadata : sent_id (which also indicates the file), text, text_en (English translation), speaker (for dialogues).
+Sentences are annotated with the following metadata :
++ sent_id (which also indicates the file)
++ text
++ text_en (English translation)
++ speaker (for dialogues).
 
 # Structure
 
 The text has been transcribed mostly following English spelling conventions for lexical words. Grammatical words have been transcribed following consensual conventions elaborated by the annotators.
+
+
 The text is segmented into illocutionary units. The end of illocutionary units is indicated by a double slash (//). The sentence nucleus containing the predicate is separated from dislocated units by "lesser than" signs (<) from left-dislocated elements, and by "greater than" signs (>) from right-dislocated units. Paradigmatic lists (coordinations, appositions, and disfluencies) are marked with curly breackets, each conjunct being separated by the pipe symbol (|). Further details can be found on the "Macrosyntactic annotation guide".
 
 # Deviations from UD
@@ -19,7 +25,6 @@ The text is segmented into illocutionary units. The end of illocutionary units i
 - We used `conj:coord` instead of `coord`.
 - We used `conj:dicto` instead of `reparandum`.
 - We used `conj:appos` instead of `appos`.
-- All our `conj` keep going from left to right.
 - We use `compound:redup` for reduplications and `compound:svc` for serial verb constructions.
 - We distinguish 6 types of parataxis: `parataxis:conj`, `parataxis:discourse`, `parataxis:dislocated`, `parataxis:insert`, `parataxis:obj`, `parataxis:parenth`.
 
@@ -36,7 +41,7 @@ The pilot corpus was recorded in various locations in Ibadan (Nigeria) by Bukola
 
 # Changelog
 
-* 2018-02-09 v1.0
+* 2018-04-15 v2.2
   * Initial release
 
 

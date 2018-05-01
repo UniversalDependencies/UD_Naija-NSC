@@ -46,12 +46,10 @@ The pilot corpus was recorded in various locations in Ibadan (Nigeria) by Bukola
 
 
 === Machine-readable metadata (DO NOT REMOVE!) ================================
-Documentation status: stub
-Data source: automatic
-Data available since: UD v2.1
+Data available since: UD v2.2
 Includes text: yes
 License: CC BY-SA 4.0
-Genre: conversations, interviews
+Genre: spoken
 Lemmas: automatic
 UPOS: manual native
 XPOS: not available

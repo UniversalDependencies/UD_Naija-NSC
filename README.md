@@ -41,6 +41,12 @@ The pilot corpus was recorded in various locations in Ibadan (Nigeria) by Bukola
 
 # Changelog
 
+* 2019-05-15 v2.4
+  * Modifications to comply with v2.4 validation:
+    * when we had to change the POS tag to comply with UD validation rules, we kept the old POS tag in XPOS, so that no information is lost
+    * in case of non-projective punctuations, we attached them on the govenor of the arc that creates the non-projectivity
+    * compound:redup become conj:redup
+* 2018-11-15 v2.3
 * 2018-04-15 v2.2
   * Initial release
 

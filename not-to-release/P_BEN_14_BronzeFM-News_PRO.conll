@@ -1,8 +1,8 @@
 # elan_id = BEN_14_M_001
 # sent_id = P_BEN_14_BronzeFM-News_PRO_1
 # sent_translation = My country people, good afternoon to you.This is the story at one o'clock reaching you from bronze fm, one-o-one dot five in Benin city.
-# text = my country people < na good afternoon //
-1	my	_	ADJ	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	dep	_	2380|2720
+# text = my country people < una good afternoon !//
+1	my	_	ADJ	_	PronType=Prs|Number=Sing|Poss=Yes|Person=1	3	dep	_	2380|2720
 2	country	_	NOUN	_	_	3	compound	_	2720|3107
 3	people	_	NOUN	_	_	7	vocative	_	3107|3170
 4	<	_	PUNCT	_	_	3	punct	_	3170|3200
@@ -10,11 +10,12 @@
 6	good	_	ADJ	_	_	7	dep	_	3350|3480
 7	afternoon	_	NOUN	_	_	0	root	_	3480|3980
 8	!//	_	PUNCT	_	_	7	punct	_	3980|4010
+
 # elan_id = BEN_14_M_001
 # sent_id = P_BEN_14_BronzeFM-News_PRO_2
 # sent_translation = My country people, good afternoon to you.This is the story at one o'clock reaching you from bronze fm, one-o-one dot five in Benin city.
-# text = dis one na tori for one o'clock wey dey reach una from Bronze FM > one o one dot five for Benin City //
-1	dis	_	DET	_	Number=Sing|PronType=Prox	2	det	_	4010|4368
+# text = dis one na tori for one o'clock wey dey reach una { from Bronze FM |a > { one |c O |c one |c dot |c five } } for Benin City //
+1	dis	_	DET	_	PronType=Prox|Number=Sing	2	det	_	4010|4368
 2	one	_	NOUN	_	_	3	subj	_	4368|4723
 3	na	_	PART	_	PartType=Cop	0	root	_	4723|4947
 4	tori	_	NOUN	_	_	3	comp:pred	_	4947|5303
@@ -24,7 +25,7 @@
 8	wey	_	SCONJ	_	_	4	dep	_	6069|6193
 9	dey	_	AUX	_	Aspect=Imp	8	comp	_	6193|6290
 10	reach	_	VERB	_	_	9	comp:aux	_	6290|6470
-11	una	_	PRON	_	Case=Acc|Number=Plur|Person=2|PronType=Prs	10	comp:obj	_	6470|6610
+11	una	_	PRON	_	Case=Acc|PronType=Prs|Number=Plur|Person=2	10	comp:obj	_	6470|6610
 12	{	_	PUNCT	_	_	13	punct	_	6610|6770
 13	from	_	ADP	_	_	10	comp:obl	_	6610|6770
 14	Bronze	_	PROPN	_	_	13	comp	_	6770|7120
@@ -47,29 +48,31 @@
 31	Benin	_	PROPN	_	_	30	comp	_	8590|8876
 32	City	_	PROPN	_	_	31	flat	_	8876|9214
 33	//	_	PUNCT	_	_	3	punct	_	9214|9244
+
 # elan_id = BEN_14_M_002 BEN_14_M_003
 # sent_id = P_BEN_14_BronzeFM-News_PRO_3
 # sent_translation = # And it is I, Allen Ujewa who wants to give you the story(news).
-# text = # and na { me |a+ Allen Ujewa } wan give una di tori //
+# text = # and na { me |a Allen Ujewa } wan give una di tori //
 1	#	_	PUNCT	_	_	3	punct	_	9244|9720
 2	and	_	CCONJ	_	_	3	cc	_	9720|9822
 3	na	_	PART	_	PartType=Cop	0	root	_	9822|9897
 4	{	_	PUNCT	_	_	5	punct	_	9897|9927
-5	me	_	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	comp:pred	_	9927|10130
+5	me	_	PRON	_	Case=Nom|PronType=Prs|Number=Sing|Person=1	3	comp:pred	_	9927|10130
 6	|a	_	PUNCT	_	_	7	punct	_	10130|10160
 7	Allen	_	PROPN	_	_	5	conj:appos	_	10160|10401
 8	Ujewa	_	PROPN	_	_	7	flat	_	10401|10800
 9	}	_	PUNCT	_	_	5	punct	_	10800|10830
 10	wan	_	VERB	_	_	3	comp:cleft	_	10830|11010
 11	give	_	VERB	_	_	10	comp:pred	_	11010|11170
-12	una	_	PRON	_	Case=Acc|Number=Plur|Person=2|PronType=Prs	11	comp:obj	_	11170|11320
-13	di	_	DET	_	Definite=Def|PronType=Art	14	det	_	11320|11442
+12	una	_	PRON	_	Case=Acc|PronType=Prs|Number=Plur|Person=2	11	comp:obj	_	11170|11320
+13	di	_	DET	_	PronType=Art|Definite=Def	14	det	_	11320|11442
 14	tori	_	NOUN	_	_	11	comp:obj	_	11442|11690
 15	//	_	PUNCT	_	_	3	punct	_	11690|11720
+
 # elan_id = BEN_14_M_004 BEN_14_M_005 BEN_14_M_006 BEN_14_M_007
 # sent_id = P_BEN_14_BronzeFM-News_PRO_4
 # sent_translation = # Edo state government has told bus drivers to park first at Oba Akenzua cultural centre,  so that people who board buses, will not be suffering.
-# text = # Edo State government don tell bus drivers to dey park first for Oba Akenzua Cultural Centre # so dat people wey dey enter motor no go dey suffer //
+# text = # Edo State Government don tell bus drivers to dey park first for Oba Akenzua Cultural Centre # so dat people wey dey enter motor no go dey suffer //
 1	#	_	PUNCT	_	_	5	punct	_	11720|12940
 2	Edo	_	PROPN	_	_	3	compound	_	12940|13140
 3	State	_	PROPN	_	_	4	compound	_	13140|13425
@@ -89,7 +92,7 @@
 17	Centre	_	PROPN	_	_	16	flat	_	17490|18000
 18	#	_	PUNCT	_	_	19	punct	_	18000|18580
 19	so	_	SCONJ	_	_	11	mod	_	18580|18720
-20	dat	_	DET	_	Number=Sing|PronType=Dem	19	flat	_	18720|18908
+20	dat	_	DET	_	PronType=Dem|Number=Sing	19	flat	_	18720|18908
 21	people	_	NOUN	_	_	27	subj	_	18908|19235
 22	wey	_	SCONJ	_	_	21	dep	_	19235|19387
 23	dey	_	AUX	_	Aspect=Imp	22	comp	_	19387|19480
@@ -100,14 +103,15 @@
 28	dey	_	AUX	_	Aspect=Imp	27	comp:aux	_	20530|20635
 29	suffer	_	VERB	_	_	28	comp:aux	_	20635|21070
 30	//	_	PUNCT	_	_	5	punct	_	21070|21100
+
 # elan_id = BEN_14_M_008 BEN_14_M_009 BEN_14_M_010 BEN_14_M_011 BEN_14_M_012 BEN_14_M_013 BEN_14_M_014 BEN_14_M_015 BEN_14_M_016 BEN_14_M_017
 # sent_id = P_BEN_14_BronzeFM-News_PRO_5
 # sent_translation = # The time the chief of staff, boss Taiwo Akerele was talking to news people (press) at Robota hall,   he said government knows that people trek long distance o before they can board buses.
-# text = # di time di { chief of staff |a Oga Taiwo Akerele } dey talk # to tori people for Robota Hall < # e come talk sey # [ government know sey [ people dey trek long distance o # before de fit take bus ] ] //
+# text = # di time di { chief of staff |a Oga Taiwo Akerele } dey talk # to tori people for Robota Hall < # e con talk sey # [ government know sey [ people dey trek long distance o # before de fit take bus ] ] //
 1	#	_	PUNCT	_	_	26	punct	_	21100|22400
-2	di	_	DET	_	Definite=Def|PronType=Art	3	det	_	22400|22470
+2	di	_	DET	_	PronType=Art|Definite=Def	3	det	_	22400|22470
 3	time	_	NOUN	_	_	26	mod:periph	_	22470|22670
-4	di	_	DET	_	Definite=Def|PronType=Art	6	det	_	22670|22750
+4	di	_	DET	_	PronType=Art|Definite=Def	6	det	_	22670|22750
 5	{	_	PUNCT	_	_	6	punct	_	22750|22780
 6	chief	_	NOUN	_	_	14	subj	_	22780|23280
 7	of	_	ADP	_	_	6	dep	_	23280|23410
@@ -128,7 +132,7 @@
 22	Hall	_	PROPN	_	_	21	flat	_	27243|27470
 23	<	_	PUNCT	_	_	14	punct	_	27470|27500
 24	#	_	PUNCT	_	_	14	punct	_	27500|28100
-25	e	_	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	26	subj	_	28100|28200
+25	e	_	PRON	_	Case=Nom|PronType=Prs|Number=Sing|Person=3	26	subj	_	28100|28200
 26	con	_	AUX	_	Aspect=Real	0	root	_	28200|28400
 27	talk	_	VERB	_	_	26	comp:aux	_	28400|28610
 28	sey	_	SCONJ	_	_	27	comp:obj	_	28610|28940
@@ -146,26 +150,27 @@
 40	o	_	PART	_	PartType=Disc	37	mod:emph	_	31770|32000
 41	#	_	PUNCT	_	_	42	punct	_	32000|32260
 42	before	_	ADP	_	_	37	mod	_	32260|32564
-43	de	_	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	44	subj	_	32564|32680
+43	de	_	PRON	_	Case=Nom|PronType=Prs|Number=Plur|Person=3	44	subj	_	32564|32680
 44	fit	_	AUX	_	_	42	comp	_	32680|32894
 45	take	_	VERB	_	_	44	comp:aux	_	32894|33130
 46	bus	_	NOUN	_	_	45	comp:lvc	_	33130|33590
 47	]	_	PUNCT	_	_	36	punct	_	33590|33620
 48	]	_	PUNCT	_	_	32	punct	_	33590|33620
 49	//	_	PUNCT	_	_	26	punct	_	33590|33620
+
 # elan_id = BEN_14_M_018 BEN_14_M_019 BEN_14_M_020 BEN_14_M_021 BEN_14_M_022 BEN_14_M_023 BEN_14_M_024 BEN_14_M_025 BEN_14_M_026 BEN_14_M_027
 # sent_id = P_BEN_14_BronzeFM-News_PRO_6
 # sent_translation = # But e now said that they are doing everything   to create permanent bus stops.
-# text = # but e come talk sey # [ dem don dey do everything # to create # permanent # bus stop ] //
+# text = # but e con talk sey # [ dem don dey do everything # to create # permanent # bus stop ] //
 1	#	_	PUNCT	_	_	4	punct	_	33620|34180
 2	but	_	CCONJ	_	_	4	cc	_	34180|34410
-3	e	_	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	subj	_	34410|34500
+3	e	_	PRON	_	Case=Nom|PronType=Prs|Number=Sing|Person=3	4	subj	_	34410|34500
 4	con	_	AUX	_	Aspect=Real	0	root	_	34500|34729
 5	talk	_	VERB	_	_	4	comp:aux	_	34729|34980
 6	sey	_	SCONJ	_	_	5	comp:obj	_	34980|35320
 7	#	_	PUNCT	_	_	10	punct	_	35320|35560
 8	[	_	PUNCT	_	_	10	punct	_	35530|35560
-9	dem	_	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	10	subj	_	35560|35770
+9	dem	_	PRON	_	Case=Nom|PronType=Prs|Number=Plur|Person=3	10	subj	_	35560|35770
 10	don	_	AUX	_	Aspect=Perf	6	comp	_	35770|35920
 11	dey	_	AUX	_	Aspect=Imp	10	comp:aux	_	35920|36009
 12	do	_	VERB	_	_	11	comp:aux	_	36009|36180
@@ -180,13 +185,14 @@
 21	stop	_	VERB	_	_	16	comp:obj	_	39133|39445
 22	]	_	PUNCT	_	_	10	punct	_	39445|39475
 23	//	_	PUNCT	_	_	4	punct	_	39445|39475
+
 # elan_id = BEN_14_M_028 BEN_14_M_029 BEN_14_M_030 BEN_14_M_031 BEN_14_M_032 BEN_14_M_033 BEN_14_M_034 BEN_14_M_035 BEN_14_M_036 BEN_14_M_037
 # sent_id = P_BEN_14_BronzeFM-News_PRO_7
 # sent_translation = #  The curator at the Nationa museum in Edo state, boss Theophillus Omogbai has told federal and state government to reaarange museum in the country to ensure that it can meet world standard  so that it will boost tourism in the country.
 # text = # { di curator for National Museum for Edo State |a Oga Theophilllus Omogbai } # don tell Federal and State Government # to rearrange museum # for di country to see sey [ e fit meet world standard ] # so dat e go boost di tourism for di country //
 1	#	_	PUNCT	_	_	17	punct	_	39475|42720
 2	{	_	PUNCT	_	_	4	punct	_	42690|42720
-3	di	_	DET	_	Definite=Def|PronType=Art	4	det	_	42720|42850
+3	di	_	DET	_	PronType=Art|Definite=Def	4	det	_	42720|42850
 4	curator	_	NOUN	_	_	17	subj	_	42850|43390
 5	for	_	ADP	_	_	4	dep	_	43390|43840
 6	National	_	PROPN	_	_	5	comp	_	43840|44318
@@ -212,13 +218,13 @@
 26	museum	_	NOUN	_	_	25	comp:obj	_	51192|51754
 27	#	_	PUNCT	_	_	28	punct	_	51754|52240
 28	for	_	ADP	_	_	26	dep	_	52240|52420
-29	di	_	DET	_	Definite=Def|PronType=Art	30	det	_	52420|52520
+29	di	_	DET	_	PronType=Art|Definite=Def	30	det	_	52420|52520
 30	country	_	NOUN	_	_	28	comp	_	52520|53040
 31	to	_	ADP	_	_	25	mod	_	53040|53200
 32	see	_	VERB	_	_	31	comp	_	53200|53377
 33	sey	_	SCONJ	_	_	32	comp:obj	_	53377|53700
 34	[	_	PUNCT	_	_	36	punct	_	53700|53730
-35	e	_	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	36	subj	_	53730|53800
+35	e	_	PRON	_	Case=Nom|PronType=Prs|Number=Sing|Person=3	36	subj	_	53730|53800
 36	fit	_	AUX	_	_	33	comp	_	53800|54220
 37	meet	_	VERB	_	_	36	comp:aux	_	54220|54560
 38	world	_	NOUN	_	_	39	compound	_	54560|54880
@@ -226,29 +232,30 @@
 40	]	_	PUNCT	_	_	36	punct	_	55510|55540
 41	#	_	PUNCT	_	_	42	punct	_	55540|56120
 42	so	_	SCONJ	_	_	25	mod	_	56120|56289
-43	dat	_	PRON	_	Number=Sing|PronType=Dem	42	fixed	_	56289|56620
-44	e	_	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	45	subj	_	56620|56720
+43	dat	_	PRON	_	PronType=Dem|Number=Sing	42	fixed	_	56289|56620
+44	e	_	PRON	_	Case=Nom|PronType=Prs|Number=Sing|Person=3	45	subj	_	56620|56720
 45	go	_	AUX	_	Tense=Prosp	42	comp	_	56720|56860
 46	boost	_	VERB	_	_	45	comp:aux	_	56860|57210
-47	di	_	DET	_	Definite=Def|PronType=Art	48	det	_	57210|57545
+47	di	_	DET	_	PronType=Art|Definite=Def	48	det	_	57210|57545
 48	tourism	_	NOUN	_	_	46	comp:obj	_	57545|58243
 49	for	_	ADP	_	_	46	comp:obl	_	58243|58610
-50	di	_	DET	_	Definite=Def|PronType=Art	51	det	_	58610|58770
+50	di	_	DET	_	PronType=Art|Definite=Def	51	det	_	58610|58770
 51	country	_	NOUN	_	_	49	comp	_	58770|59210
 52	//	_	PUNCT	_	_	17	punct	_	59210|59240
+
 # elan_id = BEN_14_M_038 BEN_14_M_039 BEN_14_M_040 BEN_14_M_041 BEN_14_M_042 BEN_14_M_043
 # sent_id = P_BEN_14_BronzeFM-News_PRO_8
 # sent_translation = # Boss Omogbai said this at the time he was talking to Radio Nigeria at this year's international museum day which held on eighteenth May.
-# text = # Oga Omogbai talk dis one di time e dey talk to Radio Nigeria # for dis year International Museum Day # wey dem do for may eighteenth //
+# text = # Oga Omogbai talk dis one di time e dey talk to Radio Nigeria # for dis year International Museum Day # wey dem do for May eighteenth //
 1	#	_	PUNCT	_	_	4	punct	_	59240|60260
 2	Oga	_	PROPN	_	_	4	subj	_	60260|60480
 3	Omogbai	_	PROPN	_	_	2	dep:appos	_	60480|60950
 4	talk	_	VERB	_	_	0	root	_	60950|61170
-5	dis	_	DET	_	Number=Sing|PronType=Prox	6	det	_	61170|61470
+5	dis	_	DET	_	PronType=Prox|Number=Sing	6	det	_	61170|61470
 6	one	_	NUM	_	NumType=Card	4	comp:obj	_	61470|61730
-7	di	_	DET	_	Definite=Def|PronType=Art	8	det	_	61730|61850
+7	di	_	DET	_	PronType=Art|Definite=Def	8	det	_	61730|61850
 8	time	_	NOUN	_	_	4	mod	_	61850|62150
-9	e	_	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	10	subj	_	62150|62280
+9	e	_	PRON	_	Case=Nom|PronType=Prs|Number=Sing|Person=3	10	subj	_	62150|62280
 10	dey	_	AUX	_	Aspect=Imp	8	dep	_	62280|62425
 11	talk	_	VERB	_	_	10	comp:aux	_	62425|62690
 12	to	_	ADP	_	_	11	comp:obl	_	62690|62870
@@ -256,23 +263,24 @@
 14	Nigeria	_	PROPN	_	_	13	flat	_	63180|63800
 15	#	_	PUNCT	_	_	16	punct	_	63800|64660
 16	for	_	ADP	_	_	11	mod	_	64660|64860
-17	dis	_	DET	_	Number=Sing|PronType=Prox	18	det	_	64860|65169
+17	dis	_	DET	_	PronType=Prox|Number=Sing	18	det	_	64860|65169
 18	year	_	NOUN	_	_	21	dep	_	65169|65440
 19	International	_	PROPN	_	_	21	dep	_	65440|66105
 20	Museum	_	PROPN	_	_	21	compound	_	66105|66608
 21	Day	_	PROPN	_	_	16	comp	_	66608|66940
 22	#	_	PUNCT	_	_	23	punct	_	66940|67540
 23	wey	_	SCONJ	_	_	21	dep	_	67540|67670
-24	dem	_	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	25	subj	_	67670|67850
+24	dem	_	PRON	_	Case=Nom|PronType=Prs|Number=Plur|Person=3	25	subj	_	67670|67850
 25	do	_	VERB	_	_	23	comp	_	67850|68161
 26	for	_	ADP	_	_	25	mod	_	68161|68500
 27	May	_	PROPN	_	_	26	comp	_	68500|68910
 28	eighteenth	_	ADJ	_	NumType=Ord	27	dep	_	68910|69522
 29	//	_	PUNCT	_	_	4	punct	_	69522|69552
+
 # elan_id = BEN_14_M_044 BEN_14_M_045 BEN_14_M_046 BEN_14_M_047
 # sent_id = P_BEN_14_BronzeFM-News_PRO_9
 # sent_translation = # Boss Omogbai who still spoke that  people in Nigeria, they do not patronise museums o
-# text = # Oga Omogbai wey come fit talk sey # [ people for Nigeria < dem no dey patronise museum o //] //
+# text = # Oga Omogbai >+ wey con fit talk sey # [ people for Nigeria < dem no dey patronise museum o //] //
 1	#	_	PUNCT	_	_	2	punct	_	69552|70500
 2	Oga	_	PROPN	_	_	0	root	_	70500|70710
 3	Omogbai	_	PROPN	_	_	2	dep:appos	_	70710|71277
@@ -288,7 +296,7 @@
 13	for	_	ADP	_	_	12	dep	_	73310|73530
 14	Nigeria	_	PROPN	_	_	13	comp	_	73530|74110
 15	<	_	PUNCT	_	_	12	punct	_	74110|74140
-16	dem	_	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	18	subj	_	74140|74290
+16	dem	_	PRON	_	Case=Nom|PronType=Prs|Number=Plur|Person=3	18	subj	_	74140|74290
 17	no	_	PART	_	Polarity=Neg	18	mod	_	74290|74438
 18	dey	_	AUX	_	Aspect=Imp	9	comp	_	74438|74551
 19	patronise	_	VERB	_	_	18	comp:aux	_	74551|75270
@@ -296,10 +304,11 @@
 21	o	_	PART	_	PartType=Disc	18	mod:emph	_	75790|75976
 22	//]	_	PUNCT	_	_	18	punct	_	75976|76006
 23	//	_	PUNCT	_	_	2	punct	_	75976|76006
+
 # elan_id = BEN_14_M_048 BEN_14_M_049 BEN_14_M_050 BEN_14_M_051 BEN_14_M_052 BEN_14_M_053 BEN_14_M_054 BEN_14_M_055
 # sent_id = P_BEN_14_BronzeFM-News_PRO_10
 # sent_translation = #  that it is what causes poor economic matter in the tourism sector   in Nigeria unlike other countries.
-# text = # sey na wetin be sey [ di cause di poor economic matter # for tourism sector # for Nigeria unlike # other countries ] //
+# text = # sey na wetin be sey [ dey cause di poor economic matter # for tourism sector # for Nigeria unlike # other countries ] //
 1	#	_	PUNCT	_	_	3	punct	_	76006|76480
 2	sey	_	SCONJ	_	_	3	cc	_	76480|76880
 3	na	_	PART	_	PartType=Cop	0	root	_	76880|77095
@@ -309,7 +318,7 @@
 7	[	_	PUNCT	_	_	8	punct	_	77839|77869
 8	dey	_	AUX	_	Aspect=Imp	6	comp	_	77869|78116
 9	cause	_	VERB	_	_	8	comp:aux	_	78116|78420
-10	di	_	DET	_	Definite=Def|PronType=Art	13	det	_	78420|78589
+10	di	_	DET	_	PronType=Art|Definite=Def	13	det	_	78420|78589
 11	poor	_	ADJ	_	_	13	dep	_	78589|78961
 12	economic	_	ADJ	_	_	13	dep	_	78961|79480
 13	matter	_	NOUN	_	_	9	comp:obj	_	79480|79937
@@ -326,10 +335,11 @@
 24	countries	_	NOUN	_	Number=Plur	21	comp	_	83936|84570
 25	]	_	PUNCT	_	_	8	punct	_	84570|84600
 26	//	_	PUNCT	_	_	3	punct	_	84570|84600
+
 # elan_id = BEN_14_M_056 BEN_14_M_057 BEN_14_M_058 BEN_14_M_059 BEN_14_M_060 BEN_14_M_061 BEN_14_M_062 BEN_14_M_063 BEN_14_M_064 BEN_14_M_065 BEN_14_M_066 BEN_14_M_067 BEN_14_M_068 BEN_14_M_069
 # sent_id = P_BEN_14_BronzeFM-News_PRO_11
 # sent_translation = # National president, Nigerian union of women journalists, NAWOJ, Comrade Ifeyinwa Omowole,  xshe has called on women to be at the forefront  for the socio-economic development of the country.
-# text = # { national president { Nigerian Union # of Women Journalists |a NAWOJ } |a # Comrade # Ifeyinwa Omowole } < # e don call on women # to dey di forefront # for di socioeconomic development of di country //
+# text = # { National President { Nigerian Union # of Women Journalists |a NAWOJ } |a # Comrade # Ifeyinwa Omowole } < # e don call on women # to dey di forefront # for di socioeconomic development of di country //
 1	#	_	PUNCT	_	_	25	punct	_	84600|88000
 2	{	_	PUNCT	_	_	4	punct	_	87970|88000
 3	National	_	PROPN	_	_	4	dep	_	88000|88480
@@ -353,7 +363,7 @@
 21	}	_	PUNCT	_	_	17	punct	_	94970|95000
 22	<	_	PUNCT	_	_	4	punct	_	94970|95000
 23	#	_	PUNCT	_	_	25	punct	_	95000|95500
-24	e	_	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	25	subj	_	95500|95618
+24	e	_	PRON	_	Case=Nom|PronType=Prs|Number=Sing|Person=3	25	subj	_	95500|95618
 25	don	_	AUX	_	Aspect=Perf	0	root	_	95618|95790
 26	call	_	VERB	_	_	25	comp:aux	_	95790|96080
 27	on	_	ADP	_	_	26	comp:obl	_	96080|96217
@@ -361,33 +371,34 @@
 29	#	_	PUNCT	_	_	30	punct	_	96724|97160
 30	to	_	ADP	_	_	26	comp:pred	_	97160|97314
 31	dey	_	VERB	_	PartType=Cop	30	comp	_	97314|97481
-32	di	_	DET	_	Definite=Def|PronType=Art	33	det	_	97481|97627
+32	di	_	DET	_	PronType=Art|Definite=Def	33	det	_	97481|97627
 33	forefront	_	NOUN	_	_	31	comp:pred	_	97627|98420
 34	#	_	PUNCT	_	_	35	punct	_	98420|98860
 35	for	_	ADP	_	_	33	dep	_	98860|99030
-36	di	_	DET	_	Definite=Def|PronType=Art	38	det	_	99030|99130
+36	di	_	DET	_	PronType=Art|Definite=Def	38	det	_	99030|99130
 37	socioeconomic	_	ADJ	_	_	38	dep	_	99130|100080
 38	development	_	NOUN	_	_	35	comp	_	100080|100860
 39	of	_	ADP	_	_	38	dep	_	100860|100970
-40	di	_	DET	_	Definite=Def|PronType=Art	41	det	_	100970|101060
+40	di	_	DET	_	PronType=Art|Definite=Def	41	det	_	100970|101060
 41	country	_	NOUN	_	_	39	comp	_	101060|101510
 42	//	_	PUNCT	_	_	25	punct	_	101510|101540
+
 # elan_id = BEN_14_M_070 BEN_14_M_071 BEN_14_M_072 BEN_14_M_073
 # sent_id = P_BEN_14_BronzeFM-News_PRO_12
 # sent_translation = # Comrade Omowole said this at the programme called Newsmaker at Bronze fm in Benin.
-# text = # Comrade Omowole talk dis one # for di programme wey dem dey call newsmaker for Bronze FM for Benin //
+# text = # Comrade Omowole talk dis one # for di programme wey dem dey call Newsmaker for Bronze FM for Benin //
 1	#	_	PUNCT	_	_	4	punct	_	101540|102320
 2	Comrade	_	PROPN	_	_	4	subj	_	102320|102629
 3	Omowole	_	PROPN	_	_	2	dep:appos	_	102629|103098
 4	talk	_	VERB	_	_	0	root	_	103098|103290
-5	dis	_	DET	_	Number=Sing|PronType=Prox	6	det	_	103290|103590
+5	dis	_	DET	_	PronType=Prox|Number=Sing	6	det	_	103290|103590
 6	one	_	NUM	_	NumType=Card	4	comp:obj	_	103590|103903
 7	#	_	PUNCT	_	_	8	punct	_	103903|104240
 8	for	_	ADP	_	_	4	mod	_	104240|104390
-9	di	_	DET	_	Definite=Def|PronType=Art	10	det	_	104390|104500
+9	di	_	DET	_	PronType=Art|Definite=Def	10	det	_	104390|104500
 10	programme	_	NOUN	_	_	8	comp	_	104500|105050
 11	wey	_	SCONJ	_	_	10	dep	_	105050|105157
-12	dem	_	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	13	subj	_	105157|105257
+12	dem	_	PRON	_	Case=Nom|PronType=Prs|Number=Plur|Person=3	13	subj	_	105157|105257
 13	dey	_	AUX	_	Aspect=Imp	11	comp	_	105257|105370
 14	call	_	VERB	_	_	13	comp:aux	_	105370|105600
 15	Newsmaker	_	PROPN	_	_	14	comp:obj	_	105600|106364
@@ -397,18 +408,19 @@
 19	for	_	ADP	_	_	4	mod	_	107620|107860
 20	Benin	_	PROPN	_	_	19	comp	_	107860|108290
 21	//	_	PUNCT	_	_	4	punct	_	108290|108320
+
 # elan_id = BEN_14_M_074 BEN_14_M_075 BEN_14_M_076 BEN_14_M_077 BEN_14_M_078 BEN_14_M_079 BEN_14_M_080 BEN_14_M_081 BEN_14_M_082 BEN_14_M_083
 # sent_id = P_BEN_14_BronzeFM-News_PRO_13
 # sent_translation = # On this matter, she said that no nation will develop without women being involved in the country.
-# text = # on top dis matter < # she come talk sey # [ no nation go develop # without women no dey involve # for di country ] //
+# text = # on top dis matter < # she con talk sey # [ no nation go develop # without women no dey involve # for di country ] //
 1	#	_	PUNCT	_	_	9	punct	_	108320|109000
 2	on	_	ADP	_	_	9	mod:periph	_	109000|109100
 3	top	_	NOUN	_	_	2	fixed	_	109100|109320
-4	dis	_	DET	_	Number=Sing|PronType=Prox	5	det	_	109320|109552
+4	dis	_	DET	_	PronType=Prox|Number=Sing	5	det	_	109320|109552
 5	matter	_	NOUN	_	_	2	comp	_	109552|109950
 6	<	_	PUNCT	_	_	2	punct	_	109950|109980
 7	#	_	PUNCT	_	_	2	punct	_	109980|110360
-8	she	_	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	9	subj	_	110360|110550
+8	she	_	PRON	_	Case=Nom|PronType=Prs|Number=Sing|Person=3	9	subj	_	110360|110550
 9	con	_	AUX	_	Aspect=Real	0	root	_	110550|110760
 10	talk	_	VERB	_	_	9	comp:aux	_	110760|111020
 11	sey	_	SCONJ	_	_	10	comp:obj	_	111020|111380
@@ -426,14 +438,15 @@
 23	involve	_	VERB	_	_	22	comp:pass	_	115440|115951
 24	#	_	PUNCT	_	_	25	punct	_	115951|116149
 25	for	_	ADP	_	_	23	comp:obl	_	116149|116570
-26	di	_	DET	_	Definite=Def|PronType=Art	27	det	_	116570|116810
+26	di	_	DET	_	PronType=Art|Definite=Def	27	det	_	116570|116810
 27	country	_	NOUN	_	_	25	comp	_	116810|117230
 28	]	_	PUNCT	_	_	16	punct	_	117230|117260
 29	//	_	PUNCT	_	_	9	punct	_	117230|117260
+
 # elan_id = BEN_14_M_084 BEN_14_M_085 BEN_14_M_086 BEN_14_M_087 BEN_14_M_088 BEN_14_M_089 BEN_14_M_090 BEN_14_M_091 BEN_14_M_092 BEN_14_M_093 BEN_14_M_094 BEN_14_M_095
 # sent_id = P_BEN_14_BronzeFM-News_PRO_14
 # sent_translation = # One seventy four year old man, oga Habibu Ogiator, that was kidnapped (abducted) the time he was going to (the) farm in Etsako east local government area, they have released him.
-# text = # { one seventy four year old man |a Oga Habibu # Ogiator } # wey dey be gbab hide # di time e dey go farm # for Etsako East Local Government Area < # dem don release am //
+# text = # { one seventy four year old man |a Oga Habibu # Ogiator } # wey dem be gbab hide # di time e dey go farm # for Etsako East Local Government Area < # dem don release am //
 1	#	_	PUNCT	_	_	38	punct	_	117260|120840
 2	{	_	PUNCT	_	_	8	punct	_	120810|120840
 3	one	_	DET	_	Definite=Spec|Number=Sing|PronType=Art	8	det	_	120840|121110
@@ -455,9 +468,9 @@
 19	gbab	_	VERB	_	_	18	comp:aux	_	126030|126360
 20	hide	_	VERB	_	_	19	compound:svc	_	126360|126800
 21	#	_	PUNCT	_	_	23	punct	_	126800|127140
-22	di	_	DET	_	Definite=Def|PronType=Art	23	det	_	127140|127250
+22	di	_	DET	_	PronType=Art|Definite=Def	23	det	_	127140|127250
 23	time	_	NOUN	_	_	20	mod	_	127250|127560
-24	e	_	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	25	subj	_	127560|127690
+24	e	_	PRON	_	Case=Nom|PronType=Prs|Number=Sing|Person=3	25	subj	_	127560|127690
 25	dey	_	AUX	_	Aspect=Imp	23	dep	_	127690|127820
 26	go	_	VERB	_	_	25	comp:aux	_	127820|127970
 27	farm	_	NOUN	_	_	26	comp:obj	_	127970|128380
@@ -470,63 +483,64 @@
 34	Area	_	PROPN	_	_	29	comp	_	131410|131750
 35	<	_	PUNCT	_	_	8	punct	_	131750|131780
 36	#	_	PUNCT	_	_	8	punct	_	131780|132160
-37	dem	_	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	38	subj	_	132160|132310
+37	dem	_	PRON	_	Case=Nom|PronType=Prs|Number=Plur|Person=3	38	subj	_	132160|132310
 38	don	_	AUX	_	Aspect=Perf	0	root	_	132310|132559
 39	release	_	VERB	_	_	38	comp:aux	_	132559|132860
-40	am	_	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	39	comp:obj	_	132860|133017
+40	am	_	PRON	_	Case=Acc|PronType=Prs|Number=Sing|Person=3	39	comp:obj	_	132860|133017
 41	//	_	PUNCT	_	_	38	punct	_	133017|133047
+
 # elan_id = BEN_14_M_096 BEN_14_M_097 BEN_14_M_098 BEN_14_M_099 BEN_14_M_100 BEN_14_M_101 BEN_14_M_102 BEN_14_M_103
 # sent_id = P_BEN_14_BronzeFM-News_PRO_15
 # sent_translation = # According to oga Ogiator, he said the time he was narrating this story, he now said that he was in the hands of these people that packed and hid him for two days before they now freed him at last.
-# text = # according to Oga Ogiator < # { e say ( di time e dey talk dis story ) || # e con talk } sey # [ e be dey di hand of dis people wey kpaki am hide for two days before dem come free am last last ] //
+# text = # according to Oga Ogiator < # { e say ( di time e dey talk dis story ) || # e con talk } sey # [ e be dey di hand of dis people wey kpaki am hide for two days before dem con free am { last |r last } ] //
 1	#	_	PUNCT	_	_	10	punct	_	133047|133780
-2	according	accord	VERB	_	Tense=Pres|VerbForm=Part	10	mod:periph	_	133780|134131
+2	according	accord	VERB	_	VerbForm=Part|Tense=Pres	10	mod:periph	_	133780|134131
 3	to	_	ADP	_	_	2	fixed	_	134131|134260
 4	Oga	_	PROPN	_	_	2	comp	_	134260|134600
 5	Ogiator	_	PROPN	_	_	4	dep:appos	_	134600|135029
 6	<	_	PUNCT	_	_	2	punct	_	135029|135059
 7	#	_	PUNCT	_	_	2	punct	_	135059|135540
 8	{	_	PUNCT	_	_	10	punct	_	135510|135540
-9	e	_	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	10	subj	_	135540|135612
+9	e	_	PRON	_	Case=Nom|PronType=Prs|Number=Sing|Person=3	10	subj	_	135540|135612
 10	say	_	VERB	_	_	0	root	_	135612|135890
 11	(	_	PUNCT	_	_	13	punct	_	135890|135920
-12	di	_	DET	_	Definite=Def|PronType=Art	13	det	_	135920|136170
+12	di	_	DET	_	PronType=Art|Definite=Def	13	det	_	135920|136170
 13	time	_	NOUN	_	_	23	parataxis:parenth	_	136170|136420
-14	e	_	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	15	subj	_	136420|136530
+14	e	_	PRON	_	Case=Nom|PronType=Prs|Number=Sing|Person=3	15	subj	_	136420|136530
 15	dey	_	AUX	_	Aspect=Imp	13	dep	_	136530|136743
 16	talk	_	VERB	_	_	15	comp:aux	_	136743|136960
-17	dis	_	DET	_	Number=Sing|PronType=Prox	18	det	_	136960|137175
+17	dis	_	DET	_	PronType=Prox|Number=Sing	18	det	_	136960|137175
 18	story	_	NOUN	_	_	16	comp:obj	_	137175|137510
 19	)	_	PUNCT	_	_	13	punct	_	137510|137540
 20	||	_	PUNCT	_	_	23	punct	_	137510|137540
 21	#	_	PUNCT	_	_	23	punct	_	137540|138020
-22	e	_	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	23	subj	_	138020|138150
+22	e	_	PRON	_	Case=Nom|PronType=Prs|Number=Sing|Person=3	23	subj	_	138020|138150
 23	con	_	AUX	_	Aspect=Real	10	conj:dicto	_	138150|138365
 24	talk	_	VERB	_	_	23	comp:aux	_	138365|138560
 25	}	_	PUNCT	_	_	10	punct	_	138560|138590
 26	sey	_	SCONJ	_	_	24	comp:obj	_	138590|138927
 27	#	_	PUNCT	_	_	30	punct	_	138927|139580
 28	[	_	PUNCT	_	_	30	punct	_	139550|139580
-29	e	_	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	30	subj:expl	_	139580|139720
+29	e	_	PRON	_	Case=Nom|PronType=Prs|Number=Sing|Person=3	30	subj:expl	_	139580|139720
 30	be	bin	VERB	_	PartType=Cop	26	comp	_	139720|139850
 31	dey	_	VERB	_	PartType=Cop	30	comp:pred	_	139850|140020
-32	di	_	DET	_	Definite=Def|PronType=Art	33	det	_	140020|140200
+32	di	_	DET	_	PronType=Art|Definite=Def	33	det	_	140020|140200
 33	hand	_	NOUN	_	_	31	comp:pred	_	140200|140420
 34	of	_	ADP	_	_	33	dep	_	140420|140600
-35	dis	_	DET	_	Number=Sing|PronType=Prox	36	det	_	140600|140830
+35	dis	_	DET	_	PronType=Prox|Number=Sing	36	det	_	140600|140830
 36	people	_	NOUN	_	_	34	comp	_	140830|141300
 37	wey	_	SCONJ	_	_	36	dep	_	141300|141430
 38	kpaki	_	VERB	_	_	37	comp	_	141430|141827
-39	am	_	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	38	comp:obj	_	141827|141990
+39	am	_	PRON	_	Case=Acc|PronType=Prs|Number=Sing|Person=3	38	comp:obj	_	141827|141990
 40	hide	_	VERB	_	_	38	compound:svc	_	141990|142354
 41	for	_	ADP	_	_	40	mod	_	142354|142610
 42	two	_	NUM	_	NumType=Card	43	dep	_	142610|142840
 43	days	_	NOUN	_	Number=Plur	41	comp	_	142840|143260
 44	before	_	ADP	_	_	31	mod	_	143260|143740
-45	dem	_	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	46	subj	_	143740|143900
+45	dem	_	PRON	_	Case=Nom|PronType=Prs|Number=Plur|Person=3	46	subj	_	143740|143900
 46	con	_	AUX	_	Aspect=Real	44	comp	_	143900|144090
 47	free	_	VERB	_	_	46	comp:aux	_	144090|144370
-48	am	_	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	47	comp:obj	_	144370|144550
+48	am	_	PRON	_	Case=Acc|PronType=Prs|Number=Sing|Person=3	47	comp:obj	_	144370|144550
 49	{	_	PUNCT	_	_	50	punct	_	144550|144870
 50	last	_	ADJ	_	_	47	mod	_	144550|144870
 51	|r	_	PUNCT	_	_	52	punct	_	144550|144870
@@ -534,16 +548,17 @@
 53	}	_	PUNCT	_	_	50	punct	_	145130|145160
 54	]	_	PUNCT	_	_	30	punct	_	145130|145160
 55	//	_	PUNCT	_	_	10	punct	_	145130|145160
+
 # elan_id = BEN_14_M_104 BEN_14_M_105 BEN_14_M_106 BEN_14_M_107 BEN_14_M_108 BEN_14_M_109 BEN_14_M_110 BEN_14_M_111
 # sent_id = P_BEN_14_BronzeFM-News_PRO_16
 # sent_translation = # He also hailed the kinsmen of  Ujendu community, for the way they handled the matter o that made them able to release him.
-# text = # e come still hail di kins men of # Ujendu community # for di way dem take handle di matter o # wey come make dem fit release am //
+# text = # e con still hail di kins men of # Ujendu community # for di way dem take handle di matter o # wey come make dem fit release am //
 1	#	_	PUNCT	_	_	3	punct	_	145160|146180
-2	e	_	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	subj	_	146180|146284
+2	e	_	PRON	_	Case=Nom|PronType=Prs|Number=Sing|Person=3	3	subj	_	146180|146284
 3	con	_	AUX	_	Aspect=Real	0	root	_	146284|146450
 4	still	_	ADV	_	_	5	mod	_	146450|146700
 5	hail	_	VERB	_	_	3	comp:aux	_	146700|146890
-6	di	_	DET	_	Definite=Def|PronType=Art	8	det	_	146890|147031
+6	di	_	DET	_	PronType=Art|Definite=Def	8	det	_	146890|147031
 7	kins	_	NOUN	_	Number=Plur	8	compound	_	147031|147337
 8	men	_	NOUN	_	Number=Plur	5	comp:obj	_	147337|147652
 9	of	_	ADP	_	_	8	dep	_	147652|147980
@@ -552,33 +567,34 @@
 12	community	_	NOUN	_	_	9	comp	_	148740|149460
 13	#	_	PUNCT	_	_	14	punct	_	149460|149780
 14	for	_	ADP	_	_	5	mod	_	149780|149959
-15	di	_	DET	_	Definite=Def|PronType=Art	16	det	_	149959|150088
+15	di	_	DET	_	PronType=Art|Definite=Def	16	det	_	149959|150088
 16	way	_	NOUN	_	_	14	comp	_	150088|150256
-17	dem	_	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	18	subj	_	150256|150398
+17	dem	_	PRON	_	Case=Nom|PronType=Prs|Number=Plur|Person=3	18	subj	_	150256|150398
 18	take	_	VERB	_	_	16	dep	_	150398|150524
 19	handle	_	VERB	_	_	18	compound:svc	_	150524|150820
-20	di	_	DET	_	Definite=Def|PronType=Art	21	det	_	150820|150921
+20	di	_	DET	_	PronType=Art|Definite=Def	21	det	_	150820|150921
 21	matter	_	NOUN	_	_	19	comp:obj	_	150921|151300
 22	o	_	PART	_	PartType=Disc	18	mod:emph	_	151300|151448
 23	#	_	PUNCT	_	_	24	punct	_	151448|151714
 24	wey	_	SCONJ	_	_	16	dep	_	151714|151914
 25	come	_	AUX	_	Aspect=Real	24	comp	_	151914|152091
 26	make	_	VERB	_	_	25	comp:obj	_	152091|152272
-27	dem	_	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	26	subj	_	152272|152428
+27	dem	_	PRON	_	Case=Acc|PronType=Prs|Number=Plur|Person=3	26	subj	_	152272|152428
 28	fit	_	AUX	_	_	26	comp:pred	_	152428|152622
 29	release	_	VERB	_	_	28	comp:aux	_	152622|152933
-30	am	_	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	29	comp:obj	_	152933|153170
+30	am	_	PRON	_	Case=Acc|PronType=Prs|Number=Sing|Person=3	29	comp:obj	_	152933|153170
 31	//	_	PUNCT	_	_	3	punct	_	153170|153200
+
 # elan_id = BEN_14_M_112 BEN_14_M_113 BEN_14_M_114 BEN_14_M_115
 # sent_id = P_BEN_14_BronzeFM-News_PRO_17
 # sent_translation = # And he now used the opportunity to beg the police and all other security agencies that they should please improve on security matter in the area.
-# text = # and e cos use di opportunity take beg { police people dem |c and oder security people } # sey [ make dem abeg improve for security matter for di area ] //
+# text = # and e con use di opportunity take beg { police people dem |c and oder security people } # sey [ make dem abeg improve for security matter for di area ] //
 1	#	_	PUNCT	_	_	4	punct	_	153200|153680
 2	and	_	CCONJ	_	_	4	cc	_	153680|153830
-3	e	_	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	subj	_	153830|153900
+3	e	_	PRON	_	Case=Nom|PronType=Prs|Number=Sing|Person=3	4	subj	_	153830|153900
 4	con	_	AUX	_	Aspect=Real	0	root	_	153900|154170
 5	use	_	VERB	_	_	4	comp:aux	_	154170|154340
-6	di	_	DET	_	Definite=Def|PronType=Art	7	det	_	154340|154420
+6	di	_	DET	_	PronType=Art|Definite=Def	7	det	_	154340|154420
 7	opportunity	_	NOUN	_	_	5	comp:obj	_	154420|154986
 8	take	_	VERB	_	_	5	compound:svc	_	154986|155170
 9	beg	_	VERB	_	_	8	compound:svc	_	155170|155440
@@ -588,7 +604,7 @@
 13	dem	_	DET	_	Number=Plur	12	dep	_	156263|156550
 14	|c	_	PUNCT	_	_	18	punct	_	156550|156580
 15	and	_	CCONJ	_	_	18	cc	_	156580|156770
-16	oder	_	PRON	_	_	18	dep	_	156770|157090
+16	oder	_	ADJ	_	_	18	dep	_	156770|157090
 17	security	_	NOUN	_	_	18	compound	_	157090|157790
 18	people	_	NOUN	_	_	12	conj:coord	_	157790|158209
 19	}	_	PUNCT	_	_	12	punct	_	158209|158239
@@ -596,23 +612,24 @@
 21	sey	_	SCONJ	_	_	9	comp:obj	_	158800|158966
 22	[	_	PUNCT	_	_	23	punct	_	158966|158996
 23	make	_	AUX	_	Mood=Jus	21	comp	_	158996|159150
-24	dem	_	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	23	subj	_	159150|159350
+24	dem	_	PRON	_	Case=Nom|PronType=Prs|Number=Plur|Person=3	23	subj	_	159150|159350
 26	abeg	_	INTJ	_	_	28	discourse	_	159380|159890
 28	improve	_	VERB	_	_	23	comp:aux	_	159920|160502
 29	for	_	ADP	_	_	28	comp:obl	_	160502|160840
 30	security	_	NOUN	_	_	31	compound	_	160840|161360
 31	matter	_	NOUN	_	_	29	comp	_	161360|161950
 32	for	_	ADP	_	_	31	dep	_	161950|162410
-33	di	_	DET	_	Definite=Def|PronType=Art	34	det	_	162410|162710
+33	di	_	DET	_	PronType=Art|Definite=Def	34	det	_	162410|162710
 34	area	_	NOUN	_	_	32	comp	_	162710|163090
 35	]	_	PUNCT	_	_	23	punct	_	163090|163120
 36	//	_	PUNCT	_	_	4	punct	_	163090|163120
+
 # elan_id = BEN_14_M_116 BEN_14_M_117
 # sent_id = P_BEN_14_BronzeFM-News_PRO_18
 # sent_translation = # My country people, it is here the story (news) at one o'clock ends and it has reached you from bronze fm, one-o-one dot five in Benin city.
 # text = # my country people < na here >+ tori for one o'clock reach |c and e reach una from { Bronze FM |a one o one dot five } for Benin City //
 1	#	_	PUNCT	_	_	6	punct	_	163120|163520
-2	my	_	ADJ	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	dep	_	163520|163810
+2	my	_	ADJ	_	PronType=Prs|Number=Sing|Poss=Yes|Person=1	3	dep	_	163520|163810
 3	country	_	NOUN	_	_	4	compound	_	163810|164180
 4	people	_	NOUN	_	_	6	vocative	_	164180|164470
 5	<	_	PUNCT	_	_	4	punct	_	164470|164500
@@ -626,9 +643,9 @@
 13	reach	_	VERB	_	_	6	comp:cleft	_	165820|166050
 14	|c	_	PUNCT	_	_	17	punct	_	166050|166080
 15	and	_	CCONJ	_	_	17	cc	_	166080|166206
-16	e	_	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	17	subj	_	166206|166290
+16	e	_	PRON	_	Case=Nom|PronType=Prs|Number=Sing|Person=3	17	subj	_	166206|166290
 17	reach	_	VERB	_	_	6	conj:coord	_	166290|166480
-18	una	_	PRON	_	Case=Acc|Number=Plur|Person=2|PronType=Prs	17	comp:obj	_	166480|166610
+18	una	_	PRON	_	Case=Acc|PronType=Prs|Number=Plur|Person=2	17	comp:obj	_	166480|166610
 19	from	_	ADP	_	_	17	comp:obl	_	166610|166770
 20	{	_	PUNCT	_	_	21	punct	_	166770|166800
 21	Bronze	_	PROPN	_	_	19	comp	_	166800|167090
@@ -644,22 +661,25 @@
 31	Benin	_	PROPN	_	_	30	comp	_	168680|168957
 32	City	_	PROPN	_	_	31	flat	_	168957|169250
 33	//	_	PUNCT	_	_	6	punct	_	169250|169280
+
 # elan_id = BEN_14_M_118 BEN_14_M_119
 # sent_id = P_BEN_14_BronzeFM-News_PRO_19
 # sent_translation = # My name is Allen Ujewa. Good afternoon to you.
 # text = # my name na Allen Ujewa //
 1	#	_	PUNCT	_	_	4	punct	_	169280|169540
-2	my	_	ADJ	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	dep	_	169540|169680
+2	my	_	ADJ	_	PronType=Prs|Number=Sing|Poss=Yes|Person=1	3	dep	_	169540|169680
 3	name	_	NOUN	_	_	4	subj	_	169680|169830
 4	na	_	PART	_	PartType=Cop	0	root	_	169830|170043
 5	Allen	_	PROPN	_	_	4	comp:pred	_	170043|170470
 6	Ujewa	_	PROPN	_	_	5	flat	_	170470|170978
 7	//	_	PUNCT	_	_	4	punct	_	170978|171008
+
 # elan_id = BEN_14_M_119
 # sent_id = P_BEN_14_BronzeFM-News_PRO_20
 # sent_translation = My name is Allen Ujewa. Good afternoon to you.
-# text = una good afternoon //
-1	una	_	PRON	_	Case=Acc|Number=Plur|Person=2|PronType=Prs	3	vocative	_	171008|171260
+# text = una good afternoon !//
+1	una	_	PRON	_	Case=Nom|PronType=Prs|Number=Plur|Person=2	3	vocative	_	171008|171260
 2	good	_	ADJ	_	_	3	dep	_	171260|171390
 3	afternoon	_	NOUN	_	_	0	root	_	171390|171750
 4	!//	_	PUNCT	_	_	3	punct	_	171750|171780
+

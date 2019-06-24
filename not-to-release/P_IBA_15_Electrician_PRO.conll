@@ -1,8 +1,8 @@
 # elan_id = IBA_15_M_001 IBA_15_M_002 IBA_15_M_003 IBA_15_M_004 IBA_15_M_005
 # sent_id = P_IBA_15_Electrician_PRO_1
 # sent_translation = I started working at  # University of Ibadan here
-# text = I start working at eh # { University of Ibadan |a # here } //
-1	I	_	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	subj	_	1440|1520
+# text = I start working at eh # University of Ibadan # here //
+1	I	_	PRON	_	Case=Nom|PronType=Prs|Number=Sing|Person=1	2	subj	_	1440|1520
 2	start	_	VERB	_	_	0	root	_	1520|1925
 3	working	_	VERB	_	Tense=Pres|VerbForm=Part	2	comp:pred	_	1925|2547
 4	at	_	ADP	_	_	3	comp:obl	_	2547|2870
@@ -14,18 +14,19 @@
 10	#	_	PUNCT	_	_	11	punct	_	5121|5320
 11	here	_	ADV	_	PronType=Dem	9	dep	_	5320|5663
 12	//	_	PUNCT	_	_	2	punct	_	5663|5693
+
 # elan_id = IBA_15_M_006 IBA_15_M_007 IBA_15_M_008 IBA_15_M_009 IBA_15_M_010 IBA_15_M_011
 # sent_id = P_IBA_15_Electrician_PRO_2
 # sent_translation = # We do electrical work, which they called 'onise ina' It is there I work.
-# text = # I dey do electrician # which de dey call [yor onise ina yor]// # na dere >+ I dey work //
+# text = # I dey do electrician # which de dey call [yor onise ina yor] //
 1	#	_	PUNCT	_	_	3	punct	_	5693|6607
-2	I	_	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	subj	_	6607|6677
+2	I	_	PRON	_	Case=Nom|PronType=Prs|Number=Sing|Person=1	3	subj	_	6607|6677
 3	dey	_	AUX	_	Aspect=Imp	0	root	_	6677|6807
 4	do	_	VERB	_	_	3	comp:aux	_	6807|6991
 5	electrician	_	NOUN	_	_	4	comp:obj	_	6991|7551
 6	#	_	PUNCT	_	_	7	punct	_	7551|8700
 7	which	_	DET	_	PronType=Int	5	dep	_	8700|8858
-8	de	_	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	subj	_	8858|8960
+8	de	_	PRON	_	Case=Nom|PronType=Prs|Number=Plur|Person=3	9	subj	_	8858|8960
 9	dey	_	AUX	_	Aspect=Imp	7	comp	_	8960|9112
 10	call	_	VERB	_	_	9	comp:aux	_	9112|9478
 11	[yor	_	PUNCT	_	_	12	punct	_	9478|9508
@@ -33,34 +34,37 @@
 13	ina	_	X	_	_	12	flat:foreign	_	9862|10090
 14	yor]	_	PUNCT	_	_	12	punct	_	10090|10120
 15	//	_	PUNCT	_	_	3	punct	_	10090|10120
+
 # elan_id = IBA_15_M_012 IBA_15_M_013
 # sent_id = P_IBA_15_Electrician_PRO_4
 # sent_translation = # I have served, I almost en at least
 # text = # I don serve & //
 1	#	_	PUNCT	_	_	3	punct	_	12512|13603
-2	I	_	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	subj	_	13603|13710
+2	I	_	PRON	_	Case=Nom|PronType=Prs|Number=Sing|Person=1	3	subj	_	13603|13710
 3	don	_	AUX	_	Aspect=Perf	0	root	_	13710|13880
 4	serve	_	VERB	_	_	3	comp:aux	_	13880|14173
 5	&	_	X	_	_	4	comp:obj	_	14173|14203
 6	//	_	PUNCT	_	_	3	punct	_	14173|14203
+
 # elan_id = IBA_15_M_013
 # sent_id = P_IBA_15_Electrician_PRO_5
 # sent_translation = I have served, I almost en at least
 # text = I almost eh & //
-1	I	_	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	subj	_	14203|14345
+1	I	_	PRON	_	Case=Nom|PronType=Prs|Number=Sing|Person=1	4	subj	_	14203|14345
 2	almost	_	ADV	_	_	4	mod	_	14345|14780
 3	eh	_	INTJ	_	_	4	discourse	_	14780|14950
 4	&	_	X	_	_	0	root	_	14950|14980
 5	//	_	PUNCT	_	_	4	punct	_	14950|14980
+
 # elan_id = IBA_15_M_013 IBA_15_M_014 IBA_15_M_015 IBA_15_M_016 IBA_15_M_017 IBA_15_M_018 IBA_15_M_019
 # sent_id = P_IBA_15_Electrician_PRO_6
 # sent_translation = I have served, I almost en at least  # it has got to thirty five or thirty four years in service now.
-# text = at least < # e don reach eh # { thirty five |c or thirty four years } # in service now //
+# text = at least < # e don reach eh # { thirty five |c or thirty four } years # in service now //
 1	at	_	ADP	_	_	6	mod:periph	_	14980|15110
 2	least	_	ADV	_	_	1	comp	_	15110|15560
 3	<	_	PUNCT	_	_	1	punct	_	15560|15590
 4	#	_	PUNCT	_	_	6	punct	_	15590|15790
-5	e	_	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	6	subj:expl	_	15790|15889
+5	e	_	PRON	_	Case=Nom|PronType=Prs|Number=Sing|Person=3	6	subj:expl	_	15790|15889
 6	don	_	AUX	_	Aspect=Perf	0	root	_	15889|16097
 7	reach	_	VERB	_	_	6	comp:aux	_	16097|16300
 8	eh	_	INTJ	_	_	18	discourse	_	16300|16632
@@ -79,22 +83,23 @@
 21	service	_	NOUN	_	_	20	comp	_	20511|21036
 22	now	_	ADV	_	_	7	mod	_	21036|21234
 23	//	_	PUNCT	_	_	6	punct	_	21234|21264
+
 # elan_id = IBA_15_M_020 IBA_15_M_021 IBA_15_M_022 IBA_15_M_023
 # sent_id = P_IBA_15_Electrician_PRO_7
 # sent_translation = # The work which I do,  I like it.
-# text = # di work wey I dey do < # I like am //
+# text = # di work wey I dey do < # I like am # even though # na # dangerous work >+ na im be di { li- || work } //
 1	#	_	PUNCT	_	_	11	punct	_	21264|22400
-2	di	_	DET	_	Definite=Def|PronType=Art	3	det	_	22400|22500
+2	di	_	DET	_	PronType=Art|Definite=Def	3	det	_	22400|22500
 3	work	_	NOUN	_	_	11	dislocated	_	22500|22759
 4	wey	_	SCONJ	_	_	3	dep	_	22759|22860
-5	I	_	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	subj	_	22860|22950
+5	I	_	PRON	_	Case=Nom|PronType=Prs|Number=Sing|Person=1	6	subj	_	22860|22950
 6	dey	_	AUX	_	Aspect=Imp	4	comp	_	22950|23110
 7	do	_	VERB	_	_	6	comp:aux	_	23110|23280
 8	<	_	PUNCT	_	_	3	punct	_	23280|23310
 9	#	_	PUNCT	_	_	11	punct	_	23310|23467
-10	I	_	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	subj	_	23467|23600
+10	I	_	PRON	_	Case=Nom|PronType=Prs|Number=Sing|Person=1	11	subj	_	23467|23600
 11	like	_	VERB	_	_	0	root	_	23600|23830
-12	am	_	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	11	comp:obj	_	23830|23939
+12	am	_	PRON	_	Case=Acc|PronType=Prs|Number=Sing|Person=3	11	comp:obj	_	23830|23939
 13	#	_	PUNCT	_	_	15	punct	_	23969|24860
 14	even	_	ADV	_	_	15	mod	_	24860|25100
 15	though	_	SCONJ	_	_	11	mod	_	25100|25467
@@ -105,15 +110,16 @@
 20	work	_	NOUN	_	_	17	comp:pred	_	27433|27837
 21	>+	_	PUNCT	_	_	22	punct	_	27837|27867
 22	na	_	PART	_	PartType=Cop	17	comp:cleft	_	27867|28030
-23	im	_	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	22	comp:pred	_	28030|28108
+23	im	_	PRON	_	Case=Nom|PronType=Prs|Number=Sing|Person=3	22	comp:pred	_	28030|28108
 24	be	_	VERB	_	PartType=Cop	22	comp:cleft	_	28108|28218
-25	di	_	DET	_	Definite=Def|PronType=Art	27	det	_	28218|28298
+25	di	_	DET	_	PronType=Art|Definite=Def	27	det	_	28218|28298
 26	{	_	PUNCT	_	_	27	punct	_	28298|28328
 27	li-	_	X	_	_	24	subj	_	28328|28458
 28	||	_	PUNCT	_	_	29	punct	_	28458|28488
 29	work	_	NOUN	_	_	27	conj:dicto	_	28488|28831
 30	}	_	PUNCT	_	_	27	punct	_	28831|28861
 31	//	_	PUNCT	_	_	11	punct	_	28831|28861
+
 # elan_id = IBA_15_M_038 IBA_15_M_039
 # sent_id = P_IBA_15_Electrician_PRO_10
 # sent_translation = #  No problem,
@@ -122,33 +128,34 @@
 2	no	_	PART	_	Polarity=Neg	3	mod	_	36863|37060
 3	problem	_	NOUN	_	_	0	root	_	37060|37581
 4	//	_	PUNCT	_	_	3	punct	_	37581|37611
+
 # elan_id = IBA_15_M_040 IBA_15_M_041 IBA_15_M_042 IBA_15_M_043 IBA_15_M_044 IBA_15_M_045 IBA_15_M_046 IBA_15_M_047 IBA_15_M_048 IBA_15_M_049 IBA_15_M_050 IBA_15_M_051 IBA_15_M_052 IBA_15_M_053
 # sent_id = P_IBA_15_Electrician_PRO_11
 # sent_translation = # Everything that we do here, we lay cable, we do wiring, we do housing wiring. before power gets to the university, we would be the one to do it.
-# text = # ehn everyting wey we dey do here < # we dey lay cable //= # we dey do wiring //= # we dey do housing wiring //= # before light come to di # university < # na we >+ go do am //
+# text = # ehn everyting wey we dey do here ( # we dey lay cable //= # we dey do wiring //= # we dey do housing wiring //) # before light come to di # university < # na we >+ go do am //
 1	#	_	PUNCT	_	_	39	punct	_	37611|39080
 2	ehn	_	INTJ	_	_	39	discourse	_	39080|39270
 3	everyting	_	PRON	_	_	39	dislocated	_	39270|39730
 4	wey	_	SCONJ	_	_	3	dep	_	39730|39862
-5	we	_	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	subj	_	39862|39960
+5	we	_	PRON	_	Case=Nom|PronType=Prs|Number=Plur|Person=1	6	subj	_	39862|39960
 6	dey	_	AUX	_	Aspect=Imp	4	comp	_	39960|40100
 7	do	_	VERB	_	_	6	comp:aux	_	40100|40290
 8	here	_	ADV	_	PronType=Dem	7	comp:obj	_	40290|40528
 9	(	_	PUNCT	_	_	12	punct	_	40528|40558
 10	#	_	PUNCT	_	_	12	punct	_	40558|41020
-11	we	_	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	12	subj	_	41020|41100
+11	we	_	PRON	_	Case=Nom|PronType=Prs|Number=Plur|Person=1	12	subj	_	41020|41100
 12	dey	_	AUX	_	Aspect=Imp	3	parataxis:parenth	_	41100|41233
 13	lay	_	VERB	_	_	12	comp:aux	_	41233|41415
 14	cable	_	NOUN	_	_	13	comp:obj	_	41415|41730
 15	//=	_	PUNCT	_	_	18	punct	_	41730|41760
 16	#	_	PUNCT	_	_	18	punct	_	41760|43340
-17	we	_	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	18	subj	_	43340|43430
+17	we	_	PRON	_	Case=Nom|PronType=Prs|Number=Plur|Person=1	18	subj	_	43340|43430
 18	dey	_	AUX	_	Aspect=Imp	12	parataxis:conj	_	43430|43590
 19	do	_	VERB	_	_	18	comp:aux	_	43590|43870
 20	wiring	_	NOUN	_	_	19	comp:obj	_	43870|44310
 21	//=	_	PUNCT	_	_	24	punct	_	44310|44340
 22	#	_	PUNCT	_	_	24	punct	_	44340|45600
-23	we	_	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	24	subj	_	45600|45696
+23	we	_	PRON	_	Case=Nom|PronType=Prs|Number=Plur|Person=1	24	subj	_	45600|45696
 24	dey	_	AUX	_	Aspect=Imp	18	parataxis:conj	_	45696|45840
 25	do	_	VERB	_	_	24	comp:aux	_	45840|46130
 26	housing	_	NOUN	_	_	27	compound	_	46130|46552
@@ -159,29 +166,30 @@
 31	light	_	NOUN	_	_	32	subj	_	48660|49045
 32	come	_	VERB	_	_	30	comp	_	49045|49370
 33	to	_	ADP	_	_	32	comp:obl	_	49370|49550
-34	di	_	DET	_	Definite=Def|PronType=Art	36	det	_	49550|49860
+34	di	_	DET	_	PronType=Art|Definite=Def	36	det	_	49550|49860
 35	#	_	PUNCT	_	_	34	punct	_	49860|50760
 36	university	_	NOUN	_	_	33	comp	_	50760|51352
 37	<	_	PUNCT	_	_	30	punct	_	51352|51382
 38	#	_	PUNCT	_	_	39	punct	_	51382|51560
 39	na	_	PART	_	PartType=Cop	0	root	_	51560|51710
-40	we	_	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	39	comp:pred	_	51710|51810
+40	we	_	PRON	_	Case=Nom|PronType=Prs|Number=Plur|Person=1	39	comp:pred	_	51710|51810
 41	>+	_	PUNCT	_	_	42	punct	_	51810|51840
 42	go	_	AUX	_	Tense=Prosp	39	comp:cleft	_	51840|52010
 43	do	_	VERB	_	_	42	comp:aux	_	52010|52120
-44	am	_	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	43	comp:obj	_	52120|52230
+44	am	_	PRON	_	Case=Acc|PronType=Prs|Number=Sing|Person=3	43	comp:obj	_	52120|52230
 45	//	_	PUNCT	_	_	39	punct	_	52230|52260
+
 # elan_id = IBA_15_M_054 IBA_15_M_055 IBA_15_M_056 IBA_15_M_057 IBA_15_M_058 IBA_15_M_059
 # sent_id = P_IBA_15_Electrician_PRO_12
 # sent_translation = # we er-, we erect  er, tr-, transformer, we mount R I, R M U.
-# text = # { we do m- || we dey mount } # eh { tre- || transformer } //= # we dey mount { { RI || RMU } //
+# text = # { we do m- || we dey mount } # eh { tre- || transformer } //= # we dey mount { RI- || RMU } //
 1	#	_	PUNCT	_	_	4	punct	_	52260|53380
 2	{	_	PUNCT	_	_	4	punct	_	53350|53380
-3	we	_	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	subj	_	53380|53450
+3	we	_	PRON	_	Case=Nom|PronType=Prs|Number=Plur|Person=1	4	subj	_	53380|53450
 4	do	_	VERB	_	_	0	root	_	53450|53597
 5	m-	_	X	_	_	4	comp:obj	_	53597|53730
 6	||	_	PUNCT	_	_	8	punct	_	53730|53760
-7	we	_	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	subj	_	53760|53860
+7	we	_	PRON	_	Case=Nom|PronType=Prs|Number=Plur|Person=1	8	subj	_	53760|53860
 8	dey	_	AUX	_	Aspect=Imp	4	conj:dicto	_	53860|54000
 9	mount	_	VERB	_	_	8	comp:aux	_	54000|54420
 10	}	_	PUNCT	_	_	4	punct	_	54420|54450
@@ -194,7 +202,7 @@
 17	}	_	PUNCT	_	_	14	punct	_	55990|56020
 18	//=	_	PUNCT	_	_	21	punct	_	55990|56020
 19	#	_	PUNCT	_	_	21	punct	_	56020|57060
-20	we	_	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	21	subj	_	57060|57150
+20	we	_	PRON	_	Case=Nom|PronType=Prs|Number=Plur|Person=1	21	subj	_	57060|57150
 21	dey	_	AUX	_	Aspect=Imp	8	parataxis:conj	_	57150|57270
 22	mount	_	VERB	_	_	21	comp:aux	_	57270|57610
 23	{	_	PUNCT	_	_	24	punct	_	57610|57640
@@ -203,10 +211,11 @@
 26	RMU	_	NOUN	_	_	24	conj:dicto	_	58000|58590
 27	}	_	PUNCT	_	_	24	punct	_	58590|58620
 28	//	_	PUNCT	_	_	4	punct	_	58590|58620
+
 # elan_id = IBA_15_M_060 IBA_15_M_061
 # sent_id = P_IBA_15_Electrician_PRO_13
 # sent_translation = # many many things are what we had lay cable.
-# text = # { many |r many } things //
+# text = # { many |r many } things < na im >+ we dey ehn use //
 1	#	_	PUNCT	_	_	9	punct	_	58620|60100
 2	{	_	PUNCT	_	_	3	punct	_	60070|60100
 3	many	_	ADJ	_	_	7	dep	_	60100|60270
@@ -218,29 +227,31 @@
 9	na	_	PART	_	PartType=Cop	0	root	_	60830|61030
 10	im	_	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	9	comp:pred	_	60830|61030
 11	>+	_	PUNCT	_	_	13	punct	_	61030|61060
-12	we	_	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	13	subj	_	61060|61140
+12	we	_	PRON	_	Case=Nom|PronType=Prs|Number=Plur|Person=1	13	subj	_	61060|61140
 13	dey	_	AUX	_	Aspect=Imp	9	comp:cleft	_	61140|61270
 14	ehn	_	INTJ	_	_	15	discourse	_	61438|61550
 15	use	_	VERB	_	_	13	comp:aux	_	61438|61550
 16	//	_	PUNCT	_	_	9	punct	_	61550|61580
+
 # elan_id = IBA_15_M_070 IBA_15_M_071 IBA_15_M_072 IBA_15_M_073
 # sent_id = P_IBA_15_Electrician_PRO_15
 # sent_translation = # After we did that one, We would fix light there,
 # text = # after we do dat one < # we go put light dere //
 1	#	_	PUNCT	_	_	10	punct	_	72773|73940
 2	after	_	ADP	_	_	10	mod:periph	_	73940|74210
-3	we	_	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	subj	_	74210|74360
+3	we	_	PRON	_	Case=Nom|PronType=Prs|Number=Plur|Person=1	4	subj	_	74210|74360
 4	do	_	VERB	_	_	2	comp	_	74360|74470
-5	dat	_	DET	_	Number=Sing|PronType=Dem	6	det	_	74470|74700
+5	dat	_	DET	_	PronType=Dem|Number=Sing	6	det	_	74470|74700
 6	one	_	NUM	_	NumType=Card	4	comp:obj	_	74700|74910
 7	<	_	PUNCT	_	_	2	punct	_	74910|74940
 8	#	_	PUNCT	_	_	2	punct	_	74940|75420
-9	we	_	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	subj	_	75420|75490
+9	we	_	PRON	_	Case=Nom|PronType=Prs|Number=Plur|Person=1	10	subj	_	75420|75490
 10	go	_	AUX	_	Tense=Prosp	0	root	_	75490|75630
 11	put	_	VERB	_	_	10	comp:aux	_	75630|75860
 12	light	_	NOUN	_	_	11	comp:obj	_	75860|76120
 13	dere	_	ADV	_	PronType=Dem	11	comp:obj	_	76120|76390
 14	//	_	PUNCT	_	_	10	punct	_	76390|76420
+
 # elan_id = IBA_15_M_074 IBA_15_M_075 IBA_15_M_076 IBA_15_M_077
 # sent_id = P_IBA_15_Electrician_PRO_16
 # sent_translation = # light would then come on brightly. for everybody.
@@ -255,21 +266,23 @@
 8	for	_	ADP	_	_	5	comp:obl	_	79960|80040
 9	everybody	_	PRON	_	_	8	comp	_	80040|80550
 10	//	_	PUNCT	_	_	3	punct	_	80550|80580
+
 # elan_id = IBA_15_M_078 IBA_15_M_079
 # sent_id = P_IBA_15_Electrician_PRO_17
 # sent_translation = # They would know that we have finished it.
-# text = # den go know say we don do am finish //
+# text = # den go know sey we don do am finish //
 1	#	_	PUNCT	_	_	3	punct	_	80580|80920
 2	den	dem	ADV	_	_	3	subj	_	80920|81040
 3	go	_	AUX	_	Tense=Prosp	0	root	_	81040|81130
 4	know	_	VERB	_	_	3	comp:aux	_	81130|81280
 5	sey	_	SCONJ	_	_	4	comp:obj	_	81280|81510
-6	we	_	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	subj	_	81510|81600
+6	we	_	PRON	_	Case=Nom|PronType=Prs|Number=Plur|Person=1	7	subj	_	81510|81600
 7	don	_	AUX	_	Aspect=Perf	5	comp	_	81600|81850
 8	do	_	VERB	_	_	7	comp:aux	_	81850|81980
-9	am	_	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	8	comp:obj	_	81980|82150
+9	am	_	PRON	_	Case=Acc|PronType=Prs|Number=Sing|Person=3	8	comp:obj	_	81980|82150
 10	finish	_	VERB	_	_	8	compound:svc	_	82150|82546
 11	//	_	PUNCT	_	_	3	punct	_	82546|82576
+
 # elan_id = IBA_15_M_080 IBA_15_M_081 IBA_15_M_082 IBA_15_M_083
 # sent_id = P_IBA_15_Electrician_PRO_18
 # sent_translation = # It is a dangerous work. If one is ignorant.
@@ -287,6 +300,7 @@
 11	no	_	PART	_	Polarity=Neg	12	mod	_	86134|86272
 12	know	_	VERB	_	_	9	comp	_	86272|86470
 13	//	_	PUNCT	_	_	3	punct	_	86470|86500
+
 # elan_id = IBA_15_M_084 IBA_15_M_085 IBA_15_M_086 IBA_15_M_087
 # sent_id = P_IBA_15_Electrician_PRO_19
 # sent_translation = # But for the person who knows that he is competent in it concentrate on what he does
@@ -295,35 +309,36 @@
 2	but	_	CCONJ	_	_	17	cc	_	87084|87363
 3	person	_	NOUN	_	_	17	dislocated	_	87363|87870
 4	wey	_	SCONJ	_	_	3	dep	_	87870|88023
-5	e	_	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	6	subj	_	88023|88080
+5	e	_	PRON	_	Case=Nom|PronType=Prs|Number=Sing|Person=3	6	subj	_	88023|88080
 6	go	_	AUX	_	Tense=Prosp	4	comp	_	88080|88198
 7	don	_	AUX	_	Aspect=Perf	6	comp:aux	_	88198|88537
 8	sabi	_	VERB	_	_	7	comp:aux	_	88537|88960
 9	sey	_	SCONJ	_	_	8	comp:obj	_	88960|89230
-10	e	_	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	11	subj	_	89230|89300
+10	e	_	PRON	_	Case=Nom|PronType=Prs|Number=Sing|Person=3	11	subj	_	89230|89300
 11	don	_	AUX	_	Aspect=Perf	9	comp	_	89300|89546
 12	sabi	_	VERB	_	_	11	comp:aux	_	89546|89910
-13	am	_	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	12	comp:obj	_	89910|90070
+13	am	_	PRON	_	Case=Acc|PronType=Prs|Number=Sing|Person=3	12	comp:obj	_	89910|90070
 14	<	_	PUNCT	_	_	3	punct	_	90070|90100
 15	#	_	PUNCT	_	_	17	punct	_	90100|90931
-16	e	_	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	17	subj	_	90931|91030
+16	e	_	PRON	_	Case=Nom|PronType=Prs|Number=Sing|Person=3	17	subj	_	90931|91030
 17	go	_	AUX	_	Tense=Prosp	0	root	_	91030|91177
 18	concentrate	_	VERB	_	_	17	comp:aux	_	91177|91865
 19	for	_	ADP	_	_	18	comp:obl	_	91865|92021
-20	di	_	DET	_	Definite=Def|PronType=Art	21	det	_	92021|92231
+20	di	_	DET	_	PronType=Art|Definite=Def	21	det	_	92021|92231
 21	ting	_	NOUN	_	_	19	comp	_	92231|92511
 22	wey	_	SCONJ	_	_	21	dep	_	92511|92621
-23	e	_	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	24	subj	_	92621|92681
+23	e	_	PRON	_	Case=Nom|PronType=Prs|Number=Sing|Person=3	24	subj	_	92621|92681
 24	dey	_	AUX	_	Aspect=Imp	22	comp	_	92681|92814
 25	do	_	VERB	_	_	24	comp:aux	_	92814|93059
 26	//	_	PUNCT	_	_	17	punct	_	93059|93089
+
 # elan_id = IBA_15_M_088 IBA_15_M_089 IBA_15_M_090 IBA_15_M_091 IBA_15_M_092 IBA_15_M_093 IBA_15_M_094 IBA_15_M_095
 # sent_id = P_IBA_15_Electrician_PRO_20
 # sent_translation = # By this time, even though universities did not compensate us for the work we do  So much. but we still know that we are still at work.
-# text = # by dis time < # even though university did not compensate us for di work wey we dey do # too much < # but we still know sey { we still dey work } //
+# text = # by dis time < # [eng even though university did not compensate us eng] for di work wey we dey do # too much # but we still know sey [ we still dey work ] //
 1	#	_	PUNCT	_	_	30	punct	_	93089|94640
 2	by	_	ADP	_	_	30	mod:periph	_	94640|94790
-3	dis	_	DET	_	Number=Sing|PronType=Prox	4	det	_	94790|94990
+3	dis	_	DET	_	PronType=Prox|Number=Sing	4	det	_	94790|94990
 4	time	_	NOUN	_	_	2	comp	_	94990|95230
 5	<	_	PUNCT	_	_	2	punct	_	95230|95260
 6	#	_	PUNCT	_	_	2	punct	_	95260|96254
@@ -334,13 +349,13 @@
 11	did	_	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	9	comp	_	97159|97272
 12	not	_	PART	_	Polarity=Neg	11	mod	_	97272|97475
 13	compensate	_	VERB	_	_	11	comp:aux	_	97475|97885
-14	us	_	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	13	comp:obj	_	97885|98135
+14	us	_	PRON	_	Case=Acc|PronType=Prs|Number=Plur|Person=1	13	comp:obj	_	97885|98135
 15	eng]	_	PUNCT	_	_	9	punct	_	97885|98135
 16	for	_	ADP	_	_	13	comp:obl	_	98135|98305
-17	di	_	DET	_	Definite=Def|PronType=Art	18	det	_	98305|98385
+17	di	_	DET	_	PronType=Art|Definite=Def	18	det	_	98305|98385
 18	work	_	NOUN	_	_	16	comp	_	98385|98595
 19	wey	_	SCONJ	_	_	18	dep	_	98595|98714
-20	we	_	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	21	subj	_	98714|98835
+20	we	_	PRON	_	Case=Nom|PronType=Prs|Number=Plur|Person=1	21	subj	_	98714|98835
 21	dey	_	AUX	_	Aspect=Imp	19	comp	_	98835|98955
 22	do	_	VERB	_	_	21	comp:aux	_	98955|99181
 23	#	_	PUNCT	_	_	25	punct	_	99181|99920
@@ -348,32 +363,34 @@
 25	much	_	ADJ	_	_	13	mod	_	100019|100406
 26	#	_	PUNCT	_	_	30	punct	_	100436|100840
 27	but	_	CCONJ	_	_	30	cc	_	100840|101225
-28	we	_	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	30	subj	_	101225|101431
+28	we	_	PRON	_	Case=Nom|PronType=Prs|Number=Plur|Person=1	30	subj	_	101225|101431
 29	still	_	ADV	_	_	30	mod	_	101431|101650
 30	know	_	VERB	_	_	0	root	_	101650|101820
 31	sey	_	SCONJ	_	_	30	comp:obj	_	101820|101940
 32	[	_	PUNCT	_	_	35	punct	_	101940|101970
-33	we	_	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	35	subj	_	101970|102090
+33	we	_	PRON	_	Case=Nom|PronType=Prs|Number=Plur|Person=1	35	subj	_	101970|102090
 34	still	_	ADV	_	_	35	mod	_	102090|102390
 35	dey	_	AUX	_	Aspect=Imp	31	comp	_	102390|102540
 36	work	_	VERB	_	_	35	comp:aux	_	102540|102889
 37	]	_	PUNCT	_	_	35	punct	_	102889|102919
 38	//	_	PUNCT	_	_	30	punct	_	102889|102919
+
 # elan_id = IBA_15_M_096 IBA_15_M_097
 # sent_id = P_IBA_15_Electrician_PRO_21
 # sent_translation = # We are still workers.
 # text = # we dey still work am //
 1	#	_	PUNCT	_	_	3	punct	_	102919|103200
-2	we	_	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	subj	_	103200|103270
+2	we	_	PRON	_	Case=Nom|PronType=Prs|Number=Plur|Person=1	3	subj	_	103200|103270
 3	dey	_	AUX	_	Aspect=Imp	0	root	_	103270|103370
 4	still	_	ADV	_	_	5	mod	_	103370|103670
 5	work	_	VERB	_	_	3	comp:aux	_	103670|103820
-6	am	_	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	5	comp:obj	_	103820|103970
+6	am	_	PRON	_	Case=Acc|PronType=Prs|Number=Sing|Person=3	5	comp:obj	_	103820|103970
 7	//	_	PUNCT	_	_	3	punct	_	103970|104000
+
 # elan_id = IBA_15_M_098 IBA_15_M_099 IBA_15_M_100 IBA_15_M_101
 # sent_id = P_IBA_15_Electrician_PRO_22
 # sent_translation = # And eh many people that are with us here,
-# text = # and eh # many people wey dey with us here & //
+# text = # and eh # many people >+ wey dey with us here //
 1	#	_	PUNCT	_	_	_	_	_	104000|105098
 2	and	_	CCONJ	_	_	6	cc	_	105098|105504
 3	eh	_	INTJ	_	_	6	discourse	_	105504|105918
@@ -384,16 +401,17 @@
 8	wey	_	SCONJ	_	_	6	comp:cleft	_	107730|107952
 9	dey	_	VERB	_	PartType=Cop	8	comp	_	107952|108140
 10	with	_	ADP	_	_	9	comp:pred	_	108140|108310
-11	us	_	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	10	comp	_	108310|108550
+11	us	_	PRON	_	Case=Acc|PronType=Prs|Number=Plur|Person=1	10	comp	_	108310|108550
 12	here	_	ADV	_	PronType=Dem	11	dep	_	108550|108710
 13	//	_	PUNCT	_	_	6	punct	_	108710|108740
+
 # elan_id = IBA_15_M_102 IBA_15_M_103 IBA_15_M_104 IBA_15_M_105 IBA_15_M_106 IBA_15_M_107 IBA_15_M_108 IBA_15_M_109 IBA_15_M_110 IBA_15_M_111
 # sent_id = P_IBA_15_Electrician_PRO_23
 # sent_translation = # we have e, cable dressing, cable jointer section, we have overhead. we have streetlights. We have those that are wiring houses,
-# text = # we have eh # { cable dressing |c cable jointer } section //= # we have overhead //= # we have eh streetlights //= # we have dose who dey wiring for house //
+# text = # [eng we have eh # { cable dressing |c cable jointer } section //= # we have overhead //= # we have eh streetlights //= # we have dose who dey wiring for house eng] //
 1	#	_	PUNCT	_	_	4	punct	_	108740|110640
 2	[eng	_	PUNCT	_	_	4	punct	_	108740|110640
-3	we	_	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	subj	_	110640|110750
+3	we	_	PRON	_	Case=Nom|PronType=Prs|Number=Plur|Person=1	4	subj	_	110640|110750
 4	have	_	VERB	_	_	0	root	_	110750|110980
 5	eh	_	INTJ	_	_	14	discourse	_	110980|111300
 6	#	_	PUNCT	_	_	14	punct	_	111300|111740
@@ -407,20 +425,20 @@
 14	section	_	NOUN	_	_	4	comp:obj	_	113220|113530
 15	//=	_	PUNCT	_	_	18	punct	_	113530|113560
 16	#	_	PUNCT	_	_	18	punct	_	113560|114820
-17	we	_	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	18	subj	_	114820|114920
+17	we	_	PRON	_	Case=Nom|PronType=Prs|Number=Plur|Person=1	18	subj	_	114820|114920
 18	have	_	VERB	_	_	4	parataxis:conj	_	114920|115110
 19	overhead	_	ADJ	_	_	18	comp:obj	_	115110|115590
 20	//=	_	PUNCT	_	_	23	punct	_	115590|115620
 21	#	_	PUNCT	_	_	23	punct	_	115620|116800
-22	we	_	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	23	subj	_	116800|116903
+22	we	_	PRON	_	Case=Nom|PronType=Prs|Number=Plur|Person=1	23	subj	_	116800|116903
 23	have	_	VERB	_	_	18	parataxis:conj	_	116903|117160
 24	eh	_	INTJ	_	_	25	discourse	_	117160|117567
 25	streetlights	_	NOUN	_	Number=Plur	23	comp:obj	_	117567|118350
 26	//=	_	PUNCT	_	_	29	punct	_	118350|118380
 27	#	_	PUNCT	_	_	29	punct	_	118380|119360
-28	we	_	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	29	subj	_	119360|119460
+28	we	_	PRON	_	Case=Nom|PronType=Prs|Number=Plur|Person=1	29	subj	_	119360|119460
 29	have	_	VERB	_	_	23	parataxis:conj	_	119460|119815
-30	dose	_	PRON	_	Number=Plur|PronType=Dem	29	comp:obj	_	119815|120070
+30	dose	_	PRON	_	PronType=Dem|Number=Plur	29	comp:obj	_	119815|120070
 31	who	_	PRON	_	PronType=Int	32	subj	_	120070|120150
 32	dey	_	AUX	_	Aspect=Imp	30	dep	_	120150|120310
 33	wiring	wire	NOUN	_	_	32	comp:aux	_	120310|120700
@@ -428,25 +446,27 @@
 35	house	_	NOUN	_	_	34	comp	_	120886|121230
 36	eng]	_	PUNCT	_	_	4	punct	_	121230|121260
 37	//	_	PUNCT	_	_	4	punct	_	121230|121260
+
 # elan_id = IBA_15_M_112 IBA_15_M_113
 # sent_id = P_IBA_15_Electrician_PRO_24
 # sent_translation = # but our own is cable jointer.
 # text = # but our own na cable jointer //
 1	#	_	PUNCT	_	_	5	punct	_	121260|122260
 2	but	_	CCONJ	_	_	5	cc	_	122260|122429
-3	our	_	ADJ	_	Number=Plur|Person=1|Poss=Yes|PronType=Prs	4	dep	_	122429|122700
+3	our	_	ADJ	_	PronType=Prs|Number=Plur|Poss=Yes|Person=1	4	dep	_	122429|122700
 4	own	_	ADJ	_	_	5	subj	_	122700|122840
 5	na	_	PART	_	PartType=Cop	0	root	_	122840|123160
 6	cable	_	NOUN	_	_	7	compound	_	123160|123480
 7	jointer	_	NOUN	_	_	5	comp:pred	_	123480|123830
 8	//	_	PUNCT	_	_	5	punct	_	123830|123860
+
 # elan_id = IBA_15_M_114 IBA_15_M_115 IBA_15_M_116 IBA_15_M_117 IBA_15_M_118 IBA_15_M_119 IBA_15_M_120 IBA_15_M_121
 # sent_id = P_IBA_15_Electrician_PRO_25
 # sent_translation = # We are the one who bring RMU. we are the one who erect  transformer, in the university.
-# text = # na we >+ dey bring rmu //= # na we >+ dey mount eh # transformer # for university //
+# text = # na we >+ dey bring RMU //= # na we >+ dey mount eh # transformer # for university //
 1	#	_	PUNCT	_	_	2	punct	_	123860|124740
 2	na	_	PART	_	PartType=Cop	0	root	_	124740|124900
-3	we	_	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	comp:pred	_	124900|124980
+3	we	_	PRON	_	Case=Nom|PronType=Prs|Number=Plur|Person=1	2	comp:pred	_	124900|124980
 4	>+	_	PUNCT	_	_	5	punct	_	124980|125010
 5	dey	_	AUX	_	Aspect=Imp	2	comp:cleft	_	125010|125180
 6	bring	_	VERB	_	_	5	comp:aux	_	125180|125600
@@ -454,7 +474,7 @@
 8	//=	_	PUNCT	_	_	10	punct	_	126250|126280
 9	#	_	PUNCT	_	_	10	punct	_	126280|127029
 10	na	_	PART	_	PartType=Cop	2	parataxis:conj	_	127029|127160
-11	we	_	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	comp:pred	_	127160|127240
+11	we	_	PRON	_	Case=Nom|PronType=Prs|Number=Plur|Person=1	10	comp:pred	_	127160|127240
 12	>+	_	PUNCT	_	_	13	punct	_	127240|127270
 13	dey	_	AUX	_	Aspect=Imp	10	comp:cleft	_	127270|127410
 14	mount	_	VERB	_	_	13	comp:aux	_	127410|127690
@@ -465,6 +485,7 @@
 19	for	_	ADP	_	_	14	comp:obl	_	129380|129702
 20	university	_	NOUN	_	_	19	comp	_	129702|130390
 21	//	_	PUNCT	_	_	2	punct	_	130390|130420
+
 # elan_id = IBA_15_M_122 IBA_15_M_123 IBA_15_M_124 IBA_15_M_125
 # sent_id = P_IBA_15_Electrician_PRO_26
 # sent_translation = # Every high high tension that we do, it is our section that does it.
@@ -478,60 +499,63 @@
 7	}	_	PUNCT	_	_	4	punct	_	132430|132460
 8	tension	_	NOUN	_	_	15	dislocated	_	132460|132840
 9	wey	_	SCONJ	_	_	8	dep	_	132840|132982
-10	we	_	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	11	subj	_	132982|133100
+10	we	_	PRON	_	Case=Nom|PronType=Prs|Number=Plur|Person=1	11	subj	_	132982|133100
 11	dey	_	AUX	_	Aspect=Imp	9	comp	_	133100|133260
 12	do	_	VERB	_	_	11	comp:aux	_	133260|133434
 13	<	_	PUNCT	_	_	8	punct	_	133434|133464
 14	#	_	PUNCT	_	_	15	punct	_	133464|133920
 15	na	_	PART	_	PartType=Cop	0	root	_	133920|134030
-16	our	_	ADJ	_	Number=Plur|Person=1|Poss=Yes|PronType=Prs	17	dep	_	134030|134242
+16	our	_	ADJ	_	PronType=Prs|Number=Plur|Poss=Yes|Person=1	17	dep	_	134030|134242
 17	section	_	NOUN	_	_	15	comp:pred	_	134242|134510
 18	>+	_	PUNCT	_	_	19	punct	_	134510|134540
 19	na	_	PART	_	PartType=Cop	15	comp:cleft	_	134540|134667
-20	im	_	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	19	comp:pred	_	134667|134760
+20	im	_	PRON	_	Case=Nom|PronType=Prs|Number=Sing|Person=3	19	comp:pred	_	134667|134760
 21	dey	_	AUX	_	Aspect=Imp	20	dep	_	134760|134920
 22	do	_	VERB	_	_	21	comp:aux	_	134920|135030
-23	am	_	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	22	comp:obj	_	135030|135177
+23	am	_	PRON	_	Case=Acc|PronType=Prs|Number=Sing|Person=3	22	comp:obj	_	135030|135177
 24	//	_	PUNCT	_	_	15	punct	_	135177|135207
+
 # elan_id = IBA_15_M_126 IBA_15_M_127
 # sent_id = P_IBA_15_Electrician_PRO_27
 # sent_translation = # We do everything.
 # text = # na we >+ dey do everytin //
 1	#	_	PUNCT	_	_	2	punct	_	135207|136140
 2	na	_	PART	_	PartType=Cop	0	root	_	136140|136275
-3	we	_	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	comp:pred	_	136275|136345
+3	we	_	PRON	_	Case=Nom|PronType=Prs|Number=Plur|Person=1	2	comp:pred	_	136275|136345
 4	>+	_	PUNCT	_	_	5	punct	_	136345|136375
 5	dey	_	AUX	_	Aspect=Imp	2	comp:cleft	_	136375|136530
 6	do	_	VERB	_	_	5	comp:aux	_	136530|136680
 7	everytin	_	PRON	_	_	6	comp:obj	_	136680|137230
 8	//	_	PUNCT	_	_	2	punct	_	137230|137260
+
 # elan_id = IBA_15_M_128 IBA_15_M_129 IBA_15_M_130 IBA_15_M_131
 # sent_id = P_IBA_15_Electrician_PRO_28
 # sent_translation = # Apart from that, we can do wiring of houses.
-# text = # apart from dat < # we can do wiring house //
+# text = [eng # apart from dat < # we can do wiring house eng] //
 1	[eng	_	PUNCT	_	_	9	punct	_	137260|139140
 2	#	_	PUNCT	_	_	9	punct	_	137260|139140
 3	apart	_	ADV	_	_	9	mod:periph	_	139140|139410
 4	from	_	ADP	_	_	3	comp:obl	_	139410|139690
-5	dat	_	PRON	_	Number=Sing|PronType=Dem	4	comp	_	139690|140030
+5	dat	_	PRON	_	PronType=Dem|Number=Sing	4	comp	_	139690|140030
 6	<	_	PUNCT	_	_	3	punct	_	140030|140060
 7	#	_	PUNCT	_	_	9	punct	_	140060|141100
-8	we	_	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	subj	_	141100|141190
+8	we	_	PRON	_	Case=Nom|PronType=Prs|Number=Plur|Person=1	9	subj	_	141100|141190
 9	can	_	AUX	_	_	0	root	_	141190|141380
 10	do	_	VERB	_	_	9	comp:aux	_	141380|141470
 11	wiring	wire	NOUN	_	_	10	comp:obj	_	141470|141910
 12	house	_	NOUN	_	_	11	comp:obj	_	141910|142218
 13	eng]	_	PUNCT	_	_	9	punct	_	142218|142248
 14	//	_	PUNCT	_	_	9	punct	_	142218|142248
+
 # elan_id = IBA_15_M_132 IBA_15_M_133 IBA_15_M_134 IBA_15_M_135 IBA_15_M_136 IBA_15_M_137 IBA_15_M_138 IBA_15_M_139 IBA_15_M_140 IBA_15_M_141
 # sent_id = P_IBA_15_Electrician_PRO_29
 # sent_translation = # but in our own section here, it is only laying cable, connecting transformer, connect eh RMU,
-# text = # but for our own section here < # it's only # { laying cable |c # connect transformer |c # connect eh rmu } } //
+# text = # [eng but for our own section here < # it's only # { laying cable |c # connect transformer |c # connect eh RMU } eng] //
 1	#	_	PUNCT	_	_	11	punct	_	142248|142900
 2	[eng	_	PUNCT	_	_	11	punct	_	142248|142900
 3	but	_	CCONJ	_	_	11	cc	_	142900|143304
 4	for	_	ADP	_	_	11	mod:periph	_	143304|143562
-5	our	_	ADJ	_	Number=Plur|Person=1|Poss=Yes|PronType=Prs	7	dep	_	143562|143760
+5	our	_	ADJ	_	PronType=Prs|Number=Plur|Poss=Yes|Person=1	7	dep	_	143562|143760
 6	own	_	ADJ	_	_	7	dep	_	143760|143860
 7	section	_	NOUN	_	_	4	comp	_	143860|144224
 8	here	_	ADV	_	PronType=Dem	7	dep	_	144224|144456
@@ -555,6 +579,7 @@
 26	}	_	PUNCT	_	_	15	punct	_	150119|150149
 27	eng]	_	PUNCT	_	_	11	punct	_	150119|150149
 28	//	_	PUNCT	_	_	11	punct	_	150119|150149
+
 # elan_id = IBA_15_M_142 IBA_15_M_143
 # sent_id = P_IBA_15_Electrician_PRO_30
 # sent_translation = # that is the only one we do on our own here.
@@ -562,31 +587,32 @@
 1	#	_	PUNCT	_	_	2	punct	_	150149|150480
 2	na	_	PART	_	PartType=Cop	0	root	_	150480|150590
 3	only	_	ADV	_	_	5	mod	_	150590|150760
-4	dat	_	DET	_	Number=Sing|PronType=Dem	5	det	_	150760|150960
+4	dat	_	DET	_	PronType=Dem|Number=Sing	5	det	_	150760|150960
 5	one	_	NUM	_	NumType=Card	2	comp:pred	_	150960|151110
 6	>+	_	PUNCT	_	_	8	punct	_	151110|151140
-7	we	_	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	subj	_	151140|151210
+7	we	_	PRON	_	Case=Nom|PronType=Prs|Number=Plur|Person=1	8	subj	_	151140|151210
 8	dey	_	AUX	_	Aspect=Imp	2	comp:cleft	_	151210|151320
 9	do	_	VERB	_	_	8	comp:aux	_	151320|151460
 10	for	_	ADP	_	_	9	comp:obl	_	151460|151620
-11	our	_	ADJ	_	Number=Plur|Person=1|Poss=Yes|PronType=Prs	12	dep	_	151620|151894
+11	our	_	ADJ	_	PronType=Prs|Number=Plur|Poss=Yes|Person=1	12	dep	_	151620|151894
 12	own	_	ADJ	_	_	10	comp	_	151894|152030
 13	here	_	ADV	_	PronType=Dem	9	mod	_	152030|152230
 14	//	_	PUNCT	_	_	2	punct	_	152230|152260
+
 # elan_id = IBA_15_M_144 IBA_15_M_145 IBA_15_M_146 IBA_15_M_147 IBA_15_M_148 IBA_15_M_149
 # sent_id = P_IBA_15_Electrician_PRO_31
 # sent_translation = # In this section. at least we have  three sections or two.
-# text = # for dis section < # at least < we get # { three section |c { two || or two } } //
+# text = # for dis section < # at least < we get # { three section || two || or two } //
 1	#	_	PUNCT	_	_	11	punct	_	152260|153086
 2	for	_	ADP	_	_	11	mod:periph	_	153086|153250
-3	dis	_	DET	_	Number=Sing|PronType=Prox	4	det	_	153250|153373
+3	dis	_	DET	_	PronType=Prox|Number=Sing	4	det	_	153250|153373
 4	section	_	NOUN	_	_	2	comp	_	153373|153765
 5	<	_	PUNCT	_	_	2	punct	_	153765|153795
 6	#	_	PUNCT	_	_	2	punct	_	153795|154360
 7	at	_	ADP	_	_	11	mod:periph	_	154360|154510
 8	least	_	ADV	_	_	7	comp	_	154510|154691
 9	<	_	PUNCT	_	_	7	punct	_	154691|154721
-10	we	_	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	11	subj	_	154721|154780
+10	we	_	PRON	_	Case=Nom|PronType=Prs|Number=Plur|Person=1	11	subj	_	154721|154780
 11	get	_	VERB	_	_	0	root	_	154780|155138
 12	#	_	PUNCT	_	_	15	punct	_	155138|155325
 13	{	_	PUNCT	_	_	15	punct	_	155295|155325
@@ -599,6 +625,7 @@
 20	two	_	NUM	_	NumType=Card	17	conj:dicto	_	156260|156470
 21	}	_	PUNCT	_	_	15	punct	_	156470|156500
 22	//	_	PUNCT	_	_	11	punct	_	156470|156500
+
 # elan_id = IBA_15_M_150 IBA_15_M_151 IBA_15_M_152 IBA_15_M_153 IBA_15_M_154 IBA_15_M_155
 # sent_id = P_IBA_15_Electrician_PRO_32
 # sent_translation = # En There is rewinding, it is available.
@@ -609,26 +636,29 @@
 4	rewinding	_	NOUN	_	_	8	dislocated	_	159991|160650
 5	<	_	PUNCT	_	_	4	punct	_	160650|160680
 6	#	_	PUNCT	_	_	4	punct	_	160680|161576
-7	e	_	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	8	subj	_	161576|161666
+7	e	_	PRON	_	Case=Nom|PronType=Prs|Number=Sing|Person=3	8	subj	_	161576|161666
 8	dey	_	VERB	_	PartType=Cop	0	root	_	161666|161908
 9	//	_	PUNCT	_	_	8	punct	_	161908|161938
+
 # elan_id = IBA_15_M_156 IBA_15_M_157
 # sent_id = P_IBA_15_Electrician_PRO_33
 # sent_translation = # oh! ehn!
-# text = # oh ens & //
+# text = # oh ehn & //
 1	#	_	PUNCT	_	_	4	punct	_	161938|163020
 2	oh	_	INTJ	_	_	4	discourse	_	163020|163290
 3	ehn	_	INTJ	_	_	4	discourse	_	163290|164037
 4	&	_	X	_	_	0	root	_	164037|164067
 5	//	_	PUNCT	_	_	4	punct	_	164037|164067
+
 # elan_id = IBA_15_M_158 IBA_15_M_159 IBA_15_M_160 IBA_15_M_161 IBA_15_M_162 IBA_15_M_163 IBA_15_M_164 IBA_15_M_165 IBA_15_M_166 IBA_15_M_167
 # sent_id = P_IBA_15_Electrician_PRO_34
 # sent_translation = # May those who are repairing transformer  are also available, those who, connect transformer  are available,
-# text = # { mey || dose } who de will repair transformer < # e dey //= # dose who dey # connect transformer < # e dey //
+# text = # mey & //
 1	#	_	PUNCT	_	_	3	punct	_	164067|164740
 2	mey	_	AUX	_	Mood=Jus	3	orphan	_	164740|165050
 3	&	_	X	_	_	0	root	_	165050|165080
 4	//	_	PUNCT	_	_	3	punct	_	165050|165080
+
 # elan_id = IBA_15_M_168 IBA_15_M_169 IBA_15_M_170 IBA_15_M_171 IBA_15_M_172 IBA_15_M_173 IBA_15_M_174 IBA_15_M_175 IBA_15_M_176 IBA_15_M_177
 # sent_id = P_IBA_15_Electrician_PRO_36
 # sent_translation = # but in our section here,  I am a stational head. I am the overall head. In this section. who works in this place,
@@ -636,76 +666,79 @@
 1	#	_	PUNCT	_	_	10	punct	_	172600|173480
 2	but	_	CCONJ	_	_	10	cc	_	173480|173741
 3	for	_	ADP	_	_	10	mod:periph	_	173741|173948
-4	our	_	ADJ	_	Number=Plur|Person=1|Poss=Yes|PronType=Prs	5	dep	_	173948|174210
+4	our	_	ADJ	_	PronType=Prs|Number=Plur|Poss=Yes|Person=1	5	dep	_	173948|174210
 5	section	_	NOUN	_	_	3	comp	_	174210|174579
 6	here	_	ADV	_	PronType=Dem	3	mod	_	174579|174750
 7	<	_	PUNCT	_	_	3	punct	_	174750|174780
 8	#	_	PUNCT	_	_	3	punct	_	174780|175220
-9	I	_	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	subj	_	175220|175320
+9	I	_	PRON	_	Case=Nom|PronType=Prs|Number=Sing|Person=1	10	subj	_	175220|175320
 10	be	_	VERB	_	PartType=Cop	0	root	_	175320|175419
 11	stational	_	ADJ	_	_	12	compound	_	175419|175960
 12	head	_	NOUN	_	_	10	comp:pred	_	175960|176270
 13	//=	_	PUNCT	_	_	16	punct	_	176270|176300
 14	#	_	PUNCT	_	_	16	punct	_	176300|176780
-15	I	_	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	subj	_	176780|176860
+15	I	_	PRON	_	Case=Nom|PronType=Prs|Number=Sing|Person=1	16	subj	_	176780|176860
 16	be	_	VERB	_	PartType=Cop	10	parataxis:conj	_	176860|176990
-17	di	_	DET	_	Definite=Def|PronType=Art	19	det	_	176990|177100
+17	di	_	DET	_	PronType=Art|Definite=Def	19	det	_	176990|177100
 18	oga	_	NOUN	_	_	19	dep	_	177100|177370
 19	patapata	_	ADV	_	_	16	comp:pred	_	177370|177860
 20	#	_	PUNCT	_	_	21	punct	_	177860|178440
 21	for	_	ADP	_	_	16	comp:pred	_	178440|178550
-22	dis	_	DET	_	Number=Sing|PronType=Prox	23	det	_	178550|178687
+22	dis	_	DET	_	PronType=Prox|Number=Sing	23	det	_	178550|178687
 23	section	_	NOUN	_	_	21	comp	_	178687|179020
 24	#	_	PUNCT	_	_	25	punct	_	179020|179560
 25	wey	_	SCONJ	_	_	23	dep	_	179560|179675
 26	dey	_	AUX	_	Aspect=Imp	25	comp	_	179675|179810
 27	do	_	VERB	_	_	26	comp:aux	_	179810|180000
-28	dis	_	DET	_	Number=Sing|PronType=Prox	29	det	_	180000|180180
+28	dis	_	DET	_	PronType=Prox|Number=Sing	29	det	_	180000|180180
 29	place	_	NOUN	_	_	27	comp:obj	_	180180|180470
 30	//	_	PUNCT	_	_	10	punct	_	180470|180500
+
 # elan_id = IBA_15_M_178 IBA_15_M_179
 # sent_id = P_IBA_15_Electrician_PRO_37
 # sent_translation = # We are the one mounting all these places.
 # text = # na we >+ dey mount all dis place //
 1	#	_	PUNCT	_	_	2	punct	_	180500|181060
 2	na	_	PART	_	PartType=Cop	0	root	_	181060|181180
-3	we	_	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	comp:pred	_	181180|181250
+3	we	_	PRON	_	Case=Nom|PronType=Prs|Number=Plur|Person=1	2	comp:pred	_	181180|181250
 4	>+	_	PUNCT	_	_	5	punct	_	181250|181280
 5	dey	_	AUX	_	Aspect=Imp	2	comp:cleft	_	181280|181410
 6	mount	_	VERB	_	_	5	comp:aux	_	181410|181720
 7	all	_	ADV	_	_	8	det	_	181720|181870
-8	dis	_	DET	_	Number=Sing|PronType=Prox	9	det	_	181870|182020
+8	dis	_	DET	_	PronType=Prox|Number=Sing	9	det	_	181870|182020
 9	place	_	NOUN	_	_	6	comp:obj	_	182020|182302
 10	//	_	PUNCT	_	_	2	punct	_	182302|182332
+
 # elan_id = IBA_15_M_180 IBA_15_M_181
 # sent_id = P_IBA_15_Electrician_PRO_38
 # sent_translation = # If there is, if it, if he brings form that, they, there is problem there,
 # text = # we get & //
 1	#	_	PUNCT	_	_	3	punct	_	182332|182860
-2	we	_	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	subj	_	182860|182973
+2	we	_	PRON	_	Case=Nom|PronType=Prs|Number=Plur|Person=1	3	subj	_	182860|182973
 3	get	_	VERB	_	_	0	root	_	182973|183177
 4	&	_	X	_	_	3	comp:obj	_	183177|183207
 5	//	_	PUNCT	_	_	3	punct	_	183177|183207
+
 # elan_id = IBA_15_M_181 IBA_15_M_182 IBA_15_M_183 IBA_15_M_184 IBA_15_M_185 IBA_15_M_186 IBA_15_M_187
 # sent_id = P_IBA_15_Electrician_PRO_39
 # sent_translation = If there is, if it, if he brings form that, they, there is problem there, # he would bring the form, we would fill it, send it to our superior boss up Who will go and do the w~ send us out to go and do the work.
-# text = { if an || if de } bring form sey [ { de || e } see dere is a { pro || problem } dere ] < # e go bring di form //= we go fill am //= # we go pass am to our oga patapata for up # wey e go { go do di wor || send us } { to so || to go out || to eh go and do di work } //
+# text = { if an || if } de bring form say [ [eng { de || e } see dere is a { pro- || problem } dere eng] ] < # e go bring di form //= we go fill am //= # we go pass am to our oga patapata for up # wey e go { go do di wor- || send us } { to s- || to go out |c to eh go and do di work } //
 1	{	_	PUNCT	_	_	2	punct	_	183177|183207
 2	if	_	SCONJ	_	_	33	mod:periph	_	183207|183430
 3	an	_	DET	_	Def=Ind|PronType=Art	2	orphan	_	183430|183550
 4	||	_	PUNCT	_	_	5	punct	_	183550|183580
 5	if	_	SCONJ	_	_	2	conj:dicto	_	183580|183820
 6	}	_	PUNCT	_	_	2	punct	_	183820|184086
-7	de	_	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	subj	_	183820|184086
+7	de	_	PRON	_	Case=Nom|PronType=Prs|Number=Plur|Person=3	8	subj	_	183820|184086
 8	bring	_	VERB	_	_	5	comp	_	184116|184380
 9	form	_	NOUN	_	_	8	comp:obj	_	184380|184789
 10	say	_	VERB	_	_	8	compound:svc	_	184789|185020
 11	[	_	PUNCT	_	_	18	punct	_	185020|185050
 12	[eng	_	PUNCT	_	_	18	punct	_	185020|185050
 13	{	_	PUNCT	_	_	14	punct	_	185020|185050
-14	de	_	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	18	subj	_	185050|185250
+14	de	_	PRON	_	Case=Nom|PronType=Prs|Number=Plur|Person=3	18	subj	_	185050|185250
 15	||	_	PUNCT	_	_	16	punct	_	185250|185280
-16	e	_	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	14	conj:dicto	_	185280|185421
+16	e	_	PRON	_	Case=Nom|PronType=Prs|Number=Sing|Person=3	14	conj:dicto	_	185280|185421
 17	}	_	PUNCT	_	_	14	punct	_	185421|185451
 18	see	_	VERB	_	_	10	parataxis:obj	_	185451|185670
 19	dere	_	ADV	_	PronType=Dem	20	subj:expl	_	185670|185777
@@ -721,40 +754,40 @@
 29	]	_	PUNCT	_	_	18	punct	_	186970|187000
 30	<	_	PUNCT	_	_	2	punct	_	186970|187000
 31	#	_	PUNCT	_	_	33	punct	_	187000|187500
-32	e	_	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	33	subj	_	187500|187580
+32	e	_	PRON	_	Case=Nom|PronType=Prs|Number=Sing|Person=3	33	subj	_	187500|187580
 33	go	_	AUX	_	Tense=Prosp	0	root	_	187580|187710
 34	bring	_	VERB	_	_	33	comp:aux	_	187710|187910
-35	di	_	DET	_	Definite=Def|PronType=Art	36	det	_	187910|188020
+35	di	_	DET	_	PronType=Art|Definite=Def	36	det	_	187910|188020
 36	form	_	NOUN	_	_	34	comp:obj	_	188020|188389
 37	//=	_	PUNCT	_	_	39	punct	_	188389|188419
-38	we	_	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	39	subj	_	188419|188567
+38	we	_	PRON	_	Case=Nom|PronType=Prs|Number=Plur|Person=1	39	subj	_	188419|188567
 39	go	_	AUX	_	Tense=Prosp	33	parataxis:conj	_	188567|188690
 40	fill	_	VERB	_	_	39	comp:aux	_	188690|188880
-41	am	_	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	40	comp:obj	_	188880|189042
+41	am	_	PRON	_	Case=Acc|PronType=Prs|Number=Sing|Person=3	40	comp:obj	_	188880|189042
 42	//=	_	PUNCT	_	_	45	punct	_	189042|189072
 43	#	_	PUNCT	_	_	45	punct	_	189072|189275
-44	we	_	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	45	subj	_	189275|189345
+44	we	_	PRON	_	Case=Nom|PronType=Prs|Number=Plur|Person=1	45	subj	_	189275|189345
 45	go	_	AUX	_	Tense=Prosp	39	parataxis:conj	_	189345|189450
 46	pass	_	VERB	_	_	45	comp:aux	_	189450|189745
-47	am	_	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	46	comp:obj	_	189745|189885
+47	am	_	PRON	_	Case=Acc|PronType=Prs|Number=Sing|Person=3	46	comp:obj	_	189745|189885
 48	to	_	ADP	_	_	46	comp:obl	_	189885|189985
-49	our	_	ADJ	_	Number=Plur|Person=1|Poss=Yes|PronType=Prs	50	dep	_	189985|190219
+49	our	_	ADJ	_	PronType=Prs|Number=Plur|Poss=Yes|Person=1	50	dep	_	189985|190219
 50	oga	_	NOUN	_	_	48	comp	_	190219|190465
 51	patapata	_	ADV	_	_	50	dep	_	190465|190865
 52	for	_	ADP	_	_	50	dep	_	190865|191045
 53	up	_	ADP	_	_	52	comp	_	191045|191386
 54	#	_	PUNCT	_	_	55	punct	_	191386|192260
 55	wey	_	SCONJ	_	_	50	dep	_	192260|192370
-56	e	_	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	57	subj	_	192370|192410
+56	e	_	PRON	_	Case=Nom|PronType=Prs|Number=Sing|Person=3	57	subj	_	192370|192410
 57	go	_	AUX	_	Tense=Prosp	55	comp	_	192410|192480
 58	{	_	PUNCT	_	_	59	punct	_	192480|192510
 59	go	_	VERB	_	_	57	comp:aux	_	192510|192720
 60	do	_	VERB	_	_	59	compound:svc	_	192720|192850
-61	di	_	DET	_	Definite=Def|PronType=Art	62	det	_	192850|192993
+61	di	_	DET	_	PronType=Art|Definite=Def	62	det	_	192850|192993
 62	wor-	_	VERB	_	_	60	comp:obj	_	192993|193355
 63	||	_	PUNCT	_	_	64	punct	_	193355|193385
 64	send	_	VERB	_	_	59	conj:dicto	_	193385|193881
-65	us	_	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	64	comp:obj	_	193881|194060
+65	us	_	PRON	_	Case=Acc|PronType=Prs|Number=Plur|Person=1	64	comp:obj	_	193881|194060
 66	}	_	PUNCT	_	_	59	punct	_	194060|194090
 67	{	_	PUNCT	_	_	68	punct	_	194060|194090
 68	to	_	ADP	_	_	64	comp:obl	_	194090|194198
@@ -769,10 +802,11 @@
 77	go	_	VERB	_	_	75	comp	_	195340|195420
 78	and	_	CCONJ	_	_	79	cc	_	195420|195570
 79	do	_	VERB	_	_	77	conj:coord	_	195570|195660
-80	di	_	DET	_	Definite=Def|PronType=Art	81	det	_	195660|195823
+80	di	_	DET	_	PronType=Art|Definite=Def	81	det	_	195660|195823
 81	work	_	NOUN	_	_	79	comp:obj	_	195823|196085
 82	}	_	PUNCT	_	_	68	punct	_	196085|196115
 83	//	_	PUNCT	_	_	33	punct	_	196085|196115
+
 # elan_id = IBA_15_M_188 IBA_15_M_189
 # sent_id = P_IBA_15_Electrician_PRO_40
 # sent_translation = # That is how we operate here.
@@ -781,26 +815,27 @@
 2	na	_	PART	_	PartType=Cop	0	root	_	196920|196990
 3	so	_	ADV	_	_	2	comp:pred	_	196990|197110
 4	>+	_	PUNCT	_	_	6	punct	_	197110|197140
-5	we	_	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	subj	_	197140|197260
+5	we	_	PRON	_	Case=Nom|PronType=Prs|Number=Plur|Person=1	6	subj	_	197140|197260
 6	dey	_	AUX	_	Aspect=Imp	2	comp:cleft	_	197260|197360
 7	do	_	VERB	_	_	6	comp:aux	_	197360|197574
 8	here	_	ADV	_	PronType=Dem	7	mod	_	197574|197755
 9	//	_	PUNCT	_	_	2	punct	_	197755|197785
+
 # elan_id = IBA_15_M_190 IBA_15_M_191 IBA_15_M_192 IBA_15_M_193 IBA_15_M_194 IBA_15_M_195
 # sent_id = P_IBA_15_Electrician_PRO_41
 # sent_translation = # Any other visible problem that poses threat, You will first of all fill paper, that there is problem in this section o.
-# text = # any oda problem wey e dey < # you will first of all fill paper # sey [ problem dey o for dis section o ] //
+# text = # any oda problem wey e dey < # [eng you will first of all fill paper eng] # say [ problem dey o for dis section o //= # [eng de want { dem || dis people } to { come |c and do } di repair eng] ] // # [eng before we can go eng] //
 1	#	_	PUNCT	_	_	12	punct	_	197785|200240
 2	any	_	DET	_	_	4	det	_	200240|200410
 3	oda	_	ADJ	_	_	4	dep	_	200410|200750
 4	problem	_	NOUN	_	_	12	dislocated	_	200750|201097
 5	wey	_	SCONJ	_	_	4	dep	_	201097|201230
-6	e	_	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	7	subj	_	201230|201320
+6	e	_	PRON	_	Case=Nom|PronType=Prs|Number=Sing|Person=3	7	subj	_	201230|201320
 7	dey	_	VERB	_	PartType=Cop	5	comp	_	201320|201530
 8	<	_	PUNCT	_	_	4	punct	_	201530|201560
 9	#	_	PUNCT	_	_	4	punct	_	201560|202420
 10	[eng	_	PUNCT	_	_	12	punct	_	201560|202420
-11	you	_	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	12	subj	_	202420|202544
+11	you	_	PRON	_	Case=Nom|PronType=Prs|Number=Sing|Person=2	12	subj	_	202420|202544
 12	will	_	AUX	_	_	0	root	_	202544|202695
 13	first	_	ADJ	_	NumType=Ord	12	comp:aux	_	202695|202890
 14	of	_	ADP	_	_	13	dep	_	202890|203010
@@ -815,18 +850,18 @@
 23	dey	_	VERB	_	PartType=Cop	20	parataxis:obj	_	205370|205549
 24	o	_	PART	_	PartType=Disc	23	mod:emph	_	205549|205790
 25	for	_	ADP	_	_	23	comp:pred	_	205790|206020
-26	dis	_	DET	_	Number=Sing|PronType=Prox	27	det	_	206020|206134
+26	dis	_	DET	_	PronType=Prox|Number=Sing	27	det	_	206020|206134
 27	section	_	NOUN	_	_	25	comp	_	206134|206429
 28	o	_	PART	_	PartType=Disc	23	mod:emph	_	206429|206610
 29	//=	_	PUNCT	_	_	33	punct	_	206610|206640
 30	#	_	PUNCT	_	_	33	punct	_	206640|207040
 31	[eng	_	PUNCT	_	_	33	punct	_	206640|207040
-32	de	_	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	33	subj	_	207040|207130
+32	de	_	PRON	_	Case=Nom|PronType=Prs|Number=Plur|Person=3	33	subj	_	207040|207130
 33	want	_	VERB	_	_	23	parataxis:conj	_	207130|207420
 34	{	_	PUNCT	_	_	35	punct	_	207420|207450
-35	dem	_	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	33	comp:obj	_	207450|207833
+35	dem	_	PRON	_	Case=Nom|PronType=Prs|Number=Plur|Person=3	33	comp:obj	_	207450|207833
 36	||	_	PUNCT	_	_	38	punct	_	207833|207863
-37	dis	_	DET	_	Number=Sing|PronType=Prox	38	det	_	207863|208110
+37	dis	_	DET	_	PronType=Prox|Number=Sing	38	det	_	207863|208110
 38	people	_	NOUN	_	_	35	conj:dicto	_	208110|208343
 39	}	_	PUNCT	_	_	35	punct	_	208343|208373
 40	to	_	ADP	_	_	33	comp:obl	_	208373|208428
@@ -836,7 +871,7 @@
 44	and	_	CCONJ	_	_	45	cc	_	208590|208810
 45	do	_	VERB	_	_	42	conj:coord	_	208810|208950
 46	}	_	PUNCT	_	_	42	punct	_	208950|208980
-47	di	_	DET	_	Definite=Def|PronType=Art	48	det	_	208980|209170
+47	di	_	DET	_	PronType=Art|Definite=Def	48	det	_	208980|209170
 48	repair	_	NOUN	_	_	45	comp:obj	_	209170|209570
 49	eng]	_	PUNCT	_	_	33	punct	_	209570|209600
 50	]	_	PUNCT	_	_	33	punct	_	209570|209600
@@ -844,15 +879,16 @@
 52	#	_	PUNCT	_	_	56	punct	_	209600|210320
 53	[eng	_	PUNCT	_	_	56	punct	_	209600|210320
 54	before	_	ADP	_	_	56	mod:periph	_	210320|210607
-55	we	_	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	56	subj	_	210607|210740
+55	we	_	PRON	_	Case=Nom|PronType=Prs|Number=Plur|Person=1	56	subj	_	210607|210740
 56	can	_	AUX	_	_	16	mod	_	210740|210950
 57	go	_	VERB	_	_	56	comp:aux	_	210950|211170
 58	eng]	_	PUNCT	_	_	56	punct	_	211170|211200
 59	//	_	PUNCT	_	_	12	punct	_	211170|211200
+
 # elan_id = IBA_15_M_200 IBA_15_M_201 IBA_15_M_202 IBA_15_M_203
 # sent_id = P_IBA_15_Electrician_PRO_42
 # sent_translation = # because our boss has already given a stipulated instruction that we should not exceed, go beyond the,  our boundary.
-# text = # it's because oga don put instruction down sey [ we should not { pass || go } beyond { im || # our } boundary ] //
+# text = # [eng it's because eng] oga don put instruction down sey [eng we should not { pass || go } beyond { im || # our } boundary eng] //
 1	#	_	PUNCT	_	_	3	punct	_	211200|211643
 2	[eng	_	PUNCT	_	_	3	punct	_	211200|211643
 3	it's	_	X	_	_	0	root	_	211643|211983
@@ -865,7 +901,7 @@
 10	down	_	ADP	_	_	8	compound:prt	_	213383|213583
 11	sey	_	SCONJ	_	_	8	comp:obj	_	213583|213943
 12	[eng	_	PUNCT	_	_	14	punct	_	213943|213973
-13	we	_	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	14	subj	_	213973|214113
+13	we	_	PRON	_	Case=Nom|PronType=Prs|Number=Plur|Person=1	14	subj	_	213973|214113
 14	should	_	AUX	_	VerbForm=Fin	11	comp	_	214113|214283
 15	not	_	PART	_	Polarity=Neg	14	mod	_	214283|214453
 16	{	_	PUNCT	_	_	17	punct	_	214453|214483
@@ -878,38 +914,40 @@
 23	im	_	ADJ	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	28	dep	_	215683|215850
 24	||	_	PUNCT	_	_	26	punct	_	215850|215880
 25	#	_	PUNCT	_	_	26	punct	_	215880|216240
-26	our	_	ADJ	_	Number=Plur|Person=1|Poss=Yes|PronType=Prs	23	conj:dicto	_	216240|216702
+26	our	_	ADJ	_	PronType=Prs|Number=Plur|Poss=Yes|Person=1	23	conj:dicto	_	216240|216702
 27	}	_	PUNCT	_	_	23	punct	_	216702|216732
 28	boundary	_	NOUN	_	_	21	comp	_	216732|217327
 29	eng]	_	PUNCT	_	_	14	punct	_	217327|217357
 30	//	_	PUNCT	_	_	3	punct	_	217327|217357
+
 # elan_id = IBA_15_M_204 IBA_15_M_205
 # sent_id = P_IBA_15_Electrician_PRO_43
 # sent_translation = # All these things are what we do,
 # text = # all dis tin < na we >+ dey do //
 1	#	_	PUNCT	_	_	6	punct	_	217357|218900
 2	all	_	ADV	_	_	3	det	_	218900|219060
-3	dis	_	DET	_	Number=Sing|PronType=Prox	4	det	_	219060|219220
+3	dis	_	DET	_	PronType=Prox|Number=Sing	4	det	_	219060|219220
 4	tin	_	NOUN	_	_	6	dislocated	_	219220|219320
 5	<	_	PUNCT	_	_	4	punct	_	219320|219350
 6	na	_	PART	_	PartType=Cop	0	root	_	219350|219528
-7	we	_	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	comp:pred	_	219528|219580
+7	we	_	PRON	_	Case=Nom|PronType=Prs|Number=Plur|Person=1	6	comp:pred	_	219528|219580
 8	>+	_	PUNCT	_	_	9	punct	_	219580|219610
 9	dey	_	AUX	_	Aspect=Imp	6	comp:cleft	_	219610|219760
 10	do	_	VERB	_	_	9	comp:aux	_	219760|219970
 11	//	_	PUNCT	_	_	6	punct	_	219970|220000
+
 # elan_id = IBA_15_M_206 IBA_15_M_207 IBA_15_M_208 IBA_15_M_209 IBA_15_M_210 IBA_15_M_211
 # sent_id = P_IBA_15_Electrician_PRO_44
 # sent_translation = # e, those who are under me , we are at least we a, we are up to ten or fifteen.
-# text = # en dose who dey for under me < # { we're at least || we are || we } up { to # ten |c or to fifteen } //
+# text = # eh dose who dey for under me < # [eng { we're at least || we are || we } { up to # ten |c or to fifteen } eng] //
 1	#	_	PUNCT	_	_	13	punct	_	220000|222000
 2	eh	_	INTJ	_	_	13	discourse	_	222000|222500
-3	dose	_	PRON	_	Number=Plur|PronType=Dem	13	dislocated	_	222500|222765
+3	dose	_	PRON	_	PronType=Dem|Number=Plur	13	dislocated	_	222500|222765
 4	who	_	PRON	_	PronType=Int	5	subj	_	222765|222880
 5	dey	_	VERB	_	PartType=Cop	3	dep	_	222880|223030
 6	for	_	ADP	_	_	5	comp:pred	_	223030|223260
 7	under	_	ADP	_	_	6	comp	_	223260|223570
-8	me	_	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	7	comp	_	223570|223790
+8	me	_	PRON	_	Case=Acc|PronType=Prs|Number=Sing|Person=1	7	comp	_	223570|223790
 9	<	_	PUNCT	_	_	3	punct	_	223790|223820
 10	#	_	PUNCT	_	_	3	punct	_	223820|224860
 11	[eng	_	PUNCT	_	_	13	punct	_	224830|224860
@@ -918,10 +956,10 @@
 14	at	_	ADP	_	_	13	mod	_	225040|225220
 15	least	_	ADV	_	_	14	comp	_	225220|225410
 16	||	_	PUNCT	_	_	18	punct	_	225410|225440
-17	we	_	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	18	subj	_	225440|225550
+17	we	_	PRON	_	Case=Nom|PronType=Prs|Number=Plur|Person=1	18	subj	_	225440|225550
 18	are	_	AUX	_	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin  Lemma: be (CS)	13	conj:dicto	_	225550|225727
 19	||	_	PUNCT	_	_	20	punct	_	225727|225757
-20	we	_	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	18	orphan	_	225757|225850
+20	we	_	PRON	_	Case=Nom|PronType=Prs|Number=Plur|Person=1	18	orphan	_	225757|225850
 21	}	_	PUNCT	_	_	18	punct	_	225850|225880
 22	{	_	PUNCT	_	_	23	punct	_	225850|225880
 23	up	_	ADP	_	_	18	comp:pred	_	225880|226020
@@ -935,15 +973,16 @@
 31	}	_	PUNCT	_	_	23	punct	_	227827|227857
 32	eng]	_	PUNCT	_	_	13	punct	_	227827|227857
 33	//	_	PUNCT	_	_	13	punct	_	227827|227857
+
 # elan_id = IBA_15_M_212 IBA_15_M_213 IBA_15_M_214 IBA_15_M_215 IBA_15_M_216 IBA_15_M_217
 # sent_id = P_IBA_15_Electrician_PRO_45
 # sent_translation = # We have those that do nights afternoon, morning,
 # text = # we have eh dose who dey do { nights |c # afternoon |c # morning } //
 1	#	_	PUNCT	_	_	3	punct	_	227857|228660
-2	we	_	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	subj	_	228660|228754
+2	we	_	PRON	_	Case=Nom|PronType=Prs|Number=Plur|Person=1	3	subj	_	228660|228754
 3	have	_	VERB	_	_	0	root	_	228754|228960
 4	eh	_	INTJ	_	_	5	discourse	_	228960|229064
-5	dose	_	PRON	_	Number=Plur|PronType=Dem	3	comp:obj	_	229064|229250
+5	dose	_	PRON	_	PronType=Dem|Number=Plur	3	comp:obj	_	229064|229250
 6	who	_	PRON	_	PronType=Int	7	subj	_	229250|229321
 7	dey	_	AUX	_	Aspect=Imp	5	dep	_	229321|229480
 8	do	_	VERB	_	_	7	comp:aux	_	229480|229594
@@ -957,44 +996,46 @@
 16	morning	_	NOUN	_	_	13	conj:coord	_	232280|232630
 17	}	_	PUNCT	_	_	10	punct	_	232630|232660
 18	//	_	PUNCT	_	_	3	punct	_	232630|232660
+
 # elan_id = IBA_15_M_218 IBA_15_M_219 IBA_15_M_220 IBA_15_M_221
 # sent_id = P_IBA_15_Electrician_PRO_46
 # sent_translation = # that is how we do, divide them  that they should be working.
-# text = # that is how we { do || divided } dem # sey [ make de dey do work ] //
+# text = # [eng that is how we { do || divided } dem eng] # sey [ make de dey do work ] //
 1	#	_	PUNCT	_	_	4	punct	_	232660|233700
 2	[eng	_	PUNCT	_	_	4	punct	_	232660|233700
 3	that	_	SCONJ	_	_	4	subj	_	233700|233860
 4	is	_	AUX	_	Mood=Ind	0	root	_	233860|233990
 5	how	_	ADV	_	PronType=Int	4	comp:pred	_	233990|234170
-6	we	_	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	subj	_	234170|234270
+6	we	_	PRON	_	Case=Nom|PronType=Prs|Number=Plur|Person=1	8	subj	_	234170|234270
 7	{	_	PUNCT	_	_	8	punct	_	234270|234300
 8	do	_	VERB	_	_	5	dep	_	234300|234630
 9	||	_	PUNCT	_	_	10	punct	_	234630|234660
 10	divided	_	VERB	_	Tense=Past|VerbForm=Part	8	conj:dicto	_	234660|235160
 11	}	_	PUNCT	_	_	4	punct	_	235160|235190
-12	dem	_	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	10	comp:obj	_	235190|235474
+12	dem	_	PRON	_	Case=Nom|PronType=Prs|Number=Plur|Person=3	10	comp:obj	_	235190|235474
 13	eng]	_	PUNCT	_	_	4	punct	_	235474|235707
 14	#	_	PUNCT	_	_	15	punct	_	235474|235707
 15	sey	_	SCONJ	_	_	10	comp	_	235707|235820
 16	[	_	PUNCT	_	_	17	punct	_	235820|235850
 17	make	_	AUX	_	Mood=Jus	15	comp	_	235850|235960
-18	de	_	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	17	subj	_	235960|236120
+18	de	_	PRON	_	Case=Nom|PronType=Prs|Number=Plur|Person=3	17	subj	_	235960|236120
 19	dey	_	AUX	_	Aspect=Imp	17	comp:aux	_	236120|236260
 20	do	_	VERB	_	_	19	comp:aux	_	236260|236430
 21	work	_	NOUN	_	_	20	comp:obj	_	236430|236614
 22	]	_	PUNCT	_	_	17	punct	_	236614|236644
 23	//	_	PUNCT	_	_	4	punct	_	236614|236644
+
 # elan_id = IBA_15_M_222 IBA_15_M_223 IBA_15_M_224 IBA_15_M_225 IBA_15_M_226 IBA_15_M_227
 # sent_id = P_IBA_15_Electrician_PRO_47
 # sent_translation = # Those  the people who are on nights duty now, They are here early in the morning.
 # text = # { dose # s- || di people } wey dey night now < # de dey here early morning //
 1	#	_	PUNCT	_	_	17	punct	_	236644|237640
 2	{	_	PUNCT	_	_	5	punct	_	237610|237640
-3	dose	_	PRON	_	Number=Plur|PronType=Dem	5	dep	_	237640|238007
+3	dose	_	PRON	_	PronType=Dem|Number=Plur	5	dep	_	237640|238007
 4	#	_	PUNCT	_	_	5	punct	_	238007|238242
 5	s-	_	X	_	_	17	dislocated	_	238242|238470
 6	||	_	PUNCT	_	_	8	punct	_	238470|238500
-7	di	_	DET	_	Definite=Def|PronType=Art	8	det	_	238500|238620
+7	di	_	DET	_	PronType=Art|Definite=Def	8	det	_	238500|238620
 8	people	_	NOUN	_	_	5	conj:dicto	_	238620|238790
 9	}	_	PUNCT	_	_	5	punct	_	238790|238820
 10	wey	_	SCONJ	_	_	8	dep	_	238820|238950
@@ -1003,23 +1044,25 @@
 13	now	_	ADV	_	_	11	mod	_	239361|239590
 14	<	_	PUNCT	_	_	5	punct	_	239590|239620
 15	#	_	PUNCT	_	_	5	punct	_	239620|240000
-16	de	_	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	17	subj	_	240000|240100
+16	de	_	PRON	_	Case=Nom|PronType=Prs|Number=Plur|Person=3	17	subj	_	240000|240100
 17	dey	_	VERB	_	PartType=Cop	0	root	_	240100|240240
 18	here	_	ADV	_	PronType=Dem	17	comp:pred	_	240240|240390
 19	early	_	ADJ	_	_	20	dep	_	240390|240490
 20	morning	_	NOUN	_	_	17	mod	_	240490|240810
 21	//	_	PUNCT	_	_	17	punct	_	240810|240840
+
 # elan_id = IBA_15_M_228 IBA_15_M_229
 # sent_id = P_IBA_15_Electrician_PRO_48
 # sent_translation = # they are with us here,
 # text = # de dey with us here //
 1	#	_	PUNCT	_	_	3	punct	_	240840|241220
-2	de	_	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	subj	_	241220|241344
+2	de	_	PRON	_	Case=Nom|PronType=Prs|Number=Plur|Person=3	3	subj	_	241220|241344
 3	dey	_	VERB	_	PartType=Cop	0	root	_	241344|241508
 4	with	_	ADP	_	_	3	comp:pred	_	241508|241660
-5	us	_	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	4	comp	_	241660|241870
+5	us	_	PRON	_	Case=Acc|PronType=Prs|Number=Plur|Person=1	4	comp	_	241660|241870
 6	here	_	ADV	_	PronType=Dem	3	mod	_	241870|242030
 7	//	_	PUNCT	_	_	3	punct	_	242030|242060
+
 # elan_id = IBA_15_M_230 IBA_15_M_231
 # sent_id = P_IBA_15_Electrician_PRO_49
 # sent_translation = # some people are doing regular,
@@ -1028,11 +1071,12 @@
 2	some	_	DET	_	_	3	det	_	242380|242550
 3	people	_	NOUN	_	_	6	dislocated	_	242550|242750
 4	<	_	PUNCT	_	_	3	punct	_	242750|242780
-5	we	_	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	subj	_	242780|242880
+5	we	_	PRON	_	Case=Nom|PronType=Prs|Number=Plur|Person=1	6	subj	_	242780|242880
 6	dey	_	AUX	_	Aspect=Imp	0	root	_	242880|243030
 7	do	_	VERB	_	_	6	comp:aux	_	243030|243178
 8	regular	_	ADJ	_	_	7	comp:obj	_	243178|243570
 9	//	_	PUNCT	_	_	6	punct	_	243570|243600
+
 # elan_id = IBA_15_M_232 IBA_15_M_233
 # sent_id = P_IBA_15_Electrician_PRO_50
 # sent_translation = # regular is this, everyday, we come everyday,
@@ -1041,25 +1085,28 @@
 2	regular	_	ADJ	_	_	4	dislocated	_	244720|245130
 3	<	_	PUNCT	_	_	2	punct	_	245130|245160
 4	na	_	PART	_	PartType=Cop	0	root	_	245160|245247
-5	im	_	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	comp:pred	_	245247|245340
-6	dis	_	DET	_	Number=Sing|PronType=Prox	7	orphan	_	245340|245708
+5	im	_	PRON	_	Case=Nom|PronType=Prs|Number=Sing|Person=3	4	comp:pred	_	245247|245340
+6	dis	_	DET	_	PronType=Prox|Number=Sing	7	orphan	_	245340|245708
 7	&	_	X	_	_	4	comp:cleft	_	245708|245738
 8	//	_	PUNCT	_	_	4	punct	_	245708|245738
+
 # elan_id = IBA_15_M_233
 # sent_id = P_IBA_15_Electrician_PRO_51
 # sent_translation = regular is this, everyday, we come everyday,
 # text = everyday !//
 1	everyday	_	ADV	_	_	0	root	_	245738|246300
 2	!//	_	PUNCT	_	_	1	punct	_	246300|246330
+
 # elan_id = IBA_15_M_233
 # sent_id = P_IBA_15_Electrician_PRO_52
 # sent_translation = regular is this, everyday, we come everyday,
 # text = we dey come everyday //
-1	we	_	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	subj	_	246330|246480
+1	we	_	PRON	_	Case=Nom|PronType=Prs|Number=Plur|Person=1	2	subj	_	246330|246480
 2	dey	_	AUX	_	Aspect=Imp	0	root	_	246480|246610
 3	come	_	VERB	_	_	2	comp:aux	_	246610|246813
 4	everyday	_	ADV	_	_	3	mod	_	246813|247250
 5	//	_	PUNCT	_	_	2	punct	_	247250|247280
+
 # elan_id = IBA_15_M_234 IBA_15_M_235
 # sent_id = P_IBA_15_Electrician_PRO_53
 # sent_translation = # there is no shifting for that people,
@@ -1068,31 +1115,33 @@
 2	no	_	PART	_	Polarity=Neg	0	root	_	247760|248144
 3	shifting	_	NOUN	_	_	2	comp:pred	_	248144|248524
 4	for	_	ADP	_	_	2	comp:obl	_	248524|248640
-5	dat	_	DET	_	Number=Sing|PronType=Dem	6	det	_	248640|248859
+5	dat	_	DET	_	PronType=Dem|Number=Sing	6	det	_	248640|248859
 6	people	_	NOUN	_	_	4	comp	_	248859|249169
 7	//	_	PUNCT	_	_	2	punct	_	249169|249199
+
 # elan_id = IBA_15_M_236 IBA_15_M_237
 # sent_id = P_IBA_15_Electrician_PRO_54
 # sent_translation = # those who are on morning duty, they will come in the morning,
 # text = # dose who dey do morning < de go come in di morning //
 1	#	_	PUNCT	_	_	9	punct	_	249199|249580
-2	dose	_	DET	_	Number=Plur|PronType=Dem	9	dislocated	_	249580|249770
+2	dose	_	DET	_	PronType=Dem|Number=Plur	9	dislocated	_	249580|249770
 3	who	_	PRON	_	PronType=Int	4	subj	_	249770|249862
 4	dey	_	AUX	_	Aspect=Imp	2	dep	_	249862|250010
 5	do	_	VERB	_	_	4	comp:aux	_	250010|250150
 6	morning	_	NOUN	_	_	5	comp:obj	_	250150|250583
 7	<	_	PUNCT	_	_	2	punct	_	250583|250613
-8	de	_	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	subj	_	250613|250800
+8	de	_	PRON	_	Case=Nom|PronType=Prs|Number=Plur|Person=3	9	subj	_	250613|250800
 9	go	_	AUX	_	Tense=Prosp	0	root	_	250800|250910
 10	come	_	VERB	_	_	9	comp:aux	_	250910|251130
 11	in	_	ADP	_	_	10	mod	_	251130|251240
-12	di	_	DET	_	Definite=Def|PronType=Art	13	det	_	251240|251339
+12	di	_	DET	_	PronType=Art|Definite=Def	13	det	_	251240|251339
 13	morning	_	NOUN	_	_	11	comp	_	251339|251650
 14	//	_	PUNCT	_	_	9	punct	_	251650|251680
+
 # elan_id = IBA_15_M_238 IBA_15_M_239 IBA_15_M_240 IBA_15_M_241
 # sent_id = P_IBA_15_Electrician_PRO_55
 # sent_translation = # when it is two o clock,  they will live the work,
-# text = # when it is two o clock < # de leave di work //
+# text = # when it is two o'clock < # de leave di work //
 1	#	_	PUNCT	_	_	10	punct	_	251680|252040
 2	when	_	ADV	_	PronType=Int	10	mod:periph	_	252040|252200
 3	it	_	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	4	subj:expl	_	252200|252387
@@ -1101,25 +1150,26 @@
 6	o'clock	_	ADV	_	_	5	mod	_	252930|253280
 7	<	_	PUNCT	_	_	2	punct	_	253280|253310
 8	#	_	PUNCT	_	_	2	punct	_	253310|253530
-9	de	_	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	subj	_	253530|253679
+9	de	_	PRON	_	Case=Nom|PronType=Prs|Number=Plur|Person=3	10	subj	_	253530|253679
 10	leave	_	VERB	_	_	0	root	_	253679|253880
-11	di	_	DET	_	Definite=Def|PronType=Art	12	det	_	253880|254086
+11	di	_	DET	_	PronType=Art|Definite=Def	12	det	_	253880|254086
 12	work	_	NOUN	_	_	10	comp:obj	_	254086|254403
 13	//	_	PUNCT	_	_	10	punct	_	254403|254433
+
 # elan_id = IBA_15_M_242 IBA_15_M_243 IBA_15_M_244 IBA_15_M_245 IBA_15_M_246 IBA_15_M_247
 # sent_id = P_IBA_15_Electrician_PRO_56
 # sent_translation = # they will go back to there place where they, sleep.
 # text = # de go back to their # place wey dem dey { s- || # sleep } //
 1	#	_	PUNCT	_	_	3	punct	_	254433|254710
-2	de	_	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	subj	_	254710|254845
+2	de	_	PRON	_	Case=Nom|PronType=Prs|Number=Plur|Person=3	3	subj	_	254710|254845
 3	go	_	VERB	_	_	0	root	_	254845|255000
-4	back	_	ADP	_	_	3	compound:prt	_	255000|255280
+4	back	_	ADV	_	_	3	mod	_	255000|255280
 5	to	_	ADP	_	_	3	comp:obl	_	255280|255450
 6	their	_	ADJ	_	Number=Plur|Pers=3|Poss=Yes|PronType=Pers	8	dep	_	255450|255855
 7	#	_	PUNCT	_	_	8	punct	_	255855|256220
 8	place	_	NOUN	_	_	5	comp	_	256220|256844
 9	wey	_	SCONJ	_	_	8	dep	_	256844|257063
-10	dem	_	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	11	subj	_	257063|257220
+10	dem	_	PRON	_	Case=Nom|PronType=Prs|Number=Plur|Person=3	11	subj	_	257063|257220
 11	dey	_	AUX	_	Aspect=Imp	9	comp	_	257220|257580
 12	{	_	PUNCT	_	_	13	punct	_	257580|257610
 13	s-	_	X	_	_	11	comp:aux	_	257610|257670
@@ -1128,45 +1178,48 @@
 16	sleep	_	VERB	_	_	13	conj:dicto	_	258187|258937
 17	}	_	PUNCT	_	_	13	punct	_	258937|258967
 18	//	_	PUNCT	_	_	3	punct	_	258937|258967
+
 # elan_id = IBA_15_M_248 IBA_15_M_249
 # sent_id = P_IBA_15_Electrician_PRO_57
 # sent_translation = # But those who are on afternoon duty will come back by two.
 # text = # but dose who dey afternoon go come back by two //
 1	#	_	PUNCT	_	_	7	punct	_	258967|259780
 2	but	_	CCONJ	_	_	7	cc	_	259780|260000
-3	dose	_	PRON	_	Number=Plur|PronType=Dem	7	subj	_	260000|260263
+3	dose	_	PRON	_	PronType=Dem|Number=Plur	7	subj	_	260000|260263
 4	who	_	PRON	_	PronType=Int	5	subj	_	260263|260340
 5	dey	_	VERB	_	PartType=Cop	3	dep	_	260340|260458
 6	afternoon	_	NOUN	_	_	5	comp:pred	_	260458|261064
 7	go	_	AUX	_	Tense=Prosp	0	root	_	261064|261250
 8	come	_	VERB	_	_	7	comp:aux	_	261250|261450
-9	back	_	ADP	_	_	8	compound:prt	_	261450|261660
+9	back	_	ADV	_	_	8	mod	_	261450|261660
 10	by	_	ADP	_	_	8	mod	_	261660|261920
 11	two	_	NUM	_	NumType=Card	10	comp	_	261920|262130
 12	//	_	PUNCT	_	_	7	punct	_	262130|262160
+
 # elan_id = IBA_15_M_250 IBA_15_M_251
 # sent_id = P_IBA_15_Electrician_PRO_58
 # sent_translation = # they will close by nine,
-# text = # de will close by nine //
+# text = # [eng de will close by nine eng] //
 1	#	_	PUNCT	_	_	4	punct	_	262160|262465
 2	[eng	_	PUNCT	_	_	4	punct	_	262160|262465
-3	de	_	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	subj	_	262465|262578
+3	de	_	PRON	_	Case=Nom|PronType=Prs|Number=Plur|Person=3	4	subj	_	262465|262578
 4	will	_	AUX	_	_	0	root	_	262578|262710
 5	close	_	VERB	_	_	4	comp:aux	_	262710|263040
 6	by	_	ADP	_	_	5	comp:obl	_	263040|263271
 7	nine	_	NUM	_	_	6	comp	_	263271|263570
 8	eng]	_	PUNCT	_	_	4	punct	_	263570|263600
 9	//	_	PUNCT	_	_	4	punct	_	263570|263600
+
 # elan_id = IBA_15_M_252 IBA_15_M_253 IBA_15_M_254 IBA_15_M_255 IBA_15_M_256 IBA_15_M_257 IBA_15_M_258 IBA_15_M_259 IBA_15_M_260 IBA_15_M_261
 # sent_id = P_IBA_15_Electrician_PRO_59
 # sent_translation = # after nine,  those who are on night duty, they will take over from them. from then to the other day,  the second day. morning,
-# text = # after nine < # dose { who || do || dey } for night < de will take over from dem # { from || to || to } { di oda day || # di second day || # morning } //
+# text = # after nine < # dose who { do || dey } for night < [eng de will take over from dem eng] # { from || to || to } { di oda day |a # di second day |a # morning } # because before di morning people come # take over from dem //
 1	#	_	PUNCT	_	_	18	punct	_	263600|264200
 2	after	_	ADP	_	_	18	mod:periph	_	264200|264540
 3	nine	_	NUM	_	_	2	comp	_	264540|264850
 4	<	_	PUNCT	_	_	2	punct	_	264850|264880
 5	#	_	PUNCT	_	_	2	punct	_	264880|265110
-6	dose	_	DET	_	Number=Plur|PronType=Dem	18	dislocated	_	265110|265310
+6	dose	_	DET	_	PronType=Dem|Number=Plur	18	dislocated	_	265110|265310
 7	who	_	PRON	_	PronType=Int	9	subj	_	265340|265710
 8	{	_	PUNCT	_	_	9	punct	_	265710|265740
 9	do	_	VERB	_	_	6	dep	_	265740|265971
@@ -1177,12 +1230,12 @@
 14	night	_	NOUN	_	_	13	comp	_	266340|266870
 15	<	_	PUNCT	_	_	6	punct	_	266870|266900
 16	[eng	_	PUNCT	_	_	18	punct	_	266870|266900
-17	de	_	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	18	subj	_	266900|266990
+17	de	_	PRON	_	Case=Nom|PronType=Prs|Number=Plur|Person=3	18	subj	_	266900|266990
 18	will	_	AUX	_	_	0	root	_	266990|267080
 19	take	_	VERB	_	_	18	comp:aux	_	267080|267270
 20	over	_	ADP	_	_	19	compound:prt	_	267270|267490
 21	from	_	ADP	_	_	19	comp:obl	_	267490|267760
-22	dem	_	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	21	comp	_	267760|268038
+22	dem	_	PRON	_	Case=Acc|PronType=Prs|Number=Plur|Person=3	21	comp	_	267760|268038
 23	eng]	_	PUNCT	_	_	18	punct	_	268038|269200
 24	#	_	PUNCT	_	_	26	punct	_	268038|269200
 25	{	_	PUNCT	_	_	26	punct	_	269170|269200
@@ -1193,12 +1246,12 @@
 30	to	_	ADP	_	_	28	conj:dicto	_	269810|269915
 31	}	_	PUNCT	_	_	26	punct	_	269915|269945
 32	{	_	PUNCT	_	_	35	punct	_	269915|269945
-33	di	_	DET	_	Definite=Def|PronType=Art	35	det	_	269945|270120
+33	di	_	DET	_	PronType=Art|Definite=Def	35	det	_	269945|270120
 34	oda	_	ADJ	_	_	35	dep	_	270120|270526
 35	day	_	NOUN	_	_	30	comp	_	270526|270840
 36	|a	_	PUNCT	_	_	40	punct	_	270840|270870
 37	#	_	PUNCT	_	_	40	punct	_	270870|271064
-38	di	_	DET	_	Definite=Def|PronType=Art	40	det	_	271064|271166
+38	di	_	DET	_	PronType=Art|Definite=Def	40	det	_	271064|271166
 39	second	_	NOUN	_	_	40	dep	_	271166|271550
 40	day	_	NOUN	_	_	35	conj:appos	_	271550|271750
 41	|a	_	PUNCT	_	_	43	punct	_	271750|271780
@@ -1208,7 +1261,7 @@
 45	#	_	PUNCT	_	_	46	punct	_	273678|274380
 46	because	_	SCONJ	_	_	19	mod	_	274380|274830
 47	before	_	ADP	_	_	51	mod:periph	_	274860|275170
-48	di	_	DET	_	Definite=Def|PronType=Art	49	det	_	275170|275450
+48	di	_	DET	_	PronType=Art|Definite=Def	49	det	_	275170|275450
 49	morning	_	NOUN	_	_	47	comp	_	275450|275690
 50	people	_	NOUN	_	_	51	subj	_	275690|275970
 51	come	_	AUX	_	Aspect=Real	46	comp	_	275970|276210
@@ -1216,23 +1269,25 @@
 53	take	_	VERB	_	_	51	comp:aux	_	276425|276620
 54	over	_	ADP	_	_	53	compound:prt	_	276620|276810
 55	from	_	ADP	_	_	53	comp:obl	_	276810|277070
-56	dem	_	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	55	comp	_	277070|277270
+56	dem	_	PRON	_	Case=Acc|PronType=Prs|Number=Plur|Person=3	55	comp	_	277070|277270
 57	//	_	PUNCT	_	_	18	punct	_	277270|277300
+
 # elan_id = IBA_15_M_266 IBA_15_M_267
 # sent_id = P_IBA_15_Electrician_PRO_60
 # sent_translation = # That is how we do our work here.
 # text = # dat is how we dey work our work here //
 1	#	_	PUNCT	_	_	3	punct	_	277300|278040
-2	dat	_	PRON	_	Number=Sing|PronType=Dem	3	subj	_	278040|278203
+2	dat	_	PRON	_	PronType=Dem|Number=Sing	3	subj	_	278040|278203
 3	is	_	AUX	_	Mood=Ind	0	root	_	278203|278314
 4	how	_	ADV	_	PronType=Int	3	comp:pred	_	278314|278490
-5	we	_	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	subj	_	278490|278580
+5	we	_	PRON	_	Case=Nom|PronType=Prs|Number=Plur|Person=1	6	subj	_	278490|278580
 6	dey	_	AUX	_	Aspect=Imp	4	dep	_	278580|278710
 7	work	_	VERB	_	_	6	comp:aux	_	278710|278970
 8	our	_	ADJ	_	Number=Plur|Person=1|Poss=Yes|PronType=Prs	9	det	_	278970|279230
 9	work	_	NOUN	_	_	7	comp:obj	_	279230|279528
 10	here	_	ADV	_	PronType=Dem	7	mod	_	279528|279690
 11	//	_	PUNCT	_	_	3	punct	_	279690|279720
+
 # elan_id = IBA_15_M_268 IBA_15_M_269
 # sent_id = P_IBA_15_Electrician_PRO_61
 # sent_translation = # No, we do not collect money o, it is only salary that we collect here.
@@ -1240,46 +1295,49 @@
 1	#	_	PUNCT	_	_	2	punct	_	279720|282600
 2	no	_	PART	_	Polarity=Neg	0	root	_	282600|283033
 3	//	_	PUNCT	_	_	2	punct	_	283033|283063
+
 # elan_id = IBA_15_M_269
 # sent_id = P_IBA_15_Electrician_PRO_62
 # sent_translation = No, we do not collect money o, it is only salary that we collect here.
 # text = we no dey collect money o //
-1	we	_	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	subj	_	283063|283230
+1	we	_	PRON	_	Case=Nom|PronType=Prs|Number=Plur|Person=1	3	subj	_	283063|283230
 2	no	_	PART	_	Polarity=Neg	3	mod	_	283230|283350
 3	dey	_	AUX	_	Aspect=Imp	0	root	_	283350|283461
 4	collect	_	VERB	_	_	3	comp:aux	_	283461|283750
 5	money	_	NOUN	_	_	4	comp:obj	_	283750|284030
 6	o	_	PART	_	PartType=Disc	3	mod:emph	_	284030|284080
 7	//	_	PUNCT	_	_	3	punct	_	284080|284110
+
 # elan_id = IBA_15_M_269 IBA_15_M_270 IBA_15_M_271
 # sent_id = P_IBA_15_Electrician_PRO_63
 # sent_translation = No, we do not collect money o, it is only salary that we collect here. # That the federal government give us.
-# text = na only salary >+ we dey collect here # wey { yeh || di } federal government dey give us ] //
+# text = na only salary >+ we dey collect here # wey yeah di Federal Government dey give us //
 1	na	_	PART	_	PartType=Cop	0	root	_	284110|284293
 2	only	_	ADV	_	_	3	dep	_	284293|284450
 3	salary	_	NOUN	_	_	1	comp:pred	_	284450|284810
 4	>+	_	PUNCT	_	_	6	punct	_	284810|284840
-5	we	_	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	subj	_	284840|284930
+5	we	_	PRON	_	Case=Nom|PronType=Prs|Number=Plur|Person=1	6	subj	_	284840|284930
 6	dey	_	AUX	_	Aspect=Imp	1	comp:cleft	_	284930|285040
 7	collect	_	VERB	_	_	6	comp:aux	_	285040|285409
 8	here	_	ADV	_	PronType=Dem	7	comp:obj	_	285409|285640
 9	#	_	PUNCT	_	_	10	punct	_	285640|286440
 10	wey	_	SCONJ	_	_	3	dep	_	286440|286539
 11	yeah	_	INTJ	_	_	15	discourse	_	286569|286858
-12	di	_	DET	_	Definite=Def|PronType=Art	14	det	_	286888|287053
+12	di	_	DET	_	PronType=Art|Definite=Def	14	det	_	286888|287053
 13	Federal	_	PROPN	_	_	14	compound	_	287083|287400
 14	Government	_	PROPN	_	_	15	subj	_	287400|287660
 15	dey	_	AUX	_	Aspect=Imp	10	comp	_	287660|287790
 16	give	_	VERB	_	_	15	comp:aux	_	287790|287987
-17	us	_	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	16	comp:obj	_	287987|288150
+17	us	_	PRON	_	Case=Acc|PronType=Prs|Number=Plur|Person=1	16	comp:obj	_	287987|288150
 18	//	_	PUNCT	_	_	1	punct	_	288150|288180
+
 # elan_id = IBA_15_M_272 IBA_15_M_273
 # sent_id = P_IBA_15_Electrician_PRO_64
 # sent_translation = # If we go and work in your house now, we will not collect a dine from you.
-# text = # if we go work for { house sef || for your house now } < we no go collect kobo for you //
+# text = # if we go work for { house sef |a for your house now } < we no go collect kobo for you //
 1	#	_	PUNCT	_	_	19	punct	_	288180|288540
 2	if	_	SCONJ	_	_	19	mod:periph	_	288540|288677
-3	we	_	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	subj	_	288677|288770
+3	we	_	PRON	_	Case=Nom|PronType=Prs|Number=Plur|Person=1	4	subj	_	288677|288770
 4	go	_	VERB	_	_	2	comp	_	288770|288926
 5	work	_	VERB	_	_	4	compound:svc	_	288926|289054
 6	for	_	ADP	_	_	5	comp:obl	_	289054|289150
@@ -1288,19 +1346,20 @@
 9	sef	_	PART	_	PartType=Disc	8	mod:emph	_	289390|289491
 10	|a	_	PUNCT	_	_	11	punct	_	289491|289521
 11	for	_	ADP	_	_	8	conj:appos	_	289521|289678
-12	your	_	ADJ	_	Number=Sing|Person=2|Poss=Yes|PronType=Prs	13	dep	_	289678|289830
+12	your	_	ADJ	_	PronType=Prs|Number=Sing|Poss=Yes|Person=2	13	dep	_	289678|289830
 13	house	_	NOUN	_	_	11	comp	_	289830|290094
 14	now	_	ADV	_	_	13	mod:emph	_	290094|290310
 15	}	_	PUNCT	_	_	2	punct	_	290310|290340
 16	<	_	PUNCT	_	_	2	punct	_	290310|290340
-17	we	_	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	19	subj	_	290340|290440
+17	we	_	PRON	_	Case=Nom|PronType=Prs|Number=Plur|Person=1	19	subj	_	290340|290440
 18	no	_	PART	_	Polarity=Neg	19	mod	_	290440|290570
 19	go	_	AUX	_	Tense=Prosp	0	root	_	290570|290690
 20	collect	_	VERB	_	_	19	comp:aux	_	290690|290980
 21	kobo	_	NOUN	_	_	20	comp:obj	_	290980|291350
 22	for	_	ADP	_	_	20	comp:obl	_	291350|291524
-23	you	_	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	22	comp	_	291524|291710
+23	you	_	PRON	_	Case=Acc|PronType=Prs|Number=Sing|Person=2	22	comp	_	291524|291710
 24	//	_	PUNCT	_	_	19	punct	_	291710|291740
+
 # elan_id = IBA_15_M_274 IBA_15_M_275 IBA_15_M_276 IBA_15_M_277
 # sent_id = P_IBA_15_Electrician_PRO_65
 # sent_translation = # because it is our poli-... duty to do the work for you.
@@ -1309,7 +1368,7 @@
 2	because	_	SCONJ	_	_	4	cc	_	293120|293420
 3	it	_	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	4	subj:expl	_	293420|293550
 4	is	_	AUX	_	Mood=Ind	0	root	_	293550|293650
-5	our	_	ADJ	_	Number=Plur|Person=1|Poss=Yes|PronType=Prs	7	dep	_	293650|293896
+5	our	_	ADJ	_	PronType=Prs|Number=Plur|Poss=Yes|Person=1	7	dep	_	293650|293896
 6	{	_	PUNCT	_	_	7	punct	_	293896|293926
 7	pol-	_	NOUN	_	_	4	comp:quasi	_	293926|294212
 8	||	_	PUNCT	_	_	9	punct	_	294212|294242
@@ -1324,71 +1383,73 @@
 17	#	_	PUNCT	_	_	18	punct	_	295840|296801
 18	to	_	ADP	_	_	4	comp:pred	_	296801|296917
 19	do	_	VERB	_	_	18	comp	_	296917|297046
-20	di	_	DET	_	Definite=Def|PronType=Art	21	det	_	297046|297170
+20	di	_	DET	_	PronType=Art|Definite=Def	21	det	_	297046|297170
 21	work	_	NOUN	_	_	19	comp:obj	_	297170|297370
 22	for	_	ADP	_	_	19	comp:obl	_	297370|297510
-23	you	_	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	22	comp	_	297510|297750
+23	you	_	PRON	_	Case=Acc|PronType=Prs|Number=Sing|Person=2	22	comp	_	297510|297750
 24	//	_	PUNCT	_	_	4	punct	_	297750|297780
+
 # elan_id = IBA_15_M_278 IBA_15_M_279 IBA_15_M_280 IBA_15_M_281
 # sent_id = P_IBA_15_Electrician_PRO_66
 # sent_translation = # We do not collect money, we do not collect money.
 # text = # e no dey collect money //= # e no dey collect ego //
 1	#	_	PUNCT	_	_	4	punct	_	297780|299180
-2	e	_	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	subj	_	299180|299240
+2	e	_	PRON	_	Case=Nom|PronType=Prs|Number=Sing|Person=3	4	subj	_	299180|299240
 3	no	_	PART	_	Polarity=Neg	4	mod	_	299240|299394
 4	dey	_	AUX	_	Aspect=Imp	0	root	_	299394|299491
 5	collect	_	VERB	_	_	4	comp:aux	_	299491|299827
 6	money	_	NOUN	_	_	5	comp:obj	_	299827|300070
 7	//=	_	PUNCT	_	_	11	punct	_	300070|300100
 8	#	_	PUNCT	_	_	11	punct	_	300100|301303
-9	e	_	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	11	subj	_	301303|301360
+9	e	_	PRON	_	Case=Nom|PronType=Prs|Number=Sing|Person=3	11	subj	_	301303|301360
 10	no	_	PART	_	Polarity=Neg	11	mod	_	301360|301470
 11	dey	_	AUX	_	Aspect=Imp	4	parataxis:conj	_	301470|301550
 12	collect	_	VERB	_	_	11	comp:aux	_	301550|301880
 13	ego	_	NOUN	_	_	12	comp:obj	_	301880|302216
 14	//	_	PUNCT	_	_	4	punct	_	302216|302246
+
 # elan_id = IBA_15_M_282 IBA_15_M_283 IBA_15_M_284 IBA_15_M_285 IBA_15_M_286 IBA_15_M_287
 # sent_id = P_IBA_15_Electrician_PRO_67
 # sent_translation = # Only what we get in return is, that if you say the work we do for you pleases you.  you will say  take, go and buy minerals
-# text = # only what we collect < we say [ if you say [ { we || eh di work } wey we do for you sey < { e || e } please you ] < # you go say # take go buy minerals //] //
+# text = # only what we collect < we say [ if you say [ { we || eh di work } wey we do for you sey < { e || e } please you ] |c # you go say [ # take go buy minerals //] < # if to say [ na ten naira you bring ] < we go { take eh happily |c # collect am from you |c # pray for you sey [ God go bless you o ] } //= # e go increase your # your wealth # { very || very } well ] //
 1	#	_	PUNCT	_	_	8	punct	_	302246|304380
 2	only	_	ADJ	_	_	3	dep	_	304380|304616
 3	what	_	PRON	_	PronType=Int	8	dislocated	_	304616|304840
-4	we	_	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	subj	_	304840|305080
+4	we	_	PRON	_	Case=Nom|PronType=Prs|Number=Plur|Person=1	5	subj	_	304840|305080
 5	collect	_	VERB	_	_	3	dep	_	305080|305400
 6	<	_	PUNCT	_	_	3	punct	_	305400|305430
-7	we	_	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	subj	_	305430|305520
+7	we	_	PRON	_	Case=Nom|PronType=Prs|Number=Plur|Person=1	8	subj	_	305430|305520
 8	say	_	VERB	_	_	0	root	_	305520|305770
 9	[	_	PUNCT	_	_	62	punct	_	305770|305800
 10	if	_	SCONJ	_	_	62	mod:periph	_	305800|305990
-11	you	_	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	12	subj	_	305990|306143
+11	you	_	PRON	_	Case=Nom|PronType=Prs|Number=Sing|Person=2	12	subj	_	305990|306143
 12	say	_	VERB	_	_	10	comp	_	306143|306460
 13	[	_	PUNCT	_	_	15	punct	_	306460|306490
 14	{	_	PUNCT	_	_	15	punct	_	306460|306490
-15	we	_	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	33	dislocated	_	306490|306602
+15	we	_	PRON	_	Case=Nom|PronType=Prs|Number=Plur|Person=1	33	dislocated	_	306490|306602
 16	||	_	PUNCT	_	_	19	punct	_	306602|306632
 17	eh	_	INTJ	_	_	19	discourse	_	306632|306783
-18	di	_	DET	_	Definite=Def|PronType=Art	19	det	_	306783|306900
+18	di	_	DET	_	PronType=Art|Definite=Def	19	det	_	306783|306900
 19	work	_	NOUN	_	_	15	conj:dicto	_	306900|307110
 20	}	_	PUNCT	_	_	15	punct	_	307110|307140
 21	wey	_	SCONJ	_	_	19	det	_	307140|307284
-22	we	_	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	23	subj	_	307284|307407
+22	we	_	PRON	_	Case=Nom|PronType=Prs|Number=Plur|Person=1	23	subj	_	307284|307407
 23	do	_	VERB	_	_	21	comp	_	307407|307530
 24	for	_	ADP	_	_	23	comp:obl	_	307530|307720
-25	you	_	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	24	comp	_	307720|307810
+25	you	_	PRON	_	Case=Acc|PronType=Prs|Number=Sing|Person=2	24	comp	_	307720|307810
 26	sey	_	SCONJ	_	_	23	comp:obj	_	307810|307959
 27	<	_	PUNCT	_	_	33	punct	_	307959|307989
 28	{	_	PUNCT	_	_	29	punct	_	307959|307989
-29	e	_	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	33	subj	_	307989|308080
+29	e	_	PRON	_	Case=Nom|PronType=Prs|Number=Sing|Person=3	33	subj	_	307989|308080
 30	||	_	PUNCT	_	_	31	punct	_	308080|308110
 31	e	_	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	29	conj:dicto	_	308110|308250
 32	}	_	PUNCT	_	_	29	punct	_	308250|308280
 33	please	_	VERB	_	_	12	parataxis:obj	_	308280|308622
-34	you	_	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	33	comp:obj	_	308622|308850
+34	you	_	PRON	_	Case=Acc|PronType=Prs|Number=Sing|Person=2	33	comp:obj	_	308622|308850
 35	]	_	PUNCT	_	_	33	punct	_	308850|308880
 36	|c	_	PUNCT	_	_	10	punct	_	308850|308880
 37	#	_	PUNCT	_	_	10	punct	_	308880|309340
-38	you	_	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	39	subj	_	309340|309410
+38	you	_	PRON	_	Case=Nom|PronType=Prs|Number=Sing|Person=2	39	subj	_	309340|309410
 39	go	_	AUX	_	Tense=Prosp	12	conj:coord	_	309410|309510
 40	say	_	VERB	_	_	39	comp:aux	_	309510|309800
 41	[	_	PUNCT	_	_	43	punct	_	309800|310073
@@ -1407,11 +1468,11 @@
 54	na	_	PART	_	PartType=Cop	52	parataxis:obj	_	312348|312520
 55	ten	_	NUM	_	NumType=Card	56	dep	_	312520|312670
 56	naira	_	NOUN	_	_	54	comp:pred	_	312670|312920
-57	you	_	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	58	subj	_	312920|313000
+57	you	_	PRON	_	Case=Nom|PronType=Prs|Number=Sing|Person=2	58	subj	_	312920|313000
 58	bring	_	VERB	_	_	54	comp:cleft	_	313000|313361
 59	]	_	PUNCT	_	_	54	punct	_	313361|313391
 60	<	_	PUNCT	_	_	50	punct	_	313361|313391
-61	we	_	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	62	subj	_	313391|313560
+61	we	_	PRON	_	Case=Nom|PronType=Prs|Number=Plur|Person=1	62	subj	_	313391|313560
 62	go	_	AUX	_	Tense=Prosp	8	parataxis:obj	_	313560|313680
 63	{	_	PUNCT	_	_	64	punct	_	313680|313710
 64	take	_	VERB	_	_	62	comp:aux	_	313710|313880
@@ -1420,31 +1481,31 @@
 67	|c	_	PUNCT	_	_	69	punct	_	314490|314520
 68	#	_	PUNCT	_	_	69	punct	_	314520|315200
 69	collect	_	VERB	_	_	64	conj:coord	_	315200|315460
-70	am	_	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	69	comp:obj	_	315460|315617
+70	am	_	PRON	_	Case=Acc|PronType=Prs|Number=Sing|Person=3	69	comp:obj	_	315460|315617
 71	from	_	ADP	_	_	69	comp:obl	_	315617|315787
-72	you	_	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	71	comp	_	315787|316000
+72	you	_	PRON	_	Case=Acc|PronType=Prs|Number=Sing|Person=2	71	comp	_	315787|316000
 73	|c	_	PUNCT	_	_	75	punct	_	316000|316030
 74	#	_	PUNCT	_	_	75	punct	_	316030|316240
 75	pray	_	VERB	_	_	69	conj:coord	_	316240|316394
 76	for	_	ADP	_	_	75	comp:obl	_	316394|316530
-77	you	_	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	76	comp	_	316530|316620
+77	you	_	PRON	_	Case=Acc|PronType=Prs|Number=Sing|Person=2	76	comp	_	316530|316620
 78	sey	_	SCONJ	_	_	75	comp:obj	_	316620|316760
 79	[	_	PUNCT	_	_	81	punct	_	316760|316790
 80	God	_	PROPN	_	_	81	subj	_	316790|316980
 81	go	_	AUX	_	Tense=Prosp	78	comp	_	316980|317130
 82	bless	_	VERB	_	_	81	comp:aux	_	317130|317444
-83	you	_	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	82	comp:obj	_	317444|317660
+83	you	_	PRON	_	Case=Acc|PronType=Prs|Number=Sing|Person=2	82	comp:obj	_	317444|317660
 84	o	_	PART	_	PartType=Disc	81	mod:emph	_	317660|317790
 85	]	_	PUNCT	_	_	81	punct	_	317790|317820
 86	}	_	PUNCT	_	_	64	punct	_	317790|317820
 87	//=	_	PUNCT	_	_	62	punct	_	317790|317820
 88	#	_	PUNCT	_	_	90	punct	_	317820|318300
-89	e	_	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	90	subj	_	318300|318370
+89	e	_	PRON	_	Case=Nom|PronType=Prs|Number=Sing|Person=3	90	subj	_	318300|318370
 90	go	_	AUX	_	Tense=Prosp	62	parataxis:conj	_	318370|318520
 91	increase	_	VERB	_	_	90	comp:aux	_	318520|318860
-92	your	_	ADJ	_	Number=Sing|Person=2|Poss=Yes|PronType=Prs	95	dep	_	318860|319380
+92	your	_	ADJ	_	PronType=Prs|Number=Sing|Poss=Yes|Person=2	95	dep	_	318860|319380
 93	#	_	PUNCT	_	_	92	punct	_	319380|320160
-94	your	_	ADJ	_	Number=Sing|Person=2|Poss=Yes|PronType=Prs	92	conj:dicto	_	320160|320380
+94	your	_	ADJ	_	PronType=Prs|Number=Sing|Poss=Yes|Person=2	92	conj:dicto	_	320160|320380
 95	wealth	_	NOUN	_	_	91	comp:obj	_	320380|320720
 96	#	_	PUNCT	_	_	102	punct	_	320720|321480
 97	{	_	PUNCT	_	_	98	punct	_	321450|321480
@@ -1455,6 +1516,7 @@
 102	well	_	ADV	_	_	91	mod	_	321987|322270
 103	]	_	PUNCT	_	_	62	punct	_	322270|322300
 104	//	_	PUNCT	_	_	8	punct	_	322270|322300
+
 # elan_id = IBA_15_M_300 IBA_15_M_301
 # sent_id = P_IBA_15_Electrician_PRO_68
 # sent_translation = # That is how we do here.
@@ -1463,22 +1525,24 @@
 2	na	_	PART	_	PartType=Cop	0	root	_	322680|322800
 3	so	_	ADV	_	_	2	comp:pred	_	322800|322890
 4	>+	_	PUNCT	_	_	6	punct	_	322890|322920
-5	we	_	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	subj	_	322920|323020
+5	we	_	PRON	_	Case=Nom|PronType=Prs|Number=Plur|Person=1	6	subj	_	322920|323020
 6	dey	_	AUX	_	Aspect=Imp	2	comp:cleft	_	323020|323180
 7	do	_	VERB	_	_	6	comp:aux	_	323180|323329
 8	here	_	ADV	_	PronType=Dem	7	mod	_	323329|323490
 9	//	_	PUNCT	_	_	2	punct	_	323490|323520
+
 # elan_id = IBA_15_M_302 IBA_15_M_303
 # sent_id = P_IBA_15_Electrician_PRO_69
 # sent_translation = # We do not collect money,
 # text = # we no dey collect money //
 1	#	_	PUNCT	_	_	4	punct	_	323520|323860
-2	we	_	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	subj	_	323860|323930
+2	we	_	PRON	_	Case=Nom|PronType=Prs|Number=Plur|Person=1	4	subj	_	323860|323930
 3	no	_	PART	_	Polarity=Neg	4	mod	_	323930|324040
 4	dey	_	AUX	_	Aspect=Imp	0	root	_	324040|324147
 5	collect	_	VERB	_	_	4	comp:aux	_	324147|324521
 6	money	_	NOUN	_	_	5	comp:obj	_	324521|324750
 7	//	_	PUNCT	_	_	4	punct	_	324750|324780
+
 # elan_id = IBA_15_M_304 IBA_15_M_305 IBA_15_M_306 IBA_15_M_307
 # sent_id = P_IBA_15_Electrician_PRO_70
 # sent_translation = # anybody that comes here, we render our service to them.
@@ -1490,34 +1554,36 @@
 5	here	_	ADV	_	PronType=Dem	4	comp:obj	_	326500|326670
 6	<	_	PUNCT	_	_	2	punct	_	326670|326700
 7	#	_	PUNCT	_	_	2	punct	_	326700|327320
-8	we	_	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	subj	_	327320|327450
+8	we	_	PRON	_	Case=Nom|PronType=Prs|Number=Plur|Person=1	9	subj	_	327320|327450
 9	do	_	VERB	_	_	0	root	_	327450|327560
-10	our	_	ADJ	_	Number=Plur|Person=1|Poss=Yes|PronType=Prs	12	dep	_	327560|327800
+10	our	_	ADJ	_	PronType=Prs|Number=Plur|Poss=Yes|Person=1	12	dep	_	327560|327800
 11	own	_	ADJ	_	_	12	dep	_	327800|327867
 12	service	_	NOUN	_	_	9	comp:obj	_	327867|328176
 13	for	_	ADP	_	_	9	comp:obl	_	328176|328380
-14	am	_	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	13	comp	_	328380|328490
+14	am	_	PRON	_	Case=Acc|PronType=Prs|Number=Sing|Person=3	13	comp	_	328380|328490
 15	//	_	PUNCT	_	_	9	punct	_	328490|328520
+
 # sent_id = P_IBA_15_Electrician_PRO_3
 # text = # na dere >+ I dey work //
 1	#	_	PUNCT	_	_	2	punct	_	10120|11620
 2	na	_	PART	_	PartType=Cop	0	root	_	11620|11720
 3	dere	_	ADV	_	PronType=Dem	2	comp:pred	_	11720|11860
 4	>+	_	PUNCT	_	_	6	punct	_	11860|11890
-5	I	_	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	subj	_	11890|11980
+5	I	_	PRON	_	Case=Nom|PronType=Prs|Number=Sing|Person=1	6	subj	_	11890|11980
 6	dey	_	AUX	_	Aspect=Imp	2	comp:cleft	_	11980|12130
 7	work	_	NOUN	_	_	6	comp:aux	_	12130|12482
 8	//	_	PUNCT	_	_	2	punct	_	12482|12512
+
 # sent_id = P_IBA_15_Electrician_PRO_14
 # text = we lay cable |c # but when we want lay cable < # ( { dat big one |a cable } < if you carry am < # na big one //) # we go lay am for inside gutter wey dem go dig for us //
-1	we	_	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	subj	_	61580|61681
+1	we	_	PRON	_	Case=Nom|PronType=Prs|Number=Plur|Person=1	2	subj	_	61580|61681
 2	lay	_	VERB	_	_	0	root	_	61681|61821
 3	cable	_	NOUN	_	_	2	comp:obj	_	61851|62170
 4	|c	_	PUNCT	_	_	35	punct	_	62170|62200
 5	#	_	PUNCT	_	_	35	punct	_	62200|63200
 6	but	_	CCONJ	_	_	35	cc	_	63200|63370
 7	when	_	ADV	_	PronType=Int	35	mod:periph	_	63370|63580
-8	we	_	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	subj	_	63580|63680
+8	we	_	PRON	_	Case=Nom|PronType=Prs|Number=Plur|Person=1	9	subj	_	63580|63680
 9	want	_	VERB	_	_	7	comp	_	63680|63830
 10	lay	_	VERB	_	_	9	comp:pred	_	63830|64020
 11	cable	_	NOUN	_	_	10	comp:obj	_	64020|64310
@@ -1525,7 +1591,7 @@
 13	#	_	PUNCT	_	_	29	punct	_	64340|65540
 14	(	_	PUNCT	_	_	18	punct	_	65510|65540
 15	{	_	PUNCT	_	_	18	punct	_	65510|65540
-16	dat	_	DET	_	Number=Sing|PronType=Dem	18	det	_	65540|65790
+16	dat	_	DET	_	PronType=Dem|Number=Sing	18	det	_	65540|65790
 17	big	_	ADJ	_	_	18	dep	_	65790|66000
 18	one	_	NUM	_	NumType=Card	29	dislocated	_	66000|66190
 19	|a	_	PUNCT	_	_	20	punct	_	66190|66551
@@ -1533,9 +1599,9 @@
 21	}	_	PUNCT	_	_	18	punct	_	66551|66581
 22	<	_	PUNCT	_	_	18	punct	_	66551|66581
 23	if	_	SCONJ	_	_	29	mod:periph	_	66581|66750
-24	you	_	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	25	subj	_	66750|66830
+24	you	_	PRON	_	Case=Nom|PronType=Prs|Number=Sing|Person=2	25	subj	_	66750|66830
 25	carry	_	VERB	_	_	23	comp	_	66830|67040
-26	am	_	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	25	comp:obj	_	67040|67230
+26	am	_	PRON	_	Case=Acc|PronType=Prs|Number=Sing|Person=3	25	comp:obj	_	67040|67230
 27	<	_	PUNCT	_	_	23	punct	_	67230|67260
 28	#	_	PUNCT	_	_	29	punct	_	67260|67960
 29	na	_	PART	_	PartType=Cop	7	parataxis:parenth	_	67960|68130
@@ -1543,53 +1609,56 @@
 31	one	_	NUM	_	NumType=Card	29	comp:pred	_	68390|68630
 32	//)	_	PUNCT	_	_	18	punct	_	68630|68660
 33	#	_	PUNCT	_	_	35	punct	_	68660|70140
-34	we	_	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	35	subj	_	70140|70230
+34	we	_	PRON	_	Case=Nom|PronType=Prs|Number=Plur|Person=1	35	subj	_	70140|70230
 35	go	_	AUX	_	Tense=Prosp	2	conj:coord	_	70230|70340
 36	lay	_	VERB	_	_	35	comp:aux	_	70340|70550
-37	am	_	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	36	comp:obj	_	70550|70740
+37	am	_	PRON	_	Case=Acc|PronType=Prs|Number=Sing|Person=3	36	comp:obj	_	70550|70740
 38	for	_	ADP	_	_	36	comp:obl	_	70740|70870
 39	inside	_	ADP	_	_	38	comp	_	70870|71170
 40	gutter	_	NOUN	_	_	39	comp	_	71170|71530
 41	wey	_	SCONJ	_	_	40	dep	_	71530|71620
-42	dem	_	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	43	subj	_	71620|71820
+42	dem	_	PRON	_	Case=Nom|PronType=Prs|Number=Plur|Person=3	43	subj	_	71620|71820
 43	go	_	AUX	_	Tense=Prosp	41	comp	_	71820|71920
 44	dig	_	VERB	_	_	43	comp:aux	_	71920|72220
 45	for	_	ADP	_	_	44	comp:obl	_	72220|72440
-46	us	_	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	45	comp	_	72440|72743
+46	us	_	PRON	_	Case=Acc|PronType=Prs|Number=Plur|Person=1	45	comp	_	72440|72743
 47	//	_	PUNCT	_	_	2	punct	_	72743|72773
+
 # sent_id = P_IBA_15_Electrician_PRO_9
 # text = # wey I dey do di work very well //
 1	#	_	PUNCT	_	_	4	punct	_	33379|34100
 2	wey	_	SCONJ	_	_	4	cc	_	34100|34200
-3	I	_	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	subj	_	34200|34300
+3	I	_	PRON	_	Case=Nom|PronType=Prs|Number=Sing|Person=1	4	subj	_	34200|34300
 4	dey	_	AUX	_	Aspect=Imp	0	root	_	34300|34440
 5	do	_	VERB	_	_	4	comp:aux	_	34440|34580
-6	di	_	DET	_	Definite=Def|PronType=Art	7	det	_	34580|34710
+6	di	_	DET	_	PronType=Art|Definite=Def	7	det	_	34580|34710
 7	work	_	NOUN	_	_	5	comp:obj	_	34710|35049
 8	very	_	ADV	_	_	9	mod	_	35049|35340
 9	well	_	ADV	_	_	5	mod	_	35340|35620
 10	//	_	PUNCT	_	_	4	punct	_	35620|35650
+
 # sent_id = P_IBA_15_Electrician_PRO_8
 # text = # but I still like am # cause I don # perfect on it //
 1	#	_	PUNCT	_	_	5	punct	_	28861|29600
 2	but	_	CCONJ	_	_	5	cc	_	29600|29750
-3	I	_	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	subj	_	29750|29840
+3	I	_	PRON	_	Case=Nom|PronType=Prs|Number=Sing|Person=1	5	subj	_	29750|29840
 4	still	_	ADV	_	_	5	mod	_	29840|30090
 5	like	_	VERB	_	_	0	root	_	30090|30320
-6	am	_	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	5	comp:obj	_	30320|30434
+6	am	_	PRON	_	Case=Acc|PronType=Prs|Number=Sing|Person=3	5	comp:obj	_	30320|30434
 7	#	_	PUNCT	_	_	8	punct	_	30464|31321
 8	cause	_	SCONJ	_	_	5	mod	_	31321|31560
-9	I	_	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	subj	_	31560|31690
+9	I	_	PRON	_	Case=Nom|PronType=Prs|Number=Sing|Person=1	10	subj	_	31560|31690
 10	don	_	AUX	_	Aspect=Perf	8	comp	_	31690|32160
 11	#	_	PUNCT	_	_	12	punct	_	32160|32480
 12	perfect	_	ADJ	_	_	10	comp:aux	_	32480|32850
 13	on	_	ADP	_	_	12	comp:obl	_	32850|33040
 14	it	_	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	13	comp	_	33040|33349
 15	//	_	PUNCT	_	_	5	punct	_	33349|33379
+
 # sent_id = P_IBA_15_Electrician_PRO_35
 # text = [eng dose who dey { re- || repair transformer } eng] < # e dey //= # dose who dey # connect transformer < # e dey //
 1	[eng	_	PUNCT	_	_	2	punct	_	165080|165294
-2	dose	_	PRON	_	Number=Plur|PronType=Dem	15	dislocated	_	165080|165294
+2	dose	_	PRON	_	PronType=Dem|Number=Plur	15	dislocated	_	165080|165294
 3	who	_	PRON	_	PronType=Int	4	subj	_	165324|165410
 4	dey	_	AUX	_	Aspect=Imp	2	dep	_	165410|165578
 5	{	_	PUNCT	_	_	6	punct	_	165578|165710
@@ -1601,11 +1670,11 @@
 11	eng]	_	PUNCT	_	_	2	punct	_	166907|166937
 12	<	_	PUNCT	_	_	2	punct	_	166907|166937
 13	#	_	PUNCT	_	_	2	punct	_	166937|167134
-14	e	_	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	15	subj:expl	_	167134|167220
+14	e	_	PRON	_	Case=Nom|PronType=Prs|Number=Sing|Person=3	15	subj:expl	_	167134|167220
 15	dey	_	VERB	_	PartType=Cop	0	root	_	167220|167470
 16	//=	_	PUNCT	_	_	27	punct	_	167470|167500
 17	#	_	PUNCT	_	_	27	punct	_	167500|168760
-18	dose	_	PRON	_	Number=Plur|PronType=Dem	27	dislocated	_	168760|168960
+18	dose	_	PRON	_	PronType=Dem|Number=Plur	27	dislocated	_	168760|168960
 19	who	_	PRON	_	PronType=Int	18	dep	_	168960|169055
 20	dey	_	AUX	_	Aspect=Imp	19	dep	_	169055|169600
 21	#	_	PUNCT	_	_	22	punct	_	169600|170920
@@ -1613,6 +1682,7 @@
 23	transformer	_	NOUN	_	_	22	comp:obj	_	171380|171940
 24	<	_	PUNCT	_	_	18	punct	_	171940|171970
 25	#	_	PUNCT	_	_	18	punct	_	171970|172170
-26	e	_	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	27	subj:expl	_	172170|172300
+26	e	_	PRON	_	Case=Nom|PronType=Prs|Number=Sing|Person=3	27	subj:expl	_	172170|172300
 27	dey	_	VERB	_	PartType=Cop	15	parataxis:conj	_	172300|172570
 28	//	_	PUNCT	_	_	15	punct	_	172570|172600
+

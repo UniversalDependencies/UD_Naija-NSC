@@ -87,7 +87,7 @@
 1	dat	_	PRON	_	PronType=Dem|Number=Sing|startali=23900|endali=24020	2	dislocated	_	_
 2	na	_	PART	_	PartType=Cop|startali=24020|endali=24190	0	root	_	_
 3	{	_	PUNCT	_	startali=24190|endali=24220	5	punct	_	_
-4	two	_	NUM	_	NumType=Card|startali=24220|endali=24350	5	dep	_	_
+4	two	_	NUM	_	NumType=Card|startali=24220|endali=24350	5	compound	_	_
 5	thousand	_	NUM	_	NumType=Card|startali=24350|endali=24660	2	comp:pred	_	_
 6	|c	_	PUNCT	_	startali=24660|endali=24690	8	punct	_	_
 7	and	_	CCONJ	_	startali=24690|endali=24890	8	cc	_	_
@@ -254,10 +254,10 @@
 # text = and I bin even wonder like why ?//
 1	and	_	CCONJ	_	startali=56040|endali=56140	3	cc	_	_
 2	I	_	PRON	_	Case=Nom|PronType=Prs|Number=Sing|startali=56140|Person=1|endali=56220	3	subj	_	_
-3	bin	_	AUX	_	AUX  Tense=Past|startali=56220|endali=56370	0	root	_	_
+3	bin	_	AUX	_	startali=56220|Tense=Past|endali=56370	0	root	_	_
 4	even	_	ADV	_	startali=56370|endali=56564	5	mod	_	_
 5	wonder	_	VERB	_	startali=56564|endali=56810	3	comp:aux	_	_
-6	like	_	ADP	_	startali=56810|endali=56950	7	parataxis:parenth	_	_
+6	like	_	ADP	_	startali=56810|endali=56950	7	discourse	_	_
 7	why	_	ADV	_	PronType=Int|startali=56950|endali=57330	5	parataxis:obj	_	_
 8	?//	_	PUNCT	_	startali=57330|endali=57360	3	punct	_	_
 
@@ -295,7 +295,7 @@
 6	man	_	NOUN	_	startali=60260|endali=60423	3	comp:quasi	_	_
 7	wey	_	SCONJ	_	startali=60423|endali=60560	6	dep	_	_
 8	I	_	PRON	_	Case=Nom|PronType=Prs|Number=Sing|startali=60560|Person=1|endali=60700	9	subj	_	_
-9	bin	_	AUX	_	AUX  Tense=Past|startali=60700|endali=60870	7	comp	_	_
+9	bin	_	AUX	_	startali=60700|Tense=Past|endali=60870	7	comp	_	_
 10	ask	_	VERB	_	startali=60870|endali=61210	9	comp:aux	_	_
 11	<	_	PUNCT	_	startali=61210|endali=61240	6	punct	_	_
 12	e	_	PRON	_	Case=Nom|PronType=Prs|Number=Sing|startali=61240|Person=3|endali=61301	13	subj	_	_
@@ -605,7 +605,7 @@
 2	na	_	PART	_	PartType=Cop|startali=107960|endali=108071	0	root	_	_
 3	internet	_	NOUN	_	startali=108071|endali=108700	2	comp:pred	_	_
 4	{	_	PUNCT	_	startali=108700|endali=108730	5	punct	_	_
-5	gi-	_	X	_	startali=108730|endali=108966	2	comp:cleft	_	_
+5	gi-	_	XX	_	startali=108730|endali=108966	2	comp:cleft	_	_
 6	||	_	PUNCT	_	startali=108966|endali=108996	8	punct	_	_
 7	#	_	PUNCT	_	startali=108996|endali=109680	8	punct	_	_
 8	brin-	_	X	_	startali=109680|endali=110031	5	conj:dicto	_	_
@@ -616,7 +616,7 @@
 13	dem	_	PRON	_	Case=Acc|PronType=Prs|Number=Plur|startali=110870|Person=3|endali=111010	11	comp:obj	_	_
 14	make	_	AUX	_	Mood=Jus|startali=111040|endali=111140	11	comp:pred	_	_
 15	dem	_	PRON	_	Case=Nom|PronType=Prs|Number=Plur|startali=111140|Person=3|endali=111335	14	subj	_	_
-16	go	_	VERB	_	startali=111335|endali=111531	14	comp:caus	_	_
+16	go	_	VERB	_	startali=111335|Tense=Prosp|endali=111531	14	comp:caus	_	_
 17	vote	_	VERB	_	startali=111531|endali=111810	16	comp:pred	_	_
 18	//	_	PUNCT	_	startali=111810|endali=111840	2	punct	_	_
 
@@ -1072,20 +1072,15 @@
 2	dey	_	AUX	_	startali=180380|Aspect=Imp|endali=180500	0	root	_	_
 3	do	_	VERB	_	startali=180500|endali=180590	2	comp:aux	_	_
 4	dat	_	DET	_	PronType=Dem|Number=Sing|startali=180590|endali=180770	6	det	_	_
-5	kind	_	ADJ	_	startali=180770|endali=180990	6	dep	_	_
+5	kind	_	NOUN	_	startali=180770|endali=180990	6	dep	_	_
 6	tin	_	NOUN	_	startali=180990|endali=181170	3	comp:obj	_	_
-7	!//	_	PUNCT	_	startali=181170|endali=181200	2	punct	_	_
-
-# elan_id = ABJ_GWA_09_M_159
-# sent_id = P_ABJ_GWA_09_Journalism_PRO_52
-# sent_translation = it is un-, that africans do not do that sort of thing. That it is, it is not our culture. Some people said why? Why can't we do (it).
-# text = [eng dat it is eng] //
-1	[eng	_	PUNCT	_	startali=181200|endali=181400	4	punct	_	_
-2	dat	_	DET	_	PronType=Dem|Number=Sing|startali=181200|endali=181400	4	cc	_	_
-3	it	_	PRON	_	Case=Acc|PronType=Prs|Number=Sing|startali=181400|Person=3|endali=181540	4	subj	_	_
-4	is	_	VERB	_	PartType=Cop|startali=181540|endali=181931	0	root	_	_
-5	eng]	_	PUNCT	_	startali=181931|endali=181961	4	punct	_	_
-6	//	_	PUNCT	_	startali=181931|endali=181961	4	punct	_	_
+7	>+	_	PUNCT	_	startali=181170|endali=181200	2	punct	_	_
+8	[eng	_	DET	_	PronType=Dem|Number=Sing|startali=181200|endali=181400	9	det	_	_
+9	dat	_	DET	_	PronType=Dem|Number=Sing|startali=181200|endali=181400	2	comp:cleft	_	_
+10	it	_	PRON	_	Case=Acc|startali=181400|Person=3|endali=181540	11	subj	_	_
+11	is	_	VERB	_	startali=181540|endali=181931	9	dep	_	_
+12	eng]	_	PUNCT	_	startali=181931|endali=181961	9	punct	_	_
+13	//	_	PUNCT	_	startali=181931|endali=181961	2	punct	_	_
 
 # elan_id = ABJ_GWA_09_M_159
 # sent_id = P_ABJ_GWA_09_Journalism_PRO_53

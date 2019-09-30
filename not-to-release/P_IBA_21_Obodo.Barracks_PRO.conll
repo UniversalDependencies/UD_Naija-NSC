@@ -36,7 +36,7 @@
 # text = # some years ago < # I marry to # soldier man //
 1	#	_	PUNCT	_	startali=8840|endali=10480	8	punct	_	_
 2	some	_	DET	_	startali=10480|endali=10760	3	det	_	_
-3	years	_	NOUN	_	Number=Plur|startali=10760|endali=11090	8	mod:periph	_	_
+3	years	_	NOUN	_	startali=10760|endali=11090	8	mod:periph	_	_
 4	ago	_	ADV	_	startali=11090|endali=11330	3	mod	_	_
 5	<	_	PUNCT	_	startali=11330|endali=11360	3	punct	_	_
 6	#	_	PUNCT	_	startali=11360|endali=11700	3	punct	_	_
@@ -53,8 +53,8 @@
 # text = # [eng I'm living in di barracks eng] //
 1	#	_	PUNCT	_	startali=14060|endali=14880	3	punct	_	_
 2	[eng	_	PUNCT	_	startali=14060|endali=14880	3	punct	_	_
-3	I'm	_	AUX	_	startali=14880|endali=15070	0	root	_	_
-4	living	live	VERB	_	VerbForm=Part|startali=15070|Tense=Pres|endali=15362	3	comp:aux	_	_
+3	I'm	_	AUX	_	Case=Nom|PronType=Prs|Person=3|Number=Sing|startali=14880|endali=15070	0	root	_	_
+4	living	live	VERB	_	VerbForm=Ger|startali=15070|endali=15362	3	comp:aux	_	_
 5	in	_	ADP	_	startali=15362|endali=15432	4	comp:obl	_	_
 6	di	_	DET	_	PronType=Art|Definite=Def|startali=15432|endali=15518	7	det	_	_
 7	barracks	_	NOUN	_	startali=15518|endali=16010	5	comp	_	_
@@ -113,7 +113,7 @@
 # sent_translation = # As we left Lagos,   we came  to Ibadan.
 # text = # as we leave dem Lagos < # we come # Ibadan //
 1	#	_	PUNCT	_	startali=33320|endali=34500	10	punct	_	_
-2	as	_	ADP	_	startali=34500|endali=34700	10	mod:periph	_	_
+2	as	_	SCONJ	_	startali=34500|endali=34700	10	mod:periph	_	_
 3	we	_	PRON	_	Case=Nom|PronType=Prs|Person=1|Number=Plur|startali=34700|endali=34854	4	subj	_	_
 4	leave	_	VERB	_	startali=34854|endali=35045	2	comp	_	_
 5	dem	_	DET	_	Number=Plur|startali=35045|endali=35155	6	det	_	_
@@ -202,9 +202,9 @@
 2	#	_	PUNCT	_	startali=60060|endali=60760	1	punct	_	_
 3	like	_	ADP	_	startali=60760|endali=61000	8	dislocated	_	_
 4	our	_	ADJ	_	PronType=Prs|Person=1|Number=Plur|Poss=Yes|startali=61000|endali=61233	5	dep	_	_
-5	soldiers	_	NOUN	_	Number=Plur|startali=61233|endali=61710	3	comp	_	_
+5	soldiers	_	NOUN	_	startali=61233|endali=61710	3	comp	_	_
 6	<	_	PUNCT	_	startali=61710|endali=61740	3	punct	_	_
-7	de	_	PRON	_	Case=Nom|PronType=Prs|Person=3|Number=Plur|startali=61740|endali=61825	8	subj	_	_
+7	de	_	PRON	_	Case=Nom|Number=Plur|startali=61740|Person=3|endali=61825	8	subj	_	_
 8	don	_	AUX	_	startali=61825|Aspect=Perf|endali=62040	0	root	_	_
 9	kill	_	VERB	_	startali=62040|endali=62260	8	comp:aux	_	_
 10	many	_	ADJ	_	startali=62260|endali=62960	9	comp:obj	_	_
@@ -241,7 +241,7 @@
 1	#	_	PUNCT	_	startali=68920|endali=70240	4	punct	_	_
 2	[eng	_	PUNCT	_	startali=68920|endali=70240	4	punct	_	_
 3	de	_	PRON	_	Case=Nom|PronType=Prs|Person=3|Number=Plur|startali=70240|endali=70359	4	subj	_	_
-4	don't	_	AUX	_	startali=70359|endali=70518	0	root	_	_
+4	don't	_	AUX	_	Mood=Ind|startali=70359|endali=70518	0	root	_	_
 5	have	_	VERB	_	startali=70518|endali=70700	4	comp:aux	_	_
 6	{	_	PUNCT	_	startali=70700|endali=70730	7	punct	_	_
 7	of	_	ADP	_	startali=70730|endali=70918	5	comp:obj	_	_
@@ -293,7 +293,7 @@
 2	and	_	CCONJ	_	startali=81593|endali=82014	5	cc	_	_
 3	we	_	PRON	_	Case=Nom|PronType=Prs|Person=1|Number=Plur|startali=82014|endali=82241	5	subj	_	_
 4	still	_	ADV	_	startali=82241|endali=82472	5	mod	_	_
-5	dey	_	VERB	_	PartType=Cop|startali=82472|endali=82632	0	root	_	_
+5	dey	_	VERB	_	startali=82472|Aspect=Imp|endali=82632	0	root	_	_
 6	for	_	ADP	_	startali=82632|endali=82874	5	comp:pred	_	_
 7	prayer	_	NOUN	_	startali=82874|endali=83250	6	comp	_	_
 8	//	_	PUNCT	_	startali=83250|endali=83280	5	punct	_	_
@@ -317,9 +317,9 @@
 15	wey	_	SCONJ	_	startali=87452|endali=87572	13	dep	_	_
 16	dey	_	AUX	_	startali=87572|Aspect=Imp|endali=87697	15	comp	_	_
 17	kill	_	VERB	_	startali=87697|endali=87962	16	comp:aux	_	_
-18	{	_	PUNCT	_	startali=87962|endali=88192	20	punct	_	_
+18	{	_	PUNCT	_	PronType=Prs|startali=87962|endali=88192	20	punct	_	_
 19	our	_	ADJ	_	PronType=Prs|Person=1|Number=Plur|Poss=Yes|startali=87962|endali=88192	20	dep	_	_
-20	soldiers	_	NOUN	_	Number=Plur|startali=88192|endali=88790	17	comp:obj	_	_
+20	soldiers	_	NOUN	_	startali=88192|endali=88790	17	comp:obj	_	_
 21	//+	_	PUNCT	_	startali=88790|endali=88820	27	punct	_	_
 22	#	_	PUNCT	_	startali=88820|endali=90120	27	punct	_	_
 23	and	_	CCONJ	_	startali=90120|endali=90277	27	cc	_	_
@@ -345,7 +345,7 @@
 # sent_id = P_IBA_21_Obodo.Barracks_PRO_21
 # sent_translation = We're still waiting for God to help us.
 # text = meh God just help us //
-1	meh	_	AUX	_	Mood=Jus|startali=96090|endali=96270	0	root	_	_
+1	meh	_	VERB	_	startali=96090|endali=96270	0	root	_	_
 2	God	_	PROPN	_	startali=96270|endali=96520	1	subj	_	_
 3	just	_	ADV	_	startali=96520|endali=96780	4	mod	_	_
 4	help	_	VERB	_	startali=96780|endali=97070	1	comp:aux	_	_
@@ -360,7 +360,7 @@
 3	Boko	_	PROPN	_	startali=99419|endali=99749	5	compound	_	_
 4	Haram	_	PROPN	_	startali=99749|endali=100039	3	flat	_	_
 5	problem	_	NOUN	_	startali=100039|endali=100593	6	subj	_	_
-6	dey	_	VERB	_	PartType=Cop|startali=100593|endali=100825	0	root	_	_
+6	dey	_	VERB	_	startali=100593|endali=100825	0	root	_	_
 7	dere	_	ADV	_	PronType=Dem|startali=100825|endali=101149	6	comp:pred	_	_
 8	//	_	PUNCT	_	startali=101149|endali=101179	6	punct	_	_
 
@@ -371,7 +371,7 @@
 2	we	_	PRON	_	Case=Nom|PronType=Prs|Person=1|Number=Plur|startali=102009|endali=102126	3	subj	_	_
 3	dey	_	AUX	_	startali=102126|Aspect=Imp|endali=102816	0	root	_	_
 4	we	_	PRON	_	Case=Nom|PronType=Prs|Person=1|Number=Plur|startali=102816|endali=102966	5	orphan	_	_
-5	&	_	X	_	startali=102966|endali=102996	3	comp:aux	_	_
+5	&	_	PUNCT	_	startali=102966|endali=102996	3	comp:aux	_	_
 6	//	_	PUNCT	_	startali=102966|endali=102996	3	punct	_	_
 
 # sent_id = P_IBA_21_Obodo.Barracks_PRO_24
@@ -389,7 +389,7 @@
 10	scarcity	_	NOUN	_	startali=105321|endali=105794	13	subj	_	_
 11	of	_	ADP	_	startali=105794|endali=105950	10	dep	_	_
 12	food	_	NOUN	_	startali=105950|endali=106140	11	comp	_	_
-13	con	_	AUX	_	startali=106140|Aspect=Real|endali=106440	6	comp	_	_
+13	con	_	AUX	_	startali=106140|endali=106440	6	comp	_	_
 14	join	_	VERB	_	startali=106440|endali=106645	13	comp:aux	_	_
 15	again	_	ADV	_	startali=106645|endali=106970	14	mod	_	_
 16	<	_	PUNCT	_	startali=106970|endali=107000	2	punct	_	_
@@ -452,7 +452,7 @@
 20	go	_	AUX	_	startali=123006|Tense=Prosp|endali=123120	0	root	_	_
 21	buy	_	VERB	_	startali=123120|endali=123324	20	comp:aux	_	_
 22	am	_	PRON	_	Case=Acc|PronType=Prs|Person=3|Number=Sing|startali=123324|endali=123640	21	comp:obj	_	_
-23	&	_	X	_	startali=123640|endali=123670	20	comp:lvc	_	_
+23	&	_	X	_	startali=123640|endali=123670	20	comp:pred	_	_
 24	//	_	PUNCT	_	startali=123640|endali=123670	20	punct	_	_
 
 # sent_id = P_IBA_21_Obodo.Barracks_PRO_28
@@ -562,7 +562,7 @@
 6	make	_	AUX	_	Mood=Jus|startali=140478|endali=140930	3	conj:dicto	_	_
 7	im	_	PRON	_	Case=Nom|PronType=Prs|Person=3|Number=Sing|startali=140930|endali=141322	6	subj	_	_
 8	}	_	PUNCT	_	startali=141322|endali=141352	6	punct	_	_
-9	dey	_	VERB	_	PartType=Cop|startali=141352|endali=141577	6	comp:aux	_	_
+9	dey	_	VERB	_	startali=141352|endali=141577	6	comp:aux	_	_
 10	well	_	ADV	_	startali=141577|endali=141877	9	comp:pred	_	_
 11	//	_	PUNCT	_	startali=141877|endali=141907	3	punct	_	_
 
@@ -586,11 +586,11 @@
 5	[	_	PUNCT	_	startali=144423|endali=144453	8	punct	_	_
 6	{	_	PUNCT	_	startali=144423|endali=144453	8	punct	_	_
 7	e	_	PRON	_	Case=Nom|PronType=Prs|Person=3|Number=Sing|startali=144453|endali=144568	8	subj	_	_
-8	dey	_	VERB	_	PartType=Cop|startali=144568|endali=145365	4	parataxis:obj	_	_
+8	dey	_	VERB	_	startali=144568|endali=145365	4	parataxis:obj	_	_
 9	||	_	PUNCT	_	startali=145365|endali=145395	12	punct	_	_
 10	#	_	PUNCT	_	startali=145395|endali=145645	12	punct	_	_
 11	e	_	PRON	_	Case=Nom|PronType=Prs|Person=3|Number=Sing|startali=145645|endali=145741	12	subj	_	_
-12	dey	_	VERB	_	PartType=Cop|startali=145741|endali=145834	8	conj:dicto	_	_
+12	dey	_	VERB	_	startali=145741|endali=145834	8	conj:dicto	_	_
 13	}	_	PUNCT	_	startali=145834|endali=145864	8	punct	_	_
 14	sick	_	ADJ	_	startali=145864|endali=146176	12	comp:pred	_	_
 15	now	_	ADV	_	startali=146176|endali=146450	12	mod	_	_
@@ -639,10 +639,10 @@
 2	so	_	ADV	_	startali=158460|endali=159010	5	discourse	_	_
 3	#	_	PUNCT	_	startali=159040|endali=163560	2	punct	_	_
 4	we	_	PRON	_	Case=Nom|PronType=Prs|Person=1|Number=Plur|startali=163560|endali=163720	5	subj	_	_
-5	tank	_	NOUN	_	startali=163720|endali=163930	0	root	_	_
+5	tank	_	VERB	_	startali=163720|endali=163930	0	root	_	_
 6	God	_	PROPN	_	startali=163930|endali=164110	5	comp:obj	_	_
 7	for	_	ADP	_	startali=164110|endali=164260	5	comp:obl	_	_
-8	everyting	_	PRON	_	startali=164260|endali=164750	7	comp	_	_
+8	everyting	_	NOUN	_	startali=164260|endali=164750	7	comp	_	_
 9	sha	_	PART	_	PartType=Disc|startali=164750|endali=164974	5	mod:emph	_	_
 10	//	_	PUNCT	_	startali=164974|endali=165004	5	punct	_	_
 
@@ -650,7 +650,7 @@
 # sent_translation = we thank God for everything, we thank God.
 # text = we tank God //
 1	we	_	PRON	_	Case=Nom|PronType=Prs|Person=1|Number=Plur|startali=165004|endali=165110	2	subj	_	_
-2	tank	_	NOUN	_	startali=165110|endali=165390	0	root	_	_
+2	tank	_	VERB	_	startali=165110|endali=165390	0	root	_	_
 3	God	_	PROPN	_	startali=165390|endali=165680	2	comp:obj	_	_
 4	//	_	PUNCT	_	startali=165680|endali=165710	2	punct	_	_
 
@@ -665,7 +665,7 @@
 6	#	_	PUNCT	_	startali=170320|endali=171640	7	punct	_	_
 7	wey	_	SCONJ	_	startali=171640|endali=171770	5	dep	_	_
 8	we	_	PRON	_	Case=Nom|PronType=Prs|Person=1|Number=Plur|startali=171770|endali=171910	9	subj	_	_
-9	dey	_	VERB	_	PartType=Cop|startali=171910|endali=172082	7	comp	_	_
+9	dey	_	VERB	_	startali=171910|endali=172082	7	comp	_	_
 10	inside	_	ADP	_	startali=172082|endali=172510	9	comp:pred	_	_
 11	<	_	PUNCT	_	startali=172510|endali=172540	5	punct	_	_
 12	#	_	PUNCT	_	startali=172540|endali=173400	5	punct	_	_
@@ -683,9 +683,9 @@
 24	[	_	PUNCT	_	startali=175420|endali=175570	25	punct	_	_
 25	na	_	PART	_	PartType=Cop|startali=175420|endali=175570	23	parataxis:obj	_	_
 26	dat	_	DET	_	PronType=Dem|Number=Sing|startali=175570|endali=175760	27	det	_	_
-27	one	_	NOUN	_	startali=175760|endali=175880	25	comp:pred	_	_
+27	one	_	NOUN	_	NumType=Card|startali=175760|endali=175880	25	comp:pred	_	_
 28	>+	_	PUNCT	_	startali=175880|endali=176311	29	punct	_	_
-29	better	_	ADJ	_	Degree=Comp|startali=175880|endali=176311	25	comp:cleft	_	_
+29	better	_	ADJ	_	startali=175880|endali=176311	25	comp:cleft	_	_
 30	//]	_	PUNCT	_	startali=176311|endali=176342	25	punct	_	_
 31	//	_	PUNCT	_	startali=176311|endali=176342	22	punct	_	_
 
@@ -775,7 +775,7 @@
 # text = # because everyting < we no know where we dey go for Nigeria //
 1	#	_	PUNCT	_	startali=196060|endali=196360	7	punct	_	_
 2	because	_	SCONJ	_	startali=196360|endali=197039	7	cc	_	_
-3	everyting	_	PRON	_	startali=197039|endali=197540	7	dislocated	_	_
+3	everyting	_	NOUN	_	startali=197039|endali=197540	7	dislocated	_	_
 4	<	_	PUNCT	_	startali=197540|endali=197570	3	punct	_	_
 5	we	_	PRON	_	Case=Nom|PronType=Prs|Person=1|Number=Plur|startali=197570|endali=197689	7	subj	_	_
 6	no	_	PART	_	Polarity=Neg|startali=197689|endali=197850	7	mod	_	_
@@ -872,9 +872,9 @@
 # sent_translation = # Nothing work for them to do.
 # text = # noting |r noting //
 1	#	_	PUNCT	_	startali=216480|endali=217380	2	punct	_	_
-2	noting	noting	PRON	_	startali=217380|endali=217660	0	root	_	_
+2	noting	noting	NOUN	_	startali=217380|endali=217660	0	root	_	_
 3	|r	_	PUNCT	_	startali=217660|endali=217690	4	punct	_	_
-4	noting	noting	PRON	_	startali=217690|endali=218150	2	compound:redup	_	_
+4	noting	noting	NOUN	_	startali=217690|endali=218150	2	compound:redup	_	_
 5	//	_	PUNCT	_	startali=218150|endali=218180	2	punct	_	_
 
 # sent_id = P_IBA_21_Obodo.Barracks_PRO_50
@@ -907,7 +907,7 @@
 # text = # no better work //
 1	#	_	PUNCT	_	startali=224340|endali=225700	4	punct	_	_
 2	no	_	PART	_	Polarity=Neg|startali=225700|endali=225835	4	mod	_	_
-3	better	good	ADJ	_	Degree=Comp|startali=225835|endali=226180	4	dep	_	_
+3	better	good	ADJ	_	Degree=Sup|startali=225835|endali=226180	4	dep	_	_
 4	work	_	NOUN	_	startali=226180|endali=226468	0	root	_	_
 5	//	_	PUNCT	_	startali=226468|endali=226498	4	punct	_	_
 
@@ -945,7 +945,7 @@
 16	<	_	PUNCT	_	startali=235750|endali=235780	8	punct	_	_
 17	#	_	PUNCT	_	startali=235780|endali=236240	8	punct	_	_
 18	di	_	DET	_	PronType=Art|Definite=Def|startali=236240|endali=236380	20	det	_	_
-19	better	good	ADJ	_	Degree=Comp|startali=236380|endali=237020	20	dep	_	_
+19	better	good	ADJ	_	Degree=Sup|startali=236380|endali=237020	20	dep	_	_
 20	medicine	_	NOUN	_	startali=237020|endali=237549	25	dislocated	_	_
 21	dere	_	ADV	_	PronType=Dem|startali=237549|endali=237790	20	mod	_	_
 22	<	_	PUNCT	_	startali=237790|endali=237820	20	punct	_	_
@@ -953,7 +953,7 @@
 24	#	_	PUNCT	_	startali=237820|endali=238960	25	punct	_	_
 25	na	_	PART	_	PartType=Cop|startali=238960|endali=239141	0	root	_	_
 26	im	_	PRON	_	Case=Nom|PronType=Prs|Person=3|Number=Sing|startali=239141|endali=239203	25	comp:pred	_	_
-27	go	_	VERB	_	startali=239203|endali=239655	25	comp:cleft	_	_
+27	go	_	VERB	_	startali=239203|Tense=Prosp|endali=239655	25	comp:cleft	_	_
 28	||	_	PUNCT	_	startali=239655|endali=239685	29	punct	_	_
 29	na	_	PART	_	PartType=Cop|startali=239685|endali=239880	25	conj:dicto	_	_
 30	im	_	PRON	_	Case=Nom|PronType=Prs|Person=3|Number=Sing|startali=239880|endali=239945	29	comp:pred	_	_
@@ -978,7 +978,7 @@
 9	||	_	PUNCT	_	startali=241620|endali=241650	10	punct	_	_
 10	no	_	PART	_	Polarity=Neg|startali=241650|endali=241830	8	conj:dicto	_	_
 11	}	_	PUNCT	_	startali=241830|endali=241860	8	punct	_	_
-12	go	_	VERB	_	startali=241860|endali=242070	5	comp:aux	_	_
+12	go	_	VERB	_	startali=241860|Tense=Prosp|endali=242070	5	comp:aux	_	_
 13	buy	_	VERB	_	startali=242100|endali=242316	12	comp:pred	_	_
 14	am	_	PRON	_	Case=Acc|PronType=Prs|Person=3|Number=Sing|startali=242316|endali=242508	13	comp:obj	_	_
 15	//]	_	PUNCT	_	startali=242508|endali=242538	5	punct	_	_
@@ -988,15 +988,15 @@
 # sent_translation = # They go on strike anytime.
 # text = # tomorrow < dem fit say [ dem dey strike ] //
 1	#	_	PUNCT	_	startali=242538|endali=243700	5	punct	_	_
-2	tomorrow	_	NOUN	_	startali=243700|endali=244050	5	mod:periph	_	_
+2	tomorrow	_	ADV	_	startali=243700|endali=244050	5	mod:periph	_	_
 3	<	_	PUNCT	_	startali=244050|endali=244080	2	punct	_	_
 4	dem	_	PRON	_	Case=Nom|PronType=Prs|Person=3|Number=Plur|startali=244080|endali=244240	5	subj	_	_
 5	fit	_	AUX	_	startali=244240|endali=244410	0	root	_	_
 6	say	_	VERB	_	startali=244410|endali=244520	5	comp:aux	_	_
 7	[	_	PUNCT	_	startali=244520|endali=244550	9	punct	_	_
 8	dem	_	PRON	_	Case=Nom|PronType=Prs|Person=3|Number=Plur|startali=244550|endali=244750	9	subj	_	_
-9	dey	_	VERB	_	PartType=Cop|startali=244750|endali=244880	6	parataxis:obj	_	_
-10	strike	_	NOUN	_	startali=244880|endali=245290	9	comp:pred	_	_
+9	dey	_	VERB	_	startali=244750|Aspect=Imp|endali=244880	6	parataxis:obj	_	_
+10	strike	_	VERB	_	startali=244880|endali=245290	9	comp:pred	_	_
 11	]	_	PUNCT	_	startali=245290|endali=245320	9	punct	_	_
 12	//	_	PUNCT	_	startali=245290|endali=245320	5	punct	_	_
 
@@ -1005,7 +1005,7 @@
 # text = # eh doctors < de no work //
 1	#	_	PUNCT	_	startali=245320|endali=246220	7	punct	_	_
 2	eh	_	INTJ	_	startali=246220|endali=246703	7	discourse	_	_
-3	doctors	_	NOUN	_	Number=Plur|startali=246703|endali=247350	7	dislocated	_	_
+3	doctors	_	NOUN	_	startali=246703|endali=247350	7	dislocated	_	_
 4	<	_	PUNCT	_	startali=247350|endali=247380	3	punct	_	_
 5	de	_	PRON	_	Case=Nom|PronType=Prs|Person=3|Number=Plur|startali=247380|endali=247539	7	subj	_	_
 6	no	_	PART	_	Polarity=Neg|startali=247539|endali=247700	7	mod	_	_
@@ -1018,7 +1018,7 @@
 1	#	_	PUNCT	_	startali=248035|endali=249500	4	punct	_	_
 2	sick	_	ADJ	_	startali=249500|endali=249730	3	dep	_	_
 3	people	_	NOUN	_	startali=249730|endali=250010	4	subj	_	_
-4	dey	_	VERB	_	PartType=Cop|startali=250010|endali=250200	0	root	_	_
+4	dey	_	VERB	_	startali=250010|Aspect=Imp|endali=250200	0	root	_	_
 5	bed	_	NOUN	_	startali=250200|endali=250550	4	comp:pred	_	_
 6	//	_	PUNCT	_	startali=250550|endali=250580	4	punct	_	_
 
@@ -1100,7 +1100,7 @@
 10	|r	_	PUNCT	_	startali=265580|endali=265610	11	punct	_	_
 11	new	_	ADJ	_	startali=265610|endali=265787	9	compound:redup	_	_
 12	}	_	PUNCT	_	startali=265787|endali=265817	9	punct	_	_
-13	born	born	VERB	_	startali=265817|endali=266376	14	dep	_	_
+13	born	born	VERB	_	VerbForm=Part|startali=265817|Tense=Past|endali=266376	14	dep	_	_
 14	children	child	NOUN	_	Number=Plur|startali=266376|endali=266650	6	comp	_	_
 15	now	_	ADV	_	startali=266650|endali=266840	5	mod	_	_
 16	wey	_	SCONJ	_	startali=266840|endali=266979	14	dep	_	_

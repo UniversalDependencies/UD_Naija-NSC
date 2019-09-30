@@ -26,7 +26,7 @@
 8	#	_	PUNCT	_	startali=8640|endali=8880	9	punct	_	_
 9	wey	_	SCONJ	_	startali=8880|endali=9018	7	dep	_	_
 10	we	_	PRON	_	Case=Nom|PronType=Prs|Person=1|Number=Plur|startali=9018|endali=9196	11	subj	_	_
-11	dey	_	VERB	_	PartType=Cop|startali=9196|endali=9428	9	comp	_	_
+11	dey	_	VERB	_	startali=9196|Aspect=Imp|endali=9428	9	comp	_	_
 12	#	_	PUNCT	_	startali=8880|endali=10190	13	punct	_	_
 13	so	_	ADV	_	startali=9750|endali=10160	11	comp:pred	_	_
 14	//	_	PUNCT	_	startali=10160|endali=10190	3	punct	_	_
@@ -82,7 +82,7 @@
 10	<	_	PUNCT	_	startali=21816|endali=21846	6	punct	_	_
 11	na	_	PART	_	PartType=Cop|startali=21846|endali=22096	0	root	_	_
 12	very	_	ADV	_	startali=22096|endali=22639	14	mod	_	_
-13	beautiful	_	ADJ	_	startali=22639|endali=23100	14	compound	_	_
+13	beautiful	_	NOUN	_	startali=22639|endali=23100	14	compound	_	_
 14	state	_	NOUN	_	startali=23100|endali=23650	11	comp:pred	_	_
 15	//	_	PUNCT	_	startali=23650|endali=23740	11	punct	_	_
 
@@ -106,9 +106,9 @@
 # sent_id = P_JOS_19_Bukuru_PRO_8
 # sent_translation = The weather, we do not have any problem # here.There is good weather. #
 # text = better weather dey //
-1	better	_	ADJ	_	Degree=Comp|startali=26804|endali=27227	2	dep	_	_
+1	better	_	ADJ	_	startali=26804|endali=27227	2	dep	_	_
 2	weather	_	NOUN	_	startali=27227|endali=27636	3	subj	_	_
-3	dey	_	VERB	_	PartType=Cop|startali=27636|endali=27860	0	root	_	_
+3	dey	_	VERB	_	startali=27636|endali=27860	0	root	_	_
 4	//	_	PUNCT	_	startali=27860|endali=27894	3	punct	_	_
 
 # sent_id = P_JOS_19_Bukuru_PRO_9
@@ -187,11 +187,11 @@
 3	<	_	PUNCT	_	startali=48560|endali=48590	2	punct	_	_
 4	{	_	PUNCT	_	startali=48560|endali=48590	6	punct	_	_
 5	I	_	PRON	_	Case=Nom|PronType=Prs|Person=1|Number=Sing|startali=48590|endali=48670	6	subj	_	_
-6	con	_	AUX	_	startali=48670|Aspect=Real|endali=48920	0	root	_	_
-7	dey	_	VERB	_	PartType=Cop|startali=48920|endali=49260	6	comp:aux	_	_
+6	con	_	AUX	_	startali=48670|endali=48920	0	root	_	_
+7	dey	_	VERB	_	startali=48920|Aspect=Imp|endali=49260	6	comp:aux	_	_
 8	||	_	PUNCT	_	startali=49260|endali=49290	10	punct	_	_
 9	I	_	PRON	_	Case=Nom|PronType=Prs|Person=1|Number=Sing|startali=49290|endali=49461	10	subj	_	_
-10	con	_	AUX	_	startali=49461|Aspect=Real|endali=49640	6	conj:dicto	_	_
+10	con	_	AUX	_	startali=49461|endali=49640	6	conj:dicto	_	_
 11	get	_	VERB	_	startali=49640|endali=49885	10	comp:aux	_	_
 12	}	_	PUNCT	_	startali=49885|endali=50050	11	comp:obj	_	_
 13	job	_	NOUN	_	startali=49885|endali=50050	11	comp:obj	_	_
@@ -240,7 +240,7 @@
 3	get	_	VERB	_	startali=58800|endali=59036	0	root	_	_
 4	{	_	PUNCT	_	startali=59036|endali=59066	6	punct	_	_
 5	di	_	DET	_	PronType=Art|Definite=Def|startali=59066|endali=59248	6	det	_	_
-6	zoo	_	NOUN	_	startali=59248|endali=59849	3	comp:obj	_	_
+6	zoo	_	NUM	_	startali=59248|endali=59849	3	comp:obj	_	_
 7	|c	_	PUNCT	_	startali=59849|endali=59879	10	punct	_	_
 8	di	_	DET	_	PronType=Art|Definite=Def|startali=59879|endali=60016	10	det	_	_
 9	wildlife	_	NOUN	_	startali=60016|endali=60630	10	compound	_	_
@@ -272,11 +272,11 @@
 2	we	_	PRON	_	Case=Nom|PronType=Prs|Person=1|Number=Plur|startali=65440|endali=65520	3	subj	_	_
 3	fit	_	AUX	_	startali=65520|endali=65692	0	root	_	_
 4	{	_	PUNCT	_	startali=65692|endali=65722	5	punct	_	_
-5	go	_	VERB	_	startali=65722|endali=66041	3	comp:aux	_	_
+5	go	_	VERB	_	startali=65722|Tense=Prosp|endali=66041	3	comp:aux	_	_
 6	di	_	DET	_	PronType=Art|Definite=Def|startali=66041|endali=66259	7	det	_	_
 7	zoo	_	NOUN	_	startali=66259|endali=66540	5	comp:obj	_	_
 8	|c	_	PUNCT	_	startali=66540|endali=66570	9	punct	_	_
-9	go	_	VERB	_	startali=66570|endali=66916	5	conj:coord	_	_
+9	go	_	VERB	_	startali=66570|Tense=Prosp|endali=66916	5	conj:coord	_	_
 10	see	_	VERB	_	startali=66916|endali=67320	9	comp:aux	_	_
 11	animal	_	NOUN	_	startali=67320|endali=68031	10	comp:obj	_	_
 12	}	_	PUNCT	_	startali=68031|endali=68061	5	punct	_	_
@@ -300,7 +300,7 @@
 4	don	_	AUX	_	startali=70396|Aspect=Perf|endali=70643	0	root	_	_
 5	pass	_	VERB	_	startali=70643|endali=70921	4	comp:aux	_	_
 6	hundred	_	NUM	_	NumType=Card|startali=70921|endali=71280	7	dep	_	_
-7	years	_	NOUN	_	Number=Plur|startali=71280|endali=71565	5	comp:obj	_	_
+7	years	_	NOUN	_	startali=71280|endali=71565	5	comp:obj	_	_
 8	sef	_	PART	_	PartType=Disc|startali=71565|endali=71800	7	mod:emph	_	_
 9	//	_	PUNCT	_	startali=71800|endali=71892	4	punct	_	_
 
@@ -310,7 +310,7 @@
 1	#	_	PUNCT	_	startali=71800|endali=72450	4	punct	_	_
 2	e	_	PRON	_	Case=Nom|PronType=Prs|Person=3|Number=Sing|startali=72450|endali=72538	4	subj	_	_
 3	still	_	ADV	_	startali=72538|endali=72780	4	mod	_	_
-4	dey	_	VERB	_	PartType=Cop|startali=72780|endali=73040	0	root	_	_
+4	dey	_	VERB	_	startali=72780|endali=73040	0	root	_	_
 5	dere	_	ADV	_	PronType=Dem|startali=73040|endali=73306	4	comp:pred	_	_
 6	//	_	PUNCT	_	startali=73306|endali=73380	4	punct	_	_
 
@@ -320,7 +320,7 @@
 1	#	_	PUNCT	_	startali=73380|endali=74120	3	punct	_	_
 2	we	_	PRON	_	Case=Nom|PronType=Prs|Person=1|Number=Plur|startali=74120|endali=74263	3	subj	_	_
 3	get	_	VERB	_	startali=74263|endali=74500	0	root	_	_
-4	snakes	_	NOUN	_	Number=Plur|startali=74500|endali=75330	3	comp:obj	_	_
+4	snakes	_	NOUN	_	startali=74500|endali=75330	3	comp:obj	_	_
 5	//	_	PUNCT	_	startali=75330|endali=75360	3	punct	_	_
 
 # sent_id = P_JOS_19_Bukuru_PRO_23
@@ -345,7 +345,7 @@
 # text = # dem dey di zoo //
 1	#	_	PUNCT	_	startali=78380|endali=79120	3	punct	_	_
 2	dem	_	PRON	_	Case=Nom|PronType=Prs|Person=3|Number=Plur|startali=79120|endali=79230	3	subj	_	_
-3	dey	_	VERB	_	PartType=Cop|startali=79230|endali=79440	0	root	_	_
+3	dey	_	VERB	_	startali=79230|endali=79440	0	root	_	_
 4	di	_	DET	_	PronType=Art|Definite=Def|startali=79440|endali=79601	5	det	_	_
 5	zoo	_	NOUN	_	startali=79601|endali=79890	3	comp:pred	_	_
 6	//	_	PUNCT	_	startali=79890|endali=79920	3	punct	_	_
@@ -366,9 +366,9 @@
 11	|r	_	PUNCT	_	startali=82896|endali=82926	12	punct	_	_
 12	plenty	_	ADJ	_	startali=82926|endali=83351	10	compound:redup	_	_
 13	}	_	PUNCT	_	startali=83351|endali=83381	10	punct	_	_
-14	artworks	_	NOUN	_	Number=Plur|startali=83381|endali=83990	8	comp:obj	_	_
+14	artworks	_	NOUN	_	startali=83381|endali=83990	8	comp:obj	_	_
 15	wey	_	SCONJ	_	startali=83990|endali=84193	14	dep	_	_
-16	dey	_	VERB	_	PartType=Cop|startali=84193|endali=84441	15	comp	_	_
+16	dey	_	VERB	_	startali=84193|endali=84441	15	comp	_	_
 17	very	_	ADV	_	startali=84441|endali=85060	18	dep	_	_
 18	beautiful	_	ADJ	_	startali=85060|endali=85729	16	comp:pred	_	_
 19	//	_	PUNCT	_	startali=85729|endali=85759	7	punct	_	_
@@ -399,13 +399,13 @@
 5	go	_	VERB	_	startali=88692|endali=88920	3	comp:aux	_	_
 6	dere	_	ADV	_	PronType=Dem|startali=88920|endali=89122	5	comp:obj	_	_
 7	|c	_	PUNCT	_	startali=89122|endali=89152	8	punct	_	_
-8	go	_	VERB	_	startali=89152|endali=89375	5	conj:coord	_	_
+8	go	_	VERB	_	startali=89152|Tense=Prosp|endali=89375	5	conj:coord	_	_
 9	buy	_	VERB	_	startali=89375|endali=89801	8	comp:aux	_	_
 10	|c	_	PUNCT	_	startali=89801|endali=89831	11	punct	_	_
 11	carry	_	VERB	_	startali=89831|endali=90130	8	conj:coord	_	_
 12	am	_	PRON	_	Case=Acc|PronType=Prs|Person=3|Number=Sing|startali=90130|endali=90310	11	comp:obj	_	_
 13	go	_	VERB	_	startali=90310|endali=90480	11	compound:svc	_	_
-14	una	_	PRON	_	Case=Acc|PronType=Prs|Person=2|Number=Plur|startali=90480|endali=90685	15	dep	_	_
+14	una	_	PRON	_	PronType=Prs|Person=2|Number=Plur|startali=90480|endali=90685	15	dep	_	_
 15	place	_	NOUN	_	startali=90685|endali=91170	13	comp:obj	_	_
 16	}	_	PUNCT	_	startali=91170|endali=91200	5	punct	_	_
 17	//	_	PUNCT	_	startali=91170|endali=91200	3	punct	_	_
@@ -450,7 +450,7 @@
 7	girl	_	NOUN	_	startali=101277|endali=101450	5	comp:pred	_	_
 8	>+	_	PUNCT	_	startali=101450|endali=101480	10	punct	_	_
 9	I	_	PRON	_	Case=Nom|PronType=Prs|Person=1|Number=Sing|startali=101480|endali=101676	10	subj	_	_
-10	be	_	VERB	_	PartType=Cop|startali=101676|endali=101840	5	comp:cleft	_	_
+10	be	_	VERB	_	startali=101676|endali=101840	5	comp:cleft	_	_
 11	//	_	PUNCT	_	startali=101840|endali=101902	5	punct	_	_
 
 # sent_id = P_JOS_19_Bukuru_PRO_32
@@ -459,7 +459,7 @@
 1	#	_	PUNCT	_	startali=101840|endali=103760	3	punct	_	_
 2	we	_	PRON	_	Case=Nom|PronType=Prs|Person=1|Number=Plur|startali=103760|endali=103890	3	subj	_	_
 3	dey	_	AUX	_	startali=103890|Aspect=Imp|endali=104200	0	root	_	_
-4	&	_	X	_	startali=104200|endali=104230	3	comp:aux	_	_
+4	&	_	PUNCT	_	startali=104200|endali=104230	3	comp:aux	_	_
 5	//	_	PUNCT	_	startali=104200|endali=104230	3	punct	_	_
 
 # sent_id = P_JOS_19_Bukuru_PRO_33
@@ -470,7 +470,7 @@
 3	cultural	_	ADJ	_	startali=104820|endali=105270	4	dep	_	_
 4	food	_	NOUN	_	startali=105270|endali=105710	5	subj	_	_
 5	na	_	PART	_	PartType=Cop|startali=105710|endali=105910	0	root	_	_
-6	gote	_	NOUN	_	startali=105910|endali=106430	5	comp:pred	_	_
+6	gote	_	VERB	_	startali=105910|endali=106430	5	comp:pred	_	_
 7	//	_	PUNCT	_	startali=106430|endali=106460	5	punct	_	_
 
 # sent_id = P_JOS_19_Bukuru_PRO_34
@@ -485,7 +485,7 @@
 7	make	_	VERB	_	startali=108160|endali=108420	6	comp:aux	_	_
 8	am	_	PRON	_	Case=Acc|PronType=Prs|Person=3|Number=Sing|startali=108420|endali=108536	7	comp:obj	_	_
 9	with	_	ADP	_	startali=108536|endali=108770	7	comp:obl	_	_
-10	acha	_	NOUN	_	startali=108770|endali=109163	9	comp	_	_
+10	acha	_	INTJ	_	startali=108770|endali=109163	9	comp	_	_
 11	//	_	PUNCT	_	startali=109163|endali=109193	6	punct	_	_
 
 # sent_id = P_JOS_19_Bukuru_PRO_35
@@ -498,7 +498,7 @@
 5	sef	_	PART	_	PartType=Disc|startali=110328|endali=110770	4	mod:emph	_	_
 6	<	_	PUNCT	_	startali=110770|endali=110800	1	punct	_	_
 7	gote	_	NOUN	_	startali=110800|endali=111165	8	subj	_	_
-8	dey	_	VERB	_	PartType=Cop|startali=111165|endali=111344	0	root	_	_
+8	dey	_	VERB	_	startali=111165|Aspect=Imp|endali=111344	0	root	_	_
 9	cure	_	VERB	_	startali=111344|endali=111602	8	comp:pred	_	_
 10	diabetes	_	NOUN	_	startali=111602|endali=112270	9	comp:obj	_	_
 11	//	_	PUNCT	_	startali=112270|endali=112300	8	punct	_	_
@@ -529,7 +529,7 @@
 6	#	_	PUNCT	_	startali=116300|endali=117020	8	punct	_	_
 7	just	_	ADV	_	startali=117020|endali=117320	8	mod	_	_
 8	to	_	ADP	_	startali=117320|endali=117430	3	comp:pred	_	_
-9	come	_	AUX	_	startali=117430|Aspect=Real|endali=117660	8	comp	_	_
+9	come	_	AUX	_	startali=117430|endali=117660	8	comp	_	_
 10	see	_	VERB	_	startali=117660|endali=118222	9	comp:aux	_	_
 11	wetin	_	PRON	_	PronType=Int|startali=118222|endali=118740	10	comp:obj	_	_
 12	we	_	PRON	_	Case=Nom|PronType=Prs|Person=1|Number=Plur|startali=118740|endali=118869	13	subj	_	_
@@ -559,7 +559,7 @@
 1	#	_	PUNCT	_	startali=121980|endali=122510	3	punct	_	_
 2	we	_	PRON	_	Case=Nom|PronType=Prs|Person=1|Number=Plur|startali=122510|endali=122580	3	subj	_	_
 3	fit	_	AUX	_	startali=122580|endali=122756	0	root	_	_
-4	make	_	VERB	_	startali=122756|endali=123077	3	comp:aux	_	_
+4	make	_	VERB	_	Mood=Jus|startali=122756|endali=123077	3	comp:aux	_	_
 5	acha	_	NOUN	_	startali=123077|endali=123539	6	compound	_	_
 6	pudding	_	NOUN	_	startali=123539|endali=123991	4	comp:obj	_	_
 7	//	_	PUNCT	_	startali=123991|endali=124021	3	punct	_	_
@@ -603,7 +603,7 @@
 5	#	_	PUNCT	_	startali=132610|endali=133720	8	punct	_	_
 6	diabetic	_	ADJ	_	startali=133720|endali=134940	8	dep	_	_
 7	#	_	PUNCT	_	startali=134940|endali=135180	6	punct	_	_
-8	patients	_	NOUN	_	Number=Plur|startali=135180|endali=135920	4	comp	_	_
+8	patients	_	NOUN	_	startali=135180|endali=135920	4	comp	_	_
 9	//	_	PUNCT	_	startali=135920|endali=135950	2	punct	_	_
 
 # sent_id = P_JOS_19_Bukuru_PRO_43
@@ -740,20 +740,20 @@
 10	<	_	PUNCT	_	startali=162010|endali=162040	2	punct	_	_
 11	if	_	SCONJ	_	startali=162040|endali=162340	20	mod:periph	_	_
 12	you	_	PRON	_	Case=Nom|PronType=Prs|Person=2|Number=Sing|startali=162340|endali=162400	13	subj	_	_
-13	wan	_	VERB	_	startali=162400|endali=162564	11	comp	_	_
+13	wan	_	VERB	_	startali=162400|Tense=Past|endali=162564	11	comp	_	_
 14	buy	_	VERB	_	startali=162564|endali=162751	13	comp:pred	_	_
 15	cloth	_	NOUN	_	startali=162751|endali=163240	14	comp:obj	_	_
 16	<	_	PUNCT	_	startali=163240|endali=163270	11	punct	_	_
 17	#	_	PUNCT	_	startali=163270|endali=163740	11	punct	_	_
 18	di	_	DET	_	PronType=Art|Definite=Def|startali=163740|endali=163928	19	det	_	_
 19	cloth	_	NOUN	_	startali=163928|endali=164330	20	subj	_	_
-20	dey	_	VERB	_	PartType=Cop|startali=164330|endali=164588	0	root	_	_
+20	dey	_	VERB	_	startali=164330|endali=164588	0	root	_	_
 21	{	_	PUNCT	_	startali=164588|endali=165058	22	punct	_	_
 22	very	_	ADV	_	startali=164588|endali=165058	26	mod	_	_
 23	|r	_	PUNCT	_	startali=164588|endali=165058	24	punct	_	_
 24	very	_	ADV	_	startali=165058|endali=165380	22	compound:redup	_	_
 25	}	_	PUNCT	_	startali=165058|endali=165380	22	punct	_	_
-26	cheap	_	ADJ	_	startali=165380|endali=165660	20	comp:pred	_	_
+26	cheap	_	NOUN	_	startali=165380|endali=165660	20	comp:pred	_	_
 27	//	_	PUNCT	_	startali=165660|endali=165690	20	punct	_	_
 
 # sent_id = P_JOS_19_Bukuru_PRO_50
@@ -761,7 +761,7 @@
 # text = [eng you must not go for uhn boutique eng] |c abi na # any other supermarket //
 1	[eng	_	PUNCT	_	startali=165690|endali=165860	3	subj	_	_
 2	you	_	PRON	_	Case=Nom|PronType=Prs|Person=2|Number=Sing|startali=165690|endali=165860	3	subj	_	_
-3	must	_	AUX	_	VerbForm=Fin|startali=165860|endali=166090	0	root	_	_
+3	must	_	AUX	_	startali=165860|endali=166090	0	root	_	_
 4	not	_	PART	_	Polarity=Neg|startali=166090|endali=166310	3	mod	_	_
 5	go	_	VERB	_	startali=166310|endali=166637	3	comp:aux	_	_
 6	for	_	ADP	_	startali=166637|endali=166965	5	comp:obl	_	_
@@ -770,7 +770,7 @@
 9	eng]	_	PUNCT	_	startali=167750|endali=167780	3	punct	_	_
 10	|c	_	PUNCT	_	startali=167750|endali=167780	16	punct	_	_
 11	abi	_	CCONJ	_	startali=167780|endali=168115	16	cc	_	_
-12	na	_	PART	_	PartType=Cop|startali=168115|endali=168700	11	discourse	_	_
+12	na	_	ADV	_	PartType=Cop|startali=168115|endali=168700	11	discourse	_	_
 13	#	_	PUNCT	_	startali=168700|endali=169840	16	punct	_	_
 14	any	_	DET	_	startali=169840|endali=170380	16	det	_	_
 15	other	_	ADJ	_	startali=170380|endali=170760	16	dep	_	_
@@ -788,7 +788,7 @@
 6	//=	_	PUNCT	_	startali=172786|endali=172816	7	punct	_	_
 7	buy	_	VERB	_	startali=172816|endali=173110	2	parataxis:conj	_	_
 8	your	_	ADJ	_	PronType=Prs|Person=2|Number=Sing|Poss=Yes|startali=173110|endali=173494	9	dep	_	_
-9	jeans	_	NOUN	_	Number=Plur|startali=173494|endali=174029	7	comp:obj	_	_
+9	jeans	_	NOUN	_	startali=173494|endali=174029	7	comp:obj	_	_
 10	//=	_	PUNCT	_	startali=174029|endali=174059	11	punct	_	_
 11	buy	_	VERB	_	startali=174059|endali=174231	7	parataxis:conj	_	_
 12	your	_	ADJ	_	PronType=Prs|Person=2|Number=Sing|Poss=Yes|startali=174231|endali=174426	13	dep	_	_
@@ -804,7 +804,7 @@
 5	very	_	ADV	_	startali=175950|endali=176400	3	compound:redup	_	_
 6	}	_	PUNCT	_	startali=176400|endali=176430	3	punct	_	_
 7	cheap	_	ADJ	_	startali=176430|endali=176703	0	root	_	_
-8	//	_	PUNCT	_	startali=176703|endali=176733	-1	_	_	_
+8	//	_	PUNCT	_	startali=176703|endali=176733	7	punct	_	_
 
 # sent_id = P_JOS_19_Bukuru_PRO_53
 # text = buy your sweater //
@@ -826,16 +826,16 @@
 8	<	_	PUNCT	_	startali=178770|endali=178800	7	punct	_	_
 9	#	_	PUNCT	_	startali=178800|endali=179040	11	punct	_	_
 10	e	_	PRON	_	Case=Nom|PronType=Prs|Person=3|Number=Sing|startali=179040|endali=179125	11	subj	_	_
-11	dey	_	VERB	_	PartType=Cop|startali=179125|endali=179260	4	comp	_	_
+11	dey	_	VERB	_	startali=179125|endali=179260	4	comp	_	_
 12	very	_	ADV	_	startali=179260|endali=179598	13	mod	_	_
 13	cold	_	ADJ	_	startali=179598|endali=179930	11	comp:pred	_	_
 14	]	_	PUNCT	_	startali=179930|endali=179960	11	punct	_	_
 15	<	_	PUNCT	_	startali=179930|endali=179960	1	punct	_	_
 16	#	_	PUNCT	_	startali=179960|endali=180600	18	punct	_	_
 17	you	_	PRON	_	Case=Nom|PronType=Prs|Person=2|Number=Sing|startali=180600|endali=180690	18	subj	_	_
-18	go	_	VERB	_	startali=180690|endali=180852	0	root	_	_
+18	go	_	VERB	_	startali=180690|Tense=Prosp|endali=180852	0	root	_	_
 19	Katako	_	PROPN	_	startali=180852|endali=181474	18	comp:obj	_	_
-20	go	_	VERB	_	startali=181474|endali=181720	18	mod	_	_
+20	go	_	VERB	_	startali=181474|Tense=Prosp|endali=181720	18	mod	_	_
 21	buy	_	VERB	_	startali=181720|endali=182027	20	comp:pred	_	_
 22	your	_	ADJ	_	PronType=Prs|Person=2|Number=Sing|Poss=Yes|startali=182027|endali=182191	23	dep	_	_
 23	sweater	_	NOUN	_	startali=182191|endali=182857	21	comp:obj	_	_
@@ -930,9 +930,9 @@
 # sent_translation = # Biron, Ngas. Unuyun. Unuyun.
 # text = # Berom |c Ngas # you know //
 1	#	_	PUNCT	_	startali=198140|endali=198760	2	punct	_	_
-2	Berom	_	PROPN	_	startali=198760|endali=199380	0	root	_	_
+2	Berom	_	NOUN	_	startali=198760|endali=199380	0	root	_	_
 3	|c	_	PUNCT	_	startali=199380|endali=199410	4	punct	_	_
-4	Ngas	_	PROPN	_	startali=199410|endali=200410	2	conj:coord	_	_
+4	Ngas	_	NOUN	_	startali=199410|endali=200410	2	conj:coord	_	_
 5	#	_	PUNCT	_	startali=200410|endali=201380	2	punct	_	_
 6	you	_	PRON	_	Case=Nom|PronType=Prs|Person=2|Number=Sing|startali=201380|endali=201518	7	subj	_	_
 7	know	_	VERB	_	startali=201518|endali=201790	2	parataxis:discourse	_	_
@@ -957,7 +957,7 @@
 14	na	_	PART	_	PartType=Cop|startali=204480|endali=204630	0	root	_	_
 15	im	_	PRON	_	Case=Nom|PronType=Prs|Person=3|Number=Sing|startali=204630|endali=204682	14	comp:pred	_	_
 16	>+	_	PUNCT	_	startali=204682|endali=204712	17	punct	_	_
-17	be	_	VERB	_	PartType=Cop|startali=204712|endali=204930	14	comp:cleft	_	_
+17	be	_	VERB	_	startali=204712|endali=204930	14	comp:cleft	_	_
 18	dog	_	NOUN	_	startali=204930|endali=205240	17	subj	_	_
 19	//	_	PUNCT	_	startali=205240|endali=205270	14	punct	_	_
 
@@ -969,7 +969,7 @@
 3	meat	_	NOUN	_	startali=206299|endali=206671	7	dislocated	_	_
 4	<	_	PUNCT	_	startali=206671|endali=206700	3	punct	_	_
 5	#	_	PUNCT	_	startali=206700|endali=207140	7	punct	_	_
-6	de	_	PRON	_	Case=Nom|PronType=Prs|Person=3|Number=Plur|startali=207140|endali=207330	7	subj	_	_
+6	de	_	PRON	_	startali=207140|endali=207330	7	subj	_	_
 7	chop	_	VERB	_	startali=207330|endali=207600	0	root	_	_
 8	dog	_	NOUN	_	startali=207600|endali=207880	9	compound	_	_
 9	meat	_	NOUN	_	startali=207880|endali=208099	7	comp:obj	_	_
@@ -990,13 +990,13 @@
 2	Jos	_	PROPN	_	startali=211814|endali=212099	3	compound	_	_
 3	people	_	NOUN	_	startali=212099|endali=212440	4	subj	_	_
 4	like	_	VERB	_	startali=212440|endali=212699	0	root	_	_
-5	dog	_	NOUN	_	startali=212699|endali=213050	4	comp:obj	_	_
+5	dog	_	PRON	_	startali=212699|endali=213050	4	comp:obj	_	_
 6	//	_	PUNCT	_	startali=212699|endali=213050	4	subj	_	_
 
 # sent_id = P_JOS_19_Bukuru_PRO_66
 # text = { di Ngas people |c Berom people |c my tribe sef } < # we dey chop dog { well |r well } //
 1	{	_	PUNCT	_	startali=213050|endali=213228	4	punct	_	_
-2	di	_	DET	_	PronType=Art|Definite=Def|startali=213050|endali=213228	4	det	_	_
+2	di	_	DET	_	startali=213050|endali=213228	4	det	_	_
 3	Ngas	_	PROPN	_	startali=213258|endali=213708	4	compound	_	_
 4	people	_	NOUN	_	startali=213708|endali=214066	16	dislocated	_	_
 5	|c	_	PUNCT	_	startali=214066|endali=214096	7	punct	_	_
@@ -1012,7 +1012,7 @@
 15	we	_	PRON	_	Case=Nom|PronType=Prs|Person=1|Number=Plur|startali=215710|endali=215804	16	subj	_	_
 16	dey	_	AUX	_	startali=215804|Aspect=Imp|endali=215915	0	root	_	_
 17	chop	_	VERB	_	startali=215915|endali=216167	16	comp:aux	_	_
-18	dog	_	NOUN	_	startali=216167|endali=216439	17	comp:obj	_	_
+18	dog	_	PRON	_	startali=216167|endali=216439	17	comp:obj	_	_
 19	{	_	PUNCT	_	startali=216439|endali=216469	20	punct	_	_
 20	well	_	ADV	_	startali=216469|endali=216688	17	mod	_	_
 21	|r	_	PUNCT	_	startali=216688|endali=216718	22	punct	_	_
@@ -1049,7 +1049,7 @@
 # text = # na better meat //
 1	#	_	PUNCT	_	startali=221230|endali=221940	2	punct	_	_
 2	na	_	PART	_	PartType=Cop|startali=221940|endali=222140	0	root	_	_
-3	better	_	ADJ	_	Degree=Comp|startali=222140|endali=222500	4	dep	_	_
+3	better	_	ADJ	_	startali=222140|endali=222500	4	dep	_	_
 4	meat	_	NOUN	_	startali=222500|endali=222826	2	comp:pred	_	_
 5	//	_	PUNCT	_	startali=222826|endali=222910	2	punct	_	_
 
@@ -1124,7 +1124,7 @@
 6	#	_	PUNCT	_	startali=239480|endali=240180	9	punct	_	_
 7	local	_	ADJ	_	startali=240180|endali=241040	9	dep	_	_
 8	#	_	PUNCT	_	startali=241040|endali=241320	9	punct	_	_
-9	beer	_	NOUN	_	startali=241320|endali=241680	3	comp:pred	_	_
+9	beer	_	ADJ	_	startali=241320|endali=241680	3	comp:pred	_	_
 10	#	_	PUNCT	_	startali=241680|endali=241960	11	punct	_	_
 11	wey	_	SCONJ	_	startali=241960|endali=242070	9	dep	_	_
 12	dem	_	PRON	_	Case=Nom|PronType=Prs|Person=3|Number=Plur|startali=242070|endali=242235	13	subj	_	_
@@ -1144,7 +1144,7 @@
 7	am	_	PRON	_	Case=Acc|PronType=Prs|Person=3|Number=Sing|startali=245590|endali=245683	6	comp:obj	_	_
 8	{	_	PUNCT	_	startali=245683|endali=245713	9	punct	_	_
 9	well	_	ADV	_	startali=245713|endali=245916	6	mod	_	_
-10	||	_	PUNCT	_	startali=245713|endali=245916	11	punct	_	_
+10	||	_	ADV	_	startali=245713|endali=245916	11	punct	_	_
 11	well	_	ADV	_	startali=245916|endali=246090	9	compound:redup	_	_
 12	}	_	PUNCT	_	startali=246090|endali=246120	9	punct	_	_
 13	//	_	PUNCT	_	startali=246090|endali=246120	5	punct	_	_
@@ -1153,9 +1153,9 @@
 # sent_translation = Ankwai people drink it a lot.Millet beer is very cheap here in Jos.
 # text = burkutu dey very cheap for dis Jos //
 1	burkutu	_	NOUN	_	startali=246120|endali=246519	2	subj	_	_
-2	dey	_	VERB	_	PartType=Cop|startali=246519|endali=246667	0	root	_	_
+2	dey	_	VERB	_	startali=246519|endali=246667	0	root	_	_
 3	very	_	ADV	_	startali=246667|endali=246970	4	mod	_	_
-4	cheap	_	ADJ	_	startali=246970|endali=247160	2	comp:pred	_	_
+4	cheap	_	VERB	_	startali=246970|endali=247160	2	comp:pred	_	_
 5	for	_	ADP	_	startali=247160|endali=247345	2	mod	_	_
 6	dis	_	DET	_	PronType=Prox|Number=Sing|startali=247345|endali=247625	7	det	_	_
 7	Jos	_	PROPN	_	startali=247625|endali=248070	5	comp	_	_
@@ -1168,7 +1168,7 @@
 2	na	_	PART	_	PartType=Cop|startali=248520|endali=248715	0	root	_	_
 3	drink	_	NOUN	_	startali=248715|endali=249040	2	comp:pred	_	_
 4	wey	_	SCONJ	_	startali=249040|endali=249130	3	dep	_	_
-5	be	_	VERB	_	PartType=Cop|startali=249130|endali=249246	4	comp	_	_
+5	be	_	VERB	_	startali=249130|endali=249246	4	comp	_	_
 6	sey	_	SCONJ	_	startali=249246|endali=249425	5	comp:pred	_	_
 7	[	_	PUNCT	_	startali=249425|endali=249455	17	punct	_	_
 8	if	_	SCONJ	_	startali=249455|endali=249560	17	mod:periph	_	_
@@ -1223,15 +1223,15 @@
 14	wey	_	SCONJ	_	startali=259729|endali=259913	13	dep	_	_
 15	Ankwai	_	PROPN	_	startali=259913|endali=260190	16	compound	_	_
 16	people	_	NOUN	_	startali=260190|endali=260478	17	subj	_	_
-17	dey	_	AUX	_	startali=260638|Aspect=Imp|endali=260890	14	comp	_	_
+17	dey	_	AUX	_	startali=260638|endali=260890	14	comp	_	_
 18	make	_	VERB	_	startali=260638|endali=260890	17	comp:aux	_	_
 19	am	_	PRON	_	Case=Acc|PronType=Prs|Person=3|Number=Sing|startali=260890|endali=260980	18	comp:obj	_	_
 20	|c	_	PUNCT	_	startali=260980|endali=261010	23	punct	_	_
 21	and	_	CCONJ	_	startali=261010|endali=261200	23	cc	_	_
 22	e	_	PRON	_	Case=Nom|PronType=Prs|Person=3|Number=Sing|startali=261200|endali=261287	23	subj	_	_
-23	dey	_	VERB	_	PartType=Cop|startali=261287|endali=261484	11	conj:coord	_	_
+23	dey	_	VERB	_	startali=261287|endali=261484	11	conj:coord	_	_
 24	very	_	ADV	_	startali=261484|endali=261750	25	mod	_	_
-25	affordable	_	ADJ	_	startali=261750|endali=262380	23	comp:pred	_	_
+25	affordable	_	NOUN	_	startali=261750|endali=262380	23	comp:pred	_	_
 26	//	_	PUNCT	_	startali=262380|endali=262397	5	punct	_	_
 
 # sent_id = P_JOS_19_Bukuru_PRO_78
@@ -1245,11 +1245,11 @@
 6	wey	_	SCONJ	_	startali=264027|endali=264155	4	dep	_	_
 7	we	_	PRON	_	Case=Nom|PronType=Prs|Person=1|Number=Plur|startali=264155|endali=264273	8	subj	_	_
 8	dey	_	AUX	_	startali=264273|Aspect=Imp|endali=264430	6	comp	_	_
-9	make	_	VERB	_	startali=264430|endali=264640	8	comp:aux	_	_
+9	make	_	VERB	_	Mood=Jus|startali=264430|endali=264640	8	comp:aux	_	_
 10	#	_	PUNCT	_	startali=264640|endali=265340	12	punct	_	_
 11	|c	_	PUNCT	_	startali=265310|endali=265340	12	punct	_	_
 12	wey	_	SCONJ	_	startali=265340|endali=265473	6	conj:coord	_	_
-13	dey	_	VERB	_	PartType=Cop|startali=265473|endali=265600	12	comp	_	_
+13	dey	_	VERB	_	startali=265473|endali=265600	12	comp	_	_
 14	very	_	ADV	_	startali=265600|endali=265880	15	mod	_	_
 15	medicinal	_	ADJ	_	startali=265880|endali=266542	13	comp:pred	_	_
 16	too	_	ADV	_	startali=266542|endali=266820	15	mod	_	_
@@ -1276,11 +1276,11 @@
 # sent_translation = # Everybody can take that one.
 # text = # everybody fit take dat one //
 1	#	_	PUNCT	_	startali=268890|endali=269500	3	punct	_	_
-2	everybody	_	PRON	_	startali=269500|endali=269991	3	subj	_	_
+2	everybody	_	NOUN	_	startali=269500|endali=269991	3	subj	_	_
 3	fit	_	AUX	_	startali=269991|endali=270176	0	root	_	_
 4	take	_	VERB	_	startali=270176|endali=270474	3	comp:aux	_	_
 5	dat	_	DET	_	PronType=Dem|Number=Sing|startali=270474|endali=270675	6	det	_	_
-6	one	_	NOUN	_	startali=270675|endali=270840	4	comp:obj	_	_
+6	one	_	NOUN	_	NumType=Card|startali=270675|endali=270840	4	comp:obj	_	_
 7	//	_	PUNCT	_	startali=270840|endali=270870	3	punct	_	_
 
 # sent_id = P_JOS_19_Bukuru_PRO_81
@@ -1292,14 +1292,14 @@
 4	dey	_	AUX	_	startali=271767|Aspect=Imp|endali=271903	0	root	_	_
 5	put	_	VERB	_	startali=271903|endali=272140	4	comp:aux	_	_
 6	am	_	PRON	_	Case=Acc|PronType=Prs|Person=3|Number=Sing|startali=272140|endali=272275	5	comp:obj	_	_
-7	sugar	_	NOUN	_	startali=272275|endali=272600	5	compound:svc	_	_
+7	sugar	_	VERB	_	startali=272275|endali=272600	5	compound:svc	_	_
 8	//=	_	PUNCT	_	startali=272600|endali=272630	11	punct	_	_
 9	e	_	PRON	_	Case=Nom|PronType=Prs|Person=3|Number=Sing|startali=272630|endali=272691	11	subj	_	_
 10	no	_	PART	_	Polarity=Neg|startali=272691|endali=272788	11	mod	_	_
 11	dey	_	AUX	_	startali=272788|Aspect=Imp|endali=272900	4	parataxis:conj	_	_
 12	put	_	VERB	_	startali=272900|endali=273140	11	comp:aux	_	_
 13	am	_	PRON	_	Case=Acc|PronType=Prs|Person=3|Number=Sing|startali=273140|endali=273300	12	comp:obj	_	_
-14	anything	_	PRON	_	startali=273300|endali=273850	12	comp:obj	_	_
+14	anything	_	NOUN	_	startali=273300|endali=273850	12	comp:obj	_	_
 15	//	_	PUNCT	_	startali=273850|endali=273880	4	punct	_	_
 
 # sent_id = P_JOS_19_Bukuru_PRO_82
@@ -1314,10 +1314,10 @@
 7	and	_	CCONJ	_	startali=275960|endali=276070	10	cc	_	_
 8	di	_	DET	_	PronType=Art|Definite=Def|startali=276070|endali=276199	9	det	_	_
 9	kunu	_	NOUN	_	startali=276199|endali=276561	10	subj	_	_
-10	dey	_	VERB	_	PartType=Cop|startali=276561|endali=276720	2	conj:coord	_	_
+10	dey	_	VERB	_	startali=276561|Aspect=Imp|endali=276720	2	conj:coord	_	_
 11	of	_	ADP	_	startali=276720|endali=276960	10	comp:pred	_	_
 12	different	_	ADJ	_	startali=276960|endali=277385	13	dep	_	_
-13	types	_	NOUN	_	Number=Plur|startali=277385|endali=277769	11	comp	_	_
+13	types	_	NOUN	_	startali=277385|endali=277769	11	comp	_	_
 14	//	_	PUNCT	_	startali=277769|endali=277799	2	punct	_	_
 
 # sent_id = P_JOS_19_Bukuru_PRO_83
@@ -1362,7 +1362,7 @@
 1	#	_	PUNCT	_	startali=282998|endali=283800	4	punct	_	_
 2	dat	_	DET	_	PronType=Dem|Number=Sing|startali=283800|endali=283950	3	det	_	_
 3	kunu	_	NOUN	_	startali=283950|endali=284332	4	subj	_	_
-4	dey	_	VERB	_	PartType=Cop|startali=284332|endali=284490	0	root	_	_
+4	dey	_	VERB	_	startali=284332|endali=284490	0	root	_	_
 5	{	_	PUNCT	_	startali=284490|endali=284520	6	punct	_	_
 6	very	_	ADV	_	startali=284520|endali=285013	10	mod	_	_
 7	|r	_	PUNCT	_	startali=285013|endali=285043	8	punct	_	_
@@ -1447,7 +1447,7 @@
 4	kunu	_	NOUN	_	startali=297970|endali=298310	7	dislocated	_	_
 5	<	_	PUNCT	_	startali=298310|endali=298340	4	punct	_	_
 6	e	_	PRON	_	Case=Nom|PronType=Prs|Person=3|Number=Sing|startali=298340|endali=298465	7	subj	_	_
-7	dey	_	VERB	_	PartType=Cop|startali=298465|endali=298660	0	root	_	_
+7	dey	_	VERB	_	startali=298465|endali=298660	0	root	_	_
 8	{	_	PUNCT	_	startali=298660|endali=299190	9	punct	_	_
 9	very	_	ADV	_	startali=298660|endali=299190	13	mod	_	_
 10	||	_	PUNCT	_	startali=298660|endali=299190	11	punct	_	_
@@ -1488,9 +1488,9 @@
 1	#	_	PUNCT	_	startali=305799|endali=306780	4	punct	_	_
 2	dat	_	DET	_	PronType=Dem|Number=Sing|startali=306780|endali=306970	3	det	_	_
 3	kuka	_	NOUN	_	startali=306970|endali=307326	4	subj	_	_
-4	dey	_	VERB	_	PartType=Cop|startali=307326|endali=307490	0	root	_	_
+4	dey	_	VERB	_	startali=307326|endali=307490	0	root	_	_
 5	very	_	ADV	_	startali=307490|endali=308250	6	mod	_	_
-6	sweet	_	ADJ	_	startali=308250|endali=308760	4	comp:pred	_	_
+6	sweet	_	VERB	_	startali=308250|endali=308760	4	comp:pred	_	_
 7	//	_	PUNCT	_	startali=308760|endali=308790	4	punct	_	_
 
 # sent_id = P_JOS_19_Bukuru_PRO_94
@@ -1503,7 +1503,7 @@
 5	am	_	PRON	_	Case=Acc|PronType=Prs|Person=3|Number=Sing|startali=309450|endali=309574	4	comp:obj	_	_
 6	with	_	ADP	_	startali=309574|endali=309700	4	comp:obl	_	_
 7	#	_	PUNCT	_	startali=309700|endali=309830	10	punct	_	_
-8	plenty	_	ADJ	_	startali=309830|endali=310248	10	dep	_	_
+8	plenty	_	X	_	startali=309830|endali=310248	10	dep	_	_
 9	{	_	PUNCT	_	startali=310248|endali=310278	10	punct	_	_
 10	mil-	_	ADJ	_	startali=310278|endali=310710	6	comp	_	_
 11	||	_	PUNCT	_	startali=310710|endali=310740	12	punct	_	_
@@ -1542,7 +1542,7 @@
 10	#	_	PUNCT	_	startali=317920|endali=318123	11	punct	_	_
 11	with	_	ADP	_	startali=318123|endali=318450	8	comp:obl	_	_
 12	ehm	_	INTJ	_	startali=318450|endali=318833	13	discourse	_	_
-13	&	_	X	_	startali=318833|endali=318863	11	comp	_	_
+13	&	_	PUNCT	_	startali=318833|endali=318863	11	comp	_	_
 14	//	_	PUNCT	_	startali=318833|endali=318863	2	punct	_	_
 
 # sent_id = P_JOS_19_Bukuru_PRO_97
@@ -1622,13 +1622,13 @@
 # sent_translation = # It depends on  what you want to use it for.
 # text = # it depends on # wetin you wan carry am do //
 1	#	_	PUNCT	_	startali=333080|endali=333420	3	punct	_	_
-2	it	_	PRON	_	Case=Acc|PronType=Prs|Person=3|Number=Sing|startali=333420|endali=333563	3	subj	_	_
-3	depends	_	VERB	_	Mood=Ind|VerbFor=Fin|Number=Sing|startali=333563|Person=3|Tense=Pres|endali=333980	0	root	_	_
+2	it	_	PRON	_	Case=Acc|startali=333420|Person=3|endali=333563	3	subj	_	_
+3	depends	_	VERB	_	startali=333563|endali=333980	0	root	_	_
 4	on	_	ADP	_	startali=333980|endali=334380	3	comp:obl	_	_
 5	#	_	PUNCT	_	startali=334380|endali=335020	6	punct	_	_
 6	wetin	_	PRON	_	PronType=Int|startali=335020|endali=335258	4	comp	_	_
 7	you	_	PRON	_	Case=Nom|PronType=Prs|Person=2|Number=Sing|startali=335258|endali=335400	8	subj	_	_
-8	wan	_	VERB	_	startali=335400|endali=335553	6	dep	_	_
+8	wan	_	VERB	_	Mood=Ind|startali=335400|endali=335553|Tense=Past|VerbForm=Fin	6	dep	_	_
 9	carry	_	VERB	_	startali=335553|endali=335920	8	comp:pred	_	_
 10	am	_	PRON	_	Case=Acc|PronType=Prs|Person=3|Number=Sing|startali=335920|endali=336107	9	comp:obj	_	_
 11	do	_	VERB	_	startali=336107|endali=336340	9	compound:svc	_	_
@@ -1670,7 +1670,7 @@
 # sent_translation = you will make it. It is sweet.
 # text = e dey sweet //
 1	e	_	PRON	_	Case=Nom|PronType=Prs|Person=3|Number=Sing|startali=340258|endali=340403	2	subj	_	_
-2	dey	_	VERB	_	PartType=Cop|startali=340403|endali=340550	0	root	_	_
+2	dey	_	VERB	_	startali=340403|endali=340550	0	root	_	_
 3	sweet	_	ADJ	_	startali=340550|endali=341080	2	comp:aux	_	_
 4	//	_	PUNCT	_	startali=341080|endali=341110	2	punct	_	_
 
@@ -1704,7 +1704,7 @@
 # sent_translation = you will make it. # People buy it. It is very nice. Early in the morning in Jos, you will see people at joints eating fritters.
 # text = e dey very nice //
 1	e	_	PRON	_	Case=Nom|PronType=Prs|Person=3|Number=Sing|startali=344738|endali=344854	2	subj	_	_
-2	dey	_	VERB	_	PartType=Cop|startali=344854|endali=345010	0	root	_	_
+2	dey	_	VERB	_	startali=344854|endali=345010	0	root	_	_
 3	very	_	ADV	_	startali=345010|endali=345468	4	mod	_	_
 4	nice	_	NOUN	_	startali=345468|endali=345750	2	comp:pred	_	_
 5	//	_	PUNCT	_	startali=345750|endali=345780	2	punct	_	_
@@ -1745,7 +1745,7 @@
 31	ewa	_	NUM	_	startali=352800|endali=353109	28	comp:obj	_	_
 32	|c	_	PUNCT	_	startali=353109|endali=353139	34	punct	_	_
 33	or	_	CCONJ	_	startali=353139|endali=353360	34	cc	_	_
-34	something	_	PRON	_	startali=353360|endali=353840	31	conj:coord	_	_
+34	something	_	NOUN	_	startali=353360|endali=353840	31	conj:coord	_	_
 35	else	_	ADJ	_	startali=353840|endali=354030	34	dep	_	_
 36	}	_	PUNCT	_	startali=354030|endali=354060	31	punct	_	_
 37	like	_	ADP	_	startali=354060|endali=354237	28	mod	_	_
@@ -1781,7 +1781,7 @@
 13	buy	_	VERB	_	startali=359433|endali=360017	12	comp:aux	_	_
 14	|c	_	PUNCT	_	startali=360017|endali=360047	15	punct	_	_
 15	dey	_	AUX	_	startali=360047|Aspect=Imp|endali=360192	12	conj:coord	_	_
-16	queue	_	NOUN	_	startali=360192|endali=360563	15	comp:aux	_	_
+16	queue	_	VERB	_	startali=360192|endali=360563	15	comp:aux	_	_
 17	|c	_	PUNCT	_	startali=360563|endali=360593	19	punct	_	_
 18	#	_	PUNCT	_	startali=360593|endali=361430	19	punct	_	_
 19	dey	_	AUX	_	startali=361430|Aspect=Imp|endali=361523	15	conj:coord	_	_
@@ -1800,8 +1800,8 @@
 2	even	_	ADV	_	startali=363822|endali=364092	3	mod	_	_
 3	if	_	SCONJ	_	startali=364092|endali=364252	10	mod:periph	_	_
 4	you	_	PRON	_	Case=Nom|PronType=Prs|Person=2|Number=Sing|startali=364252|endali=364335	5	subj	_	_
-5	dey	_	VERB	_	PartType=Cop|startali=364335|endali=364602	3	comp	_	_
-6	office	_	NOUN	_	startali=364602|endali=364834	5	comp:pred	_	_
+5	dey	_	VERB	_	startali=364335|Aspect=Imp|endali=364602	3	comp	_	_
+6	office	_	VERB	_	startali=364602|endali=364834	5	comp:pred	_	_
 7	<	_	PUNCT	_	startali=364834|endali=364864	3	punct	_	_
 8	some	_	DET	_	startali=364864|endali=365022	9	det	_	_
 9	people	_	NOUN	_	startali=365022|endali=365265	10	subj	_	_
@@ -1875,7 +1875,7 @@
 5	e	_	PRON	_	Case=Nom|PronType=Prs|Person=3|Number=Sing|startali=377374|endali=377439	6	subj:expl	_	_
 6	get	_	VERB	_	startali=377439|endali=377592	0	root	_	_
 7	di	_	DET	_	PronType=Art|Definite=Def|startali=377592|endali=377674	8	det	_	_
-8	one	_	NOUN	_	startali=377674|endali=377804	6	comp:obj	_	_
+8	one	_	NOUN	_	NumType=Card|startali=377674|endali=377804	6	comp:obj	_	_
 9	wey	_	SCONJ	_	startali=377804|endali=377904	8	dep	_	_
 10	dem	_	PRON	_	Case=Nom|PronType=Prs|Person=3|Number=Plur|startali=377904|endali=378043	11	subj	_	_
 11	dey	_	AUX	_	startali=378043|Aspect=Imp|endali=378184	9	comp	_	_
@@ -1892,8 +1892,8 @@
 22	different	_	ADJ	_	startali=380251|endali=380764	23	dep	_	_
 23	kinds	kind	NOUN	_	Number=Plur|startali=380764|endali=380984	26	subj	_	_
 24	of	_	ADP	_	startali=380984|endali=381144	23	dep	_	_
-25	kunu	_	NOUN	_	startali=381144|endali=381474	24	comp	_	_
-26	dey	_	VERB	_	PartType=Cop|startali=381474|endali=381672	20	comp	_	_
+25	kunu	_	PROPN	_	startali=381144|endali=381474	24	comp	_	_
+26	dey	_	VERB	_	startali=381474|Aspect=Imp|endali=381672	20	comp	_	_
 27	]	_	PUNCT	_	startali=381672|endali=381739	26	punct	_	_
 28	//	_	PUNCT	_	startali=381672|endali=381739	6	punct	_	_
 
@@ -1902,7 +1902,7 @@
 # text = # dat one wey dem dey make with tiger nut < di one wey dem dey make with rice < e dey //
 1	#	_	PUNCT	_	startali=381672|endali=382420	22	punct	_	_
 2	dat	_	DET	_	PronType=Dem|Number=Sing|startali=382420|endali=382504	3	det	_	_
-3	one	_	NOUN	_	startali=382504|endali=382565	22	dislocated	_	_
+3	one	_	NOUN	_	NumType=Card|startali=382504|endali=382565	22	dislocated	_	_
 4	wey	_	SCONJ	_	startali=382565|endali=382676	3	dep	_	_
 5	dem	_	PRON	_	Case=Nom|PronType=Prs|Person=3|Number=Plur|startali=382676|endali=382835	6	subj	_	_
 6	dey	_	AUX	_	startali=382835|Aspect=Imp|endali=382937	4	comp	_	_
@@ -1912,7 +1912,7 @@
 10	nut	_	NOUN	_	startali=383870|endali=384262	8	comp	_	_
 11	<	_	PUNCT	_	startali=384262|endali=384292	3	punct	_	_
 12	di	_	DET	_	PronType=Art|Definite=Def|startali=384292|endali=384433	13	det	_	_
-13	one	_	NOUN	_	startali=384433|endali=384603	22	dislocated	_	_
+13	one	_	NOUN	_	NumType=Card|startali=384433|endali=384603	22	dislocated	_	_
 14	wey	_	SCONJ	_	startali=384603|endali=384715	13	dep	_	_
 15	dem	_	PRON	_	Case=Nom|PronType=Prs|Person=3|Number=Plur|startali=384715|endali=384876	16	subj	_	_
 16	dey	_	AUX	_	startali=384876|Aspect=Imp|endali=384953	14	comp	_	_
@@ -1921,7 +1921,7 @@
 19	rice	_	NOUN	_	startali=385460|endali=386008	18	comp	_	_
 20	<	_	PUNCT	_	startali=386008|endali=386038	13	punct	_	_
 21	e	_	PRON	_	Case=Nom|PronType=Prs|Person=3|Number=Sing|startali=386038|endali=386162	22	subj	_	_
-22	dey	_	VERB	_	PartType=Cop|startali=386162|endali=386388	0	root	_	_
+22	dey	_	VERB	_	startali=386162|endali=386388	0	root	_	_
 23	//	_	PUNCT	_	startali=386388|endali=386410	22	punct	_	_
 
 # sent_id = P_JOS_19_Bukuru_PRO_119

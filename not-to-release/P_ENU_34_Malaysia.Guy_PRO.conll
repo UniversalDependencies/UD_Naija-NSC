@@ -3,7 +3,7 @@
 # text = [eng I should start eng] ?//
 1	[eng	_	PUNCT	_	startali=1160|endali=1240	3	punct	_	_
 2	I	_	PRON	_	Case=Nom|PronType=Prs|Person=1|Number=Sing|startali=1160|endali=1240	3	subj	_	_
-3	should	_	AUX	_	VerbForm=Fin|startali=1240|endali=1390	0	root	_	_
+3	should	_	AUX	_	startali=1240|endali=1390	0	root	_	_
 4	start	_	VERB	_	startali=1390|endali=1570	3	comp:aux	_	_
 5	eng]	_	PUNCT	_	startali=1570|endali=1600	3	punct	_	_
 6	?//	_	PUNCT	_	startali=1570|endali=1600	3	punct	_	_
@@ -17,7 +17,7 @@
 4	at	_	ADP	_	startali=3160|endali=3360	13	mod:periph	_	_
 5	dis	_	DET	_	PronType=Prox|Number=Sing|startali=3360|endali=3577	6	det	_	_
 6	year	_	NOUN	_	startali=3577|endali=3746	4	comp	_	_
-7	twenty	_	NUM	_	NumType=Card|startali=3746|endali=4110	8	compound	_	_
+7	twenty	_	NUM	_	startali=3746|endali=4110	8	compound	_	_
 8	eighteen	_	NUM	_	startali=4110|endali=4590	6	dep:appos	_	_
 9	<	_	PUNCT	_	startali=4590|endali=4620	4	punct	_	_
 10	omo	_	NOUN	_	startali=4620|endali=4890	13	vocative	_	_
@@ -56,9 +56,9 @@
 15	even	_	ADV	_	startali=10460|endali=10670	18	mod	_	_
 16	my	_	ADJ	_	PronType=Prs|Person=1|Number=Sing|Poss=Yes|startali=10670|endali=10855	18	dep	_	_
 17	{	_	PUNCT	_	startali=10855|endali=10885	18	punct	_	_
-18	de-	_	X	_	startali=10885|endali=11090	9	conj:coord	_	_
+18	de-	_	XX	_	startali=10885|endali=11090	9	conj:coord	_	_
 19	||	_	PUNCT	_	startali=11090|endali=11120	20	punct	_	_
-20	de-	_	X	_	startali=11120|endali=11246	18	conj:dicto	_	_
+20	de-	_	XX	_	startali=11120|endali=11246	18	conj:dicto	_	_
 21	||	_	PUNCT	_	startali=11246|endali=11276	22	punct	_	_
 22	destiny	_	NOUN	_	startali=11276|endali=11630	20	conj:dicto	_	_
 23	}	_	PUNCT	_	startali=11630|endali=11660	18	punct	_	_
@@ -127,10 +127,10 @@
 8	|c	_	PUNCT	_	startali=22740|endali=23580	11	punct	_	_
 9	even	_	ADV	_	startali=23580|endali=23940	11	mod	_	_
 10	dis	_	DET	_	PronType=Prox|Number=Sing|startali=23940|endali=24120	11	det	_	_
-11	Enugu	_	PROPN	_	startali=24120|endali=24456	4	conj:coord	_	_
+11	Enugu	_	NOUN	_	startali=24120|endali=24456	4	conj:coord	_	_
 12	wey	_	SCONJ	_	startali=24456|endali=24540	11	dep	_	_
 13	I	_	PRON	_	Case=Nom|PronType=Prs|Person=1|Number=Sing|startali=24540|endali=24683	14	subj	_	_
-14	dey	_	VERB	_	PartType=Cop|startali=24683|endali=24910	12	comp	_	_
+14	dey	_	VERB	_	startali=24683|Aspect=Imp|endali=24910	12	comp	_	_
 15	}	_	PUNCT	_	startali=24910|endali=24940	2	punct	_	_
 16	//	_	PUNCT	_	startali=24910|endali=24940	2	punct	_	_
 
@@ -165,7 +165,7 @@
 # sent_translation = # XX help me, help me. Help me, this is my, this is my prayer. Okay
 # text = # Omo help me //= help me //= # help me //
 1	#	_	PUNCT	_	startali=28432|endali=29180	3	punct	_	_
-2	Omo	_	PROPN	_	startali=29180|endali=29380	3	vocative	_	_
+2	Omo	_	NOUN	_	startali=29180|endali=29380	3	vocative	_	_
 3	help	_	VERB	_	startali=29410|endali=29675	0	root	_	_
 4	me	_	PRON	_	Case=Acc|PronType=Prs|Person=1|Number=Sing|startali=29675|endali=29830	3	comp:obj	_	_
 5	//=	_	PUNCT	_	startali=29830|endali=29860	6	punct	_	_
@@ -211,7 +211,7 @@
 3	from	_	ADP	_	startali=37460|endali=37940	6	mod:periph	_	_
 4	now	_	ADV	_	startali=37940|endali=38141	3	comp	_	_
 5	to	_	ADP	_	startali=38141|endali=38260	3	conj:coord	_	_
-6	&	_	X	_	startali=38260|endali=38290	0	root	_	_
+6	&	_	PUNCT	_	startali=38260|endali=38290	0	root	_	_
 7	//	_	PUNCT	_	startali=38260|endali=38290	6	punct	_	_
 
 # sent_id = P_ENU_34_Malaysia.Guy_PRO_12
@@ -235,7 +235,7 @@
 17	January	_	PROPN	_	startali=41389|endali=41950	16	comp	_	_
 18	<	_	PUNCT	_	startali=41950|endali=41980	16	punct	_	_
 19	I	_	PRON	_	Case=Nom|PronType=Prs|Person=1|Number=Sing|startali=41980|endali=42142	20	subj	_	_
-20	wan	_	VERB	_	startali=42142|endali=42518	0	root	_	_
+20	wan	_	VERB	_	Mood=Ind|startali=42142|endali=42518	0	root	_	_
 21	&	_	X	_	startali=42518|endali=42548	20	comp:pred	_	_
 22	//	_	PUNCT	_	startali=42518|endali=42548	20	punct	_	_
 
@@ -343,7 +343,7 @@
 # text = # I wan travel out //
 1	#	_	PUNCT	_	startali=72493|endali=73060	3	punct	_	_
 2	I	_	PRON	_	Case=Nom|PronType=Prs|Person=1|Number=Sing|startali=73060|endali=73170	3	subj	_	_
-3	wan	_	VERB	_	startali=73170|endali=73330	0	root	_	_
+3	wan	_	VERB	_	Mood=Ind|startali=73170|endali=73330|Tense=Past|VerbForm=Fin	0	root	_	_
 4	travel	_	VERB	_	startali=73330|endali=73692	3	comp:pred	_	_
 5	out	_	ADP	_	startali=73692|endali=74010	4	compound:prt	_	_
 6	//	_	PUNCT	_	startali=74010|endali=74040	3	punct	_	_
@@ -353,7 +353,7 @@
 # text = # I wan go Malay //
 1	#	_	PUNCT	_	startali=74040|endali=74400	3	punct	_	_
 2	I	_	PRON	_	Case=Nom|PronType=Prs|Person=1|Number=Sing|startali=74400|endali=74510	3	subj	_	_
-3	wan	_	VERB	_	startali=74510|endali=74650	0	root	_	_
+3	wan	_	VERB	_	Mood=Ind|startali=74510|Tense=Past|endali=74650	0	root	_	_
 4	go	_	VERB	_	startali=74650|endali=74770	3	comp:pred	_	_
 5	Malay	_	PROPN	_	startali=74770|endali=75070	4	comp:obj	_	_
 6	//	_	PUNCT	_	startali=75070|endali=75100	3	punct	_	_
@@ -410,7 +410,7 @@
 # sent_translation = These Malay guys, they are making it there now. I want to go there.
 # text = I wan go dere //
 1	I	_	PRON	_	Case=Nom|PronType=Prs|Person=1|Number=Sing|startali=81340|endali=81400	2	subj	_	_
-2	wan	_	VERB	_	startali=81400|endali=81560	0	root	_	_
+2	wan	_	VERB	_	Mood=Ind|startali=81400|Tense=Past|endali=81560	0	root	_	_
 3	go	_	VERB	_	startali=81560|endali=81700	2	comp:pred	_	_
 4	dere	_	ADV	_	PronType=Dem|startali=81700|endali=81960	3	comp:obj	_	_
 5	//	_	PUNCT	_	startali=81960|endali=81990	2	punct	_	_
@@ -424,10 +424,10 @@
 4	guy	_	NOUN	_	startali=82900|endali=83008	2	comp:pred	_	_
 5	{	_	PUNCT	_	startali=83008|endali=83038	7	punct	_	_
 6	I	_	PRON	_	Case=Nom|PronType=Prs|Person=1|Number=Sing|startali=83038|endali=83119	7	subj	_	_
-7	wan	_	VERB	_	startali=83119|endali=83197	2	comp:cleft	_	_
+7	wan	_	VERB	_	startali=83119|Tense=Past|endali=83197	2	comp:cleft	_	_
 8	||	_	PUNCT	_	startali=83197|endali=83227	10	punct	_	_
 9	I	_	PRON	_	Case=Nom|PronType=Prs|Person=1|Number=Sing|startali=83227|endali=83370	10	subj	_	_
-10	wan	_	VERB	_	startali=83370|endali=83483	7	conj:dicto	_	_
+10	wan	_	VERB	_	Mood=Ind|startali=83370|Tense=Past|endali=83483	7	conj:dicto	_	_
 11	}	_	PUNCT	_	startali=83483|endali=83513	7	punct	_	_
 12	&	_	X	_	startali=83483|endali=83513	10	comp:pred	_	_
 13	//	_	PUNCT	_	startali=83483|endali=83513	2	punct	_	_
@@ -435,8 +435,8 @@
 # sent_id = P_ENU_34_Malaysia.Guy_PRO_22
 # text = I wan be Malay guy now //
 1	I	_	PRON	_	Case=Nom|PronType=Prs|Person=1|Number=Sing|startali=83513|endali=83650	2	subj	_	_
-2	wan	_	VERB	_	startali=83650|endali=83760	0	root	_	_
-3	be	_	VERB	_	PartType=Cop|startali=83790|endali=83910	2	comp:pred	_	_
+2	wan	_	VERB	_	Mood=Ind|startali=83650|Tense=Past|endali=83760	0	root	_	_
+3	be	_	VERB	_	startali=83790|endali=83910	2	comp:pred	_	_
 4	Malay	_	PROPN	_	startali=83910|endali=84160	5	compound	_	_
 5	guy	_	NOUN	_	startali=84160|endali=84330	3	comp:pred	_	_
 6	now	_	ADV	_	startali=84330|endali=84650	3	mod	_	_
@@ -447,7 +447,7 @@
 # text = # I wan make money from Malaysia //
 1	#	_	PUNCT	_	startali=84680|endali=85020	3	punct	_	_
 2	I	_	PRON	_	Case=Nom|PronType=Prs|Person=1|Number=Sing|startali=85020|endali=85120	3	subj	_	_
-3	wan	_	VERB	_	startali=85120|endali=85250	0	root	_	_
+3	wan	_	VERB	_	Mood=Ind|startali=85120|endali=85250|Tense=Past|VerbForm=Fin	0	root	_	_
 4	make	_	VERB	_	startali=85250|endali=85450	3	comp:pred	_	_
 5	money	_	NOUN	_	startali=85450|endali=85821	4	comp:obj	_	_
 6	from	_	ADP	_	startali=85821|endali=86020	4	mod	_	_
@@ -480,7 +480,7 @@
 # sent_id = P_ENU_34_Malaysia.Guy_PRO_26
 # sent_translation = I am tired of this country. Infact, if I, if I travel out of this country ehn, I won't come back again.
 # text = infact < { if I || if I || if } I travel out from dis country ehn < mtchew I no go come back again //
-1	infact	_	ADV	_	startali=89320|endali=89649	23	mod:periph	_	_
+1	infact	_	NOUN	_	startali=89320|endali=89649	23	mod:periph	_	_
 2	<	_	PUNCT	_	startali=89649|endali=89679	1	punct	_	_
 3	{	_	PUNCT	_	startali=89649|endali=89679	4	punct	_	_
 4	if	_	SCONJ	_	startali=89679|endali=89840	23	mod:periph	_	_
@@ -491,7 +491,7 @@
 9	||	_	PUNCT	_	startali=90270|endali=90300	10	punct	_	_
 10	if	_	SCONJ	_	startali=90300|endali=90530	7	conj:dicto	_	_
 11	}	_	PUNCT	_	startali=90530|endali=90640	4	punct	_	_
-12	I	_	PRON	_	Case=Nom|PronType=Prs|Person=1|Number=Sing|startali=90640|endali=90670	13	subj	_	_
+12	I	_	PRON	_	Case=Nom|startali=90640|PronType=Prs|Number=Sing|Pers=1|endali=90670	13	subj	_	_
 13	travel	_	VERB	_	startali=90670|endali=91029	10	comp	_	_
 14	out	_	ADP	_	startali=91029|endali=91260	13	compound:prt	_	_
 15	from	_	ADP	_	startali=91260|endali=91420	13	comp:obl	_	_
@@ -552,7 +552,7 @@
 6	#	_	PUNCT	_	startali=98060|endali=98280	9	punct	_	_
 7	{	_	PUNCT	_	startali=98250|endali=98280	9	punct	_	_
 8	Malay	_	PROPN	_	startali=98280|endali=98520	9	compound	_	_
-9	girl	_	NOUN	_	startali=98520|endali=98630	4	comp:obj	_	_
+9	girl	_	PROPN	_	startali=98520|endali=98630	4	comp:obj	_	_
 10	||	_	PUNCT	_	startali=98630|endali=98660	12	punct	_	_
 11	Malaysia	_	PROPN	_	startali=98660|endali=99030	12	compound	_	_
 12	girl	_	NOUN	_	startali=99030|endali=99780	9	conj:dicto	_	_
@@ -569,7 +569,7 @@
 5	||	_	PUNCT	_	startali=100526|endali=100556	6	punct	_	_
 6	na	_	PART	_	PartType=Cop|startali=100556|endali=100707	3	conj:dicto	_	_
 7	dem	_	PRON	_	Case=Nom|PronType=Prs|Person=3|Number=Plur|startali=100707|endali=100850	6	comp:pred	_	_
-8	fi-	_	ADP	_	startali=100850|endali=101022	6	comp:pred	_	_
+8	fi-	_	VERB	_	startali=100850|endali=101022	6	comp:pred	_	_
 9	||	_	PUNCT	_	startali=101022|endali=101052	10	punct	_	_
 10	na	_	PART	_	PartType=Cop|startali=101052|endali=101178	6	conj:dicto	_	_
 11	dem	_	PRON	_	Case=Nom|PronType=Prs|Person=3|Number=Plur|startali=101178|endali=101285	10	comp:pred	_	_
@@ -645,7 +645,7 @@
 7	Malaysia	_	PROPN	_	startali=116100|endali=116620	14	subj	_	_
 8	||	_	PUNCT	_	startali=116620|endali=116650	9	punct	_	_
 9	Malaysia	_	PROPN	_	startali=116650|endali=117168	7	conj:dicto	_	_
-10	re-	_	XX	_	startali=117168|endali=117310	9	orphan	_	_
+10	re-	_	VERB	_	startali=117168|endali=117310	9	orphan	_	_
 11	||	_	PUNCT	_	startali=117310|endali=117340	12	punct	_	_
 12	Malaysia	_	PROPN	_	startali=117340|endali=117830	9	conj:dicto	_	_
 13	}	_	PUNCT	_	startali=117830|endali=118114	7	punct	_	_
@@ -662,7 +662,7 @@
 1	#	_	PUNCT	_	startali=119520|endali=119636	4	punct	_	_
 2	[eng	_	PUNCT	_	startali=119606|endali=119636	4	punct	_	_
 3	I	_	PRON	_	Case=Nom|PronType=Prs|Person=1|Number=Sing|startali=119636|endali=119760	4	subj	_	_
-4	don't	_	AUX	_	startali=119760|endali=119860	0	root	_	_
+4	don't	_	AUX	_	Polarity=Neg|startali=119760|endali=119860	0	root	_	_
 5	have	_	VERB	_	startali=119860|endali=120010	4	comp:aux	_	_
 6	any	_	DET	_	startali=120010|endali=120170	8	det	_	_
 7	oder	_	ADJ	_	startali=120170|endali=120350	8	dep	_	_
@@ -726,7 +726,7 @@
 2	anyting	_	PRON	_	startali=129520|endali=129833	5	subj	_	_
 3	from	_	ADP	_	startali=129833|endali=130020	2	dep	_	_
 4	Nigeria	_	PROPN	_	startali=130020|endali=130410	3	comp	_	_
-5	is	_	VERB	_	PartType=Cop|startali=130410|endali=130502	0	root	_	_
+5	is	_	VERB	_	startali=130410|endali=130502	0	root	_	_
 6	almost	_	ADV	_	startali=130502|endali=130790	5	mod	_	_
 7	bad	_	ADJ	_	startali=130790|endali=131023	8	dep	_	_
 8	ting	_	NOUN	_	startali=131023|endali=131356	5	comp:pred	_	_
@@ -747,7 +747,7 @@
 # sent_translation = # Thank you.
 # text = # tank you //
 1	#	_	PUNCT	_	startali=132620|endali=133080	2	punct	_	_
-2	tank	_	NOUN	_	startali=133080|endali=133320	0	root	_	_
+2	tank	_	VERB	_	startali=133080|endali=133320	0	root	_	_
 3	you	_	PRON	_	Case=Acc|PronType=Prs|Person=2|Number=Sing|startali=133320|endali=133360	2	comp:obj	_	_
 4	//	_	PUNCT	_	startali=133360|endali=133390	2	punct	_	_
 
@@ -756,7 +756,7 @@
 # text = # I don't need Nigeria anymore yeah //
 1	#	_	PUNCT	_	startali=133390|endali=136520	3	punct	_	_
 2	I	_	PRON	_	Case=Nom|PronType=Prs|Person=1|Number=Sing|startali=136520|endali=136590	3	subj	_	_
-3	don't	_	AUX	_	startali=136590|endali=136710	0	root	_	_
+3	don't	_	AUX	_	Mood=Ind|startali=136590|endali=136710	0	root	_	_
 4	need	_	VERB	_	startali=136710|endali=136881	3	comp:aux	_	_
 5	Nigeria	_	PROPN	_	startali=136881|endali=137270	4	comp:obj	_	_
 6	anymore	_	ADV	_	startali=137270|endali=137660	4	mod:emph	_	_
@@ -811,22 +811,22 @@
 # sent_translation = Nigeria has got me tired. Anything from Nigeria is useless. Not-, no- nothing is good in this country we are. # Nothing is good. Even the vehicle.
 # text = { not- || noting } dey good for dis country wey we dey //= # noting dey good > # even di vehicle //
 1	{	_	PUNCT	_	startali=144379|endali=144409	2	punct	_	_
-2	not-	_	X	_	startali=144409|endali=144720	6	subj	_	_
+2	not-	_	PRON	_	startali=144409|endali=144720	6	subj	_	_
 3	||	_	PUNCT	_	startali=144720|endali=144750	4	punct	_	_
 4	noting	noting	PRON	_	startali=144750|endali=145180	2	conj:dicto	_	_
 5	}	_	PUNCT	_	startali=145180|endali=145210	2	punct	_	_
-6	dey	_	VERB	_	PartType=Cop|startali=145210|endali=145360	0	root	_	_
+6	dey	_	VERB	_	startali=145210|Aspect=Imp|endali=145360	0	root	_	_
 7	good	_	ADJ	_	startali=145360|endali=145570	6	comp:pred	_	_
 8	for	_	ADP	_	startali=145570|endali=145760	6	comp:pred	_	_
 9	dis	_	DET	_	PronType=Prox|Number=Sing|startali=145760|endali=145980	10	det	_	_
 10	country	_	NOUN	_	startali=145980|endali=146290	8	comp	_	_
 11	wey	_	SCONJ	_	startali=146290|endali=146435	10	dep	_	_
 12	we	_	PRON	_	Case=Nom|PronType=Prs|Person=1|Number=Plur|startali=146435|endali=146570	13	subj	_	_
-13	dey	_	VERB	_	PartType=Cop|startali=146570|endali=146700	11	comp	_	_
+13	dey	_	VERB	_	startali=146570|endali=146700	11	comp	_	_
 14	//=	_	PUNCT	_	startali=146700|endali=146730	17	punct	_	_
 15	#	_	PUNCT	_	startali=146730|endali=146930	17	punct	_	_
 16	noting	_	PRON	_	startali=146930|endali=147420	17	subj	_	_
-17	dey	_	VERB	_	PartType=Cop|startali=147420|endali=147570	6	parataxis:conj	_	_
+17	dey	_	VERB	_	startali=147420|endali=147570	6	parataxis:conj	_	_
 18	good	_	ADJ	_	startali=147570|endali=147810	17	comp:pred	_	_
 19	>	_	PUNCT	_	startali=147810|endali=147840	23	punct	_	_
 20	#	_	PUNCT	_	startali=147840|endali=147977	23	punct	_	_
@@ -852,7 +852,7 @@
 12	pu-	_	VERB	_	startali=151696|endali=151815	10	comp:aux	_	_
 13	||	_	PUNCT	_	startali=151696|endali=151815	14	punct	_	_
 14	produce	_	VERB	_	startali=151815|endali=152170	12	conj:dicto	_	_
-15	}	_	PUNCT	_	startali=152170|endali=152300	12	punct	_	_
+15	}	_	PUNCT	_	Case=Acc|PronType=Prs|Person=3|Number=Sing|startali=152170|endali=152300	12	punct	_	_
 16	am	_	PRON	_	Case=Acc|PronType=Prs|Person=3|Number=Sing|startali=152170|endali=152300	14	comp:obj	_	_
 17	?//	_	PUNCT	_	startali=152300|endali=152330	10	punct	_	_
 
@@ -894,7 +894,7 @@
 # text = # we don & //
 1	#	_	PUNCT	_	startali=157410|endali=157702	3	punct	_	_
 2	we	_	PRON	_	Case=Nom|PronType=Prs|Person=1|Number=Plur|startali=157702|endali=157853	3	subj	_	_
-3	don	_	AUX	_	startali=157853|Aspect=Perf|endali=158020	0	root	_	_
+3	don	_	AUX	_	startali=157853|endali=158020	0	root	_	_
 4	&	_	X	_	startali=157853|endali=158020	3	comp:aux	_	_
 5	//	_	PUNCT	_	startali=157853|endali=158020	3	punct	_	_
 
@@ -974,7 +974,7 @@
 1	#	_	PUNCT	_	startali=167650|endali=168160	4	punct	_	_
 2	Nigeria	_	PROPN	_	startali=168160|endali=168440	4	subj	_	_
 3	no	_	PART	_	Polarity=Neg|startali=168440|endali=168599	4	mod	_	_
-4	dey	_	VERB	_	PartType=Cop|startali=168599|endali=168760	0	root	_	_
+4	dey	_	VERB	_	startali=168599|Aspect=Imp|endali=168760	0	root	_	_
 5	good	_	ADJ	_	startali=168760|endali=168990	4	comp:pred	_	_
 6	anymore	_	ADV	_	startali=168990|endali=169360	5	mod	_	_
 7	//	_	PUNCT	_	startali=169360|endali=169390	4	punct	_	_
@@ -1000,7 +1000,7 @@
 # text = # e & ||
 1	#	_	PUNCT	_	startali=180880|endali=181300	3	punct	_	_
 2	e	_	PRON	_	Case=Nom|PronType=Prs|Person=3|Number=Sing|startali=181300|endali=181360	3	discourse	_	_
-3	&	_	X	_	startali=181360|endali=181390	0	root	_	_
+3	&	_	PUNCT	_	startali=181360|endali=181390	0	root	_	_
 4	||	_	PUNCT	_	startali=181360|endali=181390	3	punct	_	_
 
 # sent_id = P_ENU_34_Malaysia.Guy_PRO_60
@@ -1085,7 +1085,7 @@
 7	na	_	PART	_	PartType=Cop|startali=192439|endali=192580	5	comp	_	_
 8	God	_	PROPN	_	startali=192580|endali=192780	7	comp:pred	_	_
 9	>+	_	PUNCT	_	startali=192780|endali=192810	10	punct	_	_
-10	told	tell	VERB	_	Mood=Ind|startali=192810|endali=193010|Tense=Past|VerbForm=Fin	7	comp:cleft	_	_
+10	told	tell	VERB	_	VerbForm=Fin|startali=192810|Tense=Pst|endali=193010	7	comp:cleft	_	_
 11	dem	_	PRON	_	Case=Acc|PronType=Prs|Person=3|Number=Plur|startali=193010|endali=193190	10	comp:obj	_	_
 12	]	_	PUNCT	_	startali=193190|endali=193220	7	punct	_	_
 13	//	_	PUNCT	_	startali=193190|endali=193220	3	punct	_	_
@@ -1156,8 +1156,8 @@
 2	[eng	_	PUNCT	_	startali=199959|endali=199989	5	punct	_	_
 3	how	_	ADV	_	PronType=Int|startali=199989|endali=200130	4	mod	_	_
 4	many	_	ADJ	_	startali=200130|endali=200320	5	dep	_	_
-5	gods	_	NOUN	_	Number=PLur|startali=200320|endali=200570	0	root	_	_
-6	do	_	VERB	_	startali=200570|endali=200610	5	comp:cleft	_	_
+5	gods	_	NUM	_	startali=200320|endali=200570	0	root	_	_
+6	do	_	AUX	_	startali=200570|endali=200610	5	comp:cleft	_	_
 7	we	_	PRON	_	Case=Nom|PronType=Prs|Person=1|Number=Plur|startali=200610|endali=200746	6	subj	_	_
 8	have	_	VERB	_	startali=200746|endali=200930	6	comp:aux	_	_
 9	in	_	ADP	_	startali=200930|endali=201030	8	mod	_	_
@@ -1172,8 +1172,8 @@
 2	[eng	_	PUNCT	_	startali=201790|endali=201820	5	punct	_	_
 3	how	_	ADV	_	PronType=Int|startali=201820|endali=201930	4	mod	_	_
 4	many	_	ADJ	_	startali=201930|endali=202090	5	dep	_	_
-5	prophet	_	VERB	_	startali=202090|endali=202400	0	root	_	_
-6	do	_	VERB	_	startali=202400|endali=202520	5	comp:cleft	_	_
+5	prophet	_	NOUN	_	startali=202090|endali=202400	0	root	_	_
+6	do	_	AUX	_	startali=202400|endali=202520	5	comp:cleft	_	_
 7	we	_	PRON	_	Case=Nom|PronType=Prs|Person=1|Number=Plur|startali=202520|endali=202630	6	subj	_	_
 8	have	_	VERB	_	startali=202630|endali=202920	6	comp:aux	_	_
 9	eng]	_	PUNCT	_	startali=202920|endali=202950	5	punct	_	_
@@ -1257,12 +1257,12 @@
 # text = # no be God >+ ehn told dem //
 1	#	_	PUNCT	_	startali=212190|endali=212400	3	punct	_	_
 2	no	_	PART	_	Polarity=Neg|startali=212400|endali=212620	3	mod	_	_
-3	be	_	VERB	_	PartType=Cop|startali=212620|endali=212760	0	root	_	_
+3	be	_	VERB	_	startali=212620|endali=212760	0	root	_	_
 4	God	_	PROPN	_	startali=212760|endali=213040	3	comp:pred	_	_
 5	>+	_	PUNCT	_	startali=213040|endali=213070	7	punct	_	_
 6	ehn	_	INTJ	_	startali=213070|endali=213228	7	discourse	_	_
-7	told	_	VERB	_	Mood=Ind|startali=213258|endali=213510|Tense=Past|VerbForm=Fin	3	comp:cleft	_	_
-8	dem	_	PRON	_	Case=Acc|PronType=Prs|Person=3|Number=Plur|startali=213510|endali=213686	7	comp:obj	_	_
+7	told	_	VERB	_	startali=213258|endali=213510	3	comp:cleft	_	_
+8	dem	_	PRON	_	Number=Plur|startali=213510|endali=213686	7	comp:obj	_	_
 9	//	_	PUNCT	_	startali=213686|endali=213716	3	punct	_	_
 
 # sent_id = P_ENU_34_Malaysia.Guy_PRO_78
@@ -1279,12 +1279,12 @@
 2	ah	_	INTJ	_	startali=214320|endali=214510	5	discourse	_	_
 3	{	_	PUNCT	_	startali=214510|endali=214540	5	punct	_	_
 4	I	_	PRON	_	Case=Nom|PronType=Prs|Person=1|Number=Sing|startali=214540|endali=214650	5	subj	_	_
-5	don't	_	AUX	_	startali=214650|endali=214780	0	root	_	_
+5	don't	_	AUX	_	Polarity=Neg|startali=214650|endali=214780	0	root	_	_
 6	want	_	VERB	_	startali=214780|endali=215000	5	comp:aux	_	_
 7	||	_	PUNCT	_	startali=215000|endali=215030	10	punct	_	_
 8	eh	_	INTJ	_	startali=215030|endali=215376	10	discourse	_	_
 9	I	_	PRON	_	Case=Nom|PronType=Prs|Person=1|Number=Sing|startali=215406|endali=215581	10	subj	_	_
-10	don't	_	AUX	_	startali=215581|endali=215731	5	conj:dicto	_	_
+10	don't	_	AUX	_	Polarity=Neg|startali=215581|endali=215731	5	conj:dicto	_	_
 11	||	_	PUNCT	_	startali=215731|endali=215761	17	punct	_	_
 12	{	_	PUNCT	_	startali=215731|endali=215761	13	punct	_	_
 13	I	_	PRON	_	Case=Nom|PronType=Prs|Person=1|Number=Sing|startali=215761|endali=215950	17	subj	_	_
@@ -1300,7 +1300,7 @@
 23	Nigeria	_	PROPN	_	startali=217054|endali=217640	26	compound	_	_
 24	#	_	PUNCT	_	startali=217640|endali=218100	25	punct	_	_
 25	ehn	_	INTJ	_	startali=218100|endali=218330	23	discourse	_	_
-26	prophet	_	VERB	_	startali=218360|endali=218823	20	comp	_	_
+26	prophet	_	NOUN	_	startali=218360|endali=218823	20	comp	_	_
 27	//	_	PUNCT	_	startali=218823|endali=218853	5	punct	_	_
 
 # sent_id = P_ENU_34_Malaysia.Guy_PRO_80
@@ -1308,7 +1308,7 @@
 # text = # de dey too much //
 1	#	_	PUNCT	_	startali=218853|endali=219160	3	punct	_	_
 2	de	_	PRON	_	Case=Nom|PronType=Prs|Person=3|Number=Plur|startali=219160|endali=219284	3	subj	_	_
-3	dey	_	VERB	_	PartType=Cop|startali=219284|endali=219438	0	root	_	_
+3	dey	_	VERB	_	startali=219284|Aspect=Imp|endali=219438	0	root	_	_
 4	too	_	ADV	_	startali=219438|endali=219560	5	mod	_	_
 5	much	_	ADJ	_	startali=219560|endali=219939	3	comp:pred	_	_
 6	//	_	PUNCT	_	startali=219939|endali=219969	3	punct	_	_
@@ -1341,7 +1341,7 @@
 5	wetin	_	PRON	_	PronType=Int|startali=222177|endali=222510	3	conj:dicto	_	_
 6	}	_	PUNCT	_	startali=222510|endali=222540	3	punct	_	_
 7	no	_	PART	_	Polarity=Neg|startali=222540|endali=222720	8	mod	_	_
-8	&	_	X	_	startali=222720|endali=222750	0	root	_	_
+8	&	_	PUNCT	_	startali=222720|endali=222750	0	root	_	_
 9	//	_	PUNCT	_	startali=222720|endali=222750	8	punct	_	_
 
 # sent_id = P_ENU_34_Malaysia.Guy_PRO_83
@@ -1365,7 +1365,7 @@
 # text = # in a year < { if || even if } { no fear || no fear } now < de go continue //
 1	#	_	PUNCT	_	startali=224880|endali=225380	22	punct	_	_
 2	in	_	ADP	_	startali=225380|endali=225500	22	mod:periph	_	_
-3	a	_	DET	_	PronType=Art |startali=225500|Def=Ind|endali=225616	4	det	_	_
+3	a	_	DET	_	Case=Nom|PronType=Prs|Person=1|Number=Sing|startali=225500|endali=225616	4	det	_	_
 4	year	_	NOUN	_	startali=225616|endali=225765	2	comp	_	_
 5	<	_	PUNCT	_	startali=225765|endali=225795	2	punct	_	_
 6	{	_	PUNCT	_	startali=225765|endali=225795	7	punct	_	_
@@ -1392,7 +1392,7 @@
 # sent_translation = # twenty nineteen is ehn, prediction ehn twenty nineteen, nineteen prophecy. Twenty eighteen prophet.
 # text = # twenty nineteen na ehn prediction //
 1	#	_	PUNCT	_	startali=228112|endali=228380	4	punct	_	_
-2	twenty	_	NUM	_	NumType=Card|startali=228380|endali=228690	3	compound	_	_
+2	twenty	_	NUM	_	startali=228380|endali=228690	3	compound	_	_
 3	nineteen	_	NUM	_	NumType=Card|startali=228690|endali=228943	4	mod:periph	_	_
 4	na	_	PART	_	PartType=Cop|startali=228943|endali=229080	0	root	_	_
 5	ehn	_	INTJ	_	startali=229110|endali=229332	6	discourse	_	_
@@ -1403,17 +1403,17 @@
 # text = ehn # twenty { ninety || nineteen } < prophecy //= # twenty eighteen < prophecy //
 1	ehn	_	INTJ	_	startali=229900|endali=230110	10	discourse	_	_
 2	#	_	PUNCT	_	startali=230140|endali=230460	10	punct	_	_
-3	twenty	_	NUM	_	NumType=Card|startali=230460|endali=230687	5	compound	_	_
+3	twenty	_	NUM	_	startali=230460|endali=230687	5	compound	_	_
 4	{	_	PUNCT	_	startali=230717|endali=231040	5	punct	_	_
 5	ninety	_	NUM	_	startali=230717|endali=231040	10	mod:periph	_	_
 6	||	_	PUNCT	_	startali=231040|endali=231070	7	punct	_	_
-7	nineteen	_	NUM	_	NumType=Card|startali=231070|endali=231420	5	conj:dicto	_	_
+7	nineteen	_	NUM	_	startali=231070|endali=231420	5	conj:dicto	_	_
 8	}	_	PUNCT	_	startali=231420|endali=231450	5	punct	_	_
 9	<	_	PUNCT	_	startali=231420|endali=231450	5	punct	_	_
 10	prophecy	_	NOUN	_	startali=231450|endali=231930	0	root	_	_
 11	//=	_	PUNCT	_	startali=231930|endali=231960	16	punct	_	_
 12	#	_	PUNCT	_	startali=231960|endali=232270	16	punct	_	_
-13	twenty	_	NUM	_	NumType=Card|startali=232270|endali=232600	14	compound	_	_
+13	twenty	_	NUM	_	startali=232270|endali=232600	14	compound	_	_
 14	eighteen	_	NUM	_	startali=232600|endali=232904	16	mod:periph	_	_
 15	<	_	PUNCT	_	startali=232600|endali=232904	14	punct	_	_
 16	prophecy	_	NOUN	_	startali=232904|endali=233318	10	parataxis:conj	_	_
@@ -1424,7 +1424,7 @@
 # text = # dat means God dey come only { once in a || ehn once { in a || in a } year } //
 1	#	_	PUNCT	_	startali=233348|endali=233680	5	punct	_	_
 2	dat	_	PRON	_	PronType=Dem|Number=Sing|startali=233680|endali=233800	3	subj	_	_
-3	means	_	VERB	_	Mood=Ind|VerbFor=Fin|Number=Sing|startali=233800|Person=3|Tense=Pres|endali=234020	5	parataxis:discourse	_	_
+3	means	_	VERB	_	startali=233800|endali=234020	5	parataxis:discourse	_	_
 4	God	_	PROPN	_	startali=234020|endali=234195	5	subj	_	_
 5	dey	_	AUX	_	startali=234195|Aspect=Imp|endali=234333	0	root	_	_
 6	come	_	VERB	_	startali=234333|endali=234500	5	comp:aux	_	_
@@ -1432,16 +1432,16 @@
 8	{	_	PUNCT	_	startali=234676|endali=234706	9	punct	_	_
 9	once	_	ADV	_	startali=234706|endali=234960	6	mod	_	_
 10	in	_	ADP	_	startali=234960|endali=235040	9	mod	_	_
-11	a	_	DET	_	PronType=Art |startali=235040|Def=Ind|endali=235240	10	orphan	_	_
+11	a	_	DET	_	Case=Nom|PronType=Prs|Person=1|Number=Sing|startali=235040|endali=235240	10	orphan	_	_
 12	||	_	PUNCT	_	startali=235240|endali=235270	14	punct	_	_
 13	ehn	_	INTJ	_	startali=235270|endali=235552	14	discourse	_	_
 14	once	_	ADV	_	startali=235582|endali=235820	9	conj:dicto	_	_
 15	{	_	PUNCT	_	startali=235820|endali=235850	16	punct	_	_
 16	in	_	ADP	_	startali=235850|endali=235960	14	mod	_	_
-17	a	_	DET	_	PronType=Art |startali=235960|Def=Ind|endali=236184	16	orphan	_	_
+17	a	_	DET	_	Case=Nom|PronType=Prs|Person=1|Number=Sing|startali=235960|endali=236184	16	orphan	_	_
 18	||	_	PUNCT	_	startali=236184|endali=236214	19	punct	_	_
 19	in	_	ADP	_	startali=236214|endali=236398	16	conj:dicto	_	_
-20	a	_	DET	_	PronType=Art |startali=236398|Def=Ind|endali=236526	22	det	_	_
+20	a	_	DET	_	Case=Nom|PronType=Prs|Person=1|Number=Sing|startali=236398|endali=236526	22	det	_	_
 21	}	_	PUNCT	_	startali=236526|endali=236556	16	punct	_	_
 22	year	_	NOUN	_	startali=236556|endali=236730	19	comp	_	_
 23	}	_	PUNCT	_	startali=236730|endali=236760	16	punct	_	_
@@ -1453,7 +1453,7 @@
 1	#	_	PUNCT	_	startali=236760|endali=237080	3	punct	_	_
 2	God	_	PROPN	_	startali=237080|endali=237248	3	subj	_	_
 3	dey	_	AUX	_	startali=237248|Aspect=Imp|endali=237389	0	root	_	_
-4	told	tell	VERB	_	Mood=Ind|startali=237389|endali=237600|Tense=Past|VerbForm=Fin	3	comp:aux	_	_
+4	told	tell	VERB	_	VerbForm=Part|startali=237389|Tense=Pst|endali=237600	3	comp:aux	_	_
 5	dem	_	PRON	_	Case=Acc|PronType=Prs|Person=3|Number=Plur|startali=237600|endali=237881	4	comp:obj	_	_
 6	{	_	PUNCT	_	startali=237881|endali=237911	7	punct	_	_
 7	gu-	_	X	_	startali=237911|endali=238080	4	comp:obj	_	_
@@ -1462,7 +1462,7 @@
 10	}	_	PUNCT	_	startali=238470|endali=238500	7	punct	_	_
 11	once	_	ADV	_	startali=238500|endali=238721	4	mod	_	_
 12	in	_	ADP	_	startali=238721|endali=238800	11	mod	_	_
-13	a	_	DET	_	PronType=Art |startali=238800|Def=Ind|endali=238870	14	det	_	_
+13	a	_	DET	_	Case=Nom|PronType=Prs|Person=1|Number=Sing|startali=238800|endali=238870	14	det	_	_
 14	year	_	NOUN	_	startali=238870|endali=238994	12	comp	_	_
 15	//	_	PUNCT	_	startali=238994|endali=239024	3	punct	_	_
 
@@ -1503,7 +1503,7 @@
 # text = # dat means God dey g- //
 1	#	_	PUNCT	_	startali=242220|endali=242480	5	punct	_	_
 2	dat	_	PRON	_	PronType=Dem|Number=Sing|startali=242480|endali=242610	3	subj	_	_
-3	means	mean	VERB	_	Mood=Ind|VerbFor=Fin|Number=Sing|startali=242610|Person=3|Tense=Pres|endali=242860	5	parataxis:discourse	_	_
+3	means	mean	VERB	_	VerbForm=Fin|Person=3|Number=Sing|startali=242610|Tense=Prs|Mood=Ind|endali=242860	5	parataxis:discourse	_	_
 4	God	_	PROPN	_	startali=242860|endali=243074	5	subj	_	_
 5	dey	_	AUX	_	startali=243074|Aspect=Imp|endali=243435	0	root	_	_
 6	g-	_	X	_	startali=243435|endali=243542	5	comp:aux	_	_
@@ -1525,7 +1525,7 @@
 # text = # ehen na //
 1	#	_	PUNCT	_	startali=244550|endali=251587	2	punct	_	_
 2	ehen	_	INTJ	_	startali=251587|endali=251885	0	root	_	_
-3	na	now	PART	_	PartType=Cop|startali=251885|endali=252150	2	mod:emph	_	_
+3	na	now	ADV	_	PartType=Cop|startali=251885|endali=252150	2	mod:emph	_	_
 4	//	_	PUNCT	_	startali=252150|endali=252180	2	punct	_	_
 
 # sent_id = P_ENU_34_Malaysia.Guy_PRO_95
@@ -1538,11 +1538,11 @@
 5	country	_	NOUN	_	startali=253701|endali=254020	3	comp	_	_
 6	wey	_	SCONJ	_	startali=254020|endali=254180	5	dep	_	_
 7	we	_	PRON	_	Case=Nom|PronType=Prs|Person=1|Number=Plur|startali=254180|endali=254301	8	subj	_	_
-8	dey	_	VERB	_	PartType=Cop|startali=254301|endali=254580	6	comp	_	_
+8	dey	_	VERB	_	startali=254301|endali=254580	6	comp	_	_
 9	<	_	PUNCT	_	startali=254580|endali=254610	3	punct	_	_
 10	#	_	PUNCT	_	startali=254610|endali=254790	3	punct	_	_
 11	na	_	PART	_	PartType=Cop|startali=254790|endali=254920	0	root	_	_
-12	white	_	ADJ	_	startali=254920|endali=255225	11	comp:pred	_	_
+12	white	_	NOUN	_	startali=254920|endali=255225	11	comp:pred	_	_
 13	oho	_	INTJ	_	startali=255255|endali=255750	11	discourse	_	_
 14	//	_	PUNCT	_	startali=255750|endali=255780	11	punct	_	_
 
@@ -1560,10 +1560,10 @@
 1	ehn	_	INTJ	_	startali=257676|endali=258037	4	discourse	_	_
 2	{	_	PUNCT	_	startali=257676|endali=258037	4	punct	_	_
 3	light	_	NOUN	_	startali=258067|endali=258406	4	subj	_	_
-4	na	_	PART	_	PartType=Cop|startali=258406|endali=258690	0	root	_	_
+4	na	_	ADV	_	startali=258406|endali=258690	0	root	_	_
 5	||	_	PUNCT	_	startali=258690|endali=258720	7	punct	_	_
 6	light	_	NOUN	_	startali=258720|endali=259040	7	subj	_	_
-7	na	_	PART	_	PartType=Cop|startali=259040|endali=259383	4	conj:dicto	_	_
+7	na	_	ADV	_	startali=259040|endali=259383	4	conj:dicto	_	_
 8	}	_	PUNCT	_	startali=259383|endali=259413	4	punct	_	_
 9	&	_	X	_	startali=259383|endali=259413	7	comp:pred	_	_
 10	//	_	PUNCT	_	startali=259383|endali=259413	4	punct	_	_
@@ -1575,7 +1575,7 @@
 2	dey	_	AUX	_	startali=259650|Aspect=Imp|endali=259800	0	root	_	_
 3	give	_	VERB	_	startali=259800|endali=260000	2	comp:aux	_	_
 4	us	_	PRON	_	Case=Acc|PronType=Prs|Person=1|Number=Plur|startali=260000|endali=260138	3	comp:obj	_	_
-5	&	_	X	_	startali=260138|endali=260168	3	comp:obj	_	_
+5	&	_	PUNCT	_	startali=260138|endali=260168	3	comp:obj	_	_
 6	//	_	PUNCT	_	startali=260138|endali=260168	2	punct	_	_
 
 # sent_id = P_ENU_34_Malaysia.Guy_PRO_99
@@ -1660,7 +1660,7 @@
 # sent_translation = # Guy to tell you the truth. This country is not working.
 # text = # nna to tell you di truth < # dis country no work //
 1	#	_	PUNCT	_	startali=273960|endali=274220	13	punct	_	_
-2	nna	_	X	_	startali=274220|endali=274470	13	discourse	_	_
+2	nna	_	PRON	_	startali=274220|endali=274470	13	discourse	_	_
 3	to	_	ADP	_	startali=274500|endali=274661	13	mod:periph	_	_
 4	tell	_	VERB	_	startali=274661|endali=274830	3	comp	_	_
 5	you	_	PRON	_	Case=Acc|PronType=Prs|Person=2|Number=Sing|startali=274830|endali=274970	4	comp:obj	_	_
@@ -1739,7 +1739,7 @@
 1	#	_	PUNCT	_	startali=285305|endali=285540	3	punct	_	_
 2	e	_	PRON	_	Case=Nom|PronType=Prs|Person=3|Number=Sing|startali=285540|endali=285750	3	subj:expl	_	_
 3	go	_	AUX	_	startali=285750|Tense=Prosp|endali=285870	0	root	_	_
-4	better	_	ADJ	_	Degree=Comp|startali=285870|endali=286220	3	comp:aux	_	_
+4	better	_	ADJ	_	startali=285870|endali=286220	3	comp:aux	_	_
 5	//	_	PUNCT	_	startali=286220|endali=286250	3	punct	_	_
 
 # sent_id = P_ENU_34_Malaysia.Guy_PRO_108
@@ -1767,7 +1767,7 @@
 # text = # na Biafra > di best country now //
 1	#	_	PUNCT	_	startali=289630|endali=290160	2	punct	_	_
 2	na	_	PART	_	PartType=Cop|startali=290160|endali=290260	0	root	_	_
-3	Biafra	_	PROPN	_	startali=290260|endali=290570	2	comp:pred	_	_
+3	Biafra	_	NOUN	_	startali=290260|endali=290570	2	comp:pred	_	_
 4	>	_	PUNCT	_	startali=290570|endali=290600	7	punct	_	_
 5	di	_	DET	_	PronType=Art|Definite=Def|startali=290600|endali=290720	7	det	_	_
 6	best	good	ADJ	_	Degree=Sup|startali=290720|endali=290940	7	dep	_	_
@@ -1795,7 +1795,7 @@
 1	#	_	PUNCT	_	startali=293680|endali=293780	4	punct	_	_
 2	Nigeria	_	PROPN	_	startali=293780|endali=294106	4	subj	_	_
 3	no	_	PART	_	Polarity=Neg|startali=294106|endali=294250	4	mod	_	_
-4	be	_	VERB	_	PartType=Cop|startali=294250|endali=294348	0	root	_	_
+4	be	_	VERB	_	startali=294250|endali=294348	0	root	_	_
 5	country	_	NOUN	_	startali=294348|endali=294696	4	comp:pred	_	_
 6	anymore	_	ADV	_	startali=294696|endali=294970	4	mod	_	_
 7	//	_	PUNCT	_	startali=294970|endali=295000	4	punct	_	_
@@ -1815,7 +1815,7 @@
 # text = # we na < we need anoder country right ?//
 1	#	_	PUNCT	_	startali=296270|endali=296560	6	punct	_	_
 2	we	_	PRON	_	Case=Nom|PronType=Prs|Person=1|Number=Plur|startali=296560|endali=296744	6	dislocated	_	_
-3	na	now	PART	_	PartType=Cop|startali=296744|endali=296909	2	mod:emph	_	_
+3	na	now	ADV	_	PartType=Cop|startali=296744|endali=296909	2	mod:emph	_	_
 4	<	_	PUNCT	_	startali=296909|endali=296939	2	punct	_	_
 5	we	_	PRON	_	Case=Nom|PronType=Prs|Person=1|Number=Plur|startali=296939|endali=297124	6	subj	_	_
 6	need	_	VERB	_	startali=297124|endali=297270	0	root	_	_
@@ -1833,7 +1833,7 @@
 4	||	_	PUNCT	_	startali=298855|endali=298885	5	punct	_	_
 5	infact	_	ADV	_	startali=298885|endali=299100	3	conj:dicto	_	_
 6	}	_	PUNCT	_	startali=299100|endali=299130	3	punct	_	_
-7	mey	_	AUX	_	Mood=Jus|startali=299130|endali=299251	0	root	_	_
+7	mey	_	AUX	_	startali=299130|endali=299251	0	root	_	_
 8	we	_	PRON	_	Case=Nom|PronType=Prs|Person=1|Number=Plur|startali=299251|endali=299310	7	subj	_	_
 9	change	_	NOUN	_	startali=299310|endali=299490	7	comp:aux	_	_
 10	Nigeria	_	PROPN	_	startali=299490|endali=299850	9	comp:obj	_	_
@@ -1848,7 +1848,7 @@
 1	#	_	PUNCT	_	startali=300560|endali=301120	3	punct	_	_
 2	im	_	PRON	_	Case=Nom|PronType=Prs|Person=3|Number=Sing|startali=301120|endali=301260	3	subj	_	_
 3	go	_	AUX	_	startali=301260|Tense=Prosp|endali=301350	0	root	_	_
-4	better	good	ADJ	_	Degree=Comp|startali=301350|endali=301600	3	comp:aux	_	_
+4	better	good	ADJ	_	Degree=Cmp|startali=301350|endali=301600	3	comp:aux	_	_
 5	like	_	ADP	_	startali=301600|endali=301730	4	mod	_	_
 6	dat	_	PRON	_	PronType=Dem|Number=Sing|startali=301730|endali=302055	5	comp	_	_
 7	//	_	PUNCT	_	startali=302055|endali=302085	3	punct	_	_
@@ -1876,11 +1876,11 @@
 18	ehen	_	INTJ	_	startali=304990|endali=305470	21	discourse	_	_
 19	#	_	PUNCT	_	startali=305500|endali=305870	18	punct	_	_
 20	{	_	PUNCT	_	startali=305840|endali=305870	21	punct	_	_
-21	I'm	_	AUX	_	startali=305870|endali=306010	0	root	_	_
+21	I'm	_	AUX	_	Case=Nom|PronType=Prs|Person=3|Number=Sing|startali=305870|endali=306010	0	root	_	_
 22	pray	_	VERB	_	startali=306010|endali=306250	21	comp:aux	_	_
-23	fo-	_	X	_	startali=306250|endali=306320	22	comp:obl	_	_
+23	fo-	_	ADP	_	startali=306250|endali=306320	22	comp:obl	_	_
 24	||	_	PUNCT	_	startali=306320|endali=306350	25	punct	_	_
-25	I'm	_	AUX	_	startali=306350|endali=306556	21	conj:dicto	_	_
+25	I'm	_	AUX	_	Case=Nom|PronType=Prs|Person=3|Number=Sing|startali=306350|endali=306556	21	conj:dicto	_	_
 26	pray	_	VERB	_	startali=306556|endali=306780	25	comp:aux	_	_
 27	}	_	PUNCT	_	startali=306780|endali=306810	21	punct	_	_
 28	#	_	PUNCT	_	startali=306810|endali=306924	29	punct	_	_
@@ -1910,7 +1910,7 @@
 7	come	_	VERB	_	startali=311860|endali=312030	6	comp:aux	_	_
 8	to	_	ADP	_	startali=312030|endali=312170	7	comp:obl	_	_
 9	Nigeria	_	PROPN	_	startali=312170|endali=312580	8	comp	_	_
-10	eng]//	_	PUNCT	_	startali=312580|endali=312610	12	punct	_	_
+10	eng]	_	PUNCT	_	startali=312580|endali=312610	12	punct	_	_
 11	#	_	PUNCT	_	startali=312610|endali=312790	12	punct	_	_
 12	so	_	SCONJ	_	startali=312790|endali=312960	7	mod	_	_
 13	dat	_	PRON	_	PronType=Dem|Number=Sing|startali=312960|endali=313170	12	fixed	_	_
@@ -1924,11 +1924,11 @@
 1	mey	_	AUX	_	Mood=Jus|startali=313330|endali=313560	0	root	_	_
 2	we	_	PRON	_	Case=Nom|PronType=Prs|Person=1|Number=Plur|startali=313560|endali=313664	1	subj	_	_
 3	try	_	VERB	_	startali=313664|endali=313879	1	comp:aux	_	_
-4	make	_	VERB	_	startali=313879|endali=314190	3	comp:pred	_	_
+4	make	_	VERB	_	Mood=Jus|startali=313879|endali=314190	3	comp:pred	_	_
 5	ehn	_	INTJ	_	startali=314220|endali=314467	7	discourse	_	_
 6	our	_	ADJ	_	PronType=Prs|Person=1|Number=Plur|Poss=Yes|startali=314497|endali=314690	7	dep	_	_
 7	country	_	NOUN	_	startali=314690|endali=315020	4	comp:obj	_	_
-8	dey	_	VERB	_	PartType=Cop|startali=315020|endali=315210	4	comp:pred	_	_
+8	dey	_	VERB	_	startali=315020|endali=315210	4	comp:pred	_	_
 9	good	_	ADJ	_	startali=315210|endali=315628	8	comp:pred	_	_
 10	//	_	PUNCT	_	startali=315628|endali=315658	1	punct	_	_
 

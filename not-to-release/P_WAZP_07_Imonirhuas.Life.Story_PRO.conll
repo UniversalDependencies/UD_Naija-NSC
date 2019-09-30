@@ -54,7 +54,7 @@
 3	for	_	ADP	_	startali=10046|endali=10206	2	comp:obl	_	_
 4	Warri	_	PROPN	_	startali=10206|endali=10466	3	comp	_	_
 5	till	_	ADP	_	startali=10496|endali=10798	2	mod	_	_
-6	twenty	_	NUM	_	NumType=Card|startali=10798|endali=11206	5	comp	_	_
+6	twenty	_	NUM	_	startali=10798|endali=11206	5	comp	_	_
 7	fourteen	_	NUM	_	NumType=Card|startali=11206|endali=11791	6	compound	_	_
 8	//	_	PUNCT	_	startali=11791|endali=11822	2	punct	_	_
 
@@ -126,7 +126,7 @@
 # text = # I be graduate of library and information science //+ # not because sey na wetin I like to study for school |c but < my mama say [ I must study medicine ] //
 1	#	_	PUNCT	_	startali=24947|endali=25635	3	punct	_	_
 2	I	_	PRON	_	Case=Nom|PronType=Prs|Person=1|Number=Sing|startali=25635|endali=25725	3	subj	_	_
-3	be	_	VERB	_	PartType=Cop|startali=25725|endali=25815	0	root	_	_
+3	be	_	VERB	_	startali=25725|endali=25815	0	root	_	_
 4	graduate	_	NOUN	_	startali=25815|endali=26285	3	comp:pred	_	_
 5	of	_	ADP	_	startali=26285|endali=26775	4	dep	_	_
 6	library	_	NOUN	_	startali=26775|endali=27085	9	dep	_	_
@@ -154,7 +154,7 @@
 28	say	_	VERB	_	startali=31385|endali=31500	13	conj:coord	_	_
 29	[	_	PUNCT	_	startali=31500|endali=31530	31	punct	_	_
 30	I	_	PRON	_	Case=Nom|PronType=Prs|Person=1|Number=Sing|startali=31530|endali=31616	31	subj	_	_
-31	must	_	AUX	_	VerbForm=Fin|startali=31616|endali=31810	28	parataxis:obj	_	_
+31	must	_	AUX	_	startali=31616|endali=31810	28	parataxis:obj	_	_
 32	study	_	VERB	_	startali=31810|endali=32200	31	comp:aux	_	_
 33	medicine	_	NOUN	_	startali=32200|endali=32666	32	comp:obj	_	_
 34	]	_	PUNCT	_	startali=32666|endali=32696	31	punct	_	_
@@ -164,7 +164,7 @@
 # sent_translation = It is not because it is it is what I like to study in school, but my mother said I must study medicine, she want to have a doctor.
 # text = she wan get doctor //
 1	she	_	PRON	_	Case=Nom|PronType=Prs|Person=3|Number=Sing|startali=32696|endali=32820	2	subj	_	_
-2	wan	_	VERB	_	startali=32820|endali=32980	0	root	_	_
+2	wan	_	VERB	_	startali=32820|Tense=Past|endali=32980	0	root	_	_
 3	get	_	VERB	_	startali=32980|endali=33117	2	comp:pred	_	_
 4	doctor	_	NOUN	_	startali=33117|endali=33516	3	comp:obj	_	_
 5	//	_	PUNCT	_	startali=33516|endali=33546	2	punct	_	_
@@ -173,14 +173,14 @@
 # sent_translation = # Thank God my younger brothernow has reached the final year in the medical schoo, so she will get her doctor,
 # text = # tank God my younger broder now don dey for final year for medical school so she go get her doctor //
 1	#	_	PUNCT	_	startali=33546|endali=34296	8	punct	_	_
-2	tank	_	NOUN	_	startali=34296|endali=34466	8	parataxis:discourse	_	_
+2	tank	_	VERB	_	startali=34296|endali=34466	8	parataxis:discourse	_	_
 3	God	_	PROPN	_	startali=34466|endali=34556	2	comp:obj	_	_
 4	my	_	ADJ	_	PronType=Prs|Person=1|Number=Sing|Poss=Yes|startali=34556|endali=34639	6	dep	_	_
-5	younger	_	ADJ	_	Degree=Cmp|startali=34639|endali=34836	6	dep	_	_
+5	younger	_	ADJ	_	startali=34639|endali=34836	6	dep	_	_
 6	broder	_	NOUN	_	startali=34836|endali=35026	8	subj	_	_
 7	now	_	ADV	_	startali=35026|endali=35186	8	mod	_	_
 8	don	_	AUX	_	startali=35186|Aspect=Perf|endali=35567	0	root	_	_
-9	dey	_	VERB	_	PartType=Cop|startali=35567|endali=35677	8	comp:aux	_	_
+9	dey	_	VERB	_	startali=35567|endali=35677	8	comp:aux	_	_
 10	for	_	ADP	_	startali=35677|endali=35796	9	comp:pred	_	_
 11	final	_	ADJ	_	startali=35796|endali=36147	12	dep	_	_
 12	year	_	NOUN	_	startali=36147|endali=36250	10	comp	_	_
@@ -191,7 +191,7 @@
 17	she	_	PRON	_	Case=Nom|PronType=Prs|Person=3|Number=Sing|startali=37116|endali=37286	18	subj	_	_
 18	go	_	AUX	_	startali=37286|Tense=Prosp|endali=37356	16	comp	_	_
 19	get	_	VERB	_	startali=37356|endali=37566	18	comp:aux	_	_
-20	her	_	ADJ	_	PronType=Prs|Person=3|Gender=Fem|Number=Sing|Poss=Yes|startali=37566|endali=37646	21	dep	_	_
+20	her	_	ADJ	_	PronType=Prs|Person=3|Number=Sing|startali=37566|endali=37646	21	dep	_	_
 21	doctor	_	NOUN	_	startali=37646|endali=38076	19	comp:obj	_	_
 22	//	_	PUNCT	_	startali=38076|endali=38106	8	punct	_	_
 
@@ -204,7 +204,7 @@
 4	I	_	PRON	_	Case=Nom|PronType=Prs|Person=1|Number=Sing|startali=38937|endali=39073	6	subj	_	_
 5	no	_	PART	_	Polarity=Neg|startali=39073|endali=39231	6	mod	_	_
 6	like	_	VERB	_	startali=39231|endali=39515	0	root	_	_
-7	sciences	_	NOUN	_	Number=Plur|startali=39515|endali=40491	6	comp:obj	_	_
+7	sciences	_	NOUN	_	startali=39515|endali=40491	6	comp:obj	_	_
 8	//	_	PUNCT	_	startali=40491|endali=40521	6	punct	_	_
 
 # sent_id = P_WAZP_07_Imonirhuas.Life.Story_PRO_13
@@ -234,7 +234,7 @@
 # text = # she con say [ okay make I just do pre-degree first ] //
 1	#	_	PUNCT	_	startali=44591|endali=44755	3	punct	_	_
 2	she	_	PRON	_	Case=Nom|PronType=Prs|Person=3|Number=Sing|startali=44755|endali=44835	3	subj	_	_
-3	con	_	AUX	_	startali=44835|Aspect=Real|endali=44965	0	root	_	_
+3	con	_	AUX	_	startali=44835|endali=44965	0	root	_	_
 4	say	_	VERB	_	startali=44965|endali=45045	3	comp:aux	_	_
 5	[	_	PUNCT	_	startali=45045|endali=45075	7	punct	_	_
 6	okay	_	INTJ	_	startali=45075|endali=45195	7	discourse	_	_
@@ -243,7 +243,7 @@
 9	just	_	ADV	_	startali=45443|endali=45619	10	mod	_	_
 10	do	_	VERB	_	startali=45619|endali=45735	7	comp:aux	_	_
 11	pre-degree	_	NOUN	_	startali=45735|endali=46145	10	comp:obj	_	_
-12	first	_	ADJ	_	NumType=Ord|startali=46145|endali=46698	10	mod	_	_
+12	first	_	ADJ	_	NumType=Card|startali=46145|endali=46698	10	mod	_	_
 13	]	_	PUNCT	_	startali=46698|endali=46728	7	punct	_	_
 14	//	_	PUNCT	_	startali=46698|endali=46728	3	punct	_	_
 
@@ -258,7 +258,7 @@
 6	again	_	ADV	_	startali=48094|endali=48444	5	mod	_	_
 7	till	_	ADP	_	startali=48444|endali=48644	5	mod	_	_
 8	I	_	PRON	_	Case=Nom|PronType=Prs|Person=1|Number=Sing|startali=48644|endali=48754	9	subj	_	_
-9	must	_	AUX	_	VerbForm=Fin|startali=48754|endali=49064	7	comp	_	_
+9	must	_	AUX	_	startali=48754|endali=49064	7	comp	_	_
 10	study	_	VERB	_	startali=49064|endali=49335	9	comp:aux	_	_
 11	di	_	DET	_	PronType=Art|Definite=Def|startali=49335|endali=49434	12	det	_	_
 12	medicine	_	NOUN	_	startali=49434|endali=50024	10	comp:obj	_	_
@@ -300,7 +300,7 @@
 2	so	_	ADV	_	startali=55546|endali=55669	3	discourse	_	_
 3	na	_	PART	_	PartType=Cop|startali=55669|endali=55732	0	root	_	_
 4	wetin	_	PRON	_	PronType=Int|startali=55732|endali=55883	3	comp:pred	_	_
-5	make	_	VERB	_	startali=55883|endali=56016	4	dep	_	_
+5	make	_	VERB	_	Mood=Jus|startali=55883|endali=56016	4	dep	_	_
 6	me	_	PRON	_	Case=Nom|PronType=Prs|Person=1|Number=Sing|startali=56016|endali=56076	5	comp:obj	_	_
 7	study	_	VERB	_	startali=56076|endali=56340	5	comp:pred	_	_
 8	library	_	NOUN	_	startali=56340|endali=56587	9	compound	_	_
@@ -319,9 +319,9 @@
 5	||	_	PUNCT	_	startali=58534|endali=58564	6	punct	_	_
 6	I	_	PRON	_	Case=Nom|PronType=Prs|Person=1|Number=Sing|startali=58564|endali=58735	4	conj:dicto	_	_
 7	}	_	PUNCT	_	startali=58735|endali=58765	4	punct	_	_
-8	don't	_	AUX	_	startali=58765|endali=58930	0	root	_	_
+8	don't	_	PART	_	startali=58765|endali=58930	0	root	_	_
 9	do	_	VERB	_	startali=58930|endali=59047	8	comp:pred	_	_
-10	bad	_	ADJ	_	startali=59047|endali=59270	9	comp:lvc	_	_
+10	bad	_	ADV	_	startali=59047|endali=59270	9	comp:lvc	_	_
 11	//+	_	PUNCT	_	startali=59270|endali=59300	13	punct	_	_
 12	#	_	PUNCT	_	startali=59300|endali=59386	13	punct	_	_
 13	for	_	ADP	_	startali=59386|endali=59456	9	comp:obl	_	_
@@ -335,7 +335,7 @@
 2	come	_	VERB	_	startali=59886|endali=60166	0	root	_	_
 3	out	_	ADP	_	startali=60166|endali=60316	2	compound:prt	_	_
 4	wit	_	ADP	_	startali=60316|endali=60386	2	comp:obl	_	_
-5	better	_	ADJ	_	Degree=Comp|startali=60386|endali=60616	6	dep	_	_
+5	better	_	ADJ	_	startali=60386|endali=60616	6	dep	_	_
 6	grade	_	NOUN	_	startali=60616|endali=61103	4	comp	_	_
 7	(	_	PUNCT	_	startali=61103|endali=61207	9	punct	_	_
 8	you	_	PRON	_	Case=Nom|PronType=Prs|Person=2|Number=Sing|startali=61103|endali=61207	9	subj	_	_
@@ -383,7 +383,7 @@
 6	school	_	NOUN	_	startali=67291|endali=67669	5	comp:obj	_	_
 7	<	_	PUNCT	_	startali=67669|endali=67699	3	punct	_	_
 8	I	_	PRON	_	Case=Nom|PronType=Prs|Person=1|Number=Sing|startali=67699|endali=67810	9	subj	_	_
-9	con	_	AUX	_	startali=67810|Aspect=Real|endali=67980	0	root	_	_
+9	con	_	AUX	_	startali=67810|endali=67980	0	root	_	_
 10	get	_	VERB	_	startali=67980|endali=68130	9	comp:aux	_	_
 11	work	_	NOUN	_	startali=68130|endali=68310	10	comp:obj	_	_
 12	for	_	ADP	_	startali=68310|endali=68550	10	comp:obl	_	_
@@ -391,7 +391,7 @@
 14	station	_	NOUN	_	startali=68824|endali=69419	12	comp	_	_
 15	#	_	PUNCT	_	startali=69419|endali=70191	16	punct	_	_
 16	by	_	ADP	_	startali=70191|endali=70311	10	mod	_	_
-17	first	_	ADJ	_	NumType=Ord|startali=70311|endali=70641	18	dep	_	_
+17	first	_	ADJ	_	NumType=Card|startali=70311|endali=70641	18	dep	_	_
 18	experience	_	NOUN	_	startali=70641|endali=71211	16	comp	_	_
 19	//	_	PUNCT	_	startali=71211|endali=71241	9	punct	_	_
 
@@ -399,7 +399,7 @@
 # sent_translation = by first experience, no training, I did that one. I then went for service in Bayelsa State.
 # text = no training //
 1	no	_	PART	_	Polarity=Neg|startali=71241|endali=71461	2	mod	_	_
-2	training	_	NOUN	_	startali=71461|endali=72011	0	root	_	_
+2	training	_	VERB	_	startali=71461|endali=72011	0	root	_	_
 3	//	_	PUNCT	_	startali=72011|endali=72041	2	punct	_	_
 
 # sent_id = P_WAZP_07_Imonirhuas.Life.Story_PRO_25
@@ -472,9 +472,9 @@
 4	get	_	VERB	_	startali=81450|endali=81701	0	root	_	_
 5	wetin	_	PRON	_	PronType=Int|startali=81701|endali=81891	4	comp:obj	_	_
 6	I	_	PRON	_	Case=Nom|PronType=Prs|Person=1|Number=Sing|startali=81891|endali=81950	7	subj	_	_
-7	wan	_	VERB	_	startali=81950|endali=82060	5	dep	_	_
+7	wan	_	VERB	_	Mood=Ind|startali=81950|endali=82060|Tense=Past|VerbForm=Fin	5	dep	_	_
 8	use	_	VERB	_	startali=82060|endali=82192	7	comp:pred	_	_
-9	teaching	_	VERB	_	VerbForm=Part|startali=82192|Tense=Pres|endali=82490	8	comp:obj	_	_
+9	teaching	_	NOUN	_	startali=82192|endali=82490	8	comp:obj	_	_
 10	take	_	VERB	_	startali=82490|endali=82647	8	compound:svc	_	_
 11	do	_	VERB	_	startali=82647|endali=82870	10	compound:svc	_	_
 12	//	_	PUNCT	_	startali=82870|endali=82900	4	punct	_	_
@@ -485,7 +485,7 @@
 1	#	_	PUNCT	_	startali=82900|endali=83600	4	punct	_	_
 2	so	_	ADV	_	startali=83600|endali=83700	4	discourse	_	_
 3	I	_	PRON	_	Case=Nom|PronType=Prs|Person=1|Number=Sing|startali=83700|endali=83740	4	subj	_	_
-4	con	_	AUX	_	startali=83740|Aspect=Real|endali=83920	0	root	_	_
+4	con	_	AUX	_	startali=83740|endali=83920	0	root	_	_
 5	go	_	VERB	_	startali=83920|endali=84060	4	comp:aux	_	_
 6	radio	_	NOUN	_	startali=84060|endali=84253	7	compound	_	_
 7	station	_	NOUN	_	startali=84253|endali=84550	5	comp:obj	_	_
@@ -507,7 +507,7 @@
 11	and	_	CCONJ	_	startali=87088|endali=87198	12	cc	_	_
 12	everyting	_	PRON	_	startali=87198|endali=87788	9	conj:coord	_	_
 13	|c	_	PUNCT	_	startali=87788|endali=87818	15	punct	_	_
-14	news	_	NOUN	_	startali=87818|endali=88088	15	compound	_	_
+14	news	_	NOUN	_	Number=Plur|startali=87818|endali=88088	15	compound	_	_
 15	reading	_	NOUN	_	startali=88088|endali=88670	12	conj:coord	_	_
 16	}	_	PUNCT	_	startali=88670|endali=88700	9	punct	_	_
 17	//	_	PUNCT	_	startali=88670|endali=88700	2	punct	_	_
@@ -521,7 +521,7 @@
 4	NYSC	_	PROPN	_	startali=89990|endali=90530	3	comp	_	_
 5	<	_	PUNCT	_	startali=90530|endali=90560	3	punct	_	_
 6	I	_	PRON	_	Case=Nom|PronType=Prs|Person=1|Number=Sing|startali=90560|endali=90610	7	subj	_	_
-7	con	_	AUX	_	startali=90610|Aspect=Real|endali=90800	0	root	_	_
+7	con	_	AUX	_	startali=90610|endali=90800	0	root	_	_
 8	get	_	VERB	_	startali=90800|endali=90992	7	comp:aux	_	_
 9	work	_	NOUN	_	startali=90992|endali=91240	8	comp:obj	_	_
 10	again	_	ADV	_	startali=91240|endali=91490	8	mod	_	_
@@ -541,14 +541,14 @@
 7	for	_	ADP	_	startali=93339|endali=93529	4	mod	_	_
 8	radio	_	NOUN	_	startali=93529|endali=93751	9	compound	_	_
 9	station	_	NOUN	_	startali=93751|endali=94189	7	comp	_	_
-10	as	_	ADP	_	startali=94189|endali=94329	4	mod	_	_
-11	a	_	DET	_	PronType=Art |startali=94329|Def=Ind|endali=94359	12	det	_	_
+10	as	_	SCONJ	_	startali=94189|endali=94329	4	mod	_	_
+11	a	_	DET	_	Case=Nom|PronType=Prs|Person=1|Number=Sing|startali=94329|endali=94359	12	det	_	_
 12	presenter	_	NOUN	_	startali=94359|endali=94919	10	comp	_	_
 13	for	_	ADP	_	startali=94919|endali=95049	4	mod	_	_
 14	about	_	ADP	_	startali=95049|endali=95360	16	mod	_	_
 15	eh	_	INTJ	_	startali=95360|endali=95602	16	discourse	_	_
 16	two	_	NUM	_	NumType=Card|startali=95602|endali=95875	17	dep	_	_
-17	years	_	NOUN	_	Number=Plur|startali=95875|endali=96230	13	comp	_	_
+17	years	_	NOUN	_	startali=95875|endali=96230	13	comp	_	_
 18	//	_	PUNCT	_	startali=96230|endali=96260	4	punct	_	_
 
 # sent_id = P_WAZP_07_Imonirhuas.Life.Story_PRO_34
@@ -556,11 +556,11 @@
 # text = # I con leave Warri # come & //
 1	#	_	PUNCT	_	startali=96260|endali=96760	3	punct	_	_
 2	I	_	PRON	_	Case=Nom|PronType=Prs|Person=1|Number=Sing|startali=96760|endali=96829	3	subj	_	_
-3	con	_	AUX	_	startali=96829|Aspect=Real|endali=97031	0	root	_	_
+3	con	_	AUX	_	startali=96829|endali=97031	0	root	_	_
 4	leave	_	VERB	_	startali=97031|endali=97268	3	comp:aux	_	_
 5	Warri	_	PROPN	_	startali=97268|endali=97680	4	comp:obj	_	_
 6	#	_	PUNCT	_	startali=97680|endali=98300	7	punct	_	_
-7	come	con	AUX	_	startali=98300|Aspect=Real|endali=98580	3	conj:coord	_	_
+7	come	con	AUX	_	startali=98300|endali=98580	3	conj:coord	_	_
 8	&	_	X	_	startali=98580|endali=98610	7	comp:aux	_	_
 9	//	_	PUNCT	_	startali=98580|endali=98610	3	punct	_	_
 
@@ -572,10 +572,10 @@
 3	I	_	PRON	_	Case=Nom|PronType=Prs|Person=1|Number=Sing|startali=98832|endali=98990	4	subj	_	_
 4	wan	_	VERB	_	startali=98990|endali=99150	0	root	_	_
 5	{	_	PUNCT	_	startali=99150|endali=99180	6	punct	_	_
-6	come	_	VERB	_	startali=99180|endali=99540	4	comp:pred	_	_
+6	come	_	VERB	_	startali=99180|Aspect=Real|endali=99540	4	comp:pred	_	_
 7	Port	_	PROPN	_	startali=99540|endali=99629	6	comp:obj	_	_
 8	||	_	PUNCT	_	startali=99629|endali=99659	9	punct	_	_
-9	come	_	VERB	_	startali=99659|endali=99850	6	conj:dicto	_	_
+9	come	_	VERB	_	startali=99659|Aspect=Real|endali=99850	6	conj:dicto	_	_
 10	Port	_	PROPN	_	startali=99850|endali=100000	9	comp:obj	_	_
 11	Harcourt	_	PROPN	_	startali=100030|endali=100250	10	flat	_	_
 12	}	_	PUNCT	_	startali=100250|endali=100380	6	punct	_	_
@@ -596,12 +596,12 @@
 # text = # I con come Port Harcourt for twenty fourteen //
 1	#	_	PUNCT	_	startali=102090|endali=102457	3	punct	_	_
 2	I	_	PRON	_	Case=Nom|PronType=Prs|Person=1|Number=Sing|startali=102457|endali=102537	3	subj	_	_
-3	con	_	AUX	_	startali=102537|Aspect=Real|endali=102657	0	root	_	_
+3	con	_	AUX	_	startali=102537|endali=102657	0	root	_	_
 4	come	_	VERB	_	startali=102657|endali=102837	3	comp:aux	_	_
 5	Port	_	PROPN	_	startali=102837|endali=102947	4	comp:obj	_	_
 6	Harcourt	_	PROPN	_	startali=102947|endali=103137	5	flat	_	_
 7	for	_	ADP	_	startali=103137|endali=103261	4	mod	_	_
-8	twenty	_	NUM	_	NumType=Card|startali=103261|endali=103704	9	compound	_	_
+8	twenty	_	NUM	_	startali=103261|endali=103704	9	compound	_	_
 9	fourteen	_	NUM	_	NumType=Card|startali=103704|endali=104330	7	comp	_	_
 10	//	_	PUNCT	_	startali=104330|endali=104360	3	punct	_	_
 
@@ -631,7 +631,7 @@
 # text = # no be presenter //
 1	#	_	PUNCT	_	startali=108964|endali=109515	3	punct	_	_
 2	no	_	PART	_	Polarity=Neg|startali=109515|endali=109615	3	mod	_	_
-3	be	_	VERB	_	PartType=Cop|startali=109615|endali=109735	0	root	_	_
+3	be	_	VERB	_	startali=109615|endali=109735	0	root	_	_
 4	presenter	_	NOUN	_	startali=109735|endali=110421	3	comp:pred	_	_
 5	//	_	PUNCT	_	startali=110421|endali=110451	3	punct	_	_
 
@@ -666,7 +666,7 @@
 7	studio	_	NOUN	_	startali=113940|endali=114356	6	comp:obj	_	_
 8	<	_	PUNCT	_	startali=114356|endali=114386	2	punct	_	_
 9	you	_	PRON	_	Case=Nom|PronType=Prs|Person=2|Number=Sing|startali=114386|endali=114520	11	subj	_	_
-10	first	_	ADJ	_	NumType=Ord|startali=114520|endali=114837	11	mod	_	_
+10	first	_	ADJ	_	NumType=Card|startali=114520|endali=114837	11	mod	_	_
 11	listen	_	VERB	_	startali=114837|endali=115100	0	root	_	_
 12	to	_	ADP	_	startali=115100|endali=115197	11	comp:obl	_	_
 13	di	_	DET	_	PronType=Art|Definite=Def|startali=115197|endali=115316	14	det	_	_
@@ -674,7 +674,7 @@
 15	|c	_	PUNCT	_	startali=115688|endali=115718	17	punct	_	_
 16	#	_	PUNCT	_	startali=115718|endali=116120	17	punct	_	_
 17	screen	_	VERB	_	startali=116120|endali=116547	11	conj:coord	_	_
-18	dem	_	PRON	_	Case=Acc|PronType=Prs|Person=3|Number=Plur|startali=116547|endali=116840	17	comp:obj	_	_
+18	dem	_	PRON	_	Number=Plur|startali=116547|endali=116840	17	comp:obj	_	_
 19	//	_	PUNCT	_	startali=116840|endali=116880	11	punct	_	_
 
 # sent_id = P_WAZP_07_Imonirhuas.Life.Story_PRO_41
@@ -684,7 +684,7 @@
 2	if	_	SCONJ	_	startali=117320|endali=117509	12	mod:periph	_	_
 3	wetin	_	PRON	_	PronType=Int|startali=117509|endali=117690	8	subj	_	_
 4	de	_	PRON	_	Case=Nom|PronType=Prs|Person=3|Number=Plur|startali=117690|endali=117809	5	subj	_	_
-5	wan	_	VERB	_	startali=117809|endali=117960	3	dep	_	_
+5	wan	_	VERB	_	Mood=Ind|startali=117809|Tense=Past|endali=117960	3	dep	_	_
 6	talk	_	VERB	_	startali=117960|endali=118220	5	comp:pred	_	_
 7	no	_	PART	_	Polarity=Neg|startali=118220|endali=118330	8	mod	_	_
 8	make	_	VERB	_	startali=118330|endali=118575	2	comp	_	_
@@ -740,16 +740,16 @@
 3	no	_	PART	_	Polarity=Neg|startali=126453|endali=126580	4	mod	_	_
 4	do	_	VERB	_	startali=126580|endali=126650	0	root	_	_
 5	dat	_	DET	_	PronType=Dem|Number=Sing|startali=126650|endali=126849	6	det	_	_
-6	one	_	NOUN	_	startali=126849|endali=126940	4	comp:obj	_	_
+6	one	_	NOUN	_	NumType=Card|startali=126849|endali=126940	4	comp:obj	_	_
 7	for	_	ADP	_	startali=126940|endali=127153	4	mod	_	_
-8	long	_	ADJ	_	startali=127153|endali=127598	7	comp	_	_
+8	long	_	NOUN	_	startali=127153|endali=127598	7	comp	_	_
 9	//	_	PUNCT	_	startali=127598|endali=127628	4	punct	_	_
 
 # sent_id = P_WAZP_07_Imonirhuas.Life.Story_PRO_45
 # sent_translation = I didn't do that one for long, I then got an administration work.
 # text = I con get admin work //
 1	I	_	PRON	_	Case=Nom|PronType=Prs|Person=1|Number=Sing|startali=127628|endali=127905	2	subj	_	_
-2	con	_	AUX	_	startali=127905|Aspect=Real|endali=128450	0	root	_	_
+2	con	_	AUX	_	startali=127905|endali=128450	0	root	_	_
 3	get	_	VERB	_	startali=128450|endali=128820	2	comp:aux	_	_
 4	admin	_	ADJ	_	startali=128820|endali=129400	5	dep	_	_
 5	work	_	NOUN	_	startali=129400|endali=129850	3	comp:obj	_	_
@@ -767,7 +767,7 @@
 7	admin	_	NOUN	_	startali=130937|endali=131314	12	dep	_	_
 8	|c	_	PUNCT	_	startali=131314|endali=131344	10	punct	_	_
 9	and	_	CCONJ	_	startali=131344|endali=131504	10	cc	_	_
-10	HR	_	PROPN	_	startali=131504|endali=131949	7	conj:coord	_	_
+10	HR	_	NOUN	_	startali=131504|endali=131949	7	conj:coord	_	_
 11	}	_	PUNCT	_	startali=131949|endali=131979	7	punct	_	_
 12	work	_	NOUN	_	startali=131979|endali=132131	5	comp:pred	_	_
 13	>+	_	PUNCT	_	startali=132131|endali=132161	15	punct	_	_
@@ -795,7 +795,7 @@
 14	I	_	PRON	_	Case=Nom|PronType=Prs|Person=1|Number=Sing|startali=136318|endali=136390	15	subj	_	_
 15	dey	_	AUX	_	startali=136390|Aspect=Imp|endali=136520	0	root	_	_
 16	read	_	VERB	_	startali=136520|endali=136730	15	comp:aux	_	_
-17	news	_	NOUN	_	startali=136730|endali=137370	16	comp:obj	_	_
+17	news	_	NOUN	_	Number=Plur|startali=136730|endali=137370	16	comp:obj	_	_
 18	//	_	PUNCT	_	startali=137370|endali=137400	15	punct	_	_
 
 # sent_id = P_WAZP_07_Imonirhuas.Life.Story_PRO_48
@@ -806,8 +806,8 @@
 3	di	_	DET	_	PronType=Art|Definite=Def|startali=137910|endali=137970	4	det	_	_
 4	ting	_	NOUN	_	startali=137970|endali=138220	5	subj	_	_
 5	dey	_	AUX	_	startali=138220|Aspect=Imp|endali=138450	0	root	_	_
-6	make	_	VERB	_	startali=138450|endali=138640	5	comp:aux	_	_
-7	e	_	PRON	_	Case=Nom|PronType=Prs|Person=3|Number=Sing|startali=138670|endali=138762	8	subj	_	_
+6	make	_	VERB	_	Mood=Jus|startali=138450|endali=138640	5	comp:aux	_	_
+7	e	_	PRON	_	Case=Nom|PronType=Prs|startali=138670|Person=3|endali=138762	8	subj	_	_
 8	dey	_	AUX	_	startali=138762|Aspect=Imp|endali=138888	5	conj:dicto	_	_
 9	too	_	ADV	_	startali=138888|endali=139335	10	mod	_	_
 10	stressful	_	ADJ	_	startali=139335|endali=139900	8	comp:aux	_	_
@@ -816,12 +816,12 @@
 13	because	_	SCONJ	_	startali=140194|endali=140480	10	mod	_	_
 14	admin	_	NOUN	_	startali=140480|endali=140811	15	dep	_	_
 15	work	_	NOUN	_	startali=140811|endali=141040	16	subj	_	_
-16	dey	_	VERB	_	PartType=Cop|startali=141040|endali=141247	13	comp	_	_
+16	dey	_	VERB	_	startali=141040|endali=141247	13	comp	_	_
 17	dere	_	ADV	_	PronType=Dem|startali=141247|endali=141530	16	comp:pred	_	_
 18	|c	_	PUNCT	_	startali=141530|endali=141560	23	punct	_	_
 19	#	_	PUNCT	_	startali=141560|endali=141960	23	punct	_	_
 20	and	_	CCONJ	_	startali=141960|endali=142150	23	cc	_	_
-21	news	_	NOUN	_	startali=142150|endali=142370	22	compound	_	_
+21	news	_	NOUN	_	Number=Plur|startali=142150|endali=142370	22	compound	_	_
 22	time	_	NOUN	_	startali=142370|endali=142590	23	subj	_	_
 23	na	_	PART	_	PartType=Cop|startali=142590|endali=142720	16	conj:coord	_	_
 24	very	_	ADV	_	startali=142720|endali=142932	25	mod	_	_
@@ -853,11 +853,11 @@
 # sent_translation = I will go and cast it late. I then have to drop news.
 # text = I con get to drop news //
 1	I	_	PRON	_	Case=Nom|PronType=Prs|Person=1|Number=Sing|startali=146020|endali=146080	2	subj	_	_
-2	con	_	AUX	_	startali=146080|Aspect=Real|endali=146230	0	root	_	_
+2	con	_	AUX	_	startali=146080|endali=146230	0	root	_	_
 3	get	_	VERB	_	startali=146230|endali=146321	2	comp:aux	_	_
 4	to	_	ADP	_	startali=146321|endali=146465	3	comp:pred	_	_
 5	drop	_	VERB	_	startali=146465|endali=146780	4	comp	_	_
-6	news	_	NOUN	_	startali=146780|endali=147090	5	comp:obj	_	_
+6	news	_	NOUN	_	Number=Plur|startali=146780|endali=147090	5	comp:obj	_	_
 7	//	_	PUNCT	_	startali=147090|endali=147120	2	punct	_	_
 
 # sent_id = P_WAZP_07_Imonirhuas.Life.Story_PRO_51
@@ -916,12 +916,12 @@
 # text = # de con still open Wazobia Mass TV |c # and na Pidgin station //
 1	#	_	PUNCT	_	startali=155175|endali=155758	3	punct	_	_
 2	de	_	PRON	_	Case=Nom|PronType=Prs|Person=3|Number=Plur|startali=155760|endali=155828	3	subj	_	_
-3	con	_	AUX	_	startali=155828|Aspect=Real|endali=156035	0	root	_	_
+3	con	_	AUX	_	startali=155828|endali=156035	0	root	_	_
 4	still	_	ADV	_	startali=156035|endali=156089	5	mod	_	_
 5	open	_	VERB	_	startali=156089|endali=156340	3	comp:aux	_	_
 6	Wazobia	_	PROPN	_	startali=156340|endali=156678	7	flat	_	_
 7	Mass	_	PROPN	_	startali=156678|endali=156961	8	flat	_	_
-8	TV	_	NOUN	_	startali=156961|endali=157310	5	comp:obj	_	_
+8	TV	_	PROPN	_	startali=156961|endali=157310	5	comp:obj	_	_
 9	|c	_	PUNCT	_	startali=157310|endali=157340	12	punct	_	_
 10	#	_	PUNCT	_	startali=157340|endali=157765	12	punct	_	_
 11	and	_	CCONJ	_	startali=157765|endali=157897	12	cc	_	_
@@ -1000,13 +1000,13 @@
 12	|c	_	PUNCT	_	startali=165400|endali=165430	14	punct	_	_
 13	and	_	CCONJ	_	startali=165430|endali=165570	14	cc	_	_
 14	to	_	ADP	_	startali=165570|endali=165714	8	conj:coord	_	_
-15	broadcast	_	VERB	_	startali=165714|endali=166376	14	comp	_	_
+15	broadcast	_	ADJ	_	startali=165714|endali=166376	14	comp	_	_
 16	}	_	PUNCT	_	startali=166376|endali=166406	8	punct	_	_
 17	<	_	PUNCT	_	startali=166376|endali=166406	8	punct	_	_
 18	mtchew	_	INTJ	_	startali=166406|endali=166554	21	discourse	_	_
 19	#	_	PUNCT	_	startali=166554|endali=166928	21	punct	_	_
 20	no	_	PART	_	Polarity=Neg|startali=166928|endali=167019	21	mod	_	_
-21	be	_	VERB	_	PartType=Cop|startali=167019|endali=167088	3	comp	_	_
+21	be	_	VERB	_	startali=167019|endali=167088	3	comp	_	_
 22	di	_	DET	_	PronType=Art|Definite=Def|startali=167088|endali=167156	24	det	_	_
 23	same	_	ADJ	_	startali=167156|endali=167406	24	dep	_	_
 24	ting	_	NOUN	_	startali=167406|endali=167660	21	comp:pred	_	_
@@ -1019,7 +1019,7 @@
 1	#	_	PUNCT	_	startali=167690|endali=168178	4	punct	_	_
 2	but	_	CCONJ	_	startali=168180|endali=168230	4	cc	_	_
 3	I	_	PRON	_	Case=Nom|PronType=Prs|Person=1|Number=Sing|startali=168230|endali=168291	4	subj	_	_
-4	con	_	AUX	_	startali=168291|Aspect=Real|endali=168498	0	root	_	_
+4	con	_	AUX	_	startali=168291|endali=168498	0	root	_	_
 5	audition	_	VERB	_	startali=168498|endali=168975	4	comp:aux	_	_
 6	//	_	PUNCT	_	startali=168975|endali=169055	4	punct	_	_
 
@@ -1043,7 +1043,7 @@
 5	start	_	VERB	_	startali=171230|endali=171350	4	comp:aux	_	_
 6	to	_	ADP	_	startali=171350|endali=171460	5	comp:pred	_	_
 7	go	_	VERB	_	startali=171460|endali=171628	6	comp	_	_
-8	live	_	VERB	_	startali=171628|endali=171760	7	comp:lvc	_	_
+8	live	_	ADJ	_	startali=171628|endali=171760	7	comp:lvc	_	_
 9	//	_	PUNCT	_	startali=171760|endali=171790	4	punct	_	_
 
 # sent_id = P_WAZP_07_Imonirhuas.Life.Story_PRO_62
@@ -1051,8 +1051,8 @@
 # text = when we go live now < I go dey do di morning show //
 1	when	_	ADV	_	PronType=Int|startali=171790|endali=171896	8	mod:periph	_	_
 2	we	_	PRON	_	Case=Nom|PronType=Prs|Person=1|Number=Plur|startali=171896|endali=172040	3	subj	_	_
-3	go	_	VERB	_	startali=172040|endali=172170	1	comp	_	_
-4	live	_	VERB	_	startali=172170|endali=172370	3	comp:aux	_	_
+3	go	_	VERB	_	startali=172040|Tense=Prosp|endali=172170	1	comp	_	_
+4	live	_	ADJ	_	startali=172170|endali=172370	3	comp:aux	_	_
 5	now	_	ADV	_	startali=172370|endali=172460	3	mod	_	_
 6	<	_	PUNCT	_	startali=172460|endali=172490	1	punct	_	_
 7	I	_	PRON	_	Case=Nom|PronType=Prs|Person=1|Number=Sing|startali=172490|endali=172640	8	subj	_	_
@@ -1134,7 +1134,7 @@
 2	me	_	PRON	_	Case=Nom|PronType=Prs|Person=1|Number=Sing|startali=184400|endali=184440	5	dislocated	_	_
 3	<	_	PUNCT	_	startali=184440|endali=184470	2	punct	_	_
 4	I	_	PRON	_	Case=Nom|PronType=Prs|Person=1|Number=Sing|startali=184470|endali=184548	5	subj	_	_
-5	be	_	VERB	_	PartType=Cop|startali=184548|endali=184627	0	root	_	_
+5	be	_	VERB	_	startali=184548|endali=184627	0	root	_	_
 6	feminist	_	NOUN	_	startali=184627|endali=185215	5	comp:pred	_	_
 7	//	_	PUNCT	_	startali=185215|endali=185270	5	punct	_	_
 
@@ -1148,7 +1148,7 @@
 5	equality	_	NOUN	_	startali=185960|endali=186530	4	comp	_	_
 6	of	_	ADP	_	startali=186530|endali=186590	5	dep	_	_
 7	di	_	DET	_	PronType=Art|Definite=Def|startali=186590|endali=186675	8	det	_	_
-8	sexes	_	NOUN	_	Number=Plur|startali=186675|endali=187229	6	comp	_	_
+8	sexes	_	NOUN	_	startali=186675|endali=187229	6	comp	_	_
 9	eng]	_	PUNCT	_	startali=187229|endali=187259	3	punct	_	_
 10	//	_	PUNCT	_	startali=187229|endali=187259	3	punct	_	_
 
@@ -1169,12 +1169,12 @@
 12	anyting	_	PRON	_	startali=189160|endali=189419	19	subj	_	_
 13	wey	_	SCONJ	_	startali=189419|endali=189524	12	dep	_	_
 14	my	_	ADJ	_	PronType=Prs|Person=1|Number=Sing|Poss=Yes|startali=189524|endali=189600	15	dep	_	_
-15	broders	_	NOUN	_	Number=Plur|startali=189600|endali=189890	16	subj	_	_
+15	broders	_	NOUN	_	startali=189600|endali=189890	16	subj	_	_
 16	dey	_	AUX	_	startali=189890|Aspect=Imp|endali=189984	13	comp	_	_
 17	do	_	VERB	_	startali=189984|endali=190245	16	comp:aux	_	_
 18	<	_	PUNCT	_	startali=190245|endali=190275	13	punct	_	_
 19	na	_	PART	_	PartType=Cop|startali=190275|endali=190460	0	root	_	_
-20	we	_	PRON	_	Case=Nom|PronType=Prs|Person=1|Number=Plur|startali=190490|endali=190550	19	comp:pred	_	_
+20	we	_	PRON	_	Person=1|startali=190490|endali=190550	19	comp:pred	_	_
 21	dey	_	AUX	_	startali=190550|Aspect=Imp|endali=190692	19	comp:cleft	_	_
 22	do	_	VERB	_	startali=190692|endali=190894	21	comp:aux	_	_
 23	too	_	ADV	_	startali=190894|endali=191121	22	mod	_	_
@@ -1225,14 +1225,14 @@
 8	know	_	VERB	_	startali=194970|endali=195040	6	comp:aux	_	_
 9	wetin	_	PRON	_	PronType=Int|startali=195040|endali=195230	8	comp:obj	_	_
 10	feminism	_	NOUN	_	startali=195230|endali=195791	11	subj	_	_
-11	be	_	VERB	_	PartType=Cop|startali=195791|endali=195890	9	dep	_	_
+11	be	_	VERB	_	startali=195791|endali=195890	9	dep	_	_
 12	<	_	PUNCT	_	startali=195890|endali=195920	4	punct	_	_
 13	but	_	CCONJ	_	startali=195920|endali=196220	18	cc	_	_
 14	she	_	PRON	_	Case=Nom|PronType=Prs|Person=3|Number=Sing|startali=196220|endali=196530	18	dislocated	_	_
 15	<	_	PUNCT	_	startali=196530|endali=196560	14	punct	_	_
 16	#	_	PUNCT	_	startali=196560|endali=196880	14	punct	_	_
 17	she	_	PRON	_	Case=Nom|PronType=Prs|Person=3|Number=Sing|startali=196880|endali=196980	18	subj	_	_
-18	be	_	VERB	_	PartType=Cop|startali=196980|endali=197060	0	root	_	_
+18	be	_	VERB	_	startali=196980|endali=197060	0	root	_	_
 19	feminist	_	NOUN	_	startali=197060|endali=197670	18	comp:pred	_	_
 20	//	_	PUNCT	_	startali=197670|endali=197700	18	punct	_	_
 
@@ -1244,7 +1244,7 @@
 3	she	_	PRON	_	Case=Nom|PronType=Prs|Person=3|Number=Sing|startali=198160|endali=198310	4	subj	_	_
 4	suffer	_	VERB	_	startali=198310|endali=198600	0	root	_	_
 5	for	_	ADP	_	startali=198600|endali=198710	4	comp:obl	_	_
-6	her	_	ADJ	_	PronType=Prs|Person=3|Gender=Fem|Number=Sing|Poss=Yes|startali=198710|endali=198740	7	det	_	_
+6	her	_	ADJ	_	PronType=Prs|Person=3|Number=Sing|startali=198710|endali=198740	7	det	_	_
 7	papa	_	NOUN	_	startali=198740|endali=199030	8	compound	_	_
 8	hand	_	NOUN	_	startali=199030|endali=199288	5	comp	_	_
 9	//	_	PUNCT	_	startali=199288|endali=199371	4	punct	_	_
@@ -1253,14 +1253,14 @@
 # sent_translation = # Our father believes that a girl is not a child. So, our father could not train her,
 # text = # her pa believe sey [ girl no be pikin ] //
 1	#	_	PUNCT	_	startali=199371|endali=199698	4	punct	_	_
-2	her	_	ADJ	_	PronType=Prs|Person=3|Gender=Fem|Number=Sing|Poss=Yes|startali=199698|endali=199758	3	dep	_	_
+2	her	_	ADJ	_	PronType=Prs|Person=3|Number=Sing|startali=199698|endali=199758	3	dep	_	_
 3	pa	_	NOUN	_	startali=199758|endali=199978	4	subj	_	_
 4	believe	_	VERB	_	startali=199978|endali=200152	0	root	_	_
 5	sey	_	SCONJ	_	startali=200152|endali=200455	4	comp:obj	_	_
 6	[	_	PUNCT	_	startali=200455|endali=200485	9	punct	_	_
 7	girl	_	NOUN	_	startali=200485|endali=200794	9	subj	_	_
 8	no	_	PART	_	Polarity=Neg|startali=200794|endali=200908	9	mod	_	_
-9	be	_	VERB	_	PartType=Cop|startali=200908|endali=200998	5	comp	_	_
+9	be	_	VERB	_	startali=200908|endali=200998	5	comp	_	_
 10	pikin	_	NOUN	_	startali=200998|endali=201346	9	comp:pred	_	_
 11	]	_	PUNCT	_	startali=201346|endali=201376	9	punct	_	_
 12	//	_	PUNCT	_	startali=201346|endali=201376	4	punct	_	_
@@ -1273,11 +1273,11 @@
 3	no	_	PART	_	Polarity=Neg|startali=201638|endali=201737	4	mod	_	_
 4	gree	_	VERB	_	startali=201737|endali=201858	0	root	_	_
 5	train	_	VERB	_	startali=201858|endali=202118	4	comp:pred	_	_
-6	her	_	PRON	_	Case=Acc|PronType=Prs|Person=3|Gender=Fem|Number=Sing|startali=202118|endali=202270	5	comp:obj	_	_
+6	her	_	PRON	_	Case=Acc|PronType=Prs|Person=3|Number=Sing|startali=202118|endali=202270	5	comp:obj	_	_
 7	|c	_	PUNCT	_	startali=202270|endali=202300	9	punct	_	_
 8	#	_	PUNCT	_	startali=202300|endali=202600	9	punct	_	_
 9	suffer	_	VERB	_	startali=202600|endali=202900	4	conj:coord	_	_
-10	her	_	PRON	_	Case=Acc|PronType=Prs|Person=3|Gender=Fem|Number=Sing|startali=202900|endali=203080	9	comp:obj	_	_
+10	her	_	PRON	_	PronType=Prs|Person=3|Number=Sing|startali=202900|endali=203080	9	comp:obj	_	_
 11	{	_	PUNCT	_	startali=203080|endali=203110	12	punct	_	_
 12	well	_	ADV	_	startali=203110|endali=203165	9	mod	_	_
 13	|r	_	PUNCT	_	startali=203165|endali=203195	14	punct	_	_
@@ -1335,7 +1335,7 @@
 3	dis	_	DET	_	PronType=Prox|Number=Sing|startali=210440|endali=210599	4	det	_	_
 4	feminism	_	NOUN	_	startali=210599|endali=210957	6	subj	_	_
 5	no	_	PART	_	Polarity=Neg|startali=210957|endali=211060	6	mod	_	_
-6	be	_	VERB	_	PartType=Cop|startali=211060|endali=211120	0	root	_	_
+6	be	_	VERB	_	startali=211060|endali=211120	0	root	_	_
 7	feminist	_	NOUN	_	startali=211120|endali=211770	6	comp:pred	_	_
 8	//	_	PUNCT	_	startali=211770|endali=211800	6	punct	_	_
 
@@ -1344,7 +1344,7 @@
 # text = de hate demsefs as women //
 1	de	_	PRON	_	Case=Nom|PronType=Prs|Person=3|Number=Plur|startali=211800|endali=212075	2	subj	_	_
 2	hate	_	VERB	_	startali=212075|endali=212530	0	root	_	_
-3	demsefs	_	PRON	_	Case=Acc|PronType=Pers|Person=3|Number=Plur|startali=212530|Reflex=Yes|endali=213052	2	comp:obj	_	_
+3	demsefs	_	PRON	_	startali=212530|endali=213052	2	comp:obj	_	_
 4	as	_	ADP	_	startali=213052|endali=213240	2	mod	_	_
 5	women	_	NOUN	_	Number=Plur|startali=213240|endali=213673	4	comp	_	_
 6	//	_	PUNCT	_	startali=213673|endali=213703	2	punct	_	_
@@ -1388,8 +1388,9 @@
 34	join	_	VERB	_	startali=219740|endali=219940	33	comp:aux	_	_
 35	Boys	_	PROPN	_	Number=Plur|startali=219940|endali=220189	34	comp:obj	_	_
 36	Scout	_	PROPN	_	startali=220189|endali=220663	35	flat	_	_
-37	]	_	PUNCT	_	startali=220663|endali=220693	18	punct	_	_
-38	//	_	PUNCT	_	startali=220663|endali=220693	5	punct	_	_
+37	?// ]	_	PUNCT	_	startali=220663|endali=220693	28	punct	_	_
+38	]	_	PUNCT	_	startali=220663|endali=220693	18	punct	_	_
+39	//	_	PUNCT	_	startali=220663|endali=220693	5	punct	_	_
 
 # sent_id = P_WAZP_07_Imonirhuas.Life.Story_PRO_79
 # text = # and den some women dey call demsefs { kings |a king of queens } //
@@ -1397,16 +1398,16 @@
 2	and	_	CCONJ	_	startali=221060|endali=221190	6	cc	_	_
 3	den	_	ADV	_	startali=221190|endali=221300	6	mod	_	_
 4	some	_	DET	_	startali=221300|endali=221396	5	det	_	_
-5	women	_	NOUN	_	Number=Plur|startali=221396|endali=221570	6	subj	_	_
-6	dey	_	AUX	_	startali=221570|Aspect=Imp|endali=221660	0	conj:coord	_	_
+5	women	_	NOUN	_	startali=221396|endali=221570	6	subj	_	_
+6	dey	_	AUX	_	Person=3|Number=P_|startali=221570|endali=221660	0	conj:coord	_	_
 7	call	_	VERB	_	startali=221660|endali=221780	6	comp:aux	_	_
-8	demsefs	_	PRON	_	Case=Acc|PronType=Pers|Person=3|Number=Plur|startali=221780|Reflex=Yes|endali=222230	7	comp:obj	_	_
+8	demsefs	_	PRON	_	startali=221780|endali=222230	7	comp:obj	_	_
 9	{	_	PUNCT	_	startali=222230|endali=222260	10	punct	_	_
-10	kings	_	NOUN	_	Number=Plur|startali=222260|endali=222770	7	comp:obj	_	_
+10	kings	_	NOUN	_	startali=222260|endali=222770	7	comp:obj	_	_
 11	|a	_	PUNCT	_	startali=222770|endali=222800	12	punct	_	_
 12	king	_	NOUN	_	startali=222800|endali=223040	10	conj:appos	_	_
 13	of	_	ADP	_	startali=223040|endali=223410	12	dep	_	_
-14	queens	_	NOUN	_	Number=Plur|startali=223410|endali=223910	13	comp	_	_
+14	queens	_	NOUN	_	startali=223410|endali=223910	13	comp	_	_
 15	}	_	PUNCT	_	startali=223910|endali=223940	10	punct	_	_
 16	//	_	PUNCT	_	startali=223910|endali=223940	6	punct	_	_
 
@@ -1415,11 +1416,11 @@
 # text = # noting dey wrong wit being a queen //
 1	#	_	PUNCT	_	startali=223940|endali=224500	3	punct	_	_
 2	noting	_	PRON	_	startali=224500|endali=224730	3	subj	_	_
-3	dey	_	VERB	_	PartType=Cop|startali=224730|endali=224820	0	root	_	_
+3	dey	_	VERB	_	startali=224730|Aspect=Imp|endali=224820	0	root	_	_
 4	wrong	_	ADJ	_	startali=224820|endali=225040	3	comp:pred	_	_
 5	wit	_	ADP	_	startali=225040|endali=225130	4	comp:obl	_	_
 6	being	_	VERB	_	startali=225130|endali=225339	5	comp	_	_
-7	a	_	DET	_	PronType=Art |startali=225339|Def=Ind|endali=225450	8	det	_	_
+7	a	_	DET	_	Case=Nom|PronType=Prs|Person=1|Number=Sing|startali=225339|endali=225450	8	det	_	_
 8	queen	_	NOUN	_	startali=225450|endali=225750	6	comp:pred	_	_
 9	//	_	PUNCT	_	startali=225750|endali=225780	3	punct	_	_
 
@@ -1429,7 +1430,7 @@
 1	#	_	PUNCT	_	startali=225780|endali=226460	7	punct	_	_
 2	because	_	SCONJ	_	startali=226460|endali=226929	7	cc	_	_
 3	<	_	PUNCT	_	startali=226929|endali=226959	2	punct	_	_
-4	male	_	NOUN	_	startali=226959|endali=227316	6	dep	_	_
+4	male	_	ADJ	_	startali=226959|endali=227316	6	dep	_	_
 5	human	_	NOUN	_	startali=227316|endali=227661	6	dep	_	_
 6	being	_	NOUN	_	startali=227661|endali=227900	7	subj	_	_
 7	na	_	PART	_	PartType=Cop|startali=227900|endali=228080	0	root	_	_
@@ -1439,7 +1440,7 @@
 # sent_id = P_WAZP_07_Imonirhuas.Life.Story_PRO_82
 # sent_translation = Because male human being is man. Female human being is woman.
 # text = female human being na woman //
-1	female	_	NOUN	_	startali=228410|endali=228893	3	dep	_	_
+1	female	_	ADJ	_	startali=228410|endali=228893	3	dep	_	_
 2	human	_	NOUN	_	startali=228893|endali=229130	3	dep	_	_
 3	being	_	NOUN	_	startali=229130|endali=229270	4	subj	_	_
 4	na	_	PART	_	PartType=Cop|startali=229270|endali=229447	0	root	_	_
@@ -1458,8 +1459,8 @@
 7	sometimes	_	ADV	_	startali=231460|endali=231490	10	mod:periph	_	_
 8	di	_	DET	_	PronType=Art|Definite=Def|startali=231490|endali=231580	9	det	_	_
 9	queen	_	NOUN	_	startali=231580|endali=232060	10	subj	_	_
-10	is	_	VERB	_	PartType=Cop|startali=232060|endali=232170	5	parataxis:obj	_	_
-11	a	_	DET	_	PronType=Art |startali=232170|Def=Ind|endali=232266	12	det	_	_
+10	is	_	VERB	_	startali=232060|endali=232170	5	parataxis:obj	_	_
+11	a	_	DET	_	Case=Nom|PronType=Prs|Person=1|Number=Sing|startali=232170|endali=232266	12	det	_	_
 12	king	_	NOUN	_	startali=232266|endali=232610	10	comp:pred	_	_
 13	//]	_	PUNCT	_	startali=232610|endali=232640	10	punct	_	_
 14	<	_	PUNCT	_	startali=232610|endali=232640	3	punct	_	_
@@ -1469,18 +1470,18 @@
 18	[	_	PUNCT	_	startali=232914|endali=232944	21	punct	_	_
 19	you	_	PRON	_	Case=Nom|PronType=Prs|Person=2|Number=Sing|startali=232944|endali=233063	21	subj	_	_
 20	no	_	PART	_	Polarity=Neg|startali=233063|endali=233240	21	mod	_	_
-21	dey	_	VERB	_	PartType=Cop|startali=233240|endali=233420	17	comp	_	_
+21	dey	_	VERB	_	startali=233240|Aspect=Imp|endali=233420	17	comp	_	_
 22	satisfy	_	VERB	_	startali=233420|endali=233810	21	comp:pred	_	_
 23	wit	_	ADP	_	startali=233810|endali=234070	22	comp:obl	_	_
 24	being	_	VERB	_	startali=234070|endali=234400	23	comp	_	_
 25	#	_	PUNCT	_	startali=234400|endali=234670	27	punct	_	_
-26	a	_	DET	_	PronType=Art |startali=234670|Def=Ind|endali=234840	27	det	_	_
+26	a	_	DET	_	Case=Nom|PronType=Prs|Person=1|Number=Sing|startali=234670|endali=234840	27	det	_	_
 27	queen	_	NOUN	_	startali=234840|endali=235171	24	comp:pred	_	_
 28	]	_	PUNCT	_	startali=235171|endali=235201	21	punct	_	_
 29	|c	_	PUNCT	_	startali=235171|endali=235201	32	punct	_	_
 30	and	_	CCONJ	_	startali=235201|endali=235290	32	cc	_	_
 31	noting	_	PRON	_	startali=235320|endali=235550	32	subj	_	_
-32	dey	_	VERB	_	PartType=Cop|startali=235550|endali=235620	16	conj:coord	_	_
+32	dey	_	VERB	_	startali=235550|Aspect=Imp|endali=235620	16	conj:coord	_	_
 33	wrong	_	ADJ	_	startali=235620|endali=235823	32	comp:pred	_	_
 34	wit	_	ADP	_	startali=235823|endali=235910	33	comp:obl	_	_
 35	being	_	VERB	_	startali=235910|endali=236068	34	comp	_	_
@@ -1512,10 +1513,10 @@
 7	but	_	CCONJ	_	startali=239800|endali=239880	9	cc	_	_
 8	noting	_	PRON	_	startali=239880|endali=240150	9	subj	_	_
 9	take	_	VERB	_	startali=240150|endali=240290	4	conj:coord	_	_
-10	her	_	ADJ	_	PronType=Prs|Person=3|Gender=Fem|Number=Sing|Poss=Yes|startali=240290|endali=240430	11	dep	_	_
+10	her	_	ADJ	_	PronType=Prs|Person=3|Number=Sing|startali=240290|endali=240430	11	dep	_	_
 11	position	_	NOUN	_	startali=240430|endali=240800	9	comp:obj	_	_
 12	from	_	ADP	_	startali=240800|endali=241000	9	comp:obl	_	_
-13	her	_	PRON	_	Case=Acc|PronType=Prs|Person=3|Gender=Fem|Number=Sing|startali=241000|endali=241150	12	comp	_	_
+13	her	_	PRON	_	PronType=Prs|Person=3|Number=Sing|startali=241000|endali=241150	12	comp	_	_
 14	//	_	PUNCT	_	startali=241150|endali=241180	4	punct	_	_
 
 # sent_id = P_WAZP_07_Imonirhuas.Life.Story_PRO_86
@@ -1532,7 +1533,7 @@
 # sent_id = P_WAZP_07_Imonirhuas.Life.Story_PRO_87
 # text = I be feminist |c # but some people < de no be feminist //
 1	I	_	PRON	_	Case=Nom|PronType=Prs|Person=1|Number=Sing|startali=242550|endali=242777	2	subj	_	_
-2	be	_	VERB	_	PartType=Cop|startali=242777|endali=243007	0	root	_	_
+2	be	_	VERB	_	startali=242777|endali=243007	0	root	_	_
 3	feminist	_	NOUN	_	startali=243007|endali=243620	2	comp:pred	_	_
 4	|c	_	PUNCT	_	startali=243620|endali=243650	12	punct	_	_
 5	#	_	PUNCT	_	startali=243650|endali=243940	12	punct	_	_
@@ -1542,7 +1543,7 @@
 9	<	_	PUNCT	_	startali=244560|endali=244590	8	punct	_	_
 10	de	_	PRON	_	Case=Nom|PronType=Prs|Person=3|Number=Plur|startali=244590|endali=244670	12	subj	_	_
 11	no	_	PART	_	Polarity=Neg|startali=244670|endali=244760	12	mod	_	_
-12	be	_	VERB	_	PartType=Cop|startali=244760|endali=244875	2	conj:coord	_	_
+12	be	_	VERB	_	startali=244760|endali=244875	2	conj:coord	_	_
 13	feminist	_	NOUN	_	startali=244875|endali=245340	12	comp:pred	_	_
 14	//	_	PUNCT	_	startali=245340|endali=245370	2	punct	_	_
 
@@ -1672,7 +1673,7 @@
 7	men	_	NOUN	_	Number=Plur|startali=265380|endali=265520	6	comp:obj	_	_
 8	<	_	PUNCT	_	startali=265520|endali=265550	4	punct	_	_
 9	no	_	PART	_	Polarity=Neg|startali=265550|endali=265650	10	mod	_	_
-10	be	_	VERB	_	PartType=Cop|startali=265650|endali=265750	0	root	_	_
+10	be	_	VERB	_	startali=265650|endali=265750	0	root	_	_
 11	im	_	PRON	_	Case=Nom|PronType=Prs|Person=3|Number=Sing|startali=265750|endali=265805	10	comp:pred	_	_
 12	>+	_	PUNCT	_	startali=265805|endali=265835	13	punct	_	_
 13	go	_	AUX	_	startali=265835|Tense=Prosp|endali=265940	10	comp:cleft	_	_
@@ -1680,10 +1681,10 @@
 15	you	_	PRON	_	Case=Nom|PronType=Prs|Person=2|Number=Sing|startali=266170|endali=266240	14	comp:obj	_	_
 16	say	_	VERB	_	startali=266240|endali=266440	14	comp:pred	_	_
 17	we	_	PRON	_	Case=Nom|PronType=Prs|Person=1|Number=Plur|startali=266440|endali=266530	18	subj	_	_
-18	dey	_	VERB	_	PartType=Cop|startali=266530|endali=266675	16	parataxis:obj	_	_
+18	dey	_	VERB	_	startali=266530|Aspect=Imp|endali=266675	16	parataxis:obj	_	_
 19	superior	_	ADJ	_	startali=266675|endali=267070	18	comp:pred	_	_
 20	to	_	ADP	_	startali=267070|endali=267254	19	comp:obl	_	_
-21	men	_	NOUN	_	Number=Plur|startali=267254|endali=267454	20	comp	_	_
+21	men	_	NOUN	_	startali=267254|endali=267454	20	comp	_	_
 22	]	_	PUNCT	_	startali=267454|endali=267484	10	punct	_	_
 23	//	_	PUNCT	_	startali=267454|endali=267484	10	punct	_	_
 
@@ -1695,7 +1696,7 @@
 3	<	_	PUNCT	_	startali=268168|endali=268198	2	punct	_	_
 4	if	_	SCONJ	_	startali=268198|endali=268320	17	mod:periph	_	_
 5	you	_	PRON	_	Case=Nom|PronType=Prs|Person=2|Number=Sing|startali=268320|endali=268380	6	subj	_	_
-6	wan	_	VERB	_	startali=268380|endali=268470	4	comp	_	_
+6	wan	_	VERB	_	startali=268380|Tense=Past|endali=268470	4	comp	_	_
 7	say	_	VERB	_	startali=268470|endali=268678	6	comp:pred	_	_
 8	[	_	PUNCT	_	startali=268678|endali=268708	10	punct	_	_
 9	you	_	PRON	_	Case=Nom|PronType=Prs|Person=2|Number=Sing|startali=268708|endali=268790	10	subj	_	_
@@ -1728,11 +1729,11 @@
 # text = # noting dey wrong wit being a woman //
 1	#	_	PUNCT	_	startali=272140|endali=272620	3	punct	_	_
 2	noting	_	PRON	_	startali=272620|endali=272900	3	subj	_	_
-3	dey	_	VERB	_	PartType=Cop|startali=272900|endali=273050	0	root	_	_
+3	dey	_	VERB	_	startali=272900|Aspect=Imp|endali=273050	0	root	_	_
 4	wrong	_	ADJ	_	startali=273050|endali=273280	3	comp:pred	_	_
 5	wit	_	ADP	_	startali=273280|endali=273470	4	comp:obl	_	_
 6	being	_	VERB	_	startali=273470|endali=273660	5	comp	_	_
-7	a	_	DET	_	PronType=Art |startali=273660|Def=Ind|endali=273830	8	det	_	_
+7	a	_	DET	_	Case=Nom|PronType=Prs|Person=1|Number=Sing|startali=273660|endali=273830	8	det	_	_
 8	woman	_	NOUN	_	startali=273830|endali=274064	6	comp:pred	_	_
 9	//	_	PUNCT	_	startali=274064|endali=274094	3	punct	_	_
 
@@ -1835,7 +1836,7 @@
 1	#	_	PUNCT	_	startali=289212|endali=289900	4	punct	_	_
 2	so	_	ADV	_	startali=289900|endali=290030	4	discourse	_	_
 3	yes	_	INTJ	_	startali=290030|endali=290157	4	discourse	_	_
-4	Sir	_	PROPN	_	startali=290157|endali=290268	0	root	_	_
+4	sir	_	NOUN	_	startali=290157|endali=290268	0	root	_	_
 5	//	_	PUNCT	_	startali=290157|endali=290268	4	punct	_	_
 
 # sent_id = P_WAZP_07_Imonirhuas.Life.Story_PRO_99
@@ -1862,7 +1863,7 @@
 4	again	_	ADV	_	startali=293420|endali=293740	3	dep	_	_
 5	wen	_	SCONJ	_	startali=293740|endali=293860	3	dep	_	_
 6	I	_	PRON	_	Case=Nom|PronType=Prs|Person=1|Number=Sing|startali=293860|endali=293949	7	subj	_	_
-7	dey	_	VERB	_	PartType=Cop|startali=293949|endali=294060	5	comp	_	_
+7	dey	_	VERB	_	startali=293949|endali=294060	5	comp	_	_
 8	very	_	ADV	_	startali=294060|endali=294410	9	mod	_	_
 9	passionate	_	ADJ	_	startali=294410|endali=294720	7	comp:pred	_	_
 10	about	_	ADP	_	startali=294720|endali=294940	9	comp:obl	_	_
@@ -1932,7 +1933,7 @@
 5	for	_	ADP	_	startali=306264|endali=306360	8	discourse	_	_
 6	me	_	PRON	_	Case=Acc|PronType=Prs|Person=1|Number=Sing|startali=306360|endali=306430	5	comp	_	_
 7	no	_	PART	_	Polarity=Neg|startali=306430|endali=306524	8	mod	_	_
-8	be	_	VERB	_	PartType=Cop|startali=306524|endali=306630	0	root	_	_
+8	be	_	VERB	_	startali=306524|endali=306630	0	root	_	_
 9	religion	_	NOUN	_	startali=306630|endali=307108	8	comp:pred	_	_
 10	//	_	PUNCT	_	startali=307108|endali=307138	8	punct	_	_
 
@@ -1942,7 +1943,7 @@
 1	na	_	PART	_	PartType=Cop|startali=307138|endali=307290	0	root	_	_
 2	just	_	ADV	_	startali=307290|endali=307660	1	mod	_	_
 3	#	_	PUNCT	_	startali=307660|endali=308020	6	punct	_	_
-4	a	_	DET	_	PronType=Art |startali=308020|Def=Ind|endali=308140	6	det	_	_
+4	a	_	DET	_	Case=Nom|PronType=Prs|Person=1|Number=Sing|startali=308020|endali=308140	6	det	_	_
 5	new	_	ADJ	_	startali=308140|endali=308406	6	dep	_	_
 6	life	_	NOUN	_	startali=308406|endali=308620	1	comp:pred	_	_
 7	//	_	PUNCT	_	startali=308620|endali=308650	1	punct	_	_
@@ -1951,15 +1952,15 @@
 # sent_translation = # Entering into a new life and seeing things differently.
 # text = # entering into a new life |c and seeing tings differently //
 1	#	_	PUNCT	_	startali=308650|endali=308770	2	punct	_	_
-2	entering	_	VERB	_	VerbForm=Part|startali=308770|Tense=Pres|endali=309048	0	root	_	_
+2	entering	_	VERB	_	startali=308770|endali=309048	0	root	_	_
 3	into	_	ADP	_	startali=309048|endali=309328	2	comp:obl	_	_
-4	a	_	DET	_	PronType=Art |startali=309328|Def=Ind|endali=309443	6	det	_	_
+4	a	_	DET	_	Case=Nom|PronType=Prs|Person=1|Number=Sing|startali=309328|endali=309443	6	det	_	_
 5	new	_	ADJ	_	startali=309443|endali=309600	6	dep	_	_
 6	life	_	NOUN	_	startali=309600|endali=309880	3	comp	_	_
 7	|c	_	PUNCT	_	startali=309880|endali=309910	9	punct	_	_
 8	and	_	CCONJ	_	startali=309910|endali=310148	9	cc	_	_
-9	seeing	_	VERB	_	VerbForm=Part|startali=310148|Tense=Pres|endali=310430	2	conj:coord	_	_
-10	tings	_	NOUN	_	Number=Plur|startali=310430|endali=310840	9	comp:obj	_	_
+9	seeing	_	VERB	_	startali=310148|endali=310430	2	conj:coord	_	_
+10	tings	_	NOUN	_	startali=310430|endali=310840	9	comp:obj	_	_
 11	differently	_	ADV	_	startali=310840|endali=311430	9	mod	_	_
 12	//	_	PUNCT	_	startali=311430|endali=311460	2	punct	_	_
 
@@ -1969,7 +1970,7 @@
 1	#	_	PUNCT	_	startali=311460|endali=311960	5	punct	_	_
 2	because	_	SCONJ	_	startali=311960|endali=312200	5	cc	_	_
 3	{	_	PUNCT	_	startali=312200|endali=312230	5	punct	_	_
-4	e	_	PRON	_	Case=Nom|PronType=Prs|Person=3|Number=Sing|startali=312230|endali=312290	5	subj:expl	_	_
+4	e	_	PRON	_	Case=Nom|PronType=Prs|startali=312230|Person=3|endali=312290	5	subj:expl	_	_
 5	get	_	VERB	_	startali=312290|endali=312383	0	root	_	_
 6	||	_	PUNCT	_	startali=312383|endali=312413	8	punct	_	_
 7	I	_	PRON	_	Case=Nom|PronType=Prs|Person=1|Number=Sing|startali=312413|endali=312550	8	subj	_	_
@@ -1991,30 +1992,30 @@
 1	#	_	PUNCT	_	startali=314260|endali=314660	11	punct	_	_
 2	but	_	CCONJ	_	startali=314660|endali=314730	11	cc	_	_
 3	at	_	ADP	_	startali=314730|endali=314790	11	mod:periph	_	_
-4	a	_	DET	_	PronType=Art |startali=314790|Def=Ind|endali=314820	5	det	_	_
+4	a	_	DET	_	Case=Nom|PronType=Prs|Person=1|Number=Sing|startali=314790|endali=314820	5	det	_	_
 5	point	_	NOUN	_	startali=314820|endali=315100	3	comp	_	_
 6	in	_	ADP	_	startali=315100|endali=315130	5	dep	_	_
-7	my	_	ADJ	_	PronType=Prs|Person=1|Number=Sing|Poss=Yes|startali=315130|endali=315270	8	dep	_	_
+7	my	_	PRON	_	PronType=Prs|Person=1|Number=Sing|Poss=Yes|startali=315130|endali=315270	8	dep	_	_
 8	life	_	NOUN	_	startali=315270|endali=315450	6	comp	_	_
 9	<	_	PUNCT	_	startali=315450|endali=315480	3	punct	_	_
 10	I	_	PRON	_	Case=Nom|PronType=Prs|Person=1|Number=Sing|startali=315480|endali=315570	11	subj	_	_
-11	con	_	AUX	_	startali=315570|Aspect=Real|endali=315690	0	root	_	_
+11	con	_	AUX	_	startali=315570|endali=315690	0	root	_	_
 12	just	_	ADV	_	startali=315690|endali=315830	13	mod	_	_
 13	tell	_	VERB	_	startali=315830|endali=315930	11	comp:aux	_	_
-14	mysef	_	PRON	_	Case=Acc|PronType=Prs|Person=1|Number=Sing|startali=315930|Reflex=Yes|endali=316310	13	comp:obj	_	_
+14	mysef	_	PRON	_	PronType=Prs|Person=1|startali=315930|endali=316310	13	comp:obj	_	_
 15	sey	_	SCONJ	_	startali=316310|endali=316430	13	comp:obj	_	_
 16	[	_	PUNCT	_	startali=316430|endali=316460	21	punct	_	_
 17	abeg	_	INTJ	_	startali=316460|endali=316937	21	discourse	_	_
 18	#	_	PUNCT	_	startali=316937|endali=317500	21	punct	_	_
 19	eh	_	INTJ	_	startali=317500|endali=317861	21	discourse	_	_
 20	no	_	PART	_	Polarity=Neg|startali=317861|endali=317958	21	mod	_	_
-21	be	_	VERB	_	PartType=Cop|startali=317958|endali=318040	15	comp	_	_
+21	be	_	VERB	_	startali=317958|endali=318040	15	comp	_	_
 22	only	_	ADJ	_	startali=318040|endali=318250	23	dep	_	_
 23	God	_	PROPN	_	startali=318250|endali=318481	21	comp:pred	_	_
 24	>+	_	PUNCT	_	startali=318481|endali=318580	25	punct	_	_
 25	wey	_	SCONJ	_	startali=318481|endali=318580	21	comp:cleft	_	_
 26	fit	_	AUX	_	startali=318580|endali=318710	25	comp	_	_
-27	be	_	VERB	_	PartType=Cop|startali=318710|endali=318810	26	comp:aux	_	_
+27	be	_	VERB	_	startali=318710|endali=318810	26	comp:aux	_	_
 28	di	_	DET	_	PronType=Art|Definite=Def|startali=318810|endali=318930	29	det	_	_
 29	way	_	NOUN	_	startali=318930|endali=319170	27	comp:pred	_	_
 30	]	_	PUNCT	_	startali=319170|endali=319200	21	punct	_	_
@@ -2060,7 +2061,7 @@
 # sent_id = P_WAZP_07_Imonirhuas.Life.Story_PRO_110
 # sent_translation = # That thing now made me,
 # text = # wetin come make me & & //
-1	#	_	PUNCT	_	startali=326500|endali=326880	-1	_	_	_
+1	#	_	PUNCT	_	startali=326500|endali=326880	3	punct	_	_
 2	wetin	_	PRON	_	PronType=Int|startali=326880|endali=327060	3	subj	_	_
 3	come	con	AUX	_	startali=327060|Aspect=Real|endali=327190	0	root	_	_
 4	make	_	VERB	_	startali=327190|endali=327350	3	comp:aux	_	_
@@ -2098,8 +2099,8 @@
 8	now	_	ADV	_	startali=330639|endali=330753	5	mod	_	_
 9	because	_	SCONJ	_	startali=330753|endali=331088	5	mod	_	_
 10	e	_	PRON	_	Case=Nom|PronType=Prs|Person=3|Number=Sing|startali=331088|endali=331120	11	subj	_	_
-11	go	_	AUX	_	startali=331120|Tense=Prosp|endali=331234	9	comp	_	_
-12	dey	_	VERB	_	PartType=Cop|startali=331234|endali=331360	11	comp:aux	_	_
+11	go	_	AUX	_	startali=331120|endali=331234	9	comp	_	_
+12	dey	_	VERB	_	Person=3|startali=331234|endali=331360	11	comp:aux	_	_
 13	too	_	ADV	_	startali=331360|endali=331540	14	mod	_	_
 14	long	_	ADJ	_	startali=331540|endali=331790	12	comp:pred	_	_
 15	//	_	PUNCT	_	startali=331790|endali=331820	4	punct	_	_
@@ -2116,8 +2117,8 @@
 7	dat	_	DET	_	PronType=Dem|Number=Sing|startali=332670|endali=332790	9	det	_	_
 8	personal	_	ADJ	_	startali=332790|endali=333083	9	dep	_	_
 9	encounter	_	NOUN	_	startali=333083|endali=333500	11	subj	_	_
-10	na	_	PART	_	PartType=Cop|startali=333530|endali=333600	11	mod	_	_
-11	make	_	VERB	_	startali=333630|endali=333780	0	root	_	_
+10	na	_	ADV	_	PartType=Cop|startali=333530|endali=333600	11	mod	_	_
+11	make	_	VERB	_	Mood=Jus|startali=333630|endali=333780	0	root	_	_
 12	me	_	PRON	_	Case=Acc|PronType=Prs|Person=1|Number=Sing|startali=333780|endali=333875	11	comp:obj	_	_
 13	say	_	VERB	_	startali=333875|endali=334000	11	comp:pred	_	_
 14	[	_	PUNCT	_	startali=334000|endali=334030	18	punct	_	_
@@ -2142,7 +2143,7 @@
 33	of	_	ADP	_	startali=337650|endali=337730	32	comp	_	_
 34	dat	_	DET	_	PronType=Dem|Number=Sing|startali=337730|endali=337849	36	det	_	_
 35	my	_	ADJ	_	PronType=Prs|Person=1|Number=Sing|Poss=Yes|startali=337849|endali=337950	36	dep	_	_
-36	personal	_	ADJ	_	startali=337950|endali=338358	37	dep	_	_
+36	personal	_	NOUN	_	startali=337950|endali=338358	37	dep	_	_
 37	encounter	_	NOUN	_	startali=338358|endali=338720	33	comp	_	_
 38	wit	_	ADP	_	startali=338720|endali=338940	37	comp:obl	_	_
 39	God	_	PROPN	_	startali=338940|endali=339173	38	comp	_	_
@@ -2165,7 +2166,7 @@
 10	see	_	VERB	_	startali=341187|endali=341390	9	comp:aux	_	_
 11	many	_	ADJ	_	startali=341390|endali=341616	13	dep	_	_
 12	different	_	ADJ	_	startali=341616|endali=341991	13	dep	_	_
-13	tings	_	NOUN	_	Number=Plur|startali=341991|endali=342130	10	comp:obj	_	_
+13	tings	_	NOUN	_	startali=341991|endali=342130	10	comp:obj	_	_
 14	//	_	PUNCT	_	startali=342130|endali=342160	8	punct	_	_
 
 # sent_id = P_WAZP_07_Imonirhuas.Life.Story_PRO_115
@@ -2212,7 +2213,7 @@
 2	and	_	CCONJ	_	startali=350642|endali=351115	5	cc	_	_
 3	#	_	PUNCT	_	startali=351115|endali=351640	2	punct	_	_
 4	noting	_	PRON	_	startali=351640|endali=352040	5	subj	_	_
-5	dey	_	VERB	_	PartType=Cop|startali=352040|endali=352210	0	root	_	_
+5	dey	_	VERB	_	startali=352040|Aspect=Imp|endali=352210	0	root	_	_
 6	impossible	_	ADJ	_	startali=352210|endali=352630	5	comp:pred	_	_
 7	wit	_	ADP	_	startali=352630|endali=352795	5	comp:obl	_	_
 8	God	_	PROPN	_	startali=352795|endali=352930	7	comp	_	_
@@ -2223,12 +2224,11 @@
 # text = na wetin >+ Jesus Christ talk about //
 1	na	_	PART	_	PartType=Cop|startali=352960|endali=353060	0	root	_	_
 2	wetin	_	PRON	_	PronType=Int|startali=353060|endali=353366	1	comp:pred	_	_
-3	>+	_	PUNCT	_	startali=353366|endali=353640	-1	_	_	_
-4	Jesus	_	PROPN	_	startali=353366|endali=353640	6	subj	_	_
-5	Christ	_	PROPN	_	startali=353640|endali=353852	4	flat	_	_
-6	talk	_	VERB	_	startali=353852|endali=354030	1	comp:cleft	_	_
-7	about	_	ADP	_	startali=354030|endali=354310	6	comp:obl	_	_
-8	//	_	PUNCT	_	startali=354310|endali=354340	1	punct	_	_
+3	Jesus	_	PROPN	_	startali=353366|endali=353640	5	subj	_	_
+4	Christ	_	PROPN	_	startali=353640|endali=353852	3	flat	_	_
+5	talk	_	VERB	_	startali=353852|endali=354030	2	dep	_	_
+6	about	_	ADP	_	startali=354030|endali=354310	5	comp:obl	_	_
+7	//	_	PUNCT	_	startali=354310|endali=354340	1	punct	_	_
 
 # sent_id = P_WAZP_07_Imonirhuas.Life.Story_PRO_118
 # sent_translation = nothing is impossible with God. It is what Jesus Christ talked about. And I have seen it that nothing is impossible.
@@ -2241,7 +2241,7 @@
 6	sey	_	SCONJ	_	startali=354726|endali=354820	4	comp:obj	_	_
 7	[	_	PUNCT	_	startali=354820|endali=354850	9	punct	_	_
 8	noting	_	PRON	_	startali=354850|endali=355142	9	subj	_	_
-9	dey	_	VERB	_	PartType=Cop|startali=355142|endali=355270	6	comp	_	_
+9	dey	_	VERB	_	startali=355142|Aspect=Imp|endali=355270	6	comp	_	_
 10	impossible	_	ADJ	_	startali=355270|endali=355830	9	comp:pred	_	_
 11	]	_	PUNCT	_	startali=355830|endali=355860	9	punct	_	_
 12	//	_	PUNCT	_	startali=355830|endali=355860	3	punct	_	_
@@ -2320,12 +2320,12 @@
 4	my	_	ADJ	_	PronType=Prs|Person=1|Number=Sing|Poss=Yes|startali=367801|endali=367881	6	dep	_	_
 5	Christian	_	ADJ	_	startali=367881|endali=368255	6	dep	_	_
 6	life	_	NOUN	_	startali=368255|endali=368431	7	subj	_	_
-7	make	_	VERB	_	startali=368431|endali=368551	0	root	_	_
+7	make	_	VERB	_	Mood=Jus|startali=368431|endali=368551	0	root	_	_
 8	me	_	PRON	_	Case=Nom|PronType=Prs|Person=1|Number=Sing|startali=368551|endali=368675	7	comp:obj	_	_
 9	believe	_	VERB	_	startali=368675|endali=368846	7	comp:pred	_	_
 10	sey	_	SCONJ	_	startali=368846|endali=369001	9	comp:obj	_	_
 11	noting	_	PRON	_	startali=369001|endali=369671	12	subj	_	_
-12	dey	_	VERB	_	PartType=Cop|startali=369671|endali=369881	10	comp	_	_
+12	dey	_	VERB	_	startali=369671|Aspect=Imp|endali=369881	10	comp	_	_
 13	impossible	_	ADJ	_	startali=369881|endali=370322	12	comp:pred	_	_
 14	for	_	ADP	_	startali=370322|endali=370441	13	comp:obl	_	_
 15	me	_	PRON	_	Case=Acc|PronType=Prs|Person=1|Number=Sing|startali=370441|endali=370556	14	comp	_	_

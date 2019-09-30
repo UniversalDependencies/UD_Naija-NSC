@@ -257,8 +257,8 @@
 # sent_translation = # Third one is s- eh x caustic soda.
 # text = # third one na { s- || eh # caustic soda } //
 1	#	_	PUNCT	_	startali=48280|endali=48880	4	punct	_	_
-2	third	_	ADJ	_	Degree=Pos|NumType=Ord|startali=48880|endali=49120	3	dep	_	_
-3	one	_	NOUN	_	startali=49120|endali=49330	4	subj	_	_
+2	third	_	NUM	_	startali=48880|endali=49120	3	dep	_	_
+3	one	_	NOUN	_	NumType=Card|startali=49120|endali=49330	4	subj	_	_
 4	na	_	PART	_	PartType=Cop|startali=49330|endali=49550	0	root	_	_
 5	{	_	PUNCT	_	startali=49550|endali=49580	6	punct	_	_
 6	s-	_	X	_	startali=49580|endali=49840	4	comp:pred	_	_
@@ -538,7 +538,7 @@
 17	<	_	PUNCT	_	startali=98510|endali=98540	6	punct	_	_
 18	{	_	PUNCT	_	startali=98510|endali=98540	20	punct	_	_
 19	e	_	PRON	_	Case=Nom|PronType=Prs|Person=3|Number=Sing|startali=98540|endali=98630	20	subj	_	_
-20	go	_	AUX	_	startali=98630|Tense=Prosp|endali=98800	-1	_	_	_
+20	go	_	AUX	_	startali=98630|Tense=Prosp|endali=98800	0	root	_	_
 21	ti-	_	VERB	_	startali=98800|endali=99020	20	comp:aux	_	_
 22	||	_	PUNCT	_	startali=99020|endali=99050	24	punct	_	_
 23	e	_	PRON	_	Case=Nom|PronType=Prs|Person=3|Number=Sing|startali=99050|endali=99155	24	subj	_	_
@@ -554,7 +554,7 @@
 33	correct	_	ADJ	_	startali=100529|endali=100910	34	dep	_	_
 34	one	_	NOUN	_	startali=100910|endali=100997	32	comp:pred	_	_
 35	]	_	PUNCT	_	startali=100997|endali=101027	20	punct	_	_
-36	//	_	PUNCT	_	startali=100997|endali=101027	0	punct	_	_
+36	//	_	PUNCT	_	startali=100997|endali=101027	20	punct	_	_
 
 # sent_id = P_LAG_37_Soap.Making_PRO_27
 # sent_translation = # And my soap it does not spoil clothes. It does not wash clothes. It makes clothes better.
@@ -1144,15 +1144,15 @@
 1	#	_	PUNCT	_	startali=199193|endali=199517	9	punct	_	_
 2	so	_	ADV	_	startali=199517|endali=199627	9	discourse	_	_
 3	after	_	ADP	_	startali=199627|endali=199917	9	mod:periph	_	_
-4	dat	_	DET	_	PronType=Dem|Number=Sing|startali=199917|endali=200077	5	det	_	_
-5	one	_	NOUN	_	startali=200077|endali=200251	3	comp	_	_
+4	dat	_	DET	_	Number=Sing|startali=199917|endali=200077	5	det	_	_
+5	one	_	NOUN	_	Number=Sing|startali=200077|endali=200251	3	comp	_	_
 6	<	_	PUNCT	_	startali=200251|endali=200281	3	punct	_	_
 7	#	_	PUNCT	_	startali=200281|endali=200537	3	punct	_	_
-8	I	_	PRON	_	Case=Nom|PronType=Prs|Person=1|Number=Sing|startali=200537|endali=200661	9	subj	_	_
-9	go	_	AUX	_	startali=200661|Tense=Prosp|endali=200813	0	root	_	_
+8	I	_	PRON	_	Number=Sing|startali=200537|endali=200661	9	subj	_	_
+9	go	_	AUX	_	startali=200661|endali=200813	0	root	_	_
 10	still	_	ADV	_	startali=200813|endali=201066	11	mod	_	_
 11	mix	_	VERB	_	startali=201066|endali=201365	9	comp:aux	_	_
-12	my	_	ADJ	_	PronType=Prs|Person=1|Number=Sing|Poss=Yes|startali=201365|endali=201656	15	dep	_	_
+12	my	_	ADJ	_	Poss=Yes|startali=201365|endali=201656	15	dep	_	_
 13	#	_	PUNCT	_	startali=201656|endali=201899	12	punct	_	_
 14	soda	_	NOUN	_	startali=201899|endali=202415	15	compound	_	_
 15	ash	_	NOUN	_	startali=202415|endali=202622	11	comp:obj	_	_
@@ -1181,7 +1181,7 @@
 3	go	_	AUX	_	startali=205327|Tense=Prosp|endali=205474	0	root	_	_
 4	mix	_	VERB	_	startali=205474|endali=205670	3	comp:obj	_	_
 5	dat	_	DET	_	PronType=Dem|Number=Sing|startali=205670|endali=205870	6	det	_	_
-6	one	_	NOUN	_	startali=205870|endali=206058	4	comp:obj	_	_
+6	one	_	NOUN	_	NumType=Card|startali=205870|endali=206058	4	comp:obj	_	_
 7	too	_	ADV	_	startali=206058|endali=206213	4	mod	_	_
 8	//	_	PUNCT	_	startali=206213|endali=206243	3	punct	_	_
 
@@ -1228,12 +1228,12 @@
 2	{	_	PUNCT	_	startali=210220|endali=210250	3	punct	_	_
 3	after	_	ADP	_	startali=210250|endali=210656	16	mod:periph	_	_
 4	dat	_	DET	_	PronType=Dem|Number=Sing|startali=210656|endali=210789	5	det	_	_
-5	sulphuric	_	ADJ	_	startali=210789|endali=211247	3	comp	_	_
+5	sulphuric	_	NOUN	_	startali=210789|endali=211247	3	comp	_	_
 6	||	_	PUNCT	_	startali=211247|endali=211277	7	punct	_	_
 7	after	_	ADP	_	startali=211277|endali=211793	3	conj:dicto	_	_
 8	#	_	PUNCT	_	startali=211793|endali=212220	11	punct	_	_
 9	em	_	INTJ	_	startali=212220|endali=212640	11	discourse	_	_
-10	soda	_	NOUN	_	startali=212640|endali=213096	11	compound	_	_
+10	soda	_	ADJ	_	startali=212640|endali=213096	11	dep	_	_
 11	ash	_	NOUN	_	startali=213096|endali=213290	7	comp	_	_
 12	}	_	PUNCT	_	startali=213290|endali=213320	7	punct	_	_
 13	<+	_	PUNCT	_	startali=213290|endali=213320	3	punct	_	_
@@ -1245,8 +1245,8 @@
 19	STP-	_	PROPN	_	startali=214257|endali=214910	17	comp:obj	_	_
 20	||	_	PUNCT	_	startali=214910|endali=214940	22	punct	_	_
 21	#	_	PUNCT	_	startali=214940|endali=215380	22	punct	_	_
-22	STPP	_	PROPN	_	startali=215380|endali=216166	19	conj:dicto	_	_
-23	}	_	PUNCT	_	startali=216166|endali=216196	19	punct	_	_
+22	STPP	_	VERB	_	startali=215380|endali=216166	17	compound:prt	_	_
+23	}	_	PUNCT	_	startali=216166|endali=216196	16	punct	_	_
 24	//	_	PUNCT	_	startali=216166|endali=216196	16	punct	_	_
 
 # sent_id = P_LAG_37_Soap.Making_PRO_61

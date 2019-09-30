@@ -280,7 +280,7 @@
 25	up	_	ADP	_	startali=45510|endali=45570	23	compound:prt	_	_
 26	|c	_	PUNCT	_	startali=45570|endali=45690	28	punct	_	_
 27	and	_	CCONJ	_	startali=45570|endali=45690	28	cc	_	_
-28	down	_	ADP	_	startali=45690|endali=45910	-1	_	_	_
+28	down	_	ADP	_	startali=45690|endali=45910	25	conj:coord	_	_
 29	}	_	PUNCT	_	startali=45910|endali=45940	25	punct	_	_
 30	//	_	PUNCT	_	startali=45910|endali=45940	9	punct	_	_
 
@@ -639,32 +639,32 @@
 1	#	_	PUNCT	_	startali=100840|endali=101140	7	punct	_	_
 2	di	_	DET	_	PronType=Art|Definite=Def|startali=101140|endali=101320	3	det	_	_
 3	person	_	NOUN	_	startali=101320|endali=101770	7	dislocated	_	_
-4	here	_	ADV	_	PronType=Dem|startali=101770|endali=101830	3	mod	_	_
+4	here	_	ADV	_	PronType=Dem|startali=101770|endali=101830	3	dep	_	_
 5	<	_	PUNCT	_	startali=101830|endali=101860	3	punct	_	_
 6	you	_	PRON	_	Case=Nom|PronType=Prs|Person=2|Number=Sing|startali=101860|endali=101920	7	subj	_	_
 7	go	_	AUX	_	startali=101920|Tense=Prosp|endali=102060	0	root	_	_
 8	know	_	VERB	_	startali=102060|endali=102200	7	comp:aux	_	_
 9	sey	_	SCONJ	_	startali=102200|endali=102320	8	comp:obj	_	_
-10	[	_	PUNCT	_	startali=102320|endali=102350	-1	_	_	_
-11	{	_	PUNCT	_	startali=102320|endali=102350	13	punct	_	_
-12	na	now	ADV	_	startali=102350|endali=102550	13	discourse	_	_
-13	dis	_	DET	_	PronType=Prox|Number=Sing|startali=102550|endali=102810	-1	_	_	_
-14	||	_	PUNCT	_	startali=102810|endali=102840	19	punct	_	_
-15	#	_	PUNCT	_	startali=102840|endali=103240	19	punct	_	_
-16	na	now	ADV	_	startali=103240|endali=103380	19	discourse	_	_
+10	[	_	PUNCT	_	startali=102320|endali=102350	12	punct	_	_
+11	{	_	PUNCT	_	startali=102320|endali=102350	12	punct	_	_
+12	na	now	ADV	_	startali=102350|endali=102550	9	comp	_	_
+13	dis	_	DET	_	PronType=Prox|Number=Sing|startali=102550|endali=102810	12	comp:pred	_	_
+14	||	_	PUNCT	_	startali=102810|endali=102840	16	punct	_	_
+15	#	_	PUNCT	_	startali=102840|endali=103240	16	punct	_	_
+16	na	now	ADV	_	startali=103240|endali=103380	12	conj:dicto	_	_
 17	{	now	PUNCT	_	startali=103240|endali=103380	19	punct	_	_
 18	dis	_	DET	_	PronType=Prox|Number=Sing|startali=103380|endali=103590	19	det	_	_
-19	man	_	NOUN	_	startali=103590|endali=103820	27	dislocated	_	_
+19	man	_	NOUN	_	startali=103590|endali=103820	16	comp:pred	_	_
 20	|c	_	PUNCT	_	startali=103820|endali=104020	23	punct	_	_
 21	wit	_	ADP	_	startali=103820|endali=104020	23	cc	_	_
 22	dis	_	DET	_	PronType=Prox|Number=Sing|startali=104020|endali=104240	23	det	_	_
 23	woman	_	NOUN	_	startali=104240|endali=104460	19	conj:coord	_	_
 24	}	_	PUNCT	_	startali=104460|endali=104490	19	punct	_	_
-25	}	_	PUNCT	_	startali=104460|endali=104490	13	punct	_	_
-26	<	_	PUNCT	_	startali=104460|endali=104490	19	punct	_	_
-27	na	_	PART	_	PartType=Cop|startali=104490|endali=104620	9	comp	_	_
+25	}	_	PUNCT	_	startali=104460|endali=104490	12	punct	_	_
+26	//=	_	PUNCT	_	startali=104460|endali=104490	27	punct	_	_
+27	na	_	PART	_	PartType=Cop|startali=104490|endali=104620	16	parataxis:conj	_	_
 28	{	_	PUNCT	_	startali=104620|endali=104650	29	punct	_	_
-29	husbandi	_	NOUN	_	startali=104650|endali=105030	27	comp:pred	_	_
+29	husbandi	husband	NOUN	_	startali=104650|endali=105030	27	comp:pred	_	_
 30	|c	_	PUNCT	_	startali=105030|endali=105060	32	punct	_	_
 31	and	_	CCONJ	_	startali=105060|endali=105230	32	cc	_	_
 32	wife	_	NOUN	_	startali=105230|endali=105520	29	conj:coord	_	_
@@ -673,7 +673,7 @@
 35	no	_	PART	_	Polarity=Neg|startali=105550|endali=105680	36	mod	_	_
 36	be	_	VERB	_	PartType=Cop|startali=105680|endali=105800	27	parataxis:conj	_	_
 37	friend	_	NOUN	_	startali=105800|endali=106130	36	comp:pred	_	_
-38	//]	_	PUNCT	_	startali=106130|endali=106160	7	punct	_	_
+38	]	_	PUNCT	_	startali=106130|endali=106160	12	punct	_	_
 39	//	_	PUNCT	_	startali=106130|endali=106160	7	punct	_	_
 
 # sent_id = P_ONI_27_A.hotelier.Interview_PRO_41
@@ -1484,11 +1484,11 @@
 3	di	_	DET	_	PronType=Art|Definite=Def|startali=226180|endali=226360	4	det	_	_
 4	hotel	_	NOUN	_	startali=226360|endali=226640	2	comp:pred	_	_
 5	>+	_	PUNCT	_	startali=226640|endali=226670	8	punct	_	_
-6	e	_	ADJ	_	PronType=Prs|Person=3|Number=Sing|Poss=Yes|startali=226670|endali=226700	7	dep	_	_
+6	e	im	ADJ	_	PronType=Prs|Person=3|Number=Sing|Poss=Yes|startali=226670|endali=226700	8	punct	_	_
 7	husband	_	NOUN	_	startali=226700|endali=227190	8	subj	_	_
 8	go	_	AUX	_	startali=227190|Tense=Prosp|endali=227340	2	comp:cleft	_	_
 9	like	_	VERB	_	startali=227340|endali=227590	8	comp:aux	_	_
-10	sey	_	SCONJ	_	startali=227590|endali=227750	9	comp:obj	_	_
+10	sey	_	SCONJ	_	startali=227590|endali=227750	9	comp	_	_
 11	[	_	PUNCT	_	startali=227750|endali=227780	12	punct	_	_
 12	make	_	AUX	_	Mood=Jus|startali=227780|endali=228020	10	comp	_	_
 13	e	_	PRON	_	Case=Nom|PronType=Prs|Person=3|Number=Sing|startali=228020|endali=228050	12	subj	_	_
@@ -1541,14 +1541,15 @@
 # sent_id = P_ONI_27_A.hotelier.Interview_PRO_94
 # sent_translation = # ehn sio-, she was saying it. So, I don't know what she said that day, saying is
 # text = # ehn sio & //
-1	#	_	PUNCT	_	startali=233930|endali=234070	-1	_	_	_
-2	ehn	_	INTJ	_	startali=234070|endali=234620	5	discourse	_	_
-3	she	_	PRON	_	Case=Nom|PronType=Prs|Person=3|Gender=Fem|Number=Sing|startali=234620|endali=234990	5	subj	_	_
-4	mstchew	_	INTJ	_	startali=235020|endali=235080	5	discourse	_	_
-5	dey	_	AUX	_	startali=235080|Aspect=Imp|endali=235300	0	root	_	_
-6	talk	_	VERB	_	startali=235300|endali=235550	5	comp:aux	_	_
-7	am	_	PRON	_	Case=Acc|PronType=Prs|Person=3|Number=Sing|startali=235550|endali=235730	6	comp:obj	_	_
-8	//	_	PUNCT	_	startali=235730|endali=235760	5	punct	_	_
+1	#	_	PUNCT	_	startali=233930|endali=234070	6	punct	_	_
+2	ehn	_	INTJ	_	startali=234070|endali=234620	6	discourse	_	_
+3	she	_	PRON	_	Case=Nom|PronType=Prs|Person=3|Gender=Fem|Number=Sing|startali=234620|endali=234990	6	subj	_	_
+4	<	_	PUNCT	_	startali=235020|endali=235080	3	punct	_	_
+5	mstchew	_	INTJ	_	startali=235020|endali=235080	3	discourse	_	_
+6	dey	_	AUX	_	startali=235080|Aspect=Imp|endali=235300	0	root	_	_
+7	talk	_	VERB	_	startali=235300|endali=235550	6	comp:aux	_	_
+8	am	_	PRON	_	Case=Acc|PronType=Prs|Person=3|Number=Sing|startali=235550|endali=235730	7	comp:obj	_	_
+9	//	_	PUNCT	_	startali=235730|endali=235760	6	punct	_	_
 
 # sent_id = P_ONI_27_A.hotelier.Interview_PRO_95
 # sent_translation = ehn sio-, she was saying it. So, I don't know what she said that day, saying is # her husband, he doesn't like he should sleep by himself.
@@ -1797,7 +1798,7 @@
 8	ah	_	INTJ	_	startali=274390|endali=274500	11	discourse	_	_
 9	#	_	PUNCT	_	startali=274500|endali=274840	8	punct	_	_
 10	I	_	PRON	_	Case=Nom|PronType=Prs|Person=1|Number=Sing|startali=274840|endali=275040	11	subj	_	_
-11	dey	_	VERB	_	PartType=Cop|startali=275040|endali=276020	6	parataxis:obj	_	_
+11	dey	_	VERB	_	startali=275040|Aspect=Imp|endali=276020	6	parataxis:obj	_	_
 12	#	_	PUNCT	_	startali=276020|endali=276580	17	punct	_	_
 13	ehn	_	INTJ	_	startali=276580|endali=276740	17	dislocated	_	_
 14	ah	_	INTJ	_	startali=276740|endali=276910	17	discourse	_	_

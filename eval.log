@@ -3,8 +3,8 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Naija-NSC:
-commit 24fcd498dcae96c10bf09403b89ae79ec1bb663f
-Merge: f76d745 e68380b
+commit 3d07a790c8c897ed52bafe58bde6fb68a8604c19
+Merge: ce216d1 4514220
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 12863 of 12863 words (nodes).
 Size: min(0, log((N/1000)**2)) = 5.10870994619316.
@@ -23,8 +23,15 @@ Udapi: found 4120 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 12863 words.
 Genres: found 1 out of 17 known.
 validate.py --lang pcm --max-err=10 UD_Naija-NSC/pcm_nsc-ud-test.conllu
-*** PASSED ***
-Validity: 1
+[Line 405 Sent DEU_A01_M_12 Node 49]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'obl'.
+[Line 407 Sent DEU_A01_M_12 Node 51]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'orphan'.
+[Line 2854 Sent DEU_A01_M_86 Node 14]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'nmod'.
+[Line 3847 Sent DEU_C01_D_58 Node 7]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'obl'.
+[Line 8109 Sent IBA_07_D_109 Node 4]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'xcomp'.
+Syntax errors: 5
+*** FAILED *** with 5 errors
+Exit code: 1
+Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.01) = 0.000769230769230769
 (weight=0.0769230769230769) * (score{genres}=0.0588235294117647) = 0.00452488687782805
 (weight=0.0769230769230769) * (score{lemmas}=0.4) = 0.0307692307692308
@@ -33,6 +40,6 @@ Validity: 1
 (weight=0.0769230769230769) * (score{tags}=1) = 0.0769230769230769
 (weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
 (weight=0.0769230769230769) * (score{udeprels}=0.945945945945946) = 0.0727650727650728
-(TOTAL score=0.301079897218796) * (availability=1) * (validity=1) = 0.301079897218796
-STARS = 1.5
-UD_Naija-NSC	0.301079897218796	1.5
+(TOTAL score=0.301079897218796) * (availability=1) * (validity=0.01) = 0.00301079897218796
+STARS = 0
+UD_Naija-NSC	0.00301079897218796	0

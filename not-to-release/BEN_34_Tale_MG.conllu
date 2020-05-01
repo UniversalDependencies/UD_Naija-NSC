@@ -92,7 +92,7 @@
 14	dere	dere	ADV	_	_	13	advmod	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=there
 15	|c	|c	PUNCT	_	_	17	punct	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=PUNCT
 16	don	don	AUX	_	Aspect=Perf	17	aux	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=PRF
-17	go	go	VERB	_	_	13	conj:coord	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=go
+17	go	go	VERB	_	_	13	conj	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=go
 18	eat	eat	VERB	_	_	17	xcomp	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=eat
 19	everyting	everyting	PRON	_	_	18	obj	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=everything
 20	}	}	PUNCT	_	_	13	punct	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=PUNCT
@@ -128,11 +128,11 @@
 7	back	back	ADV	_	_	6	advmod	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=back
 8	|c	|c	PUNCT	_	_	10	punct	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=PUNCT
 9	con	con	AUX	_	Aspect=Cons	10	aux	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=CONS
-10	ask	ask	VERB	_	_	6	conj:coord	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=ask
+10	ask	ask	VERB	_	_	6	conj	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=ask
 11	dem	dem	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	10	obj	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=ACC.PL.3
 12	}	}	PUNCT	_	_	6	punct	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=PUNCT
 13	[	[	PUNCT	_	_	14	punct	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=PUNCT
-14	who	who	PRON	_	PronType=Int	10	parataxis	15:subj	AlignBegin=unknown|AlignEnd=unknown|Gloss=who.Q
+14	who	who	PRON	_	PronType=Int	10	parataxis	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=who.Q
 15	eat	eat	VERB	_	_	14	advcl:cleft	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=eat
 16	di	the	DET	_	Definite=Def|PronType=Art	17	det	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=DEF.ART
 17	food	food	NOUN	_	_	15	obj	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=food
@@ -179,15 +179,15 @@
 11	last	last	ADJ	_	_	12	amod	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=last
 12	born	born	VERB	_	Tense=Past|VerbForm=Part	4	ccomp	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=give_birth.PST.PTCP
 13	>+	>+	PUNCT	_	_	15	punct	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=PUNCT
-14	na	na	AUX	_	EXTPOS=SCONJ|PartType=Cop	15	cop:pred@fixed	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=be.COP
-15	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	12	advcl:cleft	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=NOM.SG.3
+14	na	na	AUX	_	PartType=Cop	15	cop	_	AlignBegin=unknown|AlignEnd=unknown|EXTPOS=SCONJ|Gloss=be.COP
+15	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	12	advcl:cleft	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=NOM.SG.3|INMWE=Yes
 16	come	come	VERB	_	_	15	ccomp	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=come
 17	kitchen	kitchen	NOUN	_	_	16	obj	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=kitchen
 18	sey	sey	SCONJ	_	_	21	mark	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=COMP
 19	[	[	PUNCT	_	_	21	punct	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=PUNCT
 20	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=NOM.SG.3
 21	forget	forget	VERB	_	_	16	ccomp	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=forget
-22	e	im	ADJ	_	Number=Sing|Person=3|Poss=Yes	23	amod	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=SG.3.POSS
+22	e	im	PRON	_	Number=Sing|Person=3	23	nmod:poss	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=SG.3.POSS
 23	cap	cap	NOUN	_	_	21	obj	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=cap
 24	]	]	PUNCT	_	_	21	punct	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=PUNCT
 25	]	]	PUNCT	_	_	12	punct	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=PUNCT
@@ -205,13 +205,13 @@
 4	say	say	VERB	_	_	0	root	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=say
 5	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	4	obj	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=ACC.SG.3
 6	[	[	PUNCT	_	_	10	punct	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=PUNCT
-7	meh	make	AUX	_	Mood=Sub	10	aux	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=SBJV
+7	meh	make	AUX	_	Mood=Opt	10	aux	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=SBJV
 8	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=NOM.PL.3
 9	{	{	PUNCT	_	_	10	punct	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=PUNCT
 10	go	go	VERB	_	_	4	parataxis	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=go
 11	river	river	NOUN	_	_	10	obj	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=river
 12	|c	|c	PUNCT	_	_	13	punct	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=PUNCT
-13	go	go	VERB	_	_	10	conj:coord	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=go
+13	go	go	VERB	_	_	10	conj	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=go
 14	swim	swim	NOUN	_	_	13	obj	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=swim
 15	}	}	PUNCT	_	_	10	punct	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=PUNCT
 16	]	]	PUNCT	_	_	10	punct	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=PUNCT
@@ -224,12 +224,12 @@
 # text_en = "When they got there, the first one sang, ""if I'm the one who ate this food, if I'm the one who ate this food, Kpangolo must swallow me, the fish must swallow me."""
 # text_ortho = "When de con reach there, di first one con sing ""if na me, eat dis food, if na me, eat dis food, Kpangolo must to swallow me, fish must to swallow me."""
 1	#	#	PUNCT	_	_	12	punct	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=PUNCT
-2	when	when	ADV	_	PronType=Int	12	advmod:periph	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=when.Q
+2	when	when	SCONJ	_	_	5	mark	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=when.Q
 3	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=NOM.PL.3
 4	con	con	AUX	_	Aspect=Cons	5	aux	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=CONS
-5	reach	reach	VERB	_	_	2	acl:relcl	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=reach
+5	reach	reach	VERB	_	_	12	advcl:periph	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=reach
 6	there	dere	ADV	_	_	5	advmod	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=dere
-7	<	<	PUNCT	_	_	2	punct	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=PUNCT
+7	<	<	PUNCT	_	_	5	punct	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=PUNCT
 8	di	the	DET	_	Definite=Def|PronType=Art	10	det	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=DEF.ART
 9	first	first	ADJ	_	NumType=Ord	10	amod	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=first.ORD
 10	one	one	NOUN	_	_	12	nsubj	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=one
@@ -311,7 +311,7 @@
 # text = # if na me >+ eat dis food < if na me >+ eat dis food < # Kpangolo must to swallow me //= fish must to swallow me //
 # text_en = """If I'm the one who ate this food, if I'm the one who ate this food, Kpangolo must swallow me, the fish must swallow me."""
 # text_ortho = """If na me, eat dis food, if na me, eat dis food, Kpangolo must to swallow me, fish must to swallow me."""
-1	#	#	PUNCT	_	_	0	punct	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=PUNCT
+1	#	#	PUNCT	_	_	22	punct	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=PUNCT
 2	if	if	SCONJ	_	_	4	mark	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=if
 3	na	na	AUX	_	PartType=Cop	4	cop	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=be.COP
 4	me	me	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	22	advcl:periph	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=NOM.SG.1
@@ -370,24 +370,23 @@
 # sent_id = BEN_34_Tale_MG__19
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/BEN_34_Tale_MG.mp3
 # speaker_id = Sp67
-# text = # e con sing [ if na me >+ # eat dis & //] //
+# text = # e con sing [ if na me >+ # eat dis //] &//
 # text_en = "He sang, ""if I'm the one, who ate this…"""
 # text_ortho = "E con sing ""if na me, eat dis…"""
 1	#	#	PUNCT	_	_	4	punct	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=PUNCT
 2	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=NOM.SG.3
 3	con	con	AUX	_	Aspect=Cons	4	aux	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=CONS
 4	sing	sing	VERB	_	_	0	root	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=sing
-5	[	[	PUNCT	_	_	13	punct	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=PUNCT
+5	[	[	PUNCT	_	_	4	punct	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=PUNCT
 6	if	if	SCONJ	_	_	8	mark	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=if
 7	na	na	AUX	_	PartType=Cop	8	cop	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=be.COP
-8	me	me	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	orphan	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=NOM.SG.1
+8	me	me	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	parataxis	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=NOM.SG.1
 9	>+	>+	PUNCT	_	_	11	punct	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=PUNCT
 10	#	#	PUNCT	_	_	11	punct	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=PUNCT
 11	eat	eat	VERB	_	_	8	advcl:cleft	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=eat
 12	dis	dis	PRON	_	Number=Sing|PronType=Dem	11	obj	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=SG.DEM
-13	&	&	X	_	_	4	parataxis	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=X
-14	//]	//]	PUNCT	_	_	13	punct	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=PUNCT
-15	&//	//	PUNCT	_	_	4	punct	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=PUNCT
+13	//]	//]	PUNCT	_	_	4	punct	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=PUNCT
+14	&//	//	PUNCT	_	_	4	punct	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=PUNCT
 
 # sent_id = BEN_34_Tale_MG__20
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/BEN_34_Tale_MG.mp3
@@ -403,22 +402,21 @@
 # sent_id = BEN_34_Tale_MG__21
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/BEN_34_Tale_MG.mp3
 # speaker_id = Sp67
-# text = # if na me >+ eat dis food < if na & //
+# text = # if na me >+ eat dis food < if na &//
 # text_en = """If I'm the one who ate this food, if I'm…"""
 # text_ortho = """If na me, eat dis food, if na…"""
-1	#	#	PUNCT	_	_	12	punct	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=PUNCT
+1	#	#	PUNCT	_	_	0	punct	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=PUNCT
 2	if	if	SCONJ	_	_	4	mark	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=if
 3	na	na	AUX	_	PartType=Cop	4	cop	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=be.COP
-4	me	me	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	orphan	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=NOM.SG.1
+4	me	me	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	dep	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=NOM.SG.1
 5	>+	>+	PUNCT	_	_	6	punct	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=PUNCT
 6	eat	eat	VERB	_	_	4	advcl:cleft	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=eat
 7	dis	dis	DET	_	Number=Sing|PronType=Dem	8	det	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=SG.PROX.DEM
 8	food	food	NOUN	_	_	6	obj	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=food
 9	<	<	PUNCT	_	_	4	punct	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=PUNCT
 10	if	if	SCONJ	_	_	11	mark	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=if
-11	na	na	AUX	_	PartType=Cop	12	orphan	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=be.COP
-12	&	&	X	_	_	0	root	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=X
-13	&//	//	PUNCT	_	_	12	punct	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=PUNCT
+11	na	na	AUX	_	PartType=Cop	0	root	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=be.COP
+12	&//	//	PUNCT	_	_	0	punct	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=PUNCT
 
 # sent_id = BEN_34_Tale_MG__22
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/BEN_34_Tale_MG.mp3
@@ -430,7 +428,7 @@
 2	talk	talk	VERB	_	_	0	root	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=talk
 3	loud	loud	ADJ	_	_	2	advcl	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=loud
 4	//=	//=	PUNCT	_	_	7	punct	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=PUNCT
-5	make	make	AUX	_	Mood=Sub	7	aux	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=SBJV
+5	make	make	AUX	_	Mood=Opt	7	aux	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=SBJV
 6	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=NOM.PL.3
 7	hear	hear	VERB	_	_	2	conj:dicto	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=hear
 8	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	7	obj	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=NOM.2
@@ -439,7 +437,7 @@
 # sent_id = BEN_34_Tale_MG__23
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/BEN_34_Tale_MG.mp3
 # speaker_id = Sp67
-# text = # if na me >+ eat dis soup < # Kpangolo must to swallow me //= # fish & //
+# text = # if na me >+ eat dis soup < # Kpangolo must to swallow me //= # fish &//
 # text_en = """If I'm the one who ate this soup, Kpangolo must swallow me, the fish…"""
 # text_ortho = """If na me, eat dis soup, Kpangolo must to swallow me, fish…"""
 1	#	#	PUNCT	_	_	14	punct	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=PUNCT
@@ -459,7 +457,7 @@
 15	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	14	obj	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=ACC.SG.1
 16	//=	//=	PUNCT	_	_	14	punct	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=PUNCT
 17	#	#	PUNCT	_	_	14	punct	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=PUNCT
-18	fish	fish	NOUN	_	_	14	parataxis:scrap	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=fish
+18	fish	fish	NOUN	_	_	14	parataxis:conj	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=fish
 19	&//	//	PUNCT	_	_	14	punct	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=PUNCT
 
 # sent_id = BEN_34_Tale_MG__24
@@ -606,7 +604,7 @@
 14	kitchen	kitchen	NOUN	_	_	13	obj	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=kitchen
 15	|c	|c	PUNCT	_	_	17	punct	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=PUNCT
 16	don	don	AUX	_	Aspect=Perf	17	aux	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=PRF
-17	go	go	VERB	_	_	13	conj:coord	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=go
+17	go	go	VERB	_	_	13	conj	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=go
 18	eat	eat	VERB	_	_	17	xcomp	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=eat
 19	di	the	DET	_	Definite=Def|PronType=Art	20	det	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=DEF.ART
 20	food	food	NOUN	_	_	18	obj	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=food
@@ -626,7 +624,7 @@
 5	ask	ask	VERB	_	_	0	root	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=ask
 6	#	#	PUNCT	_	_	8	punct	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=PUNCT
 7	[	[	PUNCT	_	_	8	punct	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=PUNCT
-8	who	who	PRON	_	PronType=Int	5	obj	9:subj	AlignBegin=unknown|AlignEnd=unknown|Gloss=who.Q
+8	who	who	PRON	_	PronType=Int	5	obj	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=who.Q
 9	eat	eat	VERB	_	_	8	advcl:cleft	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=eat
 10	dis	dis	DET	_	Number=Sing|PronType=Dem	11	det	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=SG.PROX.DEM
 11	food	food	NOUN	_	_	9	obj	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=food
@@ -667,13 +665,13 @@
 6	sey	sey	SCONJ	_	_	12	mark	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=COMP
 7	[	[	PUNCT	_	_	12	punct	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=PUNCT
 8	oya	oya	INTJ	_	_	12	discourse	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=come_on
-9	moh	make	AUX	_	Mood=Sub	12	aux	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=SBJV
+9	moh	make	AUX	_	Mood=Opt	12	aux	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=SBJV
 10	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	12	nsubj	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=NOM.PL.1
 11	{	{	PUNCT	_	_	12	punct	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=PUNCT
 12	go	go	AUX	_	Aspect=Prosp	5	ccomp	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=CONT
 13	river	river	NOUN	_	_	12	obj	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=river
 14	|c	|c	PUNCT	_	_	15	punct	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=PUNCT
-15	go	go	VERB	_	_	12	conj:coord	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=go
+15	go	go	VERB	_	_	12	conj	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=go
 16	swim	swim	NOUN	_	_	15	xcomp	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=swim
 17	}	}	PUNCT	_	_	12	punct	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=PUNCT
 18	//]	//]	PUNCT	_	_	12	punct	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=PUNCT
@@ -794,7 +792,7 @@
 # text = # if na me >+ eat dis food < # if na me >+ eat dis food < # Kpangolo must to swallow me //= # fish must to swallow me //
 # text_en = """If I'm the one who ate this food, if I'm the one who ate this food, Kpangolo must swallow me, the fish must swallow me."""
 # text_ortho = """If na me, eat dis food, if na me, eat dis food, Kpangolo must to swallow me, fish must to swallow me."""
-1	#	#	PUNCT	_	_	0	punct	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=PUNCT
+1	#	#	PUNCT	_	_	23	punct	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=PUNCT
 2	if	if	SCONJ	_	_	4	mark	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=if
 3	na	na	AUX	_	PartType=Cop	4	cop	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=be.COP
 4	me	me	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	23	advcl:periph	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=NOM.SG.1
@@ -866,13 +864,13 @@
 # sent_id = BEN_34_Tale_MG__45
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/BEN_34_Tale_MG.mp3
 # speaker_id = Sp67
-# text = # if na me >+ eat dis food < # if na me >+ eat dis food < # Kpangolo & //
+# text = # if na me >+ eat dis food < # if na me >+ eat dis food < # Kpangolo &//
 # text_en = """If I'm the one who ate this food, if I'm the one who ate this food, Kpangolo…"""
 # text_ortho = """If na me, eat dis food, if na me, eat dis food, Kpangolo…"""
-1	#	#	PUNCT	_	_	0	punct	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=PUNCT
+1	#	#	PUNCT	_	_	20	punct	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=PUNCT
 2	if	if	SCONJ	_	_	4	mark	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=if
 3	na	na	AUX	_	PartType=Cop	4	cop	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=be.COP
-4	me	me	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	orphan	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=NOM.SG.1
+4	me	me	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	20	dep	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=NOM.SG.1
 5	>+	>+	PUNCT	_	_	6	punct	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=PUNCT
 6	eat	eat	VERB	_	_	4	advcl:cleft	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=eat
 7	dis	dis	DET	_	Number=Sing|PronType=Dem	8	det	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=SG.PROX.DEM
@@ -881,7 +879,7 @@
 10	#	#	PUNCT	_	_	4	punct	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=PUNCT
 11	if	if	SCONJ	_	_	13	mark	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=if
 12	na	na	AUX	_	PartType=Cop	13	cop	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=be.COP
-13	me	me	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	orphan	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=NOM.SG.1
+13	me	me	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	20	dep	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=NOM.SG.1
 14	>+	>+	PUNCT	_	_	15	punct	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=PUNCT
 15	eat	eat	VERB	_	_	13	advcl:cleft	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=eat
 16	dis	dis	DET	_	Number=Sing|PronType=Dem	17	det	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=SG.PROX.DEM
@@ -889,7 +887,7 @@
 18	<	<	PUNCT	_	_	13	punct	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=PUNCT
 19	#	#	PUNCT	_	_	13	punct	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=PUNCT
 20	Kpangolo	Kpangolo	PROPN	_	_	0	root	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=Kpangolo
-21	&//	//	PUNCT	_	_	0	punct	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=PUNCT
+21	&//	//	PUNCT	_	_	20	punct	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=PUNCT
 
 # sent_id = BEN_34_Tale_MG__46
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/BEN_34_Tale_MG.mp3
@@ -911,21 +909,21 @@
 # sent_id = BEN_34_Tale_MG__47
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/BEN_34_Tale_MG.mp3
 # speaker_id = Sp67
-# text = # if na me >+ eat dis food < # if & //
+# text = # if na me >+ eat dis food < # if &//
 # text_en = """If I'm the one who ate this food, if…"""
 # text_ortho = """If na me, eat dis food, if…"""
-1	#	#	PUNCT	_	_	0	punct	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=PUNCT
+1	#	#	PUNCT	_	_	4	punct	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=PUNCT
 2	if	if	SCONJ	_	_	4	mark	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=if
 3	na	na	AUX	_	PartType=Cop	4	cop	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=be.COP
-4	me	me	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	orphan	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=NOM.SG.1
+4	me	me	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	root	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=NOM.SG.1
 5	>+	>+	PUNCT	_	_	6	punct	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=PUNCT
 6	eat	eat	VERB	_	_	4	advcl:cleft	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=eat
 7	dis	dis	DET	_	Number=Sing|PronType=Dem	8	det	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=SG.PROX.DEM
 8	food	food	NOUN	_	_	6	obj	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=food
 9	<	<	PUNCT	_	_	4	punct	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=PUNCT
 10	#	#	PUNCT	_	_	4	punct	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=PUNCT
-11	if	if	SCONJ	_	_	0	root	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=if
-12	&//	//	PUNCT	_	_	0	punct	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=PUNCT
+11	if	if	SCONJ	_	_	4	mark	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=if
+12	&//	//	PUNCT	_	_	4	punct	_	AlignBegin=unknown|AlignEnd=unknown|Gloss=PUNCT
 
 # sent_id = BEN_34_Tale_MG__48
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/BEN_34_Tale_MG.mp3

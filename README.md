@@ -29,7 +29,6 @@ The treebank is developed in SUD (https://surfacesyntacticud.github.io/) and is 
 - We distinguish arguments, modifiers, and peripherals in the `obl` relation: `obl:arg`, `obl:mod` `obl:periph`
 - We used `conj:coord` instead of `coord`.
 - We used `conj:dicto` instead of `reparandum`.
-- We used `conj:appos` instead of `appos`.
 - We use `compound:redup` for reduplications and `compound:svc` for serial verb constructions.
 - We distinguish 6 types of parataxis: `parataxis:conj`, `parataxis:discourse`, `parataxis:dislocated`, `parataxis:insert`, `parataxis:obj`, `parataxis:parenth`.
 
@@ -42,7 +41,9 @@ The treebank was created within the NaijaSynCor project, directed by Bernard Car
 
 This corpus is a pilot for the larger corpus elaborated as part of the NaijaSynCor Project (Projet-ANR-16-CE27-0007). Its main aim is to elaborate and test the annotation and procedures that are used in the ANR-project. It will be part of a larger 500kW corpus that will be projected on prosodic and information structures and analysed for sociolinguistics variation (http://naijasyncor.huma-num.fr/).
 
-The pilot corpus was recorded in various locations in Ibadan (Nigeria) by Bukola Babalola and Opeyemi Lewis. It was transcribed, translated and tagged manually using Elan-Corpa (http://llacan.vjf.cnrs.fr/res_ELAN-CorpA_en.php) by Folakemi Ladoja, Emeka Onwuegbuzia, Biola Oyelere and Samson Tella under the supervision of Bernard Caron. It was converted to CONLL by Mourad Aouini. The final Universal dependencies annotations have been manually checked by Sandra Bello, Marine Courtin, Bernard Caron, Kim Gerdes, Sylvain Kahane, and Manying Zhang using the processing chain developed by Kim Gerdes. Yuchen Song, Mariam Nakhlé, and Kirian Guillier have helped in the correction process. The guidelines were written by Marine Courtin and Sandra Bellato under the supervision of Sylvain Kahane, Bernard Caron, and Kim Gerdes.
+The pilot corpus was recorded in various locations in Ibadan (Nigeria) by Bukola Babalola and Opeyemi Lewis. It was transcribed, translated and tagged manually using Elan-Corpa (http://llacan.vjf.cnrs.fr/res_ELAN-CorpA_en.php) by Folakemi Ladoja, Emeka Onwuegbuzia, Biola Oyelere and Samson Tella under the supervision of Bernard Caron. It was converted to CONLL by Mourad Aouini. First annotations were done by Marine Courtin and Sandra Bellato, who developed the guidelines under the supervision of Sylvain Kahane, Bernard Caron, and Kim Gerdes.The final Universal dependencies annotations have been manually checked by Ajede Chika Kennedy,Emeka Onwuegbuzia, and Samson Tella under the supervision of Bernard Caron using the processing chain developed by Kim Gerdes and Bruno Guillaume. Marine Courtin, Kim Gerdes, Bruno Guillaume, Kirian Guillier, Sylvain Kahane, Mariam Nakhlé, Manying Zhang have helped in the correction process.
+
+Contributors: Caron, Bernard; Courtin, Marine; Gerdes, Kim; Kahane, Sylvain; Kennedy, Ajede Chika; Onwuegbuzia,Emeka; Tella,Samson
 
 # Changelog
 

@@ -173,12 +173,12 @@
 # text_en = When you drink Stout, you don't need to go piss, piss all the time.
 # text_ortho = When you drink Stout, you no go dey go piss, piss all di time.
 1	#	#	PUNCT	_	_	12	punct	_	AlignBegin=53499|AlignEnd=54790|Gloss=PUNCT
-2	when	when	SCONJ	_	_	4	mark	_	AlignBegin=54790|AlignEnd=54957|Gloss=when.Q
+2	when	when	ADV	_	PronType=Int	12	advmod:periph	_	AlignBegin=54790|AlignEnd=54957|Gloss=when.Q
 3	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	AlignBegin=54957|AlignEnd=55151|Gloss=NOM.2
-4	drink	drink	VERB	_	_	12	advcl:periph	_	AlignBegin=55151|AlignEnd=55435|Gloss=drink
+4	drink	drink	VERB	_	_	2	acl:relcl	_	AlignBegin=55151|AlignEnd=55435|Gloss=drink
 5	Stout	stout	NOUN	_	_	4	obl:mod	_	AlignBegin=55435|AlignEnd=55934|Gloss=stout
-6	<	<	PUNCT	_	_	4	punct	_	AlignBegin=55934|AlignEnd=55964|Gloss=PUNCT
-7	#	#	PUNCT	_	_	4	punct	_	AlignBegin=55964|AlignEnd=56709|Gloss=PUNCT
+6	<	<	PUNCT	_	_	2	punct	_	AlignBegin=55934|AlignEnd=55964|Gloss=PUNCT
+7	#	#	PUNCT	_	_	2	punct	_	AlignBegin=55964|AlignEnd=56709|Gloss=PUNCT
 8	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	12	nsubj	_	AlignBegin=56709|AlignEnd=56902|Gloss=NOM.2
 9	no	no	PART	_	Polarity=Neg	12	advmod	_	AlignBegin=56902|AlignEnd=57090|Gloss=NEG
 10	go	go	AUX	_	Aspect=Prosp	12	aux	_	AlignBegin=57090|AlignEnd=57291|Gloss=CONT
@@ -1020,12 +1020,12 @@
 14	}	}	PUNCT	_	_	6	punct	_	AlignBegin=298785|AlignEnd=298815|Gloss=PUNCT
 15	<	<	PUNCT	_	_	6	punct	_	AlignBegin=298785|AlignEnd=298815|Gloss=PUNCT
 16	#	#	PUNCT	_	_	6	punct	_	AlignBegin=298815|AlignEnd=299584|Gloss=PUNCT
-17	when	when	SCONJ	_	_	19	mark	_	AlignBegin=299584|AlignEnd=299794|Gloss=when.Q
+17	when	when	ADV	_	PronType=Int	29	advmod:periph	_	AlignBegin=299584|AlignEnd=299794|Gloss=when.Q
 18	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	AlignBegin=299794|AlignEnd=299931|Gloss=NOM.SG.1
-19	come	come	VERB	_	_	29	advcl:periph	_	AlignBegin=299931|AlignEnd=300220|Gloss=come
+19	come	come	VERB	_	_	17	acl:relcl	_	AlignBegin=299931|AlignEnd=300220|Gloss=come
 20	here	here	ADV	_	_	19	obj	_	AlignBegin=300220|AlignEnd=300573|Gloss=here
-21	<	<	PUNCT	_	_	19	punct	_	AlignBegin=300573|AlignEnd=300603|Gloss=PUNCT
-22	#	#	PUNCT	_	_	19	punct	_	AlignBegin=300603|AlignEnd=302105|Gloss=PUNCT
+21	<	<	PUNCT	_	_	17	punct	_	AlignBegin=300573|AlignEnd=300603|Gloss=PUNCT
+22	#	#	PUNCT	_	_	17	punct	_	AlignBegin=300603|AlignEnd=302105|Gloss=PUNCT
 23	{	{	PUNCT	_	_	24	punct	_	AlignBegin=302075|AlignEnd=302105|Gloss=PUNCT
 24	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	29	nsubj	_	AlignBegin=302105|AlignEnd=302990|Gloss=NOM.SG.1
 25	||	||	PUNCT	_	_	27	punct	_	AlignBegin=302990|AlignEnd=303040|Gloss=PUNCT
@@ -1125,14 +1125,12 @@
 20	in	in	ADP	_	_	22	case	_	AlignBegin=337591|AlignEnd=337734|Gloss=in
 21	di	the	DET	_	Definite=Def|PronType=Art	22	det	_	AlignBegin=337734|AlignEnd=337905|Gloss=DEF.ART
 22	way	way	NOUN	_	_	18	obl:mod	_	AlignBegin=337905|AlignEnd=338101|Gloss=way
-23	dat	that	SCONJ	_	PronType=Rel	27	mark	_	AlignBegin=338101|AlignEnd=338309|Gloss=that
-24	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	27	nsubj	_	AlignBegin=338309|AlignEnd=338471|Gloss=NOM.PL.3
-25-26	don't	_	_	_	_	_	_	_	_
-25	do	do	AUX	_	Mood=Ind|Polarity=Neg|Tense=Pres|VerbForm=Fin	27	cop	_	AlignBegin=338471|AlignEnd=338740|Gloss=do.IND.NEG.PRS.FIN
-26	n't	not	PART	_	_	27	advmod	_	_
-27	put	put	VERB	_	_	22	acl:relcl	_	AlignBegin=338740|AlignEnd=339010|Gloss=put
-28	any	any	DET	_	_	27	dep	_	AlignBegin=339010|AlignEnd=339337|Gloss=any
-29	&//	//	PUNCT	_	_	8	punct	_	AlignBegin=339337|AlignEnd=339367|Gloss=PUNCT
+23	dat	that	SCONJ	_	PronType=Rel	26	mark	_	AlignBegin=338101|AlignEnd=338309|Gloss=that
+24	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	26	nsubj	_	AlignBegin=338309|AlignEnd=338471|Gloss=NOM.PL.3
+25	don't	don't	AUX	_	Mood=Ind|Polarity=Neg|Tense=Pres|VerbForm=Fin	26	cop	_	AlignBegin=338471|AlignEnd=338740|Gloss=do.IND.NEG.PRS.FIN
+26	put	put	VERB	_	_	22	acl:relcl	_	AlignBegin=338740|AlignEnd=339010|Gloss=put
+27	any	any	DET	_	_	26	dep	_	AlignBegin=339010|AlignEnd=339337|Gloss=any
+28	&//	//	PUNCT	_	_	8	punct	_	AlignBegin=339337|AlignEnd=339367|Gloss=PUNCT
 
 # sent_id = LAG_21_I-Like-Stout_MG__46
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/LAG_21_I-Like-Stout_MG.mp3
@@ -1152,15 +1150,13 @@
 10	di	the	DET	_	Definite=Def|PronType=Art	12	det	_	AlignBegin=341440|AlignEnd=341598|Gloss=DEF.ART
 11	}	}	PUNCT	_	_	12	punct	_	AlignBegin=341598|AlignEnd=341628|Gloss=PUNCT
 12	way	way	NOUN	_	_	2	obl:mod	_	AlignBegin=341628|AlignEnd=341801|Gloss=way
-13	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	16	nsubj	_	AlignBegin=341801|AlignEnd=341945|Gloss=NOM.PL.3
-14-15	don't	_	_	_	_	_	_	_	_
-14	do	do	AUX	_	Mood=Ind|Polarity=Neg|Tense=Pres|VerbForm=Fin	16	aux	_	AlignBegin=341945|AlignEnd=342208|Gloss=do.IND.NEG.PRS.FIN
-15	n't	not	PART	_	_	16	advmod	_	_
-16	put	put	VERB	_	_	12	acl:relcl	_	AlignBegin=342208|AlignEnd=342657|Gloss=put
-17	leaf	leaf	NOUN	_	_	16	obj	_	AlignBegin=342657|AlignEnd=343358|Gloss=leaf
-18	#	#	PUNCT	_	_	19	punct	_	AlignBegin=343358|AlignEnd=343739|Gloss=PUNCT
-19	dere	dere	ADV	_	_	2	advmod	_	AlignBegin=343739|AlignEnd=344058|Gloss=there
-20	//	//	PUNCT	_	_	2	punct	_	AlignBegin=344058|AlignEnd=344088|Gloss=PUNCT
+13	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	15	nsubj	_	AlignBegin=341801|AlignEnd=341945|Gloss=NOM.PL.3
+14	don't	don't	AUX	_	Mood=Ind|Polarity=Neg|Tense=Pres|VerbForm=Fin	15	aux	_	AlignBegin=341945|AlignEnd=342208|Gloss=do.IND.NEG.PRS.FIN
+15	put	put	VERB	_	_	12	acl:relcl	_	AlignBegin=342208|AlignEnd=342657|Gloss=put
+16	leaf	leaf	NOUN	_	_	15	obj	_	AlignBegin=342657|AlignEnd=343358|Gloss=leaf
+17	#	#	PUNCT	_	_	18	punct	_	AlignBegin=343358|AlignEnd=343739|Gloss=PUNCT
+18	dere	dere	ADV	_	_	2	advmod	_	AlignBegin=343739|AlignEnd=344058|Gloss=there
+19	//	//	PUNCT	_	_	2	punct	_	AlignBegin=344058|AlignEnd=344088|Gloss=PUNCT
 
 # sent_id = LAG_21_I-Like-Stout_MG__47
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/LAG_21_I-Like-Stout_MG.mp3

@@ -478,7 +478,7 @@
 13	possible	possible	ADJ	_	_	4	ccomp	_	AlignBegin=83200|AlignEnd=83840|Gloss=possible
 14	#	#	PUNCT	_	_	16	punct	_	AlignBegin=83840|AlignEnd=84112|Gloss=PUNCT
 15	for	for	ADP	_	_	16	case	_	AlignBegin=84112|AlignEnd=84250|Gloss=for
-16	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	13	nsubj	_	AlignBegin=84250|AlignEnd=84419|Gloss=NOM.2
+16	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	13	dep	_	AlignBegin=84250|AlignEnd=84419|Gloss=NOM.2
 17	to	to	ADP	_	_	18	mark	_	AlignBegin=84419|AlignEnd=84590|Gloss=to
 18	do	do	VERB	_	_	16	ccomp	_	AlignBegin=84590|AlignEnd=84710|Gloss=do
 19	wetin	wetin	PRON	_	PronType=Int	18	obj	_	AlignBegin=84710|AlignEnd=84990|Gloss=what.Q
@@ -572,7 +572,7 @@
 # sent_id = PRT_11_A-Man-Named-Jesus_MG__21
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/PRT_11_A-Man-Named-Jesus_MG.mp3
 # speaker_id = Sp359
-# text = # dat Born Again mean sey # [ except you change your lifestyle # { to become # like me || eh to do di || to } ] &//
+# text = # dat Born Again mean sey # [ except you change your lifestyle # { to become # like me || eh to do di || to } & ] &//
 # text_en = That being born again means that unless you change your lifestyle to become like me, right, to do the… to...
 # text_ortho = Dat born again mean sey except you change your lifestyle to become like me eh... to do di... to...
 1	#	#	PUNCT	_	_	5	punct	_	AlignBegin=101850|AlignEnd=102360|Gloss=PUNCT
@@ -580,12 +580,12 @@
 3	Born	Born	PROPN	_	_	5	nsubj	_	AlignBegin=102630|AlignEnd=102880|Gloss=give_birth.PST.PTCP
 4	Again	Again	PROPN	_	_	3	flat	_	AlignBegin=102880|AlignEnd=103200|Gloss=again
 5	mean	mean	VERB	_	_	0	root	_	AlignBegin=103200|AlignEnd=103415|Gloss=mean
-6	sey	sey	SCONJ	_	_	11	mark	_	AlignBegin=103415|AlignEnd=103740|Gloss=COMP
-7	#	#	PUNCT	_	_	11	punct	_	AlignBegin=103740|AlignEnd=103980|Gloss=PUNCT
-8	[	[	PUNCT	_	_	11	punct	_	AlignBegin=103950|AlignEnd=103980|Gloss=PUNCT
+6	sey	sey	SCONJ	_	_	29	case	_	AlignBegin=103415|AlignEnd=103740|Gloss=COMP
+7	#	#	PUNCT	_	_	29	punct	_	AlignBegin=103740|AlignEnd=103980|Gloss=PUNCT
+8	[	[	PUNCT	_	_	29	punct	_	AlignBegin=103950|AlignEnd=103980|Gloss=PUNCT
 9	except	except	ADP	_	_	11	mark	_	AlignBegin=103980|AlignEnd=104470|Gloss=except
 10	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	11	nsubj	_	AlignBegin=104470|AlignEnd=104630|Gloss=NOM.2
-11	change	change	VERB	_	_	5	ccomp	_	AlignBegin=104630|AlignEnd=104960|Gloss=change
+11	change	change	VERB	_	_	29	acl:periph	_	AlignBegin=104630|AlignEnd=104960|Gloss=change
 12	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	13	amod	_	AlignBegin=104960|AlignEnd=105130|Gloss=PL.2.POSS
 13	lifestyle	lifestyle	NOUN	_	_	11	obj	_	AlignBegin=105130|AlignEnd=105880|Gloss=lifestyle
 14	#	#	PUNCT	_	_	17	punct	_	AlignBegin=105880|AlignEnd=106360|Gloss=PUNCT
@@ -603,8 +603,9 @@
 26	||	||	PUNCT	_	_	27	punct	_	AlignBegin=108520|AlignEnd=108550|Gloss=PUNCT
 27	to	to	ADP	_	_	23	conj:dicto	_	AlignBegin=108550|AlignEnd=108670|Gloss=to
 28	}	}	PUNCT	_	_	17	punct	_	AlignBegin=108670|AlignEnd=108700|Gloss=PUNCT
-29	]	]	PUNCT	_	_	11	punct	_	AlignBegin=108670|AlignEnd=108700|Gloss=PUNCT
-30	&//	//	PUNCT	_	_	5	punct	_	AlignBegin=108670|AlignEnd=108700|Gloss=PUNCT
+29	&	&	X	_	_	5	obj	_	AlignBegin=108670|AlignEnd=108700|Gloss=X
+30	]	]	PUNCT	_	_	29	punct	_	AlignBegin=108670|AlignEnd=108700|Gloss=PUNCT
+31	&//	//	PUNCT	_	_	5	punct	_	AlignBegin=108670|AlignEnd=108700|Gloss=PUNCT
 
 # sent_id = PRT_11_A-Man-Named-Jesus_MG__22
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/PRT_11_A-Man-Named-Jesus_MG.mp3
@@ -1001,14 +1002,14 @@
 5	con	con	AUX	_	Aspect=Cons	6	aux	_	AlignBegin=171060|AlignEnd=171290|Gloss=CONS
 6	tell	tell	VERB	_	_	0	root	_	AlignBegin=171290|AlignEnd=171509|Gloss=tell
 7	Nicodemus	Nicodemus	PROPN	_	_	6	obj	_	AlignBegin=171509|AlignEnd=172178|Gloss=Nicodemus
-8	#	#	PUNCT	_	_	31	punct	_	AlignBegin=172178|AlignEnd=172400|Gloss=PUNCT
-9	sey	sey	SCONJ	_	_	31	mark	_	AlignBegin=172400|AlignEnd=172575|Gloss=COMP
+8	#	#	PUNCT	_	_	30	punct	_	AlignBegin=172178|AlignEnd=172400|Gloss=PUNCT
+9	sey	sey	SCONJ	_	_	30	mark	_	AlignBegin=172400|AlignEnd=172575|Gloss=COMP
 10	[	[	PUNCT	_	_	15	punct	_	AlignBegin=172575|AlignEnd=172605|Gloss=PUNCT
 11	[eng	[eng	PUNCT	_	_	15	punct	_	AlignBegin=172575|AlignEnd=172605|Gloss=PUNCT
 12	except	except	ADP	_	_	15	mark	_	AlignBegin=172605|AlignEnd=173375|Gloss=except
 13	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	15	nsubj	_	AlignBegin=173375|AlignEnd=173520|Gloss=NOM.2
 14	are	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	aux	_	AlignBegin=173520|AlignEnd=173740|Gloss=be.IND.PRS.FIN
-15	born	bear	VERB	_	Tense=Past|VerbForm=Part	31	advcl:periph	_	AlignBegin=173740|AlignEnd=174110|Gloss=give_birth.PST.PTCP
+15	born	bear	VERB	_	Tense=Past|VerbForm=Part	30	advcl:periph	_	AlignBegin=173740|AlignEnd=174110|Gloss=give_birth.PST.PTCP
 16	of	of	ADP	_	_	19	case	_	AlignBegin=174110|AlignEnd=174320|Gloss=of
 17	{	{	PUNCT	_	_	19	punct	_	AlignBegin=174320|AlignEnd=174350|Gloss=PUNCT
 18	the	the	DET	_	Definite=Def|PronType=Art	19	det	_	AlignBegin=174350|AlignEnd=174537|Gloss=DEF.ART
@@ -1021,16 +1022,14 @@
 25	spirit	spirit	NOUN	_	_	19	conj	_	AlignBegin=175680|AlignEnd=176350|Gloss=spirit
 26	}	}	PUNCT	_	_	19	punct	_	AlignBegin=176350|AlignEnd=176380|Gloss=PUNCT
 27	<	<	PUNCT	_	_	15	punct	_	AlignBegin=176350|AlignEnd=176380|Gloss=PUNCT
-28	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	31	nsubj	_	AlignBegin=176380|AlignEnd=176590|Gloss=NOM.2
-29-30	cannot	_	_	_	_	_	_	_	_
-29	can	can	AUX	_	_	31	aux	_	AlignBegin=176590|AlignEnd=177150|Gloss=can.NEG
-30	not	not	PART	_	_	31	advmod	_	_
-31	enter	enter	VERB	_	_	6	ccomp	_	AlignBegin=177150|AlignEnd=177520|Gloss=enter
-32	that	dat	DET	_	Number=Sing|PronType=Dem	33	det	_	AlignBegin=177520|AlignEnd=177860|Gloss=SG.DIST.DEM
-33	kingdom	kingdom	NOUN	_	_	31	obj	_	AlignBegin=177860|AlignEnd=178290|Gloss=kingdom
-34	eng]	eng]	PUNCT	_	_	31	punct	_	AlignBegin=178290|AlignEnd=178320|Gloss=PUNCT
-35	//]	//]	PUNCT	_	_	31	punct	_	AlignBegin=178290|AlignEnd=178320|Gloss=PUNCT
-36	//	//	PUNCT	_	_	6	punct	_	AlignBegin=178290|AlignEnd=178320|Gloss=PUNCT
+28	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	30	nsubj	_	AlignBegin=176380|AlignEnd=176590|Gloss=NOM.2
+29	cannot	cannot	AUX	_	_	30	aux	_	AlignBegin=176590|AlignEnd=177150|Gloss=can.NEG
+30	enter	enter	VERB	_	_	6	ccomp	_	AlignBegin=177150|AlignEnd=177520|Gloss=enter
+31	that	dat	DET	_	Number=Sing|PronType=Dem	32	det	_	AlignBegin=177520|AlignEnd=177860|Gloss=SG.DIST.DEM
+32	kingdom	kingdom	NOUN	_	_	30	obj	_	AlignBegin=177860|AlignEnd=178290|Gloss=kingdom
+33	eng]	eng]	PUNCT	_	_	30	punct	_	AlignBegin=178290|AlignEnd=178320|Gloss=PUNCT
+34	//]	//]	PUNCT	_	_	30	punct	_	AlignBegin=178290|AlignEnd=178320|Gloss=PUNCT
+35	//	//	PUNCT	_	_	6	punct	_	AlignBegin=178290|AlignEnd=178320|Gloss=PUNCT
 
 # sent_id = PRT_11_A-Man-Named-Jesus_MG__37
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/PRT_11_A-Man-Named-Jesus_MG.mp3
@@ -1260,25 +1259,23 @@
 2	and	and	CCONJ	_	_	4	cc	_	AlignBegin=212020|AlignEnd=212345|Gloss=and
 3	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	AlignBegin=212345|AlignEnd=212530|Gloss=NOM.SG.3
 4	say	say	VERB	_	_	0	root	_	AlignBegin=212530|AlignEnd=212780|Gloss=say
-5	[	[	PUNCT	_	_	19	punct	_	AlignBegin=212780|AlignEnd=212810|Gloss=PUNCT
-6	[eng	[eng	PUNCT	_	_	19	punct	_	AlignBegin=212780|AlignEnd=212810|Gloss=PUNCT
+5	[	[	PUNCT	_	_	18	punct	_	AlignBegin=212780|AlignEnd=212810|Gloss=PUNCT
+6	[eng	[eng	PUNCT	_	_	18	punct	_	AlignBegin=212780|AlignEnd=212810|Gloss=PUNCT
 7	except	except	ADP	_	_	12	mark	_	AlignBegin=212810|AlignEnd=213277|Gloss=except
 8	dat	dat	DET	_	Number=Sing|PronType=Dem	9	det	_	AlignBegin=213277|AlignEnd=213500|Gloss=SG.DIST.DEM
 9	spirit	spirit	NOUN	_	_	12	nsubj	_	AlignBegin=213500|AlignEnd=214040|Gloss=spirit
 10	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	AlignBegin=214040|AlignEnd=214263|Gloss=be.IND.SG.3.PRS.FIN
 11	also	also	ADV	_	_	12	advmod	_	AlignBegin=214263|AlignEnd=214700|Gloss=also
-12	change	change	VERB	_	_	19	advcl:periph	_	AlignBegin=214700|AlignEnd=215150|Gloss=change
+12	change	change	VERB	_	_	18	advcl:periph	_	AlignBegin=214700|AlignEnd=215150|Gloss=change
 13	<	<	PUNCT	_	_	12	punct	_	AlignBegin=215150|AlignEnd=215180|Gloss=PUNCT
 14	#	#	PUNCT	_	_	12	punct	_	AlignBegin=215180|AlignEnd=215440|Gloss=PUNCT
-15	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	19	nsubj	_	AlignBegin=215440|AlignEnd=215572|Gloss=NOM.2
-16-17	cannot	_	_	_	_	_	_	_	_
-16	can	can	AUX	_	_	19	aux	_	AlignBegin=215572|AlignEnd=216035|Gloss=can.NEG
-17	not	not	PART	_	_	19	advmod	_	_
-18	also	also	ADV	_	_	19	advmod	_	AlignBegin=216035|AlignEnd=216410|Gloss=also
-19	enter	enter	VERB	_	_	4	ccomp	_	AlignBegin=216410|AlignEnd=217027|Gloss=enter
-20	eng]	eng]	PUNCT	_	_	19	punct	_	AlignBegin=217027|AlignEnd=217057|Gloss=PUNCT
-21	//]	//]	PUNCT	_	_	19	punct	_	AlignBegin=217027|AlignEnd=217057|Gloss=PUNCT
-22	//	//	PUNCT	_	_	4	punct	_	AlignBegin=217027|AlignEnd=217057|Gloss=PUNCT
+15	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	18	nsubj	_	AlignBegin=215440|AlignEnd=215572|Gloss=NOM.2
+16	cannot	cannot	AUX	_	_	18	aux	_	AlignBegin=215572|AlignEnd=216035|Gloss=can.NEG
+17	also	also	ADV	_	_	18	advmod	_	AlignBegin=216035|AlignEnd=216410|Gloss=also
+18	enter	enter	VERB	_	_	4	ccomp	_	AlignBegin=216410|AlignEnd=217027|Gloss=enter
+19	eng]	eng]	PUNCT	_	_	18	punct	_	AlignBegin=217027|AlignEnd=217057|Gloss=PUNCT
+20	//]	//]	PUNCT	_	_	18	punct	_	AlignBegin=217027|AlignEnd=217057|Gloss=PUNCT
+21	//	//	PUNCT	_	_	4	punct	_	AlignBegin=217027|AlignEnd=217057|Gloss=PUNCT
 
 # sent_id = PRT_11_A-Man-Named-Jesus_MG__46
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/PRT_11_A-Man-Named-Jesus_MG.mp3
@@ -1575,27 +1572,25 @@
 # text_en = Which means unless you accept Jesus into your life, you cannot see the Kingdom of God.
 # text_ortho = Which means, except you accept Jesus into your life, you cannot see di kingdom of God.
 1	which	which	PRON	_	PronType=Rel	2	nsubj	_	AlignBegin=262076|AlignEnd=262286|Gloss=REL
-2	means	mean	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	parataxis:discourse	_	AlignBegin=262286|AlignEnd=262736|Gloss=mean.IND.SG.3.PRS.FIN
+2	means	mean	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	parataxis:discourse	_	AlignBegin=262286|AlignEnd=262736|Gloss=mean.IND.SG.3.PRS.FIN
 3	<	<	PUNCT	_	_	2	punct	_	AlignBegin=262736|AlignEnd=262766|Gloss=PUNCT
 4	except	except	ADP	_	_	6	mark	_	AlignBegin=262766|AlignEnd=263329|Gloss=except
 5	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	6	nsubj	_	AlignBegin=263329|AlignEnd=263410|Gloss=NOM.2
-6	accept	accept	VERB	_	_	16	advcl:periph	_	AlignBegin=263410|AlignEnd=263888|Gloss=accept
+6	accept	accept	VERB	_	_	15	advcl:periph	_	AlignBegin=263410|AlignEnd=263888|Gloss=accept
 7	Jesus	Jesus	PROPN	_	_	6	obj	_	AlignBegin=263888|AlignEnd=264571|Gloss=Jesus
 8	into	into	ADP	_	_	10	case	_	AlignBegin=264571|AlignEnd=264922|Gloss=into
 9	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	10	amod	_	AlignBegin=264922|AlignEnd=265141|Gloss=PL.2.POSS
 10	life	life	NOUN	_	_	6	obl:arg	_	AlignBegin=265141|AlignEnd=265738|Gloss=life
 11	<	<	PUNCT	_	_	6	punct	_	AlignBegin=265738|AlignEnd=265768|Gloss=PUNCT
 12	#	#	PUNCT	_	_	6	punct	_	AlignBegin=265768|AlignEnd=267060|Gloss=PUNCT
-13	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	16	nsubj	_	AlignBegin=267060|AlignEnd=267280|Gloss=NOM.2
-14-15	cannot	_	_	_	_	_	_	_	_
-14	can	can	AUX	_	_	16	aux	_	AlignBegin=267280|AlignEnd=267780|Gloss=can.NEG
-15	not	not	PART	_	_	16	advmod	_	_
-16	see	see	VERB	_	_	0	root	_	AlignBegin=267780|AlignEnd=268000|Gloss=see
-17	di	the	DET	_	Definite=Def|PronType=Art	18	det	_	AlignBegin=268000|AlignEnd=268180|Gloss=DEF.ART
-18	kingdom	kingdom	NOUN	_	_	16	obj	_	AlignBegin=268180|AlignEnd=268610|Gloss=kingdom
-19	of	of	ADP	_	_	20	case	_	AlignBegin=268610|AlignEnd=269177|Gloss=of
-20	God	God	PROPN	_	_	18	nmod	_	AlignBegin=269177|AlignEnd=269770|Gloss=God
-21	//	//	PUNCT	_	_	16	punct	_	AlignBegin=269770|AlignEnd=269800|Gloss=PUNCT
+13	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	15	nsubj	_	AlignBegin=267060|AlignEnd=267280|Gloss=NOM.2
+14	cannot	cannot	AUX	_	_	15	aux	_	AlignBegin=267280|AlignEnd=267780|Gloss=can.NEG
+15	see	see	VERB	_	_	0	root	_	AlignBegin=267780|AlignEnd=268000|Gloss=see
+16	di	the	DET	_	Definite=Def|PronType=Art	17	det	_	AlignBegin=268000|AlignEnd=268180|Gloss=DEF.ART
+17	kingdom	kingdom	NOUN	_	_	15	obj	_	AlignBegin=268180|AlignEnd=268610|Gloss=kingdom
+18	of	of	ADP	_	_	19	case	_	AlignBegin=268610|AlignEnd=269177|Gloss=of
+19	God	God	PROPN	_	_	17	nmod	_	AlignBegin=269177|AlignEnd=269770|Gloss=God
+20	//	//	PUNCT	_	_	15	punct	_	AlignBegin=269770|AlignEnd=269800|Gloss=PUNCT
 
 # sent_id = PRT_11_A-Man-Named-Jesus_MG__60
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/PRT_11_A-Man-Named-Jesus_MG.mp3
@@ -1635,24 +1630,24 @@
 # text = # dere is { no sickness in deir body |c { no || no } lack } //
 # text_en = There is no sickness in their body, no, no lack.
 # text_ortho = Dere is no sickness in deir body, no no lack.
-1	#	#	PUNCT	_	_	6	punct	_	AlignBegin=274925|AlignEnd=275138|Gloss=PUNCT
-2	dere	dere	ADV	_	_	6	expl:subj	_	AlignBegin=275138|AlignEnd=275339|Gloss=there
-3	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	AlignBegin=275339|AlignEnd=275445|Gloss=be.IND.SG.3.PRS.FIN
-4	{	{	PUNCT	_	_	6	punct	_	AlignBegin=275445|AlignEnd=275475|Gloss=PUNCT
-5	no	no	PART	_	Polarity=Neg	6	advmod	_	AlignBegin=275475|AlignEnd=275635|Gloss=NEG
-6	sickness	sickness	NOUN	_	_	0	root	_	AlignBegin=275635|AlignEnd=276131|Gloss=sickness
+1	#	#	PUNCT	_	_	9	punct	_	AlignBegin=274925|AlignEnd=275138|Gloss=PUNCT
+2	dere	dere	ADV	_	_	9	expl:subj	_	AlignBegin=275138|AlignEnd=275339|Gloss=there
+3	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	AlignBegin=275339|AlignEnd=275445|Gloss=be.IND.SG.3.PRS.FIN
+4	{	{	PUNCT	_	_	9	punct	_	AlignBegin=275445|AlignEnd=275475|Gloss=PUNCT
+5	no	no	PART	_	Polarity=Neg	9	advmod	_	AlignBegin=275475|AlignEnd=275635|Gloss=NEG
+6	sickness	sickness	NOUN	_	_	9	cop	_	AlignBegin=275635|AlignEnd=276131|Gloss=sickness
 7	in	in	ADP	_	_	9	case	_	AlignBegin=276131|AlignEnd=276225|Gloss=in
 8	deir	deir	ADJ	_	Number=Plur|Person=3|Poss=Yes	9	det	_	AlignBegin=276225|AlignEnd=276386|Gloss=3.PL.POSS
-9	body	body	NOUN	_	_	6	nmod	_	AlignBegin=276386|AlignEnd=276895|Gloss=body
+9	body	body	NOUN	_	_	0	root	_	AlignBegin=276386|AlignEnd=276895|Gloss=body
 10	|c	|c	PUNCT	_	_	16	punct	_	AlignBegin=276895|AlignEnd=276925|Gloss=PUNCT
 11	{	{	PUNCT	_	_	12	punct	_	AlignBegin=276895|AlignEnd=276925|Gloss=PUNCT
 12	no	no	PART	_	Polarity=Neg	16	advmod	_	AlignBegin=276925|AlignEnd=277295|Gloss=NEG
 13	||	||	PUNCT	_	_	14	punct	_	AlignBegin=277295|AlignEnd=277325|Gloss=PUNCT
 14	no	no	PART	_	Polarity=Neg	12	conj:dicto	_	AlignBegin=277325|AlignEnd=277525|Gloss=NEG
 15	}	}	PUNCT	_	_	12	punct	_	AlignBegin=277525|AlignEnd=277555|Gloss=PUNCT
-16	lack	lack	VERB	_	_	6	conj	_	AlignBegin=277555|AlignEnd=277847|Gloss=lack
-17	}	}	PUNCT	_	_	6	punct	_	AlignBegin=277847|AlignEnd=277877|Gloss=PUNCT
-18	//	//	PUNCT	_	_	6	punct	_	AlignBegin=277847|AlignEnd=277877|Gloss=PUNCT
+16	lack	lack	VERB	_	_	9	conj	_	AlignBegin=277555|AlignEnd=277847|Gloss=lack
+17	}	}	PUNCT	_	_	9	punct	_	AlignBegin=277847|AlignEnd=277877|Gloss=PUNCT
+18	//	//	PUNCT	_	_	9	punct	_	AlignBegin=277847|AlignEnd=277877|Gloss=PUNCT
 
 # sent_id = PRT_11_A-Man-Named-Jesus_MG__62
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/PRT_11_A-Man-Named-Jesus_MG.mp3
@@ -1952,15 +1947,15 @@
 # text_en = When that light comes into a dark place, what happens?
 # text_ortho = When dat light come inside where darkness dey, wetin go happen?
 1	#	#	PUNCT	_	_	13	punct	_	AlignBegin=320045|AlignEnd=320275|Gloss=PUNCT
-2	when	when	SCONJ	_	_	5	mark	_	AlignBegin=320275|AlignEnd=320595|Gloss=when.Q
+2	when	when	ADV	_	PronType=Int	13	advmod:periph	_	AlignBegin=320275|AlignEnd=320595|Gloss=when.Q
 3	dat	dat	DET	_	Number=Sing|PronType=Dem	4	det	_	AlignBegin=320595|AlignEnd=320804|Gloss=SG.DIST.DEM
 4	light	light	NOUN	_	_	5	nsubj	_	AlignBegin=320804|AlignEnd=321175|Gloss=light
-5	come	come	VERB	_	_	13	advcl:periph	_	AlignBegin=321175|AlignEnd=321426|Gloss=come
+5	come	come	VERB	_	_	2	acl:relcl	_	AlignBegin=321175|AlignEnd=321426|Gloss=come
 6	inside	inside	ADP	_	_	7	case	_	AlignBegin=321426|AlignEnd=321765|Gloss=inside
 7	where	where	ADV	_	PronType=Int	5	obl:arg	_	AlignBegin=321765|AlignEnd=321966|Gloss=where.Q
 8	darkness	darkness	NOUN	_	_	9	nsubj	_	AlignBegin=321966|AlignEnd=322475|Gloss=darkness
 9	dey	dey	VERB	_	VerbType=Cop	7	acl:relcl	_	AlignBegin=322475|AlignEnd=322837|Gloss=dey.COP
-10	<	<	PUNCT	_	_	5	punct	_	AlignBegin=322837|AlignEnd=322867|Gloss=PUNCT
+10	<	<	PUNCT	_	_	2	punct	_	AlignBegin=322837|AlignEnd=322867|Gloss=PUNCT
 11	wetin	wetin	PRON	_	PronType=Int	13	nsubj	_	AlignBegin=322867|AlignEnd=323134|Gloss=what.Q
 12	go	go	AUX	_	Aspect=Prosp	13	aux	_	AlignBegin=323134|AlignEnd=323229|Gloss=CONT
 13	happen	happen	VERB	_	_	0	root	_	AlignBegin=323229|AlignEnd=323515|Gloss=happen
@@ -2003,9 +1998,9 @@
 # text_en = When you put on your lantern, or you light your candle, what happens?
 # text_ortho = When you on your lantern, or your candle, wetin happen?
 1	#	#	PUNCT	_	_	14	punct	_	AlignBegin=327360|AlignEnd=327635|Gloss=PUNCT
-2	when	when	SCONJ	_	_	4	mark	_	AlignBegin=327635|AlignEnd=327845|Gloss=when.Q
+2	when	when	ADV	_	PronType=Int	14	advmod:periph	_	AlignBegin=327635|AlignEnd=327845|Gloss=when.Q
 3	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	AlignBegin=327845|AlignEnd=328045|Gloss=NOM.2
-4	on	on	VERB	_	_	14	acl:periph	_	AlignBegin=328045|AlignEnd=328157|Gloss=switch_on
+4	on	on	VERB	_	_	2	acl:relcl	_	AlignBegin=328045|AlignEnd=328157|Gloss=switch_on
 5	{	{	PUNCT	_	_	7	punct	_	AlignBegin=328157|AlignEnd=328187|Gloss=PUNCT
 6	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	7	amod	_	AlignBegin=328187|AlignEnd=328395|Gloss=PL.2.POSS
 7	lantern	lantern	NOUN	_	_	4	obj	_	AlignBegin=328395|AlignEnd=329025|Gloss=lantern
@@ -2014,7 +2009,7 @@
 10	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	11	amod	_	AlignBegin=329239|AlignEnd=329421|Gloss=PL.2.POSS
 11	candle	candle	NOUN	_	_	7	conj	_	AlignBegin=329421|AlignEnd=329705|Gloss=candle
 12	}	}	PUNCT	_	_	7	punct	_	AlignBegin=329705|AlignEnd=329735|Gloss=PUNCT
-13	<	<	PUNCT	_	_	4	punct	_	AlignBegin=329705|AlignEnd=329735|Gloss=PUNCT
+13	<	<	PUNCT	_	_	2	punct	_	AlignBegin=329705|AlignEnd=329735|Gloss=PUNCT
 14	wetin	wetin	PRON	_	PronType=Int	0	root	_	AlignBegin=329735|AlignEnd=329979|Gloss=what.Q
 15	happen	happen	VERB	_	_	14	advcl:cleft	_	AlignBegin=329979|AlignEnd=330375|Gloss=happen
 16	?//	?//	PUNCT	_	_	14	punct	_	AlignBegin=330375|AlignEnd=330405|Gloss=PUNCT
@@ -2055,14 +2050,14 @@
 # text_en = When light comes into your life, what happens?
 # text_ortho = When light come into your life, wetin go happen?
 1	#	#	PUNCT	_	_	12	punct	_	AlignBegin=333158|AlignEnd=333362|Gloss=PUNCT
-2	when	when	SCONJ	_	_	4	mark	_	AlignBegin=333362|AlignEnd=333713|Gloss=when.Q
+2	when	when	ADV	_	PronType=Int	12	advmod:periph	_	AlignBegin=333362|AlignEnd=333713|Gloss=when.Q
 3	light	light	NOUN	_	_	4	obl:mod	_	AlignBegin=333713|AlignEnd=334072|Gloss=light
-4	come	come	VERB	_	_	12	advcl:periph	_	AlignBegin=334072|AlignEnd=334322|Gloss=come
+4	come	come	VERB	_	_	2	acl:relcl	_	AlignBegin=334072|AlignEnd=334322|Gloss=come
 5	into	into	ADP	_	_	7	case	_	AlignBegin=334322|AlignEnd=334659|Gloss=into
 6	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	7	amod	_	AlignBegin=334659|AlignEnd=334911|Gloss=PL.2.POSS
 7	life	life	NOUN	_	_	4	obl:arg	_	AlignBegin=334911|AlignEnd=335249|Gloss=life
-8	<	<	PUNCT	_	_	4	punct	_	AlignBegin=335249|AlignEnd=335279|Gloss=PUNCT
-9	#	#	PUNCT	_	_	4	punct	_	AlignBegin=335279|AlignEnd=335490|Gloss=PUNCT
+8	<	<	PUNCT	_	_	2	punct	_	AlignBegin=335249|AlignEnd=335279|Gloss=PUNCT
+9	#	#	PUNCT	_	_	2	punct	_	AlignBegin=335279|AlignEnd=335490|Gloss=PUNCT
 10	wetin	wetin	PRON	_	PronType=Int	12	nsubj	_	AlignBegin=335490|AlignEnd=335770|Gloss=what.Q
 11	go	go	AUX	_	Aspect=Prosp	12	aux	_	AlignBegin=335770|AlignEnd=335871|Gloss=CONT
 12	happen	happen	VERB	_	_	0	root	_	AlignBegin=335871|AlignEnd=336313|Gloss=happen
@@ -2271,15 +2266,15 @@
 # text_ortho = "But when Jesus don enter come sit down, you con say ""Jesus, you are my lord o, from today, anyting you tell me, now, I go do."""
 1	#	#	PUNCT	_	_	14	punct	_	AlignBegin=368015|AlignEnd=368273|Gloss=PUNCT
 2	but	but	CCONJ	_	_	14	cc	_	AlignBegin=368273|AlignEnd=368441|Gloss=but
-3	when	when	SCONJ	_	_	6	mark	_	AlignBegin=368441|AlignEnd=368685|Gloss=when.Q
+3	when	when	ADV	_	PronType=Int	14	advmod:periph	_	AlignBegin=368441|AlignEnd=368685|Gloss=when.Q
 4	Jesus	Jesus	PROPN	_	_	6	nsubj	_	AlignBegin=368685|AlignEnd=369183|Gloss=Jesus
 5	don	don	AUX	_	Aspect=Perf	6	aux	_	AlignBegin=369183|AlignEnd=369385|Gloss=PRF
-6	enter	enter	VERB	_	_	14	advcl:periph	_	AlignBegin=369385|AlignEnd=370000|Gloss=enter
+6	enter	enter	VERB	_	_	3	acl:relcl	_	AlignBegin=369385|AlignEnd=370000|Gloss=enter
 7	come	come	VERB	_	_	6	compound:svc	_	AlignBegin=370000|AlignEnd=370195|Gloss=come
 8	sit	sit	VERB	_	_	6	compound:svc	_	AlignBegin=370195|AlignEnd=370465|Gloss=sit
 9	down	down	ADP	_	_	8	compound:prt	_	AlignBegin=370465|AlignEnd=370704|Gloss=down
-10	<	<	PUNCT	_	_	6	punct	_	AlignBegin=370704|AlignEnd=370734|Gloss=PUNCT
-11	#	#	PUNCT	_	_	6	punct	_	AlignBegin=370734|AlignEnd=370917|Gloss=PUNCT
+10	<	<	PUNCT	_	_	3	punct	_	AlignBegin=370704|AlignEnd=370734|Gloss=PUNCT
+11	#	#	PUNCT	_	_	3	punct	_	AlignBegin=370734|AlignEnd=370917|Gloss=PUNCT
 12	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	14	nsubj	_	AlignBegin=370917|AlignEnd=371047|Gloss=NOM.2
 13	con	con	AUX	_	Aspect=Cons	14	aux	_	AlignBegin=371047|AlignEnd=371217|Gloss=CONS
 14	say	say	VERB	_	_	0	root	_	AlignBegin=371217|AlignEnd=371437|Gloss=say
@@ -2350,7 +2345,7 @@
 8	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	9	expl:subj	_	AlignBegin=381140|AlignEnd=381270|Gloss=NOM.SG.3
 9	mean	mean	VERB	_	_	7	acl:relcl	_	AlignBegin=381270|AlignEnd=381430|Gloss=mean
 10	to	to	ADP	_	_	11	mark	_	AlignBegin=381430|AlignEnd=381610|Gloss=to
-11	live	live	VERB	_	_	9	csubj	_	AlignBegin=381610|AlignEnd=381870|Gloss=live
+11	live	live	VERB	_	_	9	dep	_	AlignBegin=381610|AlignEnd=381870|Gloss=live
 12	in	in	ADP	_	_	14	case	_	AlignBegin=381870|AlignEnd=382010|Gloss=in
 13	the	di	DET	_	Definite=Def|PronType=Art	14	det	_	AlignBegin=382010|AlignEnd=382150|Gloss=DEF.ART
 14	kingdom	kingdom	NOUN	_	_	11	obl:arg	_	AlignBegin=382150|AlignEnd=382590|Gloss=kingdom

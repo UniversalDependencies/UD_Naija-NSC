@@ -44,7 +44,6 @@ This corpus is a pilot for the larger corpus elaborated as part of the NaijaSynC
 
 The pilot corpus was recorded in various locations in Ibadan (Nigeria) by Bukola Babalola and Opeyemi Lewis. It was transcribed, translated and tagged manually using Elan-Corpa (http://llacan.vjf.cnrs.fr/res_ELAN-CorpA_en.php) by Folakemi Ladoja, Emeka Onwuegbuzia, Biola Oyelere and Samson Tella under the supervision of Bernard Caron. It was converted to CONLL by Mourad Aouini. First annotations were done by Marine Courtin and Sandra Bellato, who developed the guidelines under the supervision of Sylvain Kahane, Bernard Caron, and Kim Gerdes.The final Universal dependencies annotations have been manually checked by Ajede Chika Kennedy,Emeka Onwuegbuzia, and Samson Tella under the supervision of Bernard Caron using the processing chain developed by Kim Gerdes and Bruno Guillaume. Marine Courtin, Kim Gerdes, Bruno Guillaume, Kirian Guillier, Sylvain Kahane, Mariam Nakhlé, Manying Zhang have helped in the correction process.
 
-Contributors: Caron, Bernard; Courtin, Marine; Gerdes, Kim; Kahane, Sylvain; Kennedy, Ajede Chika; Onwuegbuzia,Emeka; Tella,Samson
 
 # Changelog
 
@@ -79,8 +78,8 @@ Lemmas: automatic
 UPOS: manual native
 XPOS: not available
 Features: manual native
-Relations: translated from Surface-Syntactic UD
-Contributors: Caron, Bernard; Courtin, Marine; Gerdes, Kim; Kahane, Sylvain; Kennedy, Ajede Chika; Onwuegbuzia,Emeka; Tella,Samson
+Relations: converted from manual
+Contributors: Caron, Bernard; Courtin, Marine; Gerdes, Kim; Kahane, Sylvain; Kennedy, Ajede Chika; Onwuegbuzia, Emeka; Tella, Samson
 Contributing: here source
 Contact: kim@gerdes.fr
 ===============================================================================

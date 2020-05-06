@@ -47,7 +47,7 @@
 41	do	do	VERB	_	_	37	acl:relcl	_	AlignBegin=12652|AlignEnd=12870|Gloss=do
 42	<	<	PUNCT	_	_	37	punct	_	AlignBegin=12870|AlignEnd=12900|Gloss=PUNCT
 43	#	#	PUNCT	_	_	37	punct	_	AlignBegin=12900|AlignEnd=13840|Gloss=PUNCT
-44	na	na	AUX	_	PartType=Cop	46	cop	_	AlignBegin=13840|AlignEnd=14057|Gloss=be1
+44	na	na	AUX	_	PartType=Cop	46	cop	_	AlignBegin=13840|AlignEnd=14057|Gloss=be
 45	di	the	DET	_	Definite=Def|PronType=Art	46	det	_	AlignBegin=14057|AlignEnd=14210|Gloss=DEF.ART
 46	leaves	leaf	NOUN	_	Number=Plur	0	root	_	AlignBegin=14210|AlignEnd=14580|Gloss=leaf.PL
 47	wey	wey	SCONJ	_	_	51	mark	_	AlignBegin=14580|AlignEnd=14682|Gloss=REL
@@ -125,7 +125,7 @@
 # text_en = It's just… about five minutes.
 # text_ortho = Na just... about five minute.
 1	#	#	PUNCT	_	_	6	punct	_	AlignBegin=27380|AlignEnd=27760|Gloss=PUNCT
-2	na	na	AUX	_	PartType=Cop	6	cop	_	AlignBegin=27760|AlignEnd=27930|Gloss=be1
+2	na	na	AUX	_	PartType=Cop	6	cop	_	AlignBegin=27760|AlignEnd=27930|Gloss=be
 3	just	just	ADV	_	_	6	advmod	_	AlignBegin=27930|AlignEnd=28160|Gloss=just
 4	about	about	ADP	_	_	6	case	_	AlignBegin=28160|AlignEnd=28420|Gloss=about
 5	five	five	NUM	_	NumType=Card	6	nummod:num	_	AlignBegin=28420|AlignEnd=28780|Gloss=five.CARD
@@ -302,11 +302,11 @@
 15	#	#	PUNCT	_	_	16	punct	_	AlignBegin=73110|AlignEnd=73260|Gloss=PUNCT
 16	add	add	VERB	_	_	0	root	_	AlignBegin=73260|AlignEnd=73480|Gloss=add
 17	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	16	obj	_	AlignBegin=73480|AlignEnd=73637|Gloss=ACC.SG.3
-18	on	on	ADP	_	_	19	case	_	AlignBegin=73637|AlignEnd=73789|EXTPOS=ADP|Gloss=on
-19	top	top	NOUN	_	_	16	obl:arg	_	AlignBegin=73789|AlignEnd=74010|Gloss=top|INMWE=Yes
-20	of	of	ADP	_	_	22	case	_	AlignBegin=74010|AlignEnd=74150|Gloss=of|INMWE=Yes
+18	on	on	ADP	_	_	22	case	_	AlignBegin=73637|AlignEnd=73789|EXTPOS=ADP|Gloss=on
+19	top	top	NOUN	_	_	22	obj	_	AlignBegin=73789|AlignEnd=74010|Gloss=top|INMWE=Yes
+20	of	of	ADP	_	_	22	dep	_	AlignBegin=74010|AlignEnd=74150|Gloss=of|INMWE=Yes
 21	di	the	DET	_	Definite=Def|PronType=Art	22	det	_	AlignBegin=74150|AlignEnd=74350|Gloss=DEF.ART
-22	bones	bone	NOUN	_	Number=Plur	19	nmod	_	AlignBegin=74350|AlignEnd=74720|Gloss=bone.PL
+22	bones	bone	NOUN	_	Number=Plur	16	obl:arg	_	AlignBegin=74350|AlignEnd=74720|Gloss=bone.PL
 23	#	#	PUNCT	_	_	27	punct	_	AlignBegin=74720|AlignEnd=75020|Gloss=PUNCT
 24	as	as	ADP	_	_	27	mark	_	AlignBegin=75020|AlignEnd=75260|Gloss=as
 25	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	27	nsubj	_	AlignBegin=75260|AlignEnd=75321|Gloss=NOM.SG.3
@@ -368,7 +368,7 @@
 25	some	some	PRON	_	_	31	nsubj	_	AlignBegin=86650|AlignEnd=87060|Gloss=some
 26	<	<	PUNCT	_	_	25	punct	_	AlignBegin=87060|AlignEnd=87620|Gloss=PUNCT
 27	#	#	PUNCT	_	_	25	punct	_	AlignBegin=87060|AlignEnd=87620|Gloss=PUNCT
-28	na	na	AUX	_	PartType=Cop	31	cop	_	AlignBegin=87620|AlignEnd=87900|Gloss=be1
+28	na	na	AUX	_	PartType=Cop	31	cop	_	AlignBegin=87620|AlignEnd=87900|Gloss=be
 29	#	#	PUNCT	_	_	31	punct	_	AlignBegin=87900|AlignEnd=88560|Gloss=PUNCT
 30	five	five	NUM	_	NumType=Card	31	nummod:num	_	AlignBegin=88560|AlignEnd=88817|Gloss=five.CARD
 31	minutes	minute	NOUN	_	Number=Plur	14	advcl	_	AlignBegin=88817|AlignEnd=89060|Gloss=minute.PL
@@ -449,8 +449,8 @@
 6	garden	garden	NOUN	_	_	7	nmod	_	AlignBegin=101059|AlignEnd=101450|Gloss=garden
 7	egg	egg	NOUN	_	_	4	obj	_	AlignBegin=101450|AlignEnd=101575|Gloss=egg
 8	>+	>+	PUNCT	_	_	9	punct	_	AlignBegin=101575|AlignEnd=101605|Gloss=PUNCT
-9	be	be	VERB	_	PartType=Cop	4	advcl:cleft	_	AlignBegin=101605|AlignEnd=101787|Gloss=be1
-10	dat	dat	PRON	_	Number=Sing|PronType=Dem	9	nsubj	_	AlignBegin=101787|AlignEnd=102013|Gloss=SG.DEM
+9	be	be	VERB	_	PartType=Cop	4	advcl:cleft	_	AlignBegin=101605|AlignEnd=101787|Gloss=be
+10	dat	dat	PRON	_	Number=Sing|PronType=Dem	9	dep	_	AlignBegin=101787|AlignEnd=102013|Gloss=SG.DEM
 11	bah	bah	INTJ	_	_	4	discourse	_	AlignBegin=102013|AlignEnd=102291|Gloss=you_see
 12	?//	?//	PUNCT	_	_	4	punct	_	AlignBegin=102291|AlignEnd=102360|Gloss=PUNCT
 
@@ -518,7 +518,7 @@
 4	own	own	ADJ	_	_	9	dislocated	_	AlignBegin=112400|AlignEnd=112620|Gloss=own
 5	<	<	PUNCT	_	_	4	punct	_	AlignBegin=112620|AlignEnd=112650|Gloss=PUNCT
 6	#	#	PUNCT	_	_	9	punct	_	AlignBegin=112650|AlignEnd=112820|Gloss=PUNCT
-7	na	na	AUX	_	PartType=Cop	9	cop	_	AlignBegin=112820|AlignEnd=113000|Gloss=be1
+7	na	na	AUX	_	PartType=Cop	9	cop	_	AlignBegin=112820|AlignEnd=113000|Gloss=be
 8	so	so	ADV	_	_	9	advmod	_	AlignBegin=113000|AlignEnd=113300|Gloss=so
 9	plain	plain	ADJ	_	_	0	root	_	AlignBegin=113300|AlignEnd=113498|Gloss=plain
 10	>+	>+	PUNCT	_	_	13	punct	_	AlignBegin=113498|AlignEnd=113528|Gloss=PUNCT
@@ -574,7 +574,7 @@
 2	di	the	DET	_	Definite=Def|PronType=Art	3	det	_	AlignBegin=121630|AlignEnd=121746|Gloss=DEF.ART
 3	acha	acha	NOUN	_	_	6	dislocated	_	AlignBegin=121746|AlignEnd=122017|Gloss=digitaria_exilis
 4	<	<	PUNCT	_	_	3	punct	_	AlignBegin=121746|AlignEnd=122017|Gloss=PUNCT
-5	na	na	AUX	_	PartType=Cop	6	cop	_	AlignBegin=122047|AlignEnd=122180|Gloss=be1
+5	na	na	AUX	_	PartType=Cop	6	cop	_	AlignBegin=122047|AlignEnd=122180|Gloss=be
 6	small	small	ADJ	_	_	0	root	_	AlignBegin=122180|AlignEnd=122530|Gloss=small
 7	>+	>+	PUNCT	_	_	10	punct	_	AlignBegin=122530|AlignEnd=122560|Gloss=PUNCT
 8	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	AlignBegin=122560|AlignEnd=122730|Gloss=NOM.SG.1
@@ -590,7 +590,7 @@
 # text_ortho = No be plenty.
 1	#	#	PUNCT	_	_	5	punct	_	AlignBegin=123340|AlignEnd=123600|Gloss=PUNCT
 2	no	no	PART	_	Polarity=Neg	5	advmod	_	AlignBegin=123600|AlignEnd=123765|Gloss=NEG
-3	be	be	AUX	_	PartType=Cop	5	cop	_	AlignBegin=123765|AlignEnd=123980|Gloss=be1
+3	be	be	AUX	_	PartType=Cop	5	cop	_	AlignBegin=123765|AlignEnd=123980|Gloss=be
 4	#	#	PUNCT	_	_	5	punct	_	AlignBegin=123980|AlignEnd=124400|Gloss=PUNCT
 5	plenty	plenty	ADJ	_	_	0	root	_	AlignBegin=124400|AlignEnd=124820|Gloss=plenty
 6	//	//	PUNCT	_	_	5	punct	_	AlignBegin=124820|AlignEnd=124839|Gloss=PUNCT
@@ -663,7 +663,7 @@
 # text = na calabash >+ we dey use //
 # text_en = We use a calabash.
 # text_ortho = Na calabash, we dey use.
-1	na	na	AUX	_	PartType=Cop	2	cop	_	AlignBegin=138070|AlignEnd=138217|Gloss=be1
+1	na	na	AUX	_	PartType=Cop	2	cop	_	AlignBegin=138070|AlignEnd=138217|Gloss=be
 2	calabash	calabash	NOUN	_	_	0	root	_	AlignBegin=138217|AlignEnd=138700|Gloss=calabash
 3	>+	>+	PUNCT	_	_	6	punct	_	AlignBegin=138700|AlignEnd=138730|Gloss=PUNCT
 4	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	AlignBegin=138730|AlignEnd=138859|Gloss=NOM.PL.1
@@ -735,7 +735,7 @@
 # text_en = It's only the acha, that will go to the other uh... dish.
 # text_ortho = Na only di acha, go go di oder ehn dish.
 1	#	#	PUNCT	_	_	5	punct	_	AlignBegin=149460|AlignEnd=149900|Gloss=PUNCT
-2	na	na	AUX	_	PartType=Cop	5	cop	_	AlignBegin=149900|AlignEnd=150120|Gloss=be1
+2	na	na	AUX	_	PartType=Cop	5	cop	_	AlignBegin=149900|AlignEnd=150120|Gloss=be
 3	only	only	ADV	_	_	5	advmod	_	AlignBegin=150120|AlignEnd=150350|Gloss=only
 4	di	the	DET	_	Definite=Def|PronType=Art	5	det	_	AlignBegin=150350|AlignEnd=150457|Gloss=DEF.ART
 5	acha	acha	NOUN	_	_	0	root	_	AlignBegin=150457|AlignEnd=150770|Gloss=digitaria_exilis
@@ -1094,7 +1094,7 @@
 21	oder	oder	ADJ	_	_	22	amod	_	AlignBegin=215630|AlignEnd=216004|Gloss=other
 22	tings	tings	NOUN	_	Number=Plur	16	conj	_	AlignBegin=216004|AlignEnd=216350|Gloss=thing.PL
 23	}	}	PUNCT	_	_	16	punct	_	AlignBegin=216350|AlignEnd=216380|Gloss=PUNCT
-24	dey	dey	VERB	_	VerbType=Cop	0	root	_	AlignBegin=216380|AlignEnd=216566|Gloss=be2
+24	dey	dey	VERB	_	VerbType=Cop	0	root	_	AlignBegin=216380|AlignEnd=216566|Gloss=be
 25	//	//	PUNCT	_	_	24	punct	_	AlignBegin=216566|AlignEnd=216620|Gloss=PUNCT
 
 # sent_id = JOS_12_How-To-Prepare-Gote-Soup_MG__43
@@ -1105,7 +1105,7 @@
 # text_ortho = So na im, we dey make.
 1	#	#	PUNCT	_	_	4	punct	_	AlignBegin=216620|AlignEnd=216840|Gloss=PUNCT
 2	so	so	ADV	_	_	4	discourse	_	AlignBegin=216840|AlignEnd=217150|Gloss=so
-3	na	na	AUX	_	PartType=Cop	4	cop	_	AlignBegin=217180|AlignEnd=217393|EXTPOS=SCONJ|Gloss=be1
+3	na	na	AUX	_	PartType=Cop	4	cop	_	AlignBegin=217180|AlignEnd=217393|EXTPOS=SCONJ|Gloss=be
 4	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	0	root	_	AlignBegin=217393|AlignEnd=217650|Gloss=NOM.SG.3|INMWE=Yes
 5	>+	>+	PUNCT	_	_	9	punct	_	AlignBegin=217650|AlignEnd=217680|Gloss=PUNCT
 6	#	#	PUNCT	_	_	9	punct	_	AlignBegin=217680|AlignEnd=218160|Gloss=PUNCT
@@ -1192,7 +1192,7 @@
 14	oder	oder	ADJ	_	_	15	amod	_	AlignBegin=240310|AlignEnd=240588|Gloss=other
 15	tings	tings	NOUN	_	Number=Plur	9	conj	_	AlignBegin=240588|AlignEnd=240881|Gloss=thing.PL
 16	}	}	PUNCT	_	_	9	punct	_	AlignBegin=240881|AlignEnd=240911|Gloss=PUNCT
-17	dey	dey	VERB	_	VerbType=Cop	0	root	_	AlignBegin=240911|AlignEnd=241100|Gloss=be2
+17	dey	dey	VERB	_	VerbType=Cop	0	root	_	AlignBegin=240911|AlignEnd=241100|Gloss=be
 18	//	//	PUNCT	_	_	17	punct	_	AlignBegin=241100|AlignEnd=241124|Gloss=PUNCT
 
 # sent_id = JOS_12_How-To-Prepare-Gote-Soup_MG__48
@@ -1302,7 +1302,7 @@
 3	#	#	PUNCT	_	_	7	punct	_	AlignBegin=256560|AlignEnd=256800|Gloss=PUNCT
 4	so	so	ADV	_	_	7	discourse	_	AlignBegin=256800|AlignEnd=257290|Gloss=so
 5	#	#	PUNCT	_	_	7	punct	_	AlignBegin=257320|AlignEnd=257900|Gloss=PUNCT
-6	na	na	AUX	_	PartType=Cop	7	cop	_	AlignBegin=257900|AlignEnd=258060|Gloss=be1
+6	na	na	AUX	_	PartType=Cop	7	cop	_	AlignBegin=257900|AlignEnd=258060|Gloss=be
 7	so	so	ADV	_	_	0	root	_	AlignBegin=258060|AlignEnd=258270|Gloss=so
 8	>+	>+	PUNCT	_	_	11	punct	_	AlignBegin=258270|AlignEnd=258300|Gloss=PUNCT
 9	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	11	nsubj	_	AlignBegin=258300|AlignEnd=258370|Gloss=NOM.PL.1
@@ -1527,7 +1527,7 @@
 # text_en = That's what we give people because if you have no appetite, it'll give you an appetite.
 # text_ortho = Na him, we dey give people because if you no get appetite, e dey do.
 1	#	#	PUNCT	_	_	3	punct	_	AlignBegin=305160|AlignEnd=305680|Gloss=PUNCT
-2	na	na	AUX	_	PartType=Cop	3	cop	_	AlignBegin=305680|AlignEnd=305920|Gloss=be1
+2	na	na	AUX	_	PartType=Cop	3	cop	_	AlignBegin=305680|AlignEnd=305920|Gloss=be
 3	him	him	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	root	_	AlignBegin=305920|AlignEnd=306230|Gloss=ACC.M.SG.3
 4	>+	>+	PUNCT	_	_	7	punct	_	AlignBegin=306230|AlignEnd=306260|Gloss=PUNCT
 5	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	AlignBegin=306260|AlignEnd=306507|Gloss=NOM.PL.1
@@ -1562,7 +1562,7 @@
 6	#	#	PUNCT	_	_	9	punct	_	AlignBegin=312340|AlignEnd=312955|Gloss=PUNCT
 7	[eng	[eng	PUNCT	_	_	9	punct	_	AlignBegin=312340|AlignEnd=312955|Gloss=PUNCT
 8	it	it	PRON	_	_	9	nsubj	_	_
-9	's	be	PART	_	PartType=Cop	0	root	_	AlignBegin=312967|AlignEnd=313087|Gloss=be1
+9	's	be	PART	_	PartType=Cop	0	root	_	AlignBegin=312967|AlignEnd=313087|Gloss=be
 10	very	very	ADV	_	_	11	advmod	_	AlignBegin=313087|AlignEnd=313420|Gloss=very
 11	good	good	ADJ	_	_	9	xcomp	_	AlignBegin=313420|AlignEnd=313671|Gloss=good
 12	#	#	PUNCT	_	_	14	punct	_	AlignBegin=313800|AlignEnd=314360|Gloss=PUNCT
@@ -1883,7 +1883,7 @@
 1	#	#	PUNCT	_	_	4	punct	_	AlignBegin=367300|AlignEnd=367760|Gloss=PUNCT
 2	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	AlignBegin=367760|AlignEnd=367853|Gloss=NOM.SG.3
 3	no	no	PART	_	Polarity=Neg	4	advmod	_	AlignBegin=367853|AlignEnd=368057|Gloss=NEG
-4	dey	dey	VERB	_	VerbType=Cop	0	root	_	AlignBegin=368057|AlignEnd=368220|Gloss=be2
+4	dey	dey	VERB	_	VerbType=Cop	0	root	_	AlignBegin=368057|AlignEnd=368220|Gloss=be
 5	expensive	expensive	ADJ	_	_	4	xcomp	_	AlignBegin=368220|AlignEnd=368740|Gloss=expensive
 6	//	//	PUNCT	_	_	4	punct	_	AlignBegin=368740|AlignEnd=368858|Gloss=PUNCT
 

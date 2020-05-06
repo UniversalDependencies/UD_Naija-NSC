@@ -11,11 +11,11 @@
 5	Sapientia	Sapientia	PROPN	_	_	4	flat	_	AlignBegin=2254|AlignEnd=2580|Gloss=Sapientia
 6	|a	|a	PUNCT	_	_	8	punct	_	AlignBegin=2580|AlignEnd=2610|Gloss=PUNCT
 7	ninety	ninety	NUM	_	NumType=Card	8	compound	_	AlignBegin=2610|AlignEnd=2800|Gloss=ninety.CARD
-8	five	five	NUM	_	NumType=Card	4	appos	_	AlignBegin=2800|AlignEnd=3010|Gloss=five.CARD
+8	five	five	NUM	_	NumType=Card	4	nmod:num	_	AlignBegin=2800|AlignEnd=3010|Gloss=five.CARD
 9	#	#	PUNCT	_	_	10	punct	_	AlignBegin=3010|AlignEnd=3080|Gloss=PUNCT
 10	point	point	NOUN	_	_	8	flat	_	AlignBegin=3080|AlignEnd=3259|Gloss=point
-11	three	three	NUM	_	NumType=Card	8	flat	_	AlignBegin=3259|AlignEnd=3520|Gloss=three.CARD
-12	FM	FM	NOUN	_	_	8	flat	_	AlignBegin=3520|AlignEnd=3830|Gloss=FM
+11	three	three	NUM	_	NumType=Card	10	nmod:num	_	AlignBegin=3259|AlignEnd=3520|Gloss=three.CARD
+12	FM	FM	NOUN	_	_	11	flat	_	AlignBegin=3520|AlignEnd=3830|Gloss=FM
 13	Onitsha	Onitsha	PROPN	_	_	8	nmod	_	AlignBegin=3830|AlignEnd=4300|Gloss=Onitsha
 14	}	}	PUNCT	_	_	4	punct	_	AlignBegin=4300|AlignEnd=4330|Gloss=PUNCT
 15	<	<	PUNCT	_	_	4	punct	_	AlignBegin=4300|AlignEnd=4330|Gloss=PUNCT
@@ -46,22 +46,22 @@
 # text_ortho = Today na Wednesday tenth two thousand and eighteen, and my name na Jovia Uchena.
 1	#	#	PUNCT	_	_	4	punct	_	AlignBegin=9280|AlignEnd=9520|Gloss=PUNCT
 2	today	today	NOUN	_	_	4	nsubj	_	AlignBegin=9520|AlignEnd=10120|Gloss=today
-3	na	na	AUX	_	PartType=Cop	4	cop	_	AlignBegin=10120|AlignEnd=10350|Gloss=be.COP
+3	na	na	AUX	_	PartType=Cop	4	cop	_	AlignBegin=10120|AlignEnd=10350|Gloss=be1
 4	Wednesday	Wednesday	PROPN	_	_	0	root	_	AlignBegin=10350|AlignEnd=10883|Gloss=Wednesday
 5	tenth	tenth	ADJ	_	NumType=Ord	4	amod	_	AlignBegin=10883|AlignEnd=11393|Gloss=tenth.ORD
 6	#	#	PUNCT	_	_	8	punct	_	AlignBegin=11393|AlignEnd=12240|Gloss=PUNCT
 7	two	two	NUM	_	NumType=Card	8	compound	_	AlignBegin=12240|AlignEnd=12398|Gloss=two.CARD
-8	thousand	thousand	NUM	_	NumType=Card	4	flat	_	AlignBegin=12398|AlignEnd=12730|Gloss=thousand.CARD
+8	thousand	thousand	NUM	_	NumType=Card	4	nmod:num	_	AlignBegin=12398|AlignEnd=12730|Gloss=thousand.CARD
 9	and	and	CCONJ	_	_	11	cc	_	AlignBegin=12730|AlignEnd=12860|Gloss=and
 10	#	#	PUNCT	_	_	11	punct	_	AlignBegin=12860|AlignEnd=12980|Gloss=PUNCT
 11	eighteen	eighteen	NUM	_	NumType=Card	8	conj	_	AlignBegin=12980|AlignEnd=13600|Gloss=eighteen.CARD
 12	#	#	PUNCT	_	_	20	punct	_	AlignBegin=13600|AlignEnd=13900|Gloss=PUNCT
 13	|c	|c	PUNCT	_	_	20	punct	_	AlignBegin=13870|AlignEnd=13900|Gloss=PUNCT
 14	and	and	CCONJ	_	_	20	cc	_	AlignBegin=13900|AlignEnd=14020|Gloss=and
-15	my	my	ADJ	_	Number=Sing|Person=1|Poss=Yes	16	amod	_	AlignBegin=14020|AlignEnd=14203|Gloss=SG.1.POSS
+15	my	my	PRON	_	Number=Sing|Person=1|Poss=Yes	16	nmod:poss	_	AlignBegin=14020|AlignEnd=14203|Gloss=SG.1.POSS
 16	name	name	NOUN	_	_	20	nsubj	_	AlignBegin=14203|AlignEnd=14636|Gloss=name
 17	#	#	PUNCT	_	_	16	punct	_	AlignBegin=14636|AlignEnd=15040|Gloss=PUNCT
-18	na	na	AUX	_	PartType=Cop	20	cop	_	AlignBegin=15040|AlignEnd=15630|Gloss=be.COP
+18	na	na	AUX	_	PartType=Cop	20	cop	_	AlignBegin=15040|AlignEnd=15630|Gloss=be1
 19	#	#	PUNCT	_	_	20	punct	_	AlignBegin=15630|AlignEnd=16583|Gloss=PUNCT
 20	Jovia	Jovia	PROPN	_	_	4	conj	_	AlignBegin=16583|AlignEnd=17465|Gloss=Jovia
 21	#	#	PUNCT	_	_	22	punct	_	AlignBegin=17465|AlignEnd=18540|Gloss=PUNCT
@@ -142,12 +142,12 @@
 5	tell	tell	VERB	_	_	0	root	_	AlignBegin=44990|AlignEnd=45184|Gloss=tell
 6	all	all	ADV	_	_	5	obj	_	AlignBegin=45184|AlignEnd=45653|Gloss=all
 7	of	of	ADP	_	_	10	case	_	AlignBegin=45653|AlignEnd=45810|Gloss=of
-8	dem	dem	PRON	_	Number=Plur|PronType=Art	10	nmod:poss	_	AlignBegin=45810|AlignEnd=45990|Gloss=PL.ART
+8	dem	dem	PRON	_	Case=Nom|Number=Plur|PronType=Art	10	nmod:poss	_	AlignBegin=45810|AlignEnd=45990|Gloss=PL.ART
 9	political	political	ADJ	_	_	10	amod	_	AlignBegin=45990|AlignEnd=46430|Gloss=political
 10	parties	party	NOUN	_	Number=Plur	6	nmod	_	AlignBegin=46430|AlignEnd=46780|Gloss=party.PL
 11	to	to	ADP	_	_	14	mark	_	AlignBegin=46780|AlignEnd=46922|Gloss=to
 12	kpakpakpa	kpakpakpa	ADV	_	_	14	advmod	_	AlignBegin=46922|AlignEnd=47420|Gloss=quickly
-13	go	go	AUX	_	Aspect=Prosp	14	cop	_	AlignBegin=47420|AlignEnd=47573|Gloss=CONT
+13	go	go	AUX	_	Aspect=Prosp	14	cop	_	AlignBegin=47420|AlignEnd=47573|Gloss=PROSP
 14	collect	collect	VERB	_	_	5	ccomp	_	AlignBegin=47573|AlignEnd=47960|Gloss=collect
 15	forms	form	NOUN	_	_	14	obj	_	AlignBegin=47960|AlignEnd=48419|Gloss=form
 16	#	#	PUNCT	_	_	19	punct	_	AlignBegin=48419|AlignEnd=48653|Gloss=PUNCT
@@ -172,9 +172,9 @@
 8	August	August	PROPN	_	_	4	obl:mod	_	AlignBegin=51590|AlignEnd=52162|Gloss=August
 9	#	#	PUNCT	_	_	11	punct	_	AlignBegin=52162|AlignEnd=52331|Gloss=PUNCT
 10	twenty	twenty	NUM	_	NumType=Card	11	compound	_	AlignBegin=52331|AlignEnd=52600|Gloss=twenty.CARD
-11	fourth	fourth	ADJ	_	NumType=Ord	8	flat	_	AlignBegin=52600|AlignEnd=53020|Gloss=fourth.ORD
+11	fourth	fourth	ADJ	_	NumType=Ord	8	amod	_	AlignBegin=52600|AlignEnd=53020|Gloss=fourth.ORD
 12	two	two	NUM	_	NumType=Card	13	compound	_	AlignBegin=53020|AlignEnd=53224|Gloss=two.CARD
-13	thousand	thousand	NUM	_	NumType=Card	11	nummod:num	_	AlignBegin=53224|AlignEnd=53570|Gloss=thousand.CARD
+13	thousand	thousand	NUM	_	NumType=Card	8	nmod:num	_	AlignBegin=53224|AlignEnd=53570|Gloss=thousand.CARD
 14	and	and	CCONJ	_	_	15	cc	_	AlignBegin=53570|AlignEnd=53813|Gloss=and
 15	eighteen	eighteen	NUM	_	NumType=Card	13	conj	_	AlignBegin=53813|AlignEnd=54463|Gloss=eighteen.CARD
 16	//	//	PUNCT	_	_	4	punct	_	AlignBegin=54463|AlignEnd=54493|Gloss=PUNCT
@@ -194,14 +194,14 @@
 7	don	don	AUX	_	Aspect=Perf	8	aux	_	AlignBegin=59953|AlignEnd=60262|Gloss=PRF
 8	fix	fix	VERB	_	_	0	root	_	AlignBegin=60262|AlignEnd=60660|Gloss=fix
 9	February	February	PROPN	_	_	8	obj	_	AlignBegin=60660|AlignEnd=61034|Gloss=February
-10	six	six	NUM	_	NumType=Card	9	flat	_	AlignBegin=61034|AlignEnd=61482|Gloss=six.CARD
+10	six	six	NUM	_	NumType=Card	9	nmod:num	_	AlignBegin=61034|AlignEnd=61482|Gloss=six.CARD
 11	say	say	VERB	_	_	8	compound:svc	_	AlignBegin=61482|AlignEnd=61695|Gloss=say
 12	[	[	PUNCT	_	_	14	punct	_	AlignBegin=61695|AlignEnd=61725|Gloss=PUNCT
-13	na	na	AUX	_	PartType=Cop	14	cop	_	AlignBegin=61725|AlignEnd=61910|Gloss=be.COP
-14	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	11	parataxis	_	AlignBegin=61910|AlignEnd=62052|Gloss=NOM.SG.3
+13	na	na	AUX	_	PartType=Cop	14	cop	_	AlignBegin=61725|AlignEnd=61910|EXTPOS=SCONJ|Gloss=be1
+14	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	11	parataxis	_	AlignBegin=61910|AlignEnd=62052|Gloss=NOM.SG.3|INMWE=Yes
 15	>+	>+	PUNCT	_	_	19	punct	_	AlignBegin=62052|AlignEnd=62082|Gloss=PUNCT
-16	go	go	AUX	_	Aspect=Prosp	19	aux	_	AlignBegin=62082|AlignEnd=62220|Gloss=CONT
-17	be	be	AUX	_	PartType=Cop	19	cop	_	AlignBegin=62220|AlignEnd=62297|Gloss=be.COP
+16	go	go	AUX	_	Aspect=Prosp	19	aux	_	AlignBegin=62082|AlignEnd=62220|Gloss=PROSP
+17	be	be	AUX	_	PartType=Cop	19	cop	_	AlignBegin=62220|AlignEnd=62297|Gloss=be1
 18	{	{	PUNCT	_	_	19	punct	_	AlignBegin=62297|AlignEnd=62327|Gloss=PUNCT
 19	last	last	ADJ	_	_	14	advcl:cleft	_	AlignBegin=62327|AlignEnd=62600|Gloss=last
 20	|r	|r	PUNCT	_	_	21	punct	_	AlignBegin=62600|AlignEnd=62630|Gloss=PUNCT
@@ -217,7 +217,7 @@
 # text_en = They will sell the registration forms for this year's Unified Tertiary Matriculation Examination.
 # text_ortho = Dem go sell registration form for dis year Unified Tertiary Matriculation Examination.
 1	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	AlignBegin=62972|AlignEnd=63160|Gloss=NOM.PL.3
-2	go	go	AUX	_	Aspect=Prosp	3	aux	_	AlignBegin=63160|AlignEnd=63288|Gloss=CONT
+2	go	go	AUX	_	Aspect=Prosp	3	aux	_	AlignBegin=63160|AlignEnd=63288|Gloss=PROSP
 3	sell	sell	VERB	_	_	0	root	_	AlignBegin=63288|AlignEnd=63540|Gloss=sell
 4	registration	registration	NOUN	_	_	5	compound	_	AlignBegin=63540|AlignEnd=64180|Gloss=registration
 5	form	form	NOUN	_	_	3	obj	_	AlignBegin=64180|AlignEnd=64550|Gloss=form
@@ -253,15 +253,15 @@
 15	Information	information	NOUN	_	_	12	nmod	_	AlignBegin=73070|AlignEnd=73780|Gloss=information
 16	(	(	PUNCT	_	_	19	punct	_	AlignBegin=73780|AlignEnd=73810|Gloss=PUNCT
 17	dat	dat	PRON	_	Number=Sing|PronType=Dem	19	nsubj	_	AlignBegin=73810|AlignEnd=74030|Gloss=SG.DEM
-18	na	na	AUX	_	PartType=Cop	19	cop	_	AlignBegin=74030|AlignEnd=74150|Gloss=be.COP
+18	na	na	AUX	_	PartType=Cop	19	cop	_	AlignBegin=74030|AlignEnd=74150|Gloss=be1
 19	Mister	Mister	NOUN	_	_	15	parataxis:parenth	_	AlignBegin=74150|AlignEnd=74380|Gloss=Mister
 20	Patrick	Patrick	PROPN	_	_	19	flat	_	AlignBegin=74380|AlignEnd=74880|Gloss=Patrick
 21	Uka	Uka	PROPN	_	_	19	flat	_	AlignBegin=74880|AlignEnd=75170|Gloss=Uka
 22	)	)	PUNCT	_	_	19	punct	_	AlignBegin=75170|AlignEnd=75200|Gloss=PUNCT
 23	come	con	AUX	_	Aspect=Cons	24	aux	_	AlignBegin=75200|AlignEnd=75414|Gloss=CONS
 24	jinger	ginger	VERB	_	_	7	ccomp	_	AlignBegin=75414|AlignEnd=75860|Gloss=stir
-25	all	all	ADV	_	_	29	det	_	AlignBegin=75860|AlignEnd=76150|Gloss=all
-26	dem	dem	PRON	_	Number=Plur|PronType=Art	29	nmod:poss	_	AlignBegin=76150|AlignEnd=76339|Gloss=PL.ART
+25	all	all	ADV	_	_	29	advmod	_	AlignBegin=75860|AlignEnd=76150|Gloss=all
+26	dem	dem	PRON	_	Case=Nom|Number=Plur|PronType=Art	29	nmod:poss	_	AlignBegin=76150|AlignEnd=76339|Gloss=PL.ART
 27	twenty	twenty	NUM	_	NumType=Card	28	compound	_	AlignBegin=76339|AlignEnd=76860|Gloss=twenty.CARD
 28	three	three	NUM	_	NumType=Card	29	nummod:num	_	AlignBegin=76860|AlignEnd=77100|Gloss=three.CARD
 29	chairmo	chairman	NOUN	_	_	24	obj	_	AlignBegin=77100|AlignEnd=77720|Gloss=chairman
@@ -303,7 +303,7 @@
 12	#	#	PUNCT	_	_	25	punct	_	AlignBegin=82480|AlignEnd=83140|Gloss=PUNCT
 13	as	as	ADP	_	_	18	mark	_	AlignBegin=83140|AlignEnd=83357|Gloss=as
 14	people	people	NOUN	_	Number=Plur	18	nsubj	_	AlignBegin=83357|AlignEnd=83820|Gloss=people.PL
-15	wey	wey	SCONJ	_	_	16	mark	_	AlignBegin=83820|AlignEnd=83959|Gloss=when|gloss=REL
+15	wey	wey	SCONJ	_	_	16	mark	_	AlignBegin=83820|AlignEnd=83959|Gloss=REL
 16	elect	elect	VERB	_	_	14	acl:relcl	_	AlignBegin=83959|AlignEnd=84360|Gloss=elect
 17	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	16	obj	_	AlignBegin=84360|AlignEnd=84610|Gloss=NOM.PL.3
 18	believe	believe	VERB	_	_	25	advcl:periph	_	AlignBegin=84610|AlignEnd=85052|Gloss=believe
@@ -312,7 +312,7 @@
 21	<	<	PUNCT	_	_	25	punct	_	AlignBegin=85303|AlignEnd=85685|Gloss=PUNCT
 22	sey	sey	SCONJ	_	_	25	cc	_	AlignBegin=85685|AlignEnd=85920|Gloss=COMP
 23	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	25	nsubj	_	AlignBegin=85920|AlignEnd=86145|Gloss=NOM.PL.3
-24	go	go	AUX	_	Aspect=Prosp	25	aux	_	AlignBegin=86145|AlignEnd=86292|Gloss=CONT
+24	go	go	AUX	_	Aspect=Prosp	25	aux	_	AlignBegin=86145|AlignEnd=86292|Gloss=PROSP
 25	try	try	VERB	_	_	10	parataxis	_	AlignBegin=86292|AlignEnd=86829|Gloss=try
 26	wella	wella	ADV	_	_	25	advmod	_	AlignBegin=86829|AlignEnd=87120|Gloss=very_well
 27	do	do	VERB	_	_	25	xcomp	_	AlignBegin=87120|AlignEnd=87327|Gloss=do
@@ -341,14 +341,14 @@
 7	}	}	PUNCT	_	_	4	punct	_	AlignBegin=93460|AlignEnd=93490|Gloss=PUNCT
 8	one	one	NOUN	_	_	13	nsubj	_	AlignBegin=93490|AlignEnd=93771|Gloss=one
 9	here	here	ADV	_	_	8	advmod	_	AlignBegin=93771|AlignEnd=94111|Gloss=here
-10	na	na	AUX	_	PartType=Cop	13	cop	_	AlignBegin=94111|AlignEnd=94240|Gloss=be.COP
+10	na	na	AUX	_	PartType=Cop	13	cop	_	AlignBegin=94111|AlignEnd=94240|Gloss=be1
 11	from	from	ADP	_	_	13	case	_	AlignBegin=94240|AlignEnd=94430|Gloss=from
 12	obodo	obodo	NOUN	_	_	13	nmod	_	AlignBegin=94430|AlignEnd=94730|Gloss=country
 13	Oyibo	Oyibo	PROPN	_	_	0	root	_	AlignBegin=94730|AlignEnd=95180|Gloss=Oyibo
 14	|c	|c	PUNCT	_	_	20	punct	_	AlignBegin=95180|AlignEnd=95210|Gloss=PUNCT
 15	and	and	CCONJ	_	_	16	cc	_	AlignBegin=95210|AlignEnd=95562|Gloss=and
 16	den	den	ADV	_	_	20	advmod	_	AlignBegin=95562|AlignEnd=95870|Gloss=den
-17	na	na	AUX	_	PartType=Cop	20	cop	_	AlignBegin=95870|AlignEnd=96000|Gloss=be.COP
+17	na	na	AUX	_	PartType=Cop	20	cop	_	AlignBegin=95870|AlignEnd=96000|Gloss=be1
 18	from	from	ADP	_	_	20	case	_	AlignBegin=96000|AlignEnd=96620|Gloss=from
 19	ehn	ehn	INTJ	_	_	20	discourse	_	AlignBegin=96620|AlignEnd=96940|Gloss=ehn
 20	Zimbabwe	Zimbabwe	PROPN	_	_	13	conj	_	AlignBegin=96940|AlignEnd=97780|Gloss=Zimbabwe
@@ -442,12 +442,12 @@
 4	as	as	ADP	_	_	8	mark	_	AlignBegin=116130|AlignEnd=116399|Gloss=as
 5	before	before	ADP	_	_	8	mark	_	AlignBegin=116399|AlignEnd=116880|Gloss=before
 6	person	person	NOUN	_	_	8	nsubj	_	AlignBegin=116880|AlignEnd=117180|Gloss=person
-7	go	go	AUX	_	Aspect=Prosp	8	aux	_	AlignBegin=117180|AlignEnd=117320|Gloss=CONT
+7	go	go	AUX	_	Aspect=Prosp	8	aux	_	AlignBegin=117180|AlignEnd=117320|Gloss=PROSP
 8	get	get	VERB	_	_	13	advcl:periph	_	AlignBegin=117320|AlignEnd=117629|Gloss=get
 9	doctorate	doctorate	NOUN	_	_	8	obj	_	AlignBegin=117629|AlignEnd=118115|Gloss=doctorate
 10	<	<	PUNCT	_	_	8	punct	_	AlignBegin=118115|AlignEnd=118145|Gloss=PUNCT
 11	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	AlignBegin=118145|AlignEnd=118360|Gloss=NOM.SG.3
-12	go	go	AUX	_	Aspect=Prosp	13	aux	_	AlignBegin=118360|AlignEnd=118540|Gloss=CONT
+12	go	go	AUX	_	Aspect=Prosp	13	aux	_	AlignBegin=118360|AlignEnd=118540|Gloss=PROSP
 13	do	do	VERB	_	_	0	root	_	AlignBegin=118540|AlignEnd=118970|Gloss=do
 14	#	#	PUNCT	_	_	17	punct	_	AlignBegin=118970|AlignEnd=119284|Gloss=PUNCT
 15	full	full	ADJ	_	_	16	amod	_	AlignBegin=119284|AlignEnd=119536|Gloss=full
@@ -466,15 +466,15 @@
 # text_ortho = And na here, I go close my mouth, drink small water as una dey here dey gbadun di parole on top Radio Sapientia, ninety five point three FM Onitsha.
 1	#	#	PUNCT	_	_	4	punct	_	AlignBegin=121680|AlignEnd=123480|Gloss=PUNCT
 2	and	and	CCONJ	_	_	4	cc	_	AlignBegin=123480|AlignEnd=123600|Gloss=and
-3	na	na	AUX	_	PartType=Cop	4	cop	_	AlignBegin=123600|AlignEnd=123750|Gloss=be.COP
+3	na	na	AUX	_	PartType=Cop	4	cop	_	AlignBegin=123600|AlignEnd=123750|Gloss=be1
 4	here	here	ADV	_	_	0	root	_	AlignBegin=123750|AlignEnd=124150|Gloss=here
 5	>+	>+	PUNCT	_	_	10	punct	_	AlignBegin=124150|AlignEnd=124180|Gloss=PUNCT
 6	#	#	PUNCT	_	_	10	punct	_	AlignBegin=124180|AlignEnd=124880|Gloss=PUNCT
 7	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	AlignBegin=124880|AlignEnd=124980|Gloss=NOM.SG.1
-8	go	go	AUX	_	Aspect=Prosp	10	aux	_	AlignBegin=124980|AlignEnd=125133|Gloss=CONT
+8	go	go	AUX	_	Aspect=Prosp	10	aux	_	AlignBegin=124980|AlignEnd=125133|Gloss=PROSP
 9	{	{	PUNCT	_	_	10	punct	_	AlignBegin=125133|AlignEnd=125571|Gloss=PUNCT
 10	close	close	VERB	_	_	4	advcl:cleft	_	AlignBegin=125133|AlignEnd=125571|Gloss=close
-11	my	my	ADJ	_	Number=Sing|Person=1|Poss=Yes	12	amod	_	AlignBegin=125571|AlignEnd=125710|Gloss=SG.1.POSS
+11	my	my	PRON	_	Number=Sing|Person=1|Poss=Yes	12	nmod:poss	_	AlignBegin=125571|AlignEnd=125710|Gloss=SG.1.POSS
 12	mouth	mouth	NOUN	_	_	10	obj	_	AlignBegin=125710|AlignEnd=126265|Gloss=mouth
 13	|c	|c	PUNCT	_	_	14	punct	_	AlignBegin=125710|AlignEnd=126265|Gloss=PUNCT
 14	drink	drink	VERB	_	_	10	conj	_	AlignBegin=126265|AlignEnd=126491|Gloss=drink
@@ -485,23 +485,23 @@
 19	as	as	ADP	_	_	22	mark	_	AlignBegin=127660|AlignEnd=127880|Gloss=as
 20	una	una	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	22	nsubj	_	AlignBegin=127880|AlignEnd=128160|Gloss=NOM.PL.2
 21	#	#	PUNCT	_	_	20	punct	_	AlignBegin=128160|AlignEnd=128760|Gloss=PUNCT
-22	dey	dey	VERB	_	VerbType=Cop	14	advcl	_	AlignBegin=128760|AlignEnd=129013|Gloss=dey.COP
+22	dey	dey	VERB	_	VerbType=Cop	14	advcl	_	AlignBegin=128760|AlignEnd=129013|Gloss=be2
 23	here	here	ADV	_	_	22	xcomp	_	AlignBegin=129013|AlignEnd=129318|Gloss=here
 24	dey	dey	AUX	_	Aspect=Imp	25	aux	_	AlignBegin=129318|AlignEnd=129570|Gloss=IPFV
 25	gbadun	gbadun	VERB	_	_	22	advcl	_	AlignBegin=129570|AlignEnd=129828|Gloss=like
 26	di	the	DET	_	Definite=Def|PronType=Art	27	det	_	AlignBegin=129828|AlignEnd=129966|Gloss=DEF.ART
 27	parole	parole	NOUN	_	_	25	obj	_	AlignBegin=129966|AlignEnd=130391|Gloss=parole
-28	on	on	ADP	_	_	31	case	_	AlignBegin=130391|AlignEnd=130558|Gloss=on
+28	on	on	ADP	_	_	31	case	_	AlignBegin=130391|AlignEnd=130558|EXTPOS=ADP|Gloss=on
 29	top	top	NOUN	_	_	28	fixed	_	AlignBegin=130558|AlignEnd=130793|Gloss=top
 30	{	{	PUNCT	_	_	31	punct	_	AlignBegin=130558|AlignEnd=130793|Gloss=PUNCT
 31	Radio	radio	NOUN	_	_	25	obl:arg	_	AlignBegin=130793|AlignEnd=130972|Gloss=radio
 32	Sapientia	Sapientia	PROPN	_	_	31	flat	_	AlignBegin=130972|AlignEnd=131380|Gloss=Sapientia
 33	|a	|a	PUNCT	_	_	35	punct	_	AlignBegin=131380|AlignEnd=131530|Gloss=PUNCT
 34	ninety	ninety	NUM	_	NumType=Card	35	compound	_	AlignBegin=131380|AlignEnd=131530|Gloss=ninety.CARD
-35	five	five	NUM	_	NumType=Card	31	appos	_	AlignBegin=131530|AlignEnd=131750|Gloss=five.CARD
+35	five	five	NUM	_	NumType=Card	31	nmod:num	_	AlignBegin=131530|AlignEnd=131750|Gloss=five.CARD
 36	point	point	NOUN	_	_	35	flat	_	AlignBegin=131750|AlignEnd=131960|Gloss=point
-37	three	three	NUM	_	NumType=Card	35	flat	_	AlignBegin=131960|AlignEnd=132250|Gloss=three.CARD
-38	FM	FM	NOUN	_	_	35	flat	_	AlignBegin=132250|AlignEnd=132610|Gloss=FM
+37	three	three	NUM	_	NumType=Card	36	nmod:num	_	AlignBegin=131960|AlignEnd=132250|Gloss=three.CARD
+38	FM	FM	NOUN	_	_	37	flat	_	AlignBegin=132250|AlignEnd=132610|Gloss=FM
 39	Onitsha	Onitsha	PROPN	_	_	38	nmod	_	AlignBegin=132610|AlignEnd=133050|Gloss=Onitsha
 40	}	}	PUNCT	_	_	31	punct	_	AlignBegin=133050|AlignEnd=133080|Gloss=PUNCT
 41	//	//	PUNCT	_	_	4	punct	_	AlignBegin=133050|AlignEnd=133080|Gloss=PUNCT
@@ -513,11 +513,11 @@
 # text_en = My people, that is today's five o' clock news flash.
 # text_ortho = My people, na short, short story as e take concern five oclock today, be dat.
 1	#	#	PUNCT	_	_	12	punct	_	AlignBegin=133080|AlignEnd=133340|Gloss=PUNCT
-2	my	my	ADJ	_	Number=Sing|Person=1|Poss=Yes	3	amod	_	AlignBegin=133340|AlignEnd=133471|Gloss=SG.1.POSS
+2	my	my	PRON	_	Number=Sing|Person=1|Poss=Yes	3	nmod:poss	_	AlignBegin=133340|AlignEnd=133471|Gloss=SG.1.POSS
 3	people	people	NOUN	_	Number=Plur	12	dislocated	_	AlignBegin=133471|AlignEnd=133840|Gloss=people.PL
 4	<	<	PUNCT	_	_	3	punct	_	AlignBegin=133840|AlignEnd=133870|Gloss=PUNCT
 5	#	#	PUNCT	_	_	3	punct	_	AlignBegin=133870|AlignEnd=134507|Gloss=PUNCT
-6	na	na	AUX	_	PartType=Cop	12	cop	_	AlignBegin=134507|AlignEnd=134560|Gloss=be.COP
+6	na	na	AUX	_	PartType=Cop	12	cop	_	AlignBegin=134507|AlignEnd=134560|Gloss=be1
 7	{	{	PUNCT	_	_	8	punct	_	AlignBegin=134560|AlignEnd=134590|Gloss=PUNCT
 8	short	short	ADJ	_	_	12	amod	_	AlignBegin=134590|AlignEnd=134715|Gloss=short
 9	|r	|r	PUNCT	_	_	10	punct	_	AlignBegin=134715|AlignEnd=134745|Gloss=PUNCT
@@ -532,7 +532,7 @@
 18	o'clock	o'clock	ADV	_	_	16	obj	_	AlignBegin=136220|AlignEnd=136955|Gloss=o'clock
 19	today	today	NOUN	_	_	16	obl:mod	_	AlignBegin=136955|AlignEnd=137500|Gloss=today
 20	>+	>+	PUNCT	_	_	21	punct	_	AlignBegin=137500|AlignEnd=137530|Gloss=PUNCT
-21	be	be	VERB	_	PartType=Cop	12	advcl:cleft	_	AlignBegin=137530|AlignEnd=137710|Gloss=be.COP
+21	be	be	VERB	_	PartType=Cop	12	advcl:cleft	_	AlignBegin=137530|AlignEnd=137710|Gloss=be1
 22	dat	dat	PRON	_	Number=Sing|PronType=Dem	21	nsubj	_	AlignBegin=137710|AlignEnd=138054|Gloss=SG.DEM
 23	//	//	PUNCT	_	_	12	punct	_	AlignBegin=138054|AlignEnd=138084|Gloss=PUNCT
 
@@ -559,10 +559,10 @@
 # text_en = My name is Jovia Uchena.
 # text_ortho = My name na Jovia Uchena.
 1	#	#	PUNCT	_	_	7	punct	_	AlignBegin=140220|AlignEnd=140480|Gloss=PUNCT
-2	my	my	ADJ	_	Number=Sing|Person=1|Poss=Yes	3	amod	_	AlignBegin=140480|AlignEnd=140659|Gloss=SG.1.POSS
+2	my	my	PRON	_	Number=Sing|Person=1|Poss=Yes	3	nmod:poss	_	AlignBegin=140480|AlignEnd=140659|Gloss=SG.1.POSS
 3	name	name	NOUN	_	_	7	nsubj	_	AlignBegin=140659|AlignEnd=140960|Gloss=name
 4	#	#	PUNCT	_	_	3	punct	_	AlignBegin=140960|AlignEnd=141640|Gloss=PUNCT
-5	na	na	AUX	_	PartType=Cop	7	cop	_	AlignBegin=141640|AlignEnd=142000|Gloss=be.COP
+5	na	na	AUX	_	PartType=Cop	7	cop	_	AlignBegin=141640|AlignEnd=142000|Gloss=be1
 6	#	#	PUNCT	_	_	7	punct	_	AlignBegin=142000|AlignEnd=143104|Gloss=PUNCT
 7	Jovia	Jovia	PROPN	_	_	0	root	_	AlignBegin=143104|AlignEnd=143873|Gloss=Jovia
 8	#	#	PUNCT	_	_	9	punct	_	AlignBegin=143873|AlignEnd=144940|Gloss=PUNCT
@@ -585,7 +585,7 @@
 8	#	#	PUNCT	_	_	6	punct	_	AlignBegin=151720|AlignEnd=152160|Gloss=PUNCT
 9	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	AlignBegin=152160|AlignEnd=152230|Gloss=NOM.SG.3
 10	no	no	PART	_	Polarity=Neg	13	advmod	_	AlignBegin=152230|AlignEnd=152356|Gloss=NEG
-11	be	be	AUX	_	PartType=Cop	13	cop	_	AlignBegin=152356|AlignEnd=152500|Gloss=be.COP
+11	be	be	AUX	_	PartType=Cop	13	cop	_	AlignBegin=152356|AlignEnd=152500|Gloss=be1
 12	open	open	ADJ	_	_	13	amod	_	AlignBegin=152500|AlignEnd=152730|Gloss=open
 13	eye	eye	NOUN	_	_	2	ccomp	_	AlignBegin=152730|AlignEnd=153117|Gloss=eye
 14	|c	|c	PUNCT	_	_	26	punct	_	AlignBegin=153117|AlignEnd=153147|Gloss=PUNCT
@@ -599,7 +599,7 @@
 22	#	#	PUNCT	_	_	20	punct	_	AlignBegin=154900|AlignEnd=155320|Gloss=PUNCT
 23	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	26	expl:subj	_	AlignBegin=155320|AlignEnd=155380|Gloss=NOM.SG.3
 24	no	no	PART	_	Polarity=Neg	26	advmod	_	AlignBegin=155380|AlignEnd=155514|Gloss=NEG
-25	be	be	AUX	_	PartType=Cop	26	cop	_	AlignBegin=155514|AlignEnd=155620|Gloss=be.COP
+25	be	be	AUX	_	PartType=Cop	26	cop	_	AlignBegin=155514|AlignEnd=155620|Gloss=be1
 26	senior	senior	ADJ	_	_	13	conj	_	AlignBegin=155620|AlignEnd=156120|Gloss=senior
 27	]	]	PUNCT	_	_	13	punct	_	AlignBegin=156120|AlignEnd=156150|Gloss=PUNCT
 28	//	//	PUNCT	_	_	2	punct	_	AlignBegin=156120|AlignEnd=156150|Gloss=PUNCT

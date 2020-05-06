@@ -40,7 +40,7 @@
 # text_ortho = Ehe na haha me, Fabian, ehn Paul, ah... and one… and Chima.
 1	#	#	PUNCT	_	_	6	punct	_	AlignBegin=8042|AlignEnd=8900|Gloss=PUNCT
 2	ehe	ehe	INTJ	_	_	6	cc	_	AlignBegin=8900|AlignEnd=9000|Gloss=ehe
-3	na	na	AUX	_	PartType=Cop	6	cop	_	AlignBegin=9000|AlignEnd=9200|Gloss=be.COP
+3	na	na	AUX	_	PartType=Cop	6	cop	_	AlignBegin=9000|AlignEnd=9200|Gloss=be1
 4	haha	haha	INTJ	_	_	6	discourse	_	AlignBegin=9230|AlignEnd=9410|Gloss=haha
 5	#	#	PUNCT	_	_	6	punct	_	AlignBegin=9440|AlignEnd=9770|Gloss=PUNCT
 6	me	me	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	root	_	AlignBegin=9770|AlignEnd=10290|Gloss=NOM.SG.1
@@ -67,7 +67,7 @@
 # text_en = One is…
 # text_ortho = One na…
 1	one	one	NUM	_	NumType=Card	2	nsubj	_	AlignBegin=13960|AlignEnd=14100|Gloss=one
-2	na	na	AUX	_	PartType=Cop	0	root	_	AlignBegin=14100|AlignEnd=14240|Gloss=be.COP
+2	na	na	AUX	_	PartType=Cop	0	root	_	AlignBegin=14100|AlignEnd=14240|Gloss=be1
 3	&//	//	PUNCT	_	_	2	punct	_	AlignBegin=14240|AlignEnd=14270|Gloss=PUNCT
 
 # sent_id = ENU_37_Dmoris-Restaurant_MG__4
@@ -78,7 +78,7 @@
 # text_ortho = Okay no be…
 1	okay	OK	INTJ	_	_	3	discourse	_	AlignBegin=14270|AlignEnd=14447|Gloss=OK
 2	no	no	PART	_	Polarity=Neg	3	advmod	_	AlignBegin=14477|AlignEnd=14577|Gloss=NEG
-3	be	be	VERB	_	PartType=Cop	0	root	_	AlignBegin=14577|AlignEnd=14671|Gloss=be.COP
+3	be	be	VERB	_	PartType=Cop	0	root	_	AlignBegin=14577|AlignEnd=14671|Gloss=be1
 4	&//	//	PUNCT	_	_	3	punct	_	AlignBegin=14577|AlignEnd=14671|Gloss=PUNCT
 
 # sent_id = ENU_37_Dmoris-Restaurant_MG__5
@@ -117,7 +117,7 @@
 17	for	for	AUX	_	Mood=Cond	19	aux	_	AlignBegin=17229|AlignEnd=17360|Gloss=COND
 18	}	}	PUNCT	_	_	14	punct	_	AlignBegin=17360|AlignEnd=17390|Gloss=PUNCT
 19	win	win	VERB	_	_	14	conj:dicto	_	AlignBegin=17390|AlignEnd=17553|Gloss=win
-20	my	my	ADJ	_	Number=Sing|Person=1|Poss=Yes	21	amod	_	AlignBegin=17553|AlignEnd=17761|Gloss=SG.1.POSS
+20	my	my	PRON	_	Number=Sing|Person=1|Poss=Yes	21	nmod:poss	_	AlignBegin=17553|AlignEnd=17761|Gloss=SG.1.POSS
 21	record	record	NOUN	_	_	19	obj	_	AlignBegin=17761|AlignEnd=18180|Gloss=record
 22	//	//	PUNCT	_	_	14	punct	_	AlignBegin=18180|AlignEnd=18210|Gloss=PUNCT
 
@@ -134,15 +134,15 @@
 5	||	||	PUNCT	_	_	6	punct	_	AlignBegin=19120|AlignEnd=19150|Gloss=PUNCT
 6	Chima	Chima	PROPN	_	_	4	conj:dicto	_	AlignBegin=19150|AlignEnd=19480|Gloss=Chima
 7	}	}	PUNCT	_	_	4	punct	_	AlignBegin=19480|AlignEnd=19510|Gloss=PUNCT
-8	na	na	AUX	_	PartType=Cop	10	cop	_	AlignBegin=19510|AlignEnd=19650|Gloss=be.COP
+8	na	na	AUX	_	PartType=Cop	10	cop	_	AlignBegin=19510|AlignEnd=19650|Gloss=be1
 9	di	the	DET	_	Definite=Def|PronType=Art	10	det	_	AlignBegin=19650|AlignEnd=19760|Gloss=DEF.ART
 10	person	person	NOUN	_	_	0	root	_	AlignBegin=19760|AlignEnd=20047|Gloss=person
-11	wey	wey	SCONJ	_	_	12	mark	_	AlignBegin=20047|AlignEnd=20190|EXTPOS=SCONJ|Gloss=when|gloss=REL
-12	be	be	VERB	_	PartType=Cop	10	acl:relcl	_	AlignBegin=20190|AlignEnd=20268|Gloss=be.COP|INMWE=Yes
+11	wey	wey	SCONJ	_	_	12	mark	_	AlignBegin=20047|AlignEnd=20190|EXTPOS=SCONJ|Gloss=REL
+12	be	be	VERB	_	PartType=Cop	10	acl:relcl	_	AlignBegin=20190|AlignEnd=20268|Gloss=be1|INMWE=Yes
 13	sey	sey	SCONJ	_	_	26	mark	_	AlignBegin=20268|AlignEnd=20370|Gloss=COMP|INMWE=Yes
 14	[	[	PUNCT	_	_	26	punct	_	AlignBegin=20370|AlignEnd=20400|Gloss=PUNCT
 15	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	17	nsubj	_	AlignBegin=20400|AlignEnd=20542|Gloss=NOM.PL.1
-16	go	go	AUX	_	Aspect=Prosp	17	aux	_	AlignBegin=20542|AlignEnd=20690|Gloss=CONT
+16	go	go	AUX	_	Aspect=Prosp	17	aux	_	AlignBegin=20542|AlignEnd=20690|Gloss=PROSP
 17	cook	cook	VERB	_	_	26	parataxis:dislocated	_	AlignBegin=20690|AlignEnd=20878|Gloss=cook
 18	five	five	NUM	_	NumType=Card	19	nummod:num	_	AlignBegin=20878|AlignEnd=21300|Gloss=five.CARD
 19	cups	cups	NOUN	_	Number=Plur	17	obj	_	AlignBegin=21300|AlignEnd=21530|Gloss=cups.PL
@@ -171,7 +171,7 @@
 1	#	#	PUNCT	_	_	4	punct	_	AlignBegin=24832|AlignEnd=25213|Gloss=PUNCT
 2	now	now	ADV	_	_	4	advmod:periph	_	AlignBegin=25213|AlignEnd=25340|Gloss=now
 3	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	AlignBegin=25340|AlignEnd=25450|Gloss=NOM.PL.1
-4	dey	dey	VERB	_	VerbType=Cop	0	root	_	AlignBegin=25450|AlignEnd=25550|Gloss=dey.COP
+4	dey	dey	VERB	_	VerbType=Cop	0	root	_	AlignBegin=25450|AlignEnd=25550|Gloss=be2
 5	for	for	ADP	_	_	7	case	_	AlignBegin=25550|AlignEnd=25863|Gloss=for
 6	haha	haha	INTJ	_	_	7	discourse	_	AlignBegin=25893|AlignEnd=26068|Gloss=haha
 7	D-Morris	D-Morris	PROPN	_	_	4	xcomp	_	AlignBegin=26098|AlignEnd=26830|Gloss=D-Morris
@@ -201,7 +201,7 @@
 3	time	time	NOUN	_	_	6	obl:mod	_	AlignBegin=30180|AlignEnd=30320|Gloss=time
 4	<	<	PUNCT	_	_	3	punct	_	AlignBegin=30180|AlignEnd=30320|Gloss=PUNCT
 5	food	food	NOUN	_	_	6	nsubj	_	AlignBegin=30320|AlignEnd=30570|Gloss=food
-6	dey	dey	VERB	_	VerbType=Cop	0	root	_	AlignBegin=30570|AlignEnd=30750|Gloss=dey.COP
+6	dey	dey	VERB	_	VerbType=Cop	0	root	_	AlignBegin=30570|AlignEnd=30750|Gloss=be2
 7	cheap	cheap	ADJ	_	_	6	xcomp	_	AlignBegin=30750|AlignEnd=31010|Gloss=cheap
 8	now	now	ADV	_	_	6	advmod:emph	_	AlignBegin=31010|AlignEnd=31230|Gloss=now
 9	//	//	PUNCT	_	_	6	punct	_	AlignBegin=31230|AlignEnd=31260|Gloss=PUNCT
@@ -294,7 +294,7 @@
 # text_en = So we ate and ate!
 # text_ortho = Na how we chop, chop!
 1	#	#	PUNCT	_	_	3	punct	_	AlignBegin=40854|AlignEnd=41600|Gloss=PUNCT
-2	na	na	AUX	_	PartType=Cop	3	cop	_	AlignBegin=40854|AlignEnd=41600|Gloss=be.COP
+2	na	na	AUX	_	PartType=Cop	3	cop	_	AlignBegin=40854|AlignEnd=41600|Gloss=be1
 3	how	how	ADV	_	PronType=Int	0	root	_	AlignBegin=41600|AlignEnd=41912|Gloss=how.Q
 4	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	AlignBegin=41912|AlignEnd=42050|Gloss=NOM.PL.1
 5	{	{	PUNCT	_	_	6	punct	_	AlignBegin=42050|AlignEnd=42080|Gloss=PUNCT
@@ -412,15 +412,15 @@
 11	#	#	PUNCT	_	_	13	punct	_	AlignBegin=56520|AlignEnd=56980|Gloss=PUNCT
 12	{	{	PUNCT	_	_	13	punct	_	AlignBegin=56950|AlignEnd=56980|Gloss=PUNCT
 13	abf	abf	X	_	_	9	obl:mod	_	AlignBegin=56980|AlignEnd=57410|Gloss=X
-14	||	||	PUNCT	_	_	22	punct	_	AlignBegin=57410|AlignEnd=57440|Gloss=PUNCT
-15	as	as	ADP	_	_	22	mark	_	AlignBegin=57440|AlignEnd=57700|Gloss=as
+14	||	||	PUNCT	_	_	15	punct	_	AlignBegin=57410|AlignEnd=57440|Gloss=PUNCT
+15	as	as	ADP	_	_	13	conj:dicto	_	AlignBegin=57440|AlignEnd=57700|EXTPOS=SCONJ|Gloss=as
 16	if	if	SCONJ	_	_	15	fixed	_	AlignBegin=57700|AlignEnd=57778|Gloss=if
 17	}	}	PUNCT	_	_	13	punct	_	AlignBegin=57778|AlignEnd=57808|Gloss=PUNCT
-18	sey	sey	SCONJ	_	_	15	fixed	_	AlignBegin=57808|AlignEnd=57960|Gloss=COMP
+18	sey	sey	SCONJ	_	_	22	mark	_	AlignBegin=57808|AlignEnd=57960|Gloss=COMP
 19	[	[	PUNCT	_	_	22	punct	_	AlignBegin=57960|AlignEnd=57990|Gloss=PUNCT
 20	she	she	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	AlignBegin=57990|AlignEnd=58170|Gloss=NOM.F.SG.3
 21	no	no	PART	_	Polarity=Neg	22	advmod	_	AlignBegin=58170|AlignEnd=58370|Gloss=NEG
-22	see	see	VERB	_	_	13	conj:dicto	_	AlignBegin=58370|AlignEnd=58670|Gloss=see
+22	see	see	VERB	_	_	15	fixed	_	AlignBegin=58370|AlignEnd=58670|Gloss=see
 23	as	as	ADP	_	_	26	mark	_	AlignBegin=58700|AlignEnd=58930|Gloss=as
 24	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	26	nsubj	_	AlignBegin=58930|AlignEnd=59000|Gloss=NOM.PL.1
 25	dey	dey	AUX	_	Aspect=Imp	26	aux	_	AlignBegin=59000|AlignEnd=59410|Gloss=IPFV
@@ -480,7 +480,7 @@
 4	big	big	ADJ	_	_	2	conj:dicto	_	AlignBegin=64877|AlignEnd=65121|Gloss=big
 5	}	}	PUNCT	_	_	2	punct	_	AlignBegin=65121|AlignEnd=65151|Gloss=PUNCT
 6	girl	girl	NOUN	_	_	14	nsubj	_	AlignBegin=65151|AlignEnd=65460|Gloss=girl
-7	wey	wey	SCONJ	_	_	9	mark	_	AlignBegin=65460|AlignEnd=65593|Gloss=when|gloss=REL
+7	wey	wey	SCONJ	_	_	9	mark	_	AlignBegin=65460|AlignEnd=65593|Gloss=REL
 8	dey	dey	AUX	_	Aspect=Imp	9	aux	_	AlignBegin=65593|AlignEnd=65801|Gloss=IPFV
 9	do	do	VERB	_	_	6	acl:relcl	_	AlignBegin=65801|AlignEnd=66010|Gloss=do
 10	ehn	ehn	INTJ	_	_	12	discourse	_	AlignBegin=66040|AlignEnd=66292|Gloss=ehn
@@ -546,7 +546,7 @@
 # text_en = That’s how it is.
 # text_ortho = Na so.
 1	#	#	PUNCT	_	_	3	punct	_	AlignBegin=71908|AlignEnd=72220|Gloss=PUNCT
-2	na	na	AUX	_	PartType=Cop	3	cop	_	AlignBegin=72220|AlignEnd=72310|Gloss=be.COP
+2	na	na	AUX	_	PartType=Cop	3	cop	_	AlignBegin=72220|AlignEnd=72310|Gloss=be1
 3	so	so	ADV	_	_	0	root	_	AlignBegin=72310|AlignEnd=72590|Gloss=so
 4	//	//	PUNCT	_	_	3	punct	_	AlignBegin=72590|AlignEnd=72620|Gloss=PUNCT
 
@@ -559,14 +559,14 @@
 1	#	#	PUNCT	_	_	5	punct	_	AlignBegin=72620|AlignEnd=73369|Gloss=PUNCT
 2	so	so	ADV	_	_	5	discourse	_	AlignBegin=73369|AlignEnd=73528|Gloss=so
 3	but	but	CCONJ	_	_	5	cc	_	AlignBegin=73528|AlignEnd=73840|Gloss=but
-4	na	na	AUX	_	PartType=Cop	5	cop	_	AlignBegin=73840|AlignEnd=74000|Gloss=be.COP
+4	na	na	AUX	_	PartType=Cop	5	cop	_	AlignBegin=73840|AlignEnd=74000|Gloss=be1
 5	she	she	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	root	_	AlignBegin=74000|AlignEnd=74150|Gloss=NOM.F.SG.3
 6	>+	>+	PUNCT	_	_	7	punct	_	AlignBegin=74150|AlignEnd=74180|Gloss=PUNCT
 7	design	design	VERB	_	_	5	advcl:cleft	_	AlignBegin=74180|AlignEnd=75081|Gloss=design
 8	di	the	DET	_	Definite=Def|PronType=Art	10	det	_	AlignBegin=75081|AlignEnd=75460|Gloss=DEF.ART
 9	first	first	ADJ	_	NumType=Ord	10	amod	_	AlignBegin=75460|AlignEnd=76003|Gloss=first.ORD
 10	website	website	NOUN	_	_	7	obj	_	AlignBegin=76003|AlignEnd=76510|Gloss=website
-11	wey	wey	SCONJ	_	_	13	mark	_	AlignBegin=76510|AlignEnd=76678|Gloss=when|gloss=REL
+11	wey	wey	SCONJ	_	_	13	mark	_	AlignBegin=76510|AlignEnd=76678|Gloss=REL
 12	UI	_	PROPN	_	_	13	nsubj	_	AlignBegin=76678|AlignEnd=77101|Gloss=Ibadan_University
 13	get	get	VERB	_	_	10	acl:relcl	_	AlignBegin=77101|AlignEnd=77321|Gloss=get
 14	dat	dat	DET	_	Number=Sing|PronType=Dem	15	det	_	AlignBegin=77321|AlignEnd=77580|Gloss=SG.DIST.DEM
@@ -590,10 +590,10 @@
 # text = in fact website be like eh magic //
 # text_en = In fact, the website was like uh… magic.
 # text_ortho = In fact website be like eh… magic.
-1	in	in	ADP	_	_	7	dep	_	AlignBegin=78380|AlignEnd=78528|Gloss=in
+1	in	in	ADP	_	_	7	dep	_	AlignBegin=78380|AlignEnd=78528|EXTPOS=ADV|Gloss=in
 2	fact	fact	NOUN	_	_	1	fixed	_	AlignBegin=78528|AlignEnd=78760|Gloss=fact
 3	website	website	NOUN	_	_	7	nsubj	_	AlignBegin=78760|AlignEnd=79230|Gloss=website
-4	be	be	AUX	_	PartType=Cop	7	cop	_	AlignBegin=79230|AlignEnd=79347|Gloss=be.COP
+4	be	be	AUX	_	PartType=Cop	7	cop	_	AlignBegin=79230|AlignEnd=79347|Gloss=be1
 5	like	like	ADP	_	_	7	case	_	AlignBegin=79347|AlignEnd=79601|Gloss=like
 6	eh	eh	INTJ	_	_	7	discourse	_	AlignBegin=79601|AlignEnd=79660|Gloss=eh
 7	magic	magic	NOUN	_	_	0	root	_	AlignBegin=79660|AlignEnd=80128|Gloss=magic
@@ -607,7 +607,7 @@
 # text_ortho = E be like Oyibo magic.
 1	#	#	PUNCT	_	_	6	punct	_	AlignBegin=80158|AlignEnd=80640|Gloss=PUNCT
 2	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	AlignBegin=80640|AlignEnd=80725|Gloss=NOM.SG.3
-3	be	be	AUX	_	PartType=Cop	6	cop	_	AlignBegin=80725|AlignEnd=80780|Gloss=be.COP
+3	be	be	AUX	_	PartType=Cop	6	cop	_	AlignBegin=80725|AlignEnd=80780|Gloss=be1
 4	like	like	ADP	_	_	6	case	_	AlignBegin=80780|AlignEnd=80970|Gloss=like
 5	Oyibo	Oyibo	PROPN	_	_	6	nmod	_	AlignBegin=80970|AlignEnd=81240|Gloss=Oyibo
 6	magic	magic	NOUN	_	_	0	root	_	AlignBegin=81240|AlignEnd=81723|Gloss=magic
@@ -643,8 +643,8 @@
 7	#	#	PUNCT	_	_	10	punct	_	AlignBegin=85710|AlignEnd=85900|Gloss=PUNCT
 8	and	and	CCONJ	_	_	10	cc	_	AlignBegin=85900|AlignEnd=86020|Gloss=and
 9	she	she	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	AlignBegin=86020|AlignEnd=86150|Gloss=NOM.F.SG.3
-10	dey	dey	VERB	_	VerbType=Cop	3	conj	_	AlignBegin=86150|AlignEnd=86277|Gloss=dey.COP
-11	her	her	ADJ	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes	13	amod	_	AlignBegin=86277|AlignEnd=86380|Gloss=F.SG.3.POSS
+10	dey	dey	VERB	_	VerbType=Cop	3	conj	_	AlignBegin=86150|AlignEnd=86277|Gloss=be2
+11	her	her	PRON	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes	13	nmod:poss	_	AlignBegin=86277|AlignEnd=86380|Gloss=F.SG.3.POSS
 12	final	final	ADJ	_	_	13	amod	_	AlignBegin=86380|AlignEnd=86700|Gloss=final
 13	year	year	NOUN	_	_	10	xcomp	_	AlignBegin=86700|AlignEnd=86852|Gloss=year
 14	//	//	PUNCT	_	_	3	punct	_	AlignBegin=86852|AlignEnd=86882|Gloss=PUNCT
@@ -658,9 +658,9 @@
 1	so	so	ADV	_	_	4	discourse	_	AlignBegin=86882|AlignEnd=86987|Gloss=so
 2	she	she	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	AlignBegin=86987|AlignEnd=87078|Gloss=NOM.F.SG.3
 3	con	con	AUX	_	Aspect=Cons	4	aux	_	AlignBegin=87078|AlignEnd=87190|Gloss=CONS
-4	dey	dey	VERB	_	VerbType=Cop	0	root	_	AlignBegin=87190|AlignEnd=87307|Gloss=dey.COP
+4	dey	dey	VERB	_	VerbType=Cop	0	root	_	AlignBegin=87190|AlignEnd=87307|Gloss=be2
 5	in	in	ADP	_	_	9	case	_	AlignBegin=87307|AlignEnd=87365|Gloss=in
-6	her	her	ADJ	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes	8	amod	_	AlignBegin=87365|AlignEnd=87436|Gloss=F.SG.3.POSS
+6	her	her	PRON	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes	8	nmod:poss	_	AlignBegin=87365|AlignEnd=87436|Gloss=F.SG.3.POSS
 7	final	final	ADJ	_	_	8	amod	_	AlignBegin=87436|AlignEnd=87800|Gloss=final
 8	year	year	NOUN	_	_	9	compound	_	AlignBegin=87800|AlignEnd=87860|Gloss=year
 9	project	project	NOUN	_	_	4	xcomp	_	AlignBegin=87860|AlignEnd=88352|Gloss=project
@@ -692,13 +692,13 @@
 4	di	the	DET	_	Definite=Def|PronType=Art	6	det	_	AlignBegin=92210|AlignEnd=92330|Gloss=DEF.ART
 5	only	only	ADJ	_	_	6	amod	_	AlignBegin=92330|AlignEnd=92544|Gloss=only
 6	place	place	NOUN	_	_	17	nsubj	_	AlignBegin=92544|AlignEnd=92724|Gloss=place
-7	wey	wey	SCONJ	_	_	10	mark	_	AlignBegin=92724|AlignEnd=92812|Gloss=when|gloss=REL
+7	wey	wey	SCONJ	_	_	10	mark	_	AlignBegin=92724|AlignEnd=92812|Gloss=REL
 8	she	she	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	AlignBegin=92812|AlignEnd=92930|Gloss=NOM.F.SG.3
 9	fit	fit	AUX	_	Mood=Pot	10	aux	_	AlignBegin=92930|AlignEnd=93090|Gloss=ABIL
 10	do	do	VERB	_	_	6	acl:relcl	_	AlignBegin=93090|AlignEnd=93273|Gloss=do
 11	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	10	obj	_	AlignBegin=93273|AlignEnd=93470|Gloss=ACC.SG.3
 12	<	<	PUNCT	_	_	6	punct	_	AlignBegin=93470|AlignEnd=93500|Gloss=PUNCT
-13	na	na	AUX	_	PartType=Cop	17	cop	_	AlignBegin=93500|AlignEnd=93690|Gloss=be.COP
+13	na	na	AUX	_	PartType=Cop	17	cop	_	AlignBegin=93500|AlignEnd=93690|Gloss=be1
 14	for	for	ADP	_	_	17	case	_	AlignBegin=93690|AlignEnd=94440|Gloss=for
 15	#	#	PUNCT	_	_	17	punct	_	AlignBegin=94440|AlignEnd=94920|Gloss=PUNCT
 16	admin's	admin's	NOUN	_	_	17	compound	_	AlignBegin=94920|AlignEnd=95360|Gloss=administration.GEN
@@ -765,7 +765,7 @@
 # text_en = So it was there, I saw her there sitting down looking like…
 # text_ortho = So na here, I see am dere wey she siddon look like…
 1	so	so	ADV	_	_	3	discourse	_	AlignBegin=101067|AlignEnd=101170|Gloss=so
-2	na	na	AUX	_	PartType=Cop	3	cop	_	AlignBegin=101170|AlignEnd=101341|Gloss=be.COP
+2	na	na	AUX	_	PartType=Cop	3	cop	_	AlignBegin=101170|AlignEnd=101341|Gloss=be1
 3	here	here	ADV	_	_	0	root	_	AlignBegin=101341|AlignEnd=101460|Gloss=here
 4	>+	>+	PUNCT	_	_	6	punct	_	AlignBegin=101460|AlignEnd=101490|Gloss=PUNCT
 5	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	AlignBegin=101490|AlignEnd=101531|Gloss=NOM.SG.1
@@ -786,7 +786,7 @@
 # text = in fact < { [eng she was looking eng] || she dey look || she look } so miserable like sey # [ ehe # dat wish na punishment //+ # because she no get choice ] //
 # text_en = In fact, she was looking… she looked… she looked so miserable like it was a punishment because she didn't have a choice.
 # text_ortho = In fact, she was looking… , she dey look, she look so miserable like sey ehe dat wish na punishment, because she no get choice.
-1	in	in	ADP	_	_	8	dep	_	AlignBegin=103724|AlignEnd=103805|Gloss=in
+1	in	in	ADP	_	_	8	dep	_	AlignBegin=103724|AlignEnd=103805|EXTPOS=ADV|Gloss=in
 2	fact	fact	NOUN	_	_	1	fixed	_	AlignBegin=103805|AlignEnd=103951|Gloss=fact
 3	<	<	PUNCT	_	_	1	punct	_	AlignBegin=103951|AlignEnd=103981|Gloss=PUNCT
 4	{	{	PUNCT	_	_	8	punct	_	AlignBegin=103951|AlignEnd=103981|Gloss=PUNCT
@@ -813,7 +813,7 @@
 25	#	#	PUNCT	_	_	24	punct	_	AlignBegin=107205|AlignEnd=107300|Gloss=PUNCT
 26	dat	dat	DET	_	Number=Sing|PronType=Dem	27	det	_	AlignBegin=107300|AlignEnd=107600|Gloss=SG.DIST.DEM
 27	wish	wish	NOUN	_	_	29	nsubj	_	AlignBegin=107600|AlignEnd=107770|Gloss=wish
-28	na	na	AUX	_	PartType=Cop	29	cop	_	AlignBegin=107770|AlignEnd=107980|Gloss=be.COP
+28	na	na	AUX	_	PartType=Cop	29	cop	_	AlignBegin=107770|AlignEnd=107980|Gloss=be1
 29	punishment	punishment	NOUN	_	_	16	advcl	_	AlignBegin=107980|AlignEnd=108630|Gloss=punishment
 30	//+	//+	PUNCT	_	_	35	punct	_	AlignBegin=108630|AlignEnd=108660|Gloss=PUNCT
 31	#	#	PUNCT	_	_	35	punct	_	AlignBegin=108660|AlignEnd=109040|Gloss=PUNCT
@@ -840,7 +840,7 @@
 7	<	<	PUNCT	_	_	5	punct	_	AlignBegin=111110|AlignEnd=111140|Gloss=PUNCT
 8	#	#	PUNCT	_	_	5	punct	_	AlignBegin=111140|AlignEnd=111440|Gloss=PUNCT
 9	naim	naim	ADV	_	_	12	advmod:periph	_	AlignBegin=111440|AlignEnd=111601|Gloss=then
-10	her	her	ADJ	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes	11	amod	_	AlignBegin=111601|AlignEnd=111740|Gloss=F.SG.3.POSS
+10	her	her	PRON	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes	11	nmod:poss	_	AlignBegin=111601|AlignEnd=111740|Gloss=F.SG.3.POSS
 11	face	face	NOUN	_	_	12	nsubj	_	AlignBegin=111740|AlignEnd=112101|Gloss=face
 12	brighten	brighten	VERB	_	_	0	root	_	AlignBegin=112101|AlignEnd=112587|Gloss=brighten
 13	wit	wit	ADP	_	_	14	mark	_	AlignBegin=112587|AlignEnd=112750|Gloss=with
@@ -909,7 +909,7 @@
 4	{	{	PUNCT	_	_	6	punct	_	AlignBegin=116778|AlignEnd=116885|Gloss=PUNCT
 5	for	for	AUX	_	Mood=Cond	6	aux	_	AlignBegin=116885|AlignEnd=117015|Gloss=COND
 6	take	take	VERB	_	_	0	root	_	AlignBegin=117045|AlignEnd=117213|Gloss=take
-7	my	my	ADJ	_	Number=Sing|Person=1|Poss=Yes	9	amod	_	AlignBegin=117213|AlignEnd=117325|Gloss=SG.1.POSS
+7	my	my	PRON	_	Number=Sing|Person=1|Poss=Yes	9	nmod:poss	_	AlignBegin=117213|AlignEnd=117325|Gloss=SG.1.POSS
 8	matric	matric	NOUN	_	_	9	compound	_	AlignBegin=117325|AlignEnd=117643|Gloss=matriculation
 9	number	number	NOUN	_	_	6	obj	_	AlignBegin=117643|AlignEnd=117980|Gloss=number
 10	#	#	PUNCT	_	_	12	punct	_	AlignBegin=117980|AlignEnd=118070|Gloss=PUNCT
@@ -945,8 +945,8 @@
 # text_en = """This is your problem, keep dealing with it!"""
 # text_ortho = Na your cross, carry am go!
 1	#	#	PUNCT	_	_	4	punct	_	AlignBegin=121200|AlignEnd=121350|Gloss=PUNCT
-2	na	na	AUX	_	PartType=Cop	4	cop	_	AlignBegin=121350|AlignEnd=121512|Gloss=be.COP
-3	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	4	amod	_	AlignBegin=121512|AlignEnd=121663|Gloss=PL.2.POSS
+2	na	na	AUX	_	PartType=Cop	4	cop	_	AlignBegin=121350|AlignEnd=121512|Gloss=be1
+3	your	your	PRON	_	Number=Plur|Person=2|Poss=Yes	4	nmod:poss	_	AlignBegin=121512|AlignEnd=121663|Gloss=PL.2.POSS
 4	cross	cross	NOUN	_	_	0	root	_	AlignBegin=121663|AlignEnd=121900|Gloss=cross
 5	//=	//=	PUNCT	_	_	6	punct	_	AlignBegin=121900|AlignEnd=122050|Gloss=PUNCT
 6	carry	carry	VERB	_	_	4	parataxis:conj	_	AlignBegin=121900|AlignEnd=122050|Gloss=carry
@@ -981,7 +981,7 @@
 # text = na so >+ I take cancel di eleba story //
 # text_en = That was how I cancelled the eleba story.
 # text_ortho = Na so, I take cancel di eleba story.
-1	na	na	AUX	_	PartType=Cop	2	cop	_	AlignBegin=124153|AlignEnd=124340|Gloss=be.COP
+1	na	na	AUX	_	PartType=Cop	2	cop	_	AlignBegin=124153|AlignEnd=124340|Gloss=be1
 2	so	so	ADV	_	_	0	root	_	AlignBegin=124340|AlignEnd=124520|Gloss=so
 3	>+	>+	PUNCT	_	_	5	punct	_	AlignBegin=124340|AlignEnd=124520|Gloss=PUNCT
 4	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	AlignBegin=124520|AlignEnd=124675|Gloss=NOM.SG.1
@@ -1015,7 +1015,7 @@
 15	#	#	PUNCT	_	_	19	punct	_	AlignBegin=129080|AlignEnd=129460|Gloss=PUNCT
 16	[	[	PUNCT	_	_	19	punct	_	AlignBegin=129430|AlignEnd=129460|Gloss=PUNCT
 17	ehe	ehe	INTJ	_	_	19	discourse	_	AlignBegin=129460|AlignEnd=129720|Gloss=ehe
-18	na	na	AUX	_	PartType=Cop	19	cop	_	AlignBegin=129750|AlignEnd=129909|Gloss=be.COP
+18	na	na	AUX	_	PartType=Cop	19	cop	_	AlignBegin=129750|AlignEnd=129909|Gloss=be1
 19	me	me	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	ccomp	_	AlignBegin=129909|AlignEnd=129970|Gloss=NOM.SG.1
 20	>+	>+	PUNCT	_	_	21	punct	_	AlignBegin=129970|AlignEnd=130000|Gloss=PUNCT
 21	send	send	VERB	_	_	19	advcl:cleft	_	AlignBegin=130000|AlignEnd=130210|Gloss=send
@@ -1088,11 +1088,11 @@
 # text_ortho = Ehen na dere, you go.
 1	#	#	PUNCT	_	_	4	punct	_	AlignBegin=143101|AlignEnd=143800|Gloss=PUNCT
 2	ehen	ehen	INTJ	_	_	4	discourse	_	AlignBegin=143800|AlignEnd=144220|Gloss=ehen
-3	na	na	AUX	_	PartType=Cop	4	cop	_	AlignBegin=144250|AlignEnd=144410|Gloss=be.COP
+3	na	na	AUX	_	PartType=Cop	4	cop	_	AlignBegin=144250|AlignEnd=144410|Gloss=be1
 4	dere	dere	ADV	_	_	0	root	_	AlignBegin=144410|AlignEnd=144633|Gloss=there
 5	>+	>+	PUNCT	_	_	7	punct	_	AlignBegin=144633|AlignEnd=144663|Gloss=PUNCT
 6	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	7	nsubj	_	AlignBegin=144663|AlignEnd=144780|Gloss=NOM.2
-7	go	go	AUX	_	Aspect=Prosp	4	advcl:cleft	_	AlignBegin=144780|AlignEnd=144930|Gloss=CONT
+7	go	go	AUX	_	Aspect=Prosp	4	advcl:cleft	_	AlignBegin=144780|AlignEnd=144930|Gloss=PROSP
 8	//	//	PUNCT	_	_	4	punct	_	AlignBegin=144930|AlignEnd=144960|Gloss=PUNCT
 
 # sent_id = ENU_37_Dmoris-Restaurant_MG__57
@@ -1102,12 +1102,12 @@
 # text_en = That was why she…
 # text_ortho = Na im, make e dey…
 1	#	#	PUNCT	_	_	3	punct	_	AlignBegin=144960|AlignEnd=145200|Gloss=PUNCT
-2	na	na	AUX	_	PartType=Cop	3	cop	_	AlignBegin=145200|AlignEnd=145340|Gloss=be.COP
-3	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	0	root	_	AlignBegin=145200|AlignEnd=145340|Gloss=NOM.SG.3
+2	na	na	AUX	_	PartType=Cop	3	cop	_	AlignBegin=145200|AlignEnd=145340|EXTPOS=SCONJ|Gloss=be1
+3	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	0	root	_	AlignBegin=145200|AlignEnd=145340|Gloss=NOM.SG.3|INMWE=Yes
 4	>+	>+	PUNCT	_	_	5	punct	_	AlignBegin=145340|AlignEnd=145370|Gloss=PUNCT
 5	make	make	VERB	_	_	3	advcl:cleft	_	AlignBegin=145370|AlignEnd=145780|Gloss=make
 6	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	AlignBegin=145780|AlignEnd=145913|Gloss=NOM.SG.3
-7	dey	dey	VERB	_	VerbType=Cop	5	ccomp	_	AlignBegin=145913|AlignEnd=146044|Gloss=dey.COP
+7	dey	dey	VERB	_	VerbType=Cop	5	ccomp	_	AlignBegin=145913|AlignEnd=146044|Gloss=be2
 8	//	//	PUNCT	_	_	3	punct	_	AlignBegin=146044|AlignEnd=146074|Gloss=PUNCT
 
 # sent_id = ENU_37_Dmoris-Restaurant_MG__58
@@ -1116,8 +1116,8 @@
 # text = na im >+ make am # pin everybody because all dose places wey guys dey < # ah e plenty now !//
 # text_en = That was why she pinned everybody because all those places where guys are, ah there are so many!
 # text_ortho = Na im, make am pin everybody because all dose places wey guys dey, ah e plenty now!
-1	na	na	AUX	_	PartType=Cop	2	cop	_	AlignBegin=146074|AlignEnd=146167|Gloss=be.COP
-2	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	0	root	_	AlignBegin=146167|AlignEnd=146230|Gloss=NOM.SG.3
+1	na	na	AUX	_	PartType=Cop	2	cop	_	AlignBegin=146074|AlignEnd=146167|EXTPOS=SCONJ|Gloss=be1
+2	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	0	root	_	AlignBegin=146167|AlignEnd=146230|Gloss=NOM.SG.3|INMWE=Yes
 3	>+	>+	PUNCT	_	_	4	punct	_	AlignBegin=146230|AlignEnd=146260|Gloss=PUNCT
 4	make	make	VERB	_	_	2	advcl:cleft	_	AlignBegin=146260|AlignEnd=146470|Gloss=make
 5	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	4	obj	_	AlignBegin=146470|AlignEnd=146620|Gloss=ACC.SG.3
@@ -1125,12 +1125,12 @@
 7	pin	pin	VERB	_	_	4	xcomp	_	AlignBegin=146770|AlignEnd=147000|Gloss=pin
 8	everybody	everybody	PRON	_	_	7	obj	_	AlignBegin=147000|AlignEnd=147470|Gloss=everybody
 9	because	because	SCONJ	_	_	20	mark	_	AlignBegin=147470|AlignEnd=147800|Gloss=because
-10	all	all	ADV	_	_	12	det	_	AlignBegin=147800|AlignEnd=147940|Gloss=all
+10	all	all	ADV	_	_	12	advmod	_	AlignBegin=147800|AlignEnd=147940|Gloss=all
 11	dose	dose	DET	_	Number=Plur|PronType=Dem	12	det	_	AlignBegin=147940|AlignEnd=148168|Gloss=PL.DIST.DEM
 12	places	place	NOUN	_	Number=Plur	20	dislocated	_	AlignBegin=148168|AlignEnd=148580|Gloss=place.PL
-13	wey	wey	SCONJ	_	_	15	mark	_	AlignBegin=148580|AlignEnd=148710|Gloss=when|gloss=REL
+13	wey	wey	SCONJ	_	_	15	mark	_	AlignBegin=148580|AlignEnd=148710|Gloss=REL
 14	guys	guy	NOUN	_	Number=Plur	15	nsubj	_	AlignBegin=148710|AlignEnd=149050|Gloss=guy.PL
-15	dey	dey	VERB	_	VerbType=Cop	12	acl:relcl	_	AlignBegin=149050|AlignEnd=149370|Gloss=dey.COP
+15	dey	dey	VERB	_	VerbType=Cop	12	acl:relcl	_	AlignBegin=149050|AlignEnd=149370|Gloss=be2
 16	<	<	PUNCT	_	_	12	punct	_	AlignBegin=149370|AlignEnd=149400|Gloss=PUNCT
 17	#	#	PUNCT	_	_	12	punct	_	AlignBegin=149400|AlignEnd=149762|Gloss=PUNCT
 18	ah	ah	INTJ	_	_	20	discourse	_	AlignBegin=149762|AlignEnd=149910|Gloss=ah
@@ -1200,7 +1200,7 @@
 # text_en = In fact, there is one…
 # text_ortho = In fact, e get one…
 1	#	#	PUNCT	_	_	6	punct	_	AlignBegin=160240|AlignEnd=160600|Gloss=PUNCT
-2	in	in	ADP	_	_	6	dep	_	AlignBegin=160600|AlignEnd=160698|Gloss=in
+2	in	in	ADP	_	_	6	dep	_	AlignBegin=160600|AlignEnd=160698|EXTPOS=ADV|Gloss=in
 3	fact	fact	NOUN	_	_	2	fixed	_	AlignBegin=160698|AlignEnd=160910|Gloss=fact
 4	<	<	PUNCT	_	_	2	punct	_	AlignBegin=160910|AlignEnd=160940|Gloss=PUNCT
 5	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	6	expl:subj	_	AlignBegin=160940|AlignEnd=161044|Gloss=NOM.SG.3
@@ -1217,7 +1217,7 @@
 1	#	#	PUNCT	_	_	3	punct	_	AlignBegin=161660|AlignEnd=162120|Gloss=PUNCT
 2	ah	ah	INTJ	_	_	3	discourse	_	AlignBegin=162120|AlignEnd=162190|Gloss=ah
 3	wetin	wetin	PRON	_	PronType=Int	0	root	_	AlignBegin=162220|AlignEnd=162331|Gloss=what.Q
-4	be	be	VERB	_	PartType=Cop	3	advcl:cleft	_	AlignBegin=162331|AlignEnd=162465|Gloss=be.COP
+4	be	be	VERB	_	PartType=Cop	3	advcl:cleft	_	AlignBegin=162331|AlignEnd=162465|Gloss=be1
 5	dat	dat	DET	_	Number=Sing|PronType=Dem	7	det	_	AlignBegin=162465|AlignEnd=162640|Gloss=SG.DIST.DEM
 6	guy	guy	NOUN	_	_	7	nmod	_	AlignBegin=162640|AlignEnd=162838|Gloss=guy
 7	name	name	NOUN	_	_	4	nsubj	_	AlignBegin=162838|AlignEnd=163070|Gloss=name
@@ -1257,7 +1257,7 @@
 25	chicken	chicken	NOUN	_	_	21	conj	_	AlignBegin=169275|AlignEnd=169560|Gloss=chicken
 26	|c	|c	PUNCT	_	_	30	punct	_	AlignBegin=169560|AlignEnd=169590|Gloss=PUNCT
 27	and	and	CCONJ	_	_	30	cc	_	AlignBegin=169590|AlignEnd=169720|Gloss=and
-28	all	all	ADV	_	_	30	det	_	AlignBegin=169720|AlignEnd=169850|Gloss=all
+28	all	all	ADV	_	_	30	advmod	_	AlignBegin=169720|AlignEnd=169850|Gloss=all
 29	di	the	DET	_	Definite=Def|PronType=Art	30	det	_	AlignBegin=169850|AlignEnd=170020|Gloss=DEF.ART
 30	rest	rest	NOUN	_	_	21	conj	_	AlignBegin=170020|AlignEnd=170366|Gloss=rest
 31	}	}	PUNCT	_	_	25	punct	_	AlignBegin=170366|AlignEnd=170396|Gloss=PUNCT
@@ -1275,7 +1275,7 @@
 4	time	time	NOUN	_	_	11	obl:mod	_	AlignBegin=171170|AlignEnd=171430|Gloss=time
 5	<	<	PUNCT	_	_	4	punct	_	AlignBegin=171430|AlignEnd=171460|Gloss=PUNCT
 6	#	#	PUNCT	_	_	4	punct	_	AlignBegin=171460|AlignEnd=171820|Gloss=PUNCT
-7	na	na	AUX	_	PartType=Cop	11	discourse	_	AlignBegin=171820|AlignEnd=171960|Gloss=be.COP
+7	na	na	AUX	_	PartType=Cop	11	discourse	_	AlignBegin=171820|AlignEnd=171960|Gloss=be1
 8	di	the	DET	_	Definite=Def|PronType=Art	9	det	_	AlignBegin=171960|AlignEnd=172074|Gloss=DEF.ART
 9	ting	ting	NOUN	_	_	11	nsubj	_	AlignBegin=172074|AlignEnd=172210|Gloss=thing
 10	no	no	PART	_	Polarity=Neg	11	advmod	_	AlignBegin=172210|AlignEnd=172350|Gloss=NEG
@@ -1297,7 +1297,7 @@
 6	chips	chip	NOUN	_	Number=Plur	3	conj	_	AlignBegin=173705|AlignEnd=174304|Gloss=chip.PL
 7	}	}	PUNCT	_	_	3	punct	_	AlignBegin=174304|AlignEnd=174334|Gloss=PUNCT
 8	#	#	PUNCT	_	_	12	punct	_	AlignBegin=174334|AlignEnd=174620|Gloss=PUNCT
-9	wey	wey	SCONJ	_	_	12	mark	_	AlignBegin=174620|AlignEnd=174706|Gloss=when|gloss=REL
+9	wey	wey	SCONJ	_	_	12	mark	_	AlignBegin=174620|AlignEnd=174706|Gloss=REL
 10	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	12	nsubj	_	AlignBegin=174706|AlignEnd=174790|Gloss=NOM.PL.3
 11	dey	dey	AUX	_	Aspect=Imp	12	aux	_	AlignBegin=174790|AlignEnd=174888|Gloss=IPFV
 12	sell	sell	VERB	_	_	6	acl:relcl	_	AlignBegin=174888|AlignEnd=175290|Gloss=sell
@@ -1311,12 +1311,12 @@
 20	time	time	NOUN	_	_	12	obl:mod	_	AlignBegin=176400|AlignEnd=176510|Gloss=time
 21	<	<	PUNCT	_	_	3	punct	_	AlignBegin=176510|AlignEnd=176540|Gloss=PUNCT
 22	#	#	PUNCT	_	_	3	punct	_	AlignBegin=176540|AlignEnd=176920|Gloss=PUNCT
-23	na	na	AUX	_	PartType=Cop	30	discourse	_	AlignBegin=176920|AlignEnd=177115|Gloss=be.COP
+23	na	na	AUX	_	PartType=Cop	30	discourse	_	AlignBegin=176920|AlignEnd=177115|Gloss=be1
 24	dat	dat	DET	_	Number=Sing|PronType=Dem	25	det	_	AlignBegin=177115|AlignEnd=177236|Gloss=SG.DEM
 25	two	two	NUM	_	NumType=Card	30	nsubj	_	AlignBegin=177236|AlignEnd=177336|Gloss=two.CARD
 26	and	and	CCONJ	_	_	27	cc	_	AlignBegin=177336|AlignEnd=177421|Gloss=and
 27	fifty	fifty	NUM	_	NumType=Card	25	conj	_	AlignBegin=177421|AlignEnd=177551|Gloss=fifty.CARD
-28	na	na	AUX	_	PartType=Cop	30	cop	_	AlignBegin=177551|AlignEnd=177930|Gloss=be.COP
+28	na	na	AUX	_	PartType=Cop	30	cop	_	AlignBegin=177551|AlignEnd=177930|Gloss=be1
 29	big	big	ADJ	_	_	30	amod	_	AlignBegin=177930|AlignEnd=178180|Gloss=big
 30	money	money	NOUN	_	_	0	root	_	AlignBegin=178180|AlignEnd=178480|Gloss=money
 31	o	o	PART	_	PartType=Disc	30	advmod:periph	_	AlignBegin=178480|AlignEnd=178670|Gloss=EMPH
@@ -1357,7 +1357,7 @@
 6	one	one	DET	_	Definite=Spec|PronType=Art	8	det	_	AlignBegin=183688|AlignEnd=183790|Gloss=SPEC.ART
 7	foolish	foolish	ADJ	_	_	8	amod	_	AlignBegin=183790|AlignEnd=184080|Gloss=foolish
 8	ting	ting	NOUN	_	_	5	nsubj	_	AlignBegin=184080|AlignEnd=184170|Gloss=thing
-9	wey	wey	SCONJ	_	_	11	mark	_	AlignBegin=184170|AlignEnd=184230|Gloss=when|gloss=REL
+9	wey	wey	SCONJ	_	_	11	mark	_	AlignBegin=184170|AlignEnd=184230|Gloss=REL
 10	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	AlignBegin=184230|AlignEnd=184302|Gloss=NOM.SG.1
 11	do	do	VERB	_	_	8	acl:relcl	_	AlignBegin=184302|AlignEnd=184429|Gloss=do
 12	one	one	DET	_	Definite=Spec|PronType=Art	13	det	_	AlignBegin=184429|AlignEnd=184592|Gloss=SPEC.ART
@@ -1369,13 +1369,13 @@
 18	remember	remember	VERB	_	_	16	acl:relcl	_	AlignBegin=184960|AlignEnd=185103|Gloss=remember
 19	<	<	PUNCT	_	_	16	punct	_	AlignBegin=185103|AlignEnd=185133|Gloss=PUNCT
 20	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	23	nsubj	_	AlignBegin=185133|AlignEnd=185189|Gloss=NOM.SG.1
-21	go	go	AUX	_	Aspect=Prosp	23	aux	_	AlignBegin=185189|AlignEnd=185280|Gloss=CONT
+21	go	go	AUX	_	Aspect=Prosp	23	aux	_	AlignBegin=185189|AlignEnd=185280|Gloss=PROSP
 22	just	just	ADV	_	_	23	advmod	_	AlignBegin=185280|AlignEnd=185386|Gloss=just
 23	look	look	VERB	_	_	0	root	_	AlignBegin=185386|AlignEnd=185556|Gloss=look
 24	mysef	mysef	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	23	obj	_	AlignBegin=185556|AlignEnd=185720|Gloss=ACC.SG.1.REFL
 25	//=	//=	PUNCT	_	_	30	punct	_	AlignBegin=185720|AlignEnd=185750|Gloss=PUNCT
 26	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	30	nsubj	_	AlignBegin=185750|AlignEnd=185820|Gloss=NOM.SG.1
-27	go	go	AUX	_	Aspect=Prosp	30	aux	_	AlignBegin=185820|AlignEnd=185880|Gloss=CONT
+27	go	go	AUX	_	Aspect=Prosp	30	aux	_	AlignBegin=185820|AlignEnd=185880|Gloss=PROSP
 28	just	just	ADV	_	_	30	advmod	_	AlignBegin=185880|AlignEnd=186005|Gloss=just
 29	dey	dey	AUX	_	Aspect=Imp	30	aux	_	AlignBegin=186005|AlignEnd=186106|Gloss=IPFV
 30	laugh	laugh	VERB	_	_	23	parataxis:conj	_	AlignBegin=186106|AlignEnd=186370|Gloss=laugh
@@ -1398,7 +1398,7 @@
 8	ehn	ehn	INTJ	_	_	9	discourse	_	AlignBegin=188310|AlignEnd=188511|Gloss=ehn
 9	one	one	NUM	_	NumType=Card	3	conj:dicto	_	AlignBegin=188541|AlignEnd=188710|Gloss=one
 10	of	of	ADP	_	_	12	case	_	AlignBegin=188710|AlignEnd=188784|Gloss=of
-11	my	my	ADJ	_	Number=Sing|Person=1|Poss=Yes	12	amod	_	AlignBegin=188814|AlignEnd=189043|Gloss=SG.1.POSS
+11	my	my	PRON	_	Number=Sing|Person=1|Poss=Yes	12	nmod:poss	_	AlignBegin=188814|AlignEnd=189043|Gloss=SG.1.POSS
 12	friend	friend	NOUN	_	_	9	nmod	_	AlignBegin=189043|AlignEnd=189438|Gloss=friend
 13	|a	|a	PUNCT	_	_	15	punct	_	AlignBegin=189438|AlignEnd=189468|Gloss=PUNCT
 14	one	one	DET	_	Definite=Spec|PronType=Art	15	det	_	AlignBegin=189468|AlignEnd=189740|Gloss=SPEC.ART
@@ -1406,19 +1406,19 @@
 16	o	o	PART	_	PartType=Disc	15	advmod:emph	_	AlignBegin=190019|AlignEnd=190120|Gloss=EMPH
 17	}	}	PUNCT	_	_	5	punct	_	AlignBegin=190120|AlignEnd=190150|Gloss=PUNCT
 18	(	(	PUNCT	_	_	29	punct	_	AlignBegin=190120|AlignEnd=190150|Gloss=PUNCT
-19	in	in	ADP	_	_	29	dep	_	AlignBegin=190150|AlignEnd=190261|Gloss=in
+19	in	in	ADP	_	_	29	dep	_	AlignBegin=190150|AlignEnd=190261|EXTPOS=ADV|Gloss=in
 20	fact	fact	NOUN	_	_	19	fixed	_	AlignBegin=190261|AlignEnd=190480|Gloss=fact
 21	<	<	PUNCT	_	_	19	punct	_	AlignBegin=190480|AlignEnd=190510|Gloss=PUNCT
 22	like	like	ADP	_	_	29	parataxis:discourse	_	AlignBegin=190510|AlignEnd=190667|Gloss=like
 23	to	to	ADP	_	_	22	fixed	_	AlignBegin=190667|AlignEnd=190839|Gloss=to
 24	say	say	VERB	_	_	22	fixed	_	AlignBegin=190839|AlignEnd=190994|Gloss=say
-25	na	na	AUX	_	PartType=Cop	29	cop	_	AlignBegin=191024|AlignEnd=191160|Gloss=be.COP
-26	my	my	ADJ	_	Number=Sing|Person=1|Poss=Yes	29	amod	_	AlignBegin=191160|AlignEnd=191380|Gloss=SG.1.POSS
+25	na	na	AUX	_	PartType=Cop	29	cop	_	AlignBegin=191024|AlignEnd=191160|Gloss=be1
+26	my	my	PRON	_	Number=Sing|Person=1|Poss=Yes	29	nmod:poss	_	AlignBegin=191160|AlignEnd=191380|Gloss=SG.1.POSS
 27	first	first	ADJ	_	NumType=Ord	29	amod	_	AlignBegin=191380|AlignEnd=192120|Gloss=first.ORD
 28	#	#	PUNCT	_	_	27	punct	_	AlignBegin=192120|AlignEnd=192320|Gloss=PUNCT
 29	girlfriend	girlfriend	NOUN	_	_	15	parataxis:parenth	_	AlignBegin=192320|AlignEnd=192680|Gloss=girlfriend
 30	>+	>+	PUNCT	_	_	31	punct	_	AlignBegin=192680|AlignEnd=192710|Gloss=PUNCT
-31	be	be	VERB	_	PartType=Cop	29	advcl:cleft	_	AlignBegin=192710|AlignEnd=192815|Gloss=be.COP
+31	be	be	VERB	_	PartType=Cop	29	advcl:cleft	_	AlignBegin=192710|AlignEnd=192815|Gloss=be1
 32	dat	dat	DET	_	Number=Sing|PronType=Dem	33	det	_	AlignBegin=192815|AlignEnd=193009|Gloss=SG.DIST.DEM
 33	one	one	NOUN	_	_	31	nsubj	_	AlignBegin=193009|AlignEnd=193250|Gloss=one
 34	)	)	PUNCT	_	_	29	punct	_	AlignBegin=193250|AlignEnd=193280|Gloss=PUNCT
@@ -1449,7 +1449,7 @@
 3	#	#	PUNCT	_	_	2	punct	_	AlignBegin=197020|AlignEnd=197320|Gloss=PUNCT
 4	as	as	ADP	_	_	6	mark	_	AlignBegin=197320|AlignEnd=197660|Gloss=as
 5	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	6	expl:subj	_	AlignBegin=197660|AlignEnd=197766|Gloss=NOM.SG.3
-6	dey	dey	VERB	_	VerbType=Cop	9	acl:periph	_	AlignBegin=197766|AlignEnd=198500|Gloss=dey.COP
+6	dey	dey	VERB	_	VerbType=Cop	9	acl:periph	_	AlignBegin=197766|AlignEnd=198500|Gloss=be2
 7	#	#	PUNCT	_	_	6	punct	_	AlignBegin=198500|AlignEnd=199040|Gloss=PUNCT
 8	{	{	PUNCT	_	_	9	punct	_	AlignBegin=199010|AlignEnd=199040|Gloss=PUNCT
 9	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	0	root	_	AlignBegin=199040|AlignEnd=199226|Gloss=NOM.2
@@ -1468,7 +1468,7 @@
 2	as	as	ADP	_	_	4	mark	_	AlignBegin=199610|AlignEnd=199970|Gloss=as
 3	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	AlignBegin=199970|AlignEnd=200146|Gloss=NOM.SG.1
 4	come	come	VERB	_	_	14	advcl:periph	_	AlignBegin=200146|AlignEnd=200380|Gloss=come
-5	deir	deir	ADJ	_	Number=Plur|Person=3|Poss=Yes	6	amod	_	AlignBegin=200380|AlignEnd=200561|Gloss=3.PL.POSS
+5	deir	deir	PRON	_	Number=Plur|Person=3|Poss=Yes	6	nmod:poss	_	AlignBegin=200380|AlignEnd=200561|Gloss=3.PL.POSS
 6	house	house	NOUN	_	_	4	obj	_	AlignBegin=200561|AlignEnd=200800|Gloss=house
 7	now	now	ADV	_	_	4	advmod:emph	_	AlignBegin=200800|AlignEnd=201155|Gloss=now
 8	<	<	PUNCT	_	_	4	punct	_	AlignBegin=201155|AlignEnd=201185|Gloss=PUNCT
@@ -1480,7 +1480,7 @@
 14	introduce	introduce	VERB	_	_	0	root	_	AlignBegin=201580|AlignEnd=201920|Gloss=introduce
 15	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	14	obj	_	AlignBegin=201920|AlignEnd=202024|Gloss=ACC.SG.1
 16	to	to	ADP	_	_	19	case	_	AlignBegin=202024|AlignEnd=202160|Gloss=to
-17	her	her	ADJ	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes	19	amod	_	AlignBegin=202160|AlignEnd=202360|Gloss=F.SG.3.POSS
+17	her	her	PRON	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes	19	nmod:poss	_	AlignBegin=202160|AlignEnd=202360|Gloss=F.SG.3.POSS
 18	younger	younger	ADJ	_	Degree=Cmp	19	amod	_	AlignBegin=202360|AlignEnd=202737|Gloss=young.CMPR
 19	broder	broder	NOUN	_	_	14	obl:arg	_	AlignBegin=202737|AlignEnd=202870|Gloss=brother
 20	//	//	PUNCT	_	_	14	punct	_	AlignBegin=202870|AlignEnd=202900|Gloss=PUNCT
@@ -1491,7 +1491,7 @@
 # text = her younger broder con { like me now |c dey follow me flow { well |r well } } //
 # text_en = Her younger brother really liked me and got along with me well.
 # text_ortho = Her younger broder con like me now, dey follow me flow well, well.
-1	her	her	ADJ	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes	3	amod	_	AlignBegin=202900|AlignEnd=202980|Gloss=F.SG.3.POSS
+1	her	her	PRON	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes	3	nmod:poss	_	AlignBegin=202900|AlignEnd=202980|Gloss=F.SG.3.POSS
 2	younger	younger	ADJ	_	Degree=Cmp	3	amod	_	AlignBegin=202980|AlignEnd=203200|Gloss=young.CMPR
 3	broder	broder	NOUN	_	_	6	nsubj	_	AlignBegin=203200|AlignEnd=203420|Gloss=brother
 4	con	con	AUX	_	Aspect=Cons	6	aux	_	AlignBegin=203420|AlignEnd=203580|Gloss=CONS
@@ -1538,7 +1538,7 @@
 # text_en = Then we…
 # text_ortho = Na we…
 1	#	#	PUNCT	_	_	3	punct	_	AlignBegin=207260|AlignEnd=207600|Gloss=PUNCT
-2	na	na	AUX	_	PartType=Cop	3	cop	_	AlignBegin=207600|AlignEnd=207810|Gloss=be.COP
+2	na	na	AUX	_	PartType=Cop	3	cop	_	AlignBegin=207600|AlignEnd=207810|Gloss=be1
 3	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	0	root	_	AlignBegin=207810|AlignEnd=207900|Gloss=NOM.PL.1
 4	&//	//	PUNCT	_	_	3	punct	_	AlignBegin=207900|AlignEnd=207930|Gloss=PUNCT
 
@@ -1651,15 +1651,15 @@
 5	chips	chip	NOUN	_	Number=Plur	3	conj	_	AlignBegin=215010|AlignEnd=215132|Gloss=chip.PL
 6	}	}	PUNCT	_	_	3	punct	_	AlignBegin=215132|AlignEnd=215162|Gloss=PUNCT
 7	<	<	PUNCT	_	_	3	punct	_	AlignBegin=215132|AlignEnd=215162|Gloss=PUNCT
-8	na	na	AUX	_	PartType=Cop	9	cop	_	AlignBegin=215162|AlignEnd=215223|Gloss=be.COP
-9	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	0	root	_	AlignBegin=215223|AlignEnd=215260|Gloss=NOM.SG.3
+8	na	na	AUX	_	PartType=Cop	9	cop	_	AlignBegin=215162|AlignEnd=215223|EXTPOS=SCONJ|Gloss=be1
+9	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	0	root	_	AlignBegin=215223|AlignEnd=215260|Gloss=NOM.SG.3|INMWE=Yes
 10	>+	>+	PUNCT	_	_	11	punct	_	AlignBegin=215260|AlignEnd=215290|Gloss=PUNCT
 11	make	make	VERB	_	_	9	advcl:cleft	_	AlignBegin=215290|AlignEnd=215500|Gloss=make
 12	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	AlignBegin=215500|AlignEnd=215554|Gloss=NOM.SG.3
 13	dey	dey	AUX	_	Aspect=Imp	16	aux	_	AlignBegin=215554|AlignEnd=215660|Gloss=IPFV
-14	be	be	AUX	_	PartType=Cop	16	cop	_	AlignBegin=215660|AlignEnd=215890|Gloss=be.COP
+14	be	be	AUX	_	PartType=Cop	16	cop	_	AlignBegin=215660|AlignEnd=215890|Gloss=be1
 15	like	like	ADP	_	_	16	dep	_	AlignBegin=215890|AlignEnd=216097|EXTPOS=SCONJ|Gloss=like
-16	sey	sey	SCONJ	_	_	11	ccomp	_	AlignBegin=216097|AlignEnd=216916|Gloss=COMP
+16	sey	sey	SCONJ	_	_	11	ccomp	_	AlignBegin=216097|AlignEnd=216916|Gloss=COMP|INMWE=Yes
 17	&//	//	PUNCT	_	_	9	punct	_	AlignBegin=216916|AlignEnd=216946|Gloss=PUNCT
 
 # sent_id = ENU_37_Dmoris-Restaurant_MG__81
@@ -1693,7 +1693,7 @@
 # text_ortho = Sey e go talk true o, sey e never chop am before o, sey e go talk true, sey e no go lie, sey if I for... if, if I go fit buy am for am now, e no go mind.
 1	sey	sey	SCONJ	_	_	4	cc	_	AlignBegin=218785|AlignEnd=218910|Gloss=COMP
 2	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	AlignBegin=218910|AlignEnd=218982|Gloss=NOM.SG.3
-3	go	go	AUX	_	Aspect=Prosp	4	aux	_	AlignBegin=218982|AlignEnd=219130|Gloss=CONT
+3	go	go	AUX	_	Aspect=Prosp	4	aux	_	AlignBegin=218982|AlignEnd=219130|Gloss=PROSP
 4	talk	talk	VERB	_	_	0	root	_	AlignBegin=219130|AlignEnd=219370|Gloss=talk
 5	true	true	ADJ	_	_	4	obj	_	AlignBegin=219370|AlignEnd=219538|Gloss=true
 6	o	o	PART	_	PartType=Disc	5	advmod:emph	_	AlignBegin=219538|AlignEnd=219630|Gloss=EMPH
@@ -1710,7 +1710,7 @@
 17	#	#	PUNCT	_	_	21	punct	_	AlignBegin=221240|AlignEnd=221580|Gloss=PUNCT
 18	sey	sey	SCONJ	_	_	21	cc	_	AlignBegin=221580|AlignEnd=221760|Gloss=COMP
 19	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	AlignBegin=221760|AlignEnd=221840|Gloss=NOM.SG.3
-20	go	go	AUX	_	Aspect=Prosp	21	aux	_	AlignBegin=221840|AlignEnd=222036|Gloss=CONT
+20	go	go	AUX	_	Aspect=Prosp	21	aux	_	AlignBegin=221840|AlignEnd=222036|Gloss=PROSP
 21	talk	talk	VERB	_	_	12	parataxis:conj	_	AlignBegin=222036|AlignEnd=222280|Gloss=talk
 22	#	#	PUNCT	_	_	23	punct	_	AlignBegin=222280|AlignEnd=222430|Gloss=PUNCT
 23	true	true	ADJ	_	_	21	obj	_	AlignBegin=222430|AlignEnd=222522|Gloss=true
@@ -1718,7 +1718,7 @@
 25	sey	sey	SCONJ	_	_	29	cc	_	AlignBegin=222552|AlignEnd=222680|Gloss=COMP
 26	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	29	nsubj	_	AlignBegin=222680|AlignEnd=222737|Gloss=NOM.SG.3
 27	no	no	PART	_	Polarity=Neg	29	advmod	_	AlignBegin=222737|AlignEnd=222820|Gloss=NEG
-28	go	go	AUX	_	Aspect=Prosp	29	aux	_	AlignBegin=222820|AlignEnd=222960|Gloss=CONT
+28	go	go	AUX	_	Aspect=Prosp	29	aux	_	AlignBegin=222820|AlignEnd=222960|Gloss=PROSP
 29	lie	lie	VERB	_	_	21	parataxis:conj	_	AlignBegin=222960|AlignEnd=223210|Gloss=lie
 30	//=	//=	PUNCT	_	_	54	punct	_	AlignBegin=223210|AlignEnd=223240|Gloss=PUNCT
 31	#	#	PUNCT	_	_	54	punct	_	AlignBegin=223240|AlignEnd=223940|Gloss=PUNCT
@@ -1732,7 +1732,7 @@
 39	||	||	PUNCT	_	_	45	punct	_	AlignBegin=224730|AlignEnd=224760|Gloss=PUNCT
 40	if	if	SCONJ	_	_	45	mark	_	AlignBegin=224760|AlignEnd=224898|Gloss=if
 41	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	45	nsubj	_	AlignBegin=224898|AlignEnd=224974|Gloss=NOM.SG.1
-42	go	go	AUX	_	Aspect=Prosp	45	aux	_	AlignBegin=224974|AlignEnd=225040|Gloss=CONT
+42	go	go	AUX	_	Aspect=Prosp	45	aux	_	AlignBegin=224974|AlignEnd=225040|Gloss=PROSP
 43	}	}	PUNCT	_	_	36	punct	_	AlignBegin=225040|AlignEnd=225070|Gloss=PUNCT
 44	fit	fit	AUX	_	Mood=Pot	45	aux	_	AlignBegin=225070|AlignEnd=225260|Gloss=ABIL
 45	buy	buy	VERB	_	_	38	conj:dicto	_	AlignBegin=225260|AlignEnd=225450|Gloss=buy
@@ -1743,7 +1743,7 @@
 50	<	<	PUNCT	_	_	36	punct	_	AlignBegin=226010|AlignEnd=226040|Gloss=PUNCT
 51	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	54	nsubj	_	AlignBegin=226040|AlignEnd=226150|Gloss=NOM.SG.3
 52	no	no	PART	_	Polarity=Neg	54	advmod	_	AlignBegin=226150|AlignEnd=226290|Gloss=NEG
-53	go	go	AUX	_	Aspect=Prosp	54	aux	_	AlignBegin=226290|AlignEnd=226440|Gloss=CONT
+53	go	go	AUX	_	Aspect=Prosp	54	aux	_	AlignBegin=226290|AlignEnd=226440|Gloss=PROSP
 54	mind	mind	VERB	_	_	29	parataxis:conj	_	AlignBegin=226440|AlignEnd=226740|Gloss=mind
 55	//	//	PUNCT	_	_	4	punct	_	AlignBegin=226740|AlignEnd=226770|Gloss=PUNCT
 
@@ -1781,11 +1781,11 @@
 # text_ortho = We go see wetin we go do about am.
 1	#	#	PUNCT	_	_	4	punct	_	AlignBegin=229320|AlignEnd=229780|Gloss=PUNCT
 2	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	AlignBegin=229780|AlignEnd=229870|Gloss=NOM.PL.1
-3	go	go	AUX	_	Aspect=Prosp	4	aux	_	AlignBegin=229870|AlignEnd=229980|Gloss=CONT
+3	go	go	AUX	_	Aspect=Prosp	4	aux	_	AlignBegin=229870|AlignEnd=229980|Gloss=PROSP
 4	see	see	VERB	_	_	0	root	_	AlignBegin=229980|AlignEnd=230120|Gloss=see
 5	wetin	wetin	PRON	_	PronType=Int	4	obj	_	AlignBegin=230120|AlignEnd=230284|Gloss=what.Q
 6	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	AlignBegin=230284|AlignEnd=230360|Gloss=NOM.PL.1
-7	go	go	AUX	_	Aspect=Prosp	8	aux	_	AlignBegin=230360|AlignEnd=230453|Gloss=CONT
+7	go	go	AUX	_	Aspect=Prosp	8	aux	_	AlignBegin=230360|AlignEnd=230453|Gloss=PROSP
 8	do	do	VERB	_	_	5	acl:relcl	_	AlignBegin=230453|AlignEnd=230570|Gloss=do
 9	about	about	ADP	_	_	10	case	_	AlignBegin=230570|AlignEnd=230890|Gloss=about
 10	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	8	obl:arg	_	AlignBegin=230890|AlignEnd=230980|Gloss=ACC.SG.3
@@ -1820,15 +1820,15 @@
 7	like	like	ADP	_	_	9	case	_	AlignBegin=234719|AlignEnd=234960|Gloss=like
 8	three	three	NUM	_	NumType=Card	9	nummod:num	_	AlignBegin=234960|AlignEnd=235138|Gloss=three.CARD
 9	weeks	week	NOUN	_	Number=Plur	5	obl:lvc	_	AlignBegin=235138|AlignEnd=235238|Gloss=week.PL
-10	>	>	PUNCT	_	_	18	punct	_	AlignBegin=235238|AlignEnd=235268|Gloss=PUNCT
-11	as	as	ADP	_	_	18	case	_	AlignBegin=235268|AlignEnd=235423|Gloss=as
-12	in	in	ADP	_	_	11	fixed	_	AlignBegin=235423|AlignEnd=235533|Gloss=in
+10	>	>	PUNCT	_	_	11	punct	_	AlignBegin=235238|AlignEnd=235268|Gloss=PUNCT
+11	as	as	ADP	_	_	5	dislocated	_	AlignBegin=235268|AlignEnd=235423|EXTPOS=ADP|Gloss=as
+12	in	in	ADP	_	_	18	case	_	AlignBegin=235423|AlignEnd=235533|Gloss=in
 13	only	only	ADV	_	_	18	advmod	_	AlignBegin=235563|AlignEnd=235870|Gloss=only
 14	two	two	NUM	_	NumType=Card	15	compound	_	AlignBegin=235870|AlignEnd=235959|Gloss=two.CARD
 15	hundred	hundred	NUM	_	NumType=Card	18	nummod:num	_	AlignBegin=235959|AlignEnd=236027|Gloss=hundred.CARD
 16	and	and	CCONJ	_	_	17	cc	_	AlignBegin=236027|AlignEnd=236130|Gloss=and
 17	fifty	fifty	NUM	_	NumType=Card	15	conj	_	AlignBegin=236130|AlignEnd=236456|Gloss=fifty.CARD
-18	naira	naira	NOUN	_	_	5	dislocated	_	AlignBegin=236456|AlignEnd=236770|Gloss=naira
+18	naira	naira	NOUN	_	_	11	fixed	_	AlignBegin=236456|AlignEnd=236770|Gloss=naira
 19	//	//	PUNCT	_	_	5	punct	_	AlignBegin=236770|AlignEnd=236800|Gloss=PUNCT
 
 # sent_id = ENU_37_Dmoris-Restaurant_MG__87
@@ -1838,13 +1838,13 @@
 # text_en = If I had money, at least, I would have saved up to five hundred naira.
 # text_ortho = If sey I get money, at least, I for save reach five hundred naira.
 1	#	#	PUNCT	_	_	13	punct	_	AlignBegin=236800|AlignEnd=237600|Gloss=PUNCT
-2	if	if	SCONJ	_	_	5	mark	_	AlignBegin=237600|AlignEnd=237743|Gloss=if
-3	sey	sey	SCONJ	_	_	2	fixed	_	AlignBegin=237743|AlignEnd=237884|Gloss=COMP
+2	if	if	SCONJ	_	_	13	dep	_	AlignBegin=237600|AlignEnd=237743|EXTPOS=SCONJ|Gloss=if
+3	sey	sey	SCONJ	_	_	5	mark	_	AlignBegin=237743|AlignEnd=237884|Gloss=COMP
 4	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	AlignBegin=237884|AlignEnd=238049|Gloss=NOM.SG.1
-5	get	get	VERB	_	_	13	advcl:periph	_	AlignBegin=238049|AlignEnd=238220|Gloss=get
+5	get	get	VERB	_	_	2	fixed	_	AlignBegin=238049|AlignEnd=238220|Gloss=get
 6	money	money	NOUN	_	_	5	obj	_	AlignBegin=238220|AlignEnd=238500|Gloss=money
-7	<	<	PUNCT	_	_	5	punct	_	AlignBegin=238500|AlignEnd=238530|Gloss=PUNCT
-8	at	at	ADP	_	_	13	dep	_	AlignBegin=238530|AlignEnd=238670|Gloss=at
+7	<	<	PUNCT	_	_	2	punct	_	AlignBegin=238500|AlignEnd=238530|Gloss=PUNCT
+8	at	at	ADP	_	_	13	dep	_	AlignBegin=238530|AlignEnd=238670|EXTPOS=ADV|Gloss=at
 9	least	least	ADV	_	_	8	fixed	_	AlignBegin=238670|AlignEnd=238780|Gloss=least
 10	<	<	PUNCT	_	_	8	punct	_	AlignBegin=238780|AlignEnd=238810|Gloss=PUNCT
 11	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	AlignBegin=238810|AlignEnd=238890|Gloss=NOM.SG.1
@@ -1890,13 +1890,13 @@
 3	as	as	ADP	_	_	20	mark	_	AlignBegin=243790|AlignEnd=244160|Gloss=as
 4	di	the	DET	_	Definite=Def|PronType=Art	5	det	_	AlignBegin=244160|AlignEnd=244373|Gloss=DEF.ART
 5	day	day	NOUN	_	_	20	nsubj	_	AlignBegin=244373|AlignEnd=244575|Gloss=day
-6	wey	wey	SCONJ	_	_	8	mark	_	AlignBegin=244575|AlignEnd=244720|Gloss=when|gloss=REL
+6	wey	wey	SCONJ	_	_	8	mark	_	AlignBegin=244575|AlignEnd=244720|Gloss=REL
 7	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	AlignBegin=244720|AlignEnd=244860|Gloss=NOM.PL.1
 8	fix	fix	VERB	_	_	5	acl:relcl	_	AlignBegin=244860|AlignEnd=245323|Gloss=fix
 9	sey	sey	SCONJ	_	_	13	mark	_	AlignBegin=245323|AlignEnd=245684|Gloss=COMP
 10	[	[	PUNCT	_	_	13	punct	_	AlignBegin=245684|AlignEnd=245714|Gloss=PUNCT
 11	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	AlignBegin=245714|AlignEnd=245844|Gloss=NOM.SG.1
-12	go	go	AUX	_	Aspect=Prosp	13	aux	_	AlignBegin=245844|AlignEnd=245990|Gloss=CONT
+12	go	go	AUX	_	Aspect=Prosp	13	aux	_	AlignBegin=245844|AlignEnd=245990|Gloss=PROSP
 13	go	go	VERB	_	_	8	ccomp	_	AlignBegin=245990|AlignEnd=246120|Gloss=go
 14	chop	chop	VERB	_	_	13	xcomp	_	AlignBegin=246120|AlignEnd=246310|Gloss=eat
 15	togeder	togeder	ADV	_	_	14	advmod	_	AlignBegin=246310|AlignEnd=246599|Gloss=together
@@ -2067,7 +2067,7 @@
 11	[	[	PUNCT	_	_	15	punct	_	AlignBegin=270222|AlignEnd=270252|Gloss=PUNCT
 12	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	15	nsubj	_	AlignBegin=270252|AlignEnd=270317|Gloss=NOM.2
 13	no	no	PART	_	Polarity=Neg	15	advmod	_	AlignBegin=270317|AlignEnd=270437|Gloss=NEG
-14	go	go	AUX	_	Aspect=Prosp	15	aux	_	AlignBegin=270437|AlignEnd=270518|Gloss=CONT
+14	go	go	AUX	_	Aspect=Prosp	15	aux	_	AlignBegin=270437|AlignEnd=270518|Gloss=PROSP
 15	buy	buy	VERB	_	_	7	ccomp	_	AlignBegin=270518|AlignEnd=270665|Gloss=buy
 16	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	17	amod	_	AlignBegin=270665|AlignEnd=270797|Gloss=PL.2.POSS
 17	own	own	ADJ	_	_	15	obj	_	AlignBegin=270797|AlignEnd=270970|Gloss=own
@@ -2104,7 +2104,7 @@
 2	say	say	VERB	_	_	0	root	_	AlignBegin=272260|AlignEnd=272416|Gloss=say
 3	[	[	PUNCT	_	_	5	punct	_	AlignBegin=272416|AlignEnd=272470|Gloss=PUNCT
 4	{	{	PUNCT	_	_	5	punct	_	AlignBegin=272416|AlignEnd=272470|Gloss=PUNCT
-5	dey	dey	VERB	_	VerbType=Cop	2	parataxis	_	AlignBegin=272470|AlignEnd=272500|Gloss=dey.COP
+5	dey	dey	VERB	_	VerbType=Cop	2	parataxis	_	AlignBegin=272470|AlignEnd=272500|Gloss=be2
 6	||	||	PUNCT	_	_	14	punct	_	AlignBegin=272470|AlignEnd=272500|Gloss=PUNCT
 7	{	{	PUNCT	_	_	8	punct	_	AlignBegin=272470|AlignEnd=272500|Gloss=PUNCT
 8	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	AlignBegin=272500|AlignEnd=272645|Gloss=NOM.SG.1
@@ -2158,7 +2158,7 @@
 # text_en = It's like they sell Krest.
 # text_ortho = E be like sey de dey sell Krest.
 1	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	8	expl:subj	_	AlignBegin=276749|AlignEnd=276834|Gloss=NOM.SG.3
-2	be	be	AUX	_	PartType=Cop	8	cop	_	AlignBegin=276834|AlignEnd=276902|Gloss=be.COP
+2	be	be	AUX	_	PartType=Cop	8	cop	_	AlignBegin=276834|AlignEnd=276902|Gloss=be1
 3	like	like	ADP	_	_	8	mark	_	AlignBegin=276902|AlignEnd=276990|EXTPOS=SCONJ|Gloss=like
 4	sey	sey	SCONJ	_	_	8	mark	_	AlignBegin=276990|AlignEnd=277050|Gloss=COMP|INMWE=Yes
 5	[	[	PUNCT	_	_	8	punct	_	AlignBegin=277050|AlignEnd=277080|Gloss=PUNCT
@@ -2205,12 +2205,12 @@
 4	Krest	Krest	PROPN	_	_	3	obj	_	AlignBegin=281880|AlignEnd=282240|Gloss=Krest
 5	{	{	PUNCT	_	_	6	punct	_	AlignBegin=282240|AlignEnd=282370|Gloss=PUNCT
 6	dey	dey	AUX	_	Aspect=Imp	3	advcl	_	AlignBegin=282240|AlignEnd=282370|Gloss=IPFV
-7	||	||	PUNCT	_	_	12	punct	_	AlignBegin=282370|AlignEnd=282400|Gloss=PUNCT
-8	#	#	PUNCT	_	_	12	punct	_	AlignBegin=282400|AlignEnd=282540|Gloss=PUNCT
-9	cause	cause	SCONJ	_	_	12	case	_	AlignBegin=282540|AlignEnd=282700|Gloss=because
-10	of	of	ADP	_	_	9	fixed	_	AlignBegin=282700|AlignEnd=282892|Gloss=of
-11	my	my	ADJ	_	Number=Sing|Person=1|Poss=Yes	12	amod	_	AlignBegin=282892|AlignEnd=283142|Gloss=SG.1.POSS
-12	belle	belle	NOUN	_	_	6	conj:dicto	_	AlignBegin=283142|AlignEnd=283382|Gloss=belly
+7	||	||	PUNCT	_	_	9	punct	_	AlignBegin=282370|AlignEnd=282400|Gloss=PUNCT
+8	#	#	PUNCT	_	_	9	punct	_	AlignBegin=282400|AlignEnd=282540|Gloss=PUNCT
+9	cause	cause	SCONJ	_	_	6	conj:dicto	_	AlignBegin=282540|AlignEnd=282700|EXTPOS=ADP|Gloss=because
+10	of	of	ADP	_	_	12	case	_	AlignBegin=282700|AlignEnd=282892|Gloss=of
+11	my	my	PRON	_	Number=Sing|Person=1|Poss=Yes	12	nmod:poss	_	AlignBegin=282892|AlignEnd=283142|Gloss=SG.1.POSS
+12	belle	belle	NOUN	_	_	9	fixed	_	AlignBegin=283142|AlignEnd=283382|Gloss=belly
 13	}	}	PUNCT	_	_	6	punct	_	AlignBegin=283382|AlignEnd=283412|Gloss=PUNCT
 14	//	//	PUNCT	_	_	3	punct	_	AlignBegin=283382|AlignEnd=283412|Gloss=PUNCT
 
@@ -2224,10 +2224,10 @@
 2	sip	sip	VERB	_	_	0	root	_	AlignBegin=283566|AlignEnd=283841|Gloss=sip
 3	Krest	Krest	PROPN	_	_	2	obj	_	AlignBegin=283841|AlignEnd=284340|Gloss=Krest
 4	take	take	VERB	_	_	2	compound:svc	_	AlignBegin=284340|AlignEnd=284532|Gloss=take
-5	cause	cause	SCONJ	_	_	8	case	_	AlignBegin=284532|AlignEnd=284770|Gloss=because
-6	of	of	ADP	_	_	5	fixed	_	AlignBegin=284770|AlignEnd=284860|Gloss=of
-7	my	my	ADJ	_	Number=Sing|Person=1|Poss=Yes	8	amod	_	AlignBegin=284860|AlignEnd=285061|Gloss=SG.1.POSS
-8	belle	belle	NOUN	_	_	4	obl:mod	_	AlignBegin=285061|AlignEnd=285289|Gloss=belly
+5	cause	cause	SCONJ	_	_	4	dep	_	AlignBegin=284532|AlignEnd=284770|EXTPOS=ADP|Gloss=because
+6	of	of	ADP	_	_	8	case	_	AlignBegin=284770|AlignEnd=284860|Gloss=of
+7	my	my	PRON	_	Number=Sing|Person=1|Poss=Yes	8	nmod:poss	_	AlignBegin=284860|AlignEnd=285061|Gloss=SG.1.POSS
+8	belle	belle	NOUN	_	_	5	fixed	_	AlignBegin=285061|AlignEnd=285289|Gloss=belly
 9	//	//	PUNCT	_	_	2	punct	_	AlignBegin=285289|AlignEnd=285319|Gloss=PUNCT
 
 # sent_id = ENU_37_Dmoris-Restaurant_MG__106
@@ -2378,7 +2378,7 @@
 5	di	the	DET	_	Definite=Def|PronType=Art	6	det	_	AlignBegin=299274|AlignEnd=299340|Gloss=DEF.ART
 6	bone	bone	NOUN	_	_	8	nsubj	_	AlignBegin=299340|AlignEnd=299510|Gloss=bone
 7	no	no	PART	_	Polarity=Neg	8	advmod	_	AlignBegin=299510|AlignEnd=299595|Gloss=NEG
-8	dey	dey	VERB	_	VerbType=Cop	2	ccomp	_	AlignBegin=299595|AlignEnd=299702|Gloss=dey.COP
+8	dey	dey	VERB	_	VerbType=Cop	2	ccomp	_	AlignBegin=299595|AlignEnd=299702|Gloss=be2
 9	stronger	stronger	ADJ	_	Degree=Cmp	8	xcomp	_	AlignBegin=299702|AlignEnd=300010|Gloss=strong.CMPR
 10	]	]	PUNCT	_	_	8	punct	_	AlignBegin=300010|AlignEnd=300040|Gloss=PUNCT
 11	//	//	PUNCT	_	_	2	punct	_	AlignBegin=300010|AlignEnd=300040|Gloss=PUNCT
@@ -2431,7 +2431,7 @@
 12	bone	bone	NOUN	_	_	11	obj	_	AlignBegin=305450|AlignEnd=305570|Gloss=bone
 13	!//=	!//=	PUNCT	_	_	11	punct	_	AlignBegin=305570|AlignEnd=305600|Gloss=PUNCT
 14	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	16	nsubj	_	AlignBegin=305600|AlignEnd=305680|Gloss=NOM.2
-15	be	be	AUX	_	PartType=Cop	16	cop	_	AlignBegin=305680|AlignEnd=305790|Gloss=be.COP
+15	be	be	AUX	_	PartType=Cop	16	cop	_	AlignBegin=305680|AlignEnd=305790|Gloss=be1
 16	bingo	bingo	NOUN	_	_	11	parataxis:conj	_	AlignBegin=305790|AlignEnd=306210|Gloss=dog
 17	?//]	?//]	PUNCT	_	_	8	punct	_	AlignBegin=306210|AlignEnd=306240|Gloss=PUNCT
 18	//	//	PUNCT	_	_	5	punct	_	AlignBegin=306210|AlignEnd=306240|Gloss=PUNCT
@@ -2444,7 +2444,7 @@
 # text_ortho = Sey im be bingo?
 1	sey	sey	SCONJ	_	_	4	cc	_	AlignBegin=306240|AlignEnd=306490|Gloss=COMP
 2	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	AlignBegin=306490|AlignEnd=306560|Gloss=NOM.SG.3
-3	be	be	AUX	_	PartType=Cop	4	cop	_	AlignBegin=306560|AlignEnd=306660|Gloss=be.COP
+3	be	be	AUX	_	PartType=Cop	4	cop	_	AlignBegin=306560|AlignEnd=306660|Gloss=be1
 4	bingo	bingo	NOUN	_	_	0	root	_	AlignBegin=306660|AlignEnd=307130|Gloss=dog
 5	?//	?//	PUNCT	_	_	4	punct	_	AlignBegin=307130|AlignEnd=307160|Gloss=PUNCT
 
@@ -2478,7 +2478,7 @@
 1	#	#	PUNCT	_	_	5	punct	_	AlignBegin=309180|AlignEnd=309940|Gloss=PUNCT
 2	sey	sey	SCONJ	_	_	5	cc	_	AlignBegin=309940|AlignEnd=310040|Gloss=COMP
 3	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	AlignBegin=310040|AlignEnd=310080|Gloss=NOM.SG.3
-4	be	be	AUX	_	PartType=Cop	5	cop	_	AlignBegin=310080|AlignEnd=310186|Gloss=be.COP
+4	be	be	AUX	_	PartType=Cop	5	cop	_	AlignBegin=310080|AlignEnd=310186|Gloss=be1
 5	bingo	bingo	NOUN	_	_	0	root	_	AlignBegin=310186|AlignEnd=310490|Gloss=dog
 6	o	o	PART	_	PartType=Disc	5	advmod:emph	_	AlignBegin=310490|AlignEnd=310630|Gloss=EMPH
 7	//	//	PUNCT	_	_	5	punct	_	AlignBegin=310630|AlignEnd=310660|Gloss=PUNCT
@@ -2499,12 +2499,12 @@
 8	and	and	CCONJ	_	_	9	cc	_	AlignBegin=311720|AlignEnd=311840|Gloss=and
 9	chips	chip	NOUN	_	Number=Plur	6	conj	_	AlignBegin=311840|AlignEnd=311930|Gloss=chip.PL
 10	}	}	PUNCT	_	_	6	punct	_	AlignBegin=311930|AlignEnd=311960|Gloss=PUNCT
-11	dey	dey	VERB	_	VerbType=Cop	0	root	_	AlignBegin=311960|AlignEnd=312150|Gloss=dey.COP
+11	dey	dey	VERB	_	VerbType=Cop	0	root	_	AlignBegin=311960|AlignEnd=312150|Gloss=be2
 12	for	for	ADP	_	_	15	case	_	AlignBegin=312150|AlignEnd=312320|Gloss=for
 13	di	the	DET	_	Definite=Def|PronType=Art	15	det	_	AlignBegin=312320|AlignEnd=312400|Gloss=DEF.ART
 14	first	first	ADJ	_	NumType=Ord	15	amod	_	AlignBegin=312400|AlignEnd=312607|Gloss=first.ORD
 15	time	time	NOUN	_	_	11	xcomp	_	AlignBegin=312607|AlignEnd=312711|Gloss=time
-16	wey	wey	SCONJ	_	_	22	mark	_	AlignBegin=312711|AlignEnd=312920|Gloss=when|gloss=REL
+16	wey	wey	SCONJ	_	_	22	mark	_	AlignBegin=312711|AlignEnd=312920|Gloss=REL
 17	{	{	PUNCT	_	_	18	punct	_	AlignBegin=312920|AlignEnd=312950|Gloss=PUNCT
 18	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	AlignBegin=312950|AlignEnd=313284|Gloss=NOM.SG.3
 19	||	||	PUNCT	_	_	20	punct	_	AlignBegin=313284|AlignEnd=313314|Gloss=PUNCT
@@ -2522,7 +2522,7 @@
 # text_ortho = Sey im go chop am, chop everyting.
 1	sey	sey	SCONJ	_	_	4	cc	_	AlignBegin=313800|AlignEnd=313903|Gloss=COMP
 2	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	AlignBegin=313903|AlignEnd=313960|Gloss=NOM.SG.3
-3	go	go	AUX	_	Aspect=Prosp	4	aux	_	AlignBegin=313960|AlignEnd=314060|Gloss=CONT
+3	go	go	AUX	_	Aspect=Prosp	4	aux	_	AlignBegin=313960|AlignEnd=314060|Gloss=PROSP
 4	chop	chop	VERB	_	_	0	root	_	AlignBegin=314090|AlignEnd=314290|Gloss=eat
 5	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	4	obj	_	AlignBegin=314290|AlignEnd=314400|Gloss=ACC.SG.3
 6	//=	//=	PUNCT	_	_	7	punct	_	AlignBegin=314400|AlignEnd=314430|Gloss=PUNCT
@@ -2657,7 +2657,7 @@
 8	guy	guy	NOUN	_	_	9	nsubj	_	AlignBegin=329780|AlignEnd=329990|Gloss=guy
 9	go	go	VERB	_	_	3	ccomp	_	AlignBegin=329990|AlignEnd=330183|Gloss=go
 10	tell	tell	VERB	_	_	9	xcomp	_	AlignBegin=330183|AlignEnd=330360|Gloss=tell
-11	im	im	PRON	_	Gender=Masc|Number=Sing|Person=3	12	nmod:poss	_	AlignBegin=330360|AlignEnd=330440|Gloss=M.SG.3.POSS
+11	im	im	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	12	nmod:poss	_	AlignBegin=330360|AlignEnd=330440|Gloss=M.SG.3.POSS
 12	sister	sister	NOUN	_	_	10	obj	_	AlignBegin=330440|AlignEnd=330879|Gloss=sister
 13	sey	sey	SCONJ	_	_	19	mark	_	AlignBegin=330879|AlignEnd=331140|Gloss=COMP
 14	#	#	PUNCT	_	_	19	punct	_	AlignBegin=331140|AlignEnd=332060|Gloss=PUNCT
@@ -2729,7 +2729,7 @@
 # text_ortho = Sey e go finish everyting.
 1	sey	sey	SCONJ	_	_	4	cc	_	AlignBegin=339419|AlignEnd=339495|Gloss=COMP
 2	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	AlignBegin=339495|AlignEnd=339530|Gloss=NOM.SG.3
-3	go	go	AUX	_	Aspect=Prosp	4	aux	_	AlignBegin=339530|AlignEnd=339646|Gloss=CONT
+3	go	go	AUX	_	Aspect=Prosp	4	aux	_	AlignBegin=339530|AlignEnd=339646|Gloss=PROSP
 4	finish	finish	VERB	_	_	0	root	_	AlignBegin=339646|AlignEnd=340000|Gloss=finish
 5	everyting	everyting	PRON	_	_	4	obj	_	AlignBegin=340000|AlignEnd=340440|Gloss=everything
 6	//	//	PUNCT	_	_	4	punct	_	AlignBegin=340440|AlignEnd=340470|Gloss=PUNCT
@@ -2775,7 +2775,7 @@
 1	sey	sey	SCONJ	_	_	2	cc	_	AlignBegin=342330|AlignEnd=342460|Gloss=COMP
 2	where	where	ADV	_	PronType=Int	0	root	_	AlignBegin=342460|AlignEnd=342556|Gloss=where.Q
 3	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	AlignBegin=342556|AlignEnd=342630|Gloss=NOM.SG.1
-4	go	go	AUX	_	Aspect=Prosp	5	aux	_	AlignBegin=342630|AlignEnd=342720|Gloss=CONT
+4	go	go	AUX	_	Aspect=Prosp	5	aux	_	AlignBegin=342630|AlignEnd=342720|Gloss=PROSP
 5	buy	buy	VERB	_	_	2	advcl:cleft	_	AlignBegin=342720|AlignEnd=342860|Gloss=buy
 6	anoder	anoder	DET	_	_	7	det	_	AlignBegin=342860|AlignEnd=343060|Gloss=another
 7	one	one	NOUN	_	_	5	obj	_	AlignBegin=343060|AlignEnd=343101|Gloss=one
@@ -2805,8 +2805,8 @@
 # text_en = "I thought ""It's your last card."""
 # text_ortho = Sey na your last card.
 1	sey	sey	SCONJ	_	_	5	cc	_	AlignBegin=344612|AlignEnd=344680|Gloss=COMP
-2	na	na	AUX	_	PartType=Cop	5	cop	_	AlignBegin=344680|AlignEnd=344823|Gloss=be.COP
-3	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	5	amod	_	AlignBegin=344823|AlignEnd=344914|Gloss=PL.2.POSS
+2	na	na	AUX	_	PartType=Cop	5	cop	_	AlignBegin=344680|AlignEnd=344823|Gloss=be1
+3	your	your	PRON	_	Number=Plur|Person=2|Poss=Yes	5	nmod:poss	_	AlignBegin=344823|AlignEnd=344914|Gloss=PL.2.POSS
 4	last	last	ADJ	_	_	5	amod	_	AlignBegin=344914|AlignEnd=345185|Gloss=last
 5	card	card	NOUN	_	_	0	root	_	AlignBegin=345185|AlignEnd=345435|Gloss=card
 6	//	//	PUNCT	_	_	5	punct	_	AlignBegin=345435|AlignEnd=345465|Gloss=PUNCT
@@ -2835,8 +2835,8 @@
 4	know	know	VERB	_	_	0	root	_	AlignBegin=346991|AlignEnd=347039|Gloss=know
 5	sey	sey	SCONJ	_	_	10	mark	_	AlignBegin=347039|AlignEnd=347098|Gloss=COMP
 6	[	[	PUNCT	_	_	10	punct	_	AlignBegin=347098|AlignEnd=347128|Gloss=PUNCT
-7	na	na	AUX	_	PartType=Cop	10	cop	_	AlignBegin=347128|AlignEnd=347198|Gloss=be.COP
-8	my	my	ADJ	_	Number=Sing|Person=1|Poss=Yes	10	amod	_	AlignBegin=347198|AlignEnd=347325|Gloss=SG.1.POSS
+7	na	na	AUX	_	PartType=Cop	10	cop	_	AlignBegin=347128|AlignEnd=347198|Gloss=be1
+8	my	my	PRON	_	Number=Sing|Person=1|Poss=Yes	10	nmod:poss	_	AlignBegin=347198|AlignEnd=347325|Gloss=SG.1.POSS
 9	last	last	ADJ	_	_	10	amod	_	AlignBegin=347325|AlignEnd=347614|Gloss=last
 10	card	card	NOUN	_	_	4	ccomp	_	AlignBegin=347614|AlignEnd=347860|Gloss=card
 11	]	]	PUNCT	_	_	10	punct	_	AlignBegin=347860|AlignEnd=347890|Gloss=PUNCT

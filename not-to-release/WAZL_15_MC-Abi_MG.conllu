@@ -857,10 +857,10 @@
 13	#	#	PUNCT	_	_	15	punct	_	AlignBegin=100760|AlignEnd=101200|Gloss=PUNCT
 14	ehn	ehn	INTJ	_	_	15	discourse	_	AlignBegin=101200|AlignEnd=101651|Gloss=ehn
 15	pupsie	pupsie	NOUN	_	_	10	xcomp	_	AlignBegin=101651|AlignEnd=102380|Gloss=daddy
-16	//=	//=	PUNCT	_	_	18	punct	_	AlignBegin=102380|AlignEnd=102410|Gloss=PUNCT
-17	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	18	nsubj	_	AlignBegin=102410|AlignEnd=102490|Gloss=NOM.PL.1
-18	dey	dey	PRON	_	Aspect=Imp	10	parataxis:conj	_	AlignBegin=102490|AlignEnd=102595|Gloss=IPFV
-19	call	call	VERB	_	_	18	aux	_	AlignBegin=102595|AlignEnd=102790|Gloss=call
+16	//=	//=	PUNCT	_	_	19	punct	_	AlignBegin=102380|AlignEnd=102410|Gloss=PUNCT
+17	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	19	nsubj	_	AlignBegin=102410|AlignEnd=102490|Gloss=NOM.PL.1
+18	dey	dey	AUX	_	Aspect=Imp	19	aux	_	AlignBegin=102490|AlignEnd=102595|Gloss=IPFV
+19	call	call	VERB	_	_	10	parataxis:conj	_	AlignBegin=102595|AlignEnd=102790|Gloss=call
 20	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	19	obj	_	AlignBegin=102790|AlignEnd=102963|Gloss=ACC.SG.3
 21	old	old	ADJ	_	_	22	amod	_	AlignBegin=102963|AlignEnd=103223|Gloss=old
 22	man	man	NOUN	_	_	19	xcomp	_	AlignBegin=103223|AlignEnd=103611|Gloss=man
@@ -1705,11 +1705,11 @@
 24	know	know	VERB	_	_	21	parataxis:parenth	_	AlignBegin=198719|AlignEnd=198860|Gloss=know
 25	)	)	PUNCT	_	_	24	punct	_	AlignBegin=198860|AlignEnd=198890|Gloss=PUNCT
 26	|c	|c	PUNCT	_	_	33	punct	_	AlignBegin=198860|AlignEnd=198890|Gloss=PUNCT
-27	{	{	PUNCT	_	_	28	punct	_	AlignBegin=198860|AlignEnd=198890|Gloss=PUNCT
+27	{	{	PUNCT	_	_	33	punct	_	AlignBegin=198860|AlignEnd=198890|Gloss=PUNCT
 28	post	X	X	_	_	33	cc	_	AlignBegin=198890|AlignEnd=199270|Gloss=X
 29	||	||	PUNCT	_	_	30	punct	_	AlignBegin=199270|AlignEnd=199300|Gloss=PUNCT
-30	plus	plus	CCONJ	_	_	28	conj	_	AlignBegin=199300|AlignEnd=199521|Gloss=plus
-31	}	}	PUNCT	_	_	28	punct	_	AlignBegin=199521|AlignEnd=199551|Gloss=PUNCT
+30	plus	plus	CCONJ	_	_	28	conj:dicto	_	AlignBegin=199300|AlignEnd=199521|Gloss=plus
+31	}	}	PUNCT	_	_	33	punct	_	AlignBegin=199521|AlignEnd=199551|Gloss=PUNCT
 32	political	political	ADJ	_	_	33	amod	_	AlignBegin=199551|AlignEnd=200053|Gloss=political
 33	matter	matter	NOUN	_	_	7	conj	_	AlignBegin=200083|AlignEnd=200480|Gloss=matter
 34	|c	|c	PUNCT	_	_	35	punct	_	AlignBegin=200480|AlignEnd=200510|Gloss=PUNCT
@@ -1862,7 +1862,7 @@
 # sent_id = WAZL_15_MC-Abi_MG__90
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/WAZL_15_MC-Abi_MG.mp3
 # speaker_id = Sp329
-# text = but de go tell you sey [ di downfall of a man < # e say { e no be di || not || [eng it 's not di end of his life eng] } //] //
+# text = but de go tell you sey [ di downfall of a man < # e say { e no be di || not || [eng it's not di end of his life eng] } //] //
 # text_en = But they'll tell you that the downfall of a man is not the… not… it's not the end of his life.
 # text_ortho = But de go tell you sey di downfall of a man, e say e no be di... not... it's not di end of his life .
 1	but	but	CCONJ	_	_	4	cc	_	AlignBegin=220730|AlignEnd=220790|Gloss=but
@@ -1888,20 +1888,19 @@
 21	di	the	DET	_	Definite=Def|PronType=Art	20	dep	_	AlignBegin=222910|AlignEnd=223000|Gloss=DEF.ART
 22	||	||	PUNCT	_	_	23	punct	_	AlignBegin=223000|AlignEnd=223030|Gloss=PUNCT
 23	not	not	PART	_	Polarity=Neg	20	conj:dicto	_	AlignBegin=223030|AlignEnd=223170|Gloss=NEG
-24	||	||	PUNCT	_	_	27	punct	_	AlignBegin=223170|AlignEnd=223200|Gloss=PUNCT
-25	[eng	[eng	PUNCT	_	_	27	punct	_	AlignBegin=223170|AlignEnd=223200|Gloss=PUNCT
-26	it	it	PRON	_	_	27	nsubj	_	_
-27	's	be	PART	_	PartType=Cop	23	conj:dicto	_	AlignBegin=223200|AlignEnd=223331|Gloss=be
-28	not	not	PART	_	Polarity=Neg	27	advmod	_	AlignBegin=223331|AlignEnd=223460|Gloss=NEG
-29	di	the	DET	_	Definite=Def|PronType=Art	30	det	_	AlignBegin=223460|AlignEnd=223497|Gloss=DEF.ART
-30	end	end	NOUN	_	_	27	xcomp	_	AlignBegin=223527|AlignEnd=223630|Gloss=end
-31	of	of	ADP	_	_	33	case	_	AlignBegin=223630|AlignEnd=223750|Gloss=of
-32	his	im	PRON	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	33	nmod:poss	_	AlignBegin=223750|AlignEnd=223870|Gloss=M.SG.3.POSS
-33	life	life	NOUN	_	_	30	nmod	_	AlignBegin=223870|AlignEnd=224047|Gloss=life
-34	eng]	eng]	PUNCT	_	_	27	punct	_	AlignBegin=224047|AlignEnd=224077|Gloss=PUNCT
-35	}	}	PUNCT	_	_	20	punct	_	AlignBegin=224047|AlignEnd=224077|Gloss=PUNCT
-36	//]	//]	PUNCT	_	_	20	punct	_	AlignBegin=224047|AlignEnd=224077|Gloss=PUNCT
-37	//	//	PUNCT	_	_	4	punct	_	AlignBegin=224047|AlignEnd=224077|Gloss=PUNCT
+24	||	||	PUNCT	_	_	29	punct	_	AlignBegin=223170|AlignEnd=223200|Gloss=PUNCT
+25	[eng	[eng	PUNCT	_	_	29	punct	_	AlignBegin=223170|AlignEnd=223200|Gloss=PUNCT
+26	it's	na	AUX	_	PartType=Cop	29	cop	_	AlignBegin=223200|AlignEnd=223331|Gloss=be
+27	not	not	PART	_	Polarity=Neg	29	advmod	_	AlignBegin=223331|AlignEnd=223460|Gloss=NEG
+28	di	the	DET	_	Definite=Def|PronType=Art	29	det	_	AlignBegin=223460|AlignEnd=223497|Gloss=DEF.ART
+29	end	end	NOUN	_	_	23	conj:dicto	_	AlignBegin=223527|AlignEnd=223630|Gloss=end
+30	of	of	ADP	_	_	32	case	_	AlignBegin=223630|AlignEnd=223750|Gloss=of
+31	his	im	PRON	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	32	nmod:poss	_	AlignBegin=223750|AlignEnd=223870|Gloss=M.SG.3.POSS
+32	life	life	NOUN	_	_	29	nmod	_	AlignBegin=223870|AlignEnd=224047|Gloss=life
+33	eng]	eng]	PUNCT	_	_	29	punct	_	AlignBegin=224047|AlignEnd=224077|Gloss=PUNCT
+34	}	}	PUNCT	_	_	20	punct	_	AlignBegin=224047|AlignEnd=224077|Gloss=PUNCT
+35	//]	//]	PUNCT	_	_	20	punct	_	AlignBegin=224047|AlignEnd=224077|Gloss=PUNCT
+36	//	//	PUNCT	_	_	4	punct	_	AlignBegin=224047|AlignEnd=224077|Gloss=PUNCT
 
 # sent_id = WAZL_15_MC-Abi_MG__91
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/WAZL_15_MC-Abi_MG.mp3
@@ -1941,7 +1940,7 @@
 # text_en = Yes, because if the man falls from a tall... a very high building, and hits the ground, that means he's dead.
 # text_ortho = Ehn because di man fall from one tall... one very high building, fall for ground, e don die, be dat.
 1	#	#	PUNCT	_	_	27	punct	_	AlignBegin=226140|AlignEnd=226820|Gloss=PUNCT
-2	ehn	ehn	INTJ	_	_	3	discourse	_	AlignBegin=226820|AlignEnd=227011|Gloss=ehn
+2	ehn	ehn	INTJ	_	_	27	discourse	_	AlignBegin=226820|AlignEnd=227011|Gloss=ehn
 3	because	because	SCONJ	_	_	27	cc	_	AlignBegin=227011|AlignEnd=227290|Gloss=because
 4	di	the	DET	_	Definite=Def|PronType=Art	5	det	_	AlignBegin=227290|AlignEnd=227350|Gloss=DEF.ART
 5	man	man	NOUN	_	_	7	nsubj	_	AlignBegin=227350|AlignEnd=227453|Gloss=man
@@ -2116,7 +2115,7 @@
 7	about	about	ADP	_	_	9	case	_	AlignBegin=248390|AlignEnd=248570|Gloss=about
 8	{	{	PUNCT	_	_	9	punct	_	AlignBegin=248570|AlignEnd=248600|Gloss=PUNCT
 9	relationship	relationship	NOUN	_	_	6	obl:arg	_	AlignBegin=248600|AlignEnd=249100|Gloss=relationship
-10	|c	|c	PUNCT	_	_	11	punct	_	AlignBegin=249100|AlignEnd=249130|Gloss=PUNCT
+10	|c	|c	PUNCT	_	_	13	punct	_	AlignBegin=249100|AlignEnd=249130|Gloss=PUNCT
 11	wit	wit	ADP	_	_	13	cc	_	AlignBegin=249130|AlignEnd=249290|Gloss=with
 12	love	love	NOUN	_	_	13	compound	_	AlignBegin=249290|AlignEnd=249500|Gloss=love
 13	matter	matter	NOUN	_	_	9	conj	_	AlignBegin=249500|AlignEnd=249930|Gloss=matter

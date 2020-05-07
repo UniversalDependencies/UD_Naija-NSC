@@ -778,8 +778,8 @@
 5	insist	insist	VERB	_	_	2	acl:relcl	_	AlignBegin=130804|AlignEnd=131104|Gloss=insist
 6	be	be	AUX	_	PartType=Cop	10	cop	_	AlignBegin=131104|AlignEnd=131202|Gloss=be
 7	sey	sey	SCONJ	_	_	10	mark	_	AlignBegin=131202|AlignEnd=131464|Gloss=COMP
-8	public	public	ADJ	_	_	10	nsubj	_	AlignBegin=131464|AlignEnd=132022|Gloss=public
-9	dem	dem	DET	_	Number=Plur|PronType=Art	8	det	_	AlignBegin=132022|AlignEnd=132294|Gloss=PL.ART
+8	public	public	ADJ	_	_	10	dep	_	AlignBegin=131464|AlignEnd=132022|Gloss=public
+9	dem	dem	PART	_	Number=Plur	8	advmod	_	AlignBegin=132022|AlignEnd=132294|Gloss=PL
 10	get	get	VERB	_	_	0	root	_	AlignBegin=132294|AlignEnd=132477|Gloss=get
 11	di	the	DET	_	Definite=Def|PronType=Art	12	det	_	AlignBegin=132477|AlignEnd=132584|Gloss=DEF.ART
 12	right	right	NOUN	_	_	10	obj	_	AlignBegin=132584|AlignEnd=132894|Gloss=right
@@ -838,7 +838,7 @@
 # text_ortho = Or else Aijebe...
 1	#	#	PUNCT	_	_	4	punct	_	AlignBegin=140302|AlignEnd=140527|Gloss=PUNCT
 2	or	or	CCONJ	_	_	4	cc	_	AlignBegin=140527|AlignEnd=140707|Gloss=or
-3	else	else	ADJ	_	_	2	advcl	_	AlignBegin=140707|AlignEnd=141249|Gloss=else
+3	else	else	ADJ	_	_	4	amod	_	AlignBegin=140707|AlignEnd=141249|Gloss=else
 4	Aijebe	Aijebe	PROPN	_	_	0	root	_	AlignBegin=141249|AlignEnd=141999|Gloss=Aijebe
 5	&//	//	PUNCT	_	_	4	punct	_	AlignBegin=141999|AlignEnd=142181|Gloss=PUNCT
 
@@ -1316,7 +1316,7 @@
 17	[	[	PUNCT	_	_	23	punct	_	AlignBegin=231749|AlignEnd=231779|Gloss=PUNCT
 18	di	the	DET	_	Definite=Def|PronType=Art	19	det	_	AlignBegin=231779|AlignEnd=231889|Gloss=DEF.ART
 19	guy	guy	NOUN	_	_	23	dislocated	_	AlignBegin=231889|AlignEnd=232239|Gloss=guy
-20	nko	nko	INTJ	_	_	19	advmod:emph	_	AlignBegin=232239|AlignEnd=232447|Gloss=Q.
+20	nko	nko	PART	_	_	19	advmod:emph	_	AlignBegin=232239|AlignEnd=232447|Gloss=INT
 21	<	<	PUNCT	_	_	19	punct	_	AlignBegin=232447|AlignEnd=232477|Gloss=PUNCT
 22	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	AlignBegin=232477|AlignEnd=232603|Gloss=NOM.SG.3
 23	go	go	VERB	_	_	16	parataxis	_	AlignBegin=232603|AlignEnd=232797|Gloss=go
@@ -1423,7 +1423,7 @@
 7	[	[	PUNCT	_	_	11	punct	_	AlignBegin=252200|AlignEnd=252380|Gloss=PUNCT
 8	di	the	DET	_	Definite=Def|PronType=Art	9	det	_	AlignBegin=252200|AlignEnd=252380|Gloss=DEF.ART
 9	gang	gang	NOUN	_	_	11	dislocated	_	AlignBegin=252380|AlignEnd=252720|Gloss=gang
-10	dem	dem	PART	_	Number=Plur|PronType=Art	9	advmod	_	AlignBegin=252720|AlignEnd=253050|Gloss=PL
+10	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	AlignBegin=252720|AlignEnd=253050|Gloss=NIM.PLA.3
 11	thief	tief	VERB	_	_	5	ccomp	_	AlignBegin=253050|AlignEnd=253300|Gloss=steal
 12	her	her	PRON	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes	13	nmod:poss	_	AlignBegin=253300|AlignEnd=253470|Gloss=F.SG.3.POSS
 13	phone	phone	NOUN	_	_	11	obj	_	AlignBegin=253470|AlignEnd=253833|Gloss=phone
@@ -1993,7 +1993,7 @@
 # sent_id = IBA_33_News-Comments_MG__70
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_33_News-Comments_MG.mp3
 # speaker_id = Sp425
-# text = # na so >+ dem take enter o with ada lamu |c # and dem carry away { her property |c including a Toyota Matrix car } //
+# text = # na so >+ dem take enter o with ada lamu |c # and dem carry away her property including a Toyota Matrix car //
 # text_en = That was how they entered with a sinister looking cutlass [ada Lam/Lam's cutlass], and they took away her property, including a Toyota Matrix car.
 # text_ortho = Na so, dem take enter o with ada lamu, and dem carry away her property, including a Toyota Matrix car.
 1	#	#	PUNCT	_	_	3	punct	_	AlignBegin=340622|AlignEnd=340855|Gloss=PUNCT
@@ -2013,17 +2013,14 @@
 15	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	16	nsubj	_	AlignBegin=343747|AlignEnd=343927|Gloss=NOM.PL.3
 16	carry	carry	VERB	_	_	6	conj	_	AlignBegin=343927|AlignEnd=344332|Gloss=carry
 17	away	away	ADV	_	_	16	advmod	_	AlignBegin=344332|AlignEnd=344667|Gloss=away
-18	{	{	PUNCT	_	_	20	punct	_	AlignBegin=344667|AlignEnd=344697|Gloss=PUNCT
-19	her	her	PRON	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes	20	nmod:poss	_	AlignBegin=344697|AlignEnd=344867|Gloss=F.SG.3.POSS
-20	property	property	NOUN	_	_	16	obj	_	AlignBegin=344867|AlignEnd=345477|Gloss=property
-21	|c	|c	PUNCT	_	_	26	punct	_	AlignBegin=345477|AlignEnd=345507|Gloss=PUNCT
-22	including	include	VERB	_	Tense=Pres|VerbForm=Part	26	cc	_	AlignBegin=345507|AlignEnd=346089|Gloss=include.PRS.PTCP
-23	a	a	DET	_	Definite=Ind|PronType=Art	26	det	_	AlignBegin=346089|AlignEnd=346259|Gloss=INDF.ART
-24	Toyota	Toyota	PROPN	_	_	26	nmod	_	AlignBegin=346259|AlignEnd=346707|Gloss=Toyota
-25	Matrix	Matrix	PROPN	_	_	24	flat	_	AlignBegin=346707|AlignEnd=347199|Gloss=Matrix
-26	car	car	NOUN	_	_	20	conj	_	AlignBegin=347199|AlignEnd=347475|Gloss=car
-27	}	}	PUNCT	_	_	20	punct	_	AlignBegin=347475|AlignEnd=347505|Gloss=PUNCT
-28	//	//	PUNCT	_	_	3	punct	_	AlignBegin=347475|AlignEnd=347505|Gloss=PUNCT
+18	her	her	PRON	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes	19	nmod:poss	_	AlignBegin=344697|AlignEnd=344867|Gloss=F.SG.3.POSS
+19	property	property	NOUN	_	_	16	obj	_	AlignBegin=344867|AlignEnd=345477|Gloss=property
+20	including	include	VERB	_	Tense=Pres|VerbForm=Part	19	acl:relcl	_	AlignBegin=345507|AlignEnd=346089|Gloss=include.PRS.PTCP
+21	a	a	DET	_	Definite=Ind|PronType=Art	24	det	_	AlignBegin=346089|AlignEnd=346259|Gloss=INDF.ART
+22	Toyota	Toyota	PROPN	_	_	24	nmod	_	AlignBegin=346259|AlignEnd=346707|Gloss=Toyota
+23	Matrix	Matrix	PROPN	_	_	22	flat	_	AlignBegin=346707|AlignEnd=347199|Gloss=Matrix
+24	car	car	NOUN	_	_	20	obj	_	AlignBegin=347199|AlignEnd=347475|Gloss=car
+25	//	//	PUNCT	_	_	3	punct	_	AlignBegin=347475|AlignEnd=347505|Gloss=PUNCT
 
 # sent_id = IBA_33_News-Comments_MG__71
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_33_News-Comments_MG.mp3
@@ -2965,7 +2962,7 @@
 5	reach	reach	VERB	_	_	21	advcl:periph	_	AlignBegin=494178|AlignEnd=494388|Gloss=reach
 6	di	the	DET	_	Definite=Def|PronType=Art	7	det	_	AlignBegin=494388|AlignEnd=494548|Gloss=DEF.ART
 7	place	place	NOUN	_	_	5	obj	_	AlignBegin=494548|AlignEnd=494898|Gloss=place
-8	nko	nko	INTJ	_	_	7	advmod:emph	_	AlignBegin=494898|AlignEnd=495382|Gloss=Q.
+8	nko	nko	PART	_	_	7	advmod:emph	_	AlignBegin=494898|AlignEnd=495382|Gloss=INT
 9	<	<	PUNCT	_	_	5	punct	_	AlignBegin=495382|AlignEnd=495412|Gloss=PUNCT
 10	{	{	PUNCT	_	_	11	punct	_	AlignBegin=495382|AlignEnd=495412|Gloss=PUNCT
 11	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	AlignBegin=495412|AlignEnd=495498|Gloss=NOM.SG.3
@@ -3058,7 +3055,7 @@
 5	after	after	ADP	_	_	7	case	_	AlignBegin=506170|AlignEnd=506590|Gloss=after
 6	dat	dat	DET	_	Number=Sing|PronType=Dem	7	det	_	AlignBegin=506590|AlignEnd=506870|Gloss=SG.DIST.DEM
 7	one	one	NUM	_	NumType=Card	14	obl:mod	_	AlignBegin=506870|AlignEnd=507080|Gloss=one
-8	nko	nko	INTJ	_	_	7	advmod:emph	_	AlignBegin=507080|AlignEnd=507383|Gloss=Q.
+8	nko	nko	PART	_	_	7	advmod:emph	_	AlignBegin=507080|AlignEnd=507383|Gloss=INT
 9	<	<	PUNCT	_	_	7	punct	_	AlignBegin=507383|AlignEnd=507413|Gloss=PUNCT
 10	#	#	PUNCT	_	_	7	punct	_	AlignBegin=507413|AlignEnd=507629|Gloss=PUNCT
 11	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	AlignBegin=507629|AlignEnd=507729|Gloss=NOM.SG.3
@@ -3310,9 +3307,9 @@
 # text_ortho = But sha o, we sha thank God sey God don catch am.
 1	#	#	PUNCT	_	_	8	punct	_	AlignBegin=546256|AlignEnd=546524|Gloss=PUNCT
 2	but	but	CCONJ	_	_	8	cc	_	AlignBegin=546524|AlignEnd=546677|Gloss=but
-3	sha	sha	PART	_	PartType=Disc	2	advmod:periph	_	AlignBegin=546677|AlignEnd=546972|Gloss=really
+3	sha	sha	PART	_	PartType=Disc	2	advmod:emph	_	AlignBegin=546677|AlignEnd=546972|Gloss=really
 4	o	o	PART	_	PartType=Disc	3	advmod:emph	_	AlignBegin=546972|AlignEnd=547147|Gloss=EMPH
-5	<	<	PUNCT	_	_	2	punct	_	AlignBegin=547147|AlignEnd=547177|Gloss=PUNCT
+5	<	<	PUNCT	_	_	8	punct	_	AlignBegin=547147|AlignEnd=547177|Gloss=PUNCT
 6	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	AlignBegin=547177|AlignEnd=547357|Gloss=NOM.PL.1
 7	sha	sha	PART	_	PartType=Disc	6	advmod:emph	_	AlignBegin=547357|AlignEnd=547607|Gloss=really
 8	thank	tank	VERB	_	_	0	root	_	AlignBegin=547607|AlignEnd=547857|Gloss=thank

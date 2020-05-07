@@ -188,7 +188,7 @@
 16	#	#	PUNCT	_	_	17	punct	_	AlignBegin=45041|AlignEnd=45860|Gloss=PUNCT
 17	South	South	PROPN	_	_	14	appos	_	AlignBegin=45860|AlignEnd=46160|Gloss=South
 18	West	West	PROPN	_	_	17	flat	_	AlignBegin=46160|AlignEnd=46441|Gloss=West
-19	two	two	NUM	_	NumType=Card	18	nmod:num	_	AlignBegin=46441|AlignEnd=46741|Gloss=two.CARD
+19	two	two	NUM	_	NumType=Card	18	nummod:mod	_	AlignBegin=46441|AlignEnd=46741|Gloss=two.CARD
 20	|a	|a	PUNCT	_	_	22	punct	_	AlignBegin=46741|AlignEnd=46771|Gloss=PUNCT
 21	#	#	PUNCT	_	_	22	punct	_	AlignBegin=46771|AlignEnd=47497|Gloss=PUNCT
 22	Ojo	Ojo	PROPN	_	_	17	appos	_	AlignBegin=47497|AlignEnd=47909|Gloss=Ojo
@@ -319,14 +319,14 @@
 12	#	#	PUNCT	_	_	16	punct	_	AlignBegin=73600|AlignEnd=74347|Gloss=PUNCT
 13	some	some	DET	_	_	16	dislocated	_	AlignBegin=74347|AlignEnd=74650|Gloss=some
 14	wit	wit	ADP	_	_	16	case	_	AlignBegin=74650|AlignEnd=74860|Gloss=with
-15	one	one	NUM	_	NumType=Card	16	nummod:num	_	AlignBegin=74860|AlignEnd=75640|Gloss=one
+15	one	one	NUM	_	NumType=Card	16	nummod:det	_	AlignBegin=74860|AlignEnd=75640|Gloss=one
 16	child	child	NOUN	_	_	10	parataxis:conj	_	AlignBegin=75640|AlignEnd=76195|Gloss=child
 17	//=	//=	PUNCT	_	_	23	punct	_	AlignBegin=76195|AlignEnd=76225|Gloss=PUNCT
 18	#	#	PUNCT	_	_	23	punct	_	AlignBegin=76225|AlignEnd=76914|Gloss=PUNCT
 19	some	some	DET	_	_	23	dislocated	_	AlignBegin=76914|AlignEnd=77280|Gloss=some
 20	#	#	PUNCT	_	_	19	punct	_	AlignBegin=77280|AlignEnd=77632|Gloss=PUNCT
 21	with	wit	ADP	_	_	23	case	_	AlignBegin=77632|AlignEnd=77806|Gloss=with
-22	two	two	NUM	_	NumType=Card	23	nummod:num	_	AlignBegin=77806|AlignEnd=78163|Gloss=two.CARD
+22	two	two	NUM	_	NumType=Card	23	nummod:det	_	AlignBegin=77806|AlignEnd=78163|Gloss=two.CARD
 23	children	child	NOUN	_	Number=Plur	16	parataxis:conj	_	AlignBegin=78163|AlignEnd=78553|Gloss=child.PL
 24	|c	|c	PUNCT	_	_	27	punct	_	AlignBegin=78553|AlignEnd=78584|Gloss=PUNCT
 25	#	#	PUNCT	_	_	27	punct	_	AlignBegin=78584|AlignEnd=79624|Gloss=PUNCT
@@ -566,7 +566,7 @@
 6	week	week	NOUN	_	_	3	obl:mod	_	AlignBegin=125460|AlignEnd=125760|Gloss=week
 7	#	#	PUNCT	_	_	10	punct	_	AlignBegin=125760|AlignEnd=126500|Gloss=PUNCT
 8	two	two	NUM	_	NumType=Card	9	compound	_	AlignBegin=126500|AlignEnd=126600|Gloss=two.CARD
-9	hundred	hundred	NUM	_	NumType=Card	10	nummod:num	_	AlignBegin=126600|AlignEnd=126951|Gloss=hundred.CARD
+9	hundred	hundred	NUM	_	NumType=Card	10	nummod:det	_	AlignBegin=126600|AlignEnd=126951|Gloss=hundred.CARD
 10	naira	naira	NOUN	_	_	3	obj:lvc	_	AlignBegin=126951|AlignEnd=127350|Gloss=naira
 11	<	<	PUNCT	_	_	3	punct	_	AlignBegin=127350|AlignEnd=127380|Gloss=PUNCT
 12	#	#	PUNCT	_	_	3	punct	_	AlignBegin=127380|AlignEnd=128040|Gloss=PUNCT
@@ -614,12 +614,12 @@
 3	na	na	AUX	_	PartType=Cop	5	cop	_	AlignBegin=133253|AlignEnd=133380|Gloss=be
 4	only	only	ADJ	_	_	5	amod	_	AlignBegin=133380|AlignEnd=133640|Gloss=only
 5	God	God	PROPN	_	_	0	root	_	AlignBegin=133640|AlignEnd=134050|Gloss=God
-6	>+	>+	PUNCT	_	_	8	punct	_	AlignBegin=134050|AlignEnd=134080|Gloss=PUNCT
-7	na	na	AUX	_	PartType=Cop	8	cop	_	AlignBegin=134080|AlignEnd=134257|EXTPOS=SCONJ|Gloss=be
-8	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	5	advcl:cleft	_	AlignBegin=134257|AlignEnd=134338|Gloss=NOM.SG.3|INMWE=Yes
+6	>+	>+	PUNCT	_	_	7	punct	_	AlignBegin=134050|AlignEnd=134080|Gloss=PUNCT
+7	na	na	AUX	_	PartType=Cop	5	advcl:cleft	_	AlignBegin=134080|AlignEnd=134257|EXTPOS=SCONJ|Gloss=be
+8	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	7	fixed	_	AlignBegin=134257|AlignEnd=134338|Gloss=NOM.SG.3
 9	go	go	AUX	_	Aspect=Prosp	11	aux	_	AlignBegin=134338|AlignEnd=134460|Gloss=PROSP
 10	just	just	ADV	_	_	11	advmod	_	AlignBegin=134460|AlignEnd=134817|Gloss=just
-11	help	help	VERB	_	_	8	ccomp	_	AlignBegin=134817|AlignEnd=135070|Gloss=help
+11	help	help	VERB	_	_	7	ccomp	_	AlignBegin=134817|AlignEnd=135070|Gloss=help
 12	us	us	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	11	obj	_	AlignBegin=135070|AlignEnd=135410|Gloss=ACC.PL.1
 13	//	//	PUNCT	_	_	5	punct	_	AlignBegin=135410|AlignEnd=135440|Gloss=PUNCT
 
@@ -1088,16 +1088,16 @@
 # text = # if you go hospital now < wey you sick |c # you go hospital < # di better medicine dere < { # na im go || na im go } >+ cost pass //
 # text_en = If you go to the hospitals now, when you are sick, you go to the hospital, the most effective drug on the list, is the one that will be… is the one that will be the most expensive.
 # text_ortho = If you go hospital now, wey you sick, you go hospital, di better medicine dere, na im go, na im go, cost pass.
-1	#	#	PUNCT	_	_	26	punct	_	AlignBegin=232200|AlignEnd=232740|Gloss=PUNCT
+1	#	#	PUNCT	_	_	25	punct	_	AlignBegin=232200|AlignEnd=232740|Gloss=PUNCT
 2	if	if	SCONJ	_	_	4	mark	_	AlignBegin=232740|AlignEnd=232900|Gloss=if
 3	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	AlignBegin=232900|AlignEnd=233111|Gloss=NOM.2
-4	go	go	VERB	_	_	26	advcl:periph	_	AlignBegin=233111|AlignEnd=233514|Gloss=go
+4	go	go	VERB	_	_	25	advcl:periph	_	AlignBegin=233111|AlignEnd=233514|Gloss=go
 5	hospital	hospital	NOUN	_	_	4	obj	_	AlignBegin=233514|AlignEnd=233952|Gloss=hospital
 6	now	now	ADV	_	_	4	advmod	_	AlignBegin=233952|AlignEnd=234120|Gloss=now
 7	<	<	PUNCT	_	_	4	punct	_	AlignBegin=234120|AlignEnd=234150|Gloss=PUNCT
 8	wey	when	SCONJ	_	_	10	mark	_	AlignBegin=234150|AlignEnd=234330|Gloss=when
 9	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	10	nsubj	_	AlignBegin=234330|AlignEnd=234431|Gloss=NOM.2
-10	sick	sick	ADJ	_	_	26	advcl:periph	_	AlignBegin=234431|AlignEnd=234718|Gloss=sick
+10	sick	sick	ADJ	_	_	25	advcl:periph	_	AlignBegin=234431|AlignEnd=234718|Gloss=sick
 11	|c	|c	PUNCT	_	_	14	punct	_	AlignBegin=234718|AlignEnd=234748|Gloss=PUNCT
 12	#	#	PUNCT	_	_	14	punct	_	AlignBegin=234748|AlignEnd=234991|Gloss=PUNCT
 13	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	14	nsubj	_	AlignBegin=234991|AlignEnd=235050|Gloss=NOM.2
@@ -1107,23 +1107,23 @@
 17	#	#	PUNCT	_	_	10	punct	_	AlignBegin=235780|AlignEnd=236240|Gloss=PUNCT
 18	di	the	DET	_	Definite=Def|PronType=Art	20	det	_	AlignBegin=236240|AlignEnd=236380|Gloss=DEF.ART
 19	better	beta	ADJ	_	Degree=Cmp	20	amod	_	AlignBegin=236380|AlignEnd=237020|Gloss=good.CMPR
-20	medicine	medicine	NOUN	_	_	26	dislocated	_	AlignBegin=237020|AlignEnd=237549|Gloss=medicine
+20	medicine	medicine	NOUN	_	_	25	dislocated	_	AlignBegin=237020|AlignEnd=237549|Gloss=medicine
 21	dere	dere	ADV	_	_	20	advmod	_	AlignBegin=237549|AlignEnd=237790|Gloss=there
 22	<	<	PUNCT	_	_	20	punct	_	AlignBegin=237790|AlignEnd=237820|Gloss=PUNCT
-23	{	{	PUNCT	_	_	26	punct	_	AlignBegin=237790|AlignEnd=237820|Gloss=PUNCT
-24	#	#	PUNCT	_	_	26	punct	_	AlignBegin=237820|AlignEnd=238960|Gloss=PUNCT
-25	na	na	AUX	_	PartType=Cop	26	cop	_	AlignBegin=238960|AlignEnd=239141|EXTPOS=SCONJ|Gloss=be
-26	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	0	root	_	AlignBegin=239141|AlignEnd=239203|Gloss=NOM.SG.3|INMWE=Yes
-27	go	go	VERB	_	_	26	advcl:cleft	_	AlignBegin=239203|AlignEnd=239655|Gloss=go
-28	||	||	PUNCT	_	_	30	punct	_	AlignBegin=239655|AlignEnd=239685|Gloss=PUNCT
-29	na	na	AUX	_	PartType=Cop	30	cop	_	AlignBegin=239685|AlignEnd=239880|EXTPOS=SCONJ|Gloss=be
-30	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	25	conj:dicto	_	AlignBegin=239880|AlignEnd=239945|Gloss=NOM.SG.3|INMWE=Yes
+23	{	{	PUNCT	_	_	25	punct	_	AlignBegin=237790|AlignEnd=237820|Gloss=PUNCT
+24	#	#	PUNCT	_	_	25	punct	_	AlignBegin=237820|AlignEnd=238960|Gloss=PUNCT
+25	na	na	AUX	_	PartType=Cop	0	root	_	AlignBegin=238960|AlignEnd=239141|EXTPOS=SCONJ|Gloss=be
+26	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	25	fixed	_	AlignBegin=239141|AlignEnd=239203|Gloss=NOM.SG.3
+27	go	go	VERB	_	_	25	advcl:cleft	_	AlignBegin=239203|AlignEnd=239655|Gloss=go
+28	||	||	PUNCT	_	_	29	punct	_	AlignBegin=239655|AlignEnd=239685|Gloss=PUNCT
+29	na	na	AUX	_	PartType=Cop	25	conj:dicto	_	AlignBegin=239685|AlignEnd=239880|EXTPOS=SCONJ|Gloss=be
+30	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	29	fixed	_	AlignBegin=239880|AlignEnd=239945|Gloss=NOM.SG.3
 31	go	go	AUX	_	Aspect=Prosp	34	aux	_	AlignBegin=239945|AlignEnd=240030|Gloss=PROSP
-32	}	}	PUNCT	_	_	26	punct	_	AlignBegin=240030|AlignEnd=240060|Gloss=PUNCT
+32	}	}	PUNCT	_	_	25	punct	_	AlignBegin=240030|AlignEnd=240060|Gloss=PUNCT
 33	>+	>+	PUNCT	_	_	34	punct	_	AlignBegin=240030|AlignEnd=240060|Gloss=PUNCT
-34	cost	cost	ADJ	_	_	30	advcl:cleft	_	AlignBegin=240060|AlignEnd=240540|Gloss=expensive
+34	cost	cost	ADJ	_	_	29	advcl:cleft	_	AlignBegin=240060|AlignEnd=240540|Gloss=expensive
 35	pass	pass	VERB	_	_	34	compound:svc	_	AlignBegin=240540|AlignEnd=240820|Gloss=pass
-36	//	//	PUNCT	_	_	26	punct	_	AlignBegin=240820|AlignEnd=240850|Gloss=PUNCT
+36	//	//	PUNCT	_	_	25	punct	_	AlignBegin=240820|AlignEnd=240850|Gloss=PUNCT
 
 # sent_id = IBA_21_Obodo-Barracks_MG__55
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_21_Obodo-Barracks_MG.mp3
@@ -1329,13 +1329,13 @@
 2	na	na	AUX	_	PartType=Cop	4	cop	_	AlignBegin=272360|AlignEnd=272480|Gloss=be
 3	only	only	ADJ	_	_	4	amod	_	AlignBegin=272480|AlignEnd=272681|Gloss=only
 4	God	God	PROPN	_	_	0	root	_	AlignBegin=272681|AlignEnd=272951|Gloss=God
-5	>+	>+	PUNCT	_	_	8	punct	_	AlignBegin=272951|AlignEnd=272981|Gloss=PUNCT
-6	#	#	PUNCT	_	_	8	punct	_	AlignBegin=272981|AlignEnd=273262|Gloss=PUNCT
-7	na	na	AUX	_	PartType=Cop	8	cop	_	AlignBegin=273262|AlignEnd=273352|EXTPOS=SCONJ|Gloss=be
-8	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	advcl:cleft	_	AlignBegin=273352|AlignEnd=273400|Gloss=NOM.SG.3|INMWE=Yes
+5	>+	>+	PUNCT	_	_	7	punct	_	AlignBegin=272951|AlignEnd=272981|Gloss=PUNCT
+6	#	#	PUNCT	_	_	7	punct	_	AlignBegin=272981|AlignEnd=273262|Gloss=PUNCT
+7	na	na	AUX	_	PartType=Cop	4	advcl:cleft	_	AlignBegin=273262|AlignEnd=273352|EXTPOS=SCONJ|Gloss=be
+8	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	7	fixed	_	AlignBegin=273352|AlignEnd=273400|Gloss=NOM.SG.3
 9	go	go	AUX	_	Aspect=Prosp	11	aux	_	AlignBegin=273400|AlignEnd=273600|Gloss=PROSP
 10	just	just	ADV	_	_	11	advmod	_	AlignBegin=273600|AlignEnd=273830|Gloss=just
-11	help	help	VERB	_	_	8	ccomp	_	AlignBegin=273830|AlignEnd=274170|Gloss=help
+11	help	help	VERB	_	_	7	ccomp	_	AlignBegin=273830|AlignEnd=274170|Gloss=help
 12	us	us	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	11	obj	_	AlignBegin=274170|AlignEnd=274412|Gloss=ACC.PL.1
 13	//	//	PUNCT	_	_	4	punct	_	AlignBegin=274412|AlignEnd=274442|Gloss=PUNCT
 

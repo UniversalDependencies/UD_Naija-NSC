@@ -147,8 +147,8 @@
 4	dey	dey	AUX	_	Aspect=Imp	5	aux	_	AlignBegin=29029|AlignEnd=29186|Gloss=IPFV
 5	worry	worry	VERB	_	_	0	root	_	AlignBegin=29186|AlignEnd=29540|Gloss=worry
 6	us	us	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	5	obj	_	AlignBegin=29540|AlignEnd=29801|Gloss=ACC.PL.1
-7	at	at	ADP	_	_	8	case	_	AlignBegin=29801|AlignEnd=30100|EXTPOS=ADV|Gloss=at
-8	all	all	ADV	_	_	5	advmod	_	AlignBegin=30100|AlignEnd=30480|Gloss=all|INMWE=Yes
+7	at	at	ADP	_	_	5	dep	_	AlignBegin=29801|AlignEnd=30100|EXTPOS=ADV|Gloss=at
+8	all	all	ADV	_	_	7	fixed	_	AlignBegin=30100|AlignEnd=30480|Gloss=all
 9	//	//	PUNCT	_	_	5	punct	_	AlignBegin=30480|AlignEnd=30510|Gloss=PUNCT
 
 # sent_id = JOS_19_Bukuru_MG__10
@@ -359,7 +359,7 @@
 3	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	AlignBegin=70310|AlignEnd=70396|Gloss=NOM.SG.3
 4	don	don	AUX	_	Aspect=Perf	5	aux	_	AlignBegin=70396|AlignEnd=70643|Gloss=PRF
 5	pass	pass	VERB	_	_	0	root	_	AlignBegin=70643|AlignEnd=70921|Gloss=pass
-6	hundred	hundred	NUM	_	NumType=Card	7	nummod:num	_	AlignBegin=70921|AlignEnd=71280|Gloss=hundred.CARD
+6	hundred	hundred	NUM	_	NumType=Card	7	nummod:det	_	AlignBegin=70921|AlignEnd=71280|Gloss=hundred.CARD
 7	years	year	NOUN	_	Number=Plur	5	obj	_	AlignBegin=71280|AlignEnd=71565|Gloss=year.PL
 8	sef	sef	PART	_	PartType=Disc	7	advmod:emph	_	AlignBegin=71565|AlignEnd=71800|Gloss=FOC
 9	//	//	PUNCT	_	_	5	punct	_	AlignBegin=71800|AlignEnd=71892|Gloss=PUNCT
@@ -688,8 +688,8 @@
 1	put	put	VERB	_	_	0	root	_	AlignBegin=124021|AlignEnd=124350|Gloss=put
 2	your	your	PRON	_	Number=Plur|Person=2|Poss=Yes	3	nmod:poss	_	AlignBegin=124350|AlignEnd=124769|Gloss=PL.2.POSS
 3	milk	milk	NOUN	_	_	1	obj	_	AlignBegin=124769|AlignEnd=125051|Gloss=milk
-4	for	for	ADP	_	_	5	dep	_	AlignBegin=125051|AlignEnd=125230|EXTPOS=ADP|Gloss=for
-5	inside	inside	ADP	_	_	1	dep	_	AlignBegin=125230|AlignEnd=125590|Gloss=inside|INMWE=Yes
+4	for	for	ADP	_	_	1	dep	_	AlignBegin=125051|AlignEnd=125230|EXTPOS=ADP|Gloss=for
+5	inside	inside	ADP	_	_	4	fixed	_	AlignBegin=125230|AlignEnd=125590|Gloss=inside
 6	and	and	CCONJ	_	_	7	cc	_	AlignBegin=125590|AlignEnd=125720|Gloss=and
 7	sugar	sugar	NOUN	_	_	3	conj	_	AlignBegin=125720|AlignEnd=126110|Gloss=sugar
 8	//	//	PUNCT	_	_	1	punct	_	AlignBegin=126110|AlignEnd=126140|Gloss=PUNCT
@@ -1131,10 +1131,10 @@
 # text = # ah another food wey Jos people dey like to dey chop < na im >+ be dog //
 # text_en = Ah, another food that Jos people like to eat, is dog.
 # text_ortho = Ah another food wey Jos people dey like to dey chop, na im be dog.
-1	#	#	PUNCT	_	_	15	punct	_	AlignBegin=201820|AlignEnd=202040|Gloss=PUNCT
-2	ah	ah	INTJ	_	_	15	discourse	_	AlignBegin=202040|AlignEnd=202240|Gloss=ah
+1	#	#	PUNCT	_	_	14	punct	_	AlignBegin=201820|AlignEnd=202040|Gloss=PUNCT
+2	ah	ah	INTJ	_	_	14	discourse	_	AlignBegin=202040|AlignEnd=202240|Gloss=ah
 3	another	another	DET	_	_	4	det	_	AlignBegin=202240|AlignEnd=202660|Gloss=another
-4	food	food	NOUN	_	_	15	dislocated	_	AlignBegin=202660|AlignEnd=202986|Gloss=food
+4	food	food	NOUN	_	_	14	dislocated	_	AlignBegin=202660|AlignEnd=202986|Gloss=food
 5	wey	wey	SCONJ	_	_	9	mark	_	AlignBegin=202986|AlignEnd=203150|Gloss=REL
 6	Jos	Jos	PROPN	_	_	7	compound	_	AlignBegin=203150|AlignEnd=203340|Gloss=Jos
 7	people	people	NOUN	_	Number=Plur	9	nsubj	_	AlignBegin=203340|AlignEnd=203630|Gloss=people.PL
@@ -1144,12 +1144,12 @@
 11	dey	dey	AUX	_	Aspect=Imp	12	aux	_	AlignBegin=204122|AlignEnd=204267|Gloss=IPFV
 12	chop	chop	VERB	_	_	9	ccomp	_	AlignBegin=204267|AlignEnd=204450|Gloss=eat
 13	<	<	PUNCT	_	_	4	punct	_	AlignBegin=204450|AlignEnd=204480|Gloss=PUNCT
-14	na	na	AUX	_	PartType=Cop	15	cop	_	AlignBegin=204480|AlignEnd=204630|EXTPOS=SCONJ|Gloss=be
-15	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	0	root	_	AlignBegin=204630|AlignEnd=204682|Gloss=NOM.SG.3|INMWE=Yes
+14	na	na	AUX	_	PartType=Cop	0	root	_	AlignBegin=204480|AlignEnd=204630|EXTPOS=SCONJ|Gloss=be
+15	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	14	fixed	_	AlignBegin=204630|AlignEnd=204682|Gloss=NOM.SG.3
 16	>+	>+	PUNCT	_	_	17	punct	_	AlignBegin=204682|AlignEnd=204712|Gloss=PUNCT
-17	be	be	VERB	_	PartType=Cop	15	advcl:cleft	_	AlignBegin=204712|AlignEnd=204930|Gloss=be
+17	be	be	VERB	_	PartType=Cop	14	advcl:cleft	_	AlignBegin=204712|AlignEnd=204930|Gloss=be
 18	dog	dog	NOUN	_	_	17	dep	_	AlignBegin=204930|AlignEnd=205240|Gloss=dog
-19	//	//	PUNCT	_	_	15	punct	_	AlignBegin=205240|AlignEnd=205270|Gloss=PUNCT
+19	//	//	PUNCT	_	_	14	punct	_	AlignBegin=205240|AlignEnd=205270|Gloss=PUNCT
 
 # sent_id = JOS_19_Bukuru_MG__64
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/JOS_19_Bukuru_MG.mp3
@@ -1395,8 +1395,8 @@
 2	na	na	AUX	_	PartType=Cop	3	cop	_	AlignBegin=248520|AlignEnd=248715|Gloss=be
 3	drink	drink	NOUN	_	_	0	root	_	AlignBegin=248715|AlignEnd=249040|Gloss=drink
 4	wey	wey	SCONJ	_	_	19	mark	_	AlignBegin=249040|AlignEnd=249130|EXTPOS=SCONJ|Gloss=REL
-5	be	be	VERB	_	PartType=Cop	19	ccomp	_	AlignBegin=249130|AlignEnd=249246|Gloss=be|INMWE=Yes
-6	sey	sey	SCONJ	_	_	19	aux	_	AlignBegin=249246|AlignEnd=249425|Gloss=COMP|INMWE=Yes
+5	be	be	VERB	_	PartType=Cop	4	fixed	_	AlignBegin=249130|AlignEnd=249246|Gloss=be
+6	sey	sey	SCONJ	_	_	4	fixed	_	AlignBegin=249246|AlignEnd=249425|Gloss=COMP
 7	[	[	PUNCT	_	_	19	punct	_	AlignBegin=249425|AlignEnd=249455|Gloss=PUNCT
 8	if	if	SCONJ	_	_	10	mark	_	AlignBegin=249455|AlignEnd=249560|Gloss=if
 9	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	10	nsubj	_	AlignBegin=249560|AlignEnd=249620|Gloss=NOM.2
@@ -1407,7 +1407,7 @@
 14	chop	chop	VERB	_	_	10	conj	_	AlignBegin=250470|AlignEnd=250772|Gloss=eat
 15	<	<	PUNCT	_	_	10	punct	_	AlignBegin=250772|AlignEnd=250802|Gloss=PUNCT
 16	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	AlignBegin=250802|AlignEnd=251037|Gloss=NOM.SG.3
-17	fit	fit	AUX	_	Mood=Pot	19	cop	_	AlignBegin=251037|AlignEnd=251310|Gloss=ABIL
+17	fit	fit	AUX	_	Mood=Pot	19	aux	_	AlignBegin=251037|AlignEnd=251310|Gloss=ABIL
 18	#	#	PUNCT	_	_	19	punct	_	AlignBegin=251310|AlignEnd=251640|Gloss=PUNCT
 19	fall	fall	VERB	_	_	3	acl:relcl	_	AlignBegin=251521|AlignEnd=251640|Gloss=fall
 20	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	19	obj	_	AlignBegin=251640|AlignEnd=251895|Gloss=NOM.2
@@ -2298,8 +2298,8 @@
 10	#	#	PUNCT	_	_	8	punct	_	AlignBegin=390277|AlignEnd=390582|Gloss=PUNCT
 11	(	(	PUNCT	_	_	18	punct	_	AlignBegin=390277|AlignEnd=390582|Gloss=PUNCT
 12	wey	when	SCONJ	_	_	18	mark	_	AlignBegin=390582|AlignEnd=390652|EXTPOS=SCONJ|Gloss=when
-13	be	be	VERB	_	PartType=Cop	18	ccomp	_	AlignBegin=390652|AlignEnd=390785|Gloss=be|INMWE=Yes
-14	sey	sey	SCONJ	_	_	18	cop	_	AlignBegin=390785|AlignEnd=390932|Gloss=COMP|INMWE=Yes
+13	be	be	VERB	_	PartType=Cop	12	fixed	_	AlignBegin=390652|AlignEnd=390785|Gloss=be
+14	sey	sey	SCONJ	_	_	12	fixed	_	AlignBegin=390785|AlignEnd=390932|Gloss=COMP
 15	na	na	AUX	_	PartType=Cop	18	cop	_	AlignBegin=390932|AlignEnd=391087|Gloss=be
 16	di	the	DET	_	Definite=Def|PronType=Art	18	det	_	AlignBegin=391087|AlignEnd=391205|Gloss=DEF.ART
 17	usual	usual	ADJ	_	_	18	amod	_	AlignBegin=391205|AlignEnd=391641|Gloss=usual

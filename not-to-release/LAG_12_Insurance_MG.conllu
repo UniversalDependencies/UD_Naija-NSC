@@ -254,12 +254,12 @@
 # text = na im >+ we dey protect una sey [ if anyting happen < # we go give una money ] //
 # text_en = "That is... we protect you so that if anything happens, we will give you money."
 # text_ortho = "Na im... we dey protect una sey if anyting happen, we go give una money."
-1	na	na	AUX	_	PartType=Cop	2	cop	_	AlignBegin=40040|AlignEnd=40190|EXTPOS=SCONJ|Gloss=be
-2	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	0	root	_	AlignBegin=40190|AlignEnd=40320|Gloss=NOM.SG.3|INMWE=Yes
+1	na	na	AUX	_	PartType=Cop	0	root	_	AlignBegin=40040|AlignEnd=40190|EXTPOS=SCONJ|Gloss=be
+2	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	1	fixed	_	AlignBegin=40190|AlignEnd=40320|Gloss=NOM.SG.3
 3	>+	>+	PUNCT	_	_	6	punct	_	AlignBegin=40320|AlignEnd=40350|Gloss=PUNCT
 4	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	AlignBegin=40350|AlignEnd=40480|Gloss=NOM.PL.1
 5	dey	dey	AUX	_	Aspect=Imp	6	aux	_	AlignBegin=40480|AlignEnd=40662|Gloss=IPFV
-6	protect	protect	VERB	_	_	2	advcl:cleft	_	AlignBegin=40662|AlignEnd=41180|Gloss=protect
+6	protect	protect	VERB	_	_	1	advcl:cleft	_	AlignBegin=40662|AlignEnd=41180|Gloss=protect
 7	una	una	PRON	_	Case=Acc|Number=Plur|Person=2|PronType=Prs	6	obj	_	AlignBegin=41180|AlignEnd=41390|Gloss=ACC.PL.2
 8	sey	sey	SCONJ	_	_	17	mark	_	AlignBegin=41390|AlignEnd=41520|Gloss=COMP
 9	[	[	PUNCT	_	_	17	punct	_	AlignBegin=41520|AlignEnd=41550|Gloss=PUNCT
@@ -274,7 +274,7 @@
 18	una	una	PRON	_	Case=Acc|Number=Plur|Person=2|PronType=Prs	17	obj	_	AlignBegin=43490|AlignEnd=43747|Gloss=ACC.PL.2
 19	money	money	NOUN	_	_	17	obj	_	AlignBegin=43747|AlignEnd=44093|Gloss=money
 20	]	]	PUNCT	_	_	17	punct	_	AlignBegin=44093|AlignEnd=44123|Gloss=PUNCT
-21	//	//	PUNCT	_	_	2	punct	_	AlignBegin=44093|AlignEnd=44123|Gloss=PUNCT
+21	//	//	PUNCT	_	_	1	punct	_	AlignBegin=44093|AlignEnd=44123|Gloss=PUNCT
 
 # sent_id = LAG_12_Insurance_MG__14
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/LAG_12_Insurance_MG.mp3
@@ -313,8 +313,8 @@
 6	<	<	PUNCT	_	_	1	punct	_	AlignBegin=47680|AlignEnd=47710|Gloss=PUNCT
 7	anyting	anyting	PRON	_	_	22	dislocated	_	AlignBegin=47710|AlignEnd=48284|Gloss=anything
 8	wey	wey	SCONJ	_	_	13	mark	_	AlignBegin=48284|AlignEnd=48410|EXTPOS=SCONJ|Gloss=REL
-9	be	be	VERB	_	PartType=Cop	13	ccomp	_	AlignBegin=48410|AlignEnd=48475|Gloss=be|INMWE=Yes
-10	sey	sey	SCONJ	_	_	13	xcomp	_	AlignBegin=48475|AlignEnd=48880|Gloss=COMP|INMWE=Yes
+9	be	be	VERB	_	PartType=Cop	8	fixed	_	AlignBegin=48410|AlignEnd=48475|Gloss=be
+10	sey	sey	SCONJ	_	_	8	fixed	_	AlignBegin=48475|AlignEnd=48880|Gloss=COMP
 11	#	#	PUNCT	_	_	13	punct	_	AlignBegin=48880|AlignEnd=49320|Gloss=PUNCT
 12	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	13	nsubj	_	AlignBegin=49320|AlignEnd=49529|Gloss=NOM.2
 13	love	love	VERB	_	_	7	acl:relcl	_	AlignBegin=49529|AlignEnd=49912|Gloss=love
@@ -608,7 +608,7 @@
 8	sleep	sleep	VERB	_	_	3	conj	_	AlignBegin=95800|AlignEnd=96290|Gloss=sleep
 9	with	wit	ADP	_	_	12	case	_	AlignBegin=96290|AlignEnd=96500|Gloss=with
 10	your	your	PRON	_	Number=Plur|Person=2|Poss=Yes	12	nmod:poss	_	AlignBegin=96500|AlignEnd=96602|Gloss=PL.2.POSS
-11	two	two	NUM	_	NumType=Card	12	nummod:num	_	AlignBegin=96602|AlignEnd=96826|Gloss=two.CARD
+11	two	two	NUM	_	NumType=Card	12	nummod:det	_	AlignBegin=96602|AlignEnd=96826|Gloss=two.CARD
 12	eyes	eye	NOUN	_	Number=Plur	8	obl:arg	_	AlignBegin=96826|AlignEnd=97140|Gloss=eye.PL
 13	closed	close	VERB	_	Tense=Past|VerbForm=Part	12	acl	_	AlignBegin=97140|AlignEnd=97550|Gloss=close.PST.PTCP
 14	//	//	PUNCT	_	_	3	punct	_	AlignBegin=97550|AlignEnd=97580|Gloss=PUNCT
@@ -645,7 +645,7 @@
 10	make	make	AUX	_	Mood=Opt	12	aux	_	AlignBegin=100510|AlignEnd=100630|Gloss=SBJV
 11	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	12	nsubj	_	AlignBegin=100630|AlignEnd=100752|Gloss=NOM.2
 12	open	open	VERB	_	_	2	ccomp	_	AlignBegin=100752|AlignEnd=101020|Gloss=open
-13	one	one	NUM	_	NumType=Card	14	nummod:num	_	AlignBegin=101020|AlignEnd=101207|Gloss=one
+13	one	one	NUM	_	NumType=Card	14	nummod:det	_	AlignBegin=101020|AlignEnd=101207|Gloss=one
 14	eye	eye	NOUN	_	_	12	obj	_	AlignBegin=101207|AlignEnd=101660|Gloss=eye
 15	]	]	PUNCT	_	_	12	punct	_	AlignBegin=101660|AlignEnd=101690|Gloss=PUNCT
 16	|c	|c	PUNCT	_	_	20	punct	_	AlignBegin=101660|AlignEnd=101690|Gloss=PUNCT
@@ -823,7 +823,7 @@
 29	#	#	PUNCT	_	_	6	punct	_	AlignBegin=133667|AlignEnd=134380|Gloss=PUNCT
 30	with	wit	ADP	_	_	33	case	_	AlignBegin=134380|AlignEnd=134626|Gloss=with
 31	five	five	NUM	_	NumType=Card	32	compound	_	AlignBegin=134626|AlignEnd=134909|Gloss=five.CARD
-32	thousand	thousand	NUM	_	NumType=Card	33	nummod:num	_	AlignBegin=134909|AlignEnd=135285|Gloss=thousand.CARD
+32	thousand	thousand	NUM	_	NumType=Card	33	nummod:det	_	AlignBegin=134909|AlignEnd=135285|Gloss=thousand.CARD
 33	naira	naira	NOUN	_	_	37	dislocated	_	AlignBegin=135285|AlignEnd=135546|Gloss=naira
 34	<	<	PUNCT	_	_	33	punct	_	AlignBegin=135546|AlignEnd=135576|Gloss=PUNCT
 35	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	37	nsubj	_	AlignBegin=135576|AlignEnd=135638|Gloss=NOM.2
@@ -923,7 +923,7 @@
 12	na	na	AUX	_	PartType=Cop	16	cop	_	AlignBegin=151542|AlignEnd=151778|Gloss=be
 13	maybe	maybe	ADV	_	_	16	advmod	_	AlignBegin=151778|AlignEnd=152091|Gloss=maybe
 14	ten	ten	NUM	_	_	15	compound	_	AlignBegin=152091|AlignEnd=152328|Gloss=ten
-15	million	million	NUM	_	NumType=Card	16	nummod:num	_	AlignBegin=152328|AlignEnd=152691|Gloss=million.CARD
+15	million	million	NUM	_	NumType=Card	16	nummod:det	_	AlignBegin=152328|AlignEnd=152691|Gloss=million.CARD
 16	naira	naira	NOUN	_	_	5	conj	_	AlignBegin=152691|AlignEnd=153062|Gloss=naira
 17	}	}	PUNCT	_	_	5	punct	_	AlignBegin=153062|AlignEnd=153092|Gloss=PUNCT
 18	<	<	PUNCT	_	_	5	punct	_	AlignBegin=153062|AlignEnd=153092|Gloss=PUNCT
@@ -947,7 +947,7 @@
 36	no	no	PART	_	Polarity=Neg	37	advmod	_	AlignBegin=158105|AlignEnd=158410|Gloss=NEG
 37	reach	reach	VERB	_	_	0	root	_	AlignBegin=158410|AlignEnd=158650|Gloss=reach
 38	three	three	NUM	_	NumType=Card	39	compound	_	AlignBegin=158650|AlignEnd=158895|Gloss=three.CARD
-39	thousand	thousand	NUM	_	NumType=Card	40	nummod:num	_	AlignBegin=158895|AlignEnd=159263|Gloss=thousand.CARD
+39	thousand	thousand	NUM	_	NumType=Card	40	nummod:det	_	AlignBegin=158895|AlignEnd=159263|Gloss=thousand.CARD
 40	naira	naira	NOUN	_	_	37	obj	_	AlignBegin=159263|AlignEnd=159553|Gloss=naira
 41	//	//	PUNCT	_	_	37	punct	_	AlignBegin=159553|AlignEnd=159583|Gloss=PUNCT
 
@@ -1289,7 +1289,7 @@
 12	suppose	suppose	VERB	_	_	3	conj	_	AlignBegin=207985|AlignEnd=208527|Gloss=suppose
 13	do	do	VERB	_	_	12	xcomp	_	AlignBegin=208527|AlignEnd=208938|Gloss=do
 14	{	{	PUNCT	_	_	15	punct	_	AlignBegin=208938|AlignEnd=208968|Gloss=PUNCT
-15	one	one	NUM	_	NumType=Card	20	nummod:num	_	AlignBegin=208968|AlignEnd=209218|Gloss=one
+15	one	one	NUM	_	NumType=Card	20	nummod:det	_	AlignBegin=208968|AlignEnd=209218|Gloss=one
 16	|r	|r	PUNCT	_	_	18	punct	_	AlignBegin=209218|AlignEnd=209248|Gloss=PUNCT
 17	or	or	CCONJ	_	_	18	cc	_	AlignBegin=209248|AlignEnd=209362|Gloss=or
 18	two	two	NUM	_	NumType=Card	15	conj	_	AlignBegin=209362|AlignEnd=209521|Gloss=two.CARD
@@ -1540,8 +1540,8 @@
 15	eventually	eventually	ADV	_	_	16	advmod	_	AlignBegin=248849|AlignEnd=249665|Gloss=eventually
 16	occur	occur	VERB	_	_	27	advcl:periph	_	AlignBegin=249665|AlignEnd=250009|Gloss=occur
 17	|c	|c	PUNCT	_	_	22	punct	_	AlignBegin=250009|AlignEnd=250039|Gloss=PUNCT
-18	sey	sey	SCONJ	_	_	22	cc	_	AlignBegin=250039|AlignEnd=250200|Gloss=COMP|INMWE=Yes
-19	if	if	SCONJ	_	_	22	mark	_	AlignBegin=250200|AlignEnd=250300|EXTPOS=SCONJ|Gloss=if
+18	sey	sey	SCONJ	_	_	22	mark	_	AlignBegin=250039|AlignEnd=250200|EXTPOS=SCONJ|Gloss=COMP
+19	if	if	SCONJ	_	_	18	fixed	_	AlignBegin=250200|AlignEnd=250300|Gloss=if
 20	di	the	DET	_	Definite=Def|PronType=Art	21	det	_	AlignBegin=250300|AlignEnd=250413|Gloss=DEF.ART
 21	ting	ting	NOUN	_	_	22	nsubj	_	AlignBegin=250413|AlignEnd=250604|Gloss=thing
 22	happen	happen	VERB	_	_	16	conj	_	AlignBegin=250604|AlignEnd=250953|Gloss=happen
@@ -2282,7 +2282,7 @@
 13	buy	buy	VERB	_	_	11	compound:svc	_	AlignBegin=374230|AlignEnd=374480|Gloss=buy
 14	car	car	NOUN	_	_	13	obj	_	AlignBegin=374480|AlignEnd=374980|Gloss=car
 15	one	one	NUM	_	NumType=Card	16	compound	_	AlignBegin=374980|AlignEnd=375160|Gloss=one
-16	million	million	NUM	_	NumType=Card	17	nummod:num	_	AlignBegin=375160|AlignEnd=375537|Gloss=million.CARD
+16	million	million	NUM	_	NumType=Card	17	nummod:det	_	AlignBegin=375160|AlignEnd=375537|Gloss=million.CARD
 17	naira	naira	NOUN	_	_	13	xcomp	_	AlignBegin=375537|AlignEnd=375879|Gloss=naira
 18	//	//	PUNCT	_	_	5	punct	_	AlignBegin=375879|AlignEnd=375909|Gloss=PUNCT
 
@@ -2296,7 +2296,7 @@
 2	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	AlignBegin=376580|AlignEnd=376701|Gloss=NOM.2
 3	pay	pay	VERB	_	_	0	root	_	AlignBegin=376701|AlignEnd=376905|Gloss=pay
 4	fifty	fifty	NUM	_	NumType=Card	5	compound	_	AlignBegin=376905|AlignEnd=377238|Gloss=fifty.CARD
-5	thousand	thousand	NUM	_	NumType=Card	6	nummod:num	_	AlignBegin=377238|AlignEnd=377570|Gloss=thousand.CARD
+5	thousand	thousand	NUM	_	NumType=Card	6	nummod:det	_	AlignBegin=377238|AlignEnd=377570|Gloss=thousand.CARD
 6	naira	naira	NOUN	_	_	3	obj	_	AlignBegin=377570|AlignEnd=377870|Gloss=naira
 7	to	to	ADP	_	_	8	mark	_	AlignBegin=377870|AlignEnd=377988|Gloss=to
 8	protect	protect	VERB	_	_	3	xcomp	_	AlignBegin=377988|AlignEnd=378395|Gloss=protect

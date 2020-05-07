@@ -96,7 +96,7 @@
 26	|a	|a	PUNCT	_	_	29	punct	_	AlignBegin=19140|AlignEnd=19639|Gloss=PUNCT
 27	#	#	PUNCT	_	_	29	punct	_	AlignBegin=19140|AlignEnd=19639|Gloss=PUNCT
 28	twenty	twenty	NUM	_	NumType=Card	29	compound	_	AlignBegin=19639|AlignEnd=20059|Gloss=twenty.CARD
-29	seven	seven	NUM	_	NumType=Card	25	nmod:num	_	AlignBegin=20059|AlignEnd=20569|Gloss=seven.CARD
+29	seven	seven	NUM	_	NumType=Card	25	nummod:mod	_	AlignBegin=20059|AlignEnd=20569|Gloss=seven.CARD
 30	twenty	twenty	NUM	_	NumType=Card	31	compound	_	AlignBegin=20569|AlignEnd=21119|Gloss=twenty.CARD
 31	eight	eight	NUM	_	NumType=Card	29	conj	_	AlignBegin=21119|AlignEnd=21734|Gloss=eight.CARD
 32	#	#	PUNCT	_	_	34	punct	_	AlignBegin=21734|AlignEnd=22000|Gloss=PUNCT
@@ -201,7 +201,7 @@
 35	|c	|c	PUNCT	_	_	34	punct	_	AlignBegin=47381|AlignEnd=47411|Gloss=PUNCT
 36	#	#	PUNCT	_	_	41	punct	_	AlignBegin=47411|AlignEnd=47871|Gloss=PUNCT
 37	for	for	ADP	_	_	41	mark	_	AlignBegin=47871|AlignEnd=48080|EXTPOS=SCONJ|Gloss=for
-38	sey	sey	SCONJ	_	_	41	mark	_	AlignBegin=48080|AlignEnd=48700|Gloss=COMP|INMWE=Yes
+38	sey	sey	SCONJ	_	_	37	fixed	_	AlignBegin=48080|AlignEnd=48700|Gloss=COMP
 39	{	{	PUNCT	_	_	41	punct	_	AlignBegin=48700|AlignEnd=48730|Gloss=PUNCT
 40	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	41	nsubj	_	AlignBegin=48730|AlignEnd=48950|Gloss=NOM.PL.3
 41	give	give	VERB	_	_	26	conj	_	AlignBegin=48950|AlignEnd=49170|Gloss=give
@@ -345,12 +345,12 @@
 1	infact	infact	ADV	_	_	3	advmod:periph	_	AlignBegin=71040|AlignEnd=71290|Gloss=in_fact
 2	na	na	AUX	_	PartType=Cop	3	cop	_	AlignBegin=71290|AlignEnd=71490|Gloss=be
 3	goat	goat	NOUN	_	_	0	root	_	AlignBegin=71490|AlignEnd=71890|Gloss=goat
-4	>+	>+	PUNCT	_	_	6	punct	_	AlignBegin=71890|AlignEnd=71920|Gloss=PUNCT
-5	na	na	AUX	_	PartType=Cop	6	cop	_	AlignBegin=71920|AlignEnd=72003|EXTPOS=SCONJ|Gloss=be
-6	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	advcl:cleft	_	AlignBegin=72003|AlignEnd=72071|Gloss=NOM.SG.3|INMWE=Yes
+4	>+	>+	PUNCT	_	_	5	punct	_	AlignBegin=71890|AlignEnd=71920|Gloss=PUNCT
+5	na	na	AUX	_	PartType=Cop	3	advcl:cleft	_	AlignBegin=71920|AlignEnd=72003|EXTPOS=SCONJ|Gloss=be
+6	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	5	fixed	_	AlignBegin=72003|AlignEnd=72071|Gloss=NOM.SG.3
 7	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	AlignBegin=72071|AlignEnd=72190|Gloss=NOM.PL.1
 8	dey	dey	AUX	_	Aspect=Imp	9	aux	_	AlignBegin=72190|AlignEnd=72360|Gloss=IPFV
-9	kill	kill	VERB	_	_	6	ccomp	_	AlignBegin=72360|AlignEnd=72670|Gloss=kill
+9	kill	kill	VERB	_	_	5	ccomp	_	AlignBegin=72360|AlignEnd=72670|Gloss=kill
 10	for	for	ADP	_	_	12	case	_	AlignBegin=72670|AlignEnd=72830|Gloss=for
 11	dat	dat	DET	_	Number=Sing|PronType=Dem	12	det	_	AlignBegin=72830|AlignEnd=73000|Gloss=SG.DIST.DEM
 12	festival	festival	NOUN	_	_	9	obl:arg	_	AlignBegin=73000|AlignEnd=73492|Gloss=festival
@@ -437,24 +437,24 @@
 # text = # ah # pounded yam < na im >+ be { di main |r di main } //
 # text_en = Ah, pounded yam, that's the main food.
 # text_ortho = Ah pounded yam, na im be di main, di main.
-1	#	#	PUNCT	_	_	8	punct	_	AlignBegin=83340|AlignEnd=85580|Gloss=PUNCT
-2	ah	ah	INTJ	_	_	8	discourse	_	AlignBegin=85580|AlignEnd=85941|Gloss=ah
+1	#	#	PUNCT	_	_	7	punct	_	AlignBegin=83340|AlignEnd=85580|Gloss=PUNCT
+2	ah	ah	INTJ	_	_	7	discourse	_	AlignBegin=85580|AlignEnd=85941|Gloss=ah
 3	#	#	PUNCT	_	_	2	punct	_	AlignBegin=85941|AlignEnd=86136|Gloss=PUNCT
 4	pounded	pound	ADJ	_	_	5	compound	_	AlignBegin=86136|AlignEnd=86460|Gloss=pound
-5	yam	yam	NOUN	_	_	8	dislocated	_	AlignBegin=86460|AlignEnd=86610|Gloss=yam
+5	yam	yam	NOUN	_	_	7	dislocated	_	AlignBegin=86460|AlignEnd=86610|Gloss=yam
 6	<	<	PUNCT	_	_	5	punct	_	AlignBegin=86610|AlignEnd=86640|Gloss=PUNCT
-7	na	na	AUX	_	PartType=Cop	8	cop	_	AlignBegin=86640|AlignEnd=86750|EXTPOS=SCONJ|Gloss=be
-8	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	0	root	_	AlignBegin=86750|AlignEnd=86760|Gloss=NOM.SG.3|INMWE=Yes
+7	na	na	AUX	_	PartType=Cop	0	root	_	AlignBegin=86640|AlignEnd=86750|EXTPOS=SCONJ|Gloss=be
+8	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	7	fixed	_	AlignBegin=86750|AlignEnd=86760|Gloss=NOM.SG.3
 9	>+	>+	PUNCT	_	_	13	punct	_	AlignBegin=86760|AlignEnd=86790|Gloss=PUNCT
 10	be	be	AUX	_	PartType=Cop	13	cop	_	AlignBegin=86790|AlignEnd=86870|Gloss=be
 11	{	{	PUNCT	_	_	13	punct	_	AlignBegin=86870|AlignEnd=86900|Gloss=PUNCT
 12	di	the	DET	_	Definite=Def|PronType=Art	13	det	_	AlignBegin=86900|AlignEnd=87030|Gloss=DEF.ART
-13	main	main	ADJ	_	_	8	advcl:cleft	_	AlignBegin=87030|AlignEnd=87250|Gloss=main
+13	main	main	ADJ	_	_	7	advcl:cleft	_	AlignBegin=87030|AlignEnd=87250|Gloss=main
 14	|r	|r	PUNCT	_	_	16	punct	_	AlignBegin=87250|AlignEnd=87280|Gloss=PUNCT
 15	di	the	DET	_	Definite=Def|PronType=Art	16	det	_	AlignBegin=87280|AlignEnd=87420|Gloss=DEF.ART
 16	main	main	ADJ	_	_	13	compound:redup	_	AlignBegin=87420|AlignEnd=87647|Gloss=main
 17	}	}	PUNCT	_	_	13	punct	_	AlignBegin=87647|AlignEnd=87677|Gloss=PUNCT
-18	//	//	PUNCT	_	_	8	punct	_	AlignBegin=87647|AlignEnd=87677|Gloss=PUNCT
+18	//	//	PUNCT	_	_	7	punct	_	AlignBegin=87647|AlignEnd=87677|Gloss=PUNCT
 
 # sent_id = IBA_02_Igwe-Festival_MG__23
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_02_Igwe-Festival_MG.mp3
@@ -578,9 +578,9 @@
 5	fit	fit	AUX	_	Mood=Pot	6	aux	_	AlignBegin=109230|AlignEnd=109460|Gloss=ABIL
 6	buy	buy	VERB	_	_	13	advcl:periph	_	AlignBegin=109460|AlignEnd=109730|Gloss=buy
 7	<	<	PUNCT	_	_	6	punct	_	AlignBegin=109730|AlignEnd=109860|Gloss=PUNCT
-8	so	so	ADV	_	_	9	advmod	_	AlignBegin=109730|AlignEnd=109860|Gloss=so|INMWE=Yes
-9	far	far	ADV	_	_	13	advmod:periph	_	AlignBegin=109860|AlignEnd=110040|EXTPOS=SCONJ|Gloss=far
-10	<	<	PUNCT	_	_	9	punct	_	AlignBegin=110040|AlignEnd=110070|Gloss=PUNCT
+8	so	so	ADV	_	_	13	advmod:periph	_	AlignBegin=109730|AlignEnd=109860|EXTPOS=SCONJ|Gloss=so
+9	far	far	ADV	_	_	8	fixed	_	AlignBegin=109860|AlignEnd=110040|Gloss=far
+10	<	<	PUNCT	_	_	8	punct	_	AlignBegin=110040|AlignEnd=110070|Gloss=PUNCT
 11	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	13	nsubj	_	AlignBegin=110070|AlignEnd=110130|Gloss=NOM.PL.1
 12	go	go	AUX	_	Aspect=Prosp	13	aux	_	AlignBegin=110130|AlignEnd=110260|Gloss=PROSP
 13	buy	buy	VERB	_	_	0	root	_	AlignBegin=110260|AlignEnd=110480|Gloss=buy
@@ -814,8 +814,8 @@
 9	pray	pray	VERB	_	_	0	root	_	AlignBegin=159960|AlignEnd=160874|Gloss=pray
 10	#	#	PUNCT	_	_	15	punct	_	AlignBegin=160874|AlignEnd=161550|Gloss=PUNCT
 11	on	on	ADP	_	_	15	case	_	AlignBegin=161550|AlignEnd=161740|EXTPOS=ADP|Gloss=on
-12	top	top	NOUN	_	_	15	obj	_	AlignBegin=161740|AlignEnd=162080|Gloss=top|INMWE=Yes
-13	of	of	ADP	_	_	15	dep	_	AlignBegin=162080|AlignEnd=162240|Gloss=of|INMWE=Yes
+12	top	top	NOUN	_	_	11	fixed	_	AlignBegin=161740|AlignEnd=162080|Gloss=top
+13	of	of	ADP	_	_	11	fixed	_	AlignBegin=162080|AlignEnd=162240|Gloss=of
 14	dat	dat	DET	_	Number=Sing|PronType=Dem	15	det	_	AlignBegin=162240|AlignEnd=162760|Gloss=SG.DIST.DEM
 15	calabash	calabash	NOUN	_	_	9	obl:arg	_	AlignBegin=162760|AlignEnd=163587|Gloss=calabash
 16	//	//	PUNCT	_	_	9	punct	_	AlignBegin=163587|AlignEnd=163617|Gloss=PUNCT
@@ -1209,13 +1209,13 @@
 # text = # na im >+ e mean //
 # text_en = That’s what it means.
 # text_ortho = Na im, e mean.
-1	#	#	PUNCT	_	_	3	punct	_	AlignBegin=241541|AlignEnd=241840|Gloss=PUNCT
-2	na	na	AUX	_	PartType=Cop	3	cop	_	AlignBegin=241840|AlignEnd=242010|EXTPOS=SCONJ|Gloss=be
-3	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	0	root	_	AlignBegin=242010|AlignEnd=242030|Gloss=NOM.SG.3|INMWE=Yes
+1	#	#	PUNCT	_	_	2	punct	_	AlignBegin=241541|AlignEnd=241840|Gloss=PUNCT
+2	na	na	AUX	_	PartType=Cop	0	root	_	AlignBegin=241840|AlignEnd=242010|EXTPOS=SCONJ|Gloss=be
+3	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	fixed	_	AlignBegin=242010|AlignEnd=242030|Gloss=NOM.SG.3
 4	>+	>+	PUNCT	_	_	6	punct	_	AlignBegin=242030|AlignEnd=242060|Gloss=PUNCT
 5	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	AlignBegin=242060|AlignEnd=242140|Gloss=NOM.SG.3
-6	mean	mean	VERB	_	_	3	advcl:cleft	_	AlignBegin=242140|AlignEnd=242350|Gloss=mean
-7	//	//	PUNCT	_	_	3	punct	_	AlignBegin=242350|AlignEnd=242380|Gloss=PUNCT
+6	mean	mean	VERB	_	_	2	advcl:cleft	_	AlignBegin=242140|AlignEnd=242350|Gloss=mean
+7	//	//	PUNCT	_	_	2	punct	_	AlignBegin=242350|AlignEnd=242380|Gloss=PUNCT
 
 # sent_id = IBA_02_Igwe-Festival_MG__56
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_02_Igwe-Festival_MG.mp3
@@ -1404,7 +1404,7 @@
 9	make	make	AUX	_	Mood=Opt	17	aux	_	AlignBegin=273253|AlignEnd=273473|Gloss=SBJV
 10	at	at	ADP	_	_	12	dep	_	AlignBegin=273473|AlignEnd=273643|EXTPOS=ADV|Gloss=at
 11	least	least	ADV	_	_	10	fixed	_	AlignBegin=273643|AlignEnd=273809|Gloss=least
-12	one	one	NUM	_	NumType=Card	13	nummod:num	_	AlignBegin=273809|AlignEnd=273983|Gloss=one
+12	one	one	NUM	_	NumType=Card	13	nummod:det	_	AlignBegin=273809|AlignEnd=273983|Gloss=one
 13	drop	drop	NOUN	_	_	17	nsubj	_	AlignBegin=273983|AlignEnd=274213|Gloss=drop
 14	of	of	ADP	_	_	16	case	_	AlignBegin=274213|AlignEnd=274333|Gloss=of
 15	di	the	DET	_	Definite=Def|PronType=Art	16	det	_	AlignBegin=274333|AlignEnd=274403|Gloss=DEF.ART
@@ -1878,9 +1878,9 @@
 # text = na im be sey [ di money wey you go collect dat day no be small ] //
 # text_en = It means that the amount of money you'll collect that day won't be small.
 # text_ortho = Na im be sey di money wey you go collect dat day no be small.
-1	na	na	AUX	_	PartType=Cop	2	cop	_	AlignBegin=351120|AlignEnd=351219|EXTPOS=SCONJ|Gloss=be
-2	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	0	root	_	AlignBegin=351219|AlignEnd=351400|Gloss=NOM.SG.3|INMWE=Yes
-3	be	be	VERB	_	PartType=Cop	2	advcl:cleft	_	AlignBegin=351400|AlignEnd=351470|Gloss=be
+1	na	na	AUX	_	PartType=Cop	0	root	_	AlignBegin=351120|AlignEnd=351219|EXTPOS=SCONJ|Gloss=be
+2	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	1	fixed	_	AlignBegin=351219|AlignEnd=351400|Gloss=NOM.SG.3
+3	be	be	VERB	_	PartType=Cop	1	advcl:cleft	_	AlignBegin=351400|AlignEnd=351470|Gloss=be
 4	sey	sey	SCONJ	_	_	16	mark	_	AlignBegin=351470|AlignEnd=351670|Gloss=COMP
 5	[	[	PUNCT	_	_	16	punct	_	AlignBegin=351670|AlignEnd=351700|Gloss=PUNCT
 6	di	the	DET	_	Definite=Def|PronType=Art	7	det	_	AlignBegin=351700|AlignEnd=351800|Gloss=DEF.ART
@@ -1895,7 +1895,7 @@
 15	be	be	AUX	_	PartType=Cop	16	cop	_	AlignBegin=353070|AlignEnd=353170|Gloss=be
 16	small	small	ADJ	_	_	3	ccomp:agent	_	AlignBegin=353170|AlignEnd=353588|Gloss=small
 17	]	]	PUNCT	_	_	16	punct	_	AlignBegin=353588|AlignEnd=353618|Gloss=PUNCT
-18	//	//	PUNCT	_	_	2	punct	_	AlignBegin=353588|AlignEnd=353618|Gloss=PUNCT
+18	//	//	PUNCT	_	_	1	punct	_	AlignBegin=353588|AlignEnd=353618|Gloss=PUNCT
 
 # sent_id = IBA_02_Igwe-Festival_MG__86
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_02_Igwe-Festival_MG.mp3
@@ -2167,7 +2167,7 @@
 19	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	21	nsubj	_	AlignBegin=395160|AlignEnd=395280|Gloss=NOM.2
 20	dey	dey	AUX	_	Aspect=Imp	21	aux	_	AlignBegin=395280|AlignEnd=395420|Gloss=IPFV
 21	sell	sell	VERB	_	_	14	conj	_	AlignBegin=395420|AlignEnd=395640|Gloss=sell
-22	one	one	NUM	_	NumType=Card	23	nummod:num	_	AlignBegin=395640|AlignEnd=395830|Gloss=one
+22	one	one	NUM	_	NumType=Card	23	nummod:det	_	AlignBegin=395640|AlignEnd=395830|Gloss=one
 23	thing	ting	NOUN	_	_	21	obj	_	AlignBegin=395830|AlignEnd=395996|Gloss=thing
 24	]	]	PUNCT	_	_	21	punct	_	AlignBegin=395996|AlignEnd=396026|Gloss=PUNCT
 25	//	//	PUNCT	_	_	8	punct	_	AlignBegin=395996|AlignEnd=396026|Gloss=PUNCT
@@ -2292,19 +2292,19 @@
 # text = na im >+ people dey use all dose kind tin dey serve //
 # text_en = People use all those kinds of things to worship him.
 # text_ortho = Na im, people dey use all dose kind tin dey serve.
-1	na	na	AUX	_	PartType=Cop	2	cop	_	AlignBegin=417801|AlignEnd=417983|EXTPOS=SCONJ|Gloss=be
-2	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	0	root	_	AlignBegin=417983|AlignEnd=418151|Gloss=NOM.SG.3|INMWE=Yes
+1	na	na	AUX	_	PartType=Cop	0	root	_	AlignBegin=417801|AlignEnd=417983|EXTPOS=SCONJ|Gloss=be
+2	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	1	fixed	_	AlignBegin=417983|AlignEnd=418151|Gloss=NOM.SG.3
 3	>+	>+	PUNCT	_	_	6	punct	_	AlignBegin=418151|AlignEnd=418181|Gloss=PUNCT
 4	people	people	NOUN	_	Number=Plur	6	nsubj	_	AlignBegin=418181|AlignEnd=418441|Gloss=people.PL
 5	dey	dey	AUX	_	Aspect=Imp	6	aux	_	AlignBegin=418441|AlignEnd=418831|Gloss=IPFV
-6	use	use	VERB	_	_	2	advcl:cleft	_	AlignBegin=418831|AlignEnd=418981|Gloss=use
+6	use	use	VERB	_	_	1	advcl:cleft	_	AlignBegin=418831|AlignEnd=418981|Gloss=use
 7	all	all	ADV	_	_	10	advmod	_	AlignBegin=418981|AlignEnd=419121|Gloss=all
 8	dose	dose	DET	_	Number=Plur|PronType=Dem	10	det	_	AlignBegin=419121|AlignEnd=419281|Gloss=PL.DIST.DEM
 9	kind	kind	ADJ	_	_	10	amod	_	AlignBegin=419281|AlignEnd=419471|Gloss=kind
 10	tin	ting	NOUN	_	_	6	obj	_	AlignBegin=419471|AlignEnd=419641|Gloss=thing
 11	dey	dey	AUX	_	Aspect=Imp	12	aux	_	AlignBegin=419641|AlignEnd=419781|Gloss=IPFV
 12	serve	serve	VERB	_	_	6	advcl	_	AlignBegin=419781|AlignEnd=420041|Gloss=serve
-13	//	//	PUNCT	_	_	2	punct	_	AlignBegin=420041|AlignEnd=420071|Gloss=PUNCT
+13	//	//	PUNCT	_	_	1	punct	_	AlignBegin=420041|AlignEnd=420071|Gloss=PUNCT
 
 # sent_id = IBA_02_Igwe-Festival_MG__105
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_02_Igwe-Festival_MG.mp3
@@ -2621,18 +2621,18 @@
 3	na	na	AUX	_	PartType=Cop	5	cop	_	AlignBegin=464968|AlignEnd=465158|Gloss=be
 4	from	from	ADP	_	_	5	case	_	AlignBegin=465158|AlignEnd=465618|Gloss=from
 5	distance	distance	NOUN	_	_	0	root	_	AlignBegin=465618|AlignEnd=466289|Gloss=distance
-6	>+	>+	PUNCT	_	_	9	punct	_	AlignBegin=466289|AlignEnd=466319|Gloss=PUNCT
-7	{	{	PUNCT	_	_	9	punct	_	AlignBegin=466289|AlignEnd=466319|Gloss=PUNCT
-8	na	na	AUX	_	PartType=Cop	9	cop	_	AlignBegin=466319|AlignEnd=466718|EXTPOS=SCONJ|Gloss=be
-9	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	5	advcl:cleft	_	AlignBegin=466718|AlignEnd=466840|Gloss=NOM.SG.3|INMWE=Yes
-10	||	||	PUNCT	_	_	13	punct	_	AlignBegin=466840|AlignEnd=466870|Gloss=PUNCT
-11	#	#	PUNCT	_	_	13	punct	_	AlignBegin=466870|AlignEnd=467420|Gloss=PUNCT
-12	na	na	AUX	_	PartType=Cop	13	cop	_	AlignBegin=467420|AlignEnd=467742|EXTPOS=SCONJ|Gloss=be
-13	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	8	conj:dicto	_	AlignBegin=467742|AlignEnd=467860|Gloss=NOM.SG.3|INMWE=Yes
-14	}	}	PUNCT	_	_	9	punct	_	AlignBegin=467860|AlignEnd=467890|Gloss=PUNCT
+6	>+	>+	PUNCT	_	_	8	punct	_	AlignBegin=466289|AlignEnd=466319|Gloss=PUNCT
+7	{	{	PUNCT	_	_	8	punct	_	AlignBegin=466289|AlignEnd=466319|Gloss=PUNCT
+8	na	na	AUX	_	PartType=Cop	5	advcl:cleft	_	AlignBegin=466319|AlignEnd=466718|EXTPOS=SCONJ|Gloss=be
+9	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	8	fixed	_	AlignBegin=466718|AlignEnd=466840|Gloss=NOM.SG.3
+10	||	||	PUNCT	_	_	12	punct	_	AlignBegin=466840|AlignEnd=466870|Gloss=PUNCT
+11	#	#	PUNCT	_	_	12	punct	_	AlignBegin=466870|AlignEnd=467420|Gloss=PUNCT
+12	na	na	AUX	_	PartType=Cop	8	conj:dicto	_	AlignBegin=467420|AlignEnd=467742|EXTPOS=SCONJ|Gloss=be
+13	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	12	fixed	_	AlignBegin=467742|AlignEnd=467860|Gloss=NOM.SG.3
+14	}	}	PUNCT	_	_	8	punct	_	AlignBegin=467860|AlignEnd=467890|Gloss=PUNCT
 15	women	woman	NOUN	_	Number=Plur	17	nsubj	_	AlignBegin=467890|AlignEnd=468180|Gloss=woman.PL
 16	dey	dey	AUX	_	Aspect=Imp	17	aux	_	AlignBegin=468180|AlignEnd=468510|Gloss=IPFV
-17	look	look	VERB	_	_	13	ccomp	_	AlignBegin=468510|AlignEnd=468680|Gloss=look
+17	look	look	VERB	_	_	12	ccomp	_	AlignBegin=468510|AlignEnd=468680|Gloss=look
 18	dem	dem	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	17	obj	_	AlignBegin=468680|AlignEnd=469185|Gloss=ACC.PL.3
 19	//	//	PUNCT	_	_	5	punct	_	AlignBegin=469185|AlignEnd=469215|Gloss=PUNCT
 

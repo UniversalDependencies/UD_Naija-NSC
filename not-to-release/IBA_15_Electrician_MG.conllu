@@ -94,7 +94,7 @@
 9	#	#	PUNCT	_	_	18	punct	_	AlignBegin=16632|AlignEnd=18065|Gloss=PUNCT
 10	{	{	PUNCT	_	_	12	punct	_	AlignBegin=18035|AlignEnd=18065|Gloss=PUNCT
 11	thirty	thirty	NUM	_	NumType=Card	12	obj	_	AlignBegin=18065|AlignEnd=18415|Gloss=thirty.CARD
-12	five	five	NUM	_	NumType=Card	18	nummod:num	_	AlignBegin=18415|AlignEnd=18765|Gloss=five.CARD
+12	five	five	NUM	_	NumType=Card	18	nummod:det	_	AlignBegin=18415|AlignEnd=18765|Gloss=five.CARD
 13	|c	|c	PUNCT	_	_	16	punct	_	AlignBegin=18765|AlignEnd=18795|Gloss=PUNCT
 14	or	or	CCONJ	_	_	16	cc	_	AlignBegin=18795|AlignEnd=19025|Gloss=or
 15	thirty	thirty	NUM	_	NumType=Card	16	obj	_	AlignBegin=19025|AlignEnd=19275|Gloss=thirty.CARD
@@ -133,10 +133,10 @@
 18	#	#	PUNCT	_	_	20	punct	_	AlignBegin=26238|AlignEnd=26910|Gloss=PUNCT
 19	dangerous	dangerous	ADJ	_	_	20	amod	_	AlignBegin=26910|AlignEnd=27433|Gloss=dangerous
 20	work	work	NOUN	_	_	11	advcl	_	AlignBegin=27433|AlignEnd=27837|Gloss=work
-21	>+	>+	PUNCT	_	_	23	punct	_	AlignBegin=27837|AlignEnd=27867|Gloss=PUNCT
-22	na	na	AUX	_	PartType=Cop	23	cop	_	AlignBegin=27867|AlignEnd=28030|EXTPOS=SCONJ|Gloss=be
-23	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	20	advcl:cleft	_	AlignBegin=28030|AlignEnd=28108|Gloss=NOM.SG.3|INMWE=Yes
-24	be	be	VERB	_	PartType=Cop	23	advcl:cleft	_	AlignBegin=28108|AlignEnd=28218|Gloss=be
+21	>+	>+	PUNCT	_	_	22	punct	_	AlignBegin=27837|AlignEnd=27867|Gloss=PUNCT
+22	na	na	AUX	_	PartType=Cop	20	advcl:cleft	_	AlignBegin=27867|AlignEnd=28030|EXTPOS=SCONJ|Gloss=be
+23	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	22	fixed	_	AlignBegin=28030|AlignEnd=28108|Gloss=NOM.SG.3
+24	be	be	VERB	_	PartType=Cop	22	advcl:cleft	_	AlignBegin=28108|AlignEnd=28218|Gloss=be
 25	di	the	DET	_	Definite=Def|PronType=Art	27	det	_	AlignBegin=28218|AlignEnd=28298|Gloss=DEF.ART
 26	{	{	PUNCT	_	_	27	punct	_	AlignBegin=28298|AlignEnd=28328|Gloss=PUNCT
 27	li-	X	X	_	_	24	dep	_	AlignBegin=28328|AlignEnd=28458|Gloss=X
@@ -288,22 +288,22 @@
 # text = # { many |r many } things < na im >+ we dey ehn use //
 # text_en = Lots, lots of things, that's what we are uh… using.
 # text_ortho = Many, many things, na im, we dey ehn... use.
-1	#	#	PUNCT	_	_	10	punct	_	AlignBegin=58620|AlignEnd=60100|Gloss=PUNCT
+1	#	#	PUNCT	_	_	9	punct	_	AlignBegin=58620|AlignEnd=60100|Gloss=PUNCT
 2	{	{	PUNCT	_	_	3	punct	_	AlignBegin=60070|AlignEnd=60100|Gloss=PUNCT
 3	many	many	ADJ	_	_	7	amod	_	AlignBegin=60100|AlignEnd=60270|Gloss=many
 4	|r	|r	PUNCT	_	_	5	punct	_	AlignBegin=60270|AlignEnd=60300|Gloss=PUNCT
 5	many	many	ADJ	_	_	3	compound:redup	_	AlignBegin=60300|AlignEnd=60540|Gloss=many
 6	}	}	PUNCT	_	_	3	punct	_	AlignBegin=60540|AlignEnd=60570|Gloss=PUNCT
-7	things	ting	NOUN	_	Number=Plur	10	dislocated	_	AlignBegin=60570|AlignEnd=60800|Gloss=thing.PL
+7	things	ting	NOUN	_	Number=Plur	9	dislocated	_	AlignBegin=60570|AlignEnd=60800|Gloss=thing.PL
 8	<	<	PUNCT	_	_	7	punct	_	AlignBegin=60800|AlignEnd=60830|Gloss=PUNCT
-9	na	na	AUX	_	PartType=Cop	10	cop	_	AlignBegin=60830|AlignEnd=61030|EXTPOS=SCONJ|Gloss=be
-10	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	0	root	_	AlignBegin=60830|AlignEnd=61030|Gloss=NOM.SG.3|INMWE=Yes
+9	na	na	AUX	_	PartType=Cop	0	root	_	AlignBegin=60830|AlignEnd=61030|EXTPOS=SCONJ|Gloss=be
+10	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	9	fixed	_	AlignBegin=60830|AlignEnd=61030|Gloss=NOM.SG.3
 11	>+	>+	PUNCT	_	_	15	punct	_	AlignBegin=61030|AlignEnd=61060|Gloss=PUNCT
 12	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	15	nsubj	_	AlignBegin=61060|AlignEnd=61140|Gloss=NOM.PL.1
 13	dey	dey	AUX	_	Aspect=Imp	15	aux	_	AlignBegin=61140|AlignEnd=61270|Gloss=IPFV
 14	ehn	ehn	INTJ	_	_	15	discourse	_	AlignBegin=61438|AlignEnd=61550|Gloss=ehn
-15	use	use	VERB	_	_	10	advcl:cleft	_	AlignBegin=61438|AlignEnd=61550|Gloss=use
-16	//	//	PUNCT	_	_	10	punct	_	AlignBegin=61550|AlignEnd=61580|Gloss=PUNCT
+15	use	use	VERB	_	_	9	advcl:cleft	_	AlignBegin=61438|AlignEnd=61550|Gloss=use
+16	//	//	PUNCT	_	_	9	punct	_	AlignBegin=61550|AlignEnd=61580|Gloss=PUNCT
 
 # sent_id = IBA_15_Electrician_MG__14
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_15_Electrician_MG.mp3
@@ -656,11 +656,11 @@
 15	na	na	AUX	_	PartType=Cop	17	cop	_	AlignBegin=133920|AlignEnd=134030|Gloss=be
 16	our	our	PRON	_	Number=Plur|Person=1|Poss=Yes	17	nmod:poss	_	AlignBegin=134030|AlignEnd=134242|Gloss=PL.1.POSS
 17	section	section	NOUN	_	_	0	root	_	AlignBegin=134242|AlignEnd=134510|Gloss=section
-18	>+	>+	PUNCT	_	_	20	punct	_	AlignBegin=134510|AlignEnd=134540|Gloss=PUNCT
-19	na	na	AUX	_	PartType=Cop	20	cop	_	AlignBegin=134540|AlignEnd=134667|EXTPOS=SCONJ|Gloss=be
-20	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	17	advcl:cleft	_	AlignBegin=134667|AlignEnd=134760|Gloss=NOM.SG.3|INMWE=Yes
+18	>+	>+	PUNCT	_	_	19	punct	_	AlignBegin=134510|AlignEnd=134540|Gloss=PUNCT
+19	na	na	AUX	_	PartType=Cop	17	advcl:cleft	_	AlignBegin=134540|AlignEnd=134667|EXTPOS=SCONJ|Gloss=be
+20	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	19	fixed	_	AlignBegin=134667|AlignEnd=134760|Gloss=NOM.SG.3
 21	dey	dey	AUX	_	Aspect=Imp	22	aux	_	AlignBegin=134760|AlignEnd=134920|Gloss=IPFV
-22	do	do	VERB	_	_	20	ccomp	_	AlignBegin=134920|AlignEnd=135030|Gloss=do
+22	do	do	VERB	_	_	19	ccomp	_	AlignBegin=134920|AlignEnd=135030|Gloss=do
 23	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	22	obj	_	AlignBegin=135030|AlignEnd=135177|Gloss=ACC.SG.3
 24	//	//	PUNCT	_	_	17	punct	_	AlignBegin=135177|AlignEnd=135207|Gloss=PUNCT
 
@@ -688,7 +688,7 @@
 1	[eng	[eng	PUNCT	_	_	10	punct	_	AlignBegin=137260|AlignEnd=139140|Gloss=PUNCT
 2	#	#	PUNCT	_	_	10	punct	_	AlignBegin=137260|AlignEnd=139140|Gloss=PUNCT
 3	apart	apart	ADV	_	_	10	advmod:periph	_	AlignBegin=139140|AlignEnd=139410|EXTPOS=ADP|Gloss=apart
-4	from	from	ADP	_	_	3	dep	_	AlignBegin=139410|AlignEnd=139690|Gloss=from|INMWE=Yes
+4	from	from	ADP	_	_	3	fixed	_	AlignBegin=139410|AlignEnd=139690|Gloss=from
 5	dat	dat	PRON	_	Number=Sing|PronType=Dem	3	obj	_	AlignBegin=139690|AlignEnd=140030|Gloss=SG.DEM
 6	<	<	PUNCT	_	_	3	punct	_	AlignBegin=140030|AlignEnd=140060|Gloss=PUNCT
 7	#	#	PUNCT	_	_	10	punct	_	AlignBegin=140060|AlignEnd=141100|Gloss=PUNCT
@@ -776,10 +776,10 @@
 11	get	get	VERB	_	_	0	root	_	AlignBegin=154780|AlignEnd=155138|Gloss=get
 12	#	#	PUNCT	_	_	15	punct	_	AlignBegin=155138|AlignEnd=155325|Gloss=PUNCT
 13	{	{	PUNCT	_	_	15	punct	_	AlignBegin=155295|AlignEnd=155325|Gloss=PUNCT
-14	three	three	NUM	_	NumType=Card	15	nummod:num	_	AlignBegin=155325|AlignEnd=155480|Gloss=three.CARD
+14	three	three	NUM	_	NumType=Card	15	nummod:det	_	AlignBegin=155325|AlignEnd=155480|Gloss=three.CARD
 15	section	section	NOUN	_	_	11	obj	_	AlignBegin=155480|AlignEnd=155980|Gloss=section
 16	||	||	PUNCT	_	_	17	punct	_	AlignBegin=155980|AlignEnd=156010|Gloss=PUNCT
-17	two	two	NUM	_	NumType=Card	15	nmod:num	_	AlignBegin=156010|AlignEnd=156070|Gloss=two.CARD
+17	two	two	NUM	_	NumType=Card	15	nummod:mod	_	AlignBegin=156010|AlignEnd=156070|Gloss=two.CARD
 18	||	||	PUNCT	_	_	20	punct	_	AlignBegin=156070|AlignEnd=156100|Gloss=PUNCT
 19	or	or	CCONJ	_	_	20	cc	_	AlignBegin=156100|AlignEnd=156260|Gloss=or
 20	two	two	NUM	_	NumType=Card	17	conj:dicto	_	AlignBegin=156260|AlignEnd=156470|Gloss=two.CARD
@@ -1048,8 +1048,8 @@
 11	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	16	nsubj	_	AlignBegin=202420|AlignEnd=202544|Gloss=NOM.2
 12	will	will	AUX	_	VerbForm=Fin	16	aux	_	AlignBegin=202544|AlignEnd=202695|Gloss=will.FIN
 13	first	first	ADJ	_	NumType=Ord	16	advcl	_	AlignBegin=202695|AlignEnd=202890|EXTPOS=ADV|Gloss=first.ORD
-14	of	of	ADP	_	_	15	case	_	AlignBegin=202890|AlignEnd=203010|Gloss=of|INMWE=Yes
-15	all	all	ADV	_	_	13	advmod	_	AlignBegin=203010|AlignEnd=203150|Gloss=all|INMWE=Yes
+14	of	of	ADP	_	_	13	fixed	_	AlignBegin=202890|AlignEnd=203010|Gloss=of
+15	all	all	ADV	_	_	13	fixed	_	AlignBegin=203010|AlignEnd=203150|Gloss=all
 16	fill	fill	VERB	_	_	0	root	_	AlignBegin=203150|AlignEnd=203560|Gloss=fill
 17	paper	paper	NOUN	_	_	16	obj	_	AlignBegin=203560|AlignEnd=203893|Gloss=paper
 18	eng]	eng]	PUNCT	_	_	16	punct	_	AlignBegin=203893|AlignEnd=204400|Gloss=PUNCT
@@ -1311,13 +1311,13 @@
 # text = # regular < na im dis &//
 # text_en = Regular, is what this…
 # text_ortho = Regular, na im dis…
-1	#	#	PUNCT	_	_	5	punct	_	AlignBegin=243600|AlignEnd=244720|Gloss=PUNCT
-2	regular	regular	ADJ	_	_	5	dislocated	_	AlignBegin=244720|AlignEnd=245130|Gloss=regular
+1	#	#	PUNCT	_	_	4	punct	_	AlignBegin=243600|AlignEnd=244720|Gloss=PUNCT
+2	regular	regular	ADJ	_	_	4	dislocated	_	AlignBegin=244720|AlignEnd=245130|Gloss=regular
 3	<	<	PUNCT	_	_	2	punct	_	AlignBegin=245130|AlignEnd=245160|Gloss=PUNCT
-4	na	na	AUX	_	PartType=Cop	5	cop	_	AlignBegin=245160|AlignEnd=245247|EXTPOS=SCONJ|Gloss=be
-5	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	0	root	_	AlignBegin=245247|AlignEnd=245340|Gloss=NOM.SG.3|INMWE=Yes
-6	dis	dis	PRON	_	Number=Sing|PronType=Dem	5	advcl:cleft	_	AlignBegin=245340|AlignEnd=245708|Gloss=SG.PROX.DEM
-7	&//	//	PUNCT	_	_	5	punct	_	AlignBegin=245708|AlignEnd=245738|Gloss=PUNCT
+4	na	na	AUX	_	PartType=Cop	0	root	_	AlignBegin=245160|AlignEnd=245247|EXTPOS=SCONJ|Gloss=be
+5	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	fixed	_	AlignBegin=245247|AlignEnd=245340|Gloss=NOM.SG.3
+6	dis	dis	PRON	_	Number=Sing|PronType=Dem	4	advcl:cleft	_	AlignBegin=245340|AlignEnd=245708|Gloss=SG.PROX.DEM
+7	&//	//	PUNCT	_	_	4	punct	_	AlignBegin=245708|AlignEnd=245738|Gloss=PUNCT
 
 # sent_id = IBA_15_Electrician_MG__51
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_15_Electrician_MG.mp3
@@ -1730,7 +1730,7 @@
 53	say	say	VERB	_	_	65	advcl:periph	_	AlignBegin=312220|AlignEnd=312318|Gloss=say
 54	[	[	PUNCT	_	_	57	punct	_	AlignBegin=312318|AlignEnd=312348|Gloss=PUNCT
 55	na	na	AUX	_	PartType=Cop	57	cop	_	AlignBegin=312348|AlignEnd=312520|Gloss=be
-56	ten	ten	NUM	_	_	57	nummod:num	_	AlignBegin=312520|AlignEnd=312670|Gloss=ten
+56	ten	ten	NUM	_	_	57	nummod:det	_	AlignBegin=312520|AlignEnd=312670|Gloss=ten
 57	naira	naira	NOUN	_	_	53	parataxis	_	AlignBegin=312670|AlignEnd=312920|Gloss=naira
 58	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	59	nsubj	_	AlignBegin=312920|AlignEnd=313000|Gloss=NOM.2
 59	bring	bring	VERB	_	_	57	advcl:cleft	_	AlignBegin=313000|AlignEnd=313361|Gloss=bring

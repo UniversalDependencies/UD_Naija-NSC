@@ -219,7 +219,7 @@
 # text_ortho = Na two girls wey dey stay for compound mstchew.
 1	#	#	PUNCT	_	_	4	punct	_	AlignBegin=34996|AlignEnd=35560|Gloss=PUNCT
 2	na	na	AUX	_	PartType=Cop	4	cop	_	AlignBegin=35560|AlignEnd=35690|Gloss=be
-3	two	two	NUM	_	NumType=Card	4	nummod:num	_	AlignBegin=35690|AlignEnd=35925|Gloss=two.CARD
+3	two	two	NUM	_	NumType=Card	4	nummod:det	_	AlignBegin=35690|AlignEnd=35925|Gloss=two.CARD
 4	girls	girl	NOUN	_	Number=Plur	0	root	_	AlignBegin=35925|AlignEnd=36210|Gloss=girl.PL
 5	wey	wey	SCONJ	_	_	7	mark	_	AlignBegin=36210|AlignEnd=36306|Gloss=REL
 6	dey	dey	AUX	_	Aspect=Imp	7	aux	_	AlignBegin=36306|AlignEnd=36410|Gloss=IPFV
@@ -418,7 +418,7 @@
 11	don	don	AUX	_	Aspect=Perf	12	aux	_	AlignBegin=62690|AlignEnd=62860|Gloss=PRF
 12	happen	happen	VERB	_	_	8	acl:relcl	_	AlignBegin=62860|AlignEnd=63251|Gloss=happen
 13	since	since	ADP	_	_	15	case	_	AlignBegin=63251|AlignEnd=63640|Gloss=since
-14	one	one	NUM	_	NumType=Card	15	nummod:num	_	AlignBegin=63640|AlignEnd=63983|Gloss=one
+14	one	one	NUM	_	NumType=Card	15	nummod:det	_	AlignBegin=63640|AlignEnd=63983|Gloss=one
 15	year	year	NOUN	_	_	12	obl:mod	_	AlignBegin=63983|AlignEnd=64220|Gloss=year
 16	ago	ago	ADV	_	_	15	advmod	_	AlignBegin=64220|AlignEnd=65501|Gloss=ago
 17	|c	|c	PUNCT	_	_	21	punct	_	AlignBegin=65501|AlignEnd=65531|Gloss=PUNCT
@@ -445,12 +445,12 @@
 # text = # na im >+ de wake up # dat yesterday morning |c con dey quarrel //
 # text_en = That's how they woke up yesterday morning, and started fighting.
 # text_ortho = Na im, de wake up dat yesterday morning, con dey quarrel.
-1	#	#	PUNCT	_	_	3	punct	_	AlignBegin=69090|AlignEnd=69540|Gloss=PUNCT
-2	na	na	AUX	_	PartType=Cop	3	cop	_	AlignBegin=69540|AlignEnd=69650|EXTPOS=SCONJ|Gloss=be
-3	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	0	root	_	AlignBegin=69540|AlignEnd=69650|Gloss=NOM.SG.3|INMWE=Yes
+1	#	#	PUNCT	_	_	2	punct	_	AlignBegin=69090|AlignEnd=69540|Gloss=PUNCT
+2	na	na	AUX	_	PartType=Cop	0	root	_	AlignBegin=69540|AlignEnd=69650|EXTPOS=SCONJ|Gloss=be
+3	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	fixed	_	AlignBegin=69540|AlignEnd=69650|Gloss=NOM.SG.3
 4	>+	>+	PUNCT	_	_	6	punct	_	AlignBegin=69671|AlignEnd=69701|Gloss=PUNCT
 5	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	AlignBegin=69701|AlignEnd=69823|Gloss=NOM.PL.3
-6	wake	wake	VERB	_	_	3	advcl:cleft	_	AlignBegin=69823|AlignEnd=70140|Gloss=wake
+6	wake	wake	VERB	_	_	2	advcl:cleft	_	AlignBegin=69823|AlignEnd=70140|Gloss=wake
 7	up	up	ADP	_	_	6	compound:prt	_	AlignBegin=70140|AlignEnd=70440|Gloss=up
 8	#	#	PUNCT	_	_	11	punct	_	AlignBegin=70440|AlignEnd=70842|Gloss=PUNCT
 9	dat	dat	DET	_	Number=Sing|PronType=Dem	11	det	_	AlignBegin=70842|AlignEnd=70980|Gloss=SG.DIST.DEM
@@ -460,7 +460,7 @@
 13	con	con	AUX	_	Aspect=Cons	15	aux	_	AlignBegin=71803|AlignEnd=71970|Gloss=CONS
 14	dey	dey	AUX	_	Aspect=Imp	15	aux	_	AlignBegin=71970|AlignEnd=72100|Gloss=IPFV
 15	quarrel	quarrel	VERB	_	_	6	conj	_	AlignBegin=72100|AlignEnd=72517|Gloss=quarrel
-16	//	//	PUNCT	_	_	3	punct	_	AlignBegin=72517|AlignEnd=72547|Gloss=PUNCT
+16	//	//	PUNCT	_	_	2	punct	_	AlignBegin=72517|AlignEnd=72547|Gloss=PUNCT
 
 # sent_id = ENU_09_Angry-Neighbours_MG__22
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ENU_09_Angry-Neighbours_MG.mp3
@@ -876,7 +876,7 @@
 34	in	in	ADP	_	_	38	case	_	AlignBegin=138930|AlignEnd=139010|Gloss=in
 35	di	the	DET	_	Definite=Def|PronType=Art	38	det	_	AlignBegin=139010|AlignEnd=139110|Gloss=DEF.ART
 36	next	next	ADJ	_	_	38	amod	_	AlignBegin=139110|AlignEnd=139324|Gloss=next
-37	thirty	thirty	NUM	_	NumType=Card	38	nummod:num	_	AlignBegin=139324|AlignEnd=139570|Gloss=thirty.CARD
+37	thirty	thirty	NUM	_	NumType=Card	38	nummod:mod	_	AlignBegin=139324|AlignEnd=139570|Gloss=thirty.CARD
 38	minutes	minute	NOUN	_	Number=Plur	41	obl:mod	_	AlignBegin=139570|AlignEnd=139900|Gloss=minute.PL
 39	<	<	PUNCT	_	_	38	punct	_	AlignBegin=139900|AlignEnd=139930|Gloss=PUNCT
 40	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	41	nsubj	_	AlignBegin=139930|AlignEnd=140020|Gloss=NOM.SG.1
@@ -916,7 +916,7 @@
 3	in	in	ADP	_	_	7	case	_	AlignBegin=144420|AlignEnd=144502|Gloss=in
 4	di	the	DET	_	Definite=Def|PronType=Art	7	det	_	AlignBegin=144502|AlignEnd=144586|Gloss=DEF.ART
 5	next	next	ADJ	_	_	7	amod	_	AlignBegin=144586|AlignEnd=144786|Gloss=next
-6	thirty	thirty	NUM	_	NumType=Card	7	nummod:num	_	AlignBegin=144786|AlignEnd=145010|Gloss=thirty.CARD
+6	thirty	thirty	NUM	_	NumType=Card	7	nummod:mod	_	AlignBegin=144786|AlignEnd=145010|Gloss=thirty.CARD
 7	minutes	minute	NOUN	_	Number=Plur	12	obl:mod	_	AlignBegin=145010|AlignEnd=145540|Gloss=minute.PL
 8	<	<	PUNCT	_	_	7	punct	_	AlignBegin=145540|AlignEnd=145570|Gloss=PUNCT
 9	two	two	NUM	_	NumType=Card	12	nsubj	_	AlignBegin=145570|AlignEnd=145720|Gloss=two.CARD

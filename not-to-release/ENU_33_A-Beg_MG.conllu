@@ -605,7 +605,7 @@
 # text_en = Nine months, I'm in the house, there is nothing.
 # text_ortho = Nine months, I dey house, noting dey.
 1	#	#	PUNCT	_	_	7	punct	_	AlignBegin=76623|AlignEnd=77023|Gloss=PUNCT
-2	nine	nine	NUM	_	NumType=Card	3	nummod:num	_	AlignBegin=77023|AlignEnd=77217|Gloss=nine.CARD
+2	nine	nine	NUM	_	NumType=Card	3	nummod:det	_	AlignBegin=77023|AlignEnd=77217|Gloss=nine.CARD
 3	months	month	NOUN	_	Number=Plur	7	dislocated	_	AlignBegin=77217|AlignEnd=77723|Gloss=month.PL
 4	<	<	PUNCT	_	_	3	punct	_	AlignBegin=77723|AlignEnd=77753|Gloss=PUNCT
 5	#	#	PUNCT	_	_	3	punct	_	AlignBegin=77753|AlignEnd=77898|Gloss=PUNCT
@@ -768,7 +768,7 @@
 2	na	na	AUX	_	PartType=Cop	11	cop	_	AlignBegin=98205|AlignEnd=98462|Gloss=be
 3	just	just	ADV	_	_	11	advmod	_	AlignBegin=98462|AlignEnd=98618|Gloss=just
 4	because	because	SCONJ	_	_	11	mark	_	AlignBegin=98618|AlignEnd=98945|EXTPOS=SCONJ|Gloss=because
-5	sey	sey	SCONJ	_	_	11	mark	_	AlignBegin=98945|AlignEnd=99081|Gloss=COMP|INMWE=Yes
+5	sey	sey	SCONJ	_	_	4	fixed	_	AlignBegin=98945|AlignEnd=99081|Gloss=COMP
 6	[	[	PUNCT	_	_	11	punct	_	AlignBegin=99081|AlignEnd=99111|Gloss=PUNCT
 7	maybe	maybe	ADV	_	_	11	advmod:periph	_	AlignBegin=99111|AlignEnd=99355|Gloss=maybe
 8	<	<	PUNCT	_	_	7	punct	_	AlignBegin=99355|AlignEnd=99385|Gloss=PUNCT
@@ -809,13 +809,13 @@
 # text = na im >+ dey torment us //
 # text_en = That's what's tormenting us.
 # text_ortho = Na im, dey torment us.
-1	na	na	AUX	_	PartType=Cop	2	cop	_	AlignBegin=104234|AlignEnd=104344|EXTPOS=SCONJ|Gloss=be
-2	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	0	root	_	AlignBegin=104344|AlignEnd=104425|Gloss=NOM.SG.3|INMWE=Yes
+1	na	na	AUX	_	PartType=Cop	0	root	_	AlignBegin=104234|AlignEnd=104344|EXTPOS=SCONJ|Gloss=be
+2	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	1	fixed	_	AlignBegin=104344|AlignEnd=104425|Gloss=NOM.SG.3
 3	>+	>+	PUNCT	_	_	5	punct	_	AlignBegin=104425|AlignEnd=104455|Gloss=PUNCT
 4	dey	dey	AUX	_	Aspect=Imp	5	aux	_	AlignBegin=104455|AlignEnd=104569|Gloss=IPFV
-5	torment	torment	VERB	_	_	2	advcl:cleft	_	AlignBegin=104569|AlignEnd=104914|Gloss=torment
+5	torment	torment	VERB	_	_	1	advcl:cleft	_	AlignBegin=104569|AlignEnd=104914|Gloss=torment
 6	us	us	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	5	obj	_	AlignBegin=104914|AlignEnd=105095|Gloss=ACC.PL.1
-7	//	//	PUNCT	_	_	2	punct	_	AlignBegin=105095|AlignEnd=105125|Gloss=PUNCT
+7	//	//	PUNCT	_	_	1	punct	_	AlignBegin=105095|AlignEnd=105125|Gloss=PUNCT
 
 # sent_id = ENU_33_A-Beg_MG__45
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ENU_33_A-Beg_MG.mp3
@@ -1626,12 +1626,12 @@
 # text = # na im >+ wey &//
 # text_en = That's why…
 # text_ortho = Na im, wey…
-1	#	#	PUNCT	_	_	3	punct	_	AlignBegin=202402|AlignEnd=202610|Gloss=PUNCT
-2	na	na	AUX	_	PartType=Cop	3	cop	_	AlignBegin=202610|AlignEnd=202840|EXTPOS=SCONJ|Gloss=be
-3	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	0	root	_	AlignBegin=202840|AlignEnd=202870|Gloss=NOM.SG.3|INMWE=Yes
+1	#	#	PUNCT	_	_	2	punct	_	AlignBegin=202402|AlignEnd=202610|Gloss=PUNCT
+2	na	na	AUX	_	PartType=Cop	0	root	_	AlignBegin=202610|AlignEnd=202840|EXTPOS=SCONJ|Gloss=be
+3	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	fixed	_	AlignBegin=202840|AlignEnd=202870|Gloss=NOM.SG.3
 4	>+	>+	PUNCT	_	_	5	punct	_	AlignBegin=202870|AlignEnd=202900|Gloss=PUNCT
-5	wey	when	SCONJ	_	_	3	advcl:cleft	_	AlignBegin=202900|AlignEnd=203177|Gloss=when
-6	&//	//	PUNCT	_	_	3	punct	_	AlignBegin=203177|AlignEnd=203207|Gloss=PUNCT
+5	wey	when	SCONJ	_	_	2	advcl:cleft	_	AlignBegin=202900|AlignEnd=203177|Gloss=when
+6	&//	//	PUNCT	_	_	2	punct	_	AlignBegin=203177|AlignEnd=203207|Gloss=PUNCT
 
 # sent_id = ENU_33_A-Beg_MG__89
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ENU_33_A-Beg_MG.mp3
@@ -1639,19 +1639,19 @@
 # text = # na im >+ wey we go [ God > abeg !//] //
 # text_en = That's why we go begging God.
 # text_ortho = Na im, wey we go God, abeg!
-1	#	#	PUNCT	_	_	3	punct	_	AlignBegin=203207|AlignEnd=204064|Gloss=PUNCT
-2	na	na	AUX	_	PartType=Cop	3	cop	_	AlignBegin=204064|AlignEnd=204264|EXTPOS=SCONJ|Gloss=be
-3	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	0	root	_	AlignBegin=204264|AlignEnd=204304|Gloss=NOM.SG.3|INMWE=Yes
+1	#	#	PUNCT	_	_	2	punct	_	AlignBegin=203207|AlignEnd=204064|Gloss=PUNCT
+2	na	na	AUX	_	PartType=Cop	0	root	_	AlignBegin=204064|AlignEnd=204264|EXTPOS=SCONJ|Gloss=be
+3	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	fixed	_	AlignBegin=204264|AlignEnd=204304|Gloss=NOM.SG.3
 4	>+	>+	PUNCT	_	_	7	punct	_	AlignBegin=204304|AlignEnd=204334|Gloss=PUNCT
 5	wey	when	SCONJ	_	_	7	mark	_	AlignBegin=204334|AlignEnd=204451|Gloss=when
 6	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	AlignBegin=204451|AlignEnd=204630|Gloss=NOM.PL.1
-7	go	go	VERB	_	_	3	advcl:cleft	_	AlignBegin=204630|AlignEnd=204761|Gloss=go
+7	go	go	VERB	_	_	2	advcl:cleft	_	AlignBegin=204630|AlignEnd=204761|Gloss=go
 8	[	[	PUNCT	_	_	11	punct	_	AlignBegin=204761|AlignEnd=204834|Gloss=PUNCT
 9	God	God	PROPN	_	_	11	vocative	_	AlignBegin=204761|AlignEnd=204834|Gloss=God
 10	>	>	PUNCT	_	_	9	punct	_	AlignBegin=204761|AlignEnd=204834|Gloss=PUNCT
 11	abeg	abeg	INTJ	_	_	7	parataxis	_	AlignBegin=204864|AlignEnd=205424|Gloss=please
 12	!//]	!//]	PUNCT	_	_	11	punct	_	AlignBegin=205424|AlignEnd=205454|Gloss=PUNCT
-13	//	//	PUNCT	_	_	3	punct	_	AlignBegin=205424|AlignEnd=205454|Gloss=PUNCT
+13	//	//	PUNCT	_	_	2	punct	_	AlignBegin=205424|AlignEnd=205454|Gloss=PUNCT
 
 # sent_id = ENU_33_A-Beg_MG__90
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ENU_33_A-Beg_MG.mp3

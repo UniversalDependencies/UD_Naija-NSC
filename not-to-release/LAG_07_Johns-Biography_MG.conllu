@@ -111,7 +111,7 @@
 20	in	in	ADP	_	_	24	case	_	AlignBegin=25465|AlignEnd=25622|Gloss=in
 21	di	the	DET	_	Definite=Def|PronType=Art	24	det	_	AlignBegin=25622|AlignEnd=25722|Gloss=DEF.ART
 22	next	next	ADJ	_	_	24	amod	_	AlignBegin=25722|AlignEnd=25992|Gloss=next
-23	ten	ten	NUM	_	_	24	nummod:num	_	AlignBegin=25992|AlignEnd=26167|Gloss=ten
+23	ten	ten	NUM	_	_	24	nummod:mod	_	AlignBegin=25992|AlignEnd=26167|Gloss=ten
 24	years	year	NOUN	_	Number=Plur	13	obl:mod	_	AlignBegin=26167|AlignEnd=26373|Gloss=year.PL
 25	//	//	PUNCT	_	_	4	punct	_	AlignBegin=26373|AlignEnd=26403|Gloss=PUNCT
 
@@ -207,7 +207,7 @@
 14	just	just	ADV	_	_	15	advmod	_	AlignBegin=42010|AlignEnd=42300|Gloss=just
 15	dey	dey	VERB	_	VerbType=Cop	6	conj	_	AlignBegin=42300|AlignEnd=42740|Gloss=be
 16	like	like	ADP	_	_	21	mark	_	AlignBegin=42740|AlignEnd=43018|EXTPOS=SCONJ|Gloss=like
-17	sey	sey	SCONJ	_	_	21	mark	_	AlignBegin=43018|AlignEnd=43250|Gloss=COMP|INMWE=Yes
+17	sey	sey	SCONJ	_	_	16	fixed	_	AlignBegin=43018|AlignEnd=43250|Gloss=COMP
 18	[	[	PUNCT	_	_	21	punct	_	AlignBegin=43250|AlignEnd=43280|Gloss=PUNCT
 19	nothing	noting	PRON	_	_	21	nsubj	_	AlignBegin=43280|AlignEnd=43540|Gloss=nothing
 20	dey	dey	AUX	_	Aspect=Imp	21	aux	_	AlignBegin=43540|AlignEnd=43653|Gloss=IPFV
@@ -864,7 +864,7 @@
 20	car	car	NOUN	_	_	18	obj	_	AlignBegin=154140|AlignEnd=154340|Gloss=car
 21	no	no	PART	_	Polarity=Neg	22	advmod	_	AlignBegin=154340|AlignEnd=154460|Gloss=NEG
 22	get	get	VERB	_	_	10	ccomp	_	AlignBegin=154460|AlignEnd=154600|Gloss=get
-23	two	two	NUM	_	NumType=Card	24	nummod:num	_	AlignBegin=154600|AlignEnd=154780|Gloss=two.CARD
+23	two	two	NUM	_	NumType=Card	24	nummod:det	_	AlignBegin=154600|AlignEnd=154780|Gloss=two.CARD
 24	heads	head	NOUN	_	Number=Plur	22	obj	_	AlignBegin=154780|AlignEnd=155008|Gloss=head.PL
 25	]	]	PUNCT	_	_	22	punct	_	AlignBegin=155008|AlignEnd=155038|Gloss=PUNCT
 26	//	//	PUNCT	_	_	10	punct	_	AlignBegin=155008|AlignEnd=155038|Gloss=PUNCT
@@ -1168,7 +1168,7 @@
 6	four	four	NUM	_	NumType=Card	0	root	_	AlignBegin=208182|AlignEnd=208420|Gloss=four.CARD
 7	back	back	ADV	_	_	6	advmod	_	AlignBegin=208420|AlignEnd=209110|Gloss=back
 8	||	||	PUNCT	_	_	10	punct	_	AlignBegin=209110|AlignEnd=209140|Gloss=PUNCT
-9	four	four	NUM	_	NumType=Card	10	nummod:num	_	AlignBegin=209140|AlignEnd=209509|Gloss=four.CARD
+9	four	four	NUM	_	NumType=Card	10	nummod:det	_	AlignBegin=209140|AlignEnd=209509|Gloss=four.CARD
 10	years	year	NOUN	_	Number=Plur	6	conj	_	AlignBegin=209509|AlignEnd=209700|Gloss=year.PL
 11	back	back	ADV	_	_	10	advmod	_	AlignBegin=209700|AlignEnd=209983|Gloss=back
 12	}	}	PUNCT	_	_	6	punct	_	AlignBegin=209983|AlignEnd=210013|Gloss=PUNCT
@@ -1843,14 +1843,14 @@
 # text = # since maybe because your parents no born you |c # your parents no get money < na im >+ make you poor //
 # text_en = Since maybe because your parents didn't give birth to you, your parents are poor, that's why you are poor.
 # text_ortho = Since maybe because your parents no born you, your parents no get money, na im, make you poor.
-1	#	#	PUNCT	_	_	19	punct	_	AlignBegin=315423|AlignEnd=316158|Gloss=PUNCT
+1	#	#	PUNCT	_	_	18	punct	_	AlignBegin=315423|AlignEnd=316158|Gloss=PUNCT
 2	since	since	ADP	_	_	8	mark	_	AlignBegin=316158|AlignEnd=316310|Gloss=since
 3	maybe	maybe	ADV	_	_	8	advmod	_	AlignBegin=316310|AlignEnd=316447|Gloss=maybe
 4	because	because	SCONJ	_	_	8	mark	_	AlignBegin=316447|AlignEnd=316758|Gloss=because
 5	your	your	PRON	_	Number=Plur|Person=2|Poss=Yes	6	nmod:poss	_	AlignBegin=316758|AlignEnd=316898|Gloss=PL.2.POSS
 6	parents	parent	NOUN	_	Number=Plur	8	nsubj	_	AlignBegin=316898|AlignEnd=317248|Gloss=parent.PL
 7	no	no	PART	_	Polarity=Neg	8	advmod	_	AlignBegin=317248|AlignEnd=317393|Gloss=NEG
-8	born	born	VERB	_	_	19	advcl:periph	_	AlignBegin=317393|AlignEnd=317564|Gloss=give_birth
+8	born	born	VERB	_	_	18	advcl:periph	_	AlignBegin=317393|AlignEnd=317564|Gloss=give_birth
 9	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	8	obj	_	AlignBegin=317564|AlignEnd=317781|Gloss=NOM.2
 10	|c	|c	PUNCT	_	_	15	punct	_	AlignBegin=317781|AlignEnd=317811|Gloss=PUNCT
 11	#	#	PUNCT	_	_	15	punct	_	AlignBegin=317811|AlignEnd=318343|Gloss=PUNCT
@@ -1860,13 +1860,13 @@
 15	get	get	VERB	_	_	8	conj	_	AlignBegin=318883|AlignEnd=319020|Gloss=get
 16	money	money	NOUN	_	_	15	obj	_	AlignBegin=319020|AlignEnd=319433|Gloss=money
 17	<	<	PUNCT	_	_	8	punct	_	AlignBegin=319433|AlignEnd=319463|Gloss=PUNCT
-18	na	na	AUX	_	PartType=Cop	19	cop	_	AlignBegin=319463|AlignEnd=319763|EXTPOS=SCONJ|Gloss=be
-19	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	0	root	_	AlignBegin=319763|AlignEnd=319803|Gloss=NOM.SG.3|INMWE=Yes
+18	na	na	AUX	_	PartType=Cop	0	root	_	AlignBegin=319463|AlignEnd=319763|EXTPOS=SCONJ|Gloss=be
+19	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	18	fixed	_	AlignBegin=319763|AlignEnd=319803|Gloss=NOM.SG.3
 20	>+	>+	PUNCT	_	_	21	punct	_	AlignBegin=319803|AlignEnd=319833|Gloss=PUNCT
-21	make	make	VERB	_	_	19	advcl:cleft	_	AlignBegin=319833|AlignEnd=319993|Gloss=make
+21	make	make	VERB	_	_	18	advcl:cleft	_	AlignBegin=319833|AlignEnd=319993|Gloss=make
 22	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	21	obj	_	AlignBegin=319993|AlignEnd=320063|Gloss=NOM.2
 23	poor	poor	ADJ	_	_	21	advcl	_	AlignBegin=320063|AlignEnd=320333|Gloss=poor
-24	//	//	PUNCT	_	_	19	punct	_	AlignBegin=320333|AlignEnd=320363|Gloss=PUNCT
+24	//	//	PUNCT	_	_	18	punct	_	AlignBegin=320333|AlignEnd=320363|Gloss=PUNCT
 
 # sent_id = LAG_07_Johns-Biography_MG__72
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/LAG_07_Johns-Biography_MG.mp3

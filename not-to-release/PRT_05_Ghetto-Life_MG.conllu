@@ -1,16 +1,17 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = PRT_05_Ghetto-Life_MG__1
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/PRT_05_Ghetto-Life_MG.mp3
 # speaker_id = Sp265
 # text = my people < wetin I wan tell una { now |r now } eh ehen < # na # ghetto life o //
-# text_en = My people, what I want to tell you about now, now uh… yes, is about the ghetto life.
-# text_ortho = My people, wetin I wan tell una now, now eh... ehen, na ghetto life o.
+# text_en = My people, what I want to tell you about now, now uh... yes, is about the ghetto life.
+# text_ortho = My people, wetin I wan tell una now, now eh ehen, na ghetto life o.
 1	my	my	PRON	_	Number=Sing|Person=1|Poss=Yes	2	nmod:poss	_	AlignBegin=1480|AlignEnd=1580|Gloss=SG.1.POSS
 2	people	people	NOUN	_	Number=Plur	21	vocative	_	AlignBegin=1580|AlignEnd=1770|Gloss=people.PL
 3	<	<	PUNCT	_	_	2	punct	_	AlignBegin=1770|AlignEnd=1800|Gloss=PUNCT
 4	wetin	wetin	PRON	_	PronType=Int	21	dislocated	_	AlignBegin=1800|AlignEnd=2040|Gloss=what.Q
 5	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	AlignBegin=2040|AlignEnd=2153|Gloss=NOM.SG.1
 6	wan	want	VERB	_	_	4	acl:relcl	_	AlignBegin=2153|AlignEnd=2290|Gloss=want
-7	tell	tell	VERB	_	_	6	xcomp	_	AlignBegin=2290|AlignEnd=2400|Gloss=tell
+7	tell	tell	VERB	_	_	6	xcomp:obj	_	AlignBegin=2290|AlignEnd=2400|Gloss=tell
 8	una	una	PRON	_	Case=Acc|Number=Plur|Person=2|PronType=Prs	7	obj	_	AlignBegin=2400|AlignEnd=2500|Gloss=ACC.PL.2
 9	{	{	PUNCT	_	_	10	punct	_	AlignBegin=2500|AlignEnd=2530|Gloss=PUNCT
 10	now	now	ADV	_	_	7	advmod	_	AlignBegin=2530|AlignEnd=2687|Gloss=now
@@ -33,7 +34,7 @@
 # speaker_id = Sp265
 # text = # you never live for ghetto before < hm mtschew you dey miss //
 # text_en = If you've never lived in the ghetto, wow, mstchew, you are missing out.
-# text_ortho = You never live for ghetto before, hm mstchew you dey miss.
+# text_ortho = You never live for ghetto before, hm mtschew you dey miss.
 1	#	#	PUNCT	_	_	12	punct	_	AlignBegin=5955|AlignEnd=6850|Gloss=PUNCT
 2	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	AlignBegin=6850|AlignEnd=7000|Gloss=NOM.2
 3	never	never	AUX	_	Aspect=Perf|Polarity=Neg	4	aux	_	AlignBegin=7000|AlignEnd=7290|Gloss=PRF.NEG
@@ -46,7 +47,7 @@
 10	mtschew	mtschew	INTJ	_	_	12	discourse	_	AlignBegin=8710|AlignEnd=8976|Gloss=sucking_of_teeth
 11	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	12	nsubj	_	AlignBegin=8976|AlignEnd=9100|Gloss=NOM.2
 12	dey	dey	VERB	_	VerbType=Cop	0	root	_	AlignBegin=9100|AlignEnd=9240|Gloss=be
-13	miss	miss	VERB	_	_	12	xcomp	_	AlignBegin=9240|AlignEnd=9650|Gloss=miss
+13	miss	miss	VERB	_	_	12	xcomp:obj	_	AlignBegin=9240|AlignEnd=9650|Gloss=miss
 14	//	//	PUNCT	_	_	12	punct	_	AlignBegin=9650|AlignEnd=9680|Gloss=PUNCT
 
 # sent_id = PRT_05_Ghetto-Life_MG__3
@@ -71,16 +72,16 @@
 # speaker_id = Sp265
 # text = # ah na dere >+ na im be confirm eh //
 # text_en = This is the place to be.
-# text_ortho = Ah na dere, na im be confirm eh.
+# text_ortho = Ah na dere na im be confirm eh.
 1	#	#	PUNCT	_	_	4	punct	_	AlignBegin=11271|AlignEnd=11660|Gloss=PUNCT
 2	ah	ah	INTJ	_	_	4	discourse	_	AlignBegin=11660|AlignEnd=11890|Gloss=ah
 3	na	na	AUX	_	PartType=Cop	4	cop	_	AlignBegin=11890|AlignEnd=11990|Gloss=be
 4	dere	dere	ADV	_	_	0	root	_	AlignBegin=11990|AlignEnd=12110|Gloss=there
 5	>+	>+	PUNCT	_	_	6	punct	_	AlignBegin=12110|AlignEnd=12140|Gloss=PUNCT
 6	na	na	AUX	_	PartType=Cop	4	advcl:cleft	_	AlignBegin=12140|AlignEnd=12270|EXTPOS=SCONJ|Gloss=be
-7	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	6	fixed	_	AlignBegin=12270|AlignEnd=12300|Gloss=NOM.SG.3
-8	be	be	VERB	_	PartType=Cop	6	ccomp	_	AlignBegin=12300|AlignEnd=12440|Gloss=be
-9	confirm	confirm	VERB	_	_	8	xcomp	_	AlignBegin=12440|AlignEnd=12920|Gloss=confirm
+7	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	6	dep	_	AlignBegin=12270|AlignEnd=12300|Gloss=NOM.SG.3
+8	be	be	VERB	_	PartType=Cop	6	ccomp:obj	_	AlignBegin=12300|AlignEnd=12440|Gloss=be
+9	confirm	confirm	VERB	_	_	8	xcomp:obj	_	AlignBegin=12440|AlignEnd=12920|Gloss=confirm
 10	eh	eh	INTJ	_	_	4	discourse	_	AlignBegin=12920|AlignEnd=13042|Gloss=eh
 11	//	//	PUNCT	_	_	4	punct	_	AlignBegin=13042|AlignEnd=13072|Gloss=PUNCT
 
@@ -89,7 +90,7 @@
 # speaker_id = Sp265
 # text = # because na dere >+ wey you go learn language |c eh you go learn slangs //
 # text_en = Because that's where you'll learn other languages, uh... you'll learn slang.
-# text_ortho = Because na dere, wey you go learn language, eh... you go learn slangs.
+# text_ortho = Because na dere wey you go learn language, eh you go learn slangs.
 1	#	#	PUNCT	_	_	4	punct	_	AlignBegin=13072|AlignEnd=13476|Gloss=PUNCT
 2	because	because	SCONJ	_	_	4	cc	_	AlignBegin=13476|AlignEnd=13700|Gloss=because
 3	na	na	AUX	_	PartType=Cop	4	cop	_	AlignBegin=13700|AlignEnd=13850|Gloss=be
@@ -124,8 +125,8 @@
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/PRT_05_Ghetto-Life_MG.mp3
 # speaker_id = Sp265
 # text = # as you come where { de || di } niggers dey brew like dis eh < mtschew you go begin open your eye like sey [ you be ajebo ] //
-# text_en = As soon as you come to where they… the street guys are mixing things together uh... mstchew, you will be amazed like you're a spoiled brat.
-# text_ortho = As you come where de... di niggers dey brew like dis eh... mstchew you go begin open your eye like sey you be ajebo.
+# text_en = As soon as you come to where they... the street guys are mixing things together uh... mstchew, you will be amazed like you're a spoiled brat.
+# text_ortho = As you come where de, di niggers dey brew like dis eh, mtschew you go begin open your eye like sey you be ajebo.
 1	#	#	PUNCT	_	_	21	punct	_	AlignBegin=16722|AlignEnd=16920|Gloss=PUNCT
 2	as	as	ADP	_	_	4	mark	_	AlignBegin=16920|AlignEnd=17040|Gloss=as
 3	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	AlignBegin=17040|AlignEnd=17100|Gloss=NOM.2
@@ -134,13 +135,13 @@
 6	{	{	PUNCT	_	_	7	punct	_	AlignBegin=17360|AlignEnd=17390|Gloss=PUNCT
 7	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nmod:poss	_	AlignBegin=17390|AlignEnd=17453|Gloss=NOM.PL.3
 8	||	||	PUNCT	_	_	9	punct	_	AlignBegin=17453|AlignEnd=17483|Gloss=PUNCT
-9	di	the	DET	_	Definite=Def|PronType=Art	7	conj:dicto	_	AlignBegin=17483|AlignEnd=17570|Gloss=DEF.ART
+9	di	di	DET	_	Definite=Def|PronType=Art	7	conj:dicto	_	AlignBegin=17483|AlignEnd=17570|Gloss=DEF.ART
 10	}	}	PUNCT	_	_	7	punct	_	AlignBegin=17570|AlignEnd=17600|Gloss=PUNCT
 11	niggers	nigger	NOUN	_	Number=Plur	13	nsubj	_	AlignBegin=17600|AlignEnd=17980|Gloss=nigger.PL
 12	dey	dey	AUX	_	Aspect=Imp	13	aux	_	AlignBegin=17980|AlignEnd=18140|Gloss=IPFV
 13	brew	brew	VERB	_	_	5	acl:relcl	_	AlignBegin=18140|AlignEnd=18370|Gloss=brew
 14	like	like	ADP	_	_	15	case	_	AlignBegin=18370|AlignEnd=18540|Gloss=like
-15	dis	dis	PRON	_	Number=Sing|PronType=Dem	13	obl:mod	_	AlignBegin=18540|AlignEnd=18788|Gloss=SG.PROX.DEM
+15	dis	dis	PRON	_	Number=Sing|PronType=Dem	13	obl:mod	_	AlignBegin=18540|AlignEnd=18788|Gloss=SG.DEM
 16	eh	eh	INTJ	_	_	4	discourse	_	AlignBegin=18788|AlignEnd=18818|Gloss=eh
 17	<	<	PUNCT	_	_	4	punct	_	AlignBegin=18818|AlignEnd=19091|Gloss=PUNCT
 18	mtschew	mtschew	INTJ	_	_	21	discourse	_	AlignBegin=19091|AlignEnd=19320|Gloss=sucking_of_teeth
@@ -151,7 +152,7 @@
 23	your	your	PRON	_	Number=Plur|Person=2|Poss=Yes	24	nmod:poss	_	AlignBegin=20062|AlignEnd=20200|Gloss=PL.2.POSS
 24	eye	eye	NOUN	_	_	22	obj	_	AlignBegin=20200|AlignEnd=20350|Gloss=eye
 25	like	like	ADP	_	_	30	mark	_	AlignBegin=20350|AlignEnd=20490|EXTPOS=SCONJ|Gloss=like
-26	sey	sey	SCONJ	_	_	25	fixed	_	AlignBegin=20490|AlignEnd=20620|Gloss=COMP
+26	sey	sey	SCONJ	_	_	30	dep	_	AlignBegin=20490|AlignEnd=20620|Gloss=COMP
 27	[	[	PUNCT	_	_	30	punct	_	AlignBegin=20620|AlignEnd=20650|Gloss=PUNCT
 28	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	30	nsubj	_	AlignBegin=20650|AlignEnd=20820|Gloss=NOM.2
 29	be	be	AUX	_	PartType=Cop	30	cop	_	AlignBegin=20820|AlignEnd=21014|Gloss=be
@@ -162,9 +163,9 @@
 # sent_id = PRT_05_Ghetto-Life_MG__8
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/PRT_05_Ghetto-Life_MG.mp3
 # speaker_id = Sp265
-# text = # and one ting be sey [ ajebo no go fit mix with { ghet- || eh kpako } ] //
-# text_en = And the fact is that the spoilt brats can't mix with the ghet-… uh, the underprivileged.
-# text_ortho = And one ting be sey ajebo no go fit mix with ghet-... eh kpako.
+# text = # and one ting be sey [ ajebo no go fit mix with { ghet~ || eh kpako } ] //
+# text_en = And the fact is that the spoilt brats can't mix with the ghet~... uh, the underprivileged.
+# text_ortho = And one ting be sey ajebo no go fit mix with ghet~... eh kpako.
 1	#	#	PUNCT	_	_	12	punct	_	AlignBegin=21463|AlignEnd=21920|Gloss=PUNCT
 2	and	and	CCONJ	_	_	12	cc	_	AlignBegin=21920|AlignEnd=22110|Gloss=and
 3	one	one	NUM	_	NumType=Card	4	nummod:det	_	AlignBegin=22110|AlignEnd=22270|Gloss=one
@@ -179,7 +180,7 @@
 12	mix	mix	VERB	_	_	0	root	_	AlignBegin=23708|AlignEnd=23940|Gloss=mix
 13	with	wit	ADP	_	_	15	case	_	AlignBegin=23940|AlignEnd=24290|Gloss=with
 14	{	{	PUNCT	_	_	15	punct	_	AlignBegin=24290|AlignEnd=24320|Gloss=PUNCT
-15	ghet-	X	X	_	_	12	obl:arg	_	AlignBegin=24320|AlignEnd=24570|Gloss=X
+15	ghet~	X	X	_	_	12	obl:arg	_	AlignBegin=24320|AlignEnd=24570|Gloss=X
 16	||	||	PUNCT	_	_	18	punct	_	AlignBegin=24570|AlignEnd=24600|Gloss=PUNCT
 17	eh	eh	INTJ	_	_	18	discourse	_	AlignBegin=24600|AlignEnd=24935|Gloss=eh
 18	kpako	kpako	NOUN	_	_	15	conj:dicto	_	AlignBegin=24935|AlignEnd=25287|Gloss=street_child
@@ -191,8 +192,8 @@
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/PRT_05_Ghetto-Life_MG.mp3
 # speaker_id = Sp265
 # text = # you know sey [ ajebo dey form || # de dey form { galadima |r galadima } //= dey form mummies pet //] //
-# text_en = You know that the rich ones pretend… they act like morons, they act like momma's boys.
-# text_ortho = You know sey ajebo dey form... de dey form galadima, galadima, dey form mummies pet.
+# text_en = You know that the rich ones pretend... they act like morons, they act like momma's boys.
+# text_ortho = You know sey ajebo dey form, de dey form galadima, galadima, dey form mummies pet.
 1	#	#	PUNCT	_	_	3	punct	_	AlignBegin=25317|AlignEnd=26080|Gloss=PUNCT
 2	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	AlignBegin=26080|AlignEnd=26150|Gloss=NOM.2
 3	know	know	VERB	_	_	0	root	_	AlignBegin=26150|AlignEnd=26210|Gloss=know
@@ -200,7 +201,7 @@
 5	[	[	PUNCT	_	_	8	punct	_	AlignBegin=26240|AlignEnd=26270|Gloss=PUNCT
 6	ajebo	ajebo	NOUN	_	_	8	nsubj	_	AlignBegin=26270|AlignEnd=26695|Gloss=pampered_person
 7	dey	dey	AUX	_	Aspect=Imp	8	aux	_	AlignBegin=26695|AlignEnd=26855|Gloss=IPFV
-8	form	form	VERB	_	_	3	ccomp	_	AlignBegin=26855|AlignEnd=27216|Gloss=form
+8	form	form	VERB	_	_	3	ccomp:obj	_	AlignBegin=26855|AlignEnd=27216|Gloss=form
 9	||	||	PUNCT	_	_	13	punct	_	AlignBegin=27216|AlignEnd=27246|Gloss=PUNCT
 10	#	#	PUNCT	_	_	13	punct	_	AlignBegin=27246|AlignEnd=27660|Gloss=PUNCT
 11	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	13	nsubj	_	AlignBegin=27660|AlignEnd=27784|Gloss=NOM.PL.3
@@ -231,7 +232,7 @@
 4	get	get	VERB	_	_	0	root	_	AlignBegin=31100|AlignEnd=31280|Gloss=get
 5	time	time	NOUN	_	_	4	obj:lvc	_	AlignBegin=31280|AlignEnd=31441|Gloss=time
 6	for	for	ADP	_	_	8	case	_	AlignBegin=31441|AlignEnd=31570|Gloss=for
-7	dat	dat	DET	_	Number=Sing|PronType=Dem	8	det	_	AlignBegin=31570|AlignEnd=31780|Gloss=SG.DIST.DEM
+7	dat	dat	DET	_	Number=Sing|PronType=Dem	8	det	_	AlignBegin=31570|AlignEnd=31780|Gloss=SG.DEM
 8	one	one	NOUN	_	_	4	obl:arg	_	AlignBegin=31780|AlignEnd=32010|Gloss=one
 9	o	o	PART	_	PartType=Disc	8	advmod:emph	_	AlignBegin=32010|AlignEnd=32108|Gloss=EMPH
 10	//	//	PUNCT	_	_	4	punct	_	AlignBegin=32108|AlignEnd=32138|Gloss=PUNCT
@@ -253,7 +254,7 @@
 9	time	time	NOUN	_	_	8	obj:lvc	_	AlignBegin=33150|AlignEnd=33290|Gloss=time
 10	to	to	ADP	_	_	12	mark	_	AlignBegin=33290|AlignEnd=33411|Gloss=to
 11	con	con	AUX	_	Aspect=Cons	12	aux	_	AlignBegin=33411|AlignEnd=33570|Gloss=CONS
-12	form	form	VERB	_	_	8	ccomp	_	AlignBegin=33570|AlignEnd=33780|Gloss=form
+12	form	form	VERB	_	_	8	xcomp:obl	_	AlignBegin=33570|AlignEnd=33780|Gloss=form
 13	mummies	mummy	NOUN	_	Number=Plur	14	compound	_	AlignBegin=33780|AlignEnd=34140|Gloss=mummy.PL
 14	pet	pet	NOUN	_	_	12	obj	_	AlignBegin=34140|AlignEnd=34350|Gloss=pet
 15	//	//	PUNCT	_	_	8	punct	_	AlignBegin=34350|AlignEnd=34380|Gloss=PUNCT
@@ -267,11 +268,11 @@
 1	where	where	ADV	_	PronType=Int	0	root	_	AlignBegin=34380|AlignEnd=34512|Gloss=where.Q
 2	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	AlignBegin=34512|AlignEnd=34590|Gloss=NOM.PL.1
 3	wan	want	VERB	_	_	1	advcl:cleft	_	AlignBegin=34590|AlignEnd=34710|Gloss=want
-4	form	form	VERB	_	_	3	xcomp	_	AlignBegin=34710|AlignEnd=34950|Gloss=form
+4	form	form	VERB	_	_	3	xcomp:obj	_	AlignBegin=34710|AlignEnd=34950|Gloss=form
 5	mummies	mummy	NOUN	_	Number=Plur	6	compound	_	AlignBegin=34950|AlignEnd=35250|Gloss=mummy.PL
 6	pet	pet	NOUN	_	_	4	obj	_	AlignBegin=35250|AlignEnd=35549|Gloss=pet
 7	for	for	ADP	_	_	8	case	_	AlignBegin=35549|AlignEnd=35760|Gloss=for
-8	now	now	ADV	_	_	4	advmod	_	AlignBegin=35760|AlignEnd=35897|Gloss=now
+8	now	now	ADV	_	_	4	obl:mod	_	AlignBegin=35760|AlignEnd=35897|Gloss=now
 9	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=35897|AlignEnd=35927|Gloss=PUNCT
 
 # sent_id = PRT_05_Ghetto-Life_MG__13
@@ -283,7 +284,7 @@
 1	abi	abi	CCONJ	_	_	3	cc	_	AlignBegin=35927|AlignEnd=36120|Gloss=or
 2	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	AlignBegin=36120|AlignEnd=36180|Gloss=NOM.2
 3	wan	want	VERB	_	_	0	root	_	AlignBegin=36180|AlignEnd=36290|Gloss=want
-4	form	form	VERB	_	_	3	xcomp	_	AlignBegin=36290|AlignEnd=36440|Gloss=form
+4	form	form	VERB	_	_	3	xcomp:obj	_	AlignBegin=36290|AlignEnd=36440|Gloss=form
 5	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	4	obj	_	AlignBegin=36440|AlignEnd=36530|Gloss=ACC.SG.3
 6	for	for	ADP	_	_	8	case	_	AlignBegin=36530|AlignEnd=36647|Gloss=for
 7	your	your	PRON	_	Number=Plur|Person=2|Poss=Yes	8	nmod:poss	_	AlignBegin=36647|AlignEnd=36750|Gloss=PL.2.POSS
@@ -328,14 +329,14 @@
 # speaker_id = Sp265
 # text = # and anoder ting wey dey dere be sey [ as you go ghetto < # you go shine your eye { well |r well |r well |r well |r well |r well } make niggers no use you catch fun ] //
 # text_en = And another thing is that as you go into a ghetto, you need to be really, really, really, really, really alert so that the street guys don’t make fun of you.
-# text_ortho = And anoder ting wey dey dere be sey, as you go ghetto, you go shine your eye well, well, well, well, well, well make niggers no use you catch fun.
+# text_ortho = And anoder ting wey dey dere be sey as you go ghetto, you go shine your eye well, well, well, well, well, well make niggers no use you catch fun.
 1	#	#	PUNCT	_	_	19	punct	_	AlignBegin=40269|AlignEnd=40790|Gloss=PUNCT
 2	and	and	CCONJ	_	_	19	cc	_	AlignBegin=40790|AlignEnd=41000|Gloss=and
 3	anoder	anoder	DET	_	_	4	det	_	AlignBegin=41000|AlignEnd=41165|Gloss=another
 4	ting	ting	NOUN	_	_	19	nsubj	_	AlignBegin=41165|AlignEnd=41299|Gloss=thing
 5	wey	wey	SCONJ	_	_	6	mark	_	AlignBegin=41299|AlignEnd=41438|Gloss=REL
 6	dey	dey	VERB	_	VerbType=Cop	4	acl:relcl	_	AlignBegin=41438|AlignEnd=41592|Gloss=be
-7	dere	dere	ADV	_	_	6	xcomp	_	AlignBegin=41592|AlignEnd=41725|Gloss=there
+7	dere	dere	ADV	_	_	6	xcomp:pred	_	AlignBegin=41592|AlignEnd=41725|Gloss=there
 8	be	be	AUX	_	PartType=Cop	19	cop	_	AlignBegin=41725|AlignEnd=41841|Gloss=be
 9	sey	sey	SCONJ	_	_	19	mark	_	AlignBegin=41841|AlignEnd=41935|Gloss=COMP
 10	[	[	PUNCT	_	_	19	punct	_	AlignBegin=41935|AlignEnd=41965|Gloss=PUNCT
@@ -381,7 +382,7 @@
 # text_ortho = Because when de use you catch fun sef, you go be like sey you be galadima o, danjuma.
 1	#	#	PUNCT	_	_	20	punct	_	AlignBegin=46937|AlignEnd=47400|Gloss=PUNCT
 2	because	because	SCONJ	_	_	20	cc	_	AlignBegin=47400|AlignEnd=47670|Gloss=because
-3	when	when	SCONJ	_	_	5	mark	_	AlignBegin=47670|AlignEnd=47810|Gloss=when.Q
+3	when	when	SCONJ	_	PronType=Int	5	mark	_	AlignBegin=47670|AlignEnd=47810|Gloss=when.Q
 4	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	AlignBegin=47810|AlignEnd=47930|Gloss=NOM.PL.3
 5	use	use	VERB	_	_	20	advcl:periph	_	AlignBegin=47930|AlignEnd=48092|Gloss=use
 6	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	5	obj	_	AlignBegin=48092|AlignEnd=48200|Gloss=NOM.2
@@ -393,7 +394,7 @@
 12	go	go	AUX	_	Aspect=Prosp	20	aux	_	AlignBegin=48840|AlignEnd=48964|Gloss=PROSP
 13	be	be	AUX	_	PartType=Cop	20	cop	_	AlignBegin=48964|AlignEnd=49075|Gloss=be
 14	like	like	ADP	_	_	20	mark	_	AlignBegin=49075|AlignEnd=49191|EXTPOS=SCONJ|Gloss=like
-15	sey	sey	SCONJ	_	_	14	fixed	_	AlignBegin=49191|AlignEnd=49315|Gloss=COMP
+15	sey	sey	SCONJ	_	_	20	dep	_	AlignBegin=49191|AlignEnd=49315|Gloss=COMP
 16	[	[	PUNCT	_	_	20	punct	_	AlignBegin=49315|AlignEnd=49345|Gloss=PUNCT
 17	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	20	nsubj	_	AlignBegin=49345|AlignEnd=49450|Gloss=NOM.2
 18	be	be	AUX	_	PartType=Cop	20	cop	_	AlignBegin=49450|AlignEnd=49560|Gloss=be
@@ -428,8 +429,8 @@
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/PRT_05_Ghetto-Life_MG.mp3
 # speaker_id = Sp265
 # text = # so < # ghetto life < # wetin dey for ghetto life { true |r true } be sey [ ghetto life < you go learn ] //
-# text_en = So, ghetto life… the truth about ghetto life is that you will learn a lot.
-# text_ortho = So, ghetto life... wetin dey for ghetto life true, true be sey ghetto life, you go learn.
+# text_en = So, ghetto life... the truth about ghetto life is that you will learn a lot.
+# text_ortho = So, ghetto life, wetin dey for ghetto life true, true be sey ghetto life, you go learn.
 1	#	#	PUNCT	_	_	27	punct	_	AlignBegin=52874|AlignEnd=53280|Gloss=PUNCT
 2	so	so	ADV	_	_	27	discourse	_	AlignBegin=53280|AlignEnd=53678|Gloss=so
 3	<	<	PUNCT	_	_	2	punct	_	AlignBegin=53678|AlignEnd=53708|Gloss=PUNCT
@@ -442,7 +443,7 @@
 10	dey	dey	VERB	_	VerbType=Cop	9	acl:relcl	_	AlignBegin=55830|AlignEnd=55970|Gloss=be
 11	for	for	ADP	_	_	13	case	_	AlignBegin=55970|AlignEnd=56150|Gloss=for
 12	ghetto	ghetto	NOUN	_	_	13	compound	_	AlignBegin=56150|AlignEnd=56410|Gloss=ghetto
-13	life	life	NOUN	_	_	10	xcomp	_	AlignBegin=56410|AlignEnd=56580|Gloss=life
+13	life	life	NOUN	_	_	10	xcomp:pred	_	AlignBegin=56410|AlignEnd=56580|Gloss=life
 14	{	{	PUNCT	_	_	15	punct	_	AlignBegin=56580|AlignEnd=56610|Gloss=PUNCT
 15	true	true	ADJ	_	_	27	advcl	_	AlignBegin=56610|AlignEnd=56800|Gloss=true
 16	|r	|r	PUNCT	_	_	17	punct	_	AlignBegin=56800|AlignEnd=56830|Gloss=PUNCT
@@ -587,7 +588,7 @@
 4	wetin	wetin	PRON	_	PronType=Int	3	obj	_	AlignBegin=71488|AlignEnd=71758|Gloss=what.Q
 5	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	AlignBegin=71758|AlignEnd=71878|Gloss=NOM.SG.3
 6	wan	want	VERB	_	_	4	acl:relcl	_	AlignBegin=71878|AlignEnd=72118|Gloss=want
-7	tell	tell	VERB	_	_	6	xcomp	_	AlignBegin=72118|AlignEnd=72358|Gloss=tell
+7	tell	tell	VERB	_	_	6	xcomp:obj	_	AlignBegin=72118|AlignEnd=72358|Gloss=tell
 8	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	7	obj	_	AlignBegin=72358|AlignEnd=72638|Gloss=NOM.2
 9	//	//	PUNCT	_	_	3	punct	_	AlignBegin=72638|AlignEnd=72668|Gloss=PUNCT
 
@@ -648,7 +649,7 @@
 9	#	#	PUNCT	_	_	10	punct	_	AlignBegin=78464|AlignEnd=78642|Gloss=PUNCT
 10	wetin	wetin	PRON	_	PronType=Int	6	conj	_	AlignBegin=78642|AlignEnd=78902|Gloss=what.Q
 11	dey	dey	VERB	_	VerbType=Cop	10	acl:relcl	_	AlignBegin=78902|AlignEnd=79102|Gloss=be
-12	good	good	ADJ	_	_	11	xcomp	_	AlignBegin=79102|AlignEnd=79415|Gloss=good
+12	good	good	ADJ	_	_	11	xcomp:pred	_	AlignBegin=79102|AlignEnd=79415|Gloss=good
 13	}	}	PUNCT	_	_	5	punct	_	AlignBegin=79415|AlignEnd=79445|Gloss=PUNCT
 14	//	//	PUNCT	_	_	3	punct	_	AlignBegin=79415|AlignEnd=79445|Gloss=PUNCT
 
@@ -698,7 +699,7 @@
 7	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	10	nsubj	_	AlignBegin=84972|AlignEnd=85040|Gloss=NOM.2
 8	no	no	PART	_	Polarity=Neg	10	advmod	_	AlignBegin=85040|AlignEnd=85160|Gloss=NEG
 9	fit	fit	AUX	_	Mood=Pot	10	aux	_	AlignBegin=85160|AlignEnd=85382|Gloss=ABIL
-10	chop	chop	VERB	_	_	4	ccomp	_	AlignBegin=85382|AlignEnd=85662|Gloss=eat
+10	chop	chop	VERB	_	_	4	ccomp:obj	_	AlignBegin=85382|AlignEnd=85662|Gloss=eat
 11	]	]	PUNCT	_	_	10	punct	_	AlignBegin=85662|AlignEnd=85692|Gloss=PUNCT
 12	<	<	PUNCT	_	_	4	punct	_	AlignBegin=85662|AlignEnd=85692|Gloss=PUNCT
 13	#	#	PUNCT	_	_	4	punct	_	AlignBegin=85692|AlignEnd=85899|Gloss=PUNCT
@@ -720,7 +721,7 @@
 4	small	small	ADJ	_	_	5	amod	_	AlignBegin=86804|AlignEnd=87049|Gloss=small
 5	boy	boy	NOUN	_	_	7	nsubj	_	AlignBegin=87049|AlignEnd=87192|Gloss=boy
 6	don	don	AUX	_	Aspect=Perf	7	aux	_	AlignBegin=87192|AlignEnd=87349|Gloss=PRF
-7	wack	wack	VERB	_	_	3	ccomp	_	AlignBegin=87349|AlignEnd=87581|Gloss=eat
+7	wack	wack	VERB	_	_	3	ccomp:obj	_	AlignBegin=87349|AlignEnd=87581|Gloss=eat
 8	garri	garri	NOUN	_	_	7	obj	_	AlignBegin=87581|AlignEnd=87796|Gloss=dry_cassava
 9	//	//	PUNCT	_	_	3	punct	_	AlignBegin=87796|AlignEnd=87826|Gloss=PUNCT
 
@@ -757,7 +758,7 @@
 # speaker_id = Sp265
 # text = im go face you { wey you don chop rice |c # wey you dey say [ your papa dey give you { rice |c and chicken } ] } //
 # text_en = He will dare you who who's eaten rice; you who brags that your father gives you rice and chicken.
-# text_ortho = Im go face you wey you don chop rice, wey you dey say, your papa dey give you rice, and chicken.
+# text_ortho = Im go face you wey you don chop rice, wey you dey say your papa dey give you rice, and chicken.
 1	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	AlignBegin=89942|AlignEnd=90083|Gloss=NOM.SG.3
 2	go	go	AUX	_	Aspect=Prosp	3	aux	_	AlignBegin=90083|AlignEnd=90182|Gloss=PROSP
 3	face	face	VERB	_	_	0	root	_	AlignBegin=90182|AlignEnd=90422|Gloss=face
@@ -813,23 +814,23 @@
 # text = # dat one now < no be childs play //
 # text_en = That’s no child's play.
 # text_ortho = Dat one now, no be childs play.
-1	#	#	PUNCT	_	_	7	punct	_	AlignBegin=94936|AlignEnd=95340|Gloss=PUNCT
-2	dat	dat	DET	_	Number=Sing|PronType=Dem	3	det	_	AlignBegin=95340|AlignEnd=95490|Gloss=SG.DIST.DEM
-3	one	one	NOUN	_	_	7	nsubj	_	AlignBegin=95490|AlignEnd=95612|Gloss=one
+1	#	#	PUNCT	_	_	9	punct	_	AlignBegin=94936|AlignEnd=95340|Gloss=PUNCT
+2	dat	dat	DET	_	Number=Sing|PronType=Dem	3	det	_	AlignBegin=95340|AlignEnd=95490|Gloss=SG.DEM
+3	one	one	NOUN	_	_	9	nsubj	_	AlignBegin=95490|AlignEnd=95612|Gloss=one
 4	now	now	ADV	_	_	3	advmod:emph	_	AlignBegin=95612|AlignEnd=95736|Gloss=now
 5	<	<	PUNCT	_	_	3	punct	_	AlignBegin=95736|AlignEnd=95766|Gloss=PUNCT
-6	no	no	PART	_	Polarity=Neg	7	advmod	_	AlignBegin=95766|AlignEnd=95870|Gloss=NEG
-7	be	be	VERB	_	PartType=Cop	0	root	_	AlignBegin=95870|AlignEnd=95980|Gloss=be
-8	childs	child	NOUN	_	Case=Gen|Number=Plur	9	obl:mod	_	AlignBegin=95980|AlignEnd=96250|Gloss=child.GEN
-9	play	play	VERB	_	_	7	xcomp	_	AlignBegin=96250|AlignEnd=96430|Gloss=play
-10	//	//	PUNCT	_	_	7	punct	_	AlignBegin=96430|AlignEnd=96460|Gloss=PUNCT
+6	no	no	PART	_	Polarity=Neg	9	advmod	_	AlignBegin=95766|AlignEnd=95870|Gloss=NEG
+7	be	be	AUX	_	PartType=Cop	9	cop	_	AlignBegin=95870|AlignEnd=95980|Gloss=be
+8	childs	child	NOUN	_	Case=Gen|Number=Plur	9	compound	_	AlignBegin=95980|AlignEnd=96250|Gloss=child.PL
+9	play	play	VERB	_	_	0	root	_	AlignBegin=96250|AlignEnd=96430|Gloss=play
+10	//	//	PUNCT	_	_	9	punct	_	AlignBegin=96430|AlignEnd=96460|Gloss=PUNCT
 
 # sent_id = PRT_05_Ghetto-Life_MG__39
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/PRT_05_Ghetto-Life_MG.mp3
 # speaker_id = Sp265
 # text = # and # as I dey talk am now eh < Oyibo < you < you dey laugh kwa //
 # text_en = And as I'm saying this uh... white man, you're laughing too.
-# text_ortho = And as I dey talk am now eh... Oyibo, you, you dey laugh kwa.
+# text_ortho = And as I dey talk am now eh, Oyibo, you, you dey laugh kwa.
 1	#	#	PUNCT	_	_	18	punct	_	AlignBegin=96460|AlignEnd=96900|Gloss=PUNCT
 2	and	and	CCONJ	_	_	18	cc	_	AlignBegin=96900|AlignEnd=97151|Gloss=and
 3	#	#	PUNCT	_	_	18	punct	_	AlignBegin=97151|AlignEnd=97440|Gloss=PUNCT
@@ -841,7 +842,7 @@
 9	now	now	ADV	_	_	7	advmod	_	AlignBegin=98120|AlignEnd=98303|Gloss=now
 10	eh	eh	INTJ	_	_	7	discourse	_	AlignBegin=98303|AlignEnd=98390|Gloss=eh
 11	<	<	PUNCT	_	_	7	punct	_	AlignBegin=98390|AlignEnd=98420|Gloss=PUNCT
-12	Oyibo	Oyibo	PROPN	_	_	18	vocative	_	AlignBegin=98420|AlignEnd=98667|Gloss=Oyibo
+12	Oyibo	Oyinbo	PROPN	_	_	18	vocative	_	AlignBegin=98420|AlignEnd=98667|Gloss=foreign(er)
 13	<	<	PUNCT	_	_	12	punct	_	AlignBegin=98667|AlignEnd=98697|Gloss=PUNCT
 14	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	18	dislocated	_	AlignBegin=98697|AlignEnd=98754|Gloss=NOM.2
 15	<	<	PUNCT	_	_	14	punct	_	AlignBegin=98754|AlignEnd=98784|Gloss=PUNCT
@@ -856,15 +857,15 @@
 # speaker_id = Sp265
 # text = na im >+ be di legit ting //
 # text_en = That’s the proper thing to do.
-# text_ortho = Na im, be di legit ting.
-1	na	na	AUX	_	PartType=Cop	0	root	_	AlignBegin=99470|AlignEnd=99585|EXTPOS=SCONJ|Gloss=be
-2	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	1	fixed	_	AlignBegin=99585|AlignEnd=99591|Gloss=NOM.SG.3
+# text_ortho = Na im be di legit ting.
+1	na	na	AUX	_	PartType=Cop	2	cop	_	AlignBegin=99470|AlignEnd=99585|EXTPOS=SCONJ|Gloss=be
+2	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	0	root	_	AlignBegin=99585|AlignEnd=99591|Gloss=NOM.SG.3
 3	>+	>+	PUNCT	_	_	7	punct	_	AlignBegin=99591|AlignEnd=99621|Gloss=PUNCT
 4	be	be	AUX	_	PartType=Cop	7	cop	_	AlignBegin=99621|AlignEnd=99760|Gloss=be
-5	di	the	DET	_	Definite=Def|PronType=Art	7	det	_	AlignBegin=99760|AlignEnd=99820|Gloss=DEF.ART
+5	di	di	DET	_	Definite=Def|PronType=Art	7	det	_	AlignBegin=99760|AlignEnd=99820|Gloss=DEF.ART
 6	legit	legit	ADJ	_	_	7	amod	_	AlignBegin=99820|AlignEnd=100245|Gloss=legitimate
-7	ting	ting	NOUN	_	_	1	advcl:cleft	_	AlignBegin=100245|AlignEnd=100458|Gloss=thing
-8	//	//	PUNCT	_	_	1	punct	_	AlignBegin=100458|AlignEnd=100488|Gloss=PUNCT
+7	ting	ting	NOUN	_	_	2	advcl:cleft	_	AlignBegin=100245|AlignEnd=100458|Gloss=thing
+8	//	//	PUNCT	_	_	2	punct	_	AlignBegin=100458|AlignEnd=100488|Gloss=PUNCT
 
 # sent_id = PRT_05_Ghetto-Life_MG__41
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/PRT_05_Ghetto-Life_MG.mp3
@@ -936,16 +937,16 @@
 2	so	so	ADV	_	_	17	discourse	_	AlignBegin=104489|AlignEnd=104797|Gloss=so
 3	#	#	PUNCT	_	_	2	punct	_	AlignBegin=104797|AlignEnd=105700|Gloss=PUNCT
 4	for	for	ADP	_	_	5	case	_	AlignBegin=105700|AlignEnd=105862|Gloss=for
-5	here	here	ADV	_	_	17	advmod:periph	_	AlignBegin=105862|AlignEnd=106157|Gloss=here
+5	here	here	ADV	_	_	17	obl:mod	_	AlignBegin=105862|AlignEnd=106157|Gloss=here
 6	<	<	PUNCT	_	_	5	punct	_	AlignBegin=106157|AlignEnd=106187|Gloss=PUNCT
 7	#	#	PUNCT	_	_	5	punct	_	AlignBegin=106187|AlignEnd=106528|Gloss=PUNCT
 8	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	9	expl:subj	_	AlignBegin=106528|AlignEnd=106638|Gloss=NOM.SG.3
 9	get	get	VERB	_	_	17	parataxis:dislocated	_	AlignBegin=106638|AlignEnd=106793|Gloss=get
-10	down	down	ADP	_	_	9	dep	_	AlignBegin=106793|AlignEnd=107028|Gloss=down
+10	down	down	ADP	_	_	9	dep:comp	_	AlignBegin=106793|AlignEnd=107028|Gloss=down
 11	wey	when	SCONJ	_	_	12	mark	_	AlignBegin=107028|AlignEnd=107158|Gloss=when
 12	dey	dey	VERB	_	VerbType=Cop	9	csubj	_	AlignBegin=107158|AlignEnd=107308|Gloss=be
 13	for	for	ADP	_	_	14	case	_	AlignBegin=107308|AlignEnd=107484|Gloss=for
-14	here	here	ADV	_	_	12	xcomp	_	AlignBegin=107484|AlignEnd=107648|Gloss=here
+14	here	here	ADV	_	_	12	xcomp:pred	_	AlignBegin=107484|AlignEnd=107648|Gloss=here
 15	<	<	PUNCT	_	_	9	punct	_	AlignBegin=107648|AlignEnd=107678|Gloss=PUNCT
 16	na	na	AUX	_	PartType=Cop	17	cop	_	AlignBegin=107678|AlignEnd=107808|Gloss=be
 17	ghetto	ghetto	NOUN	_	_	0	root	_	AlignBegin=107808|AlignEnd=108163|Gloss=ghetto
@@ -956,7 +957,7 @@
 # speaker_id = Sp265
 # text = # to go dere now ehn you go see all dose men wey don drink kaikai //
 # text_en = If you go there right now uh... you will see all those guys who have had homemade gin.
-# text_ortho = To go dere now ehn... you go see all dose men wey don drink kaikai.
+# text_ortho = To go dere now ehn you go see all dose men wey don drink kaikai.
 1	#	#	PUNCT	_	_	9	punct	_	AlignBegin=108193|AlignEnd=108620|Gloss=PUNCT
 2	to	to	ADP	_	_	3	mark	_	AlignBegin=108620|AlignEnd=108700|Gloss=to
 3	go	go	VERB	_	_	9	advcl:periph	_	AlignBegin=108700|AlignEnd=108929|Gloss=go
@@ -966,7 +967,7 @@
 7	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	9	nsubj	_	AlignBegin=109530|AlignEnd=109600|Gloss=NOM.2
 8	go	go	AUX	_	Aspect=Prosp	9	aux	_	AlignBegin=109600|AlignEnd=109690|Gloss=PROSP
 9	see	see	VERB	_	_	0	root	_	AlignBegin=109690|AlignEnd=109820|Gloss=see
-10	all	all	ADV	_	_	12	advmod	_	AlignBegin=109820|AlignEnd=109910|Gloss=all
+10	all	all	ADV	_	_	12	det	_	AlignBegin=109820|AlignEnd=109910|Gloss=all
 11	dose	dose	DET	_	Number=Plur|PronType=Dem	12	det	_	AlignBegin=109910|AlignEnd=110140|Gloss=PL.DIST.DEM
 12	men	man	NOUN	_	Number=Plur	9	obj	_	AlignBegin=110140|AlignEnd=110341|Gloss=man.PL
 13	wey	wey	SCONJ	_	_	15	mark	_	AlignBegin=110341|AlignEnd=110469|Gloss=REL
@@ -1057,7 +1058,7 @@
 1	everybody	everybody	PRON	_	_	3	nsubj	_	AlignBegin=118350|AlignEnd=118650|Gloss=everybody
 2	don	don	AUX	_	Aspect=Perf	3	aux	_	AlignBegin=118650|AlignEnd=118820|Gloss=PRF
 3	dey	dey	VERB	_	VerbType=Cop	0	root	_	AlignBegin=118820|AlignEnd=118960|Gloss=be
-4	dere	dere	ADV	_	_	3	xcomp	_	AlignBegin=118960|AlignEnd=119080|Gloss=there
+4	dere	dere	ADV	_	_	3	xcomp:pred	_	AlignBegin=118960|AlignEnd=119080|Gloss=there
 5	|c	|c	PUNCT	_	_	9	punct	_	AlignBegin=119080|AlignEnd=119110|Gloss=PUNCT
 6	and	and	CCONJ	_	_	9	cc	_	AlignBegin=119110|AlignEnd=119190|Gloss=and
 7	everybody	everybody	PRON	_	_	9	nsubj	_	AlignBegin=119190|AlignEnd=119520|Gloss=everybody
@@ -1086,19 +1087,19 @@
 12	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	14	nsubj	_	AlignBegin=121530|AlignEnd=121636|Gloss=NOM.PL.3
 13	go	go	AUX	_	Aspect=Prosp	14	aux	_	AlignBegin=121636|AlignEnd=121808|Gloss=PROSP
 14	con	con	AUX	_	Aspect=Cons	8	conj:dicto	_	AlignBegin=121808|AlignEnd=122040|Gloss=CONS
-15	knack	knack	VERB	_	_	14	dep	_	AlignBegin=122040|AlignEnd=122370|Gloss=hit
+15	knack	knack	VERB	_	_	14	dep:comp	_	AlignBegin=122040|AlignEnd=122370|Gloss=hit
 16	//	//	PUNCT	_	_	3	punct	_	AlignBegin=122400|AlignEnd=122660|Gloss=PUNCT
 
 # sent_id = PRT_05_Ghetto-Life_MG__55
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/PRT_05_Ghetto-Life_MG.mp3
 # speaker_id = Sp265
 # text = # wey be sey now as you now wey dey come now < you be office //
-# text_en = Which means that now, as you… now… which is on the way… you're educated people.
-# text_ortho = Wey be sey now as you... now.... wey dey come now... you be office.
+# text_en = Which means that now, as you... now... which is on the way... you're educated people.
+# text_ortho = Wey be sey now as you now wey dey come now, you be office.
 1	#	#	PUNCT	_	_	16	punct	_	AlignBegin=122400|AlignEnd=122660|Gloss=PUNCT
 2	wey	when	SCONJ	_	_	16	discourse	_	AlignBegin=122660|AlignEnd=122767|EXTPOS=SCONJ|Gloss=when
-3	be	be	VERB	_	PartType=Cop	2	fixed	_	AlignBegin=122767|AlignEnd=122886|Gloss=be
-4	sey	sey	SCONJ	_	_	2	fixed	_	AlignBegin=122886|AlignEnd=123010|Gloss=COMP
+3	be	be	VERB	_	PartType=Cop	2	dep	_	AlignBegin=122767|AlignEnd=122886|Gloss=be
+4	sey	sey	SCONJ	_	_	3	dep	_	AlignBegin=122886|AlignEnd=123010|Gloss=COMP
 5	now	now	ADV	_	_	2	advmod:emph	_	AlignBegin=123040|AlignEnd=123110|Gloss=now
 6	as	as	ADP	_	_	7	case	_	AlignBegin=123110|AlignEnd=123390|Gloss=as
 7	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	16	obl:mod	_	AlignBegin=123390|AlignEnd=123540|Gloss=NOM.2
@@ -1121,7 +1122,7 @@
 # text_ortho = From far now, de don dey hunt you.
 1	#	#	PUNCT	_	_	9	punct	_	AlignBegin=125040|AlignEnd=125760|Gloss=PUNCT
 2	from	from	ADP	_	_	3	case	_	AlignBegin=125760|AlignEnd=125910|Gloss=from
-3	far	far	ADV	_	_	9	advmod:periph	_	AlignBegin=125910|AlignEnd=126190|Gloss=far
+3	far	far	ADV	_	_	9	obl:mod	_	AlignBegin=125910|AlignEnd=126190|Gloss=far
 4	now	now	ADV	_	_	3	advmod:emph	_	AlignBegin=126190|AlignEnd=126290|Gloss=now
 5	<	<	PUNCT	_	_	3	punct	_	AlignBegin=126290|AlignEnd=126320|Gloss=PUNCT
 6	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	AlignBegin=126320|AlignEnd=126415|Gloss=NOM.PL.3
@@ -1146,40 +1147,38 @@
 # sent_id = PRT_05_Ghetto-Life_MG__58
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/PRT_05_Ghetto-Life_MG.mp3
 # speaker_id = Sp265
-# text = # as de dey hunt you now ( [eng who goes dere now eng] ?//) < you now < you go first kporo //
+# text = # as de dey hunt you now ( who goes dere now ?//) < you now < you go first kporo //
 # text_en = As they watch you, who goes there? You know, you'll be afraid at first.
-# text_ortho = As de dey hunt you now who goes dere now , you now, you go first kporo.
-1	#	#	PUNCT	_	_	21	punct	_	AlignBegin=128280|AlignEnd=128820|Gloss=PUNCT
+# text_ortho = As de dey hunt you now (who goes dere now, ), you now, you go first kporo.
+1	#	#	PUNCT	_	_	19	punct	_	AlignBegin=128280|AlignEnd=128820|Gloss=PUNCT
 2	as	as	ADP	_	_	5	mark	_	AlignBegin=128820|AlignEnd=128930|Gloss=as
 3	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	AlignBegin=128930|AlignEnd=128990|Gloss=NOM.PL.3
 4	dey	dey	AUX	_	Aspect=Imp	5	aux	_	AlignBegin=128990|AlignEnd=129070|Gloss=IPFV
-5	hunt	hunt	VERB	_	_	21	advcl:periph	_	AlignBegin=129070|AlignEnd=129360|Gloss=hunt
+5	hunt	hunt	VERB	_	_	19	advcl:periph	_	AlignBegin=129070|AlignEnd=129360|Gloss=hunt
 6	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	5	obj	_	AlignBegin=129360|AlignEnd=129441|Gloss=NOM.2
 7	now	now	ADV	_	_	6	advmod:emph	_	AlignBegin=129441|AlignEnd=129580|Gloss=now
-8	(	(	PUNCT	_	_	10	punct	_	AlignBegin=129580|AlignEnd=129610|Gloss=PUNCT
-9	[eng	[eng	PUNCT	_	_	10	punct	_	AlignBegin=129580|AlignEnd=129610|Gloss=PUNCT
-10	who	who	PRON	_	PronType=Int	7	parataxis:parenth	_	AlignBegin=129610|AlignEnd=129740|Gloss=who.Q
-11	goes	go	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	advcl:cleft	_	AlignBegin=129740|AlignEnd=129960|Gloss=go.IND.SG.3.PRS.FIN
-12	dere	dere	ADV	_	_	11	obj	_	AlignBegin=129960|AlignEnd=130188|Gloss=there
-13	now	now	ADV	_	_	12	advmod:emph	_	AlignBegin=130188|AlignEnd=130310|Gloss=now
-14	eng]	eng]	PUNCT	_	_	10	punct	_	AlignBegin=130310|AlignEnd=130340|Gloss=PUNCT
-15	?//)	?//)	PUNCT	_	_	10	punct	_	AlignBegin=130310|AlignEnd=130340|Gloss=PUNCT
-16	<	<	PUNCT	_	_	5	punct	_	AlignBegin=130310|AlignEnd=130340|Gloss=PUNCT
-17	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	21	parataxis:discourse	_	AlignBegin=130340|AlignEnd=130490|Gloss=NOM.2
-18	now	now	ADV	_	_	17	advmod:emph	_	AlignBegin=130490|AlignEnd=130600|Gloss=now
-19	<	<	PUNCT	_	_	17	punct	_	AlignBegin=130600|AlignEnd=130630|Gloss=PUNCT
-20	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	21	nsubj	_	AlignBegin=130630|AlignEnd=130690|Gloss=NOM.2
-21	go	go	VERB	_	_	0	root	_	AlignBegin=130690|AlignEnd=130800|Gloss=go
-22	first	first	ADJ	_	NumType=Ord	23	amod	_	AlignBegin=130800|AlignEnd=131150|Gloss=first.ORD
-23	kporo	kporo	NOUN	_	_	21	obj	_	AlignBegin=131150|AlignEnd=131622|Gloss=passage
-24	//	//	PUNCT	_	_	21	punct	_	AlignBegin=131622|AlignEnd=131652|Gloss=PUNCT
+8	(	(	PUNCT	_	_	9	punct	_	AlignBegin=129580|AlignEnd=129610|Gloss=PUNCT
+9	who	who	PRON	_	PronType=Int	7	parataxis:parenth	_	AlignBegin=129610|AlignEnd=129740|Gloss=who.Q|Lang=en
+10	goes	go	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	advcl:cleft	_	AlignBegin=129740|AlignEnd=129960|Gloss=go.IND.SG.3.PRS.FIN|Lang=en
+11	dere	dere	ADV	_	_	10	obj	_	AlignBegin=129960|AlignEnd=130188|Gloss=there|Lang=en
+12	now	now	ADV	_	_	11	advmod:emph	_	AlignBegin=130188|AlignEnd=130310|Gloss=now|Lang=en
+13	?//)	?//)	PUNCT	_	_	9	punct	_	AlignBegin=130310|AlignEnd=130340|Gloss=PUNCT
+14	<	<	PUNCT	_	_	5	punct	_	AlignBegin=130310|AlignEnd=130340|Gloss=PUNCT
+15	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	19	parataxis:discourse	_	AlignBegin=130340|AlignEnd=130490|Gloss=NOM.2
+16	now	now	ADV	_	_	15	advmod:emph	_	AlignBegin=130490|AlignEnd=130600|Gloss=now
+17	<	<	PUNCT	_	_	15	punct	_	AlignBegin=130600|AlignEnd=130630|Gloss=PUNCT
+18	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	19	nsubj	_	AlignBegin=130630|AlignEnd=130690|Gloss=NOM.2
+19	go	go	VERB	_	_	0	root	_	AlignBegin=130690|AlignEnd=130800|Gloss=go
+20	first	first	ADJ	_	NumType=Ord	21	amod	_	AlignBegin=130800|AlignEnd=131150|Gloss=first.ORD
+21	kporo	kporo	NOUN	_	_	19	obj	_	AlignBegin=131150|AlignEnd=131622|Gloss=passage
+22	//	//	PUNCT	_	_	19	punct	_	AlignBegin=131622|AlignEnd=131652|Gloss=PUNCT
 
 # sent_id = PRT_05_Ghetto-Life_MG__59
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/PRT_05_Ghetto-Life_MG.mp3
 # speaker_id = Sp265
 # text = # ehen as ajebo wey you be now < na now >+ you { wey be Oyibo now |c wey kporo } < you { go first eh || # go } first look //
-# text_en = Yes, as privileged people you too, now it's… you the white man, who's already afraid, first you'll uh… first you'll take a look.
-# text_ortho = Ehen as ajebo wey you be now, na now... you wey be oyibo now, wey kporo, you go first eh... go first look.
+# text_en = Yes, as privileged people you too, now it's... you the white man, who's already afraid, first you'll uh... first you'll take a look.
+# text_ortho = Ehen as ajebo wey you be now, na now you wey be Oyibo now, wey kporo, you go first eh, go first look.
 1	#	#	PUNCT	_	_	11	punct	_	AlignBegin=131652|AlignEnd=132280|Gloss=PUNCT
 2	ehen	ehen	INTJ	_	_	11	discourse	_	AlignBegin=132280|AlignEnd=132600|Gloss=ehen
 3	as	as	ADP	_	_	4	case	_	AlignBegin=132600|AlignEnd=132790|Gloss=as
@@ -1196,7 +1195,7 @@
 14	{	{	PUNCT	_	_	17	punct	_	AlignBegin=134310|AlignEnd=134443|Gloss=PUNCT
 15	wey	wey	SCONJ	_	_	17	mark	_	AlignBegin=134310|AlignEnd=134443|Gloss=REL
 16	be	be	AUX	_	PartType=Cop	17	cop	_	AlignBegin=134443|AlignEnd=134510|Gloss=be
-17	Oyibo	Oyibo	PROPN	_	_	13	acl:relcl	_	AlignBegin=134510|AlignEnd=134868|Gloss=Oyibo
+17	Oyibo	Oyinbo	PROPN	_	_	13	acl:relcl	_	AlignBegin=134510|AlignEnd=134868|Gloss=foreign(er)
 18	now	now	ADV	_	_	17	advmod:emph	_	AlignBegin=134868|AlignEnd=135000|Gloss=now
 19	|c	|c	PUNCT	_	_	21	punct	_	AlignBegin=134868|AlignEnd=135000|Gloss=PUNCT
 20	wey	when	SCONJ	_	_	21	case	_	AlignBegin=135030|AlignEnd=135160|Gloss=when
@@ -1219,28 +1218,24 @@
 # sent_id = PRT_05_Ghetto-Life_MG__60
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/PRT_05_Ghetto-Life_MG.mp3
 # speaker_id = Sp265
-# text = [eng what are de saying eng] ?//
+# text = what are de saying ?//
 # text_en = What are they saying?
-# text_ortho = What are de saying ?
-1	[eng	[eng	PUNCT	_	_	2	punct	_	AlignBegin=137461|AlignEnd=137491|Gloss=PUNCT
-2	what	what	PRON	_	PronType=Int	0	root	_	AlignBegin=137491|AlignEnd=137651|Gloss=what.Q
-3	are	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	AlignBegin=137651|AlignEnd=137771|Gloss=be.IND.PRS.FIN
-4	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	AlignBegin=137771|AlignEnd=137901|Gloss=NOM.PL.3
-5	saying	say	VERB	_	Tense=Pres|VerbForm=Part	2	advcl:cleft	_	AlignBegin=137901|AlignEnd=138111|Gloss=say.PRS.PTCP
-6	eng]	eng]	PUNCT	_	_	2	punct	_	AlignBegin=138111|AlignEnd=138141|Gloss=PUNCT
-7	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=138111|AlignEnd=138141|Gloss=PUNCT
+# text_ortho = What are de saying?
+1	what	what	PRON	_	PronType=Int	0	root	_	AlignBegin=137491|AlignEnd=137651|Gloss=what.Q|Lang=en
+2	are	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	AlignBegin=137651|AlignEnd=137771|Gloss=be.IND.PRS.FIN|Lang=en
+3	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	AlignBegin=137771|AlignEnd=137901|Gloss=NOM.PL.3|Lang=en
+4	saying	say	VERB	_	Tense=Pres|VerbForm=Part	1	advcl:cleft	_	AlignBegin=137901|AlignEnd=138111|Gloss=say.PRS.PTCP|Lang=en
+5	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=138111|AlignEnd=138141|Gloss=PUNCT
 
 # sent_id = PRT_05_Ghetto-Life_MG__61
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/PRT_05_Ghetto-Life_MG.mp3
 # speaker_id = Sp265
-# text = [eng what are eng] &?//
-# text_en = What are…?
+# text = what are &?//
+# text_en = What are...?
 # text_ortho = What are... ?
-1	[eng	[eng	PUNCT	_	_	2	punct	_	AlignBegin=138111|AlignEnd=138141|Gloss=PUNCT
-2	what	what	PRON	_	PronType=Int	0	root	_	AlignBegin=138141|AlignEnd=138281|Gloss=what.Q
-3	are	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	advcl:cleft	_	AlignBegin=138281|AlignEnd=138431|Gloss=be.IND.PRS.FIN
-4	eng]	eng]	PUNCT	_	_	2	punct	_	AlignBegin=138431|AlignEnd=138461|Gloss=PUNCT
-5	&?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=138431|AlignEnd=138461|Gloss=PUNCT
+1	what	what	PRON	_	PronType=Int	0	root	_	AlignBegin=138141|AlignEnd=138281|Gloss=what.Q|Lang=en
+2	are	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	1	advcl:cleft	_	AlignBegin=138281|AlignEnd=138431|Gloss=be.IND.PRS.FIN|Lang=en
+3	&?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=138431|AlignEnd=138461|Gloss=PUNCT
 
 # sent_id = PRT_05_Ghetto-Life_MG__62
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/PRT_05_Ghetto-Life_MG.mp3
@@ -1266,27 +1261,25 @@
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/PRT_05_Ghetto-Life_MG.mp3
 # speaker_id = Sp265
 # text = which one be &?//
-# text_en = Which one is…?
-# text_ortho = Which one be...?
+# text_en = Which one is...?
+# text_ortho = Which one be... ?
 1	which	which	DET	_	PronType=Int	2	det	_	AlignBegin=139421|AlignEnd=139561|Gloss=which
-2	one	one	NOUN	_	NumType=Card	0	root	_	AlignBegin=139561|AlignEnd=139671|Gloss=one
+2	one	one	NOUN	_	_	0	root	_	AlignBegin=139561|AlignEnd=139671|Gloss=one
 3	be	be	VERB	_	PartType=Cop	2	advcl:cleft	_	AlignBegin=139671|AlignEnd=139741|Gloss=be
 4	&?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=139741|AlignEnd=139771|Gloss=PUNCT
 
 # sent_id = PRT_05_Ghetto-Life_MG__65
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/PRT_05_Ghetto-Life_MG.mp3
 # speaker_id = Sp265
-# text = [eng what are de saying eng] eh ?//
+# text = what are de saying eh ?//
 # text_en = What are they saying?
 # text_ortho = What are de saying eh?
-1	[eng	[eng	PUNCT	_	_	5	punct	_	AlignBegin=139741|AlignEnd=139771|Gloss=PUNCT
-2	what	what	PRON	_	PronType=Int	5	nsubj	_	AlignBegin=139771|AlignEnd=139901|Gloss=what.Q
-3	are	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	AlignBegin=139901|AlignEnd=140051|Gloss=be.IND.PRS.FIN
-4	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	AlignBegin=140051|AlignEnd=140190|Gloss=NOM.PL.3
-5	saying	say	VERB	_	Tense=Pres|VerbForm=Part	0	root	_	AlignBegin=140190|AlignEnd=140471|Gloss=say.PRS.PTCP
-6	eng]	eng]	PUNCT	_	_	5	punct	_	AlignBegin=140471|AlignEnd=140501|Gloss=PUNCT
-7	eh	eh	INTJ	_	_	5	discourse	_	AlignBegin=140501|AlignEnd=140616|Gloss=eh
-8	?//	?//	PUNCT	_	_	5	punct	_	AlignBegin=140616|AlignEnd=140646|Gloss=PUNCT
+1	what	what	PRON	_	PronType=Int	4	nsubj	_	AlignBegin=139771|AlignEnd=139901|Gloss=what.Q|Lang=en
+2	are	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	AlignBegin=139901|AlignEnd=140051|Gloss=be.IND.PRS.FIN|Lang=en
+3	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	AlignBegin=140051|AlignEnd=140190|Gloss=NOM.PL.3|Lang=en
+4	saying	say	VERB	_	Tense=Pres|VerbForm=Part	0	root	_	AlignBegin=140190|AlignEnd=140471|Gloss=say.PRS.PTCP|Lang=en
+5	eh	eh	INTJ	_	_	4	discourse	_	AlignBegin=140501|AlignEnd=140616|Gloss=eh
+6	?//	?//	PUNCT	_	_	4	punct	_	AlignBegin=140616|AlignEnd=140646|Gloss=PUNCT
 
 # sent_id = PRT_05_Ghetto-Life_MG__66
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/PRT_05_Ghetto-Life_MG.mp3
@@ -1298,8 +1291,8 @@
 2	no	no	PART	_	Polarity=Neg	3	advmod	_	AlignBegin=140731|AlignEnd=140850|Gloss=NEG
 3	dey	dey	VERB	_	VerbType=Cop	0	root	_	AlignBegin=140850|AlignEnd=140961|Gloss=be
 4	for	for	ADP	_	_	6	case	_	AlignBegin=140961|AlignEnd=141101|Gloss=for
-5	dat	dat	DET	_	Number=Sing|PronType=Dem	6	det	_	AlignBegin=141101|AlignEnd=141312|Gloss=SG.DIST.DEM
-6	one	one	NOUN	_	_	3	xcomp	_	AlignBegin=141312|AlignEnd=141510|Gloss=one
+5	dat	dat	DET	_	Number=Sing|PronType=Dem	6	det	_	AlignBegin=141101|AlignEnd=141312|Gloss=SG.DEM
+6	one	one	NOUN	_	_	3	xcomp:pred	_	AlignBegin=141312|AlignEnd=141510|Gloss=one
 7	//	//	PUNCT	_	_	3	punct	_	AlignBegin=141510|AlignEnd=141540|Gloss=PUNCT
 
 # sent_id = PRT_05_Ghetto-Life_MG__67
@@ -1329,13 +1322,13 @@
 # speaker_id = Sp265
 # text = # eh wetin dey your pocket first ?//
 # text_en = Uh... first of all, what's in your pocket?
-# text_ortho = Eh... wetin dey your pocket first?
+# text_ortho = Eh wetin dey your pocket first?
 1	#	#	PUNCT	_	_	3	punct	_	AlignBegin=145360|AlignEnd=145980|Gloss=PUNCT
 2	eh	eh	INTJ	_	_	3	discourse	_	AlignBegin=145980|AlignEnd=146344|Gloss=eh
 3	wetin	wetin	PRON	_	PronType=Int	0	root	_	AlignBegin=146344|AlignEnd=146660|Gloss=what.Q
 4	dey	dey	VERB	_	VerbType=Cop	3	advcl:cleft	_	AlignBegin=146660|AlignEnd=146790|Gloss=be
 5	your	your	PRON	_	Number=Plur|Person=2|Poss=Yes	6	nmod:poss	_	AlignBegin=146790|AlignEnd=146920|Gloss=PL.2.POSS
-6	pocket	pocket	NOUN	_	_	4	xcomp	_	AlignBegin=146920|AlignEnd=147300|Gloss=pocket
+6	pocket	pocket	NOUN	_	_	4	xcomp:pred	_	AlignBegin=146920|AlignEnd=147300|Gloss=pocket
 7	first	first	ADJ	_	NumType=Ord	4	advcl	_	AlignBegin=147300|AlignEnd=147590|Gloss=first.ORD
 8	?//	?//	PUNCT	_	_	3	punct	_	AlignBegin=147590|AlignEnd=147620|Gloss=PUNCT
 
@@ -1372,7 +1365,7 @@
 4	my	my	PRON	_	Number=Sing|Person=1|Poss=Yes	5	nmod:poss	_	AlignBegin=150830|AlignEnd=150980|Gloss=SG.1.POSS
 5	man	man	NOUN	_	_	13	vocative	_	AlignBegin=150980|AlignEnd=151170|Gloss=man
 6	<	<	PUNCT	_	_	5	punct	_	AlignBegin=151170|AlignEnd=151200|Gloss=PUNCT
-7	dis	dis	DET	_	Number=Sing|PronType=Dem	9	det	_	AlignBegin=151200|AlignEnd=151370|Gloss=SG.PROX.DEM
+7	dis	dis	DET	_	Number=Sing|PronType=Dem	9	det	_	AlignBegin=151200|AlignEnd=151370|Gloss=SG.DEM
 8	your	your	PRON	_	Number=Plur|Person=2|Poss=Yes	9	nmod:poss	_	AlignBegin=151370|AlignEnd=151510|Gloss=PL.2.POSS
 9	phone	phone	NOUN	_	_	13	dislocated	_	AlignBegin=151510|AlignEnd=151710|Gloss=phone
 10	sef	sef	PART	_	PartType=Disc	9	advmod:emph	_	AlignBegin=151710|AlignEnd=151950|Gloss=FOC
@@ -1392,8 +1385,8 @@
 2	which	which	DET	_	PronType=Int	3	det	_	AlignBegin=152620|AlignEnd=152800|Gloss=which
 3	make	make	NOUN	_	_	0	root	_	AlignBegin=152800|AlignEnd=153053|Gloss=make
 4	be	be	VERB	_	PartType=Cop	3	advcl:cleft	_	AlignBegin=153053|AlignEnd=153170|Gloss=be
-5	dis	dis	DET	_	Number=Sing|PronType=Dem	6	det	_	AlignBegin=153170|AlignEnd=153389|Gloss=SG.PROX.DEM
-6	one	one	NOUN	_	_	4	dep	_	AlignBegin=153389|AlignEnd=153601|Gloss=one
+5	dis	dis	DET	_	Number=Sing|PronType=Dem	6	det	_	AlignBegin=153170|AlignEnd=153389|Gloss=SG.DEM
+6	one	one	NOUN	_	_	4	dep:comp	_	AlignBegin=153389|AlignEnd=153601|Gloss=one
 7	now	now	ADV	_	_	6	advmod:emph	_	AlignBegin=153601|AlignEnd=153790|Gloss=now
 8	?//	?//	PUNCT	_	_	3	punct	_	AlignBegin=153790|AlignEnd=153820|Gloss=PUNCT
 
@@ -1430,7 +1423,7 @@
 # text_en = As the person is looking at it, he has seen it as well.
 # text_ortho = As di person dey see am now, im don look am.
 1	as	as	ADP	_	_	5	mark	_	AlignBegin=156000|AlignEnd=156160|Gloss=as
-2	di	the	DET	_	Definite=Def|PronType=Art	3	det	_	AlignBegin=156160|AlignEnd=156240|Gloss=DEF.ART
+2	di	di	DET	_	Definite=Def|PronType=Art	3	det	_	AlignBegin=156160|AlignEnd=156240|Gloss=DEF.ART
 3	person	person	NOUN	_	_	5	nsubj	_	AlignBegin=156240|AlignEnd=156590|Gloss=person
 4	dey	dey	AUX	_	Aspect=Imp	5	aux	_	AlignBegin=156590|AlignEnd=156710|Gloss=IPFV
 5	see	see	VERB	_	_	11	advcl:periph	_	AlignBegin=156710|AlignEnd=156870|Gloss=see
@@ -1448,7 +1441,7 @@
 # speaker_id = Sp265
 # text = mtschew !//
 # text_en = Mstchew!
-# text_ortho = Mstchew!
+# text_ortho = Mtschew!
 1	mtschew	mtschew	INTJ	_	_	0	root	_	AlignBegin=157700|AlignEnd=157855|Gloss=sucking_of_teeth
 2	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=157855|AlignEnd=157885|Gloss=PUNCT
 
@@ -1456,14 +1449,14 @@
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/PRT_05_Ghetto-Life_MG.mp3
 # speaker_id = Sp265
 # text = # say [ oh boy dis phone go well o !//] //
-# text_en = "Saying, ""oh man, this phone is nice!"""
-# text_ortho = "Say ""oh boy dis phone go well o!"""
+# text_en = Saying, "oh man, this phone is nice!"
+# text_ortho = Say oh boy dis phone go well o!
 1	#	#	PUNCT	_	_	2	punct	_	AlignBegin=157885|AlignEnd=158141|Gloss=PUNCT
 2	say	say	VERB	_	_	0	root	_	AlignBegin=158141|AlignEnd=158227|Gloss=say
 3	[	[	PUNCT	_	_	8	punct	_	AlignBegin=158227|AlignEnd=158384|Gloss=PUNCT
 4	oh	oh	INTJ	_	_	8	discourse	_	AlignBegin=158227|AlignEnd=158384|Gloss=oh
 5	boy	boy	NOUN	_	_	8	discourse	_	AlignBegin=158384|AlignEnd=158510|Gloss=boy
-6	dis	dis	DET	_	Number=Sing|PronType=Dem	7	det	_	AlignBegin=158510|AlignEnd=158700|Gloss=SG.PROX.DEM
+6	dis	dis	DET	_	Number=Sing|PronType=Dem	7	det	_	AlignBegin=158510|AlignEnd=158700|Gloss=SG.DEM
 7	phone	phone	NOUN	_	_	8	nsubj	_	AlignBegin=158700|AlignEnd=158905|Gloss=phone
 8	go	go	VERB	_	_	2	parataxis	_	AlignBegin=158905|AlignEnd=159120|Gloss=go
 9	well	well	ADV	_	_	8	advmod	_	AlignBegin=159120|AlignEnd=159411|Gloss=well
@@ -1475,14 +1468,14 @@
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/PRT_05_Ghetto-Life_MG.mp3
 # speaker_id = Sp265
 # text = # mey I use am make call //
-# text_en = """Let me make a call on it."""
-# text_ortho = """Mey I use am make call."""
+# text_en = "Let me make a call on it."
+# text_ortho = Mey I use am make call.
 1	#	#	PUNCT	_	_	4	punct	_	AlignBegin=159521|AlignEnd=160180|Gloss=PUNCT
 2	mey	make	AUX	_	Mood=Opt	4	aux	_	AlignBegin=160180|AlignEnd=160290|Gloss=SBJV
 3	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	AlignBegin=160290|AlignEnd=160360|Gloss=NOM.SG.1
 4	use	use	VERB	_	_	0	root	_	AlignBegin=160360|AlignEnd=160480|Gloss=use
 5	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	4	obj	_	AlignBegin=160480|AlignEnd=160637|Gloss=ACC.SG.3
-6	make	make	VERB	_	_	4	xcomp	_	AlignBegin=160637|AlignEnd=160850|Gloss=make
+6	make	make	VERB	_	_	4	xcomp:obj	_	AlignBegin=160637|AlignEnd=160850|Gloss=make
 7	call	call	NOUN	_	_	6	obj	_	AlignBegin=160850|AlignEnd=161058|Gloss=call
 8	//	//	PUNCT	_	_	4	punct	_	AlignBegin=161058|AlignEnd=161088|Gloss=PUNCT
 
@@ -1500,7 +1493,7 @@
 6	mey	make	AUX	_	Mood=Opt	8	aux	_	AlignBegin=162010|AlignEnd=162097|Gloss=SBJV
 7	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	AlignBegin=162097|AlignEnd=162225|Gloss=NOM.SG.3
 8	use	use	VERB	_	_	4	advcl	_	AlignBegin=162225|AlignEnd=162470|Gloss=use
-9	make	make	VERB	_	_	8	xcomp	_	AlignBegin=162470|AlignEnd=162646|Gloss=make
+9	make	make	VERB	_	_	8	xcomp:obj	_	AlignBegin=162470|AlignEnd=162646|Gloss=make
 10	call	call	NOUN	_	_	9	obj	_	AlignBegin=162646|AlignEnd=162830|Gloss=call
 11	//	//	PUNCT	_	_	4	punct	_	AlignBegin=162830|AlignEnd=162860|Gloss=PUNCT
 
@@ -1508,8 +1501,8 @@
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/PRT_05_Ghetto-Life_MG.mp3
 # speaker_id = Sp265
 # text = # im go say [ oh hello !//= hello !//= hello !//] //
-# text_en = "He will say, ""oh, hello, hello, hello!"""
-# text_ortho = "Im go say ""oh hello, hello, hello!"""
+# text_en = He will say, "oh, hello, hello, hello!"
+# text_ortho = Im go say oh hello, hello, hello!
 1	#	#	PUNCT	_	_	4	punct	_	AlignBegin=162860|AlignEnd=163280|Gloss=PUNCT
 2	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	AlignBegin=163280|AlignEnd=163320|Gloss=NOM.SG.3
 3	go	go	AUX	_	Aspect=Prosp	4	aux	_	AlignBegin=163320|AlignEnd=163400|Gloss=PROSP
@@ -1558,19 +1551,21 @@
 # sent_id = PRT_05_Ghetto-Life_MG__82
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/PRT_05_Ghetto-Life_MG.mp3
 # speaker_id = Sp265
-# text = na im >+ be di life >+ be dat //
+# text = [ na im >+ be di life ] >+ be dat // 
 # text_en = That’s how life is.
-# text_ortho = Na im, be di life, be dat.
-1	na	na	AUX	_	PartType=Cop	0	root	_	AlignBegin=168690|AlignEnd=168810|EXTPOS=SCONJ|Gloss=be
-2	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	1	fixed	_	AlignBegin=168810|AlignEnd=168836|Gloss=NOM.SG.3
-3	>+	>+	PUNCT	_	_	6	punct	_	AlignBegin=168836|AlignEnd=168866|Gloss=PUNCT
-4	be	be	AUX	_	PartType=Cop	6	cop	_	AlignBegin=168866|AlignEnd=168960|Gloss=be
-5	di	the	DET	_	Definite=Def|PronType=Art	6	det	_	AlignBegin=168960|AlignEnd=169040|Gloss=DEF.ART
-6	life	life	NOUN	_	_	1	advcl:cleft	_	AlignBegin=169040|AlignEnd=169270|Gloss=life
-7	>+	>+	PUNCT	_	_	8	punct	_	AlignBegin=169270|AlignEnd=169300|Gloss=PUNCT
-8	be	be	VERB	_	PartType=Cop	6	advcl:cleft	_	AlignBegin=169300|AlignEnd=169380|Gloss=be
-9	dat	dat	PRON	_	Number=Sing|PronType=Dem	8	dep	_	AlignBegin=169380|AlignEnd=169613|Gloss=SG.DEM
-10	//	//	PUNCT	_	_	1	punct	_	AlignBegin=169613|AlignEnd=169643|Gloss=PUNCT
+# text_ortho = Na im be di life be dat.
+1	[	[	PUNCT	_	_	3	punct	_	AlignBegin=168690|AlignEnd=168690|Gloss=PUNCT
+2	na	na	AUX	_	PartType=Cop	3	cop	_	AlignBegin=168690|AlignEnd=168810|Gloss=na
+3	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	0	root	_	AlignBegin=168810|AlignEnd=168836|Gloss=NOM.SG.3
+4	>+	>+	PUNCT	_	_	7	punct	_	AlignBegin=168836|AlignEnd=168866|Gloss=PUNCT
+5	be	be	AUX	_	PartType=Cop	7	cop	_	AlignBegin=168866|AlignEnd=168960|Gloss=be
+6	di	di	DET	_	Definite=Def|PronType=Art	7	det	_	AlignBegin=168960|AlignEnd=169040|Gloss=DEF.ART
+7	life	life	NOUN	_	_	3	advcl:cleft	_	AlignBegin=169040|AlignEnd=169270|Gloss=life
+8	]	]	PUNCT	_	_	3	punct	_	AlignBegin=169270|AlignEnd=169270|Gloss=PUNCT
+9	>+	>+	PUNCT	_	_	10	punct	_	AlignBegin=169270|AlignEnd=169300|Gloss=PUNCT
+10	be	be	VERB	_	PartType=Cop	3	advcl:cleft	_	AlignBegin=169300|AlignEnd=169380|Gloss=be
+11	dat	dat	PRON	_	Number=Sing|PronType=Dem	10	dep:comp	_	AlignBegin=169380|AlignEnd=169613|Gloss=SG.DEM
+12	//	//	PUNCT	_	_	3	punct	_	AlignBegin=169613|AlignEnd=169643|Gloss=PUNCT
 
 # sent_id = PRT_05_Ghetto-Life_MG__83
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/PRT_05_Ghetto-Life_MG.mp3
@@ -1588,14 +1583,14 @@
 # sent_id = PRT_05_Ghetto-Life_MG__84
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/PRT_05_Ghetto-Life_MG.mp3
 # speaker_id = Sp265
-# text = # and as you mumu ( yeh where my phone ?//= where my phone ?//= where my phone ?//) < di next person wey you dey tell sey [ [eng eiss dis person took my phone eng] //] < ( na lie !//) im go tell you sey [ oya bring money !//= make I go collect am !//] //
-# text_en = "And being a moron, you shout ""hey, where's my phone? Where's my phone? Where's my phone?"" and the next person you'll say ""this person took my phone"" to is a fraud, he'll tell you, ""hurry up and bring some money, so I can go and get it!"" "
-# text_ortho = "And as you mumu ""yeh where my phone? Where my phone? Where my phone?"", di next person wey you dey tell sey ""eiss dis person took my phone"" , na lie, im go tell you sey ""oya bring money, make I go collect am!"""
-1	#	#	PUNCT	_	_	46	punct	_	AlignBegin=170780|AlignEnd=171600|Gloss=PUNCT
-2	and	and	CCONJ	_	_	46	cc	_	AlignBegin=171600|AlignEnd=171760|Gloss=and
+# text = # and as you mumu ( yeh where my phone ?//= where my phone ?//= where my phone ?//) < di next person wey you dey tell sey [ eiss dis person took my phone //] < ( na lie !//) im go tell you sey [ oya bring money !//= make I go collect am !//] //
+# text_en = And being a moron, you shout "hey, where's my phone? Where's my phone? Where's my phone?" and the next person you'll say "this person took my phone" to is a fraud, he'll tell you, "hurry up and bring some money, so I can go and get it!"
+# text_ortho = And as you mumu (yeh where my phone, where my phone, where my phone, ), di next person wey you dey tell sey eiss dis person took my phone, (na lie, ) im go tell you sey oya bring money, make I go collect am!
+1	#	#	PUNCT	_	_	44	punct	_	AlignBegin=170780|AlignEnd=171600|Gloss=PUNCT
+2	and	and	CCONJ	_	_	44	cc	_	AlignBegin=171600|AlignEnd=171760|Gloss=and
 3	as	as	ADP	_	_	5	case	_	AlignBegin=171760|AlignEnd=171930|Gloss=as
 4	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	AlignBegin=171930|AlignEnd=171990|Gloss=NOM.2
-5	mumu	mumu	ADJ	_	_	46	obl:mod	_	AlignBegin=171990|AlignEnd=172462|Gloss=idiot
+5	mumu	mumu	NOUN	_	_	44	advcl:periph	_	AlignBegin=171990|AlignEnd=172462|Gloss=idiot
 6	(	(	PUNCT	_	_	8	punct	_	AlignBegin=172462|AlignEnd=172492|Gloss=PUNCT
 7	yeh	yeh	INTJ	_	_	8	discourse	_	AlignBegin=172492|AlignEnd=172779|Gloss=yeah
 8	where	where	ADV	_	PronType=Int	5	parataxis:parenth	_	AlignBegin=172779|AlignEnd=172934|Gloss=where.Q
@@ -1611,46 +1606,44 @@
 18	phone	phone	NOUN	_	_	16	advcl:cleft	_	AlignBegin=173790|AlignEnd=173930|Gloss=phone
 19	?//)	?//)	PUNCT	_	_	8	punct	_	AlignBegin=173930|AlignEnd=173960|Gloss=PUNCT
 20	<	<	PUNCT	_	_	5	punct	_	AlignBegin=173930|AlignEnd=173960|Gloss=PUNCT
-21	di	the	DET	_	Definite=Def|PronType=Art	23	det	_	AlignBegin=173960|AlignEnd=174070|Gloss=DEF.ART
+21	di	di	DET	_	Definite=Def|PronType=Art	23	det	_	AlignBegin=173960|AlignEnd=174070|Gloss=DEF.ART
 22	next	next	ADJ	_	_	23	amod	_	AlignBegin=174070|AlignEnd=174350|Gloss=next
-23	person	person	NOUN	_	_	46	dislocated	_	AlignBegin=174350|AlignEnd=174600|Gloss=person
+23	person	person	NOUN	_	_	44	dislocated	_	AlignBegin=174350|AlignEnd=174600|Gloss=person
 24	wey	wey	SCONJ	_	_	27	mark	_	AlignBegin=174600|AlignEnd=174700|Gloss=REL
 25	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	27	nsubj	_	AlignBegin=174700|AlignEnd=174790|Gloss=NOM.2
 26	dey	dey	AUX	_	Aspect=Imp	27	aux	_	AlignBegin=174790|AlignEnd=174960|Gloss=IPFV
 27	tell	tell	VERB	_	_	23	acl:relcl	_	AlignBegin=174960|AlignEnd=175103|Gloss=tell
-28	sey	sey	SCONJ	_	_	34	mark	_	AlignBegin=175103|AlignEnd=175230|Gloss=COMP
-29	[	[	PUNCT	_	_	34	punct	_	AlignBegin=175230|AlignEnd=175260|Gloss=PUNCT
-30	[eng	[eng	PUNCT	_	_	34	punct	_	AlignBegin=175230|AlignEnd=175260|Gloss=PUNCT
-31	eiss	eiss	INTJ	_	_	34	discourse	_	AlignBegin=175260|AlignEnd=175621|Gloss=hey_there
-32	dis	dis	DET	_	Number=Sing|PronType=Dem	33	det	_	AlignBegin=175621|AlignEnd=175880|Gloss=SG.PROX.DEM
-33	person	person	NOUN	_	_	34	nsubj	_	AlignBegin=175880|AlignEnd=176188|Gloss=person
-34	took	take	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	27	ccomp	_	AlignBegin=176188|AlignEnd=176370|Gloss=take.IND.PST.FIN
-35	my	my	PRON	_	Number=Sing|Person=1|Poss=Yes	36	nmod:poss	_	AlignBegin=176370|AlignEnd=176550|Gloss=SG.1.POSS
-36	phone	phone	NOUN	_	_	34	obj	_	AlignBegin=176550|AlignEnd=176740|Gloss=phone
-37	eng]	eng]	PUNCT	_	_	34	punct	_	AlignBegin=176740|AlignEnd=176770|Gloss=PUNCT
-38	//]	//]	PUNCT	_	_	34	punct	_	AlignBegin=176740|AlignEnd=176770|Gloss=PUNCT
-39	<	<	PUNCT	_	_	23	punct	_	AlignBegin=176740|AlignEnd=176770|Gloss=PUNCT
-40	(	(	PUNCT	_	_	42	punct	_	AlignBegin=176740|AlignEnd=176770|Gloss=PUNCT
-41	na	na	AUX	_	PartType=Cop	42	cop	_	AlignBegin=176770|AlignEnd=176950|Gloss=be
-42	lie	lie	VERB	_	_	36	parataxis:parenth	_	AlignBegin=176950|AlignEnd=177190|Gloss=lie
-43	!//)	!//)	PUNCT	_	_	42	punct	_	AlignBegin=177190|AlignEnd=177220|Gloss=PUNCT
-44	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	46	nsubj	_	AlignBegin=177220|AlignEnd=177324|Gloss=NOM.SG.3
-45	go	go	AUX	_	Aspect=Prosp	46	aux	_	AlignBegin=177324|AlignEnd=177444|Gloss=PROSP
-46	tell	tell	VERB	_	_	0	root	_	AlignBegin=177444|AlignEnd=177510|Gloss=tell
-47	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	46	obj	_	AlignBegin=177510|AlignEnd=177576|Gloss=NOM.2
-48	sey	sey	SCONJ	_	_	51	mark	_	AlignBegin=177576|AlignEnd=177660|Gloss=COMP
-49	[	[	PUNCT	_	_	51	punct	_	AlignBegin=177660|AlignEnd=177690|Gloss=PUNCT
-50	oya	oya	INTJ	_	_	51	discourse	_	AlignBegin=177690|AlignEnd=177800|Gloss=come_on
-51	bring	bring	VERB	_	_	46	ccomp	_	AlignBegin=177800|AlignEnd=177999|Gloss=bring
-52	money	money	NOUN	_	_	51	obj	_	AlignBegin=177999|AlignEnd=178199|Gloss=money
-53	!//=	!//=	PUNCT	_	_	51	punct	_	AlignBegin=178199|AlignEnd=178229|Gloss=PUNCT
-54	make	make	AUX	_	Mood=Opt	56	aux	_	AlignBegin=178229|AlignEnd=178305|Gloss=SBJV
-55	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	56	nsubj	_	AlignBegin=178305|AlignEnd=178370|Gloss=NOM.SG.1
-56	go	go	VERB	_	_	51	parataxis:conj	_	AlignBegin=178370|AlignEnd=178500|Gloss=go
-57	collect	collect	VERB	_	_	56	xcomp	_	AlignBegin=178500|AlignEnd=178790|Gloss=collect
-58	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	57	obj	_	AlignBegin=178790|AlignEnd=178967|Gloss=ACC.SG.3
-59	!//]	!//]	PUNCT	_	_	51	punct	_	AlignBegin=178967|AlignEnd=178997|Gloss=PUNCT
-60	//	//	PUNCT	_	_	46	punct	_	AlignBegin=178967|AlignEnd=178997|Gloss=PUNCT
+28	sey	sey	SCONJ	_	_	33	mark	_	AlignBegin=175103|AlignEnd=175230|Gloss=COMP
+29	[	[	PUNCT	_	_	33	punct	_	AlignBegin=175230|AlignEnd=175260|Gloss=PUNCT
+30	eiss	eiss	INTJ	_	_	33	discourse	_	AlignBegin=175260|AlignEnd=175621|Gloss=hey_there|Lang=en
+31	dis	dis	DET	_	Number=Sing|PronType=Dem	32	det	_	AlignBegin=175621|AlignEnd=175880|Gloss=SG.DEM|Lang=en
+32	person	person	NOUN	_	_	33	nsubj	_	AlignBegin=175880|AlignEnd=176188|Gloss=person|Lang=en
+33	took	take	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	27	ccomp:obj	_	AlignBegin=176188|AlignEnd=176370|Gloss=take.IND.PST.FIN|Lang=en
+34	my	my	PRON	_	Number=Sing|Person=1|Poss=Yes	35	nmod:poss	_	AlignBegin=176370|AlignEnd=176550|Gloss=SG.1.POSS|Lang=en
+35	phone	phone	NOUN	_	_	33	obj	_	AlignBegin=176550|AlignEnd=176740|Gloss=phone|Lang=en
+36	//]	//]	PUNCT	_	_	33	punct	_	AlignBegin=176740|AlignEnd=176770|Gloss=PUNCT
+37	<	<	PUNCT	_	_	23	punct	_	AlignBegin=176740|AlignEnd=176770|Gloss=PUNCT
+38	(	(	PUNCT	_	_	40	punct	_	AlignBegin=176740|AlignEnd=176770|Gloss=PUNCT
+39	na	na	AUX	_	PartType=Cop	40	cop	_	AlignBegin=176770|AlignEnd=176950|Gloss=be
+40	lie	lie	VERB	_	_	35	parataxis:parenth	_	AlignBegin=176950|AlignEnd=177190|Gloss=lie
+41	!//)	!//)	PUNCT	_	_	40	punct	_	AlignBegin=177190|AlignEnd=177220|Gloss=PUNCT
+42	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	44	nsubj	_	AlignBegin=177220|AlignEnd=177324|Gloss=NOM.SG.3
+43	go	go	AUX	_	Aspect=Prosp	44	aux	_	AlignBegin=177324|AlignEnd=177444|Gloss=PROSP
+44	tell	tell	VERB	_	_	0	root	_	AlignBegin=177444|AlignEnd=177510|Gloss=tell
+45	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	44	obj	_	AlignBegin=177510|AlignEnd=177576|Gloss=NOM.2
+46	sey	sey	SCONJ	_	_	49	mark	_	AlignBegin=177576|AlignEnd=177660|Gloss=COMP
+47	[	[	PUNCT	_	_	49	punct	_	AlignBegin=177660|AlignEnd=177690|Gloss=PUNCT
+48	oya	oya	INTJ	_	_	49	discourse	_	AlignBegin=177690|AlignEnd=177800|Gloss=come_on
+49	bring	bring	VERB	_	_	44	ccomp:obj	_	AlignBegin=177800|AlignEnd=177999|Gloss=bring
+50	money	money	NOUN	_	_	49	obj	_	AlignBegin=177999|AlignEnd=178199|Gloss=money
+51	!//=	!//=	PUNCT	_	_	49	punct	_	AlignBegin=178199|AlignEnd=178229|Gloss=PUNCT
+52	make	make	AUX	_	Mood=Opt	54	aux	_	AlignBegin=178229|AlignEnd=178305|Gloss=SBJV
+53	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	54	nsubj	_	AlignBegin=178305|AlignEnd=178370|Gloss=NOM.SG.1
+54	go	go	VERB	_	_	49	parataxis:conj	_	AlignBegin=178370|AlignEnd=178500|Gloss=go
+55	collect	collect	VERB	_	_	54	xcomp:obj	_	AlignBegin=178500|AlignEnd=178790|Gloss=collect
+56	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	55	obj	_	AlignBegin=178790|AlignEnd=178967|Gloss=ACC.SG.3
+57	!//]	!//]	PUNCT	_	_	49	punct	_	AlignBegin=178967|AlignEnd=178997|Gloss=PUNCT
+58	//	//	PUNCT	_	_	44	punct	_	AlignBegin=178967|AlignEnd=178997|Gloss=PUNCT
 
 # sent_id = PRT_05_Ghetto-Life_MG__85
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/PRT_05_Ghetto-Life_MG.mp3
@@ -1677,7 +1670,7 @@
 7	<	<	PUNCT	_	_	2	punct	_	AlignBegin=181190|AlignEnd=181220|Gloss=PUNCT
 8	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	9	nsubj	_	AlignBegin=181220|AlignEnd=181340|Gloss=NOM.2
 9	wan	want	VERB	_	_	0	root	_	AlignBegin=181340|AlignEnd=181510|Gloss=want
-10	collect	collect	VERB	_	_	9	xcomp	_	AlignBegin=181510|AlignEnd=181730|Gloss=collect
+10	collect	collect	VERB	_	_	9	xcomp:obj	_	AlignBegin=181510|AlignEnd=181730|Gloss=collect
 11	your	your	PRON	_	Number=Plur|Person=2|Poss=Yes	12	nmod:poss	_	AlignBegin=181730|AlignEnd=181860|Gloss=PL.2.POSS
 12	phone	phone	NOUN	_	_	10	obj	_	AlignBegin=181860|AlignEnd=182080|Gloss=phone
 13	now	now	ADV	_	_	10	advmod	_	AlignBegin=182080|AlignEnd=182190|Gloss=now
@@ -1703,16 +1696,16 @@
 6	money	money	NOUN	_	_	4	obj	_	AlignBegin=183790|AlignEnd=184070|Gloss=money
 7	too	too	ADV	_	_	4	advmod	_	AlignBegin=184070|AlignEnd=184211|Gloss=too
 8	<	<	PUNCT	_	_	4	punct	_	AlignBegin=184211|AlignEnd=184241|Gloss=PUNCT
-9	di	the	DET	_	Definite=Def|PronType=Art	10	det	_	AlignBegin=184241|AlignEnd=184350|Gloss=DEF.ART
+9	di	di	DET	_	Definite=Def|PronType=Art	10	det	_	AlignBegin=184241|AlignEnd=184350|Gloss=DEF.ART
 10	money	money	NOUN	_	_	0	root	_	AlignBegin=184350|AlignEnd=184510|Gloss=money
-11	&//	//	PUNCT	_	_	10	punct	_	AlignBegin=184510|AlignEnd=184540|Gloss=PUNCT
+11	&//	&//	PUNCT	_	_	10	punct	_	AlignBegin=184510|AlignEnd=184540|Gloss=PUNCT
 
 # sent_id = PRT_05_Ghetto-Life_MG__88
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/PRT_05_Ghetto-Life_MG.mp3
 # speaker_id = Sp265
 # text = im go tell you sey [ oya wait !//= meh I go call am !//] //
-# text_en = "He will tell you, ""now, let me go and call him!"""
-# text_ortho = "Im go tell you sey ""oya wait, meh I go call am!"""
+# text_en = He will tell you, "now, let me go and call him!"
+# text_ortho = Im go tell you sey oya wait, meh I go call am!
 1	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	AlignBegin=184540|AlignEnd=184590|Gloss=NOM.SG.3
 2	go	go	AUX	_	Aspect=Prosp	3	aux	_	AlignBegin=184590|AlignEnd=184720|Gloss=PROSP
 3	tell	tell	VERB	_	_	0	root	_	AlignBegin=184720|AlignEnd=184780|Gloss=tell
@@ -1720,12 +1713,12 @@
 5	sey	sey	SCONJ	_	_	8	mark	_	AlignBegin=184850|AlignEnd=184930|Gloss=COMP
 6	[	[	PUNCT	_	_	8	punct	_	AlignBegin=184930|AlignEnd=184960|Gloss=PUNCT
 7	oya	oya	INTJ	_	_	8	discourse	_	AlignBegin=184960|AlignEnd=185080|Gloss=come_on
-8	wait	wait	VERB	_	_	3	ccomp	_	AlignBegin=185080|AlignEnd=185280|Gloss=wait
+8	wait	wait	VERB	_	_	3	ccomp:obj	_	AlignBegin=185080|AlignEnd=185280|Gloss=wait
 9	!//=	!//=	PUNCT	_	_	12	punct	_	AlignBegin=185280|AlignEnd=185310|Gloss=PUNCT
 10	meh	make	AUX	_	Mood=Opt	12	aux	_	AlignBegin=185310|AlignEnd=185370|Gloss=SBJV
 11	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	AlignBegin=185370|AlignEnd=185500|Gloss=NOM.SG.1
 12	go	go	VERB	_	_	8	parataxis:conj	_	AlignBegin=185500|AlignEnd=185624|Gloss=go
-13	call	call	VERB	_	_	12	xcomp	_	AlignBegin=185624|AlignEnd=185790|Gloss=call
+13	call	call	VERB	_	_	12	xcomp:obj	_	AlignBegin=185624|AlignEnd=185790|Gloss=call
 14	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	13	obj	_	AlignBegin=185790|AlignEnd=185970|Gloss=ACC.SG.3
 15	!//]	!//]	PUNCT	_	_	8	punct	_	AlignBegin=185970|AlignEnd=186000|Gloss=PUNCT
 16	//	//	PUNCT	_	_	3	punct	_	AlignBegin=185970|AlignEnd=186000|Gloss=PUNCT
@@ -1735,15 +1728,15 @@
 # speaker_id = Sp265
 # text = # dat one don go >+ be dat //
 # text_en = He disappears too.
-# text_ortho = Dat one don go, be dat.
+# text_ortho = Dat one don go be dat.
 1	#	#	PUNCT	_	_	5	punct	_	AlignBegin=186000|AlignEnd=186240|Gloss=PUNCT
-2	dat	dat	DET	_	Number=Sing|PronType=Dem	3	det	_	AlignBegin=186240|AlignEnd=186414|Gloss=SG.DIST.DEM
+2	dat	dat	DET	_	Number=Sing|PronType=Dem	3	det	_	AlignBegin=186240|AlignEnd=186414|Gloss=SG.DEM
 3	one	one	NOUN	_	_	5	nsubj	_	AlignBegin=186414|AlignEnd=186590|Gloss=one
 4	don	don	AUX	_	Aspect=Perf	5	aux	_	AlignBegin=186590|AlignEnd=186770|Gloss=PRF
 5	go	go	VERB	_	_	0	root	_	AlignBegin=186770|AlignEnd=186913|Gloss=go
 6	>+	>+	PUNCT	_	_	7	punct	_	AlignBegin=186913|AlignEnd=186943|Gloss=PUNCT
 7	be	be	VERB	_	PartType=Cop	5	advcl:cleft	_	AlignBegin=186943|AlignEnd=187070|Gloss=be
-8	dat	dat	PRON	_	Number=Sing|PronType=Dem	7	dep	_	AlignBegin=187070|AlignEnd=187240|Gloss=SG.DEM
+8	dat	dat	PRON	_	Number=Sing|PronType=Dem	7	dep:comp	_	AlignBegin=187070|AlignEnd=187240|Gloss=SG.DEM
 9	//	//	PUNCT	_	_	5	punct	_	AlignBegin=187240|AlignEnd=187270|Gloss=PUNCT
 
 # sent_id = PRT_05_Ghetto-Life_MG__90
@@ -1751,17 +1744,17 @@
 # speaker_id = Sp265
 # text = na im >+ be di ghetto life for you //
 # text_en = That's life in the ghetto.
-# text_ortho = Na im, be di ghetto life for you.
-1	na	na	AUX	_	PartType=Cop	0	root	_	AlignBegin=187270|AlignEnd=187380|EXTPOS=SCONJ|Gloss=be
-2	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	1	fixed	_	AlignBegin=187380|AlignEnd=187400|Gloss=NOM.SG.3
+# text_ortho = Na im be di ghetto life for you.
+1	na	na	AUX	_	PartType=Cop	2	cop	_	AlignBegin=187270|AlignEnd=187380|EXTPOS=SCONJ|Gloss=be
+2	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	0	root	_	AlignBegin=187380|AlignEnd=187400|Gloss=NOM.SG.3
 3	>+	>+	PUNCT	_	_	7	punct	_	AlignBegin=187400|AlignEnd=187430|Gloss=PUNCT
 4	be	be	AUX	_	PartType=Cop	7	cop	_	AlignBegin=187430|AlignEnd=187530|Gloss=be
-5	di	the	DET	_	Definite=Def|PronType=Art	7	det	_	AlignBegin=187530|AlignEnd=187640|Gloss=DEF.ART
+5	di	di	DET	_	Definite=Def|PronType=Art	7	det	_	AlignBegin=187530|AlignEnd=187640|Gloss=DEF.ART
 6	ghetto	ghetto	NOUN	_	_	7	compound	_	AlignBegin=187640|AlignEnd=187950|Gloss=ghetto
-7	life	life	NOUN	_	_	1	advcl:cleft	_	AlignBegin=187950|AlignEnd=188134|Gloss=life
+7	life	life	NOUN	_	_	2	advcl:cleft	_	AlignBegin=187950|AlignEnd=188134|Gloss=life
 8	for	for	ADP	_	_	9	case	_	AlignBegin=188134|AlignEnd=188300|Gloss=for
-9	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	7	obl:arg	_	AlignBegin=188300|AlignEnd=188510|Gloss=NOM.2
-10	//	//	PUNCT	_	_	1	punct	_	AlignBegin=188510|AlignEnd=188540|Gloss=PUNCT
+9	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	7	iobj	_	AlignBegin=188300|AlignEnd=188510|Gloss=NOM.2
+10	//	//	PUNCT	_	_	2	punct	_	AlignBegin=188510|AlignEnd=188540|Gloss=PUNCT
 
 # sent_id = PRT_05_Ghetto-Life_MG__91
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/PRT_05_Ghetto-Life_MG.mp3
@@ -1781,9 +1774,9 @@
 # sent_id = PRT_05_Ghetto-Life_MG__92
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/PRT_05_Ghetto-Life_MG.mp3
 # speaker_id = Sp265
-# text = # me < I stubborn { well | well } o //
+# text = # me < I stubborn { well |r well } o //
 # text_en = Myself, I'm really stubborn.
-# text_ortho = Me, I stubborn well well o.
+# text_ortho = Me, I stubborn well, well o.
 1	#	#	PUNCT	_	_	5	punct	_	AlignBegin=192986|AlignEnd=194340|Gloss=PUNCT
 2	me	me	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	dislocated	_	AlignBegin=194340|AlignEnd=194390|Gloss=NOM.SG.1
 3	<	<	PUNCT	_	_	2	punct	_	AlignBegin=194390|AlignEnd=194420|Gloss=PUNCT
@@ -1791,7 +1784,7 @@
 5	stubborn	stubborn	ADJ	_	_	0	root	_	AlignBegin=194580|AlignEnd=194950|Gloss=stubborn
 6	{	{	PUNCT	_	_	7	punct	_	AlignBegin=194950|AlignEnd=194980|Gloss=PUNCT
 7	well	well	ADV	_	_	5	advmod	_	AlignBegin=194980|AlignEnd=195160|Gloss=well
-8	|	|	PUNCT	_	_	9	punct	_	AlignBegin=195160|AlignEnd=195190|Gloss=PUNCT
+8	|r	|r	PUNCT	_	_	9	punct	_	AlignBegin=195160|AlignEnd=195190|Gloss=PUNCT
 9	well	well	ADV	_	_	7	compound:redup	_	AlignBegin=195190|AlignEnd=195420|Gloss=well
 10	}	}	PUNCT	_	_	7	punct	_	AlignBegin=195420|AlignEnd=195450|Gloss=PUNCT
 11	o	o	PART	_	PartType=Disc	9	advmod:emph	_	AlignBegin=195450|AlignEnd=195710|Gloss=EMPH
@@ -1817,7 +1810,7 @@
 # speaker_id = Sp265
 # text = # and me < # na private school wen > I go but &//
 # text_en = And me, I went to a private school, but...
-# text_ortho = And me, na private school wen, I go but...
+# text_ortho = And me, na private school wen I go but...
 1	#	#	PUNCT	_	_	8	punct	_	AlignBegin=197880|AlignEnd=198360|Gloss=PUNCT
 2	and	and	CCONJ	_	_	8	cc	_	AlignBegin=198360|AlignEnd=198560|Gloss=and
 3	me	me	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	dislocated	_	AlignBegin=198560|AlignEnd=198986|Gloss=NOM.SG.1
@@ -1831,17 +1824,17 @@
 11	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	AlignBegin=200436|AlignEnd=200660|Gloss=NOM.SG.1
 12	go	go	VERB	_	_	8	acl:relcl	_	AlignBegin=200660|AlignEnd=200823|Gloss=go
 13	but	but	CCONJ	_	_	8	conj	_	AlignBegin=200823|AlignEnd=201130|Gloss=but
-14	&//	//	PUNCT	_	_	8	punct	_	AlignBegin=201130|AlignEnd=201160|Gloss=PUNCT
+14	&//	&//	PUNCT	_	_	8	punct	_	AlignBegin=201130|AlignEnd=201160|Gloss=PUNCT
 
 # sent_id = PRT_05_Ghetto-Life_MG__95
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/PRT_05_Ghetto-Life_MG.mp3
 # speaker_id = Sp265
 # text = # for dat time now wey we dey waka for di street for Lagos < if we dey come back < # we dey speak grammar //
-# text_en = While we were walking through the streets of Lagos, when we're coming back and speaking English…
-# text_ortho = For dat time now wey we dey waka for di street for Lagos, if we dey come back, we dey speak grammar…
+# text_en = While we were walking through the streets of Lagos, when we're coming back and speaking English...
+# text_ortho = For dat time now wey we dey waka for di street for Lagos, if we dey come back, we dey speak grammar.
 1	#	#	PUNCT	_	_	25	punct	_	AlignBegin=201160|AlignEnd=202020|Gloss=PUNCT
 2	for	for	ADP	_	_	4	case	_	AlignBegin=202020|AlignEnd=202100|Gloss=for
-3	dat	dat	DET	_	Number=Sing|PronType=Dem	4	det	_	AlignBegin=202100|AlignEnd=202280|Gloss=SG.DIST.DEM
+3	dat	dat	DET	_	Number=Sing|PronType=Dem	4	det	_	AlignBegin=202100|AlignEnd=202280|Gloss=SG.DEM
 4	time	time	NOUN	_	_	25	obl:mod	_	AlignBegin=202280|AlignEnd=202478|Gloss=time
 5	now	now	ADV	_	_	4	advmod:emph	_	AlignBegin=202478|AlignEnd=202632|Gloss=now
 6	wey	wey	SCONJ	_	_	9	mark	_	AlignBegin=202632|AlignEnd=202741|Gloss=REL
@@ -1849,7 +1842,7 @@
 8	dey	dey	AUX	_	Aspect=Imp	9	aux	_	AlignBegin=202830|AlignEnd=202949|Gloss=IPFV
 9	waka	waka	VERB	_	_	4	acl:relcl	_	AlignBegin=202949|AlignEnd=203210|Gloss=walk
 10	for	for	ADP	_	_	12	case	_	AlignBegin=203210|AlignEnd=203350|Gloss=for
-11	di	the	DET	_	Definite=Def|PronType=Art	12	det	_	AlignBegin=203350|AlignEnd=203540|Gloss=DEF.ART
+11	di	di	DET	_	Definite=Def|PronType=Art	12	det	_	AlignBegin=203350|AlignEnd=203540|Gloss=DEF.ART
 12	street	street	NOUN	_	_	9	obl:arg	_	AlignBegin=203540|AlignEnd=203780|Gloss=street
 13	for	for	ADP	_	_	14	case	_	AlignBegin=203780|AlignEnd=203916|Gloss=for
 14	Lagos	Lagos	PROPN	_	_	12	nmod	_	AlignBegin=203916|AlignEnd=204464|Gloss=Lagos
@@ -1875,7 +1868,7 @@
 # text_ortho = But when you look mechanic village, you go see men wey dey smoke igbo.
 1	#	#	PUNCT	_	_	12	punct	_	AlignBegin=206973|AlignEnd=207660|Gloss=PUNCT
 2	but	but	CCONJ	_	_	12	cc	_	AlignBegin=207660|AlignEnd=207800|Gloss=but
-3	when	when	SCONJ	_	_	5	mark	_	AlignBegin=207800|AlignEnd=207998|Gloss=when.Q
+3	when	when	SCONJ	_	PronType=Int	5	mark	_	AlignBegin=207800|AlignEnd=207998|Gloss=when.Q
 4	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	AlignBegin=207998|AlignEnd=208154|Gloss=NOM.2
 5	look	look	VERB	_	_	12	advcl:periph	_	AlignBegin=208154|AlignEnd=208360|Gloss=look
 6	#	#	PUNCT	_	_	8	punct	_	AlignBegin=208360|AlignEnd=208600|Gloss=PUNCT
@@ -1907,7 +1900,7 @@
 7	#	#	PUNCT	_	_	9	punct	_	AlignBegin=212971|AlignEnd=213225|Gloss=PUNCT
 8	dey	dey	AUX	_	Aspect=Imp	9	aux	_	AlignBegin=213225|AlignEnd=213344|Gloss=IPFV
 9	drink	drink	VERB	_	_	4	conj	_	AlignBegin=213344|AlignEnd=213600|Gloss=drink
-10	deir	deir	PRON	_	Number=Plur|Person=3|Poss=Yes	11	nmod:poss	_	AlignBegin=213600|AlignEnd=213780|Gloss=3.PL.POSS
+10	deir	dem	PRON	_	Number=Plur|Person=3|Poss=Yes	11	nmod:poss	_	AlignBegin=213600|AlignEnd=213780|Gloss=PL.3.POSS
 11	shekpe	shekpe	NOUN	_	_	9	obj	_	AlignBegin=213780|AlignEnd=214199|Gloss=liquor
 12	//	//	PUNCT	_	_	4	punct	_	AlignBegin=214199|AlignEnd=214229|Gloss=PUNCT
 
@@ -1934,7 +1927,7 @@
 4	<	<	PUNCT	_	_	2	punct	_	AlignBegin=216479|AlignEnd=216509|Gloss=PUNCT
 5	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	AlignBegin=216509|AlignEnd=216652|Gloss=NOM.PL.1
 6	wan	want	VERB	_	_	0	root	_	AlignBegin=216652|AlignEnd=216810|Gloss=want
-7	feel	feel	VERB	_	_	6	xcomp	_	AlignBegin=216810|AlignEnd=217050|Gloss=feel
+7	feel	feel	VERB	_	_	6	xcomp:obj	_	AlignBegin=216810|AlignEnd=217050|Gloss=feel
 8	among	among	ADP	_	_	7	compound:prt	_	AlignBegin=217050|AlignEnd=217546|Gloss=among
 9	//	//	PUNCT	_	_	6	punct	_	AlignBegin=217546|AlignEnd=217576|Gloss=PUNCT
 
@@ -1973,7 +1966,7 @@
 # text = when we dey form now < de dey call us ajebo //
 # text_en = When we're pretending, they're calling us spoiled brats.
 # text_ortho = When we dey form now, de dey call us ajebo.
-1	when	when	SCONJ	_	_	4	mark	_	AlignBegin=220432|AlignEnd=220576|Gloss=when.Q
+1	when	when	SCONJ	_	PronType=Int	4	mark	_	AlignBegin=220432|AlignEnd=220576|Gloss=when.Q
 2	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	AlignBegin=220576|AlignEnd=220697|Gloss=NOM.PL.1
 3	dey	dey	AUX	_	Aspect=Imp	4	aux	_	AlignBegin=220697|AlignEnd=220817|Gloss=IPFV
 4	form	form	VERB	_	_	9	advcl:periph	_	AlignBegin=220817|AlignEnd=221033|Gloss=form
@@ -1994,7 +1987,7 @@
 # text_ortho = And dat ting dey pain us.
 1	#	#	PUNCT	_	_	6	punct	_	AlignBegin=222306|AlignEnd=222900|Gloss=PUNCT
 2	and	and	CCONJ	_	_	6	cc	_	AlignBegin=222900|AlignEnd=223000|Gloss=and
-3	dat	dat	DET	_	Number=Sing|PronType=Dem	4	det	_	AlignBegin=223000|AlignEnd=223140|Gloss=SG.DIST.DEM
+3	dat	dat	DET	_	Number=Sing|PronType=Dem	4	det	_	AlignBegin=223000|AlignEnd=223140|Gloss=SG.DEM
 4	ting	ting	NOUN	_	_	6	nsubj	_	AlignBegin=223140|AlignEnd=223280|Gloss=thing
 5	dey	dey	AUX	_	Aspect=Imp	6	aux	_	AlignBegin=223280|AlignEnd=223450|Gloss=IPFV
 6	pain	pain	VERB	_	_	0	root	_	AlignBegin=223450|AlignEnd=223630|Gloss=pain
@@ -2029,14 +2022,14 @@
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/PRT_05_Ghetto-Life_MG.mp3
 # speaker_id = Sp265
 # text = # sometimes when we wan play ball with dem < de go tell you sey [ shh come on !//= comot here !//] //
-# text_en = "Sometimes when we want to play ball with them, they will tell you ""shh, come on, get out of here!"""
-# text_ortho = "Sometimes when we wan play ball with dem, de go tell you sey ""shh come on, comot here!"""
+# text_en = Sometimes when we want to play ball with them, they will tell you "shh, come on, get out of here!"
+# text_ortho = Sometimes when we wan play ball with dem, de go tell you sey shh come on, comot here!
 1	#	#	PUNCT	_	_	13	punct	_	AlignBegin=226808|AlignEnd=227355|Gloss=PUNCT
 2	sometimes	sometimes	ADV	_	_	13	advmod:periph	_	AlignBegin=227355|AlignEnd=227700|Gloss=sometimes
-3	when	when	SCONJ	_	_	5	mark	_	AlignBegin=227700|AlignEnd=227824|Gloss=when.Q
+3	when	when	SCONJ	_	PronType=Int	5	mark	_	AlignBegin=227700|AlignEnd=227824|Gloss=when.Q
 4	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	AlignBegin=227824|AlignEnd=227910|Gloss=NOM.PL.1
 5	wan	want	VERB	_	_	13	advcl:periph	_	AlignBegin=227910|AlignEnd=228030|Gloss=want
-6	play	play	VERB	_	_	5	xcomp	_	AlignBegin=228030|AlignEnd=228273|Gloss=play
+6	play	play	VERB	_	_	5	xcomp:obj	_	AlignBegin=228030|AlignEnd=228273|Gloss=play
 7	ball	ball	NOUN	_	_	6	obj	_	AlignBegin=228273|AlignEnd=228430|Gloss=ball
 8	with	wit	ADP	_	_	9	case	_	AlignBegin=228430|AlignEnd=228560|Gloss=with
 9	dem	dem	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	6	obl:arg	_	AlignBegin=228560|AlignEnd=228670|Gloss=ACC.PL.3
@@ -2048,7 +2041,7 @@
 15	sey	sey	SCONJ	_	_	18	mark	_	AlignBegin=229176|AlignEnd=229308|Gloss=COMP
 16	[	[	PUNCT	_	_	18	punct	_	AlignBegin=229308|AlignEnd=229338|Gloss=PUNCT
 17	shh	shh	INTJ	_	_	18	discourse	_	AlignBegin=229338|AlignEnd=229519|Gloss=shh
-18	come	come	VERB	_	_	13	ccomp	_	AlignBegin=229519|AlignEnd=229696|Gloss=come
+18	come	come	VERB	_	_	13	ccomp:obj	_	AlignBegin=229519|AlignEnd=229696|Gloss=come
 19	on	on	ADP	_	_	18	compound:prt	_	AlignBegin=229696|AlignEnd=229773|Gloss=on
 20	!//=	!//=	PUNCT	_	_	21	punct	_	AlignBegin=229773|AlignEnd=229803|Gloss=PUNCT
 21	comot	comot	VERB	_	_	18	parataxis:conj	_	AlignBegin=229803|AlignEnd=230024|Gloss=get_out
@@ -2073,7 +2066,7 @@
 # speaker_id = Sp265
 # text = mtschew !//
 # text_en = Mstchew!
-# text_ortho = Mstchew!
+# text_ortho = Mtschew!
 1	mtschew	mtschew	INTJ	_	_	0	root	_	AlignBegin=231260|AlignEnd=231450|Gloss=sucking_of_teeth
 2	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=231450|AlignEnd=231480|Gloss=PUNCT
 
@@ -2085,7 +2078,7 @@
 # text_ortho = So di ting come dey pain me.
 1	#	#	PUNCT	_	_	7	punct	_	AlignBegin=231480|AlignEnd=231680|Gloss=PUNCT
 2	so	so	ADV	_	_	7	discourse	_	AlignBegin=231680|AlignEnd=231780|Gloss=so
-3	di	the	DET	_	Definite=Def|PronType=Art	4	det	_	AlignBegin=231780|AlignEnd=231910|Gloss=DEF.ART
+3	di	di	DET	_	Definite=Def|PronType=Art	4	det	_	AlignBegin=231780|AlignEnd=231910|Gloss=DEF.ART
 4	ting	ting	NOUN	_	_	7	nsubj	_	AlignBegin=231910|AlignEnd=232060|Gloss=thing
 5	come	con	AUX	_	Aspect=Cons	7	aux	_	AlignBegin=232060|AlignEnd=232210|Gloss=CONS
 6	dey	dey	AUX	_	Aspect=Imp	7	aux	_	AlignBegin=232210|AlignEnd=232404|Gloss=IPFV
@@ -2103,7 +2096,7 @@
 2	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	AlignBegin=233279|AlignEnd=233340|Gloss=NOM.SG.1
 3	say	say	VERB	_	_	0	root	_	AlignBegin=233340|AlignEnd=233510|Gloss=say
 4	[	[	PUNCT	_	_	11	punct	_	AlignBegin=233510|AlignEnd=233720|Gloss=PUNCT
-5	dis	dis	DET	_	Number=Sing|PronType=Dem	6	det	_	AlignBegin=233510|AlignEnd=233720|Gloss=SG.PROX.DEM
+5	dis	dis	DET	_	Number=Sing|PronType=Dem	6	det	_	AlignBegin=233510|AlignEnd=233720|Gloss=SG.DEM
 6	life	life	NOUN	_	_	11	dislocated	_	AlignBegin=233720|AlignEnd=233930|Gloss=life
 7	<	<	PUNCT	_	_	6	punct	_	AlignBegin=233930|AlignEnd=233960|Gloss=PUNCT
 8	me	me	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	dislocated	_	AlignBegin=233960|AlignEnd=234070|Gloss=NOM.SG.1
@@ -2120,14 +2113,14 @@
 # speaker_id = Sp265
 # text = # so from dere < # when we come back < # as we come back now < mtschew I go drop book //
 # text_en = So from there, when we come back, just as we have come back now, mstchew, I will drop my books.
-# text_ortho = So from dere, when we come back, as we come back now, mstchew I go drop book.
+# text_ortho = So from dere, when we come back, as we come back now, mtschew I go drop book.
 1	#	#	PUNCT	_	_	22	punct	_	AlignBegin=235033|AlignEnd=235871|Gloss=PUNCT
 2	so	so	ADV	_	_	22	discourse	_	AlignBegin=235871|AlignEnd=236030|Gloss=so
 3	from	from	ADP	_	_	4	case	_	AlignBegin=236030|AlignEnd=236320|Gloss=from
-4	dere	dere	ADV	_	_	22	advmod:periph	_	AlignBegin=236320|AlignEnd=236641|Gloss=there
+4	dere	dere	ADV	_	_	22	obl:mod	_	AlignBegin=236320|AlignEnd=236641|Gloss=there
 5	<	<	PUNCT	_	_	4	punct	_	AlignBegin=236641|AlignEnd=236671|Gloss=PUNCT
 6	#	#	PUNCT	_	_	4	punct	_	AlignBegin=236671|AlignEnd=236942|Gloss=PUNCT
-7	when	when	SCONJ	_	_	9	mark	_	AlignBegin=236942|AlignEnd=237088|Gloss=when.Q
+7	when	when	SCONJ	_	PronType=Int	9	mark	_	AlignBegin=236942|AlignEnd=237088|Gloss=when.Q
 8	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	AlignBegin=237088|AlignEnd=237302|Gloss=NOM.PL.1
 9	come	come	VERB	_	_	22	advcl:periph	_	AlignBegin=237302|AlignEnd=237528|Gloss=come
 10	back	back	ADV	_	_	9	advmod	_	AlignBegin=237528|AlignEnd=237850|Gloss=back
@@ -2150,14 +2143,14 @@
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/PRT_05_Ghetto-Life_MG.mp3
 # speaker_id = Sp265
 # text = # I go follow { my || one small boy } //
-# text_en = I will go with my… one small boy.
-# text_ortho = I go follow my... one small boy.
+# text_en = I will go with my... one small boy.
+# text_ortho = I go follow my, one small boy.
 1	#	#	PUNCT	_	_	4	punct	_	AlignBegin=240954|AlignEnd=241480|Gloss=PUNCT
 2	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	AlignBegin=241480|AlignEnd=241550|Gloss=NOM.SG.1
 3	go	go	AUX	_	Aspect=Prosp	4	aux	_	AlignBegin=241550|AlignEnd=241670|Gloss=PROSP
 4	follow	follow	VERB	_	_	0	root	_	AlignBegin=241670|AlignEnd=241950|Gloss=follow
 5	{	{	PUNCT	_	_	6	punct	_	AlignBegin=241950|AlignEnd=241980|Gloss=PUNCT
-6	my	my	ADJ	_	Number=Sing|Person=1|Poss=Yes	4	obj	_	AlignBegin=241980|AlignEnd=242300|Gloss=SG.1.POSS
+6	my	my	PRON	_	Number=Sing|Person=1|Poss=Yes	4	obj	_	AlignBegin=241980|AlignEnd=242300|Gloss=SG.1.POSS
 7	||	||	PUNCT	_	_	10	punct	_	AlignBegin=242300|AlignEnd=242330|Gloss=PUNCT
 8	one	one	DET	_	Definite=Spec|PronType=Art	10	det	_	AlignBegin=242330|AlignEnd=242490|Gloss=SPEC.ART
 9	small	small	ADJ	_	_	10	amod	_	AlignBegin=242490|AlignEnd=242810|Gloss=small
@@ -2171,11 +2164,11 @@
 # text = di gateman wey dey dere < im son //
 # text_en = The son of the gateman who works there.
 # text_ortho = Di gateman wey dey dere, im son.
-1	di	the	DET	_	Definite=Def|PronType=Art	2	det	_	AlignBegin=242980|AlignEnd=243060|Gloss=DEF.ART
+1	di	di	DET	_	Definite=Def|PronType=Art	2	det	_	AlignBegin=242980|AlignEnd=243060|Gloss=DEF.ART
 2	gateman	gateman	NOUN	_	_	8	dislocated	_	AlignBegin=243060|AlignEnd=243520|Gloss=gatekeeeper
 3	wey	wey	SCONJ	_	_	4	mark	_	AlignBegin=243520|AlignEnd=243630|Gloss=REL
 4	dey	dey	VERB	_	VerbType=Cop	2	acl:relcl	_	AlignBegin=243630|AlignEnd=243782|Gloss=be
-5	dere	dere	ADV	_	_	4	xcomp	_	AlignBegin=243782|AlignEnd=243910|Gloss=there
+5	dere	dere	ADV	_	_	4	xcomp:pred	_	AlignBegin=243782|AlignEnd=243910|Gloss=there
 6	<	<	PUNCT	_	_	2	punct	_	AlignBegin=243910|AlignEnd=243940|Gloss=PUNCT
 7	im	im	PRON	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	AlignBegin=243940|AlignEnd=244118|Gloss=3.SG.POSS
 8	son	son	NOUN	_	_	0	root	_	AlignBegin=244118|AlignEnd=244650|Gloss=son
@@ -2198,8 +2191,8 @@
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/PRT_05_Ghetto-Life_MG.mp3
 # speaker_id = Sp265
 # text = # as we go dere < # im go say [ dis one na my friend o //] //
-# text_en = "When we get there, he would say, ""this is my friend""."
-# text_ortho = "As we go dere, im go say ""dis one na my friend o."""
+# text_en = When we get there, he would say, "this is my friend."
+# text_ortho = As we go dere, im go say dis one na my friend o.
 1	#	#	PUNCT	_	_	10	punct	_	AlignBegin=245740|AlignEnd=246020|Gloss=PUNCT
 2	as	as	ADP	_	_	4	mark	_	AlignBegin=246020|AlignEnd=246160|Gloss=as
 3	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	AlignBegin=246160|AlignEnd=246282|Gloss=NOM.PL.1
@@ -2211,7 +2204,7 @@
 9	go	go	AUX	_	Aspect=Prosp	10	aux	_	AlignBegin=247065|AlignEnd=247178|Gloss=PROSP
 10	say	say	VERB	_	_	0	root	_	AlignBegin=247178|AlignEnd=247318|Gloss=say
 11	[	[	PUNCT	_	_	16	punct	_	AlignBegin=247318|AlignEnd=247348|Gloss=PUNCT
-12	dis	dis	DET	_	Number=Sing|PronType=Dem	13	det	_	AlignBegin=247348|AlignEnd=247548|Gloss=SG.PROX.DEM
+12	dis	dis	DET	_	Number=Sing|PronType=Dem	13	det	_	AlignBegin=247348|AlignEnd=247548|Gloss=SG.DEM
 13	one	one	NOUN	_	_	16	dislocated	_	AlignBegin=247548|AlignEnd=247661|Gloss=one
 14	na	na	AUX	_	PartType=Cop	16	cop	_	AlignBegin=247661|AlignEnd=247785|Gloss=be
 15	my	my	PRON	_	Number=Sing|Person=1|Poss=Yes	16	nmod:poss	_	AlignBegin=247785|AlignEnd=247908|Gloss=SG.1.POSS
@@ -2224,8 +2217,8 @@
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/PRT_05_Ghetto-Life_MG.mp3
 # speaker_id = Sp265
 # text = # as im say [ na my friend //] < dey go say [ wetin be your name ?//] //
-# text_en = "As soon as he says, ""he's my friend"", they will say, ""what is your name?"""
-# text_ortho = "As im say ""na my friend"", dey go say ""wetin be your name?"""
+# text_en = As soon as he says, "he's my friend", they will say, "what is your name?"
+# text_ortho = As im say na my friend, dey go say wetin be your name?
 1	#	#	PUNCT	_	_	13	punct	_	AlignBegin=248514|AlignEnd=248714|Gloss=PUNCT
 2	as	as	ADP	_	_	4	mark	_	AlignBegin=248714|AlignEnd=248864|Gloss=as
 3	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	AlignBegin=248864|AlignEnd=248937|Gloss=NOM.SG.3
@@ -2262,7 +2255,7 @@
 7	my	my	PRON	_	Number=Sing|Person=1|Poss=Yes	8	nmod:poss	_	AlignBegin=251214|AlignEnd=251364|Gloss=SG.1.POSS
 8	name	name	NOUN	_	_	10	nsubj	_	AlignBegin=251364|AlignEnd=251564|Gloss=name
 9	na	na	AUX	_	PartType=Cop	10	cop	_	AlignBegin=251564|AlignEnd=251726|Gloss=be
-10	Uche	Uche	PROPN	_	_	3	ccomp	_	AlignBegin=251726|AlignEnd=251980|Gloss=Uche
+10	Uche	Uche	PROPN	_	_	3	ccomp:obj	_	AlignBegin=251726|AlignEnd=251980|Gloss=Uche
 11	//]	//]	PUNCT	_	_	3	punct	_	AlignBegin=251980|AlignEnd=252010|Gloss=PUNCT
 12	//	//	PUNCT	_	_	3	punct	_	AlignBegin=251980|AlignEnd=252010|Gloss=PUNCT
 
@@ -2290,7 +2283,7 @@
 2	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	AlignBegin=253040|AlignEnd=253150|Gloss=NOM.PL.1
 3	go	go	AUX	_	Aspect=Prosp	4	aux	_	AlignBegin=253150|AlignEnd=253210|Gloss=PROSP
 4	dey	dey	VERB	_	VerbType=Cop	0	root	_	AlignBegin=253210|AlignEnd=253369|Gloss=be
-5	dere	dere	ADV	_	_	4	xcomp	_	AlignBegin=253369|AlignEnd=253482|Gloss=there
+5	dere	dere	ADV	_	_	4	xcomp:pred	_	AlignBegin=253369|AlignEnd=253482|Gloss=there
 6	//=	//=	PUNCT	_	_	9	punct	_	AlignBegin=253482|AlignEnd=253512|Gloss=PUNCT
 7	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	AlignBegin=253512|AlignEnd=253632|Gloss=NOM.PL.1
 8	go	go	AUX	_	Aspect=Prosp	9	aux	_	AlignBegin=253632|AlignEnd=253823|Gloss=PROSP
@@ -2300,17 +2293,17 @@
 # sent_id = PRT_05_Ghetto-Life_MG__119
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/PRT_05_Ghetto-Life_MG.mp3
 # speaker_id = Sp265
-# text = # from dere < we go { f- || comot |c # go canal |c # go catch fish } //
-# text_en = From there, we will f-… head out and go to the canal to catch fish.
-# text_ortho = From dere, we go f-... comot, go canal, go catch fish.
+# text = # from dere < we go { f~ || comot |c # go canal |c # go catch fish } //
+# text_en = From there, we will f~... head out and go to the canal to catch fish.
+# text_ortho = From dere, we go f~... comot, go canal, go catch fish.
 1	#	#	PUNCT	_	_	8	punct	_	AlignBegin=254313|AlignEnd=254605|Gloss=PUNCT
 2	from	from	ADP	_	_	3	case	_	AlignBegin=254605|AlignEnd=254820|Gloss=from
-3	dere	dere	ADV	_	_	8	advmod:periph	_	AlignBegin=254820|AlignEnd=255058|Gloss=there
+3	dere	dere	ADV	_	_	8	obl:mod	_	AlignBegin=254820|AlignEnd=255058|Gloss=there
 4	<	<	PUNCT	_	_	3	punct	_	AlignBegin=255058|AlignEnd=255088|Gloss=PUNCT
 5	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	AlignBegin=255088|AlignEnd=255180|Gloss=NOM.PL.1
 6	go	go	AUX	_	Aspect=Prosp	8	aux	_	AlignBegin=255180|AlignEnd=255300|Gloss=PROSP
 7	{	{	PUNCT	_	_	8	punct	_	AlignBegin=255300|AlignEnd=255330|Gloss=PUNCT
-8	f-	X	X	_	_	0	root	_	AlignBegin=255330|AlignEnd=255550|Gloss=X
+8	f~	X	X	_	_	0	root	_	AlignBegin=255330|AlignEnd=255550|Gloss=X
 9	||	||	PUNCT	_	_	10	punct	_	AlignBegin=255550|AlignEnd=255580|Gloss=PUNCT
 10	comot	comot	VERB	_	_	8	conj:dicto	_	AlignBegin=255580|AlignEnd=256170|Gloss=get_out
 11	|c	|c	PUNCT	_	_	13	punct	_	AlignBegin=256170|AlignEnd=256200|Gloss=PUNCT
@@ -2329,7 +2322,7 @@
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/PRT_05_Ghetto-Life_MG.mp3
 # speaker_id = Sp265
 # text = # as we go { go canal |c go catch fish } < # sometimes we go comot dere //= we go go under bridge //
-# text_en = As we go to the canal to catch fish… sometimes, we will leave the place and go under the bridge.
+# text_en = As we go to the canal to catch fish... sometimes, we will leave the place and go under the bridge.
 # text_ortho = As we go go canal, go catch fish, sometimes we go comot dere, we go go under bridge.
 1	#	#	PUNCT	_	_	18	punct	_	AlignBegin=258540|AlignEnd=259780|Gloss=PUNCT
 2	as	as	ADP	_	_	6	mark	_	AlignBegin=259780|AlignEnd=259908|Gloss=as
@@ -2340,7 +2333,7 @@
 7	canal	canal	NOUN	_	_	6	obj	_	AlignBegin=260290|AlignEnd=260590|Gloss=canal
 8	|c	|c	PUNCT	_	_	9	punct	_	AlignBegin=260590|AlignEnd=260740|Gloss=PUNCT
 9	go	go	VERB	_	_	6	conj	_	AlignBegin=260590|AlignEnd=260740|Gloss=go
-10	catch	catch	VERB	_	_	9	xcomp	_	AlignBegin=260740|AlignEnd=260990|Gloss=catch
+10	catch	catch	VERB	_	_	9	xcomp:obj	_	AlignBegin=260740|AlignEnd=260990|Gloss=catch
 11	fish	fish	NOUN	_	_	10	obj	_	AlignBegin=260990|AlignEnd=261335|Gloss=fish
 12	}	}	PUNCT	_	_	6	punct	_	AlignBegin=261335|AlignEnd=261365|Gloss=PUNCT
 13	<	<	PUNCT	_	_	6	punct	_	AlignBegin=261335|AlignEnd=261365|Gloss=PUNCT
@@ -2362,10 +2355,10 @@
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/PRT_05_Ghetto-Life_MG.mp3
 # speaker_id = Sp265
 # text = # when we go under bridge < # we go see &//
-# text_en = When we go under the bridge, we will see…
+# text_en = When we go under the bridge, we will see...
 # text_ortho = When we go under bridge, we go see...
 1	#	#	PUNCT	_	_	11	punct	_	AlignBegin=263740|AlignEnd=264240|Gloss=PUNCT
-2	when	when	SCONJ	_	_	4	mark	_	AlignBegin=264240|AlignEnd=264390|Gloss=when.Q
+2	when	when	SCONJ	_	PronType=Int	4	mark	_	AlignBegin=264240|AlignEnd=264390|Gloss=when.Q
 3	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	AlignBegin=264390|AlignEnd=264450|Gloss=NOM.PL.1
 4	go	go	VERB	_	_	11	advcl:periph	_	AlignBegin=264450|AlignEnd=264590|Gloss=go
 5	under	under	ADP	_	_	6	case	_	AlignBegin=264590|AlignEnd=264920|Gloss=under
@@ -2375,17 +2368,17 @@
 9	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	11	nsubj	_	AlignBegin=265740|AlignEnd=265810|Gloss=NOM.PL.1
 10	go	go	AUX	_	Aspect=Prosp	11	aux	_	AlignBegin=265810|AlignEnd=265949|Gloss=PROSP
 11	see	see	VERB	_	_	0	root	_	AlignBegin=265949|AlignEnd=266205|Gloss=see
-12	&//	//	PUNCT	_	_	11	punct	_	AlignBegin=266205|AlignEnd=266235|Gloss=PUNCT
+12	&//	&//	PUNCT	_	_	11	punct	_	AlignBegin=266205|AlignEnd=266235|Gloss=PUNCT
 
 # sent_id = PRT_05_Ghetto-Life_MG__122
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/PRT_05_Ghetto-Life_MG.mp3
 # speaker_id = Sp265
 # text = sometimes < di very first day wey I taste igbo < # dere na Ben >+ even tell me sey [ na igbo < na fish >+ de call am ] //
 # text_en = Sometimes, the very first day I tried marijuana there, it was Ben who told that it was marijuana; they call it fish.
-# text_ortho = Sometimes, di very first day wey I taste igbo, dere na Ben, even tell me sey na igbo, na fish, de call am.
+# text_ortho = Sometimes, di very first day wey I taste igbo, dere na Ben even tell me sey na igbo, na fish de call am.
 1	sometimes	sometimes	ADV	_	_	15	advmod:periph	_	AlignBegin=266235|AlignEnd=266630|Gloss=sometimes
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=266630|AlignEnd=266660|Gloss=PUNCT
-3	di	the	DET	_	Definite=Def|PronType=Art	6	det	_	AlignBegin=266660|AlignEnd=266720|Gloss=DEF.ART
+3	di	di	DET	_	Definite=Def|PronType=Art	6	det	_	AlignBegin=266660|AlignEnd=266720|Gloss=DEF.ART
 4	very	very	ADV	_	_	5	advmod	_	AlignBegin=266720|AlignEnd=266970|Gloss=very
 5	first	first	ADJ	_	NumType=Ord	6	amod	_	AlignBegin=266970|AlignEnd=267170|Gloss=first.ORD
 6	day	day	NOUN	_	_	15	dislocated	_	AlignBegin=267170|AlignEnd=267297|Gloss=day
@@ -2401,14 +2394,14 @@
 16	>+	>+	PUNCT	_	_	18	punct	_	AlignBegin=268810|AlignEnd=268840|Gloss=PUNCT
 17	even	even	ADV	_	_	18	advmod	_	AlignBegin=268840|AlignEnd=268930|Gloss=even
 18	tell	tell	VERB	_	_	15	advcl:cleft	_	AlignBegin=268930|AlignEnd=269090|Gloss=tell
-19	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	18	iobj	_	AlignBegin=269090|AlignEnd=269170|Gloss=ACC.SG.1
+19	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	18	obl:arg	_	AlignBegin=269090|AlignEnd=269170|Gloss=ACC.SG.1
 20	sey	sey	SCONJ	_	_	26	mark	_	AlignBegin=269170|AlignEnd=269308|Gloss=COMP
 21	[	[	PUNCT	_	_	26	punct	_	AlignBegin=269308|AlignEnd=269338|Gloss=PUNCT
 22	na	na	AUX	_	PartType=Cop	26	discourse	_	AlignBegin=269338|AlignEnd=269490|Gloss=be
 23	igbo	igbo	NOUN	_	_	26	dislocated	_	AlignBegin=269490|AlignEnd=269630|Gloss=Indian_hemp
 24	<	<	PUNCT	_	_	23	punct	_	AlignBegin=269630|AlignEnd=269660|Gloss=PUNCT
 25	na	na	AUX	_	PartType=Cop	26	cop	_	AlignBegin=269660|AlignEnd=269820|Gloss=be
-26	fish	fish	NOUN	_	_	18	ccomp	_	AlignBegin=269820|AlignEnd=270110|Gloss=fish
+26	fish	fish	NOUN	_	_	18	ccomp:obj	_	AlignBegin=269820|AlignEnd=270110|Gloss=fish
 27	>+	>+	PUNCT	_	_	29	punct	_	AlignBegin=270110|AlignEnd=270140|Gloss=PUNCT
 28	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	29	nsubj	_	AlignBegin=270140|AlignEnd=270317|Gloss=NOM.PL.3
 29	call	call	VERB	_	_	26	advcl:cleft	_	AlignBegin=270317|AlignEnd=270470|Gloss=call
@@ -2420,8 +2413,8 @@
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/PRT_05_Ghetto-Life_MG.mp3
 # speaker_id = Sp265
 # text = # I just dey < my friend tell me sey [ o boy < # you wan chop fish ?//] //
-# text_en = "I was just… my friend told me, ""oh man, do you wanna eat fish?"""
-# text_ortho = "I just dey… my friend tell me sey ""o boy, you wan chop fish?"""
+# text_en = I was just... my friend told me, "oh man, do you wanna eat fish?"
+# text_ortho = I just dey, my friend tell me sey o boy, you wan chop fish?
 1	#	#	PUNCT	_	_	8	punct	_	AlignBegin=270699|AlignEnd=271400|Gloss=PUNCT
 2	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	AlignBegin=271400|AlignEnd=271480|Gloss=NOM.SG.1
 3	just	just	ADV	_	_	4	advmod	_	AlignBegin=271480|AlignEnd=271663|Gloss=just
@@ -2434,12 +2427,12 @@
 10	sey	sey	SCONJ	_	_	17	mark	_	AlignBegin=272451|AlignEnd=272570|Gloss=COMP
 11	[	[	PUNCT	_	_	17	punct	_	AlignBegin=272570|AlignEnd=272600|Gloss=PUNCT
 12	o	o	PART	_	PartType=Disc	17	discourse	_	AlignBegin=272600|AlignEnd=272741|Gloss=EMPH
-13	boy	boy	NOUN	_	_	12	xcomp	_	AlignBegin=272741|AlignEnd=273005|Gloss=boy
+13	boy	boy	NOUN	_	_	12	xcomp:pred	_	AlignBegin=272741|AlignEnd=273005|Gloss=boy
 14	<	<	PUNCT	_	_	12	punct	_	AlignBegin=273005|AlignEnd=273035|Gloss=PUNCT
 15	#	#	PUNCT	_	_	12	punct	_	AlignBegin=273035|AlignEnd=273192|Gloss=PUNCT
 16	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	17	nsubj	_	AlignBegin=273192|AlignEnd=273262|Gloss=NOM.2
-17	wan	want	VERB	_	_	8	ccomp	_	AlignBegin=273262|AlignEnd=273402|Gloss=want
-18	chop	chop	VERB	_	_	17	xcomp	_	AlignBegin=273402|AlignEnd=273587|Gloss=eat
+17	wan	want	VERB	_	_	8	ccomp:obj	_	AlignBegin=273262|AlignEnd=273402|Gloss=want
+18	chop	chop	VERB	_	_	17	xcomp:obj	_	AlignBegin=273402|AlignEnd=273587|Gloss=eat
 19	fish	fish	NOUN	_	_	18	obj	_	AlignBegin=273587|AlignEnd=273970|Gloss=fish
 20	?//]	?//]	PUNCT	_	_	17	punct	_	AlignBegin=273970|AlignEnd=274000|Gloss=PUNCT
 21	//	//	PUNCT	_	_	8	punct	_	AlignBegin=273970|AlignEnd=274000|Gloss=PUNCT
@@ -2462,19 +2455,19 @@
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/PRT_05_Ghetto-Life_MG.mp3
 # speaker_id = Sp265
 # text = # im say &//
-# text_en = He said…
+# text_en = He said...
 # text_ortho = Im say...
 1	#	#	PUNCT	_	_	3	punct	_	AlignBegin=274900|AlignEnd=275740|Gloss=PUNCT
 2	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	AlignBegin=275740|AlignEnd=275790|Gloss=NOM.SG.3
 3	say	say	VERB	_	_	0	root	_	AlignBegin=275790|AlignEnd=276127|Gloss=say
-4	&//	//	PUNCT	_	_	3	punct	_	AlignBegin=276127|AlignEnd=276157|Gloss=PUNCT
+4	&//	&//	PUNCT	_	_	3	punct	_	AlignBegin=276127|AlignEnd=276157|Gloss=PUNCT
 
 # sent_id = PRT_05_Ghetto-Life_MG__126
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/PRT_05_Ghetto-Life_MG.mp3
 # speaker_id = Sp265
 # text = { I || I } first ask am sey [ which kind fish be dat ?//] //
-# text_en = "I… first of all, I asked him ""what kind of fish is that?"""
-# text_ortho = "I, I first ask am sey ""which kind fish be dat?"""
+# text_en = I... first of all, I asked him "what kind of fish is that?"
+# text_ortho = I, I first ask am sey which kind fish be dat?
 1	{	{	PUNCT	_	_	2	punct	_	AlignBegin=276127|AlignEnd=276157|Gloss=PUNCT
 2	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	AlignBegin=276157|AlignEnd=276426|Gloss=NOM.SG.1
 3	||	||	PUNCT	_	_	4	punct	_	AlignBegin=276426|AlignEnd=276456|Gloss=PUNCT
@@ -2489,7 +2482,7 @@
 12	kind	kind	ADJ	_	_	13	amod	_	AlignBegin=277490|AlignEnd=277690|Gloss=kind
 13	fish	fish	NOUN	_	_	7	obj	_	AlignBegin=277690|AlignEnd=277900|Gloss=fish
 14	be	be	VERB	_	PartType=Cop	13	advcl:cleft	_	AlignBegin=277900|AlignEnd=277970|Gloss=be
-15	dat	dat	PRON	_	Number=Sing|PronType=Dem	14	dep	_	AlignBegin=277970|AlignEnd=278090|Gloss=SG.DEM
+15	dat	dat	PRON	_	Number=Sing|PronType=Dem	14	dep:comp	_	AlignBegin=277970|AlignEnd=278090|Gloss=SG.DEM
 16	?//]	?//]	PUNCT	_	_	13	punct	_	AlignBegin=278090|AlignEnd=278120|Gloss=PUNCT
 17	//	//	PUNCT	_	_	7	punct	_	AlignBegin=278090|AlignEnd=278120|Gloss=PUNCT
 
@@ -2497,8 +2490,8 @@
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/PRT_05_Ghetto-Life_MG.mp3
 # speaker_id = Sp265
 # text = im say [ dry fish ] //
-# text_en = "He said, ""dried fish""."
-# text_ortho = "Im say ""dry fish."""
+# text_en = He said, "dried fish."
+# text_ortho = Im say dry fish.
 1	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	AlignBegin=278120|AlignEnd=278180|Gloss=NOM.SG.3
 2	say	say	VERB	_	_	0	root	_	AlignBegin=278180|AlignEnd=278300|Gloss=say
 3	[	[	PUNCT	_	_	5	punct	_	AlignBegin=278300|AlignEnd=278330|Gloss=PUNCT
@@ -2511,8 +2504,8 @@
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/PRT_05_Ghetto-Life_MG.mp3
 # speaker_id = Sp265
 # text = # I say [ bring am now !//] //
-# text_en = "I said, ""bring it here""."
-# text_ortho = "I say ""bring am now!"""
+# text_en = I said, "bring it here."
+# text_ortho = I say bring am now!
 1	#	#	PUNCT	_	_	3	punct	_	AlignBegin=279020|AlignEnd=279280|Gloss=PUNCT
 2	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	AlignBegin=279280|AlignEnd=279355|Gloss=NOM.SG.1
 3	say	say	VERB	_	_	0	root	_	AlignBegin=279355|AlignEnd=279480|Gloss=say
@@ -2528,14 +2521,14 @@
 # speaker_id = Sp265
 # text = na dry fish >+ I dey like sef //
 # text_en = I actually love dried fish.
-# text_ortho = Na dry fish, I dey like sef.
+# text_ortho = Na dry fish I dey like sef.
 1	na	na	AUX	_	PartType=Cop	3	cop	_	AlignBegin=280027|AlignEnd=280150|Gloss=be
 2	dry	dry	ADJ	_	_	3	amod	_	AlignBegin=280150|AlignEnd=280360|Gloss=dry
 3	fish	fish	NOUN	_	_	0	root	_	AlignBegin=280360|AlignEnd=280570|Gloss=fish
 4	>+	>+	PUNCT	_	_	6	punct	_	AlignBegin=280570|AlignEnd=280600|Gloss=PUNCT
 5	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	AlignBegin=280600|AlignEnd=280700|Gloss=NOM.SG.1
 6	dey	dey	VERB	_	VerbType=Cop	3	advcl:cleft	_	AlignBegin=280700|AlignEnd=280821|Gloss=be
-7	like	like	VERB	_	_	6	xcomp	_	AlignBegin=280821|AlignEnd=281010|Gloss=like
+7	like	like	VERB	_	_	6	xcomp:obj	_	AlignBegin=280821|AlignEnd=281010|Gloss=like
 8	sef	sef	PART	_	PartType=Disc	7	advmod:emph	_	AlignBegin=281010|AlignEnd=281370|Gloss=FOC
 9	//	//	PUNCT	_	_	3	punct	_	AlignBegin=281370|AlignEnd=281400|Gloss=PUNCT
 
@@ -2575,17 +2568,17 @@
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/PRT_05_Ghetto-Life_MG.mp3
 # speaker_id = Sp265
 # text = # I say [ dis one no be di fish now !//] //
-# text_en = "I said, ""this isn't fish!"""
-# text_ortho = "I say ""dis one no be di fish now!"""
+# text_en = I said, "this isn't fish!"
+# text_ortho = I say dis one no be di fish now!
 1	#	#	PUNCT	_	_	3	punct	_	AlignBegin=284404|AlignEnd=284700|Gloss=PUNCT
 2	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	AlignBegin=284700|AlignEnd=284750|Gloss=NOM.SG.1
 3	say	say	VERB	_	_	0	root	_	AlignBegin=284750|AlignEnd=284800|Gloss=say
 4	[	[	PUNCT	_	_	10	punct	_	AlignBegin=284800|AlignEnd=284830|Gloss=PUNCT
-5	dis	dis	DET	_	Number=Sing|PronType=Dem	6	det	_	AlignBegin=284830|AlignEnd=284959|Gloss=SG.PROX.DEM
+5	dis	dis	DET	_	Number=Sing|PronType=Dem	6	det	_	AlignBegin=284830|AlignEnd=284959|Gloss=SG.DEM
 6	one	one	NOUN	_	_	10	nsubj	_	AlignBegin=284959|AlignEnd=285109|Gloss=one
 7	no	no	PART	_	Polarity=Neg	10	advmod	_	AlignBegin=285109|AlignEnd=285189|Gloss=NEG
 8	be	be	AUX	_	PartType=Cop	10	cop	_	AlignBegin=285189|AlignEnd=285271|Gloss=be
-9	di	the	DET	_	Definite=Def|PronType=Art	10	det	_	AlignBegin=285271|AlignEnd=285380|Gloss=DEF.ART
+9	di	di	DET	_	Definite=Def|PronType=Art	10	det	_	AlignBegin=285271|AlignEnd=285380|Gloss=DEF.ART
 10	fish	fish	NOUN	_	_	3	parataxis	_	AlignBegin=285380|AlignEnd=285690|Gloss=fish
 11	now	now	ADV	_	_	10	advmod:emph	_	AlignBegin=285690|AlignEnd=285910|Gloss=now
 12	!//]	!//]	PUNCT	_	_	10	punct	_	AlignBegin=285910|AlignEnd=285940|Gloss=PUNCT
@@ -2595,8 +2588,8 @@
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/PRT_05_Ghetto-Life_MG.mp3
 # speaker_id = Sp265
 # text = e say [ wetin again now ?//= wetin you tink sey de dey call fish ?//] //
-# text_en = "He said, ""what else do you want? What do you think they call fish?"""
-# text_ortho = "E say ""wetin again now, wetin you tink sey de dey call fish?"""
+# text_en = He said, "what else do you want? What do you think they call fish?"
+# text_ortho = E say wetin again now, wetin you tink sey de dey call fish?
 1	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	AlignBegin=285940|AlignEnd=285991|Gloss=NOM.SG.3
 2	say	say	VERB	_	_	0	root	_	AlignBegin=285991|AlignEnd=286090|Gloss=say
 3	[	[	PUNCT	_	_	4	punct	_	AlignBegin=286090|AlignEnd=286120|Gloss=PUNCT
@@ -2610,8 +2603,8 @@
 11	sey	sey	SCONJ	_	_	14	mark	_	AlignBegin=287230|AlignEnd=287381|Gloss=COMP
 12	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	14	nsubj	_	AlignBegin=287381|AlignEnd=287450|Gloss=NOM.PL.3
 13	dey	dey	AUX	_	Aspect=Imp	14	aux	_	AlignBegin=287450|AlignEnd=287613|Gloss=IPFV
-14	call	call	VERB	_	_	10	ccomp	_	AlignBegin=287613|AlignEnd=287790|Gloss=call
-15	fish	fish	VERB	_	_	14	xcomp	_	AlignBegin=287790|AlignEnd=288150|Gloss=fish
+14	call	call	VERB	_	_	10	ccomp:obj	_	AlignBegin=287613|AlignEnd=287790|Gloss=call
+15	fish	fish	VERB	_	_	14	ccomp:obj	_	AlignBegin=287790|AlignEnd=288150|Gloss=fish
 16	?//]	?//]	PUNCT	_	_	4	punct	_	AlignBegin=288150|AlignEnd=288180|Gloss=PUNCT
 17	//	//	PUNCT	_	_	2	punct	_	AlignBegin=288150|AlignEnd=288180|Gloss=PUNCT
 
@@ -2619,8 +2612,8 @@
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/PRT_05_Ghetto-Life_MG.mp3
 # speaker_id = Sp265
 # text = # you go taste am //
-# text_en = """You try it."""
-# text_ortho = """You go taste am."""
+# text_en = "You try it."
+# text_ortho = You go taste am.
 1	#	#	PUNCT	_	_	4	punct	_	AlignBegin=288180|AlignEnd=288740|Gloss=PUNCT
 2	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	AlignBegin=288740|AlignEnd=288810|Gloss=NOM.2
 3	go	go	AUX	_	Aspect=Prosp	4	aux	_	AlignBegin=288810|AlignEnd=288957|Gloss=PROSP
@@ -2632,8 +2625,8 @@
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/PRT_05_Ghetto-Life_MG.mp3
 # speaker_id = Sp265
 # text = I don wrap am be sey [ I don wrap am ] //
-# text_en = """You have to have it because I've wrapped it already."""
-# text_ortho = """I don wrap am be sey I don wrap am."""
+# text_en = "You have to have it because I've wrapped it already."
+# text_ortho = I don wrap am be sey I don wrap am.
 1	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	AlignBegin=289386|AlignEnd=289490|Gloss=NOM.SG.1
 2	don	don	AUX	_	Aspect=Perf	3	aux	_	AlignBegin=289490|AlignEnd=289640|Gloss=PRF
 3	wrap	wrap	VERB	_	_	10	csubj	_	AlignBegin=289640|AlignEnd=289870|Gloss=wrap
@@ -2653,9 +2646,9 @@
 # speaker_id = Sp265
 # text = and dat day < as I taste am eh < # my head big //
 # text_en = And that day, as I tried it uh... my head swelled up.
-# text_ortho = And dat day, as I taste am eh... my head big.
+# text_ortho = And dat day, as I taste am eh, my head big.
 1	and	and	CCONJ	_	_	14	cc	_	AlignBegin=290810|AlignEnd=290910|Gloss=and
-2	dat	dat	DET	_	Number=Sing|PronType=Dem	3	det	_	AlignBegin=290910|AlignEnd=291093|Gloss=SG.DIST.DEM
+2	dat	dat	DET	_	Number=Sing|PronType=Dem	3	det	_	AlignBegin=290910|AlignEnd=291093|Gloss=SG.DEM
 3	day	day	NOUN	_	_	14	obl:mod	_	AlignBegin=291093|AlignEnd=291111|Gloss=day
 4	<	<	PUNCT	_	_	3	punct	_	AlignBegin=291111|AlignEnd=291141|Gloss=PUNCT
 5	as	as	ADP	_	_	7	mark	_	AlignBegin=291141|AlignEnd=291270|Gloss=as
@@ -2674,8 +2667,8 @@
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/PRT_05_Ghetto-Life_MG.mp3
 # speaker_id = Sp265
 # text = # as I dey look < { di ground || di ground || di ground } be like sey [ de don carry seven step put ] //
-# text_en = As I was looking around, the ground… the ground… the ground seemed seven steps higher.
-# text_ortho = As I dey look, di ground di ground... di ground... be like sey de don carry seven step put.
+# text_en = As I was looking around, the ground... the ground... the ground seemed seven steps higher.
+# text_ortho = As I dey look, di ground, di ground, di ground be like sey de don carry seven step put.
 1	#	#	PUNCT	_	_	23	punct	_	AlignBegin=293240|AlignEnd=294000|Gloss=PUNCT
 2	as	as	ADP	_	_	5	mark	_	AlignBegin=294000|AlignEnd=294130|Gloss=as
 3	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	AlignBegin=294130|AlignEnd=294190|Gloss=NOM.SG.1
@@ -2683,18 +2676,18 @@
 5	look	look	VERB	_	_	23	advcl:periph	_	AlignBegin=294330|AlignEnd=294430|Gloss=look
 6	<	<	PUNCT	_	_	5	punct	_	AlignBegin=294430|AlignEnd=294460|Gloss=PUNCT
 7	{	{	PUNCT	_	_	9	punct	_	AlignBegin=294430|AlignEnd=294460|Gloss=PUNCT
-8	di	the	DET	_	Definite=Def|PronType=Art	9	det	_	AlignBegin=294460|AlignEnd=294580|Gloss=DEF.ART
+8	di	di	DET	_	Definite=Def|PronType=Art	9	det	_	AlignBegin=294460|AlignEnd=294580|Gloss=DEF.ART
 9	ground	ground	NOUN	_	_	23	nsubj	_	AlignBegin=294580|AlignEnd=294820|Gloss=ground
 10	||	||	PUNCT	_	_	12	punct	_	AlignBegin=294820|AlignEnd=294850|Gloss=PUNCT
-11	di	the	DET	_	Definite=Def|PronType=Art	12	det	_	AlignBegin=294850|AlignEnd=294920|Gloss=DEF.ART
+11	di	di	DET	_	Definite=Def|PronType=Art	12	det	_	AlignBegin=294850|AlignEnd=294920|Gloss=DEF.ART
 12	ground	ground	NOUN	_	_	9	conj:dicto	_	AlignBegin=294920|AlignEnd=295285|Gloss=ground
 13	||	||	PUNCT	_	_	15	punct	_	AlignBegin=295285|AlignEnd=295315|Gloss=PUNCT
-14	di	the	DET	_	Definite=Def|PronType=Art	15	det	_	AlignBegin=295315|AlignEnd=295410|Gloss=DEF.ART
+14	di	di	DET	_	Definite=Def|PronType=Art	15	det	_	AlignBegin=295315|AlignEnd=295410|Gloss=DEF.ART
 15	ground	ground	NOUN	_	_	12	conj:dicto	_	AlignBegin=295410|AlignEnd=295620|Gloss=ground
 16	}	}	PUNCT	_	_	9	punct	_	AlignBegin=295620|AlignEnd=295650|Gloss=PUNCT
 17	be	be	AUX	_	PartType=Cop	23	cop	_	AlignBegin=295650|AlignEnd=295723|Gloss=be
 18	like	like	ADP	_	_	23	mark	_	AlignBegin=295723|AlignEnd=295857|EXTPOS=SCONJ|Gloss=like
-19	sey	sey	SCONJ	_	_	18	fixed	_	AlignBegin=295857|AlignEnd=295960|Gloss=COMP
+19	sey	sey	SCONJ	_	_	23	dep	_	AlignBegin=295857|AlignEnd=295960|Gloss=COMP
 20	[	[	PUNCT	_	_	23	punct	_	AlignBegin=295960|AlignEnd=295990|Gloss=PUNCT
 21	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	23	nsubj	_	AlignBegin=295990|AlignEnd=296090|Gloss=NOM.PL.3
 22	don	don	AUX	_	Aspect=Perf	23	aux	_	AlignBegin=296090|AlignEnd=296237|Gloss=PRF
@@ -2710,7 +2703,7 @@
 # speaker_id = Sp265
 # text = # na so >+ my eye come tear //= # my voice come change //
 # text_en = And then my eyes teared up, my voice also changed.
-# text_ortho = Na so, my eye come tear, my voice come change.
+# text_ortho = Na so my eye come tear, my voice come change.
 1	#	#	PUNCT	_	_	3	punct	_	AlignBegin=297630|AlignEnd=298180|Gloss=PUNCT
 2	na	na	AUX	_	PartType=Cop	3	cop	_	AlignBegin=298180|AlignEnd=298276|Gloss=be
 3	so	so	ADV	_	_	0	root	_	AlignBegin=298276|AlignEnd=298409|Gloss=so
@@ -2745,8 +2738,8 @@
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/PRT_05_Ghetto-Life_MG.mp3
 # speaker_id = Sp265
 # text = # as I dey waka < I dey stagger //= I dey waka //= I dey stagger //
-# text_en = As I was walking, I was staggering… I was walking and I was staggering.
-# text_ortho = As I dey waka, I dey stagger... I dey waka, I dey stagger.
+# text_en = As I was walking, I was staggering... I was walking and I was staggering.
+# text_ortho = As I dey waka, I dey stagger, I dey waka, I dey stagger.
 1	#	#	PUNCT	_	_	9	punct	_	AlignBegin=303336|AlignEnd=303660|Gloss=PUNCT
 2	as	as	ADP	_	_	5	mark	_	AlignBegin=303660|AlignEnd=303740|Gloss=as
 3	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	AlignBegin=303740|AlignEnd=303820|Gloss=NOM.SG.1
@@ -2770,15 +2763,15 @@
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/PRT_05_Ghetto-Life_MG.mp3
 # speaker_id = Sp265
 # text = # de say [ o boy dis guy go comot o //] //
-# text_en = "They said, ""oh man, this guy is gonna pass out""."
-# text_ortho = "De say ""o boy dis guy go comot o."""
+# text_en = They said, "oh man, this guy is gonna pass out."
+# text_ortho = De say o boy dis guy go comot o.
 1	#	#	PUNCT	_	_	3	punct	_	AlignBegin=305900|AlignEnd=306380|Gloss=PUNCT
 2	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	AlignBegin=306380|AlignEnd=306450|Gloss=NOM.PL.3
 3	say	say	VERB	_	_	0	root	_	AlignBegin=306450|AlignEnd=306530|Gloss=say
 4	[	[	PUNCT	_	_	10	punct	_	AlignBegin=306530|AlignEnd=306560|Gloss=PUNCT
 5	o	o	PART	_	PartType=Disc	10	discourse	_	AlignBegin=306560|AlignEnd=306650|Gloss=EMPH
 6	boy	boy	NOUN	_	_	10	discourse	_	AlignBegin=306650|AlignEnd=306770|Gloss=boy
-7	dis	dis	DET	_	Number=Sing|PronType=Dem	8	det	_	AlignBegin=306770|AlignEnd=306950|Gloss=SG.PROX.DEM
+7	dis	dis	DET	_	Number=Sing|PronType=Dem	8	det	_	AlignBegin=306770|AlignEnd=306950|Gloss=SG.DEM
 8	guy	guy	NOUN	_	_	10	nsubj	_	AlignBegin=306950|AlignEnd=307130|Gloss=guy
 9	go	go	AUX	_	Aspect=Prosp	10	aux	_	AlignBegin=307130|AlignEnd=307230|Gloss=PROSP
 10	comot	comot	VERB	_	_	3	parataxis	_	AlignBegin=307230|AlignEnd=307618|Gloss=get_out
@@ -2796,7 +2789,7 @@
 2	dey	dey	AUX	_	Aspect=Imp	3	aux	_	AlignBegin=307890|AlignEnd=308055|Gloss=IPFV
 3	rush	rush	VERB	_	_	0	root	_	AlignBegin=308055|AlignEnd=308350|Gloss=rush
 4	kukuma	kukuma	ADV	_	_	5	advmod	_	AlignBegin=308350|AlignEnd=308810|Gloss=really
-5	carry	carry	VERB	_	_	3	xcomp	_	AlignBegin=308810|AlignEnd=309080|Gloss=carry
+5	carry	carry	VERB	_	_	3	xcomp:obj	_	AlignBegin=308810|AlignEnd=309080|Gloss=carry
 6	garri	garri	NOUN	_	_	5	obj	_	AlignBegin=309080|AlignEnd=309346|Gloss=dry_cassava
 7	put	put	VERB	_	_	5	compound:svc	_	AlignBegin=309346|AlignEnd=309498|Gloss=put
 8	for	for	ADP	_	_	10	case	_	AlignBegin=309498|AlignEnd=309856|Gloss=for
@@ -2830,7 +2823,7 @@
 3	need	need	VERB	_	_	0	root	_	AlignBegin=312330|AlignEnd=312500|Gloss=need
 4	to	to	ADP	_	_	6	mark	_	AlignBegin=312500|AlignEnd=312570|Gloss=to
 5	even	even	ADV	_	_	6	advmod	_	AlignBegin=312570|AlignEnd=312860|Gloss=even
-6	wait	wait	VERB	_	_	3	xcomp	_	AlignBegin=312860|AlignEnd=313020|Gloss=wait
+6	wait	wait	VERB	_	_	3	xcomp:obl	_	AlignBegin=312860|AlignEnd=313020|Gloss=wait
 7	//	//	PUNCT	_	_	3	punct	_	AlignBegin=313020|AlignEnd=313050|Gloss=PUNCT
 
 # sent_id = PRT_05_Ghetto-Life_MG__145
@@ -2852,7 +2845,7 @@
 # text = di ting no still weigh me //
 # text_en = I was not satisfied.
 # text_ortho = Di ting no still weigh me.
-1	di	the	DET	_	Definite=Def|PronType=Art	2	det	_	AlignBegin=314000|AlignEnd=314089|Gloss=DEF.ART
+1	di	di	DET	_	Definite=Def|PronType=Art	2	det	_	AlignBegin=314000|AlignEnd=314089|Gloss=DEF.ART
 2	ting	ting	NOUN	_	_	5	nsubj	_	AlignBegin=314089|AlignEnd=314290|Gloss=thing
 3	no	no	PART	_	Polarity=Neg	5	advmod	_	AlignBegin=314290|AlignEnd=314380|Gloss=NEG
 4	still	still	ADV	_	_	5	advmod	_	AlignBegin=314380|AlignEnd=314650|Gloss=still
@@ -2868,7 +2861,7 @@
 # text_ortho = De go find coconut water give me.
 1	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	AlignBegin=314970|AlignEnd=315090|Gloss=NOM.PL.3
 2	go	go	VERB	_	_	0	root	_	AlignBegin=315090|AlignEnd=315200|Gloss=go
-3	find	find	VERB	_	_	2	xcomp	_	AlignBegin=315200|AlignEnd=315390|Gloss=find
+3	find	find	VERB	_	_	2	xcomp:obj	_	AlignBegin=315200|AlignEnd=315390|Gloss=find
 4	coconut	coconut	NOUN	_	_	5	compound	_	AlignBegin=315390|AlignEnd=315880|Gloss=coconut
 5	water	water	NOUN	_	_	3	obj	_	AlignBegin=315880|AlignEnd=316240|Gloss=water
 6	#	#	PUNCT	_	_	7	punct	_	AlignBegin=316240|AlignEnd=316920|Gloss=PUNCT
@@ -2911,7 +2904,7 @@
 5	<	<	PUNCT	_	_	3	punct	_	AlignBegin=321049|AlignEnd=321079|Gloss=PUNCT
 6	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	AlignBegin=321079|AlignEnd=321230|Gloss=NOM.SG.1
 7	go	go	VERB	_	_	0	root	_	AlignBegin=321230|AlignEnd=321400|Gloss=go
-8	sleep	sleep	VERB	_	_	7	xcomp	_	AlignBegin=321400|AlignEnd=321950|Gloss=sleep
+8	sleep	sleep	VERB	_	_	7	xcomp:obj	_	AlignBegin=321400|AlignEnd=321950|Gloss=sleep
 9	//	//	PUNCT	_	_	7	punct	_	AlignBegin=321950|AlignEnd=321980|Gloss=PUNCT
 
 # sent_id = PRT_05_Ghetto-Life_MG__150
@@ -2926,7 +2919,7 @@
 4	wake	wake	VERB	_	_	0	root	_	AlignBegin=322600|AlignEnd=322800|Gloss=wake
 5	up	up	ADP	_	_	4	compound:prt	_	AlignBegin=322800|AlignEnd=323001|Gloss=up
 6	until	until	ADP	_	_	9	case	_	AlignBegin=323001|AlignEnd=323560|Gloss=until
-7	di	the	DET	_	Definite=Def|PronType=Art	9	det	_	AlignBegin=323560|AlignEnd=323680|Gloss=DEF.ART
+7	di	di	DET	_	Definite=Def|PronType=Art	9	det	_	AlignBegin=323560|AlignEnd=323680|Gloss=DEF.ART
 8	following	follow	VERB	_	Tense=Pres|VerbForm=Part	9	acl	_	AlignBegin=323680|AlignEnd=324184|Gloss=follow.PRS.PTCP
 9	morning	morning	NOUN	_	_	4	obl:mod	_	AlignBegin=324184|AlignEnd=324584|Gloss=morning
 10	//	//	PUNCT	_	_	4	punct	_	AlignBegin=324584|AlignEnd=324614|Gloss=PUNCT
@@ -2935,8 +2928,8 @@
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/PRT_05_Ghetto-Life_MG.mp3
 # speaker_id = Sp265
 # text = # naim my aunty ask me # [ eh where you go dat yesterday ?//] //
-# text_en = "And so my Aunt asked me, ""eh, where were you yesterday?'"
-# text_ortho = "Naim my aunty ask me ""eh where you go dat yesterday?"""
+# text_en = And so my Aunt asked me, "eh, where were you yesterday?'
+# text_ortho = Naim my aunty ask me eh where you go dat yesterday?
 1	#	#	PUNCT	_	_	5	punct	_	AlignBegin=324614|AlignEnd=325120|Gloss=PUNCT
 2	naim	naim	ADV	_	_	5	advmod:periph	_	AlignBegin=325120|AlignEnd=325270|Gloss=then
 3	my	my	PRON	_	Number=Sing|Person=1|Poss=Yes	4	nmod:poss	_	AlignBegin=325270|AlignEnd=325400|Gloss=SG.1.POSS
@@ -2949,7 +2942,7 @@
 10	where	where	ADV	_	PronType=Int	5	parataxis	_	AlignBegin=327390|AlignEnd=327520|Gloss=where.Q
 11	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	12	nsubj	_	AlignBegin=327520|AlignEnd=327620|Gloss=NOM.2
 12	go	go	VERB	_	_	10	advcl:cleft	_	AlignBegin=327620|AlignEnd=327760|Gloss=go
-13	dat	dat	DET	_	Number=Sing|PronType=Dem	14	det	_	AlignBegin=327760|AlignEnd=327930|Gloss=SG.DIST.DEM
+13	dat	dat	DET	_	Number=Sing|PronType=Dem	14	det	_	AlignBegin=327760|AlignEnd=327930|Gloss=SG.DEM
 14	yesterday	yesterday	NOUN	_	_	12	obl:mod	_	AlignBegin=327930|AlignEnd=328370|Gloss=yesterday
 15	?//]	?//]	PUNCT	_	_	10	punct	_	AlignBegin=328370|AlignEnd=328400|Gloss=PUNCT
 16	//	//	PUNCT	_	_	5	punct	_	AlignBegin=328370|AlignEnd=328400|Gloss=PUNCT
@@ -2959,7 +2952,7 @@
 # speaker_id = Sp265
 # text = mtschew !//
 # text_en = Mstchew!
-# text_ortho = Mstchew!
+# text_ortho = Mtschew!
 1	mtschew	mtschew	INTJ	_	_	0	root	_	AlignBegin=328400|AlignEnd=328650|Gloss=sucking_of_teeth
 2	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=328650|AlignEnd=328680|Gloss=PUNCT
 
@@ -2967,17 +2960,17 @@
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/PRT_05_Ghetto-Life_MG.mp3
 # speaker_id = Sp265
 # text = # I tell am sey [ no //= sey I go play ball //= my body come weak //] //
-# text_en = I told her that no… that I went to play ball and I was feeling weak.
-# text_ortho = I tell am sey no... sey I go play ball, my body come weak.
+# text_en = I told her that no... that I went to play ball and I was feeling weak.
+# text_ortho = I tell am sey no, sey I go play ball, my body come weak.
 1	#	#	PUNCT	_	_	3	punct	_	AlignBegin=328680|AlignEnd=329001|Gloss=PUNCT
 2	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	AlignBegin=329001|AlignEnd=329038|Gloss=NOM.SG.1
 3	tell	tell	VERB	_	_	0	root	_	AlignBegin=329038|AlignEnd=329096|Gloss=tell
 4	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	3	obj	_	AlignBegin=329096|AlignEnd=329230|Gloss=ACC.SG.3
-5	sey	sey	SCONJ	_	_	7	dep	_	AlignBegin=329230|AlignEnd=329380|Gloss=COMP
+5	sey	sey	SCONJ	_	_	7	dep:comp	_	AlignBegin=329230|AlignEnd=329380|Gloss=COMP
 6	[	[	PUNCT	_	_	7	punct	_	AlignBegin=329380|AlignEnd=329410|Gloss=PUNCT
-7	no	no	PART	_	Polarity=Neg	3	dep	_	AlignBegin=329410|AlignEnd=329520|Gloss=NEG
+7	no	no	PART	_	Polarity=Neg	3	dep:comp	_	AlignBegin=329410|AlignEnd=329520|Gloss=NEG
 8	//=	//=	PUNCT	_	_	12	punct	_	AlignBegin=329520|AlignEnd=329550|Gloss=PUNCT
-9	sey	sey	SCONJ	_	_	12	cc	_	AlignBegin=329550|AlignEnd=329670|Gloss=COMP
+9	sey	sey	SCONJ	_	_	12	discourse	_	AlignBegin=329550|AlignEnd=329670|Gloss=COMP
 10	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	AlignBegin=329670|AlignEnd=329790|Gloss=NOM.SG.1
 11	go	go	AUX	_	Aspect=Prosp	12	aux	_	AlignBegin=329790|AlignEnd=329936|Gloss=PROSP
 12	play	play	VERB	_	_	7	parataxis:conj	_	AlignBegin=329936|AlignEnd=330130|Gloss=play
@@ -2993,35 +2986,33 @@
 # sent_id = PRT_05_Ghetto-Life_MG__154
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/PRT_05_Ghetto-Life_MG.mp3
 # speaker_id = Sp265
-# text = # im say [eng [ but when you come back < # your voice was not //] eng] &//
-# text_en = "She said, ""but when you came back, your voice was not…""."
-# text_ortho = "Im say "" but when you come back, your voice was not... , ."""
+# text = # im say [ but when you come back < # your voice was not //] &//
+# text_en = She said, "but when you came back, your voice was not..."
+# text_ortho = Im say but when you come back, your voice was not...
 1	#	#	PUNCT	_	_	3	punct	_	AlignBegin=331380|AlignEnd=331940|Gloss=PUNCT
 2	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	AlignBegin=331940|AlignEnd=332064|Gloss=NOM.SG.3
 3	say	say	VERB	_	_	0	root	_	AlignBegin=332064|AlignEnd=332201|Gloss=say
-4	[eng	[eng	PUNCT	_	_	15	punct	_	AlignBegin=332201|AlignEnd=332231|Gloss=PUNCT
-5	[	[	PUNCT	_	_	15	punct	_	AlignBegin=332201|AlignEnd=332231|Gloss=PUNCT
-6	but	but	CCONJ	_	_	15	cc	_	AlignBegin=332231|AlignEnd=332380|Gloss=but
-7	when	when	SCONJ	_	_	9	mark	_	AlignBegin=332380|AlignEnd=332540|Gloss=when.Q
-8	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	9	nsubj	_	AlignBegin=332540|AlignEnd=332650|Gloss=NOM.2
-9	come	come	VERB	_	_	15	advcl:periph	_	AlignBegin=332650|AlignEnd=332840|Gloss=come
-10	back	back	ADV	_	_	9	advmod	_	AlignBegin=332840|AlignEnd=333230|Gloss=back
-11	<	<	PUNCT	_	_	9	punct	_	AlignBegin=333230|AlignEnd=333260|Gloss=PUNCT
-12	#	#	PUNCT	_	_	15	punct	_	AlignBegin=333260|AlignEnd=333780|Gloss=PUNCT
-13	your	your	PRON	_	Number=Plur|Person=2|Poss=Yes	14	nmod:poss	_	AlignBegin=333780|AlignEnd=333910|Gloss=PL.2.POSS
-14	voice	voice	NOUN	_	_	15	nsubj	_	AlignBegin=333910|AlignEnd=334235|Gloss=voice
-15	was	be	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|VerbType=Cop	3	parataxis	_	AlignBegin=334235|AlignEnd=334410|Gloss=be.IND.SG.1.PST.FIN
-16	not	not	PART	_	Polarity=Neg	15	advmod	_	AlignBegin=334410|AlignEnd=334720|Gloss=NEG
-17	//]	//]	PUNCT	_	_	15	punct	_	AlignBegin=334720|AlignEnd=334750|Gloss=PUNCT
-18	eng]	eng]	PUNCT	_	_	15	punct	_	AlignBegin=334720|AlignEnd=334750|Gloss=PUNCT
-19	&//	//	PUNCT	_	_	3	punct	_	AlignBegin=334720|AlignEnd=334750|Gloss=PUNCT
+4	[	[	PUNCT	_	_	14	punct	_	AlignBegin=332201|AlignEnd=332231|Gloss=PUNCT
+5	but	but	CCONJ	_	_	14	cc	_	AlignBegin=332231|AlignEnd=332380|Gloss=but|Lang=en
+6	when	when	SCONJ	_	PronType=Int	8	mark	_	AlignBegin=332380|AlignEnd=332540|Gloss=when.Q|Lang=en
+7	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	8	nsubj	_	AlignBegin=332540|AlignEnd=332650|Gloss=NOM.2|Lang=en
+8	come	come	VERB	_	_	14	advcl:periph	_	AlignBegin=332650|AlignEnd=332840|Gloss=come|Lang=en
+9	back	back	ADV	_	_	8	advmod	_	AlignBegin=332840|AlignEnd=333230|Gloss=back|Lang=en
+10	<	<	PUNCT	_	_	8	punct	_	AlignBegin=333230|AlignEnd=333260|Gloss=PUNCT
+11	#	#	PUNCT	_	_	14	punct	_	AlignBegin=333260|AlignEnd=333780|Gloss=PUNCT
+12	your	your	PRON	_	Number=Plur|Person=2|Poss=Yes	13	nmod:poss	_	AlignBegin=333780|AlignEnd=333910|Gloss=PL.2.POSS|Lang=en
+13	voice	voice	NOUN	_	_	14	nsubj	_	AlignBegin=333910|AlignEnd=334235|Gloss=voice|Lang=en
+14	was	be	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|VerbType=Cop	3	parataxis	_	AlignBegin=334235|AlignEnd=334410|Gloss=be.IND.SG.1.PST.FIN|Lang=en
+15	not	not	PART	_	Polarity=Neg	14	advmod	_	AlignBegin=334410|AlignEnd=334720|Gloss=NEG|Lang=en
+16	//]	//]	PUNCT	_	_	14	punct	_	AlignBegin=334720|AlignEnd=334750|Gloss=PUNCT
+17	&//	&//	PUNCT	_	_	3	punct	_	AlignBegin=334720|AlignEnd=334750|Gloss=PUNCT
 
 # sent_id = PRT_05_Ghetto-Life_MG__155
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/PRT_05_Ghetto-Life_MG.mp3
 # speaker_id = Sp265
 # text = I say [ mtschew aunty < no worry !//] //
-# text_en = "I said, ""mstchew, auntie, don’t worry!"""
-# text_ortho = "I say ""mstchew aunty, no worry!"""
+# text_en = I said, "mstchew, auntie, don’t worry!"
+# text_ortho = I say mtschew aunty, no worry!
 1	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	AlignBegin=334750|AlignEnd=334870|Gloss=NOM.SG.1
 2	say	say	VERB	_	_	0	root	_	AlignBegin=334870|AlignEnd=335170|Gloss=say
 3	[	[	PUNCT	_	_	8	punct	_	AlignBegin=335170|AlignEnd=335200|Gloss=PUNCT
@@ -3039,7 +3030,7 @@
 # text = dat yesterday ehn headache bin dey worry me //
 # text_en = I was having a serious headache yesterday.
 # text_ortho = Dat yesterday ehn headache bin dey worry me.
-1	dat	dat	DET	_	Number=Sing|PronType=Dem	2	det	_	AlignBegin=336130|AlignEnd=336338|Gloss=SG.DIST.DEM
+1	dat	dat	DET	_	Number=Sing|PronType=Dem	2	det	_	AlignBegin=336130|AlignEnd=336338|Gloss=SG.DEM
 2	yesterday	yesterday	NOUN	_	_	7	obl:mod	_	AlignBegin=336338|AlignEnd=336670|Gloss=yesterday
 3	ehn	ehn	INTJ	_	_	2	discourse	_	AlignBegin=336670|AlignEnd=336807|Gloss=ehn
 4	headache	headache	NOUN	_	_	7	nsubj	_	AlignBegin=336807|AlignEnd=337160|Gloss=headache
@@ -3052,20 +3043,18 @@
 # sent_id = PRT_05_Ghetto-Life_MG__157
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/PRT_05_Ghetto-Life_MG.mp3
 # speaker_id = Sp265
-# text = # im say [ [eng are you sure eng] ?//] //
-# text_en = "She said, ""are you sure?"""
-# text_ortho = "Im say "" are you sure ?"""
+# text = # im say [ are you sure ?//] //
+# text_en = She said, "are you sure?"
+# text_ortho = Im say are you sure?
 1	#	#	PUNCT	_	_	3	punct	_	AlignBegin=337969|AlignEnd=338600|Gloss=PUNCT
 2	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	AlignBegin=338600|AlignEnd=338640|Gloss=NOM.SG.3
 3	say	say	VERB	_	_	0	root	_	AlignBegin=338640|AlignEnd=338711|Gloss=say
-4	[	[	PUNCT	_	_	8	punct	_	AlignBegin=338711|AlignEnd=338741|Gloss=PUNCT
-5	[eng	[eng	PUNCT	_	_	8	punct	_	AlignBegin=338711|AlignEnd=338741|Gloss=PUNCT
-6	are	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	AlignBegin=338741|AlignEnd=338838|Gloss=be.IND.PRS.FIN
-7	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	8	nsubj	_	AlignBegin=338838|AlignEnd=338992|Gloss=NOM.2
-8	sure	sure	ADJ	_	_	3	parataxis	_	AlignBegin=338992|AlignEnd=339246|Gloss=sure
-9	eng]	eng]	PUNCT	_	_	8	punct	_	AlignBegin=339246|AlignEnd=339276|Gloss=PUNCT
-10	?//]	?//]	PUNCT	_	_	8	punct	_	AlignBegin=339246|AlignEnd=339276|Gloss=PUNCT
-11	//	//	PUNCT	_	_	3	punct	_	AlignBegin=339246|AlignEnd=339276|Gloss=PUNCT
+4	[	[	PUNCT	_	_	7	punct	_	AlignBegin=338711|AlignEnd=338741|Gloss=PUNCT
+5	are	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop	_	AlignBegin=338741|AlignEnd=338838|Gloss=be.IND.PRS.FIN|Lang=en
+6	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	7	nsubj	_	AlignBegin=338838|AlignEnd=338992|Gloss=NOM.2|Lang=en
+7	sure	sure	ADJ	_	_	3	parataxis	_	AlignBegin=338992|AlignEnd=339246|Gloss=sure|Lang=en
+8	?//]	?//]	PUNCT	_	_	7	punct	_	AlignBegin=339246|AlignEnd=339276|Gloss=PUNCT
+9	//	//	PUNCT	_	_	3	punct	_	AlignBegin=339246|AlignEnd=339276|Gloss=PUNCT
 
 # sent_id = PRT_05_Ghetto-Life_MG__158
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/PRT_05_Ghetto-Life_MG.mp3
@@ -3084,28 +3073,26 @@
 # sent_id = PRT_05_Ghetto-Life_MG__159
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/PRT_05_Ghetto-Life_MG.mp3
 # speaker_id = Sp265
-# text = im say [ [eng but you are okay now eng] ?//] //
-# text_en = "She said, ""but you're alright now?"""
-# text_ortho = "Im say "" but you are okay now ?"""
+# text = im say [ but you are okay now ?//] //
+# text_en = She said, "but you're alright now?"
+# text_ortho = Im say but you are okay now?
 1	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	AlignBegin=340189|AlignEnd=340331|Gloss=NOM.SG.3
 2	say	say	VERB	_	_	0	root	_	AlignBegin=340331|AlignEnd=340390|Gloss=say
-3	[	[	PUNCT	_	_	8	punct	_	AlignBegin=340390|AlignEnd=340420|Gloss=PUNCT
-4	[eng	[eng	PUNCT	_	_	8	punct	_	AlignBegin=340390|AlignEnd=340420|Gloss=PUNCT
-5	but	but	CCONJ	_	_	8	cc	_	AlignBegin=340420|AlignEnd=340591|Gloss=but
-6	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	8	nsubj	_	AlignBegin=340591|AlignEnd=340680|Gloss=NOM.2
-7	are	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	AlignBegin=340680|AlignEnd=340710|Gloss=be.IND.PRS.FIN
-8	okay	OK	INTJ	_	_	2	parataxis	_	AlignBegin=340710|AlignEnd=341050|Gloss=OK
-9	now	now	ADV	_	_	8	advmod	_	AlignBegin=341050|AlignEnd=341188|Gloss=now
-10	eng]	eng]	PUNCT	_	_	8	punct	_	AlignBegin=341188|AlignEnd=341218|Gloss=PUNCT
-11	?//]	?//]	PUNCT	_	_	8	punct	_	AlignBegin=341188|AlignEnd=341218|Gloss=PUNCT
-12	//	//	PUNCT	_	_	2	punct	_	AlignBegin=341188|AlignEnd=341218|Gloss=PUNCT
+3	[	[	PUNCT	_	_	7	punct	_	AlignBegin=340390|AlignEnd=340420|Gloss=PUNCT
+4	but	but	CCONJ	_	_	7	cc	_	AlignBegin=340420|AlignEnd=340591|Gloss=but|Lang=en
+5	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	7	nsubj	_	AlignBegin=340591|AlignEnd=340680|Gloss=NOM.2|Lang=en
+6	are	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Cop	7	cop	_	AlignBegin=340680|AlignEnd=340710|Gloss=be.IND.PRS.FIN|Lang=en
+7	okay	OK	INTJ	_	_	2	parataxis	_	AlignBegin=340710|AlignEnd=341050|Gloss=OK|Lang=en
+8	now	now	ADV	_	_	7	advmod	_	AlignBegin=341050|AlignEnd=341188|Gloss=now|Lang=en
+9	?//]	?//]	PUNCT	_	_	7	punct	_	AlignBegin=341188|AlignEnd=341218|Gloss=PUNCT
+10	//	//	PUNCT	_	_	2	punct	_	AlignBegin=341188|AlignEnd=341218|Gloss=PUNCT
 
 # sent_id = PRT_05_Ghetto-Life_MG__160
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/PRT_05_Ghetto-Life_MG.mp3
 # speaker_id = Sp265
 # text = I say [ yes !//= no wahm !//] //
-# text_en = "I said, ""yes, no worries!"""
-# text_ortho = "I say ""yes, no wahm!"""
+# text_en = I said, "yes, no worries!"
+# text_ortho = I say yes, no wahm!
 1	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	AlignBegin=341218|AlignEnd=341280|Gloss=NOM.SG.1
 2	say	say	VERB	_	_	0	root	_	AlignBegin=341280|AlignEnd=341470|Gloss=say
 3	[	[	PUNCT	_	_	4	punct	_	AlignBegin=341500|AlignEnd=341680|Gloss=PUNCT
@@ -3148,8 +3135,8 @@
 12	<	<	PUNCT	_	_	11	punct	_	AlignBegin=345076|AlignEnd=345106|Gloss=PUNCT
 13	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	AlignBegin=345106|AlignEnd=345240|Gloss=NOM.SG.1
 14	wan	want	VERB	_	_	8	advcl	_	AlignBegin=345240|AlignEnd=345420|Gloss=want
-15	taste	taste	VERB	_	_	14	xcomp	_	AlignBegin=345420|AlignEnd=345660|Gloss=taste
-16	dat	dat	DET	_	Number=Sing|PronType=Dem	17	det	_	AlignBegin=345660|AlignEnd=345850|Gloss=SG.DIST.DEM
+15	taste	taste	VERB	_	_	14	xcomp:obj	_	AlignBegin=345420|AlignEnd=345660|Gloss=taste
+16	dat	dat	DET	_	Number=Sing|PronType=Dem	17	det	_	AlignBegin=345660|AlignEnd=345850|Gloss=SG.DEM
 17	ting	ting	NOUN	_	_	15	obj	_	AlignBegin=345850|AlignEnd=346060|Gloss=thing
 18	again	again	ADV	_	_	15	advmod	_	AlignBegin=346060|AlignEnd=346436|Gloss=again
 19	//	//	PUNCT	_	_	8	punct	_	AlignBegin=346436|AlignEnd=346466|Gloss=PUNCT
@@ -3197,7 +3184,7 @@
 2	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	AlignBegin=350721|AlignEnd=350821|Gloss=NOM.SG.3
 3	do	do	VERB	_	_	0	root	_	AlignBegin=350821|AlignEnd=350951|Gloss=do
 4	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obj	_	AlignBegin=350951|AlignEnd=351121|Gloss=ACC.SG.1
-5	di	the	DET	_	Definite=Def|PronType=Art	7	det	_	AlignBegin=351121|AlignEnd=351256|Gloss=DEF.ART
+5	di	di	DET	_	Definite=Def|PronType=Art	7	det	_	AlignBegin=351121|AlignEnd=351256|Gloss=DEF.ART
 6	same	same	ADJ	_	_	7	amod	_	AlignBegin=351256|AlignEnd=351491|Gloss=same
 7	ting	ting	NOUN	_	_	3	obj	_	AlignBegin=351491|AlignEnd=351662|Gloss=thing
 8	//	//	PUNCT	_	_	3	punct	_	AlignBegin=351662|AlignEnd=351692|Gloss=PUNCT
@@ -3206,8 +3193,8 @@
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/PRT_05_Ghetto-Life_MG.mp3
 # speaker_id = Sp265
 # text = # I say [ no < # me < # I no go give up dis ting //= me < I go win you //= no be every time >+ you go dey win me //] //
-# text_en = "I said, ""no, I'm not gonna give up on this thing, I will overcome you, you won't be the one to overpower me every time."""
-# text_ortho = "I say ""no, me, I no go give up dis ting, me, I go win you, no be every time, you go dey win me."""
+# text_en = I said, "no, I'm not gonna give up on this thing, I will overcome you, you won't be the one to overpower me every time."
+# text_ortho = I say no, me, I no go give up dis ting, me, I go win you, no be every time you go dey win me.
 1	#	#	PUNCT	_	_	3	punct	_	AlignBegin=351692|AlignEnd=351949|Gloss=PUNCT
 2	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	AlignBegin=351949|AlignEnd=352049|Gloss=NOM.SG.1
 3	say	say	VERB	_	_	0	root	_	AlignBegin=352049|AlignEnd=352219|Gloss=say
@@ -3223,7 +3210,7 @@
 13	go	go	AUX	_	Aspect=Prosp	14	aux	_	AlignBegin=353431|AlignEnd=353551|Gloss=PROSP
 14	give	give	VERB	_	_	3	parataxis	_	AlignBegin=353551|AlignEnd=353751|Gloss=give
 15	up	up	ADP	_	_	14	compound:prt	_	AlignBegin=353751|AlignEnd=353901|Gloss=up
-16	dis	dis	DET	_	Number=Sing|PronType=Dem	17	det	_	AlignBegin=353901|AlignEnd=354071|Gloss=SG.PROX.DEM
+16	dis	dis	DET	_	Number=Sing|PronType=Dem	17	det	_	AlignBegin=353901|AlignEnd=354071|Gloss=SG.DEM
 17	ting	ting	NOUN	_	_	14	obj	_	AlignBegin=354071|AlignEnd=354261|Gloss=thing
 18	//=	//=	PUNCT	_	_	23	punct	_	AlignBegin=354261|AlignEnd=354291|Gloss=PUNCT
 19	me	me	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	23	dislocated	_	AlignBegin=354291|AlignEnd=354341|Gloss=NOM.SG.1
@@ -3254,7 +3241,7 @@
 # text_ortho = From dere, tah we con become professional.
 1	#	#	PUNCT	_	_	10	punct	_	AlignBegin=356431|AlignEnd=356621|Gloss=PUNCT
 2	from	from	ADP	_	_	3	case	_	AlignBegin=356621|AlignEnd=356951|Gloss=from
-3	dere	dere	ADV	_	_	10	advmod	_	AlignBegin=356951|AlignEnd=357430|Gloss=there
+3	dere	dere	ADV	_	_	10	obl:mod	_	AlignBegin=356951|AlignEnd=357430|Gloss=there
 4	<	<	PUNCT	_	_	3	punct	_	AlignBegin=357430|AlignEnd=357460|Gloss=PUNCT
 5	#	#	PUNCT	_	_	3	punct	_	AlignBegin=357460|AlignEnd=357720|Gloss=PUNCT
 6	tah	tah	INTJ	_	_	10	discourse	_	AlignBegin=357720|AlignEnd=358035|Gloss=no
@@ -3262,7 +3249,7 @@
 8	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	nsubj	_	AlignBegin=358235|AlignEnd=358305|Gloss=NOM.PL.1
 9	con	con	AUX	_	Aspect=Cons	10	aux	_	AlignBegin=358305|AlignEnd=358435|Gloss=CONS
 10	become	become	VERB	_	_	0	root	_	AlignBegin=358435|AlignEnd=358715|Gloss=become
-11	professional	professional	ADJ	_	_	10	xcomp	_	AlignBegin=358715|AlignEnd=359310|Gloss=professional
+11	professional	professional	ADJ	_	_	10	xcomp:pred	_	AlignBegin=358715|AlignEnd=359310|Gloss=professional
 12	//	//	PUNCT	_	_	10	punct	_	AlignBegin=359310|AlignEnd=359340|Gloss=PUNCT
 
 # sent_id = PRT_05_Ghetto-Life_MG__168
@@ -3275,7 +3262,7 @@
 2	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	AlignBegin=359900|AlignEnd=360010|Gloss=NOM.SG.1
 3	con	con	AUX	_	Aspect=Cons	4	aux	_	AlignBegin=360010|AlignEnd=360220|Gloss=CONS
 4	dey	dey	VERB	_	VerbType=Cop	0	root	_	AlignBegin=360220|AlignEnd=360380|Gloss=be
-5	win	win	VERB	_	_	4	xcomp	_	AlignBegin=360380|AlignEnd=360570|Gloss=win
+5	win	win	VERB	_	_	4	xcomp:obj	_	AlignBegin=360380|AlignEnd=360570|Gloss=win
 6	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	5	obj	_	AlignBegin=360570|AlignEnd=360660|Gloss=ACC.SG.3
 7	//	//	PUNCT	_	_	4	punct	_	AlignBegin=360660|AlignEnd=360690|Gloss=PUNCT
 
@@ -3288,7 +3275,7 @@
 1	as	as	ADP	_	_	3	mark	_	AlignBegin=360690|AlignEnd=360870|Gloss=as
 2	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	AlignBegin=360870|AlignEnd=360942|Gloss=NOM.SG.1
 3	dey	dey	VERB	_	VerbType=Cop	9	advcl:periph	_	AlignBegin=360942|AlignEnd=361080|Gloss=be
-4	win	win	VERB	_	_	3	xcomp	_	AlignBegin=361080|AlignEnd=361210|Gloss=win
+4	win	win	VERB	_	_	3	xcomp:obj	_	AlignBegin=361080|AlignEnd=361210|Gloss=win
 5	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	4	obj	_	AlignBegin=361210|AlignEnd=361340|Gloss=ACC.SG.3
 6	<	<	PUNCT	_	_	3	punct	_	AlignBegin=361340|AlignEnd=361370|Gloss=PUNCT
 7	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	AlignBegin=361370|AlignEnd=361460|Gloss=NOM.SG.3
@@ -3303,7 +3290,7 @@
 # speaker_id = Sp265
 # text = # im dey give me joy eh //= I dey enjoy am //
 # text_en = It was giving me joy uh... I was enjoying it.
-# text_ortho = Im dey give me joy eh... I dey enjoy am.
+# text_ortho = Im dey give me joy eh, I dey enjoy am.
 1	#	#	PUNCT	_	_	4	punct	_	AlignBegin=362300|AlignEnd=362540|Gloss=PUNCT
 2	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	AlignBegin=362540|AlignEnd=362580|Gloss=NOM.SG.3
 3	dey	dey	AUX	_	Aspect=Imp	4	aux	_	AlignBegin=362580|AlignEnd=362670|Gloss=IPFV
@@ -3323,14 +3310,14 @@
 # speaker_id = Sp265
 # text = mtschew !//
 # text_en = Mstchew!
-# text_ortho = Mstchew!
+# text_ortho = Mtschew!
 1	mtschew	mtschew	INTJ	_	_	0	root	_	AlignBegin=363882|AlignEnd=364020|Gloss=sucking_of_teeth
 2	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=364020|AlignEnd=364050|Gloss=PUNCT
 
 # sent_id = PRT_05_Ghetto-Life_MG__172
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/PRT_05_Ghetto-Life_MG.mp3
 # speaker_id = Sp265
-# text = # but at a time < we con see sey dat ting < nothing come out //
+# text = # but at a time < we con see sey dat ting < nothing come out // 
 # text_en = But at a time, we realised that nothing good was coming out of the experience.
 # text_ortho = But at a time, we con see sey dat ting, nothing come out.
 1	#	#	PUNCT	_	_	9	punct	_	AlignBegin=364050|AlignEnd=364180|Gloss=PUNCT
@@ -3342,12 +3329,12 @@
 7	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	AlignBegin=364728|AlignEnd=364830|Gloss=NOM.PL.1
 8	con	con	AUX	_	Aspect=Cons	9	aux	_	AlignBegin=364830|AlignEnd=364990|Gloss=CONS
 9	see	see	VERB	_	_	0	root	_	AlignBegin=364990|AlignEnd=365154|Gloss=see
-10	sey	sey	SCONJ	_	_	15	mark	_	AlignBegin=365154|AlignEnd=365290|EXTPOS=SCONJ|Gloss=COMP
-11	dat	dat	DET	_	Number=Sing|PronType=Dem	12	det	_	AlignBegin=365290|AlignEnd=365470|EXTPOS=SCONJ|Gloss=SG.DIST.DEM
+10	sey	sey	SCONJ	_	_	15	mark	_	AlignBegin=365154|AlignEnd=365290|Gloss=COMP
+11	dat	dat	DET	_	Number=Sing|PronType=Dem	12	det	_	AlignBegin=365290|AlignEnd=365470|Gloss=SG.DEM
 12	ting	ting	NOUN	_	_	15	dislocated	_	AlignBegin=365470|AlignEnd=365590|Gloss=thing
 13	<	<	PUNCT	_	_	12	punct	_	AlignBegin=365590|AlignEnd=365620|Gloss=PUNCT
 14	nothing	noting	PRON	_	_	15	nsubj	_	AlignBegin=365620|AlignEnd=365870|Gloss=nothing
-15	come	come	VERB	_	_	9	ccomp	_	AlignBegin=365870|AlignEnd=366090|Gloss=come
+15	come	come	VERB	_	_	9	ccomp:obj	_	AlignBegin=365870|AlignEnd=366090|Gloss=come
 16	out	out	ADP	_	_	15	compound:prt	_	AlignBegin=366090|AlignEnd=366270|Gloss=out
 17	//	//	PUNCT	_	_	9	punct	_	AlignBegin=366270|AlignEnd=366300|Gloss=PUNCT
 
@@ -3358,7 +3345,7 @@
 # text_en = When you take the stuff, you will start misbehaving.
 # text_ortho = Di stuff, wen you drink am now, you go go dey do misbehave.
 1	#	#	PUNCT	_	_	13	punct	_	AlignBegin=366300|AlignEnd=366740|Gloss=PUNCT
-2	di	the	DET	_	Definite=Def|PronType=Art	3	det	_	AlignBegin=366740|AlignEnd=366820|Gloss=DEF.ART
+2	di	di	DET	_	Definite=Def|PronType=Art	3	det	_	AlignBegin=366740|AlignEnd=366820|Gloss=DEF.ART
 3	stuff	stuff	NOUN	_	_	13	dislocated	_	AlignBegin=366820|AlignEnd=366970|Gloss=stuff
 4	<	<	PUNCT	_	_	3	punct	_	AlignBegin=366970|AlignEnd=367000|Gloss=PUNCT
 5	wen	when	SCONJ	_	_	7	mark	_	AlignBegin=367000|AlignEnd=367100|Gloss=when
@@ -3372,7 +3359,7 @@
 13	go	go	VERB	_	_	0	root	_	AlignBegin=367907|AlignEnd=368007|Gloss=go
 14	dey	dey	AUX	_	Aspect=Imp	15	aux	_	AlignBegin=368007|AlignEnd=368070|Gloss=IPFV
 15	do	do	VERB	_	_	13	advcl	_	AlignBegin=368070|AlignEnd=368254|Gloss=do
-16	misbehave	misbehave	VERB	_	_	15	xcomp	_	AlignBegin=368254|AlignEnd=368867|Gloss=misbehave
+16	misbehave	misbehave	VERB	_	_	15	xcomp:obj	_	AlignBegin=368254|AlignEnd=368867|Gloss=misbehave
 17	//	//	PUNCT	_	_	13	punct	_	AlignBegin=368867|AlignEnd=368897|Gloss=PUNCT
 
 # sent_id = PRT_05_Ghetto-Life_MG__174
@@ -3394,7 +3381,7 @@
 # text_en = So I stopped taking it.
 # text_ortho = From dere, I come stop am.
 1	from	from	ADP	_	_	2	case	_	AlignBegin=369760|AlignEnd=370010|Gloss=from
-2	dere	dere	ADV	_	_	6	advmod:periph	_	AlignBegin=370010|AlignEnd=370080|Gloss=there
+2	dere	dere	ADV	_	_	6	obl:mod	_	AlignBegin=370010|AlignEnd=370080|Gloss=there
 3	<	<	PUNCT	_	_	2	punct	_	AlignBegin=370080|AlignEnd=370110|Gloss=PUNCT
 4	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	AlignBegin=370110|AlignEnd=370350|Gloss=NOM.SG.1
 5	come	con	AUX	_	Aspect=Cons	6	aux	_	AlignBegin=370350|AlignEnd=370500|Gloss=CONS
@@ -3408,10 +3395,10 @@
 # text = tank God < dat one dey //
 # text_en = Thank God that it happened that way.
 # text_ortho = Tank God, dat one dey.
-1	tank	tank	VERB	_	_	6	parataxis:discourse	_	AlignBegin=370950|AlignEnd=371160|Gloss=tank
+1	tank	tank	VERB	_	_	6	parataxis:discourse	_	AlignBegin=370950|AlignEnd=371160|Gloss=thank
 2	God	God	PROPN	_	_	1	obj	_	AlignBegin=371160|AlignEnd=371290|Gloss=God
 3	<	<	PUNCT	_	_	1	punct	_	AlignBegin=371290|AlignEnd=371320|Gloss=PUNCT
-4	dat	dat	DET	_	Number=Sing|PronType=Dem	5	det	_	AlignBegin=371320|AlignEnd=371489|Gloss=SG.DIST.DEM
+4	dat	dat	DET	_	Number=Sing|PronType=Dem	5	det	_	AlignBegin=371320|AlignEnd=371489|Gloss=SG.DEM
 5	one	one	NOUN	_	_	6	nsubj	_	AlignBegin=371489|AlignEnd=371730|Gloss=one
 6	dey	dey	VERB	_	VerbType=Cop	0	root	_	AlignBegin=371730|AlignEnd=371970|Gloss=be
 7	//	//	PUNCT	_	_	6	punct	_	AlignBegin=371970|AlignEnd=372000|Gloss=PUNCT
@@ -3421,16 +3408,16 @@
 # speaker_id = Sp265
 # text = na im >+ make I join ghetto life //
 # text_en = So that brought me into the ghetto.
-# text_ortho = Na im, make I join ghetto life.
-1	na	na	AUX	_	PartType=Cop	0	root	_	AlignBegin=372000|AlignEnd=372092|EXTPOS=SCONJ|Gloss=be
-2	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	1	fixed	_	AlignBegin=372092|AlignEnd=372160|Gloss=NOM.SG.3
+# text_ortho = Na im make I join ghetto life.
+1	na	na	AUX	_	PartType=Cop	2	cop	_	AlignBegin=372000|AlignEnd=372092|EXTPOS=SCONJ|Gloss=be
+2	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	0	root	_	AlignBegin=372092|AlignEnd=372160|Gloss=NOM.SG.3
 3	>+	>+	PUNCT	_	_	6	punct	_	AlignBegin=372160|AlignEnd=372190|Gloss=PUNCT
 4	make	make	AUX	_	Mood=Opt	6	aux	_	AlignBegin=372190|AlignEnd=372411|Gloss=SBJV
 5	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	AlignBegin=372411|AlignEnd=372535|Gloss=NOM.SG.1
-6	join	join	VERB	_	_	1	advcl:cleft	_	AlignBegin=372535|AlignEnd=372734|Gloss=join
+6	join	join	VERB	_	_	2	advcl:cleft	_	AlignBegin=372535|AlignEnd=372734|Gloss=join
 7	ghetto	ghetto	NOUN	_	_	8	compound	_	AlignBegin=372734|AlignEnd=372990|Gloss=ghetto
 8	life	life	NOUN	_	_	6	obj	_	AlignBegin=372990|AlignEnd=373336|Gloss=life
-9	//	//	PUNCT	_	_	1	punct	_	AlignBegin=373336|AlignEnd=373366|Gloss=PUNCT
+9	//	//	PUNCT	_	_	2	punct	_	AlignBegin=373336|AlignEnd=373366|Gloss=PUNCT
 
 # sent_id = PRT_05_Ghetto-Life_MG__178
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/PRT_05_Ghetto-Life_MG.mp3

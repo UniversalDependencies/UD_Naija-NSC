@@ -1,3 +1,4 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = KAD_10_Egusi-Soup_MG__1
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/KAD_10_Egusi-Soup_MG.mp3
 # speaker_id = Sp177
@@ -6,7 +7,7 @@
 # text_ortho = Ehen di method wey e take cook egusi, na two.
 1	ehen	ehen	INTJ	_	_	13	discourse	_	AlignBegin=1000|AlignEnd=1680|Gloss=ehen
 2	#	#	PUNCT	_	_	13	punct	_	AlignBegin=1680|AlignEnd=2140|Gloss=PUNCT
-3	di	the	DET	_	Definite=Def|PronType=Art	4	det	_	AlignBegin=2140|AlignEnd=2730|Gloss=DEF.ART
+3	di	di	DET	_	Definite=Def|PronType=Art	4	det	_	AlignBegin=2140|AlignEnd=2730|Gloss=DEF.ART
 4	method	method	NOUN	_	_	13	dislocated	_	AlignBegin=2730|AlignEnd=3200|Gloss=method
 5	wey	wey	SCONJ	_	_	7	mark	_	AlignBegin=3200|AlignEnd=3417|Gloss=REL
 6	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	AlignBegin=3417|AlignEnd=3520|Gloss=NOM.SG.3
@@ -24,7 +25,7 @@
 # speaker_id = Sp177
 # text = # { step one |c # method one } < # na im >+ be dis //
 # text_en = Step one, method one, is this.
-# text_ortho = Step one, method one, na im, be dis.
+# text_ortho = Step one, method one, na im be dis.
 1	#	#	PUNCT	_	_	12	punct	_	AlignBegin=6300|AlignEnd=7380|Gloss=PUNCT
 2	{	{	PUNCT	_	_	3	punct	_	AlignBegin=7350|AlignEnd=7380|Gloss=PUNCT
 3	step	step	NOUN	_	_	12	dislocated	_	AlignBegin=7380|AlignEnd=7710|Gloss=step
@@ -37,23 +38,23 @@
 10	<	<	PUNCT	_	_	3	punct	_	AlignBegin=8930|AlignEnd=8960|Gloss=PUNCT
 11	#	#	PUNCT	_	_	12	punct	_	AlignBegin=8960|AlignEnd=9640|Gloss=PUNCT
 12	na	na	AUX	_	PartType=Cop	0	root	_	AlignBegin=9640|AlignEnd=9710|EXTPOS=SCONJ|Gloss=be
-13	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	12	fixed	_	AlignBegin=9710|AlignEnd=9750|Gloss=NOM.SG.3
+13	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	12	dep	_	AlignBegin=9710|AlignEnd=9750|Gloss=NOM.SG.3
 14	>+	>+	PUNCT	_	_	15	punct	_	AlignBegin=9750|AlignEnd=9780|Gloss=PUNCT
 15	be	be	VERB	_	PartType=Cop	12	advcl:cleft	_	AlignBegin=9780|AlignEnd=9906|Gloss=be
-16	dis	dis	PRON	_	Number=Sing|PronType=Dem	15	dep	_	AlignBegin=9906|AlignEnd=10270|Gloss=SG.DEM
+16	dis	dis	PRON	_	Number=Sing|PronType=Dem	15	dep:comp	_	AlignBegin=9906|AlignEnd=10270|Gloss=SG.DEM
 17	//	//	PUNCT	_	_	12	punct	_	AlignBegin=10270|AlignEnd=10300|Gloss=PUNCT
 
 # sent_id = KAD_10_Egusi-Soup_MG__3
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/KAD_10_Egusi-Soup_MG.mp3
 # speaker_id = Sp177
-# text = # { you go f- || # you go } don grind your pe- //
-# text_en = You will f-... you'll have ground your pe-...
-# text_ortho = You go f-... you go don grind your pe-…
+# text = # { you go f~ || # you go } don grind your pe~ //
+# text_en = You will f~... you'll have ground your pe~...
+# text_ortho = You go f~... you go don grind your pe~...
 1	#	#	PUNCT	_	_	4	punct	_	AlignBegin=10300|AlignEnd=11180|Gloss=PUNCT
 2	{	{	PUNCT	_	_	4	punct	_	AlignBegin=11150|AlignEnd=11180|Gloss=PUNCT
 3	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	AlignBegin=11180|AlignEnd=11275|Gloss=NOM.2
 4	go	go	AUX	_	Aspect=Prosp	0	root	_	AlignBegin=11275|AlignEnd=11622|Gloss=PROSP
-5	f-	X	X	_	_	4	obl:mod	_	AlignBegin=11622|AlignEnd=11806|Gloss=X
+5	f~	X	X	_	_	4	obl:mod	_	AlignBegin=11622|AlignEnd=11806|Gloss=X
 6	||	||	PUNCT	_	_	12	punct	_	AlignBegin=11806|AlignEnd=12004|Gloss=PUNCT
 7	#	#	PUNCT	_	_	12	punct	_	AlignBegin=12004|AlignEnd=12350|Gloss=PUNCT
 8	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	12	nsubj	_	AlignBegin=12350|AlignEnd=12420|Gloss=NOM.2
@@ -62,7 +63,7 @@
 11	don	don	AUX	_	Aspect=Perf	12	aux	_	AlignBegin=12530|AlignEnd=12750|Gloss=PRF
 12	grind	grind	VERB	_	_	4	conj:dicto	_	AlignBegin=12750|AlignEnd=13100|Gloss=grind
 13	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	14	amod	_	AlignBegin=13100|AlignEnd=13170|Gloss=PL.2.POSS
-14	pe-	X	X	_	_	12	obj	_	AlignBegin=13170|AlignEnd=13270|Gloss=X
+14	pe~	X	X	_	_	12	obj	_	AlignBegin=13170|AlignEnd=13270|Gloss=X
 15	//	//	PUNCT	_	_	4	punct	_	AlignBegin=13270|AlignEnd=13300|Gloss=PUNCT
 
 # sent_id = KAD_10_Egusi-Soup_MG__4
@@ -99,14 +100,14 @@
 # text_en = Now, the pepper is kept to the side.
 # text_ortho = Di pepper now, e dey one side.
 1	#	#	PUNCT	_	_	7	punct	_	AlignBegin=16550|AlignEnd=16940|Gloss=PUNCT
-2	di	the	DET	_	Definite=Def|PronType=Art	3	det	_	AlignBegin=16940|AlignEnd=17010|Gloss=DEF.ART
+2	di	di	DET	_	Definite=Def|PronType=Art	3	det	_	AlignBegin=16940|AlignEnd=17010|Gloss=DEF.ART
 3	pepper	pepper	NOUN	_	_	7	dislocated	_	AlignBegin=17010|AlignEnd=17268|Gloss=pepper
 4	now	now	ADV	_	_	3	advmod:emph	_	AlignBegin=17268|AlignEnd=17592|Gloss=now
 5	<	<	PUNCT	_	_	3	punct	_	AlignBegin=17592|AlignEnd=17622|Gloss=PUNCT
 6	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	AlignBegin=17622|AlignEnd=17773|Gloss=NOM.SG.3
 7	dey	dey	VERB	_	VerbType=Cop	0	root	_	AlignBegin=17773|AlignEnd=17875|Gloss=be
 8	one	one	NUM	_	NumType=Card	9	nummod:det	_	AlignBegin=17875|AlignEnd=18068|Gloss=one
-9	side	side	NOUN	_	_	7	xcomp	_	AlignBegin=18068|AlignEnd=18512|Gloss=side
+9	side	side	NOUN	_	_	7	xcomp:pred	_	AlignBegin=18068|AlignEnd=18512|Gloss=side
 10	//	//	PUNCT	_	_	7	punct	_	AlignBegin=18512|AlignEnd=18542|Gloss=PUNCT
 
 # sent_id = KAD_10_Egusi-Soup_MG__7
@@ -147,7 +148,7 @@
 9	already	already	ADV	_	_	11	advmod	_	AlignBegin=23439|AlignEnd=24000|Gloss=already
 10	#	#	PUNCT	_	_	11	punct	_	AlignBegin=24000|AlignEnd=24460|Gloss=PUNCT
 11	crumble	crumble	VERB	_	_	4	parataxis:parenth	_	AlignBegin=24460|AlignEnd=25260|Gloss=crumble
-12	di	the	DET	_	Definite=Def|PronType=Art	13	det	_	AlignBegin=25260|AlignEnd=25350|Gloss=DEF.ART
+12	di	di	DET	_	Definite=Def|PronType=Art	13	det	_	AlignBegin=25260|AlignEnd=25350|Gloss=DEF.ART
 13	maggi	maggi	NOUN	_	_	11	obj	_	AlignBegin=25350|AlignEnd=25700|Gloss=Maggi_cube
 14	)	)	PUNCT	_	_	11	punct	_	AlignBegin=25700|AlignEnd=25730|Gloss=PUNCT
 15	<	<	PUNCT	_	_	4	punct	_	AlignBegin=25700|AlignEnd=25730|Gloss=PUNCT
@@ -160,7 +161,7 @@
 # speaker_id = Sp177
 # text = # den you go # ( on your gas ) # { put am for fire || put your pot for fire } //
 # text_en = Then you will (on your stove), put it on the burner... put your pot on the burner.
-# text_ortho = Den you go (on your gas) put am for fire put your pot for fire.
+# text_ortho = Den you go (on your gas) put am for fire, put your pot for fire.
 1	#	#	PUNCT	_	_	13	punct	_	AlignBegin=26280|AlignEnd=27120|Gloss=PUNCT
 2	den	den	ADV	_	_	13	advmod:periph	_	AlignBegin=27120|AlignEnd=27300|Gloss=den
 3	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	13	nsubj	_	AlignBegin=27300|AlignEnd=27462|Gloss=NOM.2
@@ -191,7 +192,7 @@
 # speaker_id = Sp177
 # text = # if you put your pot for fire < eh you add up red oil //
 # text_en = When you have set your pot on the burner, uh... pour in palm oil.
-# text_ortho = If you put your pot for fire, eh... you add up red oil.
+# text_ortho = If you put your pot for fire, eh you add up red oil.
 1	#	#	PUNCT	_	_	12	punct	_	AlignBegin=31820|AlignEnd=32430|Gloss=PUNCT
 2	if	if	SCONJ	_	_	4	mark	_	AlignBegin=32430|AlignEnd=32450|Gloss=if
 3	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	AlignBegin=32450|AlignEnd=32480|Gloss=NOM.2
@@ -214,7 +215,7 @@
 # speaker_id = Sp177
 # text = # if you add red oil //= { you go allow am || # mtschew # go allow am } hot small //
 # text_en = When you've poured in palm oil, you will let it mstchew... let it heat up a little.
-# text_ortho = If you add red oil, you go allow am mstchew... go allow am hot small.
+# text_ortho = If you add red oil, you go allow am, mtschew go allow am hot small.
 1	#	#	PUNCT	_	_	11	punct	_	AlignBegin=34420|AlignEnd=35000|Gloss=PUNCT
 2	if	if	SCONJ	_	_	4	mark	_	AlignBegin=35000|AlignEnd=35030|Gloss=if
 3	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	AlignBegin=35030|AlignEnd=35060|Gloss=NOM.2
@@ -235,7 +236,7 @@
 18	allow	allow	VERB	_	_	11	conj:dicto	_	AlignBegin=37931|AlignEnd=38149|Gloss=allow
 19	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	18	obj	_	AlignBegin=38149|AlignEnd=38220|Gloss=ACC.SG.3
 20	}	}	PUNCT	_	_	11	punct	_	AlignBegin=38220|AlignEnd=38232|Gloss=PUNCT
-21	hot	hot	ADJ	_	_	18	xcomp	_	AlignBegin=38232|AlignEnd=38474|Gloss=hot
+21	hot	hot	ADJ	_	_	18	xcomp:pred	_	AlignBegin=38232|AlignEnd=38474|Gloss=hot
 22	small	small	ADJ	_	_	21	amod	_	AlignBegin=38474|AlignEnd=38978|Gloss=small
 23	//	//	PUNCT	_	_	11	punct	_	AlignBegin=38978|AlignEnd=39034|Gloss=PUNCT
 
@@ -285,56 +286,52 @@
 # sent_id = KAD_10_Egusi-Soup_MG__14
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/KAD_10_Egusi-Soup_MG.mp3
 # speaker_id = Sp177
-# text = # [eng if you pour your pepper < you stir eng] //
+# text = # if you pour your pepper < you stir //
 # text_en = When you have poured in your pepper, stir it.
-# text_ortho = If you pour your pepper, you stir .
-1	#	#	PUNCT	_	_	10	punct	_	AlignBegin=44480|AlignEnd=44936|Gloss=PUNCT
-2	[eng	[eng	PUNCT	_	_	10	punct	_	AlignBegin=44480|AlignEnd=44936|Gloss=PUNCT
-3	if	if	SCONJ	_	_	5	mark	_	AlignBegin=44936|AlignEnd=45090|Gloss=if
-4	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	AlignBegin=45090|AlignEnd=45150|Gloss=NOM.2
-5	pour	pour	VERB	_	_	10	advcl:periph	_	AlignBegin=45150|AlignEnd=45287|Gloss=pour
-6	your	your	PRON	_	Number=Plur|Person=2|Poss=Yes	7	nmod:poss	_	AlignBegin=45287|AlignEnd=45390|Gloss=PL.2.POSS
-7	pepper	pepper	NOUN	_	_	5	obj	_	AlignBegin=45390|AlignEnd=45651|Gloss=pepper
-8	<	<	PUNCT	_	_	5	punct	_	AlignBegin=45651|AlignEnd=45681|Gloss=PUNCT
-9	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	10	nsubj	_	AlignBegin=45681|AlignEnd=45806|Gloss=NOM.2
-10	stir	stir	VERB	_	_	0	root	_	AlignBegin=45806|AlignEnd=46345|Gloss=stir
-11	eng]	eng]	PUNCT	_	_	10	punct	_	AlignBegin=46345|AlignEnd=46375|Gloss=PUNCT
-12	//	//	PUNCT	_	_	10	punct	_	AlignBegin=46345|AlignEnd=46375|Gloss=PUNCT
+# text_ortho = If you pour your pepper, you stir.
+1	#	#	PUNCT	_	_	9	punct	_	AlignBegin=44480|AlignEnd=44936|Gloss=PUNCT
+2	if	if	SCONJ	_	_	4	mark	_	AlignBegin=44936|AlignEnd=45090|Gloss=if|Lang=en
+3	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	AlignBegin=45090|AlignEnd=45150|Gloss=NOM.2|Lang=en
+4	pour	pour	VERB	_	_	9	advcl:periph	_	AlignBegin=45150|AlignEnd=45287|Gloss=pour|Lang=en
+5	your	your	PRON	_	Number=Plur|Person=2|Poss=Yes	6	nmod:poss	_	AlignBegin=45287|AlignEnd=45390|Gloss=PL.2.POSS|Lang=en
+6	pepper	pepper	NOUN	_	_	4	obj	_	AlignBegin=45390|AlignEnd=45651|Gloss=pepper|Lang=en
+7	<	<	PUNCT	_	_	4	punct	_	AlignBegin=45651|AlignEnd=45681|Gloss=PUNCT
+8	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	9	nsubj	_	AlignBegin=45681|AlignEnd=45806|Gloss=NOM.2|Lang=en
+9	stir	stir	VERB	_	_	0	root	_	AlignBegin=45806|AlignEnd=46345|Gloss=stir|Lang=en
+10	//	//	PUNCT	_	_	9	punct	_	AlignBegin=46345|AlignEnd=46375|Gloss=PUNCT
 
 # sent_id = KAD_10_Egusi-Soup_MG__15
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/KAD_10_Egusi-Soup_MG.mp3
 # speaker_id = Sp177
-# text = # [eng after you stir eng] < # you go con { pour water |c # put your maggi |c put your fish |c put everything } //
+# text = # after you stir < # you go con { pour water |c # put your maggi |c put your fish |c put everything } //
 # text_en = After stirring, then you'll pour in water, add your Maggi, add your fish, put in everything.
-# text_ortho = After you stir , you go con pour water, put your maggi, put your fish, put everything.
-1	#	#	PUNCT	_	_	13	punct	_	AlignBegin=46375|AlignEnd=46625|Gloss=PUNCT
-2	[eng	[eng	PUNCT	_	_	5	punct	_	AlignBegin=46375|AlignEnd=46625|Gloss=PUNCT
-3	after	after	ADP	_	_	5	mark	_	AlignBegin=46625|AlignEnd=46865|Gloss=after
-4	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	AlignBegin=46865|AlignEnd=46985|Gloss=NOM.2
-5	stir	stir	VERB	_	_	13	advcl:periph	_	AlignBegin=46985|AlignEnd=47425|Gloss=stir
-6	eng]	eng]	PUNCT	_	_	5	punct	_	AlignBegin=47425|AlignEnd=47455|Gloss=PUNCT
-7	<	<	PUNCT	_	_	5	punct	_	AlignBegin=47425|AlignEnd=47455|Gloss=PUNCT
-8	#	#	PUNCT	_	_	5	punct	_	AlignBegin=47455|AlignEnd=48415|Gloss=PUNCT
-9	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	13	nsubj	_	AlignBegin=48415|AlignEnd=48515|Gloss=NOM.2
-10	go	go	AUX	_	Aspect=Prosp	13	aux	_	AlignBegin=48515|AlignEnd=48608|Gloss=PROSP
-11	con	con	AUX	_	Aspect=Cons	13	aux	_	AlignBegin=48608|AlignEnd=48809|Gloss=CONS
-12	{	{	PUNCT	_	_	13	punct	_	AlignBegin=48809|AlignEnd=48839|Gloss=PUNCT
-13	pour	pour	VERB	_	_	0	root	_	AlignBegin=48839|AlignEnd=49025|Gloss=pour
-14	water	water	NOUN	_	_	13	obj	_	AlignBegin=49025|AlignEnd=49510|Gloss=water
-15	|c	|c	PUNCT	_	_	17	punct	_	AlignBegin=49510|AlignEnd=49540|Gloss=PUNCT
-16	#	#	PUNCT	_	_	17	punct	_	AlignBegin=49540|AlignEnd=50610|Gloss=PUNCT
-17	put	put	VERB	_	_	13	conj	_	AlignBegin=50610|AlignEnd=50770|Gloss=put
-18	your	your	PRON	_	Number=Plur|Person=2|Poss=Yes	19	nmod:poss	_	AlignBegin=50770|AlignEnd=50972|Gloss=PL.2.POSS
-19	maggi	maggi	NOUN	_	_	17	obj	_	AlignBegin=50972|AlignEnd=51647|Gloss=Maggi_cube
-20	|c	|c	PUNCT	_	_	21	punct	_	AlignBegin=51647|AlignEnd=51677|Gloss=PUNCT
-21	put	put	VERB	_	_	13	conj	_	AlignBegin=51677|AlignEnd=51862|Gloss=put
-22	your	your	PRON	_	Number=Plur|Person=2|Poss=Yes	23	nmod:poss	_	AlignBegin=51862|AlignEnd=52092|Gloss=PL.2.POSS
-23	fish	fish	NOUN	_	_	21	obj	_	AlignBegin=52092|AlignEnd=52754|Gloss=fish
-24	|c	|c	PUNCT	_	_	25	punct	_	AlignBegin=52754|AlignEnd=52994|Gloss=PUNCT
-25	put	put	VERB	_	_	13	conj	_	AlignBegin=52754|AlignEnd=52994|Gloss=put
-26	everything	everything	PRON	_	_	25	obj	_	AlignBegin=52994|AlignEnd=53657|Gloss=everything
-27	}	}	PUNCT	_	_	13	punct	_	AlignBegin=53657|AlignEnd=53690|Gloss=PUNCT
-28	//	//	PUNCT	_	_	13	punct	_	AlignBegin=53657|AlignEnd=53690|Gloss=PUNCT
+# text_ortho = After you stir, you go con pour water, put your maggi, put your fish, put everything.
+1	#	#	PUNCT	_	_	11	punct	_	AlignBegin=46375|AlignEnd=46625|Gloss=PUNCT
+2	after	after	ADP	_	_	4	mark	_	AlignBegin=46625|AlignEnd=46865|Gloss=after|Lang=en
+3	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	AlignBegin=46865|AlignEnd=46985|Gloss=NOM.2|Lang=en
+4	stir	stir	VERB	_	_	11	advcl:periph	_	AlignBegin=46985|AlignEnd=47425|Gloss=stir|Lang=en
+5	<	<	PUNCT	_	_	4	punct	_	AlignBegin=47425|AlignEnd=47455|Gloss=PUNCT
+6	#	#	PUNCT	_	_	4	punct	_	AlignBegin=47455|AlignEnd=48415|Gloss=PUNCT
+7	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	11	nsubj	_	AlignBegin=48415|AlignEnd=48515|Gloss=NOM.2
+8	go	go	AUX	_	Aspect=Prosp	11	aux	_	AlignBegin=48515|AlignEnd=48608|Gloss=PROSP
+9	con	con	AUX	_	Aspect=Cons	11	aux	_	AlignBegin=48608|AlignEnd=48809|Gloss=CONS
+10	{	{	PUNCT	_	_	11	punct	_	AlignBegin=48809|AlignEnd=48839|Gloss=PUNCT
+11	pour	pour	VERB	_	_	0	root	_	AlignBegin=48839|AlignEnd=49025|Gloss=pour
+12	water	water	NOUN	_	_	11	obj	_	AlignBegin=49025|AlignEnd=49510|Gloss=water
+13	|c	|c	PUNCT	_	_	15	punct	_	AlignBegin=49510|AlignEnd=49540|Gloss=PUNCT
+14	#	#	PUNCT	_	_	15	punct	_	AlignBegin=49540|AlignEnd=50610|Gloss=PUNCT
+15	put	put	VERB	_	_	11	conj	_	AlignBegin=50610|AlignEnd=50770|Gloss=put
+16	your	your	PRON	_	Number=Plur|Person=2|Poss=Yes	17	nmod:poss	_	AlignBegin=50770|AlignEnd=50972|Gloss=PL.2.POSS
+17	maggi	maggi	NOUN	_	_	15	obj	_	AlignBegin=50972|AlignEnd=51647|Gloss=Maggi_cube
+18	|c	|c	PUNCT	_	_	19	punct	_	AlignBegin=51647|AlignEnd=51677|Gloss=PUNCT
+19	put	put	VERB	_	_	11	conj	_	AlignBegin=51677|AlignEnd=51862|Gloss=put
+20	your	your	PRON	_	Number=Plur|Person=2|Poss=Yes	21	nmod:poss	_	AlignBegin=51862|AlignEnd=52092|Gloss=PL.2.POSS
+21	fish	fish	NOUN	_	_	19	obj	_	AlignBegin=52092|AlignEnd=52754|Gloss=fish
+22	|c	|c	PUNCT	_	_	23	punct	_	AlignBegin=52754|AlignEnd=52994|Gloss=PUNCT
+23	put	put	VERB	_	_	11	conj	_	AlignBegin=52754|AlignEnd=52994|Gloss=put
+24	everything	everyting	PRON	_	_	23	obj	_	AlignBegin=52994|AlignEnd=53657|Gloss=everything
+25	}	}	PUNCT	_	_	11	punct	_	AlignBegin=53657|AlignEnd=53690|Gloss=PUNCT
+26	//	//	PUNCT	_	_	11	punct	_	AlignBegin=53657|AlignEnd=53690|Gloss=PUNCT
 
 # sent_id = KAD_10_Egusi-Soup_MG__16
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/KAD_10_Egusi-Soup_MG.mp3
@@ -346,7 +343,7 @@
 2	put	put	VERB	_	_	0	root	_	AlignBegin=54200|AlignEnd=54270|Gloss=put
 3	your	your	PRON	_	Number=Plur|Person=2|Poss=Yes	4	nmod:poss	_	AlignBegin=54270|AlignEnd=54380|Gloss=PL.2.POSS
 4	okporoko	okporoko	NOUN	_	_	2	obj	_	AlignBegin=54380|AlignEnd=54896|Gloss=dried_fish
-5	dem	dem	PART	_	Number=Plur|PronType=Art	4	advmod	_	AlignBegin=54896|AlignEnd=55150|Gloss=PL
+5	dem	dem	PART	_	Number=Plur	4	advmod	_	AlignBegin=54896|AlignEnd=55150|Gloss=PL
 6	//	//	PUNCT	_	_	2	punct	_	AlignBegin=55150|AlignEnd=55180|Gloss=PUNCT
 
 # sent_id = KAD_10_Egusi-Soup_MG__17
@@ -408,7 +405,7 @@
 # text_en = The egusi you have already ground and put aside, you will add it.
 # text_ortho = Di egusi you don already grind keep, you go con put am.
 1	#	#	PUNCT	_	_	14	punct	_	AlignBegin=61870|AlignEnd=62750|Gloss=PUNCT
-2	di	the	DET	_	Definite=Def|PronType=Art	3	det	_	AlignBegin=62750|AlignEnd=62847|Gloss=DEF.ART
+2	di	di	DET	_	Definite=Def|PronType=Art	3	det	_	AlignBegin=62750|AlignEnd=62847|Gloss=DEF.ART
 3	egusi	egusi	NOUN	_	_	14	dislocated	_	AlignBegin=62847|AlignEnd=63130|Gloss=melon_seed
 4	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	7	nsubj	_	AlignBegin=63130|AlignEnd=63220|Gloss=NOM.2
 5	don	don	AUX	_	Aspect=Perf	7	aux	_	AlignBegin=63220|AlignEnd=63340|Gloss=PRF
@@ -429,7 +426,7 @@
 # speaker_id = Sp177
 # text = # but { if e get || # if you wan } make e do { seed |r seed } < # you go like press am //
 # text_en = But if it has... if you want it be lumpy, you will do something like press it.
-# text_ortho = But if e get... if you wan make e do seed, seed, you go like press am.
+# text_ortho = But if e get, if you wan make e do seed, seed, you go like press am.
 1	#	#	PUNCT	_	_	26	punct	_	AlignBegin=65780|AlignEnd=66580|Gloss=PUNCT
 2	but	but	CCONJ	_	_	26	cc	_	AlignBegin=66580|AlignEnd=66700|Gloss=but
 3	{	{	PUNCT	_	_	6	punct	_	AlignBegin=66580|AlignEnd=66700|Gloss=PUNCT
@@ -444,7 +441,7 @@
 12	}	}	PUNCT	_	_	6	punct	_	AlignBegin=67850|AlignEnd=67880|Gloss=PUNCT
 13	make	make	AUX	_	Mood=Opt	15	aux	_	AlignBegin=67880|AlignEnd=68090|Gloss=SBJV
 14	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	AlignBegin=68090|AlignEnd=68140|Gloss=NOM.SG.3
-15	do	do	VERB	_	_	11	ccomp	_	AlignBegin=68140|AlignEnd=68290|Gloss=do
+15	do	do	VERB	_	_	11	ccomp:pred	_	AlignBegin=68140|AlignEnd=68290|Gloss=do
 16	{	{	PUNCT	_	_	17	punct	_	AlignBegin=68290|AlignEnd=68320|Gloss=PUNCT
 17	seed	seed	NOUN	_	_	15	obj:lvc	_	AlignBegin=68320|AlignEnd=68600|Gloss=seed
 18	|r	|r	PUNCT	_	_	19	punct	_	AlignBegin=68600|AlignEnd=68630|Gloss=PUNCT
@@ -467,10 +464,10 @@
 # text_ortho = Press di egusi so dat oil go comot!
 1	#	#	PUNCT	_	_	2	punct	_	AlignBegin=70530|AlignEnd=70780|Gloss=PUNCT
 2	press	press	VERB	_	_	0	root	_	AlignBegin=70780|AlignEnd=70950|Gloss=press
-3	di	the	DET	_	Definite=Def|PronType=Art	4	det	_	AlignBegin=70950|AlignEnd=71088|Gloss=DEF.ART
+3	di	di	DET	_	Definite=Def|PronType=Art	4	det	_	AlignBegin=70950|AlignEnd=71088|Gloss=DEF.ART
 4	egusi	egusi	NOUN	_	_	2	obj	_	AlignBegin=71088|AlignEnd=71604|Gloss=melon_seed
 5	so	so	SCONJ	_	_	9	mark	_	AlignBegin=71604|AlignEnd=71780|EXTPOS=SCONJ|Gloss=so
-6	dat	dat	PRON	_	Number=Sing|PronType=Dem	5	fixed	_	AlignBegin=71780|AlignEnd=71900|Gloss=SG.DIST.DEM
+6	dat	dat	PRON	_	Number=Sing|PronType=Dem	9	dep	_	AlignBegin=71780|AlignEnd=71900|Gloss=SG.DEM
 7	oil	oil	NOUN	_	_	9	nsubj	_	AlignBegin=71900|AlignEnd=72140|Gloss=oil
 8	go	go	AUX	_	Aspect=Prosp	9	aux	_	AlignBegin=72140|AlignEnd=72260|Gloss=PROSP
 9	comot	comot	VERB	_	_	2	advcl	_	AlignBegin=72260|AlignEnd=72770|Gloss=get_out
@@ -492,21 +489,21 @@
 8	go	go	AUX	_	Aspect=Prosp	9	aux	_	AlignBegin=74055|AlignEnd=74157|Gloss=PROSP
 9	start	start	VERB	_	_	0	root	_	AlignBegin=74157|AlignEnd=74340|Gloss=start
 10	dey	dey	AUX	_	Aspect=Imp	11	aux	_	AlignBegin=74340|AlignEnd=74430|Gloss=IPFV
-11	put	put	VERB	_	_	9	ccomp	_	AlignBegin=74430|AlignEnd=74680|Gloss=put
+11	put	put	VERB	_	_	9	ccomp:pred	_	AlignBegin=74430|AlignEnd=74680|Gloss=put
 12	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	11	obj	_	AlignBegin=74680|AlignEnd=74800|Gloss=ACC.SG.3
 13	for	for	ADP	_	_	15	case	_	AlignBegin=74800|AlignEnd=74940|Gloss=for
-14	di	the	DET	_	Definite=Def|PronType=Art	15	det	_	AlignBegin=74940|AlignEnd=75050|Gloss=DEF.ART
+14	di	di	DET	_	Definite=Def|PronType=Art	15	det	_	AlignBegin=74940|AlignEnd=75050|Gloss=DEF.ART
 15	soup	soup	NOUN	_	_	11	obl:arg	_	AlignBegin=75050|AlignEnd=75500|Gloss=soup
 16	#	#	PUNCT	_	_	22	punct	_	AlignBegin=75500|AlignEnd=76010|Gloss=PUNCT
 17	like	like	ADP	_	_	22	mark	_	AlignBegin=76010|AlignEnd=76198|EXTPOS=SCONJ|Gloss=like
-18	sey	sey	SCONJ	_	_	17	fixed	_	AlignBegin=76198|AlignEnd=76410|Gloss=COMP
+18	sey	sey	SCONJ	_	_	22	dep	_	AlignBegin=76198|AlignEnd=76410|Gloss=COMP
 19	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	22	nsubj	_	AlignBegin=76410|AlignEnd=76544|Gloss=NOM.2
 20	dey	dey	AUX	_	Aspect=Imp	22	aux	_	AlignBegin=76544|AlignEnd=77130|Gloss=IPFV
 21	#	#	PUNCT	_	_	22	punct	_	AlignBegin=77130|AlignEnd=77430|Gloss=PUNCT
 22	make	make	VERB	_	_	11	advcl	_	AlignBegin=77430|AlignEnd=77598|Gloss=make
 23	crumbles	crumble	NOUN	_	Number=Plur	22	obj	_	AlignBegin=77598|AlignEnd=78270|Gloss=crumble.PL
 24	inside	inside	ADP	_	_	26	case	_	AlignBegin=78270|AlignEnd=78560|Gloss=inside
-25	di	the	DET	_	Definite=Def|PronType=Art	26	det	_	AlignBegin=78560|AlignEnd=78660|Gloss=DEF.ART
+25	di	di	DET	_	Definite=Def|PronType=Art	26	det	_	AlignBegin=78560|AlignEnd=78660|Gloss=DEF.ART
 26	soup	soup	NOUN	_	_	22	obl:arg	_	AlignBegin=78660|AlignEnd=78935|Gloss=soup
 27	like	like	ADP	_	_	28	case	_	AlignBegin=78935|AlignEnd=79170|Gloss=like
 28	dat	dat	PRON	_	Number=Sing|PronType=Dem	22	obl:mod	_	AlignBegin=79170|AlignEnd=79373|Gloss=SG.DEM
@@ -525,7 +522,7 @@
 5	put	put	VERB	_	_	14	advcl:periph	_	AlignBegin=79940|AlignEnd=80060|Gloss=put
 6	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	5	obj	_	AlignBegin=80060|AlignEnd=80130|Gloss=ACC.SG.3
 7	inside	inside	ADP	_	_	9	case	_	AlignBegin=80130|AlignEnd=80380|Gloss=inside
-8	di	the	DET	_	Definite=Def|PronType=Art	9	det	_	AlignBegin=80380|AlignEnd=80500|Gloss=DEF.ART
+8	di	di	DET	_	Definite=Def|PronType=Art	9	det	_	AlignBegin=80380|AlignEnd=80500|Gloss=DEF.ART
 9	soup	soup	NOUN	_	_	5	obl:arg	_	AlignBegin=80500|AlignEnd=80790|Gloss=soup
 10	like	like	ADP	_	_	11	case	_	AlignBegin=80790|AlignEnd=80920|Gloss=like
 11	dat	dat	PRON	_	Number=Sing|PronType=Dem	5	obl:mod	_	AlignBegin=80920|AlignEnd=81070|Gloss=SG.DEM
@@ -584,8 +581,8 @@
 9	just	just	ADV	_	_	10	advmod	_	AlignBegin=89320|AlignEnd=89470|Gloss=just
 10	put	put	VERB	_	_	0	root	_	AlignBegin=89470|AlignEnd=89720|Gloss=put
 11	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	10	obj	_	AlignBegin=89720|AlignEnd=89840|Gloss=ACC.SG.3
-12	on	on	ADP	_	_	10	dep	_	AlignBegin=89840|AlignEnd=89910|EXTPOS=ADP|Gloss=on
-13	top	top	NOUN	_	_	12	fixed	_	AlignBegin=89910|AlignEnd=90210|Gloss=top
+12	on	on	ADP	_	_	10	dep:comp	_	AlignBegin=89840|AlignEnd=89910|EXTPOS=ADP|Gloss=on
+13	top	top	NOUN	_	_	12	dep	_	AlignBegin=89910|AlignEnd=90210|Gloss=top
 14	//	//	PUNCT	_	_	10	punct	_	AlignBegin=90210|AlignEnd=90240|Gloss=PUNCT
 
 # sent_id = KAD_10_Egusi-Soup_MG__27
@@ -613,7 +610,7 @@
 # text_en = The egusi sauce, it is ready.
 # text_ortho = Di egusi soup, e don ready.
 1	#	#	PUNCT	_	_	8	punct	_	AlignBegin=92970|AlignEnd=93840|Gloss=PUNCT
-2	di	the	DET	_	Definite=Def|PronType=Art	4	det	_	AlignBegin=93840|AlignEnd=93904|Gloss=DEF.ART
+2	di	di	DET	_	Definite=Def|PronType=Art	4	det	_	AlignBegin=93840|AlignEnd=93904|Gloss=DEF.ART
 3	egusi	egusi	NOUN	_	_	4	compound	_	AlignBegin=93904|AlignEnd=94240|Gloss=melon_seed
 4	soup	soup	NOUN	_	_	8	dislocated	_	AlignBegin=94240|AlignEnd=94490|Gloss=soup
 5	<	<	PUNCT	_	_	4	punct	_	AlignBegin=94490|AlignEnd=94520|Gloss=PUNCT
@@ -625,25 +622,23 @@
 # sent_id = KAD_10_Egusi-Soup_MG__29
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/KAD_10_Egusi-Soup_MG.mp3
 # speaker_id = Sp177
-# text = # [eng dat's step one eng] //
-# text_en = <eng> That's step one. <eng>
-# text_ortho = Dat's step one .
-1	#	#	PUNCT	_	_	3	punct	_	AlignBegin=95150|AlignEnd=95710|Gloss=PUNCT
-2	[eng	[eng	PUNCT	_	_	3	punct	_	AlignBegin=95150|AlignEnd=95710|Gloss=PUNCT
-3	dat's	dat's	VERB	_	PartType=Cop	0	root	_	AlignBegin=95710|AlignEnd=96037|Gloss=be
-4	step	step	NOUN	_	_	3	xcomp	_	AlignBegin=96037|AlignEnd=96400|Gloss=step
-5	one	one	NUM	_	NumType=Card	4	nummod:mod	_	AlignBegin=96400|AlignEnd=96720|Gloss=one
-6	eng]	eng]	PUNCT	_	_	3	punct	_	AlignBegin=96720|AlignEnd=96750|Gloss=PUNCT
-7	//	//	PUNCT	_	_	3	punct	_	AlignBegin=96720|AlignEnd=96750|Gloss=PUNCT
+# text = # dat's step one //
+# text_en = That's step one.
+# text_ortho = Dat'S step one.
+1	#	#	PUNCT	_	_	2	punct	_	AlignBegin=95150|AlignEnd=95710|Gloss=PUNCT
+2	dat's	dat's	VERB	_	PartType=Cop	0	root	_	AlignBegin=95710|AlignEnd=96037|Gloss=be|Lang=en
+3	step	step	NOUN	_	_	2	xcomp:pred	_	AlignBegin=96037|AlignEnd=96400|Gloss=step|Lang=en
+4	one	one	NUM	_	NumType=Card	3	nummod:mod	_	AlignBegin=96400|AlignEnd=96720|Gloss=one|Lang=en
+5	//	//	PUNCT	_	_	2	punct	_	AlignBegin=96720|AlignEnd=96750|Gloss=PUNCT
 
 # sent_id = KAD_10_Egusi-Soup_MG__30
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/KAD_10_Egusi-Soup_MG.mp3
 # speaker_id = Sp177
 # text = # dat one na { step one || # method one } //
 # text_en = That's step one, method one.
-# text_ortho = Dat one na step one method one.
+# text_ortho = Dat one na step one, method one.
 1	#	#	PUNCT	_	_	6	punct	_	AlignBegin=96750|AlignEnd=97140|Gloss=PUNCT
-2	dat	dat	DET	_	Number=Sing|PronType=Dem	3	det	_	AlignBegin=97140|AlignEnd=97210|Gloss=SG.DIST.DEM
+2	dat	dat	DET	_	Number=Sing|PronType=Dem	3	det	_	AlignBegin=97140|AlignEnd=97210|Gloss=SG.DEM
 3	one	one	NOUN	_	_	6	nsubj	_	AlignBegin=97210|AlignEnd=97270|Gloss=one
 4	na	na	AUX	_	PartType=Cop	6	cop	_	AlignBegin=97270|AlignEnd=97369|Gloss=be
 5	{	{	PUNCT	_	_	6	punct	_	AlignBegin=97369|AlignEnd=97399|Gloss=PUNCT
@@ -661,7 +656,7 @@
 # speaker_id = Sp177
 # text = # anoder method wey you dey carry cook egusi soup < # your egusi < # e go //
 # text_en = Another method to you cook egusi sauce your egusi, it will...
-# text_ortho = Anoder method wey you dey carry cook egusi soup... your egusi, e go.
+# text_ortho = Anoder method wey you dey carry cook egusi soup, your egusi, e go.
 1	#	#	PUNCT	_	_	18	punct	_	AlignBegin=99800|AlignEnd=101640|Gloss=PUNCT
 2	anoder	anoder	DET	_	_	3	det	_	AlignBegin=101640|AlignEnd=101966|Gloss=another
 3	method	method	NOUN	_	_	18	dislocated	_	AlignBegin=101966|AlignEnd=102325|Gloss=method
@@ -687,9 +682,9 @@
 # speaker_id = Sp177
 # text = di grounded egusi < # you go make am |c # turn am to paste //
 # text_en = The ground egusi, you will make it... turn it into paste.
-# text_ortho = Di grounded egusi, you go make am... turn am to paste.
-1	di	the	DET	_	Definite=Def|PronType=Art	3	det	_	AlignBegin=107880|AlignEnd=108080|Gloss=DEF.ART
-2	grounded	ground	VERB	_	Tense=Past|VerbForm=Part	3	compound	_	AlignBegin=108080|AlignEnd=108450|Gloss=ground.PST.PTCP
+# text_ortho = Di grounded egusi, you go make am, turn am to paste.
+1	di	di	DET	_	Definite=Def|PronType=Art	3	det	_	AlignBegin=107880|AlignEnd=108080|Gloss=DEF.ART
+2	grounded	ground	VERB	_	Tense=Past|VerbForm=Part	3	compound	_	AlignBegin=108080|AlignEnd=108450|Gloss=grind.PST.PTCP
 3	egusi	egusi	NOUN	_	_	8	dislocated	_	AlignBegin=108450|AlignEnd=108970|Gloss=melon_seed
 4	<	<	PUNCT	_	_	3	punct	_	AlignBegin=108970|AlignEnd=109000|Gloss=PUNCT
 5	#	#	PUNCT	_	_	3	punct	_	AlignBegin=109000|AlignEnd=109180|Gloss=PUNCT
@@ -737,7 +732,7 @@
 # text_en = Just a little water like that, you will add it that way.
 # text_ortho = Dat kind small water like dat, you go put am like dat.
 1	#	#	PUNCT	_	_	11	punct	_	AlignBegin=114060|AlignEnd=114380|Gloss=PUNCT
-2	dat	dat	DET	_	Number=Sing|PronType=Dem	5	det	_	AlignBegin=114380|AlignEnd=114500|Gloss=SG.DIST.DEM
+2	dat	dat	DET	_	Number=Sing|PronType=Dem	5	det	_	AlignBegin=114380|AlignEnd=114500|Gloss=SG.DEM
 3	kind	kind	ADJ	_	_	5	amod	_	AlignBegin=114500|AlignEnd=114690|Gloss=kind
 4	small	small	ADJ	_	_	5	amod	_	AlignBegin=114690|AlignEnd=114922|Gloss=small
 5	water	water	NOUN	_	_	11	dislocated	_	AlignBegin=114922|AlignEnd=115250|Gloss=water
@@ -808,25 +803,25 @@
 # speaker_id = Sp177
 # text = # instead of putting pepper direct like di oder method < dis time around now < na di egusi >+ # you pour direct for dat oil wey don hot //
 # text_en = Instead of putting pepper in directly, like in the other method, this time around, it's the egusi you will pour directly into that oil which is already hot.
-# text_ortho = Instead of putting pepper direct like di oder method, dis time around now, na di egusi, you pour direct for dat oil wey don hot.
+# text_ortho = Instead of putting pepper direct like di oder method, dis time around now, na di egusi you pour direct for dat oil wey don hot.
 1	#	#	PUNCT	_	_	19	punct	_	AlignBegin=122670|AlignEnd=123390|Gloss=PUNCT
 2	instead	instead	ADV	_	_	19	advmod:periph	_	AlignBegin=123390|AlignEnd=123834|EXTPOS=SCONJ|Gloss=instead
-3	of	of	ADP	_	_	2	fixed	_	AlignBegin=123834|AlignEnd=124229|Gloss=of
-4	putting	put	VERB	_	Tense=Pres|VerbForm=Part	2	ccomp	_	AlignBegin=124229|AlignEnd=124512|Gloss=put.PRS.PTCP
+3	of	of	ADP	_	_	2	dep	_	AlignBegin=123834|AlignEnd=124229|Gloss=of
+4	putting	put	VERB	_	Tense=Pres|VerbForm=Part	2	ccomp:obj	_	AlignBegin=124229|AlignEnd=124512|Gloss=put.PRS.PTCP
 5	pepper	pepper	NOUN	_	_	4	obj	_	AlignBegin=124512|AlignEnd=125070|Gloss=pepper
 6	direct	direct	ADJ	_	_	4	advcl	_	AlignBegin=125070|AlignEnd=125440|Gloss=direct
 7	like	like	ADP	_	_	10	case	_	AlignBegin=125440|AlignEnd=125555|Gloss=like
-8	di	the	DET	_	Definite=Def|PronType=Art	10	det	_	AlignBegin=125555|AlignEnd=125910|Gloss=DEF.ART
+8	di	di	DET	_	Definite=Def|PronType=Art	10	det	_	AlignBegin=125555|AlignEnd=125910|Gloss=DEF.ART
 9	oder	oder	ADJ	_	_	10	amod	_	AlignBegin=125910|AlignEnd=126150|Gloss=other
 10	method	method	NOUN	_	_	4	obl:mod	_	AlignBegin=126150|AlignEnd=126738|Gloss=method
 11	<	<	PUNCT	_	_	2	punct	_	AlignBegin=126738|AlignEnd=126776|Gloss=PUNCT
-12	dis	dis	DET	_	Number=Sing|PronType=Dem	13	det	_	AlignBegin=126776|AlignEnd=127003|Gloss=SG.PROX.DEM
+12	dis	dis	DET	_	Number=Sing|PronType=Dem	13	det	_	AlignBegin=126776|AlignEnd=127003|Gloss=SG.DEM
 13	time	time	NOUN	_	_	19	obl:mod	_	AlignBegin=127003|AlignEnd=127133|Gloss=time
 14	around	around	ADP	_	_	13	dep	_	AlignBegin=127133|AlignEnd=127494|Gloss=around
 15	now	now	ADV	_	_	14	advmod:emph	_	AlignBegin=127494|AlignEnd=127688|Gloss=now
 16	<	<	PUNCT	_	_	13	punct	_	AlignBegin=127494|AlignEnd=127688|Gloss=PUNCT
 17	na	na	AUX	_	PartType=Cop	19	cop	_	AlignBegin=127688|AlignEnd=127820|Gloss=be
-18	di	the	DET	_	Definite=Def|PronType=Art	19	det	_	AlignBegin=127820|AlignEnd=127887|Gloss=DEF.ART
+18	di	di	DET	_	Definite=Def|PronType=Art	19	det	_	AlignBegin=127820|AlignEnd=127887|Gloss=DEF.ART
 19	egusi	egusi	NOUN	_	_	0	root	_	AlignBegin=127887|AlignEnd=128364|Gloss=melon_seed
 20	>+	>+	PUNCT	_	_	23	punct	_	AlignBegin=128364|AlignEnd=128400|Gloss=PUNCT
 21	#	#	PUNCT	_	_	23	punct	_	AlignBegin=128400|AlignEnd=128930|Gloss=PUNCT
@@ -834,7 +829,7 @@
 23	pour	pour	VERB	_	_	19	advcl:cleft	_	AlignBegin=129059|AlignEnd=129240|Gloss=pour
 24	direct	direct	ADJ	_	_	23	advcl	_	AlignBegin=129240|AlignEnd=129590|Gloss=direct
 25	for	for	ADP	_	_	27	case	_	AlignBegin=129590|AlignEnd=129670|Gloss=for
-26	dat	dat	DET	_	Number=Sing|PronType=Dem	27	det	_	AlignBegin=129670|AlignEnd=129803|Gloss=SG.DIST.DEM
+26	dat	dat	DET	_	Number=Sing|PronType=Dem	27	det	_	AlignBegin=129670|AlignEnd=129803|Gloss=SG.DEM
 27	oil	oil	NOUN	_	_	23	obl:arg	_	AlignBegin=129803|AlignEnd=130090|Gloss=oil
 28	wey	wey	SCONJ	_	_	30	mark	_	AlignBegin=130090|AlignEnd=130180|Gloss=REL
 29	don	don	AUX	_	Aspect=Perf	30	aux	_	AlignBegin=130180|AlignEnd=130390|Gloss=PRF
@@ -851,7 +846,7 @@
 2	now	now	ADV	_	_	22	advmod:periph	_	AlignBegin=131900|AlignEnd=132290|Gloss=now
 3	<	<	PUNCT	_	_	2	punct	_	AlignBegin=132290|AlignEnd=132320|Gloss=PUNCT
 4	as	as	ADP	_	_	8	mark	_	AlignBegin=132320|AlignEnd=132490|Gloss=as
-5	dat	dat	DET	_	Number=Sing|PronType=Dem	6	det	_	AlignBegin=132490|AlignEnd=132630|Gloss=SG.DIST.DEM
+5	dat	dat	DET	_	Number=Sing|PronType=Dem	6	det	_	AlignBegin=132490|AlignEnd=132630|Gloss=SG.DEM
 6	oil	oil	NOUN	_	_	8	nsubj	_	AlignBegin=132630|AlignEnd=132830|Gloss=oil
 7	don	don	AUX	_	Aspect=Perf	8	aux	_	AlignBegin=132830|AlignEnd=133050|Gloss=PRF
 8	hot	hot	ADJ	_	_	22	advcl:periph	_	AlignBegin=133050|AlignEnd=133240|Gloss=hot
@@ -885,7 +880,7 @@
 5	stir	stir	VERB	_	_	0	root	_	AlignBegin=135810|AlignEnd=136160|Gloss=stir
 6	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	5	obj	_	AlignBegin=136160|AlignEnd=136320|Gloss=ACC.SG.3
 7	till	till	ADP	_	_	10	mark	_	AlignBegin=136320|AlignEnd=136580|Gloss=till
-8	di	the	DET	_	Definite=Def|PronType=Art	9	det	_	AlignBegin=136580|AlignEnd=136702|Gloss=DEF.ART
+8	di	di	DET	_	Definite=Def|PronType=Art	9	det	_	AlignBegin=136580|AlignEnd=136702|Gloss=DEF.ART
 9	ting	ting	NOUN	_	_	10	nsubj	_	AlignBegin=136702|AlignEnd=136887|Gloss=thing
 10	burn	burn	VERB	_	_	5	advcl	_	AlignBegin=136887|AlignEnd=137360|Gloss=burn
 11	//	//	PUNCT	_	_	5	punct	_	AlignBegin=137360|AlignEnd=137390|Gloss=PUNCT
@@ -901,10 +896,10 @@
 3	see	see	VERB	_	_	0	root	_	AlignBegin=137840|AlignEnd=137960|Gloss=see
 4	sey	sey	SCONJ	_	_	9	mark	_	AlignBegin=137960|AlignEnd=138050|Gloss=COMP
 5	[	[	PUNCT	_	_	9	punct	_	AlignBegin=138050|AlignEnd=138080|Gloss=PUNCT
-6	di	the	DET	_	Definite=Def|PronType=Art	7	det	_	AlignBegin=138080|AlignEnd=138170|Gloss=DEF.ART
+6	di	di	DET	_	Definite=Def|PronType=Art	7	det	_	AlignBegin=138080|AlignEnd=138170|Gloss=DEF.ART
 7	ting	ting	NOUN	_	_	9	nsubj	_	AlignBegin=138170|AlignEnd=138290|Gloss=thing
 8	don	don	AUX	_	Aspect=Perf	9	aux	_	AlignBegin=138290|AlignEnd=138623|Gloss=PRF
-9	fry	fry	VERB	_	_	3	ccomp	_	AlignBegin=138623|AlignEnd=139050|Gloss=fry
+9	fry	fry	VERB	_	_	3	ccomp:obj	_	AlignBegin=138623|AlignEnd=139050|Gloss=fry
 10	{	{	PUNCT	_	_	11	punct	_	AlignBegin=139050|AlignEnd=139080|Gloss=PUNCT
 11	well	well	ADV	_	_	9	advmod	_	AlignBegin=139080|AlignEnd=139272|Gloss=well
 12	|r	|r	PUNCT	_	_	13	punct	_	AlignBegin=139272|AlignEnd=139302|Gloss=PUNCT
@@ -952,7 +947,7 @@
 2	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	AlignBegin=142957|AlignEnd=143166|Gloss=NOM.2
 3	pour	pour	VERB	_	_	0	root	_	AlignBegin=143166|AlignEnd=143332|Gloss=pour
 4	water	water	NOUN	_	_	3	obj	_	AlignBegin=143332|AlignEnd=143601|Gloss=water
-5	inside	inside	ADP	_	_	3	dep	_	AlignBegin=143601|AlignEnd=144182|Gloss=inside
+5	inside	inside	ADP	_	_	3	dep:comp	_	AlignBegin=143601|AlignEnd=144182|Gloss=inside
 6	//=	//=	PUNCT	_	_	8	punct	_	AlignBegin=144182|AlignEnd=144216|Gloss=PUNCT
 7	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	8	nsubj	_	AlignBegin=144216|AlignEnd=144518|Gloss=NOM.2
 8	put	put	VERB	_	_	3	parataxis:conj	_	AlignBegin=144518|AlignEnd=144674|Gloss=put
@@ -963,9 +958,9 @@
 # sent_id = KAD_10_Egusi-Soup_MG__46
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/KAD_10_Egusi-Soup_MG.mp3
 # speaker_id = Sp177
-# text = now < { you go con || you pour } your { ingredient |a { your pepper |c your fish |c { your | # your } stock |c # your okporoko } } //
+# text = now < { you go con || you pour } your { ingredient |a { your pepper |c your fish |c { your || # your } stock |c # your okporoko } } //
 # text_en = Now, you will pour in your ingredients, your pepper, your fish, your, your stock, your okporoko.
-# text_ortho = Now, you go con you pour your ingredient, your pepper, your fish, your, your stock, your okporoko.
+# text_ortho = Now, you go con, you pour your ingredient, your pepper, your fish, your, your stock, your okporoko.
 1	now	now	ADV	_	_	6	advmod:periph	_	AlignBegin=145480|AlignEnd=145597|Gloss=now
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=145597|AlignEnd=145627|Gloss=PUNCT
 3	{	{	PUNCT	_	_	6	punct	_	AlignBegin=145597|AlignEnd=145627|Gloss=PUNCT
@@ -979,7 +974,7 @@
 11	your	your	PRON	_	Number=Plur|Person=2|Poss=Yes	13	nmod:poss	_	AlignBegin=146202|AlignEnd=146292|Gloss=PL.2.POSS
 12	{	{	PUNCT	_	_	13	punct	_	AlignBegin=146292|AlignEnd=146322|Gloss=PUNCT
 13	ingredient	ingredient	NOUN	_	_	9	obj	_	AlignBegin=146322|AlignEnd=146910|Gloss=ingredient
-14	|a	|a	PUNCT	_	_	17	punct	_	AlignBegin=146910|AlignEnd=146940|Gloss=PUNCT
+14	|a	||	PUNCT	_	_	17	punct	_	AlignBegin=146910|AlignEnd=146940|Gloss=PUNCT
 15	{	{	PUNCT	_	_	17	punct	_	AlignBegin=146910|AlignEnd=146940|Gloss=PUNCT
 16	your	your	PRON	_	Number=Plur|Person=2|Poss=Yes	17	nmod:poss	_	AlignBegin=146940|AlignEnd=147050|Gloss=PL.2.POSS
 17	pepper	pepper	NOUN	_	_	13	appos	_	AlignBegin=147050|AlignEnd=147646|Gloss=pepper
@@ -989,9 +984,9 @@
 21	|c	|c	PUNCT	_	_	28	punct	_	AlignBegin=148485|AlignEnd=148515|Gloss=PUNCT
 22	{	{	PUNCT	_	_	23	punct	_	AlignBegin=148485|AlignEnd=148515|Gloss=PUNCT
 23	your	your	PRON	_	Number=Plur|Person=2|Poss=Yes	28	nmod:poss	_	AlignBegin=148515|AlignEnd=148790|Gloss=PL.2.POSS
-24	|	|	PUNCT	_	_	26	punct	_	AlignBegin=148790|AlignEnd=148820|Gloss=PUNCT
+24	||	||	PUNCT	_	_	26	punct	_	AlignBegin=148790|AlignEnd=148820|Gloss=PUNCT
 25	#	#	PUNCT	_	_	26	punct	_	AlignBegin=148820|AlignEnd=149480|Gloss=PUNCT
-26	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	23	compound:redup	_	AlignBegin=149480|AlignEnd=149600|Gloss=PL.2.POSS
+26	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	23	conj:dicto	_	AlignBegin=149480|AlignEnd=149600|Gloss=PL.2.POSS
 27	}	}	PUNCT	_	_	23	punct	_	AlignBegin=149600|AlignEnd=149630|Gloss=PUNCT
 28	stock	stock	NOUN	_	_	17	conj	_	AlignBegin=149630|AlignEnd=150290|Gloss=stock
 29	|c	|c	PUNCT	_	_	32	punct	_	AlignBegin=150290|AlignEnd=150320|Gloss=PUNCT
@@ -1075,7 +1070,7 @@
 # text_en = When you have put in your leafy vegetable, and you notice that it's done, bring it down!
 # text_ortho = When you put your leaf, sey e don do, bring am down!
 1	#	#	PUNCT	_	_	14	punct	_	AlignBegin=160400|AlignEnd=160730|Gloss=PUNCT
-2	when	when	SCONJ	_	_	4	mark	_	AlignBegin=160730|AlignEnd=160837|Gloss=when.Q
+2	when	when	SCONJ	_	PronType=Int	4	mark	_	AlignBegin=160730|AlignEnd=160837|Gloss=when.Q
 3	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	AlignBegin=160837|AlignEnd=160910|Gloss=NOM.2
 4	put	put	VERB	_	_	14	advcl:periph	_	AlignBegin=160910|AlignEnd=161100|Gloss=put
 5	your	your	PRON	_	Number=Plur|Person=2|Poss=Yes	6	nmod:poss	_	AlignBegin=161100|AlignEnd=161250|Gloss=PL.2.POSS
@@ -1089,7 +1084,7 @@
 13	#	#	PUNCT	_	_	14	punct	_	AlignBegin=162490|AlignEnd=163040|Gloss=PUNCT
 14	bring	bring	VERB	_	_	0	root	_	AlignBegin=163040|AlignEnd=163290|Gloss=bring
 15	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	14	obj	_	AlignBegin=163290|AlignEnd=163480|Gloss=ACC.SG.3
-16	down	down	ADP	_	_	14	dep	_	AlignBegin=163480|AlignEnd=163670|Gloss=down
+16	down	down	ADP	_	_	14	dep:comp	_	AlignBegin=163480|AlignEnd=163670|Gloss=down
 17	!//	!//	PUNCT	_	_	14	punct	_	AlignBegin=163670|AlignEnd=163700|Gloss=PUNCT
 
 # sent_id = KAD_10_Egusi-Soup_MG__51
@@ -1134,7 +1129,7 @@
 # speaker_id = Sp177
 # text = # ogbonno soup dey { very |r very } easy to cook > you understand //
 # text_en = Ogbonno sauce is very easy to cook, you know.
-# text_ortho = Ogbonno soup dey very, very easy to cook, you understand.
+# text_ortho = Ogbonno soup dey very, very easy to cook you understand.
 1	#	#	PUNCT	_	_	4	punct	_	AlignBegin=168910|AlignEnd=170450|Gloss=PUNCT
 2	ogbonno	ogbonno	NOUN	_	_	3	compound	_	AlignBegin=170450|AlignEnd=170760|Gloss=bushmango_seed
 3	soup	soup	NOUN	_	_	4	nsubj	_	AlignBegin=170760|AlignEnd=171120|Gloss=soup
@@ -1144,9 +1139,9 @@
 7	|r	|r	PUNCT	_	_	8	punct	_	AlignBegin=171530|AlignEnd=171560|Gloss=PUNCT
 8	very	very	ADV	_	_	6	compound:redup	_	AlignBegin=171560|AlignEnd=171920|Gloss=very
 9	}	}	PUNCT	_	_	6	punct	_	AlignBegin=171920|AlignEnd=171950|Gloss=PUNCT
-10	easy	easy	ADJ	_	_	4	xcomp	_	AlignBegin=171950|AlignEnd=172170|Gloss=easy
+10	easy	easy	ADJ	_	_	4	xcomp:pred	_	AlignBegin=171950|AlignEnd=172170|Gloss=easy
 11	to	to	ADP	_	_	12	mark	_	AlignBegin=172170|AlignEnd=172330|Gloss=to
-12	cook	cook	VERB	_	_	10	ccomp	_	AlignBegin=172330|AlignEnd=172590|Gloss=cook
+12	cook	cook	VERB	_	_	10	ccomp:obl	_	AlignBegin=172330|AlignEnd=172590|Gloss=cook
 13	>	>	PUNCT	_	_	15	punct	_	AlignBegin=172620|AlignEnd=172668|Gloss=PUNCT
 14	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	15	nsubj	_	AlignBegin=172620|AlignEnd=172668|Gloss=NOM.2
 15	understand	understand	VERB	_	_	4	parataxis:discourse	_	AlignBegin=172668|AlignEnd=173090|Gloss=understand
@@ -1157,7 +1152,7 @@
 # speaker_id = Sp177
 # text = # ogbonno sef < # like some people < some go dey fry deir pepper # before de do di ogbonno //
 # text_en = In fact, ogbonno... like some people... some people will be frying their pepper before they do the ogbonno.
-# text_ortho = Ogbonno sef... like some people… some go dey fry deir pepper before de do di ogbonno.
+# text_ortho = Ogbonno sef, like some people, some go dey fry deir pepper before de do di ogbonno.
 1	#	#	PUNCT	_	_	13	punct	_	AlignBegin=173120|AlignEnd=173920|Gloss=PUNCT
 2	ogbonno	ogbonno	NOUN	_	_	13	dislocated	_	AlignBegin=173920|AlignEnd=174270|Gloss=bushmango_seed
 3	sef	sef	PART	_	PartType=Disc	2	advmod:emph	_	AlignBegin=174270|AlignEnd=174670|Gloss=FOC
@@ -1171,13 +1166,13 @@
 11	go	go	AUX	_	Aspect=Prosp	13	aux	_	AlignBegin=175707|AlignEnd=175844|Gloss=PROSP
 12	dey	dey	AUX	_	Aspect=Imp	13	aux	_	AlignBegin=175844|AlignEnd=175990|Gloss=IPFV
 13	fry	fry	VERB	_	_	0	root	_	AlignBegin=175990|AlignEnd=176222|Gloss=fry
-14	deir	deir	PRON	_	Number=Plur|Person=3|Poss=Yes	15	nmod:poss	_	AlignBegin=176222|AlignEnd=176396|Gloss=3.PL.POSS
+14	deir	dem	PRON	_	Number=Plur|Person=3|Poss=Yes	15	nmod:poss	_	AlignBegin=176222|AlignEnd=176396|Gloss=PL.3.POSS
 15	pepper	pepper	NOUN	_	_	13	obj	_	AlignBegin=176396|AlignEnd=176687|Gloss=pepper
 16	#	#	PUNCT	_	_	19	punct	_	AlignBegin=176687|AlignEnd=177130|Gloss=PUNCT
 17	before	before	ADP	_	_	19	mark	_	AlignBegin=177130|AlignEnd=177330|Gloss=before
 18	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	19	nsubj	_	AlignBegin=177330|AlignEnd=177475|Gloss=NOM.PL.3
 19	do	do	VERB	_	_	13	advcl	_	AlignBegin=177475|AlignEnd=177630|Gloss=do
-20	di	the	DET	_	Definite=Def|PronType=Art	21	det	_	AlignBegin=177630|AlignEnd=177770|Gloss=DEF.ART
+20	di	di	DET	_	Definite=Def|PronType=Art	21	det	_	AlignBegin=177630|AlignEnd=177770|Gloss=DEF.ART
 21	ogbonno	ogbonno	NOUN	_	_	19	obj	_	AlignBegin=177770|AlignEnd=178130|Gloss=bushmango_seed
 22	//	//	PUNCT	_	_	13	punct	_	AlignBegin=178130|AlignEnd=178160|Gloss=PUNCT
 
@@ -1186,9 +1181,9 @@
 # speaker_id = Sp177
 # text = but di method wey everybody dey use sha < # for dis side < # for dis our area < # you put water # for fire //
 # text_en = But the method which everyone uses, well, around here, in this area of ours... you'll put water on the burner.
-# text_ortho = But di method wey everybody dey use sha, for dis side, for dis our area... you put water for fire.
+# text_ortho = But di method wey everybody dey use sha, for dis side, for dis our area, you put water for fire.
 1	but	but	CCONJ	_	_	23	cc	_	AlignBegin=178160|AlignEnd=178450|Gloss=but
-2	di	the	DET	_	Definite=Def|PronType=Art	3	det	_	AlignBegin=178450|AlignEnd=178600|Gloss=DEF.ART
+2	di	di	DET	_	Definite=Def|PronType=Art	3	det	_	AlignBegin=178450|AlignEnd=178600|Gloss=DEF.ART
 3	method	method	NOUN	_	_	23	dislocated	_	AlignBegin=178600|AlignEnd=178880|Gloss=method
 4	wey	wey	SCONJ	_	_	7	mark	_	AlignBegin=178880|AlignEnd=178950|Gloss=REL
 5	everybody	everybody	PRON	_	_	7	nsubj	_	AlignBegin=178950|AlignEnd=179380|Gloss=everybody
@@ -1198,12 +1193,12 @@
 9	<	<	PUNCT	_	_	3	punct	_	AlignBegin=180030|AlignEnd=180060|Gloss=PUNCT
 10	#	#	PUNCT	_	_	13	punct	_	AlignBegin=180060|AlignEnd=180275|Gloss=PUNCT
 11	for	for	ADP	_	_	13	case	_	AlignBegin=180275|AlignEnd=180385|Gloss=for
-12	dis	dis	DET	_	Number=Sing|PronType=Dem	13	det	_	AlignBegin=180385|AlignEnd=180585|Gloss=SG.PROX.DEM
+12	dis	dis	DET	_	Number=Sing|PronType=Dem	13	det	_	AlignBegin=180385|AlignEnd=180585|Gloss=SG.DEM
 13	side	side	NOUN	_	_	23	obl:mod	_	AlignBegin=180585|AlignEnd=180848|Gloss=side
 14	<	<	PUNCT	_	_	13	punct	_	AlignBegin=180848|AlignEnd=180923|Gloss=PUNCT
 15	#	#	PUNCT	_	_	13	punct	_	AlignBegin=180923|AlignEnd=181050|Gloss=PUNCT
 16	for	for	ADP	_	_	19	case	_	AlignBegin=181050|AlignEnd=181120|Gloss=for
-17	dis	dis	DET	_	Number=Sing|PronType=Dem	19	det	_	AlignBegin=181120|AlignEnd=181260|Gloss=SG.PROX.DEM
+17	dis	dis	DET	_	Number=Sing|PronType=Dem	19	det	_	AlignBegin=181120|AlignEnd=181260|Gloss=SG.DEM
 18	our	our	PRON	_	Number=Plur|Person=1|Poss=Yes	19	nmod:poss	_	AlignBegin=181260|AlignEnd=181412|Gloss=PL.1.POSS
 19	area	area	NOUN	_	_	23	obl:mod	_	AlignBegin=181412|AlignEnd=181755|Gloss=area
 20	<	<	PUNCT	_	_	19	punct	_	AlignBegin=181755|AlignEnd=181785|Gloss=PUNCT
@@ -1252,8 +1247,8 @@
 28	your	your	PRON	_	Number=Plur|Person=2|Poss=Yes	29	nmod:poss	_	AlignBegin=190800|AlignEnd=190930|Gloss=PL.2.POSS
 29	ponmo	ponmo	NOUN	_	_	15	conj	_	AlignBegin=190930|AlignEnd=191226|Gloss=cow_skin
 30	}	}	PUNCT	_	_	15	punct	_	AlignBegin=191226|AlignEnd=191256|Gloss=PUNCT
-31	|a	|a	PUNCT	_	_	32	punct	_	AlignBegin=191226|AlignEnd=191256|Gloss=PUNCT
-32	everything	everything	PRON	_	_	29	appos	_	AlignBegin=191256|AlignEnd=191910|Gloss=everything
+31	|a	||	PUNCT	_	_	32	punct	_	AlignBegin=191226|AlignEnd=191256|Gloss=PUNCT
+32	everything	everyting	PRON	_	_	29	appos	_	AlignBegin=191256|AlignEnd=191910|Gloss=everything
 33	}	}	PUNCT	_	_	15	punct	_	AlignBegin=191910|AlignEnd=191940|Gloss=PUNCT
 34	//	//	PUNCT	_	_	11	punct	_	AlignBegin=191910|AlignEnd=191940|Gloss=PUNCT
 
@@ -1312,7 +1307,7 @@
 3	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	2	obj	_	AlignBegin=199190|AlignEnd=199297|Gloss=ACC.SG.3
 4	make	make	AUX	_	Mood=Opt	6	aux	_	AlignBegin=199297|AlignEnd=199520|Gloss=SBJV
 5	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	AlignBegin=199520|AlignEnd=199571|Gloss=NOM.SG.3
-6	boil	boil	VERB	_	_	2	ccomp	_	AlignBegin=199571|AlignEnd=199870|Gloss=boil
+6	boil	boil	VERB	_	_	2	ccomp:pred	_	AlignBegin=199571|AlignEnd=199870|Gloss=boil
 7	//	//	PUNCT	_	_	2	punct	_	AlignBegin=199870|AlignEnd=199900|Gloss=PUNCT
 
 # sent_id = KAD_10_Egusi-Soup_MG__61
@@ -1320,7 +1315,7 @@
 # speaker_id = Sp177
 # text = # den { your egusi || your grounded ogbonno || sorry # your grounded ogbonno } < # you mix am wit oil //
 # text_en = Then your egusi... your ground ogbonno... sorry, your ground ogbonno, you will mix it with oil.
-# text_ortho = Den your egusi... your grounded ogbonno... Sorry, your grounded ogbonno, you mix am wit oil.
+# text_ortho = Den your egusi, your grounded ogbonno, sorry your grounded ogbonno, you mix am wit oil.
 1	#	#	PUNCT	_	_	20	punct	_	AlignBegin=199900|AlignEnd=200240|Gloss=PUNCT
 2	den	den	ADV	_	_	20	discourse	_	AlignBegin=200240|AlignEnd=200343|Gloss=den
 3	{	{	PUNCT	_	_	5	punct	_	AlignBegin=200343|AlignEnd=200373|Gloss=PUNCT
@@ -1328,13 +1323,13 @@
 5	egusi	egusi	NOUN	_	_	20	dislocated	_	AlignBegin=200650|AlignEnd=201120|Gloss=melon_seed
 6	||	||	PUNCT	_	_	9	punct	_	AlignBegin=201120|AlignEnd=201150|Gloss=PUNCT
 7	your	your	PRON	_	Number=Plur|Person=2|Poss=Yes	9	nmod:poss	_	AlignBegin=201150|AlignEnd=201280|Gloss=PL.2.POSS
-8	grounded	ground	VERB	_	Tense=Past|VerbForm=Part	9	acl	_	AlignBegin=201280|AlignEnd=201690|Gloss=ground.PST.PTCP
+8	grounded	ground	VERB	_	Tense=Past|VerbForm=Part	9	acl	_	AlignBegin=201280|AlignEnd=201690|Gloss=grind.PST.PTCP
 9	ogbonno	ogbonno	NOUN	_	_	5	conj	_	AlignBegin=201690|AlignEnd=202030|Gloss=bushmango_seed
 10	||	||	PUNCT	_	_	15	punct	_	AlignBegin=202030|AlignEnd=202060|Gloss=PUNCT
 11	sorry	sorry	ADJ	_	_	15	discourse	_	AlignBegin=202060|AlignEnd=202380|Gloss=sorry
 12	#	#	PUNCT	_	_	15	punct	_	AlignBegin=202380|AlignEnd=202580|Gloss=PUNCT
 13	your	your	PRON	_	Number=Plur|Person=2|Poss=Yes	15	nmod:poss	_	AlignBegin=202580|AlignEnd=202680|Gloss=PL.2.POSS
-14	grounded	ground	VERB	_	Tense=Past|VerbForm=Part	15	acl	_	AlignBegin=202680|AlignEnd=203100|Gloss=ground.PST.PTCP
+14	grounded	ground	VERB	_	Tense=Past|VerbForm=Part	15	acl	_	AlignBegin=202680|AlignEnd=203100|Gloss=grind.PST.PTCP
 15	ogbonno	ogbonno	NOUN	_	_	9	conj:dicto	_	AlignBegin=203100|AlignEnd=203510|Gloss=bushmango_seed
 16	}	}	PUNCT	_	_	5	punct	_	AlignBegin=203510|AlignEnd=203540|Gloss=PUNCT
 17	<	<	PUNCT	_	_	5	punct	_	AlignBegin=203510|AlignEnd=203540|Gloss=PUNCT
@@ -1351,14 +1346,14 @@
 # speaker_id = Sp177
 # text = # you go mix am { to || # like } paste //
 # text_en = You'll mix it until it's like a paste.
-# text_ortho = You go mix am to like paste.
+# text_ortho = You go mix am to, like paste.
 1	#	#	PUNCT	_	_	4	punct	_	AlignBegin=204970|AlignEnd=206151|Gloss=PUNCT
 2	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	AlignBegin=206080|AlignEnd=206151|Gloss=NOM.2
-3	go	go	AUX	_	Aspect=Prosp	4	cop	_	AlignBegin=206151|AlignEnd=206250|Gloss=PROSP
+3	go	go	AUX	_	Aspect=Prosp	4	aux	_	AlignBegin=206151|AlignEnd=206250|Gloss=PROSP
 4	mix	mix	VERB	_	_	0	root	_	AlignBegin=206250|AlignEnd=206560|Gloss=mix
 5	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	4	obj	_	AlignBegin=206560|AlignEnd=206657|Gloss=ACC.SG.3
 6	{	{	PUNCT	_	_	7	punct	_	AlignBegin=206657|AlignEnd=206687|Gloss=PUNCT
-7	to	to	ADP	_	_	4	dep	_	AlignBegin=206687|AlignEnd=206760|Gloss=to
+7	to	to	ADP	_	_	4	xcomp:obl	_	AlignBegin=206687|AlignEnd=206760|Gloss=to
 8	||	||	PUNCT	_	_	12	punct	_	AlignBegin=206760|AlignEnd=206790|Gloss=PUNCT
 9	#	#	PUNCT	_	_	12	punct	_	AlignBegin=206790|AlignEnd=207150|Gloss=PUNCT
 10	like	like	ADP	_	_	12	case	_	AlignBegin=207150|AlignEnd=207310|Gloss=like
@@ -1371,7 +1366,7 @@
 # speaker_id = Sp177
 # text = # withdraw oil |c den you put am inside { dat || di } water //
 # text_en = Get out your oil, then you will put it in that... the water.
-# text_ortho = Withdraw oil, den you put am inside dat... di water.
+# text_ortho = Withdraw oil, den you put am inside dat, di water.
 1	#	#	PUNCT	_	_	2	punct	_	AlignBegin=207830|AlignEnd=208480|Gloss=PUNCT
 2	withdraw	withdraw	VERB	_	_	0	root	_	AlignBegin=208480|AlignEnd=208896|Gloss=withdraw
 3	oil	oil	NOUN	_	_	2	obj	_	AlignBegin=208896|AlignEnd=209279|Gloss=oil
@@ -1382,9 +1377,9 @@
 8	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	7	obj	_	AlignBegin=209888|AlignEnd=209952|Gloss=ACC.SG.3
 9	inside	inside	ADP	_	_	15	case	_	AlignBegin=209952|AlignEnd=210165|Gloss=inside
 10	{	{	PUNCT	_	_	11	punct	_	AlignBegin=210165|AlignEnd=210195|Gloss=PUNCT
-11	dat	dat	DET	_	Number=Sing|PronType=Dem	15	det	_	AlignBegin=210195|AlignEnd=210315|Gloss=SG.DIST.DEM
+11	dat	dat	DET	_	Number=Sing|PronType=Dem	15	det	_	AlignBegin=210195|AlignEnd=210315|Gloss=SG.DEM
 12	||	||	PUNCT	_	_	13	punct	_	AlignBegin=210315|AlignEnd=210345|Gloss=PUNCT
-13	di	the	DET	_	Definite=Def|PronType=Art	11	conj:dicto	_	AlignBegin=210345|AlignEnd=210472|Gloss=DEF.ART
+13	di	di	DET	_	Definite=Def|PronType=Art	11	conj:dicto	_	AlignBegin=210345|AlignEnd=210472|Gloss=DEF.ART
 14	}	}	PUNCT	_	_	11	punct	_	AlignBegin=210472|AlignEnd=210502|Gloss=PUNCT
 15	water	water	NOUN	_	_	7	obl:arg	_	AlignBegin=210502|AlignEnd=210875|Gloss=water
 16	//	//	PUNCT	_	_	2	punct	_	AlignBegin=210875|AlignEnd=210905|Gloss=PUNCT
@@ -1404,8 +1399,8 @@
 7	go	go	AUX	_	Aspect=Prosp	8	aux	_	AlignBegin=212369|AlignEnd=212479|Gloss=PROSP
 8	scatter	scatter	VERB	_	_	4	parataxis:conj	_	AlignBegin=212479|AlignEnd=212869|Gloss=scatter
 9	for	for	ADP	_	_	12	case	_	AlignBegin=212869|AlignEnd=212989|EXTPOS=ADP|Gloss=for
-10	inside	inside	ADP	_	_	9	fixed	_	AlignBegin=212989|AlignEnd=213199|Gloss=inside
-11	di	the	DET	_	Definite=Def|PronType=Art	12	det	_	AlignBegin=213199|AlignEnd=213281|Gloss=DEF.ART
+10	inside	inside	ADP	_	_	12	dep	_	AlignBegin=212989|AlignEnd=213199|Gloss=inside
+11	di	di	DET	_	Definite=Def|PronType=Art	12	det	_	AlignBegin=213199|AlignEnd=213281|Gloss=DEF.ART
 12	water	water	NOUN	_	_	8	obl:arg	_	AlignBegin=213281|AlignEnd=213700|Gloss=water
 13	//	//	PUNCT	_	_	4	punct	_	AlignBegin=213700|AlignEnd=213730|Gloss=PUNCT
 
@@ -1413,18 +1408,18 @@
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/KAD_10_Egusi-Soup_MG.mp3
 # speaker_id = Sp177
 # text = # when e boil < # you see sey &//
-# text_en = When it's boiled, you'll notice that…
+# text_en = When it's boiled, you'll notice that...
 # text_ortho = When e boil, you see sey...
 1	#	#	PUNCT	_	_	8	punct	_	AlignBegin=213730|AlignEnd=214000|Gloss=PUNCT
-2	when	when	SCONJ	_	_	4	mark	_	AlignBegin=214000|AlignEnd=214146|Gloss=when.Q
+2	when	when	SCONJ	_	PronType=Int	4	mark	_	AlignBegin=214000|AlignEnd=214146|Gloss=when.Q
 3	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	AlignBegin=214146|AlignEnd=214240|Gloss=NOM.SG.3
 4	boil	boil	VERB	_	_	8	advcl:periph	_	AlignBegin=214240|AlignEnd=214640|Gloss=boil
 5	<	<	PUNCT	_	_	4	punct	_	AlignBegin=214640|AlignEnd=214670|Gloss=PUNCT
 6	#	#	PUNCT	_	_	4	punct	_	AlignBegin=214670|AlignEnd=215580|Gloss=PUNCT
 7	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	8	nsubj	_	AlignBegin=215580|AlignEnd=215680|Gloss=NOM.2
 8	see	see	VERB	_	_	0	root	_	AlignBegin=215680|AlignEnd=215810|Gloss=see
-9	sey	sey	SCONJ	_	_	8	dep	_	AlignBegin=215810|AlignEnd=216088|Gloss=COMP
-10	&//	//	PUNCT	_	_	8	punct	_	AlignBegin=216088|AlignEnd=216118|Gloss=PUNCT
+9	sey	sey	SCONJ	_	_	8	dep:comp	_	AlignBegin=215810|AlignEnd=216088|Gloss=COMP
+10	&//	&//	PUNCT	_	_	8	punct	_	AlignBegin=216088|AlignEnd=216118|Gloss=PUNCT
 
 # sent_id = KAD_10_Egusi-Soup_MG__66
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/KAD_10_Egusi-Soup_MG.mp3
@@ -1433,7 +1428,7 @@
 # text_en = Because when it's boiled, it draws, everything will be normal.
 # text_ortho = Because when e boil now, e start dey draw, everyting go just normalise.
 1	because	because	SCONJ	_	_	8	cc	_	AlignBegin=216118|AlignEnd=216440|Gloss=because
-2	when	when	SCONJ	_	_	4	mark	_	AlignBegin=216440|AlignEnd=216610|Gloss=when.Q
+2	when	when	SCONJ	_	PronType=Int	4	mark	_	AlignBegin=216440|AlignEnd=216610|Gloss=when.Q
 3	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	AlignBegin=216610|AlignEnd=216660|Gloss=NOM.SG.3
 4	boil	boil	VERB	_	_	8	advcl:periph	_	AlignBegin=216660|AlignEnd=216880|Gloss=boil
 5	now	now	ADV	_	_	4	advmod:emph	_	AlignBegin=216880|AlignEnd=216910|Gloss=now
@@ -1441,7 +1436,7 @@
 7	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	AlignBegin=216940|AlignEnd=217027|Gloss=NOM.SG.3
 8	start	start	VERB	_	_	0	root	_	AlignBegin=217027|AlignEnd=217240|Gloss=start
 9	dey	dey	AUX	_	Aspect=Imp	10	aux	_	AlignBegin=217240|AlignEnd=217370|Gloss=IPFV
-10	draw	draw	VERB	_	_	8	ccomp	_	AlignBegin=217370|AlignEnd=217578|Gloss=draw
+10	draw	draw	VERB	_	_	8	ccomp:pred	_	AlignBegin=217370|AlignEnd=217578|Gloss=draw
 11	//=	//=	PUNCT	_	_	15	punct	_	AlignBegin=217578|AlignEnd=217608|Gloss=PUNCT
 12	everyting	everyting	PRON	_	_	15	nsubj	_	AlignBegin=217608|AlignEnd=217910|Gloss=everything
 13	go	go	AUX	_	Aspect=Prosp	15	aux	_	AlignBegin=217910|AlignEnd=218000|Gloss=PROSP
@@ -1453,7 +1448,7 @@
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/KAD_10_Egusi-Soup_MG.mp3
 # speaker_id = Sp177
 # text = # den < # your ugwu |c # or your &//
-# text_en = Then, your ugwu, or your…
+# text_en = Then, your ugwu, or your...
 # text_ortho = Den, your ugwu, or your...
 1	#	#	PUNCT	_	_	6	punct	_	AlignBegin=218840|AlignEnd=219460|Gloss=PUNCT
 2	den	den	ADV	_	_	6	advmod:periph	_	AlignBegin=219460|AlignEnd=219970|Gloss=den
@@ -1465,7 +1460,7 @@
 8	#	#	PUNCT	_	_	6	punct	_	AlignBegin=221620|AlignEnd=222450|Gloss=PUNCT
 9	or	or	CCONJ	_	_	6	cc	_	AlignBegin=222450|AlignEnd=222590|Gloss=or
 10	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	6	conj:dicto	_	AlignBegin=222590|AlignEnd=222810|Gloss=PL.2.POSS
-11	&//	//	PUNCT	_	_	6	punct	_	AlignBegin=222810|AlignEnd=222840|Gloss=PUNCT
+11	&//	&//	PUNCT	_	_	6	punct	_	AlignBegin=222810|AlignEnd=222840|Gloss=PUNCT
 
 # sent_id = KAD_10_Egusi-Soup_MG__68
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/KAD_10_Egusi-Soup_MG.mp3
@@ -1481,7 +1476,7 @@
 6	wey	wey	SCONJ	_	_	8	mark	_	AlignBegin=224040|AlignEnd=224190|Gloss=REL
 7	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	AlignBegin=224190|AlignEnd=224250|Gloss=NOM.SG.3
 8	dey	dey	VERB	_	VerbType=Cop	4	acl:relcl	_	AlignBegin=224250|AlignEnd=224478|Gloss=be
-9	washed	wash	VERB	_	Tense=Past|VerbForm=Part	8	xcomp	_	AlignBegin=224478|AlignEnd=224830|Gloss=wash.PST.PTCP
+9	washed	wash	VERB	_	Tense=Past|VerbForm=Part	8	xcomp:obj	_	AlignBegin=224478|AlignEnd=224830|Gloss=wash.PST.PTCP
 10	already	already	ADV	_	_	8	advmod	_	AlignBegin=224830|AlignEnd=225150|Gloss=already
 11	<	<	PUNCT	_	_	4	punct	_	AlignBegin=225150|AlignEnd=225180|Gloss=PUNCT
 12	#	#	PUNCT	_	_	4	punct	_	AlignBegin=225180|AlignEnd=225610|Gloss=PUNCT
@@ -1529,14 +1524,12 @@
 # sent_id = KAD_10_Egusi-Soup_MG__71
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/KAD_10_Egusi-Soup_MG.mp3
 # speaker_id = Sp177
-# text = # [eng dat is all eng] //
+# text = # dat is all //
 # text_en = That's all.
-# text_ortho = Dat is all .
-1	#	#	PUNCT	_	_	5	punct	_	AlignBegin=230050|AlignEnd=231620|Gloss=PUNCT
-2	[eng	[eng	PUNCT	_	_	5	punct	_	AlignBegin=231592|AlignEnd=231620|Gloss=PUNCT
-3	dat	dat	PRON	_	Number=Sing|PronType=Dem	5	nsubj	_	AlignBegin=231620|AlignEnd=231860|Gloss=SG.DEM
-4	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	AlignBegin=231860|AlignEnd=231973|Gloss=be.IND.SG.3.PRS.FIN
-5	all	all	ADV	_	_	0	root	_	AlignBegin=231973|AlignEnd=232080|Gloss=all
-6	eng]	eng]	PUNCT	_	_	5	punct	_	AlignBegin=232080|AlignEnd=232110|Gloss=PUNCT
-7	//	//	PUNCT	_	_	5	punct	_	AlignBegin=232080|AlignEnd=232110|Gloss=PUNCT
+# text_ortho = Dat is all.
+1	#	#	PUNCT	_	_	4	punct	_	AlignBegin=230050|AlignEnd=231620|Gloss=PUNCT
+2	dat	dat	PRON	_	Number=Sing|PronType=Dem	4	nsubj	_	AlignBegin=231620|AlignEnd=231860|Gloss=SG.DEM|Lang=en
+3	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	AlignBegin=231860|AlignEnd=231973|Gloss=be.IND.SG.3.PRS.FIN|Lang=en
+4	all	all	ADV	_	_	0	root	_	AlignBegin=231973|AlignEnd=232080|Gloss=all|Lang=en
+5	//	//	PUNCT	_	_	4	punct	_	AlignBegin=232080|AlignEnd=232110|Gloss=PUNCT
 

@@ -1,3 +1,4 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = ONI_07_Dis-Year-Na-My-Year_MG__1
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_07_Dis-Year-Na-My-Year_MG.mp3
 # speaker_id = Sp472
@@ -6,7 +7,7 @@
 # text_ortho = Look at di building here and dere.
 1	look	look	VERB	_	_	0	root	_	AlignBegin=2147|AlignEnd=2316|Gloss=look
 2	at	at	ADP	_	_	4	case	_	AlignBegin=2316|AlignEnd=2447|Gloss=at
-3	di	the	DET	_	Definite=Def|PronType=Art	4	det	_	AlignBegin=2447|AlignEnd=2565|Gloss=DEF.ART
+3	di	di	DET	_	Definite=Def|PronType=Art	4	det	_	AlignBegin=2447|AlignEnd=2565|Gloss=DEF.ART
 4	building	building	NOUN	_	_	1	obl:arg	_	AlignBegin=2565|AlignEnd=2943|Gloss=building
 5	here	here	ADV	_	_	1	advmod	_	AlignBegin=2943|AlignEnd=3159|Gloss=here
 6	and	and	CCONJ	_	_	7	cc	_	AlignBegin=3159|AlignEnd=3325|Gloss=and
@@ -17,8 +18,8 @@
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_07_Dis-Year-Na-My-Year_MG.mp3
 # speaker_id = Sp472
 # text = everywhere na about { house |r house } |c { better house |r better house |r better house } //
-# text_en = Everywhere is full of houses, houses… beautiful houses… beautiful houses… beautiful houses.
-# text_ortho = Everywhere na about house, house... better house... better house... better house.
+# text_en = Everywhere is full of houses, houses... beautiful houses... beautiful houses... beautiful houses.
+# text_ortho = Everywhere na about house, house, better house, better house, better house.
 1	everywhere	everywhere	ADV	_	_	5	advmod:periph	_	AlignBegin=3608|AlignEnd=4088|Gloss=everywhere
 2	na	na	AUX	_	PartType=Cop	5	cop	_	AlignBegin=4088|AlignEnd=4283|Gloss=be
 3	about	about	ADP	_	_	5	case	_	AlignBegin=4283|AlignEnd=4433|Gloss=about
@@ -43,15 +44,15 @@
 # sent_id = ONI_07_Dis-Year-Na-My-Year_MG__3
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_07_Dis-Year-Na-My-Year_MG.mp3
 # speaker_id = Sp472
-# text = # our own no be wi- //
-# text_en = Ours is not wi-…
-# text_ortho = Our own no be wi-…
+# text = # our own no be wi~ //
+# text_en = Ours is not wi~...
+# text_ortho = Our own no be wi~...
 1	#	#	PUNCT	_	_	6	punct	_	AlignBegin=6621|AlignEnd=7349|Gloss=PUNCT
-2	our	our	ADJ	_	Number=Plur|Person=1|Poss=Yes	3	amod	_	AlignBegin=7349|AlignEnd=7619|Gloss=PL.1.POSS
-3	own	own	ADJ	_	_	6	dep	_	AlignBegin=7619|AlignEnd=7848|Gloss=own
+2	our	our	PRON	_	Number=Plur|Person=1|Poss=Yes	3	nmod	_	AlignBegin=7349|AlignEnd=7619|Gloss=PL.1.POSS
+3	own	own	ADJ	_	_	6	nsubj	_	AlignBegin=7619|AlignEnd=7848|Gloss=own
 4	no	no	PART	_	Polarity=Neg	6	advmod	_	AlignBegin=7848|AlignEnd=8041|Gloss=NEG
 5	be	be	AUX	_	PartType=Cop	6	cop	_	AlignBegin=8041|AlignEnd=8221|Gloss=be
-6	wi-	wi-	ADP	_	_	0	root	_	AlignBegin=8221|AlignEnd=8645|Gloss=wi-
+6	wi~	wi~	ADP	_	_	0	root	_	AlignBegin=8221|AlignEnd=8645|Gloss=wi~
 7	//	//	PUNCT	_	_	6	punct	_	AlignBegin=8645|AlignEnd=8675|Gloss=PUNCT
 
 # sent_id = ONI_07_Dis-Year-Na-My-Year_MG__4
@@ -59,13 +60,13 @@
 # speaker_id = Sp472
 # text = we no dey different { dan || like } dem //
 # text_en = We are not different from them.
-# text_ortho = We no dey different dan like dem.
+# text_ortho = We no dey different dan, like dem.
 1	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	AlignBegin=8675|AlignEnd=8886|Gloss=NOM.PL.1
 2	no	no	PART	_	Polarity=Neg	3	advmod	_	AlignBegin=8886|AlignEnd=9029|Gloss=NEG
 3	dey	dey	VERB	_	VerbType=Cop	0	root	_	AlignBegin=9029|AlignEnd=9201|Gloss=be
-4	different	different	ADJ	_	_	3	xcomp	_	AlignBegin=9201|AlignEnd=9586|Gloss=different
+4	different	different	ADJ	_	_	3	xcomp:pred	_	AlignBegin=9201|AlignEnd=9586|Gloss=different
 5	{	{	PUNCT	_	_	6	punct	_	AlignBegin=9586|AlignEnd=9616|Gloss=PUNCT
-6	dan	dan	ADP	_	_	4	dep	_	AlignBegin=9616|AlignEnd=9777|Gloss=than
+6	dan	dan	ADP	_	_	4	dep:comp	_	AlignBegin=9616|AlignEnd=9777|Gloss=than
 7	||	||	PUNCT	_	_	10	punct	_	AlignBegin=9777|AlignEnd=9807|Gloss=PUNCT
 8	like	like	ADP	_	_	10	case	_	AlignBegin=9807|AlignEnd=10001|Gloss=like
 9	}	}	PUNCT	_	_	6	punct	_	AlignBegin=10001|AlignEnd=10031|Gloss=PUNCT
@@ -76,24 +77,24 @@
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_07_Dis-Year-Na-My-Year_MG.mp3
 # speaker_id = Sp472
 # text = # na still di same tin >+ wey de be //= na im >+ we be //
-# text_en = The same thing do… we are the same.
-# text_ortho = Na still di same tin, wey de be, na im, we be.
+# text_en = The same thing do... we are the same.
+# text_ortho = Na still di same tin wey de be, na im we be.
 1	#	#	PUNCT	_	_	6	punct	_	AlignBegin=10299|AlignEnd=10742|Gloss=PUNCT
 2	na	na	AUX	_	PartType=Cop	6	cop	_	AlignBegin=10742|AlignEnd=10911|Gloss=be
 3	still	still	ADV	_	_	6	advmod	_	AlignBegin=10911|AlignEnd=11203|Gloss=still
-4	di	the	DET	_	Definite=Def|PronType=Art	6	det	_	AlignBegin=11203|AlignEnd=11340|Gloss=DEF.ART
+4	di	di	DET	_	Definite=Def|PronType=Art	6	det	_	AlignBegin=11203|AlignEnd=11340|Gloss=DEF.ART
 5	same	same	ADJ	_	_	6	amod	_	AlignBegin=11340|AlignEnd=11632|Gloss=same
 6	tin	ting	NOUN	_	_	0	root	_	AlignBegin=11632|AlignEnd=11796|Gloss=thing
 7	>+	>+	PUNCT	_	_	10	punct	_	AlignBegin=11796|AlignEnd=11979|Gloss=PUNCT
 8	wey	when	SCONJ	_	_	10	mark	_	AlignBegin=11796|AlignEnd=11979|Gloss=when
 9	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	AlignBegin=11979|AlignEnd=12157|Gloss=NOM.PL.3
 10	be	be	VERB	_	PartType=Cop	6	advcl:cleft	_	AlignBegin=12157|AlignEnd=12277|Gloss=be
-11	//=	//=	PUNCT	_	_	12	punct	_	AlignBegin=12277|AlignEnd=12307|Gloss=PUNCT
-12	na	na	AUX	_	PartType=Cop	6	advcl:cleft	_	AlignBegin=12307|AlignEnd=12400|EXTPOS=SCONJ|Gloss=be
-13	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	12	fixed	_	AlignBegin=12400|AlignEnd=12478|Gloss=NOM.SG.3
+11	//=	//=	PUNCT	_	_	13	punct	_	AlignBegin=12277|AlignEnd=12307|Gloss=PUNCT
+12	na	na	AUX	_	PartType=Cop	13	cop	_	AlignBegin=12307|AlignEnd=12400|Gloss=be
+13	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	6	advcl:cleft	_	AlignBegin=12400|AlignEnd=12478|Gloss=NOM.SG.3
 14	>+	>+	PUNCT	_	_	16	punct	_	AlignBegin=12508|AlignEnd=12613|Gloss=PUNCT
 15	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	16	nsubj	_	AlignBegin=12508|AlignEnd=12613|Gloss=NOM.PL.1
-16	be	be	VERB	_	PartType=Cop	12	advcl:cleft	_	AlignBegin=12613|AlignEnd=12752|Gloss=be
+16	be	be	VERB	_	PartType=Cop	13	advcl:cleft	_	AlignBegin=12613|AlignEnd=12752|Gloss=be
 17	//	//	PUNCT	_	_	6	punct	_	AlignBegin=12752|AlignEnd=12782|Gloss=PUNCT
 
 # sent_id = ONI_07_Dis-Year-Na-My-Year_MG__6
@@ -104,7 +105,7 @@
 # text_ortho = So all dose kind ting, e no good.
 1	#	#	PUNCT	_	_	10	punct	_	AlignBegin=12782|AlignEnd=14124|Gloss=PUNCT
 2	so	so	ADV	_	_	10	discourse	_	AlignBegin=14124|AlignEnd=14610|Gloss=so
-3	all	all	ADV	_	_	6	advmod	_	AlignBegin=14640|AlignEnd=14724|Gloss=all
+3	all	all	ADV	_	_	6	det	_	AlignBegin=14640|AlignEnd=14724|Gloss=all
 4	dose	dose	DET	_	Number=Plur|PronType=Dem	6	det	_	AlignBegin=14724|AlignEnd=14934|Gloss=PL.DIST.DEM
 5	kind	kind	ADJ	_	_	6	amod	_	AlignBegin=14934|AlignEnd=15176|Gloss=kind
 6	ting	ting	NOUN	_	_	10	dislocated	_	AlignBegin=15176|AlignEnd=15287|Gloss=thing
@@ -118,8 +119,8 @@
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_07_Dis-Year-Na-My-Year_MG.mp3
 # speaker_id = Sp472
 # text = # e good { meh || if || sey } # [ make e { dey help your people |c # dey help { di one || di people } wey better pass |c # dey help people wey better pass you } ] # cause you no know where di help go come from //
-# text_en = It's good if you… if… that… they should give a helping hand to your people, they should help those… the people who are better… help people who are better than you because you don’t know where the help will come from.
-# text_ortho = "E good meh... if... sey make e dey help your people... dey help di one... di people wey better pass... dey help people wey better pass you cause you no know where di help go come from. »
+# text_en = It's good if you... if... that... they should give a helping hand to your people, they should help those... the people who are better... help people who are better than you because you don’t know where the help will come from.
+# text_ortho = E good meh, if, sey make e dey help your people, dey help di one, di people wey better pass, dey help people wey better pass you cause you no know where di help go come from.
 1	#	#	PUNCT	_	_	3	punct	_	AlignBegin=15809|AlignEnd=16398|Gloss=PUNCT
 2	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	AlignBegin=16398|AlignEnd=16528|Gloss=NOM.SG.3
 3	good	good	ADJ	_	_	0	root	_	AlignBegin=16528|AlignEnd=16743|Gloss=good
@@ -144,10 +145,10 @@
 22	dey	dey	AUX	_	Aspect=Imp	23	aux	_	AlignBegin=20662|AlignEnd=20867|Gloss=IPFV
 23	help	help	VERB	_	_	17	conj	_	AlignBegin=20867|AlignEnd=20972|Gloss=help
 24	{	{	PUNCT	_	_	26	punct	_	AlignBegin=20972|AlignEnd=21002|Gloss=PUNCT
-25	di	the	DET	_	Definite=Def|PronType=Art	26	det	_	AlignBegin=21002|AlignEnd=21149|Gloss=DEF.ART
+25	di	di	DET	_	Definite=Def|PronType=Art	26	det	_	AlignBegin=21002|AlignEnd=21149|Gloss=DEF.ART
 26	one	one	NOUN	_	_	23	obj	_	AlignBegin=21149|AlignEnd=21366|Gloss=one
 27	||	||	PUNCT	_	_	29	punct	_	AlignBegin=21366|AlignEnd=21396|Gloss=PUNCT
-28	di	the	DET	_	Definite=Def|PronType=Art	29	det	_	AlignBegin=21396|AlignEnd=21573|Gloss=DEF.ART
+28	di	di	DET	_	Definite=Def|PronType=Art	29	det	_	AlignBegin=21396|AlignEnd=21573|Gloss=DEF.ART
 29	people	people	NOUN	_	Number=Plur	26	conj	_	AlignBegin=21573|AlignEnd=21767|Gloss=people.PL
 30	}	}	PUNCT	_	_	26	punct	_	AlignBegin=21767|AlignEnd=21797|Gloss=PUNCT
 31	wey	wey	SCONJ	_	_	32	mark	_	AlignBegin=21797|AlignEnd=21940|Gloss=REL
@@ -165,27 +166,27 @@
 43	}	}	PUNCT	_	_	17	punct	_	AlignBegin=25741|AlignEnd=26673|Gloss=PUNCT
 44	]	]	PUNCT	_	_	17	punct	_	AlignBegin=25741|AlignEnd=26673|Gloss=PUNCT
 45	#	#	PUNCT	_	_	49	punct	_	AlignBegin=25741|AlignEnd=26673|Gloss=PUNCT
-46	cause	cause	SCONJ	_	_	49	mark	_	AlignBegin=26673|AlignEnd=26824|Gloss=because
+46	cause	because	SCONJ	_	_	49	mark	_	AlignBegin=26673|AlignEnd=26824|Gloss=because
 47	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	49	nsubj	_	AlignBegin=26824|AlignEnd=26931|Gloss=NOM.2
 48	no	no	PART	_	Polarity=Neg	49	advmod	_	AlignBegin=26931|AlignEnd=27071|Gloss=NEG
 49	know	know	VERB	_	_	37	advcl	_	AlignBegin=27071|AlignEnd=27275|Gloss=know
 50	where	where	ADV	_	PronType=Int	49	obj	_	AlignBegin=27275|AlignEnd=27714|Gloss=where.Q
-51	di	the	DET	_	Definite=Def|PronType=Art	52	det	_	AlignBegin=27714|AlignEnd=27864|Gloss=DEF.ART
+51	di	di	DET	_	Definite=Def|PronType=Art	52	det	_	AlignBegin=27714|AlignEnd=27864|Gloss=DEF.ART
 52	help	help	NOUN	_	_	54	nsubj	_	AlignBegin=27864|AlignEnd=28110|Gloss=help
 53	go	go	AUX	_	Aspect=Prosp	54	aux	_	AlignBegin=28110|AlignEnd=28260|Gloss=PROSP
 54	come	come	VERB	_	_	50	acl:relcl	_	AlignBegin=28260|AlignEnd=28445|Gloss=come
-55	from	from	ADP	_	_	54	dep	_	AlignBegin=28445|AlignEnd=28664|Gloss=from
+55	from	from	ADP	_	_	54	dep:comp	_	AlignBegin=28445|AlignEnd=28664|Gloss=from
 56	//	//	PUNCT	_	_	3	punct	_	AlignBegin=28664|AlignEnd=28694|Gloss=PUNCT
 
 # sent_id = ONI_07_Dis-Year-Na-My-Year_MG__8
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_07_Dis-Year-Na-My-Year_MG.mp3
 # speaker_id = Sp472
 # text = # so dis year < # I know sey [ dis year < # dis year no go pass me by ] //
-# text_en = So this year... I know that this year… this year will not pass me by.
-# text_ortho = So dis year... I know sey dis year... dis year no go pass me by.
+# text_en = So this year... I know that this year... this year will not pass me by.
+# text_ortho = So dis year, I know sey dis year, dis year no go pass me by.
 1	#	#	PUNCT	_	_	8	punct	_	AlignBegin=28694|AlignEnd=29748|Gloss=PUNCT
 2	so	so	ADV	_	_	8	discourse	_	AlignBegin=29748|AlignEnd=29911|Gloss=so
-3	dis	dis	DET	_	Number=Sing|PronType=Dem	4	det	_	AlignBegin=29911|AlignEnd=30216|Gloss=SG.PROX.DEM
+3	dis	dis	DET	_	Number=Sing|PronType=Dem	4	det	_	AlignBegin=29911|AlignEnd=30216|Gloss=SG.DEM
 4	year	year	NOUN	_	_	8	obl:mod	_	AlignBegin=30216|AlignEnd=30504|Gloss=year
 5	<	<	PUNCT	_	_	4	punct	_	AlignBegin=30504|AlignEnd=30534|Gloss=PUNCT
 6	#	#	PUNCT	_	_	4	punct	_	AlignBegin=30534|AlignEnd=30700|Gloss=PUNCT
@@ -193,15 +194,15 @@
 8	know	know	VERB	_	_	0	root	_	AlignBegin=30853|AlignEnd=30970|Gloss=know
 9	sey	sey	SCONJ	_	_	19	mark	_	AlignBegin=30970|AlignEnd=31143|Gloss=COMP
 10	[	[	PUNCT	_	_	19	punct	_	AlignBegin=31143|AlignEnd=31173|Gloss=PUNCT
-11	dis	dis	DET	_	Number=Sing|PronType=Dem	12	det	_	AlignBegin=31173|AlignEnd=31452|Gloss=SG.PROX.DEM
+11	dis	dis	DET	_	Number=Sing|PronType=Dem	12	det	_	AlignBegin=31173|AlignEnd=31452|Gloss=SG.DEM
 12	year	year	NOUN	_	_	19	dislocated	_	AlignBegin=31452|AlignEnd=31691|Gloss=year
 13	<	<	PUNCT	_	_	12	punct	_	AlignBegin=31691|AlignEnd=31721|Gloss=PUNCT
 14	#	#	PUNCT	_	_	12	punct	_	AlignBegin=31721|AlignEnd=32504|Gloss=PUNCT
-15	dis	dis	DET	_	Number=Sing|PronType=Dem	16	det	_	AlignBegin=32504|AlignEnd=32704|Gloss=SG.PROX.DEM
+15	dis	dis	DET	_	Number=Sing|PronType=Dem	16	det	_	AlignBegin=32504|AlignEnd=32704|Gloss=SG.DEM
 16	year	year	NOUN	_	_	19	nsubj	_	AlignBegin=32704|AlignEnd=32796|Gloss=year
 17	no	no	PART	_	Polarity=Neg	19	advmod	_	AlignBegin=32796|AlignEnd=32929|Gloss=NEG
 18	go	go	AUX	_	Aspect=Prosp	19	aux	_	AlignBegin=32929|AlignEnd=33062|Gloss=PROSP
-19	pass	pass	VERB	_	_	8	ccomp	_	AlignBegin=33062|AlignEnd=33297|Gloss=pass
+19	pass	pass	VERB	_	_	8	ccomp:obj	_	AlignBegin=33062|AlignEnd=33297|Gloss=pass
 20	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	19	obj	_	AlignBegin=33297|AlignEnd=33500|Gloss=ACC.SG.1
 21	by	by	ADP	_	_	19	compound:prt	_	AlignBegin=33500|AlignEnd=33682|Gloss=by
 22	]	]	PUNCT	_	_	19	punct	_	AlignBegin=33682|AlignEnd=33712|Gloss=PUNCT
@@ -215,7 +216,7 @@
 # text_ortho = And dis year, I don already know sey dis year na my year.
 1	#	#	PUNCT	_	_	9	punct	_	AlignBegin=33712|AlignEnd=34379|Gloss=PUNCT
 2	and	and	CCONJ	_	_	9	cc	_	AlignBegin=34379|AlignEnd=34601|Gloss=and
-3	dis	dis	DET	_	Number=Sing|PronType=Dem	4	det	_	AlignBegin=34601|AlignEnd=34878|Gloss=SG.PROX.DEM
+3	dis	dis	DET	_	Number=Sing|PronType=Dem	4	det	_	AlignBegin=34601|AlignEnd=34878|Gloss=SG.DEM
 4	year	year	NOUN	_	_	9	dislocated	_	AlignBegin=34878|AlignEnd=35130|Gloss=year
 5	<	<	PUNCT	_	_	4	punct	_	AlignBegin=35130|AlignEnd=35160|Gloss=PUNCT
 6	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	AlignBegin=35160|AlignEnd=35300|Gloss=NOM.SG.1
@@ -224,21 +225,21 @@
 9	know	know	VERB	_	_	0	root	_	AlignBegin=35686|AlignEnd=35917|Gloss=know
 10	sey	sey	SCONJ	_	_	17	mark	_	AlignBegin=35917|AlignEnd=36099|Gloss=COMP
 11	[	[	PUNCT	_	_	17	punct	_	AlignBegin=36099|AlignEnd=36129|Gloss=PUNCT
-12	dis	dis	DET	_	Number=Sing|PronType=Dem	13	det	_	AlignBegin=36129|AlignEnd=36387|Gloss=SG.PROX.DEM
+12	dis	dis	DET	_	Number=Sing|PronType=Dem	13	det	_	AlignBegin=36129|AlignEnd=36387|Gloss=SG.DEM
 13	year	year	NOUN	_	_	17	nsubj	_	AlignBegin=36387|AlignEnd=36570|Gloss=year
 14	#	#	PUNCT	_	_	13	punct	_	AlignBegin=36600|AlignEnd=36979|Gloss=PUNCT
 15	na	na	AUX	_	PartType=Cop	17	cop	_	AlignBegin=36979|AlignEnd=37112|Gloss=be
 16	my	my	PRON	_	Number=Sing|Person=1|Poss=Yes	17	nmod:poss	_	AlignBegin=37112|AlignEnd=37333|Gloss=SG.1.POSS
-17	year	year	NOUN	_	_	9	ccomp	_	AlignBegin=37333|AlignEnd=37524|Gloss=year
+17	year	year	NOUN	_	_	9	ccomp:obj	_	AlignBegin=37333|AlignEnd=37524|Gloss=year
 18	]	]	PUNCT	_	_	17	punct	_	AlignBegin=37524|AlignEnd=37554|Gloss=PUNCT
 19	//	//	PUNCT	_	_	9	punct	_	AlignBegin=37524|AlignEnd=37554|Gloss=PUNCT
 
 # sent_id = ONI_07_Dis-Year-Na-My-Year_MG__10
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_07_Dis-Year-Na-My-Year_MG.mp3
 # speaker_id = Sp472
-# text = # and na { my year of testimony |c # my year of blessing |c # my year of divine { med- || eh # eh eh mercy } } >+ na im be dis year //
-# text_en = And it's my year of testimonies, my year of blessings, my year of divine… made… uh, uh, uh mercy, that’s what this year is.
-# text_ortho = And na my year of testimony, my year of blessing, my year of divine... made... eh, eh, eh mercy, na im be dis year.
+# text = # and na { my year of testimony |c # my year of blessing |c # my year of divine { med~ || eh # eh eh mercy } } >+ na im be dis year //
+# text_en = And it's my year of testimonies, my year of blessings, my year of divine... made... uh, uh, uh mercy, that’s what this year is.
+# text_ortho = And na my year of testimony, my year of blessing, my year of divine med~... eh eh eh mercy na im be dis year.
 1	#	#	PUNCT	_	_	6	punct	_	AlignBegin=37554|AlignEnd=38288|Gloss=PUNCT
 2	and	and	CCONJ	_	_	6	cc	_	AlignBegin=38288|AlignEnd=38378|Gloss=and
 3	na	na	AUX	_	PartType=Cop	6	cop	_	AlignBegin=38378|AlignEnd=38469|Gloss=be
@@ -260,7 +261,7 @@
 19	of	of	ADP	_	_	22	case	_	AlignBegin=43363|AlignEnd=43583|Gloss=of
 20	divine	divine	ADJ	_	_	22	amod	_	AlignBegin=43583|AlignEnd=44187|Gloss=divine
 21	{	{	PUNCT	_	_	22	punct	_	AlignBegin=44187|AlignEnd=44217|Gloss=PUNCT
-22	med-	X	X	_	Tense=Past|VerbForm=Part	18	nmod	_	AlignBegin=44217|AlignEnd=44570|Gloss=X
+22	med~	X	X	_	_	18	nmod	_	AlignBegin=44217|AlignEnd=44570|Gloss=X
 23	||	||	PUNCT	_	_	28	punct	_	AlignBegin=44570|AlignEnd=44600|Gloss=PUNCT
 24	eh	eh	INTJ	_	_	28	discourse	_	AlignBegin=44600|AlignEnd=45183|Gloss=eh
 25	#	#	PUNCT	_	_	28	punct	_	AlignBegin=45183|AlignEnd=45737|Gloss=PUNCT
@@ -271,10 +272,10 @@
 30	}	}	PUNCT	_	_	6	punct	_	AlignBegin=46909|AlignEnd=46939|Gloss=PUNCT
 31	>+	>+	PUNCT	_	_	32	punct	_	AlignBegin=46909|AlignEnd=46939|Gloss=PUNCT
 32	na	na	AUX	_	PartType=Cop	6	advcl:cleft	_	AlignBegin=46939|AlignEnd=47088|EXTPOS=SCONJ|Gloss=be
-33	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	32	fixed	_	AlignBegin=47088|AlignEnd=47117|Gloss=NOM.SG.3
+33	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	32	dep	_	AlignBegin=47088|AlignEnd=47117|Gloss=NOM.SG.3
 34	be	be	AUX	_	PartType=Cop	36	cop	_	AlignBegin=47147|AlignEnd=47296|Gloss=be
-35	dis	dis	DET	_	Number=Sing|PronType=Dem	36	det	_	AlignBegin=47296|AlignEnd=47428|Gloss=SG.PROX.DEM
-36	year	year	NOUN	_	_	32	ccomp	_	AlignBegin=47428|AlignEnd=47695|Gloss=year
+35	dis	dis	DET	_	Number=Sing|PronType=Dem	36	det	_	AlignBegin=47296|AlignEnd=47428|Gloss=SG.DEM
+36	year	year	NOUN	_	_	32	ccomp:obj	_	AlignBegin=47428|AlignEnd=47695|Gloss=year
 37	//	//	PUNCT	_	_	6	punct	_	AlignBegin=47695|AlignEnd=47726|Gloss=PUNCT
 
 # sent_id = ONI_07_Dis-Year-Na-My-Year_MG__11
@@ -290,7 +291,7 @@
 5	sey	sey	SCONJ	_	_	19	mark	_	AlignBegin=48812|AlignEnd=48929|Gloss=COMP
 6	[	[	PUNCT	_	_	19	punct	_	AlignBegin=48929|AlignEnd=48959|Gloss=PUNCT
 7	as	as	ADP	_	_	11	mark	_	AlignBegin=48959|AlignEnd=49224|Gloss=as
-8	dis	dis	DET	_	Number=Sing|PronType=Dem	9	det	_	AlignBegin=49224|AlignEnd=49460|Gloss=SG.PROX.DEM
+8	dis	dis	DET	_	Number=Sing|PronType=Dem	9	det	_	AlignBegin=49224|AlignEnd=49460|Gloss=SG.DEM
 9	year	year	NOUN	_	_	11	nsubj	_	AlignBegin=49460|AlignEnd=49652|Gloss=year
 10	dey	dey	AUX	_	Aspect=Imp	11	aux	_	AlignBegin=49652|AlignEnd=49770|Gloss=IPFV
 11	carry	carry	VERB	_	_	19	advcl:periph	_	AlignBegin=49770|AlignEnd=50090|Gloss=carry
@@ -301,7 +302,7 @@
 16	<	<	PUNCT	_	_	15	punct	_	AlignBegin=50910|AlignEnd=50940|Gloss=PUNCT
 17	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	AlignBegin=50940|AlignEnd=51096|Gloss=NOM.SG.1
 18	dey	dey	AUX	_	Aspect=Imp	19	aux	_	AlignBegin=51096|AlignEnd=51246|Gloss=IPFV
-19	carry	carry	VERB	_	_	4	ccomp	_	AlignBegin=51246|AlignEnd=51455|Gloss=carry
+19	carry	carry	VERB	_	_	4	ccomp:obj	_	AlignBegin=51246|AlignEnd=51455|Gloss=carry
 20	on	on	ADP	_	_	19	compound:prt	_	AlignBegin=51455|AlignEnd=51549|Gloss=on
 21	dey	dey	AUX	_	Aspect=Imp	22	aux	_	AlignBegin=51549|AlignEnd=51701|Gloss=IPFV
 22	follow	follow	VERB	_	_	19	advcl	_	AlignBegin=51701|AlignEnd=51929|Gloss=follow
@@ -317,7 +318,7 @@
 # text_ortho = I dey bumper dey follow am.
 1	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	AlignBegin=52142|AlignEnd=52335|Gloss=NOM.SG.1
 2	dey	dey	VERB	_	VerbType=Cop	0	root	_	AlignBegin=52335|AlignEnd=52470|Gloss=be
-3	bumper	bumper	NOUN	_	_	2	xcomp	_	AlignBegin=52470|AlignEnd=52818|Gloss=bumper
+3	bumper	bumper	NOUN	_	_	2	xcomp:pred	_	AlignBegin=52470|AlignEnd=52818|Gloss=bumper
 4	dey	dey	AUX	_	Aspect=Imp	5	aux	_	AlignBegin=52818|AlignEnd=52951|Gloss=IPFV
 5	follow	follow	VERB	_	_	2	advcl	_	AlignBegin=52951|AlignEnd=53175|Gloss=follow
 6	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	5	obj	_	AlignBegin=53175|AlignEnd=53371|Gloss=ACC.SG.3
@@ -326,42 +327,42 @@
 # sent_id = ONI_07_Dis-Year-Na-My-Year_MG__13
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_07_Dis-Year-Na-My-Year_MG.mp3
 # speaker_id = Sp472
-# text = # cause I know sey # [ di way dis year be now < # di way I dey look di year < # I know sey [ di year { dey sh- || go shine } for my head ] ] //
-# text_en = Because I know that the way this year is presently… the way I am looking at this year, I know that the year is sh-... will bring good fortunes to me.
-# text_ortho = Cause I know sey di way dis year be now… di way I dey look di year, I know sey di year dey sh-... go shine for my head.
+# text = # cause I know sey # [ di way dis year be now < # di way I dey look di year < # I know sey [ di year { dey sh~ || go shine } for my head ] ] //
+# text_en = Because I know that the way this year is presently... the way I am looking at this year, I know that the year is sh~... will bring good fortunes to me.
+# text_ortho = Cause I know sey di way dis year be now, di way I dey look di year, I know sey di year dey sh~... go shine for my head.
 1	#	#	PUNCT	_	_	4	punct	_	AlignBegin=53401|AlignEnd=54091|Gloss=PUNCT
-2	cause	cause	SCONJ	_	_	4	cc	_	AlignBegin=54091|AlignEnd=54256|Gloss=because
+2	cause	because	SCONJ	_	_	4	cc	_	AlignBegin=54091|AlignEnd=54256|Gloss=because
 3	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	AlignBegin=54256|AlignEnd=54351|Gloss=NOM.SG.1
 4	know	know	VERB	_	_	0	root	_	AlignBegin=54351|AlignEnd=54486|Gloss=know
 5	sey	sey	SCONJ	_	_	26	mark	_	AlignBegin=54486|AlignEnd=54975|Gloss=COMP
 6	#	#	PUNCT	_	_	26	punct	_	AlignBegin=54975|AlignEnd=55789|Gloss=PUNCT
 7	[	[	PUNCT	_	_	26	punct	_	AlignBegin=55759|AlignEnd=55789|Gloss=PUNCT
-8	di	the	DET	_	Definite=Def|PronType=Art	9	det	_	AlignBegin=55789|AlignEnd=55907|Gloss=DEF.ART
+8	di	di	DET	_	Definite=Def|PronType=Art	9	det	_	AlignBegin=55789|AlignEnd=55907|Gloss=DEF.ART
 9	way	way	NOUN	_	_	26	obl:mod	_	AlignBegin=55907|AlignEnd=56147|Gloss=way
-10	dis	dis	DET	_	Number=Sing|PronType=Dem	11	det	_	AlignBegin=56147|AlignEnd=56360|Gloss=SG.PROX.DEM
+10	dis	dis	DET	_	Number=Sing|PronType=Dem	11	det	_	AlignBegin=56147|AlignEnd=56360|Gloss=SG.DEM
 11	year	year	NOUN	_	_	12	nsubj	_	AlignBegin=56360|AlignEnd=56532|Gloss=year
 12	be	be	VERB	_	PartType=Cop	9	acl:relcl	_	AlignBegin=56532|AlignEnd=56736|Gloss=be
 13	now	now	ADV	_	_	12	advmod	_	AlignBegin=56736|AlignEnd=57011|Gloss=now
 14	<	<	PUNCT	_	_	9	punct	_	AlignBegin=57011|AlignEnd=57042|Gloss=PUNCT
 15	#	#	PUNCT	_	_	9	punct	_	AlignBegin=57042|AlignEnd=57232|Gloss=PUNCT
-16	di	the	DET	_	Definite=Def|PronType=Art	17	det	_	AlignBegin=57232|AlignEnd=57394|Gloss=DEF.ART
+16	di	di	DET	_	Definite=Def|PronType=Art	17	det	_	AlignBegin=57232|AlignEnd=57394|Gloss=DEF.ART
 17	way	way	NOUN	_	_	26	obl:mod	_	AlignBegin=57394|AlignEnd=57531|Gloss=way
 18	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	20	nsubj	_	AlignBegin=57531|AlignEnd=57614|Gloss=NOM.SG.1
 19	dey	dey	AUX	_	Aspect=Imp	20	aux	_	AlignBegin=57614|AlignEnd=57745|Gloss=IPFV
 20	look	look	VERB	_	_	17	acl:relcl	_	AlignBegin=57745|AlignEnd=57935|Gloss=look
-21	di	the	DET	_	Definite=Def|PronType=Art	22	det	_	AlignBegin=57935|AlignEnd=58046|Gloss=DEF.ART
+21	di	di	DET	_	Definite=Def|PronType=Art	22	det	_	AlignBegin=57935|AlignEnd=58046|Gloss=DEF.ART
 22	year	year	NOUN	_	_	20	obj	_	AlignBegin=58046|AlignEnd=58303|Gloss=year
 23	<	<	PUNCT	_	_	17	punct	_	AlignBegin=58303|AlignEnd=58333|Gloss=PUNCT
 24	#	#	PUNCT	_	_	17	punct	_	AlignBegin=58333|AlignEnd=58897|Gloss=PUNCT
 25	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	26	nsubj	_	AlignBegin=58897|AlignEnd=59017|Gloss=NOM.SG.1
-26	know	know	VERB	_	_	4	ccomp	_	AlignBegin=59017|AlignEnd=59115|Gloss=know
+26	know	know	VERB	_	_	4	ccomp:obj	_	AlignBegin=59017|AlignEnd=59115|Gloss=know
 27	sey	sey	SCONJ	_	_	33	mark	_	AlignBegin=59115|AlignEnd=59293|Gloss=COMP
 28	[	[	PUNCT	_	_	33	punct	_	AlignBegin=59293|AlignEnd=59323|Gloss=PUNCT
-29	di	the	DET	_	Definite=Def|PronType=Art	30	det	_	AlignBegin=59323|AlignEnd=59465|Gloss=DEF.ART
+29	di	di	DET	_	Definite=Def|PronType=Art	30	det	_	AlignBegin=59323|AlignEnd=59465|Gloss=DEF.ART
 30	year	year	NOUN	_	_	33	nsubj	_	AlignBegin=59465|AlignEnd=59659|Gloss=year
 31	{	{	PUNCT	_	_	33	punct	_	AlignBegin=59659|AlignEnd=59689|Gloss=PUNCT
 32	dey	dey	AUX	_	Aspect=Imp	33	aux	_	AlignBegin=59689|AlignEnd=59803|Gloss=IPFV
-33	sh-	X	X	_	_	26	ccomp	_	AlignBegin=59803|AlignEnd=59933|Gloss=X
+33	sh~	X	X	_	_	26	ccomp:obj	_	AlignBegin=59803|AlignEnd=59933|Gloss=X
 34	||	||	PUNCT	_	_	36	punct	_	AlignBegin=59933|AlignEnd=59963|Gloss=PUNCT
 35	go	go	AUX	_	Aspect=Prosp	36	aux	_	AlignBegin=59963|AlignEnd=60158|Gloss=PROSP
 36	shine	shine	VERB	_	_	33	conj:dicto	_	AlignBegin=60158|AlignEnd=60358|Gloss=shine
@@ -378,7 +379,7 @@
 # speaker_id = Sp472
 # text = # so # so # I don cover everyting put for God hand dis year //
 # text_en = So, so this year, I have committed everything to the hands of God
-# text_ortho = So, so I don cover everyting put for God hand dis year.
+# text_ortho = So so I don cover everyting put for God hand dis year.
 1	#	#	PUNCT	_	_	8	punct	_	AlignBegin=60924|AlignEnd=61925|Gloss=PUNCT
 2	so	so	ADV	_	_	8	discourse	_	AlignBegin=61925|AlignEnd=62778|Gloss=so
 3	#	#	PUNCT	_	_	2	punct	_	AlignBegin=62808|AlignEnd=66782|Gloss=PUNCT
@@ -392,7 +393,7 @@
 11	for	for	ADP	_	_	13	case	_	AlignBegin=69394|AlignEnd=69558|Gloss=for
 12	God	God	PROPN	_	_	13	nmod:poss	_	AlignBegin=69558|AlignEnd=69817|Gloss=God
 13	hand	hand	NOUN	_	_	10	obl:arg	_	AlignBegin=69817|AlignEnd=70078|Gloss=hand
-14	dis	dis	DET	_	Number=Sing|PronType=Dem	15	det	_	AlignBegin=70078|AlignEnd=70275|Gloss=SG.PROX.DEM
+14	dis	dis	DET	_	Number=Sing|PronType=Dem	15	det	_	AlignBegin=70078|AlignEnd=70275|Gloss=SG.DEM
 15	year	year	NOUN	_	_	10	obl:mod	_	AlignBegin=70275|AlignEnd=70451|Gloss=year
 16	//	//	PUNCT	_	_	8	punct	_	AlignBegin=70451|AlignEnd=70481|Gloss=PUNCT
 
@@ -400,20 +401,20 @@
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_07_Dis-Year-Na-My-Year_MG.mp3
 # speaker_id = Sp472
 # text = # sey I know sey # [ no how # wey dis year no go better for my life !//] //
-# text_en = That… I know that there's no way this year will not be good for me!
+# text_en = That... I know that there's no way this year will not be good for me!
 # text_ortho = Sey I know sey no how wey dis year no go better for my life!
 1	#	#	PUNCT	_	_	4	punct	_	AlignBegin=70481|AlignEnd=71186|Gloss=PUNCT
-2	sey	sey	SCONJ	_	_	4	cc	_	AlignBegin=71186|AlignEnd=71343|Gloss=COMP
+2	sey	sey	SCONJ	_	_	4	discourse	_	AlignBegin=71186|AlignEnd=71343|Gloss=COMP
 3	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	AlignBegin=71343|AlignEnd=71464|Gloss=NOM.SG.1
 4	know	know	VERB	_	_	0	root	_	AlignBegin=71464|AlignEnd=71580|Gloss=know
 5	sey	sey	SCONJ	_	_	9	mark	_	AlignBegin=71580|AlignEnd=72001|Gloss=COMP
 6	#	#	PUNCT	_	_	9	punct	_	AlignBegin=72001|AlignEnd=73068|Gloss=PUNCT
 7	[	[	PUNCT	_	_	9	punct	_	AlignBegin=73038|AlignEnd=73068|Gloss=PUNCT
 8	no	no	PART	_	Polarity=Neg	9	advmod	_	AlignBegin=73068|AlignEnd=73310|Gloss=NEG
-9	how	how	ADV	_	PronType=Int	4	ccomp	_	AlignBegin=73310|AlignEnd=73605|Gloss=how.Q
+9	how	how	ADV	_	PronType=Int	4	ccomp:obj	_	AlignBegin=73310|AlignEnd=73605|Gloss=how.Q
 10	#	#	PUNCT	_	_	16	punct	_	AlignBegin=73635|AlignEnd=74207|Gloss=PUNCT
 11	wey	wey	SCONJ	_	_	16	mark	_	AlignBegin=74207|AlignEnd=74392|Gloss=REL
-12	dis	dis	DET	_	Number=Sing|PronType=Dem	13	det	_	AlignBegin=74392|AlignEnd=74615|Gloss=SG.PROX.DEM
+12	dis	dis	DET	_	Number=Sing|PronType=Dem	13	det	_	AlignBegin=74392|AlignEnd=74615|Gloss=SG.DEM
 13	year	year	NOUN	_	_	16	nsubj	_	AlignBegin=74615|AlignEnd=74743|Gloss=year
 14	no	no	PART	_	Polarity=Neg	16	advmod	_	AlignBegin=74743|AlignEnd=74889|Gloss=NEG
 15	go	go	AUX	_	Aspect=Prosp	16	aux	_	AlignBegin=74889|AlignEnd=75023|Gloss=PROSP
@@ -439,7 +440,7 @@
 7	sey	sey	SCONJ	_	_	18	mark	_	AlignBegin=79913|AlignEnd=80779|Gloss=COMP
 8	[	[	PUNCT	_	_	18	punct	_	AlignBegin=80779|AlignEnd=80809|Gloss=PUNCT
 9	as	as	ADP	_	_	12	mark	_	AlignBegin=80809|AlignEnd=81076|Gloss=as
-10	dis	dis	DET	_	Number=Sing|PronType=Dem	11	det	_	AlignBegin=81076|AlignEnd=81362|Gloss=SG.PROX.DEM
+10	dis	dis	DET	_	Number=Sing|PronType=Dem	11	det	_	AlignBegin=81076|AlignEnd=81362|Gloss=SG.DEM
 11	year	year	NOUN	_	_	12	nsubj	_	AlignBegin=81362|AlignEnd=81548|Gloss=year
 12	be	be	VERB	_	PartType=Cop	18	advcl:periph	_	AlignBegin=81548|AlignEnd=81786|Gloss=be
 13	now	now	ADV	_	_	12	advmod	_	AlignBegin=81786|AlignEnd=82015|Gloss=now
@@ -447,7 +448,7 @@
 15	#	#	PUNCT	_	_	12	punct	_	AlignBegin=82045|AlignEnd=83597|Gloss=PUNCT
 16	moh	make	AUX	_	Mood=Opt	18	aux	_	AlignBegin=83597|AlignEnd=83700|Gloss=SBJV
 17	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	18	nsubj	_	AlignBegin=83700|AlignEnd=83805|Gloss=NOM.PL.1
-18	start	start	VERB	_	_	5	ccomp	_	AlignBegin=83805|AlignEnd=84111|Gloss=start
+18	start	start	VERB	_	_	5	ccomp:obj	_	AlignBegin=83805|AlignEnd=84111|Gloss=start
 19	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	18	obj	_	AlignBegin=84111|AlignEnd=84328|Gloss=ACC.SG.3
 20	]	]	PUNCT	_	_	18	punct	_	AlignBegin=84328|AlignEnd=84358|Gloss=PUNCT
 21	//	//	PUNCT	_	_	5	punct	_	AlignBegin=84328|AlignEnd=84358|Gloss=PUNCT
@@ -481,19 +482,19 @@
 21	your	your	PRON	_	Number=Plur|Person=2|Poss=Yes	22	nmod:poss	_	AlignBegin=88966|AlignEnd=89196|Gloss=PL.2.POSS
 22	age	age	NOUN	_	_	24	nsubj	_	AlignBegin=89196|AlignEnd=89479|Gloss=age
 23	still	still	ADV	_	_	24	advmod	_	AlignBegin=89479|AlignEnd=89706|Gloss=still
-24	dey	dey	VERB	_	VerbType=Cop	18	ccomp	_	AlignBegin=89706|AlignEnd=89967|Gloss=be
-25	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	24	xcomp	_	AlignBegin=89967|AlignEnd=90119|Gloss=NOM.2
+24	dey	dey	VERB	_	VerbType=Cop	18	ccomp:obj	_	AlignBegin=89706|AlignEnd=89967|Gloss=be
+25	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	24	xcomp:pred	_	AlignBegin=89967|AlignEnd=90119|Gloss=NOM.2
 26	for	for	ADP	_	_	29	mark	_	AlignBegin=90119|AlignEnd=90412|Gloss=for
 27	make	make	AUX	_	Mood=Opt	29	aux	_	AlignBegin=90412|AlignEnd=90570|Gloss=SBJV
 28	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	29	nsubj	_	AlignBegin=90570|AlignEnd=90664|Gloss=NOM.2
-29	learn	learn	VERB	_	_	24	xcomp	_	AlignBegin=90664|AlignEnd=90922|Gloss=learn
+29	learn	learn	VERB	_	_	24	xcomp:obl	_	AlignBegin=90664|AlignEnd=90922|Gloss=learn
 30	work	work	NOUN	_	_	29	obj	_	AlignBegin=90922|AlignEnd=91119|Gloss=work
 31	]	]	PUNCT	_	_	24	punct	_	AlignBegin=91119|AlignEnd=91149|Gloss=PUNCT
 32	<	<	PUNCT	_	_	18	punct	_	AlignBegin=91119|AlignEnd=91149|Gloss=PUNCT
 33	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	35	nsubj	_	AlignBegin=91149|AlignEnd=91233|Gloss=NOM.2
 34	better	beta	ADJ	_	Degree=Cmp	35	advcl	_	AlignBegin=91233|AlignEnd=91525|Gloss=good.CMPR
 35	go	go	VERB	_	_	0	root	_	AlignBegin=91525|AlignEnd=91676|Gloss=go
-36	learn	learn	VERB	_	_	35	xcomp	_	AlignBegin=91676|AlignEnd=91883|Gloss=learn
+36	learn	learn	VERB	_	_	35	xcomp:obj	_	AlignBegin=91676|AlignEnd=91883|Gloss=learn
 37	work	work	NOUN	_	_	36	obj	_	AlignBegin=91883|AlignEnd=92095|Gloss=work
 38	//	//	PUNCT	_	_	35	punct	_	AlignBegin=92095|AlignEnd=92125|Gloss=PUNCT
 
@@ -528,7 +529,7 @@
 7	[	[	PUNCT	_	_	10	punct	_	AlignBegin=96989|AlignEnd=97019|Gloss=PUNCT
 8	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	AlignBegin=97019|AlignEnd=97103|Gloss=NOM.SG.3
 9	go	go	AUX	_	Aspect=Prosp	10	aux	_	AlignBegin=97103|AlignEnd=97255|Gloss=PROSP
-10	carry	carry	VERB	_	_	5	ccomp	_	AlignBegin=97255|AlignEnd=97513|Gloss=carry
+10	carry	carry	VERB	_	_	5	ccomp:obj	_	AlignBegin=97255|AlignEnd=97513|Gloss=carry
 11	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	10	obj	_	AlignBegin=97513|AlignEnd=97663|Gloss=NOM.2
 12	]	]	PUNCT	_	_	10	punct	_	AlignBegin=97663|AlignEnd=97693|Gloss=PUNCT
 13	<	<	PUNCT	_	_	2	punct	_	AlignBegin=97663|AlignEnd=97693|Gloss=PUNCT
@@ -542,8 +543,8 @@
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_07_Dis-Year-Na-My-Year_MG.mp3
 # speaker_id = Sp472
 # text = # because security work < # people don do am //= I don jam some people //
-# text_en = Because people have worked as security guards… I have met some people.
-# text_ortho = Because security work, people don do am... I don jam some people.
+# text_en = Because people have worked as security guards... I have met some people.
+# text_ortho = Because security work, people don do am, I don jam some people.
 1	#	#	PUNCT	_	_	9	punct	_	AlignBegin=98440|AlignEnd=99094|Gloss=PUNCT
 2	because	because	SCONJ	_	_	9	cc	_	AlignBegin=99094|AlignEnd=99496|Gloss=because
 3	security	security	NOUN	_	_	4	compound	_	AlignBegin=99496|AlignEnd=100080|Gloss=security
@@ -589,7 +590,7 @@
 4	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	AlignBegin=104919|AlignEnd=105056|Gloss=NOM.SG.1
 5	don	don	AUX	_	Aspect=Perf	6	aux	_	AlignBegin=105056|AlignEnd=105206|Gloss=PRF
 6	do	do	VERB	_	_	0	root	_	AlignBegin=105206|AlignEnd=105310|Gloss=do
-7	am	am	PRON	_	Case=Acc|Person=3|PronType=Prs	6	obj	_	AlignBegin=105310|AlignEnd=105410|Gloss=ACC.3
+7	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	6	obj	_	AlignBegin=105310|AlignEnd=105410|Gloss=ACC.SG.3
 8	|c	|c	PUNCT	_	_	14	punct	_	AlignBegin=105410|AlignEnd=105440|Gloss=PUNCT
 9	but	but	CCONJ	_	_	14	cc	_	AlignBegin=105440|AlignEnd=105597|Gloss=but
 10	dat	dat	DET	_	Number=Sing|PronType=Dem	12	det	_	AlignBegin=105597|AlignEnd=105742|Gloss=SG.DEM
@@ -597,9 +598,9 @@
 12	month	month	NOUN	_	_	14	nsubj	_	AlignBegin=105912|AlignEnd=106108|Gloss=month
 13	don	don	AUX	_	Aspect=Perf	14	aux	_	AlignBegin=106108|AlignEnd=106312|Gloss=PRF
 14	dey	dey	VERB	_	VerbType=Cop	6	conj	_	AlignBegin=106312|AlignEnd=106427|Gloss=be
-15	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	14	xcomp	_	AlignBegin=106427|AlignEnd=106537|Gloss=ACC.SG.1
+15	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	14	xcomp:pred	_	AlignBegin=106427|AlignEnd=106537|Gloss=ACC.SG.1
 16	like	like	ADP	_	_	22	mark	_	AlignBegin=106537|AlignEnd=106704|EXTPOS=SCONJ|Gloss=like
-17	sey	sey	SCONJ	_	_	16	fixed	_	AlignBegin=106704|AlignEnd=106878|Gloss=COMP
+17	sey	sey	SCONJ	_	_	22	dep	_	AlignBegin=106704|AlignEnd=106878|Gloss=COMP
 18	[	[	PUNCT	_	_	22	punct	_	AlignBegin=106878|AlignEnd=106908|Gloss=PUNCT
 19	na	na	AUX	_	PartType=Cop	22	cop	_	AlignBegin=106908|AlignEnd=107255|Gloss=be
 20	#	#	PUNCT	_	_	22	punct	_	AlignBegin=107255|AlignEnd=107581|Gloss=PUNCT
@@ -612,8 +613,8 @@
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_07_Dis-Year-Na-My-Year_MG.mp3
 # speaker_id = Sp472
 # text = # some people don say [ de don do am twenty years //= # carry am marry wife //= born five children //= # born ten children //= no house ] //
-# text_en = Some people said they have been on this job for twenty years, got married with the proceeds, had five children… had ten children, without a house.
-# text_ortho = Some people don say de don do am twenty years, carry am marry wife, born five children... born ten children, no house.
+# text_en = Some people said they have been on this job for twenty years, got married with the proceeds, had five children... had ten children, without a house.
+# text_ortho = Some people don say de don do am twenty years, carry am marry wife, born five children, born ten children, no house.
 1	#	#	PUNCT	_	_	5	punct	_	AlignBegin=108318|AlignEnd=109702|Gloss=PUNCT
 2	some	some	DET	_	_	3	det	_	AlignBegin=109702|AlignEnd=109874|Gloss=some
 3	people	people	NOUN	_	Number=Plur	5	nsubj	_	AlignBegin=109874|AlignEnd=110099|Gloss=people.PL
@@ -652,7 +653,7 @@
 # speaker_id = Sp472
 # text = # de no even get place wey de dey put head dey lie down > # which no good //
 # text_en = They don’t even have a place to lay their heads, which is not good.
-# text_ortho = De no even get place wey de dey put head dey lie down, which no good.
+# text_ortho = De no even get place wey de dey put head dey lie down which no good.
 1	#	#	PUNCT	_	_	5	punct	_	AlignBegin=116841|AlignEnd=117749|Gloss=PUNCT
 2	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	AlignBegin=117749|AlignEnd=117859|Gloss=NOM.PL.3
 3	no	no	PART	_	Polarity=Neg	5	advmod	_	AlignBegin=117859|AlignEnd=117989|Gloss=NEG
@@ -677,47 +678,77 @@
 # sent_id = ONI_07_Dis-Year-Na-My-Year_MG__25
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_07_Dis-Year-Na-My-Year_MG.mp3
 # speaker_id = Sp472
-# text = # so anybody wey know sey # [ tings wey im go do < e go favour am ] < # if na boyi < time still dey your hand < you go do boyi //
-# text_en = So whoever knows that the things he will do will bring him good luck… if it is houseboy, you still have enough time, you go and be a houseboy.
-# text_ortho = So anybody wey know sey tings wey im go do, e go favour am, if na boyi (time still dey your hand), you go do boyi.
-1	#	#	PUNCT	_	_	34	punct	_	AlignBegin=122099|AlignEnd=123015|Gloss=PUNCT
-2	so	so	ADV	_	_	34	discourse	_	AlignBegin=123015|AlignEnd=123325|Gloss=so
-3	anybody	anybody	PRON	_	_	34	dislocated	_	AlignBegin=123355|AlignEnd=123855|Gloss=anybody
+# text = # so anybody wey know sey &//
+# text_en = So whoever knows that...
+# text_ortho = So anybody wey know sey...
+1	#	#	PUNCT	_	_	3	punct	_	AlignBegin=122099|AlignEnd=123015|Gloss=PUNCT
+2	so	so	ADV	_	_	3	advmod:periph	_	AlignBegin=123015|AlignEnd=123325|Gloss=so
+3	anybody	anybody	PRON	_	_	0	root	_	AlignBegin=123355|AlignEnd=123855|Gloss=anybody
 4	wey	wey	SCONJ	_	_	5	mark	_	AlignBegin=123855|AlignEnd=123974|Gloss=REL
 5	know	know	VERB	_	_	3	acl:relcl	_	AlignBegin=123974|AlignEnd=124154|Gloss=know
-6	sey	sey	SCONJ	_	_	17	mark	_	AlignBegin=124154|AlignEnd=124687|Gloss=COMP
-7	#	#	PUNCT	_	_	17	punct	_	AlignBegin=124687|AlignEnd=125126|Gloss=PUNCT
-8	[	[	PUNCT	_	_	17	punct	_	AlignBegin=124687|AlignEnd=125126|Gloss=PUNCT
-9	tings	tings	NOUN	_	Number=Plur	17	dislocated	_	AlignBegin=125126|AlignEnd=125335|Gloss=thing.PL
-10	wey	wey	SCONJ	_	_	13	mark	_	AlignBegin=125335|AlignEnd=125466|Gloss=REL
-11	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	AlignBegin=125466|AlignEnd=125566|Gloss=NOM.SG.3
-12	go	go	AUX	_	Aspect=Prosp	13	aux	_	AlignBegin=125566|AlignEnd=125707|Gloss=PROSP
-13	do	do	VERB	_	_	9	acl:relcl	_	AlignBegin=125707|AlignEnd=125742|Gloss=do
-14	<	<	PUNCT	_	_	9	punct	_	AlignBegin=125742|AlignEnd=125772|Gloss=PUNCT
-15	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	AlignBegin=125772|AlignEnd=125927|Gloss=NOM.SG.3
-16	go	go	AUX	_	Aspect=Prosp	17	aux	_	AlignBegin=125927|AlignEnd=126046|Gloss=PROSP
-17	favour	favour	VERB	_	_	5	ccomp	_	AlignBegin=126046|AlignEnd=126420|Gloss=favour
-18	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	17	obj	_	AlignBegin=126420|AlignEnd=126572|Gloss=ACC.SG.3
-19	]	]	PUNCT	_	_	17	punct	_	AlignBegin=126572|AlignEnd=126602|Gloss=PUNCT
-20	<	<	PUNCT	_	_	3	punct	_	AlignBegin=126572|AlignEnd=126602|Gloss=PUNCT
-21	#	#	PUNCT	_	_	3	punct	_	AlignBegin=128210|AlignEnd=128681|Gloss=PUNCT
-22	if	if	SCONJ	_	_	24	mark	_	AlignBegin=128681|AlignEnd=128862|Gloss=if
-23	na	na	AUX	_	PartType=Cop	24	cop	_	AlignBegin=128862|AlignEnd=129036|Gloss=be
-24	boyi	boyi	NOUN	_	_	34	advcl:periph	_	AlignBegin=129036|AlignEnd=129609|Gloss=househelp
-25	<	<	PUNCT	_	_	24	punct	_	AlignBegin=129609|AlignEnd=129639|Gloss=PUNCT
-26	time	time	NOUN	_	_	28	nsubj	_	AlignBegin=129639|AlignEnd=129911|Gloss=time
-27	still	still	ADV	_	_	28	advmod	_	AlignBegin=129911|AlignEnd=130067|Gloss=still
-28	dey	dey	VERB	_	VerbType=Cop	34	advcl:periph	_	AlignBegin=130067|AlignEnd=130210|Gloss=be
-29	your	your	PRON	_	Number=Plur|Person=2|Poss=Yes	30	nmod:poss	_	AlignBegin=130210|AlignEnd=130324|Gloss=PL.2.POSS
-30	hand	hand	NOUN	_	_	28	xcomp	_	AlignBegin=130324|AlignEnd=130453|Gloss=hand
-31	<	<	PUNCT	_	_	28	punct	_	AlignBegin=130453|AlignEnd=130483|Gloss=PUNCT
-32	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	34	nsubj	_	AlignBegin=130483|AlignEnd=130556|Gloss=NOM.2
-33	go	go	AUX	_	Aspect=Prosp	34	aux	_	AlignBegin=130556|AlignEnd=130680|Gloss=PROSP
-34	do	do	VERB	_	_	0	root	_	AlignBegin=130680|AlignEnd=130809|Gloss=do
-35	boyi	boyi	NOUN	_	_	34	obj	_	AlignBegin=130809|AlignEnd=131064|Gloss=househelp
-36	//	//	PUNCT	_	_	34	punct	_	AlignBegin=131064|AlignEnd=131094|Gloss=PUNCT
+6	sey	sey	SCONJ	_	_	5	dep:comp	_	AlignBegin=124154|AlignEnd=124687|Gloss=COMP
+7	&//	&//	PUNCT	_	_	3	punct	_	AlignBegin=124154|AlignEnd=124687|Gloss=PUNCT
 
 # sent_id = ONI_07_Dis-Year-Na-My-Year_MG__26
+# sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_07_Dis-Year-Na-My-Year_MG.mp3
+# speaker_id = Sp472
+# text = # tings wey im go do < e go favour am //
+# text_en = The things he will do will bring him good luck.
+# text_ortho = Tings wey im go do, e go favour am.
+1	#	#	PUNCT	_	_	10	punct	_	AlignBegin=124687|AlignEnd=125126|Gloss=PUNCT
+2	tings	tings	NOUN	_	Number=Plur	10	dislocated	_	AlignBegin=125126|AlignEnd=125335|Gloss=thing.PL
+3	wey	wey	SCONJ	_	_	5	mark	_	AlignBegin=125335|AlignEnd=125466|Gloss=REL
+4	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	AlignBegin=125466|AlignEnd=125566|Gloss=NOM.SG.3
+5	go	go	AUX	_	Aspect=Prosp	2	acl:relcl	_	AlignBegin=125566|AlignEnd=125707|Gloss=PROSP
+6	do	do	VERB	_	_	5	ccomp:obj	_	AlignBegin=125707|AlignEnd=125742|Gloss=do
+7	<	<	PUNCT	_	_	2	punct	_	AlignBegin=125742|AlignEnd=125772|Gloss=PUNCT
+8	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	AlignBegin=125772|AlignEnd=125927|Gloss=NOM.SG.3
+9	go	go	AUX	_	Aspect=Prosp	10	aux	_	AlignBegin=125927|AlignEnd=126046|Gloss=PROSP
+10	favour	favour	VERB	_	_	0	root	_	AlignBegin=126046|AlignEnd=126420|Gloss=favour
+11	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	10	obj	_	AlignBegin=126420|AlignEnd=126572|Gloss=ACC.SG.3
+12	//	//	PUNCT	_	_	10	punct	_	AlignBegin=126572|AlignEnd=126602|Gloss=PUNCT
+
+# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__27
+# sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_07_Dis-Year-Na-My-Year_MG.mp3
+# speaker_id = Sp472
+# text = if na work < we go learn //
+# text_en = If it is work, you will go and learn.
+# text_ortho = If na work, we go learn.
+1	if	if	SCONJ	_	_	3	mark	_	Gloss=if
+2	na	na	AUX	_	_	3	cop	_	Gloss=be
+3	work	work	NOUN	_	_	7	advcl:periph	_	Gloss=work
+4	<	<	PUNCT	_	_	3	punct	_	Gloss=PUNCT
+5	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	Gloss=NOM.PL.1
+6	go	go	AUX	_	Aspect=Prosp	7	aux	_	Gloss=PROSP
+7	learn	learn	VERB	_	_	0	root	_	Gloss=learn
+8	//	//	PUNCT	_	_	7	punct	_	Gloss=PUNCT
+
+# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__28
+# sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_07_Dis-Year-Na-My-Year_MG.mp3
+# speaker_id = Sp472
+# text = # if { na boy |c time still dey your hand } < you go do boyi //
+# text_en = If it is houseboy and you still have enough time, you go and be a houseboy.
+# text_ortho = If na boy, time still dey your hand, you go do boyi.
+1	#	#	PUNCT	_	_	16	punct	_	AlignBegin=128210|AlignEnd=128681|Gloss=PUNCT
+2	if	if	SCONJ	_	_	5	mark	_	AlignBegin=128681|AlignEnd=128862|Gloss=if
+3	{	{	PUNCT	_	_	5	punct	_	AlignBegin=128681|AlignEnd=128862|Gloss=PUNCT
+4	na	na	AUX	_	PartType=Cop	5	cop	_	AlignBegin=128862|AlignEnd=129036|Gloss=be
+5	boy	boyi	NOUN	_	_	16	advcl:periph	_	AlignBegin=129036|AlignEnd=129609|Gloss=househelp
+6	|c	|c	PUNCT	_	_	9	punct	_	AlignBegin=129609|AlignEnd=129639|Gloss=PUNCT
+7	time	time	NOUN	_	_	9	nsubj	_	AlignBegin=129639|AlignEnd=129911|Gloss=time
+8	still	still	ADV	_	_	9	advmod	_	AlignBegin=129911|AlignEnd=130067|Gloss=still
+9	dey	dey	VERB	_	VerbType=Cop	5	conj	_	AlignBegin=130067|AlignEnd=130210|Gloss=be
+10	your	your	PRON	_	Number=Plur|Person=2|Poss=Yes	11	nmod:poss	_	AlignBegin=130210|AlignEnd=130324|Gloss=PL.2.POSS
+11	hand	hand	NOUN	_	_	9	xcomp:pred	_	AlignBegin=130324|AlignEnd=130453|Gloss=hand
+12	}	}	PUNCT	_	_	5	punct	_	AlignBegin=130324|AlignEnd=130453|Gloss=PUNCT
+13	<	<	PUNCT	_	_	5	punct	_	AlignBegin=130453|AlignEnd=130483|Gloss=PUNCT
+14	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	16	nsubj	_	AlignBegin=130483|AlignEnd=130556|Gloss=NOM.2
+15	go	go	AUX	_	Aspect=Prosp	16	aux	_	AlignBegin=130556|AlignEnd=130680|Gloss=PROSP
+16	do	do	VERB	_	_	0	root	_	AlignBegin=130680|AlignEnd=130809|Gloss=do
+17	boyi	boyi	NOUN	_	_	16	obj	_	AlignBegin=130809|AlignEnd=131064|Gloss=househelp
+18	//	//	PUNCT	_	_	16	punct	_	AlignBegin=131064|AlignEnd=131094|Gloss=PUNCT
+
+# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__29
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_07_Dis-Year-Na-My-Year_MG.mp3
 # speaker_id = Sp472
 # text = # boyi no dey favour |c but e get people wey im dey favour //
@@ -739,15 +770,15 @@
 14	favour	favour	VERB	_	_	10	acl:relcl	_	AlignBegin=133437|AlignEnd=133724|Gloss=favour
 15	//	//	PUNCT	_	_	5	punct	_	AlignBegin=133724|AlignEnd=133754|Gloss=PUNCT
 
-# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__27
+# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__30
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_07_Dis-Year-Na-My-Year_MG.mp3
 # speaker_id = Sp472
 # text = # but when you calm your hand down < # but it's better meh you go learn work //
-# text_en = But when you're well behaved… but it's better to go for some vocational training.
-# text_ortho = But when you calm your hand down... but it's better meh you go learn work.
+# text_en = But when you're well behaved... but it's better to go for some vocational training.
+# text_ortho = But when you calm your hand down, but it's better meh you go learn work.
 1	#	#	PUNCT	_	_	13	punct	_	AlignBegin=133754|AlignEnd=134270|Gloss=PUNCT
 2	but	but	CCONJ	_	_	13	cc	_	AlignBegin=134270|AlignEnd=134461|Gloss=but
-3	when	when	SCONJ	_	_	5	mark	_	AlignBegin=134461|AlignEnd=134631|Gloss=when.Q
+3	when	when	SCONJ	_	PronType=Int	5	mark	_	AlignBegin=134461|AlignEnd=134631|Gloss=when.Q
 4	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	AlignBegin=134631|AlignEnd=134850|Gloss=NOM.2
 5	calm	calm	VERB	_	_	13	advcl:periph	_	AlignBegin=134850|AlignEnd=135027|Gloss=calm
 6	your	your	PRON	_	Number=Plur|Person=2|Poss=Yes	7	nmod:poss	_	AlignBegin=135027|AlignEnd=135203|Gloss=PL.2.POSS
@@ -765,7 +796,7 @@
 18	work	work	NOUN	_	_	17	obj	_	AlignBegin=137563|AlignEnd=137786|Gloss=work
 19	//	//	PUNCT	_	_	13	punct	_	AlignBegin=137786|AlignEnd=137816|Gloss=PUNCT
 
-# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__28
+# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__31
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_07_Dis-Year-Na-My-Year_MG.mp3
 # speaker_id = Sp472
 # text = spend time !//
@@ -775,7 +806,7 @@
 2	time	time	NOUN	_	_	1	obj	_	AlignBegin=138148|AlignEnd=138519|Gloss=time
 3	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=138519|AlignEnd=138549|Gloss=PUNCT
 
-# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__29
+# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__32
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_07_Dis-Year-Na-My-Year_MG.mp3
 # speaker_id = Sp472
 # text = # like { four |c five } years < # you don get your own //
@@ -798,7 +829,7 @@
 15	own	own	ADJ	_	_	13	obj	_	AlignBegin=142447|AlignEnd=142829|Gloss=own
 16	//	//	PUNCT	_	_	13	punct	_	AlignBegin=142829|AlignEnd=142859|Gloss=PUNCT
 
-# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__30
+# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__33
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_07_Dis-Year-Na-My-Year_MG.mp3
 # speaker_id = Sp472
 # text = before you know < # two to three years < you don relax //
@@ -819,7 +850,7 @@
 13	relax	relax	VERB	_	_	0	root	_	AlignBegin=145297|AlignEnd=145740|Gloss=relax
 14	//	//	PUNCT	_	_	13	punct	_	AlignBegin=145740|AlignEnd=145770|Gloss=PUNCT
 
-# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__31
+# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__34
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_07_Dis-Year-Na-My-Year_MG.mp3
 # speaker_id = Sp472
 # text = # e don dey do big boy //= don buy machine //= rent house //= buy property put for house //= # begin dey bubble like oders //
@@ -854,23 +885,23 @@
 27	oders	oder	PRON	_	Number=Plur	25	obl:arg	_	AlignBegin=152507|AlignEnd=152847|Gloss=other.PL
 28	//	//	PUNCT	_	_	5	punct	_	AlignBegin=152847|AlignEnd=152877|Gloss=PUNCT
 
-# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__32
+# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__35
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_07_Dis-Year-Na-My-Year_MG.mp3
 # speaker_id = Sp472
-# text = # but now { wa- || di way } im dey us now < we need quick money //
-# text_en = But now wa-… the way we feel nowadays... we need quick money.
-# text_ortho = But now wa-... di way im dey us now... we need quick money.
+# text = # but now { wa~ || di way } im dey us now < we need quick money //
+# text_en = But now wa~... the way we feel nowadays... we need quick money.
+# text_ortho = But now wa~... di way im dey us now, we need quick money.
 1	#	#	PUNCT	_	_	16	punct	_	AlignBegin=152877|AlignEnd=153762|Gloss=PUNCT
 2	but	but	CCONJ	_	_	16	cc	_	AlignBegin=153762|AlignEnd=153940|Gloss=but
 3	now	now	ADV	_	_	16	advmod:periph	_	AlignBegin=153940|AlignEnd=154201|Gloss=now
 4	{	{	PUNCT	_	_	5	punct	_	AlignBegin=154201|AlignEnd=154458|Gloss=PUNCT
-5	wa-	X	X	_	_	16	obl:mod	_	AlignBegin=154201|AlignEnd=154458|Gloss=X
+5	wa~	X	X	_	_	16	obl:mod	_	AlignBegin=154201|AlignEnd=154458|Gloss=X
 6	||	||	PUNCT	_	_	8	punct	_	AlignBegin=154201|AlignEnd=154458|Gloss=PUNCT
-7	di	the	DET	_	Definite=Def|PronType=Art	8	det	_	AlignBegin=154488|AlignEnd=154796|Gloss=DEF.ART
+7	di	di	DET	_	Definite=Def|PronType=Art	8	det	_	AlignBegin=154488|AlignEnd=154796|Gloss=DEF.ART
 8	way	way	NOUN	_	_	5	conj:dicto	_	AlignBegin=154796|AlignEnd=154985|Gloss=way
 9	}	}	PUNCT	_	_	5	punct	_	AlignBegin=154985|AlignEnd=155211|Gloss=PUNCT
 10	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	AlignBegin=154985|AlignEnd=155211|Gloss=NOM.SG.3
-11	dey	dey	VERB	_	_	8	acl:relcl	_	AlignBegin=155211|AlignEnd=155354|Gloss=be
+11	dey	dey	VERB	_	VerbType=Cop	8	acl:relcl	_	AlignBegin=155211|AlignEnd=155354|Gloss=be
 12	us	us	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	11	obj	_	AlignBegin=155354|AlignEnd=155540|Gloss=ACC.PL.1
 13	now	now	ADV	_	_	11	advmod	_	AlignBegin=155540|AlignEnd=155728|Gloss=now
 14	<	<	PUNCT	_	_	5	punct	_	AlignBegin=155728|AlignEnd=155758|Gloss=PUNCT
@@ -880,46 +911,44 @@
 18	money	money	NOUN	_	_	16	obj	_	AlignBegin=156307|AlignEnd=156594|Gloss=money
 19	//	//	PUNCT	_	_	16	punct	_	AlignBegin=156594|AlignEnd=156624|Gloss=PUNCT
 
-# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__33
+# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__36
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_07_Dis-Year-Na-My-Year_MG.mp3
 # speaker_id = Sp472
-# text = [igb ego buta igb] < na im >+ we need now //
+# text = ego buta < na im >+ we need now //
 # text_en = Bringing in money is what we need now.
-# text_ortho = Ego buta , na im, we need now.
-1	[igb	[igb	PUNCT	_	_	2	punct	_	AlignBegin=156624|AlignEnd=156966|Gloss=PUNCT
-2	ego	ego	NOUN	_	_	6	dislocated	_	AlignBegin=156624|AlignEnd=156966|Gloss=ego
-3	buta	buta	NOUN	_	_	2	flat:foreign	_	AlignBegin=156966|AlignEnd=157381|Gloss=butter
-4	igb]	igb]	PUNCT	_	_	2	punct	_	AlignBegin=157381|AlignEnd=157411|Gloss=PUNCT
-5	<	<	PUNCT	_	_	2	punct	_	AlignBegin=157381|AlignEnd=157411|Gloss=PUNCT
-6	na	na	AUX	_	PartType=Cop	0	root	_	AlignBegin=157411|AlignEnd=157514|EXTPOS=SCONJ|Gloss=be
-7	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	6	fixed	_	AlignBegin=157514|AlignEnd=157557|Gloss=NOM.SG.3
-8	>+	>+	PUNCT	_	_	10	punct	_	AlignBegin=157557|AlignEnd=157587|Gloss=PUNCT
-9	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	nsubj	_	AlignBegin=157587|AlignEnd=157705|Gloss=NOM.PL.1
-10	need	need	VERB	_	_	6	advcl:cleft	_	AlignBegin=157705|AlignEnd=157922|Gloss=need
-11	now	now	ADV	_	_	10	advmod	_	AlignBegin=157922|AlignEnd=158171|Gloss=now
-12	//	//	PUNCT	_	_	6	punct	_	AlignBegin=158171|AlignEnd=158201|Gloss=PUNCT
+# text_ortho = Ego buta, na im we need now.
+1	ego	ego	NOUN	_	_	5	dislocated	_	AlignBegin=156624|AlignEnd=156966|Gloss=ego|Lang=ig
+2	buta	buta	NOUN	_	_	1	flat:foreign	_	AlignBegin=156966|AlignEnd=157381|Gloss=butter|Lang=ig
+3	<	<	PUNCT	_	_	1	punct	_	AlignBegin=157381|AlignEnd=157411|Gloss=PUNCT
+4	na	na	AUX	_	PartType=Cop	5	cop	_	AlignBegin=157411|AlignEnd=157514|Gloss=be
+5	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	0	root	_	AlignBegin=157514|AlignEnd=157557|Gloss=NOM.SG.3
+6	>+	>+	PUNCT	_	_	8	punct	_	AlignBegin=157557|AlignEnd=157587|Gloss=PUNCT
+7	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	AlignBegin=157587|AlignEnd=157705|Gloss=NOM.PL.1
+8	need	need	VERB	_	_	5	advcl:cleft	_	AlignBegin=157705|AlignEnd=157922|Gloss=need
+9	now	now	ADV	_	_	8	advmod	_	AlignBegin=157922|AlignEnd=158171|Gloss=now
+10	//	//	PUNCT	_	_	5	punct	_	AlignBegin=158171|AlignEnd=158201|Gloss=PUNCT
 
-# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__34
+# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__37
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_07_Dis-Year-Na-My-Year_MG.mp3
 # speaker_id = Sp472
 # text = to go carry di money come < na im >+ we need //
 # text_en = We need to go and bring in money.
-# text_ortho = To go carry di money come, na im, we need.
+# text_ortho = To go carry di money come, na im we need.
 1	to	to	ADP	_	_	2	mark	_	AlignBegin=158201|AlignEnd=158324|Gloss=to
-2	go	go	VERB	_	_	8	dislocated	_	AlignBegin=158324|AlignEnd=158531|Gloss=go
-3	carry	carry	VERB	_	_	2	xcomp	_	AlignBegin=158531|AlignEnd=158718|Gloss=carry
-4	di	the	DET	_	Definite=Def|PronType=Art	5	det	_	AlignBegin=158718|AlignEnd=158897|Gloss=DEF.ART
+2	go	go	VERB	_	_	9	dislocated	_	AlignBegin=158324|AlignEnd=158531|Gloss=go
+3	carry	carry	VERB	_	_	2	xcomp:obj	_	AlignBegin=158531|AlignEnd=158718|Gloss=carry
+4	di	di	DET	_	Definite=Def|PronType=Art	5	det	_	AlignBegin=158718|AlignEnd=158897|Gloss=DEF.ART
 5	money	money	NOUN	_	_	3	obj	_	AlignBegin=158897|AlignEnd=159182|Gloss=money
 6	come	come	VERB	_	_	3	compound:svc	_	AlignBegin=159182|AlignEnd=159472|Gloss=come
 7	<	<	PUNCT	_	_	2	punct	_	AlignBegin=159472|AlignEnd=159502|Gloss=PUNCT
-8	na	na	AUX	_	PartType=Cop	0	root	_	AlignBegin=159502|AlignEnd=159612|EXTPOS=SCONJ|Gloss=be
-9	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	8	fixed	_	AlignBegin=159612|AlignEnd=159659|Gloss=NOM.SG.3
+8	na	na	AUX	_	PartType=Cop	9	cop	_	AlignBegin=159502|AlignEnd=159612|Gloss=be
+9	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	0	root	_	AlignBegin=159612|AlignEnd=159659|Gloss=NOM.SG.3
 10	>+	>+	PUNCT	_	_	12	punct	_	AlignBegin=159659|AlignEnd=159689|Gloss=PUNCT
 11	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	12	nsubj	_	AlignBegin=159689|AlignEnd=159801|Gloss=NOM.PL.1
-12	need	need	VERB	_	_	8	advcl:cleft	_	AlignBegin=159801|AlignEnd=159978|Gloss=need
-13	//	//	PUNCT	_	_	8	punct	_	AlignBegin=159978|AlignEnd=160008|Gloss=PUNCT
+12	need	need	VERB	_	_	9	advcl:cleft	_	AlignBegin=159801|AlignEnd=159978|Gloss=need
+13	//	//	PUNCT	_	_	9	punct	_	AlignBegin=159978|AlignEnd=160008|Gloss=PUNCT
 
-# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__35
+# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__38
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_07_Dis-Year-Na-My-Year_MG.mp3
 # speaker_id = Sp472
 # text = # because di way we dey look di world now < e be like sey [ don even late for us sef ] //
@@ -927,19 +956,19 @@
 # text_ortho = Because di way we dey look di world now, e be like sey don even late for us sef.
 1	#	#	PUNCT	_	_	19	punct	_	AlignBegin=160008|AlignEnd=160611|Gloss=PUNCT
 2	because	because	SCONJ	_	_	19	cc	_	AlignBegin=160611|AlignEnd=161285|Gloss=because
-3	di	the	DET	_	Definite=Def|PronType=Art	4	det	_	AlignBegin=161285|AlignEnd=161414|Gloss=DEF.ART
+3	di	di	DET	_	Definite=Def|PronType=Art	4	det	_	AlignBegin=161285|AlignEnd=161414|Gloss=DEF.ART
 4	way	way	NOUN	_	_	19	obl:mod	_	AlignBegin=161414|AlignEnd=161531|Gloss=way
 5	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	AlignBegin=161531|AlignEnd=161610|Gloss=NOM.PL.1
 6	dey	dey	AUX	_	Aspect=Imp	7	aux	_	AlignBegin=161610|AlignEnd=161746|Gloss=IPFV
 7	look	look	VERB	_	_	4	acl:relcl	_	AlignBegin=161746|AlignEnd=161960|Gloss=look
-8	di	the	DET	_	Definite=Def|PronType=Art	9	det	_	AlignBegin=161960|AlignEnd=162063|Gloss=DEF.ART
+8	di	di	DET	_	Definite=Def|PronType=Art	9	det	_	AlignBegin=161960|AlignEnd=162063|Gloss=DEF.ART
 9	world	world	NOUN	_	_	7	obj	_	AlignBegin=162063|AlignEnd=162335|Gloss=world
 10	now	now	ADV	_	_	7	advmod	_	AlignBegin=162335|AlignEnd=162500|Gloss=now
 11	<	<	PUNCT	_	_	4	punct	_	AlignBegin=162500|AlignEnd=162530|Gloss=PUNCT
 12	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	19	expl:subj	_	AlignBegin=162530|AlignEnd=162629|Gloss=NOM.SG.3
 13	be	be	AUX	_	PartType=Cop	19	cop	_	AlignBegin=162629|AlignEnd=162690|Gloss=be
 14	like	like	ADP	_	_	19	mark	_	AlignBegin=162690|AlignEnd=162818|EXTPOS=SCONJ|Gloss=like
-15	sey	sey	SCONJ	_	_	14	fixed	_	AlignBegin=162818|AlignEnd=163258|Gloss=COMP
+15	sey	sey	SCONJ	_	_	19	dep	_	AlignBegin=162818|AlignEnd=163258|Gloss=COMP
 16	[	[	PUNCT	_	_	19	punct	_	AlignBegin=163258|AlignEnd=163288|Gloss=PUNCT
 17	don	don	AUX	_	Aspect=Perf	19	aux	_	AlignBegin=163288|AlignEnd=163347|Gloss=PRF
 18	even	even	ADV	_	_	19	advmod	_	AlignBegin=163347|AlignEnd=163595|Gloss=even
@@ -950,7 +979,7 @@
 23	]	]	PUNCT	_	_	19	punct	_	AlignBegin=164534|AlignEnd=164564|Gloss=PUNCT
 24	//	//	PUNCT	_	_	19	punct	_	AlignBegin=164534|AlignEnd=164564|Gloss=PUNCT
 
-# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__36
+# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__39
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_07_Dis-Year-Na-My-Year_MG.mp3
 # speaker_id = Sp472
 # text = # but I know sey [ e never late ] //
@@ -964,11 +993,11 @@
 6	[	[	PUNCT	_	_	9	punct	_	AlignBegin=165573|AlignEnd=165603|Gloss=PUNCT
 7	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	AlignBegin=165603|AlignEnd=165666|Gloss=NOM.SG.3
 8	never	never	AUX	_	Aspect=Perf|Polarity=Neg	9	aux	_	AlignBegin=165666|AlignEnd=165974|Gloss=PRF.NEG
-9	late	late	ADJ	_	_	4	ccomp	_	AlignBegin=165974|AlignEnd=166292|Gloss=late
+9	late	late	ADJ	_	_	4	ccomp:obj	_	AlignBegin=165974|AlignEnd=166292|Gloss=late
 10	]	]	PUNCT	_	_	9	punct	_	AlignBegin=166292|AlignEnd=166322|Gloss=PUNCT
 11	//	//	PUNCT	_	_	4	punct	_	AlignBegin=166292|AlignEnd=166322|Gloss=PUNCT
 
-# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__37
+# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__40
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_07_Dis-Year-Na-My-Year_MG.mp3
 # speaker_id = Sp472
 # text = # but I know sey [ God go do am ] //
@@ -982,12 +1011,12 @@
 6	[	[	PUNCT	_	_	9	punct	_	AlignBegin=167680|AlignEnd=167710|Gloss=PUNCT
 7	God	God	PROPN	_	_	9	nsubj	_	AlignBegin=167710|AlignEnd=167915|Gloss=God
 8	go	go	AUX	_	Aspect=Prosp	9	aux	_	AlignBegin=167915|AlignEnd=168064|Gloss=PROSP
-9	do	do	VERB	_	_	4	ccomp	_	AlignBegin=168064|AlignEnd=168214|Gloss=do
+9	do	do	VERB	_	_	4	ccomp:obj	_	AlignBegin=168064|AlignEnd=168214|Gloss=do
 10	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	9	obj	_	AlignBegin=168214|AlignEnd=168436|Gloss=ACC.SG.3
 11	]	]	PUNCT	_	_	9	punct	_	AlignBegin=168436|AlignEnd=168466|Gloss=PUNCT
 12	//	//	PUNCT	_	_	4	punct	_	AlignBegin=168436|AlignEnd=168466|Gloss=PUNCT
 
-# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__38
+# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__41
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_07_Dis-Year-Na-My-Year_MG.mp3
 # speaker_id = Sp472
 # text = # God go do am for us because our moder for village < de born us meh we help dem //
@@ -1015,7 +1044,7 @@
 20	dem	dem	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	19	obj	_	AlignBegin=172703|AlignEnd=172872|Gloss=ACC.PL.3
 21	//	//	PUNCT	_	_	4	punct	_	AlignBegin=172872|AlignEnd=172902|Gloss=PUNCT
 
-# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__39
+# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__42
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_07_Dis-Year-Na-My-Year_MG.mp3
 # speaker_id = Sp472
 # text = # and as we born for poor family < # no money //
@@ -1035,7 +1064,7 @@
 12	money	money	NOUN	_	_	0	root	_	AlignBegin=176684|AlignEnd=176988|Gloss=money
 13	//	//	PUNCT	_	_	12	punct	_	AlignBegin=176988|AlignEnd=177018|Gloss=PUNCT
 
-# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__40
+# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__43
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_07_Dis-Year-Na-My-Year_MG.mp3
 # speaker_id = Sp472
 # text = # de no even give us money moh we take carry come //
@@ -1055,24 +1084,24 @@
 12	come	come	VERB	_	_	11	compound:svc	_	AlignBegin=179954|AlignEnd=180194|Gloss=come
 13	//	//	PUNCT	_	_	5	punct	_	AlignBegin=180194|AlignEnd=180224|Gloss=PUNCT
 
-# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__41
+# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__44
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_07_Dis-Year-Na-My-Year_MG.mp3
 # speaker_id = Sp472
 # text = na our hand >+ na im de dey look //
 # text_en = They are looking up to us.
-# text_ortho = Na our hand, na im de dey look.
+# text_ortho = Na our hand na im de dey look.
 1	na	na	AUX	_	PartType=Cop	3	cop	_	AlignBegin=180224|AlignEnd=180525|Gloss=be
 2	our	our	PRON	_	Number=Plur|Person=1|Poss=Yes	3	nmod:poss	_	AlignBegin=180525|AlignEnd=180742|Gloss=PL.1.POSS
 3	hand	hand	NOUN	_	_	0	root	_	AlignBegin=180742|AlignEnd=180891|Gloss=hand
 4	>+	>+	PUNCT	_	_	5	punct	_	AlignBegin=180891|AlignEnd=180921|Gloss=PUNCT
 5	na	na	AUX	_	PartType=Cop	3	advcl:cleft	_	AlignBegin=180921|AlignEnd=181088|EXTPOS=SCONJ|Gloss=be
-6	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	5	fixed	_	AlignBegin=180921|AlignEnd=181088|Gloss=NOM.SG.3
+6	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	5	dep	_	AlignBegin=180921|AlignEnd=181088|Gloss=NOM.SG.3
 7	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	AlignBegin=181088|AlignEnd=181227|Gloss=NOM.PL.3
 8	dey	dey	AUX	_	Aspect=Imp	9	aux	_	AlignBegin=181227|AlignEnd=181336|Gloss=IPFV
-9	look	look	VERB	_	_	5	ccomp	_	AlignBegin=181336|AlignEnd=181570|Gloss=look
+9	look	look	VERB	_	_	5	ccomp:obj	_	AlignBegin=181336|AlignEnd=181570|Gloss=look
 10	//	//	PUNCT	_	_	3	punct	_	AlignBegin=181570|AlignEnd=181600|Gloss=PUNCT
 
-# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__42
+# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__45
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_07_Dis-Year-Na-My-Year_MG.mp3
 # speaker_id = Sp472
 # text = # December don pass now //= we no go //
@@ -1089,7 +1118,7 @@
 9	go	go	VERB	_	_	4	parataxis:conj	_	AlignBegin=183276|AlignEnd=183421|Gloss=go
 10	//	//	PUNCT	_	_	4	punct	_	AlignBegin=183421|AlignEnd=183451|Gloss=PUNCT
 
-# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__43
+# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__46
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_07_Dis-Year-Na-My-Year_MG.mp3
 # speaker_id = Sp472
 # text = # new year pass //= we no go //
@@ -1105,7 +1134,7 @@
 8	go	go	VERB	_	_	4	parataxis:conj	_	AlignBegin=184836|AlignEnd=185062|Gloss=go
 9	//	//	PUNCT	_	_	4	punct	_	AlignBegin=185062|AlignEnd=185092|Gloss=PUNCT
 
-# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__44
+# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__47
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_07_Dis-Year-Na-My-Year_MG.mp3
 # speaker_id = Sp472
 # text = # and de still dey look for us //
@@ -1121,11 +1150,11 @@
 8	us	us	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	6	obl:arg	_	AlignBegin=186583|AlignEnd=186801|Gloss=ACC.PL.1
 9	//	//	PUNCT	_	_	6	punct	_	AlignBegin=186801|AlignEnd=186831|Gloss=PUNCT
 
-# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__45
+# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__48
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_07_Dis-Year-Na-My-Year_MG.mp3
 # speaker_id = Sp472
 # text = # no how wey you land now < you no go buy bread //= # no how wey you go village < you no go buy bread //
-# text_en = There's no way you arrive the village without taking bread along… you can't go to the village without taking bread along.
+# text_en = There's no way you arrive the village without taking bread along... you can't go to the village without taking bread along.
 # text_ortho = No how wey you land now, you no go buy bread, no how wey you go village, you no go buy bread.
 1	#	#	PUNCT	_	_	12	punct	_	AlignBegin=186831|AlignEnd=188084|Gloss=PUNCT
 2	no	no	PART	_	Polarity=Neg	3	advmod	_	AlignBegin=188084|AlignEnd=188278|Gloss=NEG
@@ -1156,7 +1185,7 @@
 27	bread	bread	NOUN	_	_	26	obj	_	AlignBegin=193405|AlignEnd=193688|Gloss=bread
 28	//	//	PUNCT	_	_	12	punct	_	AlignBegin=193688|AlignEnd=193718|Gloss=PUNCT
 
-# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__46
+# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__49
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_07_Dis-Year-Na-My-Year_MG.mp3
 # speaker_id = Sp472
 # text = # you go buy wrapper for your moders //= still give your moder pocket money # like { five thousand |c ten thousand } //
@@ -1188,15 +1217,15 @@
 24	}	}	PUNCT	_	_	20	punct	_	AlignBegin=198997|AlignEnd=199027|Gloss=PUNCT
 25	//	//	PUNCT	_	_	4	punct	_	AlignBegin=198997|AlignEnd=199027|Gloss=PUNCT
 
-# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__47
+# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__50
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_07_Dis-Year-Na-My-Year_MG.mp3
 # speaker_id = Sp472
 # text = # meh di woman { dey take am |c dey smile say [ ehn # im son come back ] } //
 # text_en = So the woman will be smiling as she takes from it, saying that uh... her son is back.
-# text_ortho = Meh di woman dey take am, dey smile say ehn... im son come back.
+# text_ortho = Meh di woman dey take am, dey smile say ehn im son come back.
 1	#	#	PUNCT	_	_	7	punct	_	AlignBegin=199027|AlignEnd=199212|Gloss=PUNCT
 2	meh	make	AUX	_	Mood=Opt	7	aux	_	AlignBegin=199212|AlignEnd=199357|Gloss=SBJV
-3	di	the	DET	_	Definite=Def|PronType=Art	4	det	_	AlignBegin=199357|AlignEnd=199447|Gloss=DEF.ART
+3	di	di	DET	_	Definite=Def|PronType=Art	4	det	_	AlignBegin=199357|AlignEnd=199447|Gloss=DEF.ART
 4	woman	woman	NOUN	_	_	7	nsubj	_	AlignBegin=199447|AlignEnd=199772|Gloss=woman
 5	{	{	PUNCT	_	_	7	punct	_	AlignBegin=199447|AlignEnd=199772|Gloss=PUNCT
 6	dey	dey	AUX	_	Aspect=Imp	7	aux	_	AlignBegin=199802|AlignEnd=200158|Gloss=IPFV
@@ -1209,7 +1238,7 @@
 13	[	[	PUNCT	_	_	18	punct	_	AlignBegin=201174|AlignEnd=201397|Gloss=PUNCT
 14	ehn	ehn	INTJ	_	_	18	discourse	_	AlignBegin=201174|AlignEnd=201397|Gloss=ehn
 15	#	#	PUNCT	_	_	18	punct	_	AlignBegin=201397|AlignEnd=202049|Gloss=PUNCT
-16	im	im	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	17	nmod:poss	_	AlignBegin=202049|AlignEnd=202134|Gloss=M.SG.3.POSS
+16	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	17	nmod:poss	_	AlignBegin=202049|AlignEnd=202134|Gloss=NOM.SG.3
 17	son	son	NOUN	_	_	18	nsubj	_	AlignBegin=202134|AlignEnd=202466|Gloss=son
 18	come	come	VERB	_	_	12	parataxis	_	AlignBegin=202466|AlignEnd=202733|Gloss=come
 19	back	back	ADV	_	_	18	advmod	_	AlignBegin=202733|AlignEnd=202927|Gloss=back
@@ -1217,7 +1246,7 @@
 21	}	}	PUNCT	_	_	7	punct	_	AlignBegin=202927|AlignEnd=202957|Gloss=PUNCT
 22	//	//	PUNCT	_	_	7	punct	_	AlignBegin=202927|AlignEnd=202957|Gloss=PUNCT
 
-# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__48
+# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__51
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_07_Dis-Year-Na-My-Year_MG.mp3
 # speaker_id = Sp472
 # text = # and you con come go empty handed //
@@ -1228,12 +1257,12 @@
 3	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	AlignBegin=203678|AlignEnd=203760|Gloss=NOM.2
 4	con	con	AUX	_	Aspect=Cons	5	aux	_	AlignBegin=203760|AlignEnd=203974|Gloss=CONS
 5	come	come	VERB	_	_	0	root	_	AlignBegin=203974|AlignEnd=204148|Gloss=come
-6	go	go	VERB	_	_	5	xcomp	_	AlignBegin=204148|AlignEnd=204393|Gloss=go
-7	empty	empty	ADJ	_	_	6	xcomp	_	AlignBegin=204393|AlignEnd=204739|EXTPOS=ADJ|Gloss=empty
-8	handed	hand	VERB	_	Tense=Past|VerbForm=Part	7	fixed	_	AlignBegin=204739|AlignEnd=205153|Gloss=hand.PST.PTCP
+6	go	go	VERB	_	_	5	xcomp:obj	_	AlignBegin=204148|AlignEnd=204393|Gloss=go
+7	empty	empty	ADJ	_	_	6	xcomp:pred	_	AlignBegin=204393|AlignEnd=204739|EXTPOS=ADJ|Gloss=empty
+8	handed	hand	VERB	_	Tense=Past|VerbForm=Part	7	dep	_	AlignBegin=204739|AlignEnd=205153|Gloss=hand.PST.PTCP
 9	//	//	PUNCT	_	_	5	punct	_	AlignBegin=205153|AlignEnd=205183|Gloss=PUNCT
 
-# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__49
+# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__52
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_07_Dis-Year-Na-My-Year_MG.mp3
 # speaker_id = Sp472
 # text = # money no dey //= # noting dey //
@@ -1249,7 +1278,7 @@
 8	dey	dey	VERB	_	VerbType=Cop	4	parataxis:conj	_	AlignBegin=207248|AlignEnd=207450|Gloss=be
 9	//	//	PUNCT	_	_	4	punct	_	AlignBegin=207450|AlignEnd=207480|Gloss=PUNCT
 
-# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__50
+# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__53
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_07_Dis-Year-Na-My-Year_MG.mp3
 # speaker_id = Sp472
 # text = # nna e go con be like sey [ your own dey different ] //
@@ -1262,16 +1291,16 @@
 5	con	con	AUX	_	Aspect=Cons	12	aux	_	AlignBegin=209136|AlignEnd=209291|Gloss=CONS
 6	be	be	AUX	_	PartType=Cop	12	cop	_	AlignBegin=209291|AlignEnd=209386|Gloss=be
 7	like	like	ADP	_	_	12	mark	_	AlignBegin=209386|AlignEnd=209527|EXTPOS=SCONJ|Gloss=like
-8	sey	sey	SCONJ	_	_	7	fixed	_	AlignBegin=209527|AlignEnd=209652|Gloss=COMP
+8	sey	sey	SCONJ	_	_	12	dep	_	AlignBegin=209527|AlignEnd=209652|Gloss=COMP
 9	[	[	PUNCT	_	_	12	punct	_	AlignBegin=209652|AlignEnd=209682|Gloss=PUNCT
 10	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	11	amod	_	AlignBegin=209682|AlignEnd=209819|Gloss=PL.2.POSS
-11	own	own	ADJ	_	_	12	dep	_	AlignBegin=209819|AlignEnd=210210|Gloss=own
+11	own	own	ADJ	_	_	12	nsubj	_	AlignBegin=209819|AlignEnd=210210|Gloss=own
 12	dey	dey	VERB	_	VerbType=Cop	4	csubj	_	AlignBegin=210210|AlignEnd=210530|Gloss=be
-13	different	different	ADJ	_	_	12	xcomp	_	AlignBegin=210530|AlignEnd=211014|Gloss=different
+13	different	different	ADJ	_	_	12	xcomp:pred	_	AlignBegin=210530|AlignEnd=211014|Gloss=different
 14	]	]	PUNCT	_	_	12	punct	_	AlignBegin=211014|AlignEnd=211044|Gloss=PUNCT
 15	//	//	PUNCT	_	_	4	punct	_	AlignBegin=211014|AlignEnd=211044|Gloss=PUNCT
 
-# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__51
+# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__54
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_07_Dis-Year-Na-My-Year_MG.mp3
 # speaker_id = Sp472
 # text = # but I know sey [ dis year < all dose tings # go pass ] //
@@ -1283,26 +1312,26 @@
 4	know	know	VERB	_	_	0	root	_	AlignBegin=212421|AlignEnd=212555|Gloss=know
 5	sey	sey	SCONJ	_	_	15	mark	_	AlignBegin=212555|AlignEnd=212763|Gloss=COMP
 6	[	[	PUNCT	_	_	15	punct	_	AlignBegin=212763|AlignEnd=212793|Gloss=PUNCT
-7	dis	dis	DET	_	Number=Sing|PronType=Dem	8	det	_	AlignBegin=212793|AlignEnd=213045|Gloss=SG.PROX.DEM
+7	dis	dis	DET	_	Number=Sing|PronType=Dem	8	det	_	AlignBegin=212793|AlignEnd=213045|Gloss=SG.DEM
 8	year	year	NOUN	_	_	15	dislocated	_	AlignBegin=213045|AlignEnd=213213|Gloss=year
 9	<	<	PUNCT	_	_	8	punct	_	AlignBegin=213213|AlignEnd=213243|Gloss=PUNCT
-10	all	all	ADV	_	_	12	advmod	_	AlignBegin=213243|AlignEnd=213377|Gloss=all
+10	all	all	ADV	_	_	12	det	_	AlignBegin=213243|AlignEnd=213377|Gloss=all
 11	dose	dose	DET	_	Number=Plur|PronType=Dem	12	det	_	AlignBegin=213377|AlignEnd=213569|Gloss=PL.DIST.DEM
 12	tings	tings	NOUN	_	Number=Plur	15	nsubj	_	AlignBegin=213569|AlignEnd=214071|Gloss=thing.PL
 13	#	#	PUNCT	_	_	12	punct	_	AlignBegin=214071|AlignEnd=215012|Gloss=PUNCT
 14	go	go	AUX	_	Aspect=Prosp	15	aux	_	AlignBegin=215012|AlignEnd=215204|Gloss=PROSP
-15	pass	pass	VERB	_	_	4	ccomp	_	AlignBegin=215204|AlignEnd=215567|Gloss=pass
+15	pass	pass	VERB	_	_	4	ccomp:obj	_	AlignBegin=215204|AlignEnd=215567|Gloss=pass
 16	]	]	PUNCT	_	_	15	punct	_	AlignBegin=215567|AlignEnd=215597|Gloss=PUNCT
 17	//	//	PUNCT	_	_	4	punct	_	AlignBegin=215567|AlignEnd=215597|Gloss=PUNCT
 
-# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__52
+# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__55
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_07_Dis-Year-Na-My-Year_MG.mp3
 # speaker_id = Sp472
 # text = # dis year < # any boy wey dey go travel dis year &//
-# text_en = This year, any boy who will be travelling this year…
+# text_en = This year, any boy who will be travelling this year...
 # text_ortho = Dis year, any boy wey dey go travel dis year...
 1	#	#	PUNCT	_	_	7	punct	_	AlignBegin=215597|AlignEnd=216582|Gloss=PUNCT
-2	dis	dis	DET	_	Number=Sing|PronType=Dem	3	det	_	AlignBegin=216582|AlignEnd=216888|Gloss=SG.PROX.DEM
+2	dis	dis	DET	_	Number=Sing|PronType=Dem	3	det	_	AlignBegin=216582|AlignEnd=216888|Gloss=SG.DEM
 3	year	year	NOUN	_	_	7	nmod:periph	_	AlignBegin=216888|AlignEnd=217114|Gloss=year
 4	<	<	PUNCT	_	_	3	punct	_	AlignBegin=217114|AlignEnd=217144|Gloss=PUNCT
 5	#	#	PUNCT	_	_	3	punct	_	AlignBegin=217144|AlignEnd=217822|Gloss=PUNCT
@@ -1311,36 +1340,36 @@
 8	wey	wey	SCONJ	_	_	10	mark	_	AlignBegin=218200|AlignEnd=218305|Gloss=REL
 9	dey	dey	AUX	_	Aspect=Imp	10	aux	_	AlignBegin=218305|AlignEnd=218451|Gloss=IPFV
 10	go	go	VERB	_	_	7	acl:relcl	_	AlignBegin=218451|AlignEnd=219169|Gloss=go
-11	travel	travel	VERB	_	_	10	xcomp	_	AlignBegin=219169|AlignEnd=219532|Gloss=travel
-12	dis	dis	DET	_	Number=Sing|PronType=Dem	13	det	_	AlignBegin=219532|AlignEnd=219722|Gloss=SG.PROX.DEM
+11	travel	travel	VERB	_	_	10	xcomp:obj	_	AlignBegin=219169|AlignEnd=219532|Gloss=travel
+12	dis	dis	DET	_	Number=Sing|PronType=Dem	13	det	_	AlignBegin=219532|AlignEnd=219722|Gloss=SG.DEM
 13	year	year	NOUN	_	_	11	obj	_	AlignBegin=219722|AlignEnd=219972|Gloss=year
-14	&//	//	PUNCT	_	_	7	punct	_	AlignBegin=219972|AlignEnd=220002|Gloss=PUNCT
+14	&//	&//	PUNCT	_	_	7	punct	_	AlignBegin=219972|AlignEnd=220002|Gloss=PUNCT
 
-# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__53
+# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__56
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_07_Dis-Year-Na-My-Year_MG.mp3
 # speaker_id = Sp472
 # text = # now January < na im >+ we dey //
 # text_en = We're in January now.
-# text_ortho = Now January, na im, we dey.
-1	#	#	PUNCT	_	_	5	punct	_	AlignBegin=220002|AlignEnd=220998|Gloss=PUNCT
-2	now	now	ADV	_	_	5	advmod:periph	_	AlignBegin=220998|AlignEnd=221354|Gloss=now
-3	January	January	PROPN	_	_	5	dislocated	_	AlignBegin=221354|AlignEnd=221757|Gloss=January
+# text_ortho = Now January, na im we dey.
+1	#	#	PUNCT	_	_	6	punct	_	AlignBegin=220002|AlignEnd=220998|Gloss=PUNCT
+2	now	now	ADV	_	_	6	advmod:periph	_	AlignBegin=220998|AlignEnd=221354|Gloss=now
+3	January	January	PROPN	_	_	6	dislocated	_	AlignBegin=221354|AlignEnd=221757|Gloss=January
 4	<	<	PUNCT	_	_	3	punct	_	AlignBegin=221757|AlignEnd=221787|Gloss=PUNCT
-5	na	na	AUX	_	PartType=Cop	0	root	_	AlignBegin=221787|AlignEnd=221910|EXTPOS=SCONJ|Gloss=be
-6	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	5	fixed	_	AlignBegin=221910|AlignEnd=221975|Gloss=NOM.SG.3
+5	na	na	AUX	_	PartType=Cop	6	cop	_	AlignBegin=221787|AlignEnd=221910|Gloss=be
+6	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	0	root	_	AlignBegin=221910|AlignEnd=221975|Gloss=NOM.SG.3
 7	>+	>+	PUNCT	_	_	9	punct	_	AlignBegin=221975|AlignEnd=222005|Gloss=PUNCT
 8	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	AlignBegin=222005|AlignEnd=222121|Gloss=NOM.PL.1
-9	dey	dey	VERB	_	VerbType=Cop	5	advcl:cleft	_	AlignBegin=222121|AlignEnd=222218|Gloss=be
-10	//	//	PUNCT	_	_	5	punct	_	AlignBegin=222218|AlignEnd=222248|Gloss=PUNCT
+9	dey	dey	VERB	_	VerbType=Cop	6	advcl:cleft	_	AlignBegin=222121|AlignEnd=222218|Gloss=be
+10	//	//	PUNCT	_	_	6	punct	_	AlignBegin=222218|AlignEnd=222248|Gloss=PUNCT
 
-# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__54
+# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__57
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_07_Dis-Year-Na-My-Year_MG.mp3
 # speaker_id = Sp472
 # text = from now till December < # everyone go buy motor //
 # text_en = From now on till December, everyone will buy cars.
 # text_ortho = From now till December, everyone go buy motor.
 1	from	from	ADP	_	_	2	case	_	AlignBegin=222248|AlignEnd=222445|Gloss=from
-2	now	now	ADV	_	_	9	advmod:periph	_	AlignBegin=222445|AlignEnd=222672|Gloss=now
+2	now	now	ADV	_	_	9	obl:mod	_	AlignBegin=222445|AlignEnd=222672|Gloss=now
 3	till	till	ADP	_	_	4	cc	_	AlignBegin=222672|AlignEnd=222814|Gloss=till
 4	December	December	PROPN	_	_	2	conj	_	AlignBegin=222814|AlignEnd=223225|Gloss=December
 5	<	<	PUNCT	_	_	2	punct	_	AlignBegin=223225|AlignEnd=223255|Gloss=PUNCT
@@ -1351,12 +1380,12 @@
 10	motor	motor	NOUN	_	_	9	obj	_	AlignBegin=224637|AlignEnd=224969|Gloss=motor
 11	//	//	PUNCT	_	_	9	punct	_	AlignBegin=224969|AlignEnd=224999|Gloss=PUNCT
 
-# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__55
+# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__58
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_07_Dis-Year-Na-My-Year_MG.mp3
 # speaker_id = Sp472
 # text = # before you go go home sef < if dey go dey drive dey go < tipper < about fifty tippers wit sand go dey follow you //
-# text_en = In fact, before you go home, if you will be driving down, tippers… about fifty tipper loads of sand will follow you.
-# text_ortho = Before you go go home sef, if dey go dey drive dey go, tipper... about fifty tippers wit sand go dey follow you.
+# text_en = In fact, before you go home, if you will be driving down, tippers... about fifty tipper loads of sand will follow you.
+# text_ortho = Before you go go home sef, if dey go dey drive dey go, tipper, about fifty tippers wit sand go dey follow you.
 1	#	#	PUNCT	_	_	26	punct	_	AlignBegin=224999|AlignEnd=225815|Gloss=PUNCT
 2	before	before	ADP	_	_	5	mark	_	AlignBegin=225815|AlignEnd=225994|Gloss=before
 3	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	AlignBegin=225994|AlignEnd=226037|Gloss=NOM.2
@@ -1386,12 +1415,12 @@
 27	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	26	obj	_	AlignBegin=231538|AlignEnd=231646|Gloss=NOM.2
 28	//	//	PUNCT	_	_	26	punct	_	AlignBegin=231646|AlignEnd=231676|Gloss=PUNCT
 
-# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__56
+# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__59
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_07_Dis-Year-Na-My-Year_MG.mp3
 # speaker_id = Sp472
 # text = # one trailer of eh cement dey go dey follow you # so dat people go know sey [ yes # people wey de forget for many years < # God don remember dem ] //
 # text_en = One trailer of uh... cement, they'll follow you so that people will know that yes, God has remembered the people they've forgotten about for many years.
-# text_ortho = One trailer of eh... cement dey go dey follow you so dat people go know sey yes people wey de forget for many years, God don remember dem.
+# text_ortho = One trailer of eh cement dey go dey follow you so dat people go know sey yes people wey de forget for many years, God don remember dem.
 1	#	#	PUNCT	_	_	8	punct	_	AlignBegin=231676|AlignEnd=232402|Gloss=PUNCT
 2	one	one	DET	_	Definite=Spec|PronType=Art	3	det	_	AlignBegin=232402|AlignEnd=232664|Gloss=SPEC.ART
 3	trailer	trailer	NOUN	_	_	8	nsubj	_	AlignBegin=232664|AlignEnd=232988|Gloss=trailer
@@ -1405,7 +1434,7 @@
 11	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	10	obj	_	AlignBegin=234350|AlignEnd=234474|Gloss=NOM.2
 12	#	#	PUNCT	_	_	17	punct	_	AlignBegin=234474|AlignEnd=235213|Gloss=PUNCT
 13	so	so	SCONJ	_	_	17	mark	_	AlignBegin=235213|AlignEnd=235385|EXTPOS=SCONJ|Gloss=so
-14	dat	dat	SCONJ	_	_	13	fixed	_	AlignBegin=235385|AlignEnd=235603|Gloss=that
+14	dat	dat	SCONJ	_	_	17	dep	_	AlignBegin=235385|AlignEnd=235603|Gloss=COMP
 15	people	people	NOUN	_	Number=Plur	17	nsubj	_	AlignBegin=235603|AlignEnd=235806|Gloss=people.PL
 16	go	go	AUX	_	Aspect=Prosp	17	aux	_	AlignBegin=235806|AlignEnd=235913|Gloss=PROSP
 17	know	know	VERB	_	_	10	advcl	_	AlignBegin=235913|AlignEnd=236072|Gloss=know
@@ -1424,19 +1453,19 @@
 30	#	#	PUNCT	_	_	22	punct	_	AlignBegin=239256|AlignEnd=239723|Gloss=PUNCT
 31	God	God	PROPN	_	_	33	nsubj	_	AlignBegin=239723|AlignEnd=239977|Gloss=God
 32	don	don	AUX	_	Aspect=Perf	33	aux	_	AlignBegin=239977|AlignEnd=240111|Gloss=PRF
-33	remember	remember	VERB	_	_	17	ccomp	_	AlignBegin=240111|AlignEnd=240515|Gloss=remember
+33	remember	remember	VERB	_	_	17	ccomp:obj	_	AlignBegin=240111|AlignEnd=240515|Gloss=remember
 34	dem	dem	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	33	obj	_	AlignBegin=240515|AlignEnd=240715|Gloss=ACC.PL.3
 35	]	]	PUNCT	_	_	33	punct	_	AlignBegin=240715|AlignEnd=240745|Gloss=PUNCT
 36	//	//	PUNCT	_	_	8	punct	_	AlignBegin=240715|AlignEnd=240745|Gloss=PUNCT
 
-# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__57
+# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__60
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_07_Dis-Year-Na-My-Year_MG.mp3
 # speaker_id = Sp472
 # text = # sey no be our own case ?//
 # text_en = Isn't this the case for us?
 # text_ortho = Sey no be our own case?
 1	#	#	PUNCT	_	_	7	punct	_	AlignBegin=240745|AlignEnd=241379|Gloss=PUNCT
-2	sey	sey	SCONJ	_	_	7	cc	_	AlignBegin=241379|AlignEnd=241982|Gloss=COMP
+2	sey	sey	SCONJ	_	_	7	discourse	_	AlignBegin=241379|AlignEnd=241982|Gloss=COMP
 3	no	no	PART	_	Polarity=Neg	7	advmod	_	AlignBegin=241982|AlignEnd=242124|Gloss=NEG
 4	be	be	AUX	_	PartType=Cop	7	cop	_	AlignBegin=242124|AlignEnd=242176|Gloss=be
 5	our	our	PRON	_	Number=Plur|Person=1|Poss=Yes	7	nmod:poss	_	AlignBegin=242176|AlignEnd=242468|Gloss=PL.1.POSS
@@ -1444,7 +1473,7 @@
 7	case	case	NOUN	_	_	0	root	_	AlignBegin=242663|AlignEnd=242890|Gloss=case
 8	?//	?//	PUNCT	_	_	7	punct	_	AlignBegin=242890|AlignEnd=242920|Gloss=PUNCT
 
-# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__58
+# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__61
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_07_Dis-Year-Na-My-Year_MG.mp3
 # speaker_id = Sp472
 # text = our own case no dey different //
@@ -1455,10 +1484,10 @@
 3	case	case	NOUN	_	_	5	nsubj	_	AlignBegin=243285|AlignEnd=243495|Gloss=case
 4	no	no	PART	_	Polarity=Neg	5	advmod	_	AlignBegin=243495|AlignEnd=243629|Gloss=NEG
 5	dey	dey	VERB	_	VerbType=Cop	0	root	_	AlignBegin=243629|AlignEnd=243813|Gloss=be
-6	different	different	ADJ	_	_	5	xcomp	_	AlignBegin=243813|AlignEnd=244138|Gloss=different
+6	different	different	ADJ	_	_	5	xcomp:pred	_	AlignBegin=243813|AlignEnd=244138|Gloss=different
 7	//	//	PUNCT	_	_	5	punct	_	AlignBegin=244138|AlignEnd=244168|Gloss=PUNCT
 
-# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__59
+# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__62
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_07_Dis-Year-Na-My-Year_MG.mp3
 # speaker_id = Sp472
 # text = # and our God hand no dey too short # to save us //
@@ -1466,25 +1495,25 @@
 # text_ortho = And our God hand no dey too short to save us.
 1	#	#	PUNCT	_	_	7	punct	_	AlignBegin=244168|AlignEnd=245022|Gloss=PUNCT
 2	and	and	CCONJ	_	_	7	cc	_	AlignBegin=245022|AlignEnd=245144|Gloss=and
-3	our	our	ADJ	_	Number=Plur|Person=1|Poss=Yes	4	amod	_	AlignBegin=245144|AlignEnd=245344|Gloss=PL.1.POSS
+3	our	our	PRON	_	Number=Plur|Person=1|Poss=Yes	4	nmod	_	AlignBegin=245144|AlignEnd=245344|Gloss=PL.1.POSS
 4	God	God	PROPN	_	_	5	nmod	_	AlignBegin=245344|AlignEnd=245580|Gloss=God
 5	hand	hand	NOUN	_	_	7	nsubj	_	AlignBegin=245580|AlignEnd=245811|Gloss=hand
 6	no	no	PART	_	Polarity=Neg	7	advmod	_	AlignBegin=245811|AlignEnd=246022|Gloss=NEG
 7	dey	dey	VERB	_	VerbType=Cop	0	root	_	AlignBegin=246022|AlignEnd=246312|Gloss=be
 8	too	too	ADV	_	_	9	advmod	_	AlignBegin=246312|AlignEnd=246452|Gloss=too
-9	short	short	ADJ	_	_	7	xcomp	_	AlignBegin=246452|AlignEnd=246723|Gloss=short
+9	short	short	ADJ	_	_	7	xcomp:pred	_	AlignBegin=246452|AlignEnd=246723|Gloss=short
 10	#	#	PUNCT	_	_	12	punct	_	AlignBegin=246723|AlignEnd=247037|Gloss=PUNCT
 11	to	to	ADP	_	_	12	mark	_	AlignBegin=247037|AlignEnd=247187|Gloss=to
 12	save	save	VERB	_	_	9	advcl	_	AlignBegin=247187|AlignEnd=247462|Gloss=save
 13	us	us	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	12	obj	_	AlignBegin=247462|AlignEnd=247577|Gloss=ACC.PL.1
 14	//	//	PUNCT	_	_	7	punct	_	AlignBegin=247577|AlignEnd=247607|Gloss=PUNCT
 
-# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__60
+# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__63
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_07_Dis-Year-Na-My-Year_MG.mp3
 # speaker_id = Sp472
 # text = # and ehn { im || im } dey hear our cry everyday //
 # text_en = And uh... he, he hears our cry every day.
-# text_ortho = And ehn... im, im dey hear our cry everyday.
+# text_ortho = And ehn im, im dey hear our cry everyday.
 1	#	#	PUNCT	_	_	10	punct	_	AlignBegin=247607|AlignEnd=248624|Gloss=PUNCT
 2	and	and	CCONJ	_	_	10	cc	_	AlignBegin=248624|AlignEnd=248852|Gloss=and
 3	ehn	ehn	INTJ	_	_	10	discourse	_	AlignBegin=248852|AlignEnd=249258|Gloss=ehn
@@ -1500,12 +1529,12 @@
 13	everyday	everyday	ADV	_	_	10	advmod	_	AlignBegin=250700|AlignEnd=251225|Gloss=everyday
 14	//	//	PUNCT	_	_	10	punct	_	AlignBegin=251225|AlignEnd=251255|Gloss=PUNCT
 
-# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__61
+# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__64
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_07_Dis-Year-Na-My-Year_MG.mp3
 # speaker_id = Sp472
-# text = # im dey hear our prayer everyday |c but I know sey # [ everybody get im own time wey be sey God dey dey bless am |c # everybody get im own time wey be sey God say [ { ti- || today } is your own day //] ] //
-# text_en = "He hears our prayers every day, but I know that there is time for everybody when God blesses, blesses them… there is time for everyone when God says, ""ti-… today is your day""."
-# text_ortho = "Im dey hear our prayer everyday, but I know sey everybody get im own time wey be sey God dey, dey bless am... everybody get im own time wey be sey God say, ""ti- today is your own day."""
+# text = # im dey hear our prayer everyday |c but I know sey # [ everybody get im own time wey be sey God dey dey bless am |c # everybody get im own time wey be sey God say [ { ti~ || today } is your own day //] ] //
+# text_en = He hears our prayers every day, but I know that there is time for everybody when God blesses, blesses them... there is time for everyone when God says, "ti~... today is your day."
+# text_ortho = Im dey hear our prayer everyday, but I know sey everybody get im own time wey be sey God dey dey bless am, everybody get im own time wey be sey God say ti~... today is your own day.
 1	#	#	PUNCT	_	_	4	punct	_	AlignBegin=251255|AlignEnd=251967|Gloss=PUNCT
 2	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	AlignBegin=251967|AlignEnd=252076|Gloss=NOM.SG.3
 3	dey	dey	AUX	_	Aspect=Imp	4	aux	_	AlignBegin=252076|AlignEnd=252239|Gloss=IPFV
@@ -1521,13 +1550,13 @@
 13	#	#	PUNCT	_	_	16	punct	_	AlignBegin=254067|AlignEnd=255838|Gloss=PUNCT
 14	[	[	PUNCT	_	_	16	punct	_	AlignBegin=255808|AlignEnd=255838|Gloss=PUNCT
 15	everybody	everybody	PRON	_	_	16	nsubj	_	AlignBegin=255838|AlignEnd=256500|Gloss=everybody
-16	get	get	VERB	_	_	11	ccomp	_	AlignBegin=256500|AlignEnd=256696|Gloss=get
-17	im	im	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	19	nmod:poss	_	AlignBegin=256696|AlignEnd=256793|Gloss=M.SG.3.POSS
+16	get	get	VERB	_	_	11	ccomp:obj	_	AlignBegin=256500|AlignEnd=256696|Gloss=get
+17	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	19	nmod:poss	_	AlignBegin=256696|AlignEnd=256793|Gloss=NOM.SG.3
 18	own	own	ADJ	_	_	19	amod	_	AlignBegin=256793|AlignEnd=257008|Gloss=own
 19	time	time	NOUN	_	_	16	obj	_	AlignBegin=257008|AlignEnd=257231|Gloss=time
 20	wey	wey	SCONJ	_	_	24	mark	_	AlignBegin=257231|AlignEnd=257343|EXTPOS=SCONJ|Gloss=REL
-21	be	be	VERB	_	PartType=Cop	20	fixed	_	AlignBegin=257343|AlignEnd=257437|Gloss=be
-22	sey	sey	SCONJ	_	_	20	fixed	_	AlignBegin=257437|AlignEnd=257587|Gloss=COMP
+21	be	be	VERB	_	PartType=Cop	24	dep	_	AlignBegin=257343|AlignEnd=257437|Gloss=be
+22	sey	sey	SCONJ	_	_	21	dep	_	AlignBegin=257437|AlignEnd=257587|Gloss=COMP
 23	God	God	PROPN	_	_	24	nsubj	_	AlignBegin=257587|AlignEnd=257816|Gloss=God
 24	dey	dey	VERB	_	VerbType=Cop	19	acl:relcl	_	AlignBegin=257816|AlignEnd=257965|Gloss=be
 25	dey	dey	AUX	_	Aspect=Imp	26	aux	_	AlignBegin=257965|AlignEnd=258127|Gloss=IPFV
@@ -1537,21 +1566,21 @@
 29	#	#	PUNCT	_	_	31	punct	_	AlignBegin=258431|AlignEnd=259981|Gloss=PUNCT
 30	everybody	everybody	PRON	_	_	31	nsubj	_	AlignBegin=259981|AlignEnd=260468|Gloss=everybody
 31	get	get	VERB	_	_	16	conj	_	AlignBegin=260468|AlignEnd=260681|Gloss=get
-32	im	im	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	34	nmod:poss	_	AlignBegin=260681|AlignEnd=260777|Gloss=M.SG.3.POSS
+32	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	34	nmod:poss	_	AlignBegin=260681|AlignEnd=260777|Gloss=NOM.SG.3
 33	own	own	ADJ	_	_	34	amod	_	AlignBegin=260777|AlignEnd=261048|Gloss=own
 34	time	time	NOUN	_	_	31	obj	_	AlignBegin=261048|AlignEnd=261329|Gloss=time
 35	wey	wey	SCONJ	_	_	39	mark	_	AlignBegin=261329|AlignEnd=261429|EXTPOS=SCONJ|Gloss=REL
-36	be	be	VERB	_	PartType=Cop	35	fixed	_	AlignBegin=261429|AlignEnd=261497|Gloss=be
-37	sey	sey	SCONJ	_	_	35	fixed	_	AlignBegin=261497|AlignEnd=261697|Gloss=COMP
+36	be	be	VERB	_	PartType=Cop	39	dep	_	AlignBegin=261429|AlignEnd=261497|Gloss=be
+37	sey	sey	SCONJ	_	_	36	dep	_	AlignBegin=261497|AlignEnd=261697|Gloss=COMP
 38	God	God	PROPN	_	_	39	nsubj	_	AlignBegin=261697|AlignEnd=261968|Gloss=God
 39	say	say	VERB	_	_	34	acl:relcl	_	AlignBegin=261968|AlignEnd=262405|Gloss=say
 40	[	[	PUNCT	_	_	49	punct	_	AlignBegin=262405|AlignEnd=262435|Gloss=PUNCT
 41	{	{	PUNCT	_	_	42	punct	_	AlignBegin=262405|AlignEnd=262435|Gloss=PUNCT
-42	ti-	X	X	_	_	49	nsubj	_	AlignBegin=262435|AlignEnd=262628|Gloss=X
+42	ti~	X	X	_	_	49	nsubj	_	AlignBegin=262435|AlignEnd=262628|Gloss=X
 43	||	||	PUNCT	_	_	44	punct	_	AlignBegin=262628|AlignEnd=262658|Gloss=PUNCT
 44	today	today	NOUN	_	_	42	conj:dicto	_	AlignBegin=262658|AlignEnd=262907|Gloss=today
 45	}	}	PUNCT	_	_	42	punct	_	AlignBegin=262907|AlignEnd=262937|Gloss=PUNCT
-46	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	49	cop	_	AlignBegin=262937|AlignEnd=263103|Gloss=be.IND.SG.3.PRS.FIN
+46	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Cop	49	cop	_	AlignBegin=262937|AlignEnd=263103|Gloss=be.IND.SG.3.PRS.FIN
 47	your	your	PRON	_	Number=Plur|Person=2|Poss=Yes	49	nmod:poss	_	AlignBegin=263103|AlignEnd=263225|Gloss=PL.2.POSS
 48	own	own	ADJ	_	_	49	amod	_	AlignBegin=263225|AlignEnd=263382|Gloss=own
 49	day	day	NOUN	_	_	39	parataxis	_	AlignBegin=263382|AlignEnd=263532|Gloss=day
@@ -1559,21 +1588,21 @@
 51	]	]	PUNCT	_	_	16	punct	_	AlignBegin=263532|AlignEnd=263562|Gloss=PUNCT
 52	//	//	PUNCT	_	_	4	punct	_	AlignBegin=263532|AlignEnd=263562|Gloss=PUNCT
 
-# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__62
+# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__65
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_07_Dis-Year-Na-My-Year_MG.mp3
 # speaker_id = Sp472
 # text = # sey you receive your own //
 # text_en = The day you get your own blessings.
 # text_ortho = Sey you receive your own.
 1	#	#	PUNCT	_	_	4	punct	_	AlignBegin=263562|AlignEnd=264364|Gloss=PUNCT
-2	sey	sey	SCONJ	_	_	4	cc	_	AlignBegin=264364|AlignEnd=264541|Gloss=COMP
+2	sey	sey	SCONJ	_	_	4	discourse	_	AlignBegin=264364|AlignEnd=264541|Gloss=COMP
 3	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	AlignBegin=264541|AlignEnd=264674|Gloss=NOM.2
 4	receive	receive	VERB	_	_	0	root	_	AlignBegin=264674|AlignEnd=265037|Gloss=receive
 5	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	6	amod	_	AlignBegin=265037|AlignEnd=265234|Gloss=PL.2.POSS
 6	own	own	ADJ	_	_	4	obj	_	AlignBegin=265234|AlignEnd=265407|Gloss=own
 7	//	//	PUNCT	_	_	4	punct	_	AlignBegin=265407|AlignEnd=265437|Gloss=PUNCT
 
-# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__63
+# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__66
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_07_Dis-Year-Na-My-Year_MG.mp3
 # speaker_id = Sp472
 # text = # and I know sey [ God go do am for us ] //
@@ -1587,19 +1616,19 @@
 6	[	[	PUNCT	_	_	9	punct	_	AlignBegin=267031|AlignEnd=267061|Gloss=PUNCT
 7	God	God	PROPN	_	_	9	nsubj	_	AlignBegin=267061|AlignEnd=267305|Gloss=God
 8	go	go	AUX	_	Aspect=Prosp	9	aux	_	AlignBegin=267305|AlignEnd=267486|Gloss=PROSP
-9	do	do	VERB	_	_	4	ccomp	_	AlignBegin=267486|AlignEnd=267568|Gloss=do
+9	do	do	VERB	_	_	4	ccomp:obj	_	AlignBegin=267486|AlignEnd=267568|Gloss=do
 10	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	9	obj	_	AlignBegin=267568|AlignEnd=267695|Gloss=ACC.SG.3
 11	for	for	ADP	_	_	12	case	_	AlignBegin=267695|AlignEnd=267860|Gloss=for
 12	us	us	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	9	obl:arg	_	AlignBegin=267860|AlignEnd=268167|Gloss=ACC.PL.1
 13	]	]	PUNCT	_	_	9	punct	_	AlignBegin=268167|AlignEnd=268197|Gloss=PUNCT
 14	//	//	PUNCT	_	_	4	punct	_	AlignBegin=268167|AlignEnd=268197|Gloss=PUNCT
 
-# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__64
+# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__67
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_07_Dis-Year-Na-My-Year_MG.mp3
 # speaker_id = Sp472
 # text = # so we no go //
-# text_en = So we won't…
-# text_ortho = So we no go…
+# text_en = So we won't...
+# text_ortho = So we no go.
 1	#	#	PUNCT	_	_	5	punct	_	AlignBegin=268197|AlignEnd=269327|Gloss=PUNCT
 2	so	so	ADV	_	_	5	discourse	_	AlignBegin=269327|AlignEnd=269657|Gloss=so
 3	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	AlignBegin=269687|AlignEnd=269804|Gloss=NOM.PL.1
@@ -1607,7 +1636,7 @@
 5	go	go	AUX	_	Aspect=Prosp	0	root	_	AlignBegin=269920|AlignEnd=270224|Gloss=PROSP
 6	//	//	PUNCT	_	_	5	punct	_	AlignBegin=270224|AlignEnd=270254|Gloss=PUNCT
 
-# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__65
+# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__68
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_07_Dis-Year-Na-My-Year_MG.mp3
 # speaker_id = Sp472
 # text = if we dey look person meh person do you < # dat mean sey [ you no go get am ] //
@@ -1631,12 +1660,12 @@
 16	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	19	nsubj	_	AlignBegin=273682|AlignEnd=273746|Gloss=NOM.2
 17	no	no	PART	_	Polarity=Neg	19	advmod	_	AlignBegin=273746|AlignEnd=273840|Gloss=NEG
 18	go	go	AUX	_	Aspect=Prosp	19	aux	_	AlignBegin=273840|AlignEnd=273976|Gloss=PROSP
-19	get	get	VERB	_	_	13	ccomp	_	AlignBegin=273976|AlignEnd=274175|Gloss=get
+19	get	get	VERB	_	_	13	ccomp:obj	_	AlignBegin=273976|AlignEnd=274175|Gloss=get
 20	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	19	obj	_	AlignBegin=274175|AlignEnd=274310|Gloss=ACC.SG.3
 21	]	]	PUNCT	_	_	19	punct	_	AlignBegin=274310|AlignEnd=274340|Gloss=PUNCT
 22	//	//	PUNCT	_	_	19	punct	_	AlignBegin=274310|AlignEnd=274340|Gloss=PUNCT
 
-# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__66
+# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__69
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_07_Dis-Year-Na-My-Year_MG.mp3
 # speaker_id = Sp472
 # text = # instead wey your broder go do for you sef < # e go carry am go do for anoder person //
@@ -1644,11 +1673,11 @@
 # text_ortho = Instead wey your broder go do for you sef, e go carry am go do for anoder person.
 1	#	#	PUNCT	_	_	15	punct	_	AlignBegin=274340|AlignEnd=275075|Gloss=PUNCT
 2	instead	instead	ADV	_	_	15	advmod	_	AlignBegin=275075|AlignEnd=275427|EXTPOS=SCONJ|Gloss=instead
-3	wey	when	SCONJ	_	_	2	fixed	_	AlignBegin=275427|AlignEnd=275591|Gloss=when
+3	wey	when	SCONJ	_	_	2	dep	_	AlignBegin=275427|AlignEnd=275591|Gloss=when
 4	your	your	PRON	_	Number=Plur|Person=2|Poss=Yes	5	nmod:poss	_	AlignBegin=275591|AlignEnd=275698|Gloss=PL.2.POSS
 5	broder	broder	NOUN	_	_	7	nsubj	_	AlignBegin=275698|AlignEnd=275989|Gloss=brother
 6	go	go	AUX	_	Aspect=Prosp	7	aux	_	AlignBegin=275989|AlignEnd=276126|Gloss=PROSP
-7	do	do	VERB	_	_	2	ccomp	_	AlignBegin=276126|AlignEnd=276242|Gloss=do
+7	do	do	VERB	_	_	2	ccomp:obj	_	AlignBegin=276126|AlignEnd=276242|Gloss=do
 8	for	for	ADP	_	_	9	case	_	AlignBegin=276242|AlignEnd=276415|Gloss=for
 9	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	7	obl:arg	_	AlignBegin=276415|AlignEnd=276552|Gloss=NOM.2
 10	sef	sef	PART	_	PartType=Disc	9	advmod:emph	_	AlignBegin=276552|AlignEnd=276811|Gloss=FOC
@@ -1659,13 +1688,13 @@
 15	carry	carry	VERB	_	_	0	root	_	AlignBegin=277563|AlignEnd=277683|Gloss=carry
 16	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	15	obj	_	AlignBegin=277683|AlignEnd=277813|Gloss=ACC.SG.3
 17	go	go	VERB	_	_	15	compound:svc	_	AlignBegin=277813|AlignEnd=277917|Gloss=go
-18	do	do	VERB	_	_	17	xcomp	_	AlignBegin=277917|AlignEnd=278021|Gloss=do
+18	do	do	VERB	_	_	17	xcomp:obj	_	AlignBegin=277917|AlignEnd=278021|Gloss=do
 19	for	for	ADP	_	_	21	case	_	AlignBegin=278021|AlignEnd=278100|Gloss=for
 20	anoder	anoder	DET	_	_	21	det	_	AlignBegin=278100|AlignEnd=278421|Gloss=another
 21	person	person	NOUN	_	_	18	obl:arg	_	AlignBegin=278421|AlignEnd=278695|Gloss=person
 22	//	//	PUNCT	_	_	15	punct	_	AlignBegin=278695|AlignEnd=278725|Gloss=PUNCT
 
-# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__67
+# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__70
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_07_Dis-Year-Na-My-Year_MG.mp3
 # speaker_id = Sp472
 # text = # or e go tell you sey [ meh you waka go find your own |c sey im ma < don find im own ] //
@@ -1681,24 +1710,24 @@
 8	[	[	PUNCT	_	_	11	punct	_	AlignBegin=280028|AlignEnd=280058|Gloss=PUNCT
 9	meh	make	AUX	_	Mood=Opt	11	aux	_	AlignBegin=280058|AlignEnd=280200|Gloss=SBJV
 10	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	11	nsubj	_	AlignBegin=280200|AlignEnd=280320|Gloss=NOM.2
-11	waka	waka	VERB	_	_	5	ccomp	_	AlignBegin=280320|AlignEnd=280758|Gloss=walk
+11	waka	waka	VERB	_	_	5	ccomp:obj	_	AlignBegin=280320|AlignEnd=280758|Gloss=walk
 12	go	go	VERB	_	_	11	compound:svc	_	AlignBegin=280758|AlignEnd=281118|Gloss=go
-13	find	find	VERB	_	_	12	xcomp	_	AlignBegin=281118|AlignEnd=281352|Gloss=find
+13	find	find	VERB	_	_	12	xcomp:obj	_	AlignBegin=281118|AlignEnd=281352|Gloss=find
 14	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	15	amod	_	AlignBegin=281352|AlignEnd=281464|Gloss=PL.2.POSS
 15	own	own	ADJ	_	_	13	obj	_	AlignBegin=281464|AlignEnd=281661|Gloss=own
 16	|c	|c	PUNCT	_	_	22	punct	_	AlignBegin=281661|AlignEnd=281691|Gloss=PUNCT
-17	sey	sey	SCONJ	_	_	22	cc	_	AlignBegin=281661|AlignEnd=281691|Gloss=COMP
+17	sey	sey	SCONJ	_	_	22	discourse	_	AlignBegin=281661|AlignEnd=281691|Gloss=COMP
 18	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	22	dislocated	_	AlignBegin=281935|AlignEnd=282137|Gloss=NOM.SG.3
 19	ma	ma	PART	_	PartType=Disc	18	advmod:emph	_	AlignBegin=282137|AlignEnd=282232|Gloss=FOC
 20	<	<	PUNCT	_	_	18	punct	_	AlignBegin=282232|AlignEnd=282262|Gloss=PUNCT
 21	don	don	AUX	_	Aspect=Perf	22	aux	_	AlignBegin=282262|AlignEnd=282426|Gloss=PRF
 22	find	find	VERB	_	_	11	conj	_	AlignBegin=282426|AlignEnd=282590|Gloss=find
-23	im	im	ADJ	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	24	amod	_	AlignBegin=282590|AlignEnd=282697|Gloss=M.SG.3.POSS
+23	im	im	PRON	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	24	nmod	_	AlignBegin=282590|AlignEnd=282697|Gloss=3.SG.POSS
 24	own	own	ADJ	_	_	22	obj	_	AlignBegin=282697|AlignEnd=282840|Gloss=own
 25	]	]	PUNCT	_	_	11	punct	_	AlignBegin=282840|AlignEnd=282870|Gloss=PUNCT
 26	//	//	PUNCT	_	_	5	punct	_	AlignBegin=282840|AlignEnd=282870|Gloss=PUNCT
 
-# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__68
+# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__71
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_07_Dis-Year-Na-My-Year_MG.mp3
 # speaker_id = Sp472
 # text = # so if you dey look for person now meh person do for you < # dat mean sey [ you no go get am for life ] //
@@ -1727,14 +1756,14 @@
 21	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	24	nsubj	_	AlignBegin=287612|AlignEnd=287676|Gloss=NOM.2
 22	no	no	PART	_	Polarity=Neg	24	advmod	_	AlignBegin=287676|AlignEnd=287785|Gloss=NEG
 23	go	go	AUX	_	Aspect=Prosp	24	aux	_	AlignBegin=287785|AlignEnd=287925|Gloss=PROSP
-24	get	get	VERB	_	_	18	ccomp	_	AlignBegin=287925|AlignEnd=288059|Gloss=get
+24	get	get	VERB	_	_	18	ccomp:obj	_	AlignBegin=287925|AlignEnd=288059|Gloss=get
 25	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	24	obj	_	AlignBegin=288059|AlignEnd=288208|Gloss=ACC.SG.3
 26	for	for	ADP	_	_	27	case	_	AlignBegin=288208|AlignEnd=288338|Gloss=for
 27	life	life	NOUN	_	_	24	obl:arg	_	AlignBegin=288338|AlignEnd=288534|Gloss=life
 28	]	]	PUNCT	_	_	24	punct	_	AlignBegin=288534|AlignEnd=288564|Gloss=PUNCT
 29	//	//	PUNCT	_	_	18	punct	_	AlignBegin=288534|AlignEnd=288564|Gloss=PUNCT
 
-# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__69
+# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__72
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_07_Dis-Year-Na-My-Year_MG.mp3
 # speaker_id = Sp472
 # text = so anywhere wey you know sey [ you go put to head ] < # you put to head o //
@@ -1749,7 +1778,7 @@
 7	[	[	PUNCT	_	_	10	punct	_	AlignBegin=289550|AlignEnd=289580|Gloss=PUNCT
 8	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	10	nsubj	_	AlignBegin=289580|AlignEnd=289676|Gloss=NOM.2
 9	go	go	AUX	_	Aspect=Prosp	10	aux	_	AlignBegin=289676|AlignEnd=289800|Gloss=PROSP
-10	put	put	VERB	_	_	5	ccomp	_	AlignBegin=289800|AlignEnd=289941|Gloss=put
+10	put	put	VERB	_	_	5	ccomp:obj	_	AlignBegin=289800|AlignEnd=289941|Gloss=put
 11	to	to	ADP	_	_	12	case	_	AlignBegin=289941|AlignEnd=290024|Gloss=to
 12	head	head	NOUN	_	_	10	obl:arg	_	AlignBegin=290024|AlignEnd=290233|Gloss=head
 13	]	]	PUNCT	_	_	10	punct	_	AlignBegin=290233|AlignEnd=290263|Gloss=PUNCT
@@ -1762,19 +1791,19 @@
 20	o	o	PART	_	PartType=Disc	19	advmod:emph	_	AlignBegin=291718|AlignEnd=291944|Gloss=EMPH
 21	//	//	PUNCT	_	_	17	punct	_	AlignBegin=291944|AlignEnd=291974|Gloss=PUNCT
 
-# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__70
+# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__73
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_07_Dis-Year-Na-My-Year_MG.mp3
 # speaker_id = Sp472
 # text = # and di way &//
-# text_en = And the way…
+# text_en = And the way...
 # text_ortho = And di way...
 1	#	#	PUNCT	_	_	4	punct	_	AlignBegin=291974|AlignEnd=292766|Gloss=PUNCT
 2	and	and	CCONJ	_	_	4	cc	_	AlignBegin=292766|AlignEnd=292939|Gloss=and
-3	di	the	DET	_	Definite=Def|PronType=Art	4	det	_	AlignBegin=292939|AlignEnd=293067|Gloss=DEF.ART
+3	di	di	DET	_	Definite=Def|PronType=Art	4	det	_	AlignBegin=292939|AlignEnd=293067|Gloss=DEF.ART
 4	way	way	NOUN	_	_	0	root	_	AlignBegin=293067|AlignEnd=293356|Gloss=way
-5	&//	//	PUNCT	_	_	4	punct	_	AlignBegin=293356|AlignEnd=293386|Gloss=PUNCT
+5	&//	&//	PUNCT	_	_	4	punct	_	AlignBegin=293356|AlignEnd=293386|Gloss=PUNCT
 
-# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__71
+# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__74
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_07_Dis-Year-Na-My-Year_MG.mp3
 # speaker_id = Sp472
 # text = anywhere hard //
@@ -1784,7 +1813,7 @@
 2	hard	hard	ADJ	_	_	0	root	_	AlignBegin=293788|AlignEnd=294058|Gloss=hard
 3	//	//	PUNCT	_	_	2	punct	_	AlignBegin=294058|AlignEnd=294088|Gloss=PUNCT
 
-# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__72
+# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__75
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_07_Dis-Year-Na-My-Year_MG.mp3
 # speaker_id = Sp472
 # text = put to head now !//
@@ -1796,7 +1825,7 @@
 4	now	now	ADV	_	_	1	advmod	_	AlignBegin=294561|AlignEnd=294746|Gloss=now
 5	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=294561|AlignEnd=294746|Gloss=PUNCT
 
-# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__73
+# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__76
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_07_Dis-Year-Na-My-Year_MG.mp3
 # speaker_id = Sp472
 # text = no be sey anyhow head //
@@ -1809,7 +1838,7 @@
 5	head	head	NOUN	_	_	0	root	_	AlignBegin=295478|AlignEnd=295665|Gloss=head
 6	//	//	PUNCT	_	_	5	punct	_	AlignBegin=295665|AlignEnd=295695|Gloss=PUNCT
 
-# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__74
+# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__77
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_07_Dis-Year-Na-My-Year_MG.mp3
 # speaker_id = Sp472
 # text = e get place wey you go put head sef < # dat place go kill you //= # e get place wey you go put head kwa < dat place go favour you //
@@ -1826,7 +1855,7 @@
 9	sef	sef	PART	_	PartType=Disc	8	advmod:emph	_	AlignBegin=296951|AlignEnd=297172|Gloss=FOC
 10	<	<	PUNCT	_	_	2	punct	_	AlignBegin=297172|AlignEnd=297202|Gloss=PUNCT
 11	#	#	PUNCT	_	_	2	punct	_	AlignBegin=297202|AlignEnd=298056|Gloss=PUNCT
-12	dat	dat	DET	_	Number=Sing|PronType=Dem	13	det	_	AlignBegin=298056|AlignEnd=298178|Gloss=SG.DIST.DEM
+12	dat	dat	DET	_	Number=Sing|PronType=Dem	13	det	_	AlignBegin=298056|AlignEnd=298178|Gloss=SG.DEM
 13	place	place	NOUN	_	_	15	nsubj	_	AlignBegin=298178|AlignEnd=298441|Gloss=place
 14	go	go	AUX	_	Aspect=Prosp	15	aux	_	AlignBegin=298441|AlignEnd=298584|Gloss=PROSP
 15	kill	kill	VERB	_	_	0	root	_	AlignBegin=298584|AlignEnd=298760|Gloss=kill
@@ -1843,14 +1872,14 @@
 26	head	head	NOUN	_	_	25	obj:lvc	_	AlignBegin=300726|AlignEnd=300968|Gloss=head
 27	kwa	kwa	PART	_	PartType=Disc	26	advmod:emph	_	AlignBegin=300968|AlignEnd=301315|Gloss=FOC
 28	<	<	PUNCT	_	_	20	punct	_	AlignBegin=301315|AlignEnd=301345|Gloss=PUNCT
-29	dat	dat	DET	_	Number=Sing|PronType=Dem	30	det	_	AlignBegin=301345|AlignEnd=301525|Gloss=SG.DIST.DEM
+29	dat	dat	DET	_	Number=Sing|PronType=Dem	30	det	_	AlignBegin=301345|AlignEnd=301525|Gloss=SG.DEM
 30	place	place	NOUN	_	_	32	nsubj	_	AlignBegin=301525|AlignEnd=301768|Gloss=place
 31	go	go	AUX	_	Aspect=Prosp	32	aux	_	AlignBegin=301768|AlignEnd=301874|Gloss=PROSP
 32	favour	favour	VERB	_	_	15	parataxis:conj	_	AlignBegin=301874|AlignEnd=302240|Gloss=favour
 33	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	32	obj	_	AlignBegin=302240|AlignEnd=302293|Gloss=NOM.2
 34	//	//	PUNCT	_	_	15	punct	_	AlignBegin=302293|AlignEnd=302323|Gloss=PUNCT
 
-# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__75
+# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__78
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_07_Dis-Year-Na-My-Year_MG.mp3
 # speaker_id = Sp472
 # text = # ehn di way Nigeria be now < # nobody know where im go put head //
@@ -1858,7 +1887,7 @@
 # text_ortho = Ehn di way Nigeria be now, nobody know where im go put head.
 1	#	#	PUNCT	_	_	11	punct	_	AlignBegin=302323|AlignEnd=302803|Gloss=PUNCT
 2	ehn	ehn	INTJ	_	_	11	discourse	_	AlignBegin=302803|AlignEnd=302963|Gloss=ehn
-3	di	the	DET	_	Definite=Def|PronType=Art	4	det	_	AlignBegin=302963|AlignEnd=303078|Gloss=DEF.ART
+3	di	di	DET	_	Definite=Def|PronType=Art	4	det	_	AlignBegin=302963|AlignEnd=303078|Gloss=DEF.ART
 4	way	way	NOUN	_	_	11	dislocated	_	AlignBegin=303078|AlignEnd=303239|Gloss=way
 5	Nigeria	Nigeria	PROPN	_	_	6	nsubj	_	AlignBegin=303239|AlignEnd=303683|Gloss=Nigeria
 6	be	be	VERB	_	PartType=Cop	4	acl:relcl	_	AlignBegin=303683|AlignEnd=303883|Gloss=be
@@ -1874,7 +1903,7 @@
 16	head	head	NOUN	_	_	15	obj:lvc	_	AlignBegin=305957|AlignEnd=306109|Gloss=head
 17	//	//	PUNCT	_	_	11	punct	_	AlignBegin=306109|AlignEnd=306139|Gloss=PUNCT
 
-# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__76
+# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__79
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_07_Dis-Year-Na-My-Year_MG.mp3
 # speaker_id = Sp472
 # text = # you no know wheder [ you go put your head for politics |c # or make e put head for business |c # or moh we put head for conductor |c # abi na business |c abi na boyi //= abi na which one ?//] //
@@ -1888,7 +1917,7 @@
 6	[	[	PUNCT	_	_	9	punct	_	AlignBegin=308280|AlignEnd=308354|Gloss=PUNCT
 7	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	9	nsubj	_	AlignBegin=308280|AlignEnd=308354|Gloss=NOM.2
 8	go	go	AUX	_	Aspect=Prosp	9	aux	_	AlignBegin=308354|AlignEnd=308469|Gloss=PROSP
-9	put	put	VERB	_	_	4	ccomp	_	AlignBegin=308469|AlignEnd=308631|Gloss=put
+9	put	put	VERB	_	_	4	ccomp:obj	_	AlignBegin=308469|AlignEnd=308631|Gloss=put
 10	your	your	PRON	_	Number=Plur|Person=2|Poss=Yes	11	nmod:poss	_	AlignBegin=308631|AlignEnd=308709|Gloss=PL.2.POSS
 11	head	head	NOUN	_	_	9	obj	_	AlignBegin=308709|AlignEnd=308805|Gloss=head
 12	for	for	ADP	_	_	13	case	_	AlignBegin=308805|AlignEnd=308955|Gloss=for
@@ -1928,14 +1957,14 @@
 46	?//]	?//]	PUNCT	_	_	9	punct	_	AlignBegin=317399|AlignEnd=317429|Gloss=PUNCT
 47	//	//	PUNCT	_	_	4	punct	_	AlignBegin=317399|AlignEnd=317429|Gloss=PUNCT
 
-# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__77
+# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__80
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_07_Dis-Year-Na-My-Year_MG.mp3
 # speaker_id = Sp472
 # text = # di one wey we put head now don dey put our head //
 # text_en = What we've gotten ourselves into has become a problem.
 # text_ortho = Di one wey we put head now don dey put our head.
 1	#	#	PUNCT	_	_	11	punct	_	AlignBegin=317429|AlignEnd=317903|Gloss=PUNCT
-2	di	the	DET	_	Definite=Def|PronType=Art	3	det	_	AlignBegin=317903|AlignEnd=318048|Gloss=DEF.ART
+2	di	di	DET	_	Definite=Def|PronType=Art	3	det	_	AlignBegin=317903|AlignEnd=318048|Gloss=DEF.ART
 3	one	one	NOUN	_	_	11	nsubj	_	AlignBegin=318048|AlignEnd=318161|Gloss=one
 4	wey	wey	SCONJ	_	_	6	mark	_	AlignBegin=318161|AlignEnd=318258|Gloss=REL
 5	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	AlignBegin=318258|AlignEnd=318363|Gloss=NOM.PL.1
@@ -1949,14 +1978,14 @@
 13	head	head	NOUN	_	_	11	obj	_	AlignBegin=319755|AlignEnd=319910|Gloss=head
 14	//	//	PUNCT	_	_	11	punct	_	AlignBegin=319910|AlignEnd=319940|Gloss=PUNCT
 
-# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__78
+# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__81
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_07_Dis-Year-Na-My-Year_MG.mp3
 # speaker_id = Sp472
 # text = # dat one wey even kill < e don already kill us //
-# text_en = It's even killed… it's brought death to us already.
-# text_ortho = Dat one wey even kill... e don already kill us.
+# text_en = It's even killed... it's brought death to us already.
+# text_ortho = Dat one wey even kill, e don already kill us.
 1	#	#	PUNCT	_	_	11	punct	_	AlignBegin=319940|AlignEnd=320577|Gloss=PUNCT
-2	dat	dat	DET	_	Number=Sing|PronType=Dem	3	det	_	AlignBegin=320577|AlignEnd=320735|Gloss=SG.DIST.DEM
+2	dat	dat	DET	_	Number=Sing|PronType=Dem	3	det	_	AlignBegin=320577|AlignEnd=320735|Gloss=SG.DEM
 3	one	one	NOUN	_	_	11	dislocated	_	AlignBegin=320735|AlignEnd=320872|Gloss=one
 4	wey	wey	SCONJ	_	_	6	mark	_	AlignBegin=320872|AlignEnd=321017|Gloss=REL
 5	even	even	ADV	_	_	6	advmod	_	AlignBegin=321017|AlignEnd=321225|Gloss=even
@@ -1969,7 +1998,7 @@
 12	us	us	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	11	obj	_	AlignBegin=322266|AlignEnd=322469|Gloss=ACC.PL.1
 13	//	//	PUNCT	_	_	11	punct	_	AlignBegin=322469|AlignEnd=322499|Gloss=PUNCT
 
-# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__79
+# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__82
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_07_Dis-Year-Na-My-Year_MG.mp3
 # speaker_id = Sp472
 # text = # but de will still remain one bar |c # and one bar now go still be full bar //
@@ -1978,7 +2007,7 @@
 1	#	#	PUNCT	_	_	6	punct	_	AlignBegin=322499|AlignEnd=323717|Gloss=PUNCT
 2	but	but	CCONJ	_	_	6	cc	_	AlignBegin=323717|AlignEnd=323843|Gloss=but
 3	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	expl:subj	_	AlignBegin=323843|AlignEnd=323925|Gloss=NOM.PL.3
-4	will	will	AUX	_	VerbForm=Fin	6	aux	_	AlignBegin=323925|AlignEnd=324034|Gloss=will.FIN
+4	will	will	AUX	_	VerbForm=Fin	6	aux	_	AlignBegin=323925|AlignEnd=324034|Gloss=FUT
 5	still	still	ADV	_	_	6	advmod	_	AlignBegin=324034|AlignEnd=324578|Gloss=still
 6	remain	remain	VERB	_	_	0	root	_	AlignBegin=324578|AlignEnd=324865|Gloss=remain
 7	one	one	NUM	_	NumType=Card	8	nummod:det	_	AlignBegin=324865|AlignEnd=325105|Gloss=one
@@ -1996,7 +2025,7 @@
 19	bar	bar	NOUN	_	_	6	conj	_	AlignBegin=327480|AlignEnd=327612|Gloss=bar
 20	//	//	PUNCT	_	_	6	punct	_	AlignBegin=327612|AlignEnd=327642|Gloss=PUNCT
 
-# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__80
+# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__83
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_07_Dis-Year-Na-My-Year_MG.mp3
 # speaker_id = Sp472
 # text = # hm !//
@@ -2006,12 +2035,12 @@
 2	hm	hm	INTJ	_	_	0	root	_	AlignBegin=328014|AlignEnd=328232|Gloss=hm
 3	!//	!//	PUNCT	_	_	2	punct	_	AlignBegin=328232|AlignEnd=328262|Gloss=PUNCT
 
-# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__81
+# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__84
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_07_Dis-Year-Na-My-Year_MG.mp3
 # speaker_id = Sp472
 # text = # so # as I dey talk now < na God hand >+ na im I carry am put sey # [ God go do it for us dis year ] //
 # text_en = So as I speak, I have put it into God's hands for Him to settle us this year.
-# text_ortho = So as I dey talk now, na God hand, na im I carry am put sey God go do it for us dis year.
+# text_ortho = So as I dey talk now, na God hand na im I carry am put sey God go do it for us dis year.
 1	#	#	PUNCT	_	_	12	punct	_	AlignBegin=328262|AlignEnd=329131|Gloss=PUNCT
 2	so	so	ADV	_	_	12	discourse	_	AlignBegin=329131|AlignEnd=329689|Gloss=so
 3	#	#	PUNCT	_	_	2	punct	_	AlignBegin=329719|AlignEnd=330612|Gloss=PUNCT
@@ -2026,9 +2055,9 @@
 12	hand	hand	NOUN	_	_	0	root	_	AlignBegin=331966|AlignEnd=332103|Gloss=hand
 13	>+	>+	PUNCT	_	_	14	punct	_	AlignBegin=332103|AlignEnd=332133|Gloss=PUNCT
 14	na	na	AUX	_	PartType=Cop	12	advcl:cleft	_	AlignBegin=332133|AlignEnd=332285|EXTPOS=SCONJ|Gloss=be
-15	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	14	fixed	_	AlignBegin=332133|AlignEnd=332285|Gloss=NOM.SG.3
+15	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	14	dep	_	AlignBegin=332133|AlignEnd=332285|Gloss=NOM.SG.3
 16	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	AlignBegin=332285|AlignEnd=332366|Gloss=NOM.SG.1
-17	carry	carry	VERB	_	_	14	ccomp	_	AlignBegin=332366|AlignEnd=332543|Gloss=carry
+17	carry	carry	VERB	_	_	14	ccomp:obj	_	AlignBegin=332366|AlignEnd=332543|Gloss=carry
 18	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	17	obj	_	AlignBegin=332543|AlignEnd=332675|Gloss=ACC.SG.3
 19	put	put	VERB	_	_	17	compound:svc	_	AlignBegin=332675|AlignEnd=332949|Gloss=put
 20	sey	sey	SCONJ	_	_	25	mark	_	AlignBegin=332949|AlignEnd=333505|Gloss=COMP
@@ -2036,21 +2065,21 @@
 22	[	[	PUNCT	_	_	25	punct	_	AlignBegin=334020|AlignEnd=334050|Gloss=PUNCT
 23	God	God	PROPN	_	_	25	nsubj	_	AlignBegin=334050|AlignEnd=334272|Gloss=God
 24	go	go	AUX	_	Aspect=Prosp	25	aux	_	AlignBegin=334272|AlignEnd=334460|Gloss=PROSP
-25	do	do	VERB	_	_	19	ccomp	_	AlignBegin=334460|AlignEnd=334597|Gloss=do
+25	do	do	VERB	_	_	19	ccomp:obj	_	AlignBegin=334460|AlignEnd=334597|Gloss=do
 26	it	it	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	25	obj	_	AlignBegin=334597|AlignEnd=334707|Gloss=NOM.NT.SG.3
 27	for	for	ADP	_	_	28	case	_	AlignBegin=334707|AlignEnd=334926|Gloss=for
 28	us	us	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	25	obl:arg	_	AlignBegin=334926|AlignEnd=335307|Gloss=ACC.PL.1
-29	dis	dis	DET	_	Number=Sing|PronType=Dem	30	det	_	AlignBegin=335307|AlignEnd=335608|Gloss=SG.PROX.DEM
+29	dis	dis	DET	_	Number=Sing|PronType=Dem	30	det	_	AlignBegin=335307|AlignEnd=335608|Gloss=SG.DEM
 30	year	year	NOUN	_	_	25	obl:mod	_	AlignBegin=335608|AlignEnd=335834|Gloss=year
 31	]	]	PUNCT	_	_	25	punct	_	AlignBegin=335834|AlignEnd=335864|Gloss=PUNCT
 32	//	//	PUNCT	_	_	12	punct	_	AlignBegin=335834|AlignEnd=335864|Gloss=PUNCT
 
-# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__82
+# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__85
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_07_Dis-Year-Na-My-Year_MG.mp3
 # speaker_id = Sp472
 # text = # and as we dey talk am # today wey be di tenth # of January # two eighteen < # and na so >+ God { dey || go } take carry am on # till di year two thousand and twenty //
 # text_en = And as we are talking about it today, the tenth day of January, twenty eighteen, God is... will surely keep going until the year two thousand and twenty.
-# text_ortho = And as we dey talk am today wey be di tenth of January two eighteen, and na so, God dey... go take carry am on till di year two thousand and twenty.
+# text_ortho = And as we dey talk am today wey be di tenth of January two eighteen, and na so God dey, go take carry am on till di year two thousand and twenty.
 1	#	#	PUNCT	_	_	24	punct	_	AlignBegin=335864|AlignEnd=336934|Gloss=PUNCT
 2	and	and	CCONJ	_	_	24	cc	_	AlignBegin=336934|AlignEnd=337121|Gloss=and
 3	as	as	ADP	_	_	6	mark	_	AlignBegin=337121|AlignEnd=337411|Gloss=as
@@ -2062,7 +2091,7 @@
 9	today	today	NOUN	_	_	6	obl:mod	_	AlignBegin=338702|AlignEnd=338935|Gloss=today
 10	wey	wey	SCONJ	_	_	13	mark	_	AlignBegin=338935|AlignEnd=339082|Gloss=REL
 11	be	be	AUX	_	PartType=Cop	13	cop	_	AlignBegin=339082|AlignEnd=339232|Gloss=be
-12	di	the	DET	_	Definite=Def|PronType=Art	13	det	_	AlignBegin=339232|AlignEnd=339406|Gloss=DEF.ART
+12	di	di	DET	_	Definite=Def|PronType=Art	13	det	_	AlignBegin=339232|AlignEnd=339406|Gloss=DEF.ART
 13	tenth	tenth	ADJ	_	NumType=Ord	9	acl:relcl	_	AlignBegin=339406|AlignEnd=339853|Gloss=tenth.ORD
 14	#	#	PUNCT	_	_	16	punct	_	AlignBegin=339853|AlignEnd=340752|Gloss=PUNCT
 15	of	of	ADP	_	_	16	case	_	AlignBegin=340752|AlignEnd=340994|Gloss=of
@@ -2088,7 +2117,7 @@
 35	on	on	ADP	_	_	33	compound:prt	_	AlignBegin=345584|AlignEnd=345939|Gloss=on
 36	#	#	PUNCT	_	_	39	punct	_	AlignBegin=345939|AlignEnd=346730|Gloss=PUNCT
 37	till	till	ADP	_	_	39	case	_	AlignBegin=346730|AlignEnd=346924|Gloss=till
-38	di	the	DET	_	Definite=Def|PronType=Art	39	det	_	AlignBegin=346924|AlignEnd=347403|Gloss=DEF.ART
+38	di	di	DET	_	Definite=Def|PronType=Art	39	det	_	AlignBegin=346924|AlignEnd=347403|Gloss=DEF.ART
 39	year	year	NOUN	_	_	33	obl:mod	_	AlignBegin=347403|AlignEnd=347725|Gloss=year
 40	two	two	NUM	_	NumType=Card	41	compound	_	AlignBegin=347725|AlignEnd=347887|Gloss=two.CARD
 41	thousand	thousand	NUM	_	NumType=Card	39	nummod:mod	_	AlignBegin=347887|AlignEnd=348139|Gloss=thousand.CARD
@@ -2096,7 +2125,7 @@
 43	twenty	twenty	NUM	_	NumType=Card	41	conj	_	AlignBegin=348313|AlignEnd=348732|Gloss=twenty.CARD
 44	//	//	PUNCT	_	_	24	punct	_	AlignBegin=348732|AlignEnd=348762|Gloss=PUNCT
 
-# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__83
+# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__86
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_07_Dis-Year-Na-My-Year_MG.mp3
 # speaker_id = Sp472
 # text = # and as we dey start today dey talk am so < # boy < im dey reach God ear |c and im dey hear am //
@@ -2110,7 +2139,7 @@
 6	start	start	VERB	_	_	18	advcl:periph	_	AlignBegin=350003|AlignEnd=350335|Gloss=start
 7	today	today	NOUN	_	_	6	obj	_	AlignBegin=350335|AlignEnd=350609|Gloss=today
 8	dey	dey	AUX	_	Aspect=Imp	9	aux	_	AlignBegin=350609|AlignEnd=350709|Gloss=IPFV
-9	talk	talk	VERB	_	_	6	ccomp	_	AlignBegin=350709|AlignEnd=350933|Gloss=talk
+9	talk	talk	VERB	_	_	6	ccomp:pred	_	AlignBegin=350709|AlignEnd=350933|Gloss=talk
 10	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	9	obj	_	AlignBegin=350933|AlignEnd=351074|Gloss=ACC.SG.3
 11	so	so	ADV	_	_	9	advmod	_	AlignBegin=351074|AlignEnd=351309|Gloss=so
 12	<	<	PUNCT	_	_	6	punct	_	AlignBegin=351309|AlignEnd=351339|Gloss=PUNCT
@@ -2130,24 +2159,24 @@
 26	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	25	obj	_	AlignBegin=353932|AlignEnd=354047|Gloss=ACC.SG.3
 27	//	//	PUNCT	_	_	18	punct	_	AlignBegin=354047|AlignEnd=354077|Gloss=PUNCT
 
-# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__84
+# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__87
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_07_Dis-Year-Na-My-Year_MG.mp3
 # speaker_id = Sp472
 # text = # and na so &//
-# text_en = And that's how…
+# text_en = And that's how...
 # text_ortho = And na so...
 1	#	#	PUNCT	_	_	4	punct	_	AlignBegin=354077|AlignEnd=354892|Gloss=PUNCT
 2	and	and	CCONJ	_	_	4	cc	_	AlignBegin=354892|AlignEnd=355021|Gloss=and
 3	na	na	AUX	_	PartType=Cop	4	cop	_	AlignBegin=355021|AlignEnd=355200|Gloss=be
 4	so	so	ADV	_	_	0	root	_	AlignBegin=355200|AlignEnd=355722|Gloss=so
-5	&//	//	PUNCT	_	_	4	punct	_	AlignBegin=355722|AlignEnd=355752|Gloss=PUNCT
+5	&//	&//	PUNCT	_	_	4	punct	_	AlignBegin=355722|AlignEnd=355752|Gloss=PUNCT
 
-# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__85
+# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__88
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_07_Dis-Year-Na-My-Year_MG.mp3
 # speaker_id = Sp472
-# text = e say [ anyting wey we talk say in Jesus name < na so >+ [eng shall it be eng] //] //
+# text = e say [ anyting wey we talk say in Jesus name < na so >+ shall it be //] //
 # text_en = He said anything we say in Jesus' name, so be it.
-# text_ortho = E say anyting wey we talk say in Jesus name, na so, shall it be .
+# text_ortho = E say anyting wey we talk say in Jesus name, na so shall it be.
 1	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	AlignBegin=355752|AlignEnd=355970|Gloss=NOM.SG.3
 2	say	say	VERB	_	_	0	root	_	AlignBegin=355970|AlignEnd=356208|Gloss=say
 3	[	[	PUNCT	_	_	14	punct	_	AlignBegin=356208|AlignEnd=356238|Gloss=PUNCT
@@ -2162,21 +2191,19 @@
 12	<	<	PUNCT	_	_	4	punct	_	AlignBegin=357859|AlignEnd=357889|Gloss=PUNCT
 13	na	na	AUX	_	PartType=Cop	14	cop	_	AlignBegin=357889|AlignEnd=358083|Gloss=be
 14	so	so	ADV	_	_	2	parataxis	_	AlignBegin=358083|AlignEnd=358221|Gloss=so
-15	>+	>+	PUNCT	_	_	19	punct	_	AlignBegin=358221|AlignEnd=358251|Gloss=PUNCT
-16	[eng	[eng	PUNCT	_	_	19	punct	_	AlignBegin=358221|AlignEnd=358251|Gloss=PUNCT
-17	shall	shall	AUX	_	_	19	aux	_	AlignBegin=358251|AlignEnd=358474|Gloss=shall
-18	it	it	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	AlignBegin=358474|AlignEnd=358550|Gloss=NOM.NT.SG.3
-19	be	be	VERB	_	PartType=Cop	14	advcl:cleft	_	AlignBegin=358550|AlignEnd=358719|Gloss=be
-20	eng]	eng]	PUNCT	_	_	19	punct	_	AlignBegin=358719|AlignEnd=358749|Gloss=PUNCT
-21	//]	//]	PUNCT	_	_	14	punct	_	AlignBegin=358719|AlignEnd=358749|Gloss=PUNCT
-22	//	//	PUNCT	_	_	2	punct	_	AlignBegin=358719|AlignEnd=358749|Gloss=PUNCT
+15	>+	>+	PUNCT	_	_	18	punct	_	AlignBegin=358221|AlignEnd=358251|Gloss=PUNCT
+16	shall	shall	AUX	_	_	18	aux	_	AlignBegin=358251|AlignEnd=358474|Gloss=shall|Lang=en
+17	it	it	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	AlignBegin=358474|AlignEnd=358550|Gloss=NOM.NT.SG.3|Lang=en
+18	be	be	VERB	_	PartType=Cop	14	advcl:cleft	_	AlignBegin=358550|AlignEnd=358719|Gloss=be|Lang=en
+19	//]	//]	PUNCT	_	_	14	punct	_	AlignBegin=358719|AlignEnd=358749|Gloss=PUNCT
+20	//	//	PUNCT	_	_	2	punct	_	AlignBegin=358719|AlignEnd=358749|Gloss=PUNCT
 
-# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__86
+# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__89
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_07_Dis-Year-Na-My-Year_MG.mp3
 # speaker_id = Sp472
 # text = # and na so >+ im go mark am //
 # text_en = And that’s how he will mark it.
-# text_ortho = And na so, im go mark am.
+# text_ortho = And na so im go mark am.
 1	#	#	PUNCT	_	_	4	punct	_	AlignBegin=358749|AlignEnd=359580|Gloss=PUNCT
 2	and	and	CCONJ	_	_	4	cc	_	AlignBegin=359580|AlignEnd=359737|Gloss=and
 3	na	na	AUX	_	PartType=Cop	4	cop	_	AlignBegin=359737|AlignEnd=359890|Gloss=be
@@ -2188,7 +2215,7 @@
 9	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	8	obj	_	AlignBegin=360518|AlignEnd=360707|Gloss=ACC.SG.3
 10	//	//	PUNCT	_	_	4	punct	_	AlignBegin=360707|AlignEnd=360737|Gloss=PUNCT
 
-# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__87
+# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__90
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_07_Dis-Year-Na-My-Year_MG.mp3
 # speaker_id = Sp472
 # text = # so as we dey talk now < we don put am for God hand say [ im go do well for us # in Jesus name //] //
@@ -2224,7 +2251,7 @@
 28	//]	//]	PUNCT	_	_	20	punct	_	AlignBegin=365772|AlignEnd=365802|Gloss=PUNCT
 29	//	//	PUNCT	_	_	11	punct	_	AlignBegin=365772|AlignEnd=365802|Gloss=PUNCT
 
-# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__88
+# sent_id = ONI_07_Dis-Year-Na-My-Year_MG__91
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_07_Dis-Year-Na-My-Year_MG.mp3
 # speaker_id = Sp472
 # text = amen !//

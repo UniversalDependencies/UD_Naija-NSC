@@ -1,9 +1,10 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = JOS_01_People-Of-Plateau_MG__1
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/JOS_01_People-Of-Plateau_MG.mp3
 # speaker_id = Sp111
-# text = people of Plateau < # de get one kind of # em { lafs- || lifestyle } # wey dem dey carry dress > # most especially deir attire //
-# text_en = People of Plateau, they have one kind of… life-… lifestyle which shows in their dress, most especially their costumes.
-# text_ortho = People of Plateau, de get one kind of em... lafs-... lifestyle wey dem dey carry dress, most especially deir attire.
+# text = people of Plateau < # de get one kind of # em { lafs~ || lifestyle } # wey dem dey carry dress > # most especially deir attire //
+# text_en = People of Plateau, they have one kind of... life~... lifestyle which shows in their dress, most especially their costumes.
+# text_ortho = People of Plateau, de get one kind of em lafs~... lifestyle wey dem dey carry dress most especially deir attire.
 1	people	people	NOUN	_	Number=Plur	7	dislocated	_	AlignBegin=1760|AlignEnd=2060|Gloss=people.PL
 2	of	of	ADP	_	_	3	case	_	AlignBegin=2060|AlignEnd=2210|Gloss=of
 3	Plateau	Plateau	PROPN	_	_	1	nmod	_	AlignBegin=2210|AlignEnd=2812|Gloss=Plateau
@@ -17,7 +18,7 @@
 11	#	#	PUNCT	_	_	14	punct	_	AlignBegin=6300|AlignEnd=7709|Gloss=PUNCT
 12	em	em	INTJ	_	_	14	discourse	_	AlignBegin=7709|AlignEnd=8613|Gloss=em
 13	{	{	PUNCT	_	_	14	punct	_	AlignBegin=8613|AlignEnd=8643|Gloss=PUNCT
-14	lafs-	X	X	_	_	9	nmod	_	AlignBegin=8643|AlignEnd=9270|Gloss=X
+14	lafs~	X	X	_	_	9	nmod	_	AlignBegin=8643|AlignEnd=9270|Gloss=X
 15	||	||	PUNCT	_	_	16	punct	_	AlignBegin=9270|AlignEnd=9300|Gloss=PUNCT
 16	lifestyle	lifestyle	NOUN	_	_	14	conj:dicto	_	AlignBegin=9300|AlignEnd=9990|Gloss=lifestyle
 17	}	}	PUNCT	_	_	14	punct	_	AlignBegin=9990|AlignEnd=10020|Gloss=PUNCT
@@ -31,7 +32,7 @@
 25	#	#	PUNCT	_	_	29	punct	_	AlignBegin=11380|AlignEnd=14560|Gloss=PUNCT
 26	most	most	ADJ	_	_	27	advcl	_	AlignBegin=13030|AlignEnd=13290|Gloss=most
 27	especially	especially	ADV	_	_	29	advmod	_	AlignBegin=13290|AlignEnd=13810|Gloss=especially
-28	deir	deir	PRON	_	Number=Plur|Person=3|Poss=Yes	29	nmod:poss	_	AlignBegin=13810|AlignEnd=13992|Gloss=3.PL.POSS
+28	deir	dem	PRON	_	Number=Plur|Person=3|Poss=Yes	29	nmod:poss	_	AlignBegin=13810|AlignEnd=13992|Gloss=PL.3.POSS
 29	attire	attire	NOUN	_	_	7	dislocated	_	AlignBegin=13992|AlignEnd=14530|Gloss=attire
 30	//	//	PUNCT	_	_	7	punct	_	AlignBegin=14530|AlignEnd=14560|Gloss=PUNCT
 
@@ -39,8 +40,8 @@
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/JOS_01_People-Of-Plateau_MG.mp3
 # speaker_id = Sp111
 # text = # as I don talk am < # you know sey [ Plateau get { { different |r different } ethnic || eh # different } ethnic groups ] //
-# text_en = As I have said, you know that Plateau has different ethnic… uh… different ethnic groups.
-# text_ortho = As I don talk am, you know sey Plateau get different, different ethnic... eh... different ethnic groups.
+# text_en = As I have said, you know that Plateau has different ethnic... uh... different ethnic groups.
+# text_ortho = As I don talk am, you know sey Plateau get different, different ethnic, eh different ethnic groups.
 1	#	#	PUNCT	_	_	10	punct	_	AlignBegin=14560|AlignEnd=16160|Gloss=PUNCT
 2	as	as	ADP	_	_	5	mark	_	AlignBegin=16160|AlignEnd=16380|Gloss=as
 3	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	AlignBegin=16380|AlignEnd=16430|Gloss=NOM.SG.1
@@ -54,7 +55,7 @@
 11	sey	sey	SCONJ	_	_	14	mark	_	AlignBegin=18126|AlignEnd=18320|Gloss=COMP
 12	[	[	PUNCT	_	_	14	punct	_	AlignBegin=18320|AlignEnd=18350|Gloss=PUNCT
 13	Plateau	Plateau	PROPN	_	_	14	nsubj	_	AlignBegin=18350|AlignEnd=19311|Gloss=Plateau
-14	get	get	VERB	_	_	10	ccomp	_	AlignBegin=19311|AlignEnd=19710|Gloss=get
+14	get	get	VERB	_	_	10	ccomp:obj	_	AlignBegin=19311|AlignEnd=19710|Gloss=get
 15	{	{	PUNCT	_	_	17	punct	_	AlignBegin=19710|AlignEnd=19740|Gloss=PUNCT
 16	{	{	PUNCT	_	_	17	punct	_	AlignBegin=19710|AlignEnd=19740|Gloss=PUNCT
 17	different	different	ADJ	_	_	28	amod	_	AlignBegin=19740|AlignEnd=20340|Gloss=different
@@ -77,19 +78,19 @@
 # speaker_id = Sp111
 # text = # de get more than twenty three ethnic groups > on di Plateau //
 # text_en = They have more than twenty three ethnic groups, on the Plateau.
-# text_ortho = De get more than twenty three ethnic groups, on di Plateau.
+# text_ortho = De get more than twenty three ethnic groups on di Plateau.
 1	#	#	PUNCT	_	_	3	punct	_	AlignBegin=25140|AlignEnd=26560|Gloss=PUNCT
 2	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	AlignBegin=26560|AlignEnd=26670|Gloss=NOM.PL.3
 3	get	get	VERB	_	_	0	root	_	AlignBegin=26670|AlignEnd=26920|Gloss=get
-4	more	more	ADJ	_	Degree=Cmp	7	amod	_	AlignBegin=26920|AlignEnd=27110|Gloss=CMPR
-5	than	than	ADP	_	_	4	fixed	_	AlignBegin=27110|AlignEnd=27280|Gloss=than
+4	more	more	ADJ	_	Degree=Cmp	7	advcl	_	AlignBegin=26920|AlignEnd=27110|Gloss=CMPR
+5	than	than	ADP	_	_	4	dep	_	AlignBegin=27110|AlignEnd=27280|Gloss=than
 6	twenty	twenty	NUM	_	NumType=Card	7	compound	_	AlignBegin=27280|AlignEnd=27840|Gloss=twenty.CARD
 7	three	three	NUM	_	NumType=Card	9	nummod:det	_	AlignBegin=27840|AlignEnd=28210|Gloss=three.CARD
 8	ethnic	ethnic	ADJ	_	_	9	amod	_	AlignBegin=28210|AlignEnd=28563|Gloss=ethnic
 9	groups	group	NOUN	_	Number=Plur	3	obj	_	AlignBegin=28563|AlignEnd=29132|Gloss=group.PL
 10	>	>	PUNCT	_	_	13	punct	_	AlignBegin=29132|AlignEnd=29162|Gloss=PUNCT
 11	on	on	ADP	_	_	13	case	_	AlignBegin=29162|AlignEnd=29440|Gloss=on
-12	di	the	DET	_	Definite=Def|PronType=Art	13	det	_	AlignBegin=29440|AlignEnd=29553|Gloss=DEF.ART
+12	di	di	DET	_	Definite=Def|PronType=Art	13	det	_	AlignBegin=29440|AlignEnd=29553|Gloss=DEF.ART
 13	Plateau	Plateau	PROPN	_	_	3	obl:arg	_	AlignBegin=29553|AlignEnd=30070|Gloss=Plateau
 14	//	//	PUNCT	_	_	3	punct	_	AlignBegin=30070|AlignEnd=30100|Gloss=PUNCT
 
@@ -97,8 +98,8 @@
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/JOS_01_People-Of-Plateau_MG.mp3
 # speaker_id = Sp111
 # text = # so just a local government alone dey get { more dan eight |c more dan ten } //
-# text_en = So just a local government alone has more than eight… more than ten.
-# text_ortho = So just a local government alone dey get more dan eight... more dan ten.
+# text_en = So just a local government alone has more than eight... more than ten.
+# text_ortho = So just a local government alone dey get more dan eight, more dan ten.
 1	#	#	PUNCT	_	_	9	punct	_	AlignBegin=30100|AlignEnd=31820|Gloss=PUNCT
 2	so	so	ADV	_	_	9	discourse	_	AlignBegin=31820|AlignEnd=32462|Gloss=so
 3	just	just	ADV	_	_	6	advmod	_	AlignBegin=32462|AlignEnd=32769|Gloss=just
@@ -130,34 +131,34 @@
 3	#	#	PUNCT	_	_	2	punct	_	AlignBegin=37320|AlignEnd=42720|Gloss=PUNCT
 4	as	as	ADP	_	_	6	mark	_	AlignBegin=38480|AlignEnd=38750|Gloss=as
 5	people	people	NOUN	_	Number=Plur	6	nsubj	_	AlignBegin=38750|AlignEnd=39130|Gloss=people.PL
-6	dey	dey	VERB	_	VerbType=Cop	17	advcl:periph	_	AlignBegin=39130|AlignEnd=39330|Gloss=be
-7	different	different	ADJ	_	_	6	xcomp	_	AlignBegin=39330|AlignEnd=39750|Gloss=different
+6	dey	dey	VERB	_	VerbType=Cop	17	advcl:periph	_	AlignBegin=39130|AlignEnd=39330|Gloss=be2
+7	different	different	ADJ	_	_	6	xcomp:pred	_	AlignBegin=39330|AlignEnd=39750|Gloss=different
 8	wit	wit	ADP	_	_	11	case	_	AlignBegin=39750|AlignEnd=39920|Gloss=with
 9	different	different	ADJ	_	_	11	amod	_	AlignBegin=39920|AlignEnd=40370|Gloss=different
 10	ethnic	ethnic	ADJ	_	_	11	amod	_	AlignBegin=40370|AlignEnd=40690|Gloss=ethnic
 11	group	group	NOUN	_	_	7	obl:mod	_	AlignBegin=40690|AlignEnd=40861|Gloss=group
 12	like	like	ADP	_	_	13	case	_	AlignBegin=40861|AlignEnd=41048|Gloss=like
-13	dis	dis	PRON	_	Number=Sing|PronType=Dem	6	obl:mod	_	AlignBegin=41048|AlignEnd=41320|Gloss=SG.PROX.DEM
+13	dis	dis	PRON	_	Number=Sing|PronType=Dem	6	obl:mod	_	AlignBegin=41048|AlignEnd=41320|Gloss=SG.DEM
 14	<	<	PUNCT	_	_	6	punct	_	AlignBegin=41320|AlignEnd=41350|Gloss=PUNCT
 15	#	#	PUNCT	_	_	6	punct	_	AlignBegin=37320|AlignEnd=42720|Gloss=PUNCT
 16	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	17	nsubj	_	AlignBegin=41710|AlignEnd=41820|Gloss=NOM.2
 17	know	know	VERB	_	_	0	root	_	AlignBegin=41820|AlignEnd=42160|Gloss=know
 18	sey	sey	SCONJ	_	_	25	mark	_	AlignBegin=42160|AlignEnd=42720|Gloss=COMP
 19	#	#	PUNCT	_	_	25	punct	_	AlignBegin=42720|AlignEnd=43440|Gloss=PUNCT
-20	deir	deir	PRON	_	Number=Plur|Person=3|Poss=Yes	21	nmod:poss	_	AlignBegin=43440|AlignEnd=43731|Gloss=3.PL.POSS
+20	deir	dem	PRON	_	Number=Plur|Person=3|Poss=Yes	21	nmod:poss	_	AlignBegin=43440|AlignEnd=43731|Gloss=PL.3.POSS
 21	type	type	NOUN	_	_	25	nsubj	_	AlignBegin=43731|AlignEnd=43940|Gloss=type
 22	of	of	ADP	_	_	23	case	_	AlignBegin=43940|AlignEnd=44090|Gloss=of
 23	dressing	dressing	NOUN	_	_	21	nmod	_	AlignBegin=44090|AlignEnd=44400|Gloss=dressing
 24	go	go	AUX	_	Aspect=Prosp	25	aux	_	AlignBegin=44400|AlignEnd=44520|Gloss=PROSP
-25	differ	differ	VERB	_	_	17	ccomp	_	AlignBegin=44520|AlignEnd=44930|Gloss=differ
+25	differ	differ	VERB	_	_	17	ccomp:obj	_	AlignBegin=44520|AlignEnd=44930|Gloss=differ
 26	//	//	PUNCT	_	_	17	punct	_	AlignBegin=44930|AlignEnd=44960|Gloss=PUNCT
 
 # sent_id = JOS_01_People-Of-Plateau_MG__6
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/JOS_01_People-Of-Plateau_MG.mp3
 # speaker_id = Sp111
 # text = # for my local government gangan < our traditional eh dressing self < # { we dey || we dey || we dey || our old women dey } back pikin with eh goat skin //
-# text_en = In my local government particularly, our traditional uh… dressing, we are… we are… we are… our old women used to carry children in the back with… goat skin.
-# text_ortho = For my local government gangan, our traditional eh... dressing self, we dey... we dey... we dey... our old women dey back pikin with eh... goat skin.
+# text_en = In my local government particularly, our traditional uh... dressing, we are... we are... we are... our old women used to carry children in the back with... goat skin.
+# text_ortho = For my local government gangan, our traditional eh dressing self, we dey, we dey, we dey, our old women dey back pikin with eh goat skin.
 1	#	#	PUNCT	_	_	17	punct	_	AlignBegin=44960|AlignEnd=46920|Gloss=PUNCT
 2	for	for	ADP	_	_	5	case	_	AlignBegin=46920|AlignEnd=47060|Gloss=for
 3	my	my	PRON	_	Number=Sing|Person=1|Poss=Yes	5	nmod:poss	_	AlignBegin=47060|AlignEnd=47558|Gloss=SG.1.POSS
@@ -199,14 +200,14 @@
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/JOS_01_People-Of-Plateau_MG.mp3
 # speaker_id = Sp111
 # text = # you know < that is our traditional way of eh # eh # backing a baby //
-# text_en = You know that it's our traditional way of uh, uh… carrying a baby on our backs.
-# text_ortho = You know, that is our traditional way of eh, eh... backing a baby.
+# text_en = You know that it's our traditional way of uh, uh... carrying a baby on our backs.
+# text_ortho = You know, that is our traditional way of eh eh backing a baby.
 1	#	#	PUNCT	_	_	9	punct	_	AlignBegin=56640|AlignEnd=58200|Gloss=PUNCT
 2	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	AlignBegin=58200|AlignEnd=58350|Gloss=NOM.2
 3	know	know	VERB	_	_	9	parataxis:discourse	_	AlignBegin=58350|AlignEnd=58570|Gloss=know
 4	<	<	PUNCT	_	_	3	punct	_	AlignBegin=58570|AlignEnd=58790|Gloss=PUNCT
 5	that	dat	SCONJ	_	_	9	dep	_	AlignBegin=58570|AlignEnd=58790|Gloss=that
-6	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	AlignBegin=58790|AlignEnd=58930|Gloss=be.IND.SG.3.PRS.FIN
+6	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Cop	9	cop	_	AlignBegin=58790|AlignEnd=58930|Gloss=be.IND.SG.3.PRS.FIN
 7	our	our	PRON	_	Number=Plur|Person=1|Poss=Yes	9	nmod:poss	_	AlignBegin=58930|AlignEnd=59840|Gloss=PL.1.POSS
 8	traditional	traditional	ADJ	_	_	9	amod	_	AlignBegin=59840|AlignEnd=60517|Gloss=traditional
 9	way	way	NOUN	_	_	0	root	_	AlignBegin=60517|AlignEnd=60740|Gloss=way
@@ -224,8 +225,8 @@
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/JOS_01_People-Of-Plateau_MG.mp3
 # speaker_id = Sp111
 # text = # and you know people some dey wear agbada //= some dey wear different attire //
-# text_en = And you know people… some wear the agbada, some wear different costumes.
-# text_ortho = And you know people... some dey wear agbada, some dey wear different attire.
+# text_en = And you know people... some wear the agbada, some wear different costumes.
+# text_ortho = And you know people some dey wear agbada, some dey wear different attire.
 1	#	#	PUNCT	_	_	8	punct	_	AlignBegin=64960|AlignEnd=65840|Gloss=PUNCT
 2	and	and	CCONJ	_	_	8	cc	_	AlignBegin=65840|AlignEnd=66665|Gloss=and
 3	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	AlignBegin=66665|AlignEnd=66770|Gloss=NOM.2
@@ -253,7 +254,7 @@
 2	so	so	ADV	_	_	4	discourse	_	AlignBegin=71411|AlignEnd=71580|Gloss=so
 3	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	AlignBegin=71580|AlignEnd=71710|Gloss=NOM.PL.1
 4	get	get	VERB	_	_	0	root	_	AlignBegin=71710|AlignEnd=71876|Gloss=get
-5	dat	dat	DET	_	Number=Sing|PronType=Dem	6	det	_	AlignBegin=71876|AlignEnd=72030|Gloss=SG.DIST.DEM
+5	dat	dat	DET	_	Number=Sing|PronType=Dem	6	det	_	AlignBegin=71876|AlignEnd=72030|Gloss=SG.DEM
 6	one	one	NOUN	_	_	4	obj	_	AlignBegin=72030|AlignEnd=72200|Gloss=one
 7	for	for	ADP	_	_	8	case	_	AlignBegin=72200|AlignEnd=72420|Gloss=for
 8	here	here	ADV	_	_	4	obl:arg	_	AlignBegin=72420|AlignEnd=72750|Gloss=here
@@ -263,31 +264,31 @@
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/JOS_01_People-Of-Plateau_MG.mp3
 # speaker_id = Sp111
 # text = # and den < # em # di delicacy < na im be sey di food wey we dey chop for Plateau //
-# text_en = And then… uh… the delicacies, that means the food we eat in Plateau.
-# text_ortho = And den... em... di delicacy, na im be sey di food wey we dey chop for Plateau.
-1	#	#	PUNCT	_	_	11	punct	_	AlignBegin=72780|AlignEnd=73820|Gloss=PUNCT
-2	and	and	CCONJ	_	_	11	cc	_	AlignBegin=73820|AlignEnd=74000|Gloss=and
-3	den	den	ADV	_	_	11	advmod:periph	_	AlignBegin=74000|AlignEnd=74610|Gloss=den
+# text_en = And then... uh... the delicacies, that means the food we eat in Plateau.
+# text_ortho = And den, em di delicacy, na im be sey di food wey we dey chop for Plateau.
+1	#	#	PUNCT	_	_	12	punct	_	AlignBegin=72780|AlignEnd=73820|Gloss=PUNCT
+2	and	and	CCONJ	_	_	12	cc	_	AlignBegin=73820|AlignEnd=74000|Gloss=and
+3	den	den	ADV	_	_	12	advmod:periph	_	AlignBegin=74000|AlignEnd=74610|Gloss=den
 4	<	<	PUNCT	_	_	3	punct	_	AlignBegin=74610|AlignEnd=74640|Gloss=PUNCT
 5	#	#	PUNCT	_	_	3	punct	_	AlignBegin=74640|AlignEnd=76340|Gloss=PUNCT
-6	em	em	INTJ	_	_	11	discourse	_	AlignBegin=76340|AlignEnd=77107|Gloss=em
+6	em	em	INTJ	_	_	12	discourse	_	AlignBegin=76340|AlignEnd=77107|Gloss=em
 7	#	#	PUNCT	_	_	6	punct	_	AlignBegin=76340|AlignEnd=82420|Gloss=PUNCT
-8	di	the	DET	_	Definite=Def|PronType=Art	9	det	_	AlignBegin=77610|AlignEnd=78300|Gloss=DEF.ART
-9	delicacy	delicacy	NOUN	_	_	11	dislocated	_	AlignBegin=78300|AlignEnd=78990|Gloss=delicacy
+8	di	di	DET	_	Definite=Def|PronType=Art	9	det	_	AlignBegin=77610|AlignEnd=78300|Gloss=DEF.ART
+9	delicacy	delicacy	NOUN	_	_	12	dislocated	_	AlignBegin=78300|AlignEnd=78990|Gloss=delicacy
 10	<	<	PUNCT	_	_	9	punct	_	AlignBegin=78990|AlignEnd=79020|Gloss=PUNCT
-11	na	na	AUX	_	PartType=Cop	0	root	_	AlignBegin=79020|AlignEnd=79150|EXTPOS=SCONJ|Gloss=be
-12	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	11	fixed	_	AlignBegin=79150|AlignEnd=79230|Gloss=NOM.SG.3
-13	be	be	VERB	_	PartType=Cop	11	advcl:cleft	_	AlignBegin=79230|AlignEnd=79402|Gloss=be
+11	na	na	AUX	_	PartType=Cop	12	cop	_	AlignBegin=79020|AlignEnd=79150|Gloss=be1
+12	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	0	root	_	AlignBegin=79150|AlignEnd=79230|Gloss=NOM.SG.3
+13	be	be	VERB	_	PartType=Cop	12	advcl:cleft	_	AlignBegin=79230|AlignEnd=79402|Gloss=be1
 14	sey	sey	SCONJ	_	_	16	case	_	AlignBegin=79402|AlignEnd=79770|Gloss=COMP
-15	di	the	DET	_	Definite=Def|PronType=Art	16	det	_	AlignBegin=79770|AlignEnd=79940|Gloss=DEF.ART
-16	food	food	NOUN	_	_	13	dep	_	AlignBegin=79940|AlignEnd=80350|Gloss=food
+15	di	di	DET	_	Definite=Def|PronType=Art	16	det	_	AlignBegin=79770|AlignEnd=79940|Gloss=DEF.ART
+16	food	food	NOUN	_	_	13	nsubj	_	AlignBegin=79940|AlignEnd=80350|Gloss=food
 17	wey	wey	SCONJ	_	_	20	mark	_	AlignBegin=80350|AlignEnd=80677|Gloss=REL
 18	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	20	nsubj	_	AlignBegin=80677|AlignEnd=80830|Gloss=NOM.PL.1
 19	dey	dey	AUX	_	Aspect=Imp	20	aux	_	AlignBegin=80830|AlignEnd=81100|Gloss=IPFV
 20	chop	chop	VERB	_	_	16	acl:relcl	_	AlignBegin=81100|AlignEnd=81470|Gloss=eat
 21	for	for	ADP	_	_	22	case	_	AlignBegin=81470|AlignEnd=81760|Gloss=for
 22	Plateau	Plateau	PROPN	_	_	20	obl:arg	_	AlignBegin=81760|AlignEnd=82390|Gloss=Plateau
-23	//	//	PUNCT	_	_	11	punct	_	AlignBegin=82390|AlignEnd=82420|Gloss=PUNCT
+23	//	//	PUNCT	_	_	12	punct	_	AlignBegin=82390|AlignEnd=82420|Gloss=PUNCT
 
 # sent_id = JOS_01_People-Of-Plateau_MG__11
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/JOS_01_People-Of-Plateau_MG.mp3
@@ -304,14 +305,14 @@
 # sent_id = JOS_01_People-Of-Plateau_MG__12
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/JOS_01_People-Of-Plateau_MG.mp3
 # speaker_id = Sp111
-# text = most especially < { f- || like } me < I dey like gote //
-# text_en = Most especially, f-… like me, I like gote.
-# text_ortho = Most especially, f-... like me, I dey like gote.
+# text = most especially < { f~ || like } me < I dey like gote //
+# text_en = Most especially, f~... like me, I like gote.
+# text_ortho = Most especially, f~... like me, I dey like gote.
 1	most	most	ADJ	_	_	2	advcl	_	AlignBegin=84760|AlignEnd=84990|Gloss=most
 2	especially	especially	ADV	_	_	13	advmod:periph	_	AlignBegin=84990|AlignEnd=85582|Gloss=especially
 3	<	<	PUNCT	_	_	2	punct	_	AlignBegin=85582|AlignEnd=85612|Gloss=PUNCT
 4	{	{	PUNCT	_	_	5	punct	_	AlignBegin=85582|AlignEnd=85612|Gloss=PUNCT
-5	f-	X	X	_	_	13	discourse	_	AlignBegin=85612|AlignEnd=85680|Gloss=X
+5	f~	X	X	_	_	13	discourse	_	AlignBegin=85612|AlignEnd=85680|Gloss=X
 6	||	||	PUNCT	_	_	7	punct	_	AlignBegin=85680|AlignEnd=85710|Gloss=PUNCT
 7	like	like	ADP	_	_	5	conj:dicto	_	AlignBegin=85710|AlignEnd=85960|Gloss=like
 8	}	}	PUNCT	_	_	5	punct	_	AlignBegin=85960|AlignEnd=85990|Gloss=PUNCT
@@ -333,7 +334,7 @@
 2	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	AlignBegin=88360|AlignEnd=88440|Gloss=NOM.2
 3	know	know	VERB	_	_	6	parataxis:discourse	_	AlignBegin=88440|AlignEnd=88650|Gloss=know
 4	gote	gote	NOUN	_	_	6	nsubj	_	AlignBegin=88650|AlignEnd=88910|Gloss=pottage
-5	na	na	AUX	_	PartType=Cop	6	cop	_	AlignBegin=88910|AlignEnd=89110|Gloss=be
+5	na	na	AUX	_	PartType=Cop	6	cop	_	AlignBegin=88910|AlignEnd=89110|Gloss=be1
 6	kind	kind	NOUN	_	_	0	root	_	AlignBegin=89110|AlignEnd=89400|Gloss=kind
 7	of	of	ADP	_	_	8	case	_	AlignBegin=89400|AlignEnd=89530|Gloss=of
 8	delicacy	delicacy	NOUN	_	_	6	nmod	_	AlignBegin=89530|AlignEnd=90165|Gloss=delicacy
@@ -363,12 +364,12 @@
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/JOS_01_People-Of-Plateau_MG.mp3
 # speaker_id = Sp111
 # text = # wetin we be &?//
-# text_en = What do we…?
-# text_ortho = Wetin we be…?
+# text_en = What do we...?
+# text_ortho = Wetin we be... ?
 1	#	#	PUNCT	_	_	2	punct	_	AlignBegin=94120|AlignEnd=95180|Gloss=PUNCT
 2	wetin	wetin	PRON	_	PronType=Int	0	root	_	AlignBegin=95180|AlignEnd=95420|Gloss=what.Q
 3	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	AlignBegin=95420|AlignEnd=95480|Gloss=NOM.PL.1
-4	be	be	VERB	_	PartType=Cop	2	advcl:cleft	_	AlignBegin=95480|AlignEnd=95596|Gloss=be
+4	be	be	VERB	_	PartType=Cop	2	advcl:cleft	_	AlignBegin=95480|AlignEnd=95596|Gloss=be1
 5	&?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=95596|AlignEnd=95626|Gloss=PUNCT
 
 # sent_id = JOS_01_People-Of-Plateau_MG__16
@@ -383,7 +384,7 @@
 4	dey	dey	AUX	_	Aspect=Imp	5	aux	_	AlignBegin=96159|AlignEnd=96299|Gloss=IPFV
 5	call	call	VERB	_	_	2	advcl:cleft	_	AlignBegin=96299|AlignEnd=96610|Gloss=call
 6	#	#	PUNCT	_	_	8	punct	_	AlignBegin=95180|AlignEnd=97800|Gloss=PUNCT
-7	hungry	hungry	ADJ	_	_	8	amod	_	AlignBegin=96810|AlignEnd=97250|Gloss=hunger
+7	hungry	hungry	NOUN	_	_	8	compound	_	AlignBegin=96810|AlignEnd=97250|Gloss=hunger
 8	rice	rice	NOUN	_	_	5	obj:lvc	_	AlignBegin=97250|AlignEnd=97520|Gloss=rice
 9	abi	abi	CCONJ	_	_	2	discourse	_	AlignBegin=97520|AlignEnd=97770|Gloss=or
 10	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=97770|AlignEnd=97800|Gloss=PUNCT
@@ -401,8 +402,8 @@
 5	dey	dey	AUX	_	Aspect=Imp	6	aux	_	AlignBegin=99929|AlignEnd=100100|Gloss=IPFV
 6	use	use	VERB	_	_	0	root	_	AlignBegin=100100|AlignEnd=100400|Gloss=use
 7	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	6	obj	_	AlignBegin=100400|AlignEnd=100558|Gloss=ACC.SG.3
-8	make	make	VERB	_	_	6	xcomp	_	AlignBegin=100558|AlignEnd=100990|Gloss=make
-9	dat	dat	DET	_	Number=Sing|PronType=Dem	10	det	_	AlignBegin=100990|AlignEnd=101330|Gloss=SG.DIST.DEM
+8	make	make	VERB	_	_	6	xcomp:obj	_	AlignBegin=100558|AlignEnd=100990|Gloss=make
+9	dat	dat	DET	_	Number=Sing|PronType=Dem	10	det	_	AlignBegin=100990|AlignEnd=101330|Gloss=SG.DEM
 10	gote	gote	NOUN	_	_	8	obj	_	AlignBegin=101330|AlignEnd=101790|Gloss=pottage
 11	//	//	PUNCT	_	_	6	punct	_	AlignBegin=101790|AlignEnd=101820|Gloss=PUNCT
 
@@ -412,10 +413,10 @@
 # text = na light food |a very soft food //
 # text_en = It's a light food, very soft food.
 # text_ortho = Na light food, very soft food.
-1	na	na	AUX	_	PartType=Cop	3	cop	_	AlignBegin=101820|AlignEnd=102040|Gloss=be
+1	na	na	AUX	_	PartType=Cop	3	cop	_	AlignBegin=101820|AlignEnd=102040|Gloss=be1
 2	light	light	NOUN	_	_	3	nmod	_	AlignBegin=102040|AlignEnd=102300|Gloss=light
 3	food	food	NOUN	_	_	0	root	_	AlignBegin=102300|AlignEnd=102600|Gloss=food
-4	|a	|a	PUNCT	_	_	7	punct	_	AlignBegin=102600|AlignEnd=102630|Gloss=PUNCT
+4	|a	||	PUNCT	_	_	7	punct	_	AlignBegin=102600|AlignEnd=102630|Gloss=PUNCT
 5	very	very	ADV	_	_	6	advmod	_	AlignBegin=102630|AlignEnd=102880|Gloss=very
 6	soft	soft	ADJ	_	_	7	amod	_	AlignBegin=102880|AlignEnd=103250|Gloss=soft
 7	food	food	NOUN	_	_	3	appos	_	AlignBegin=103250|AlignEnd=103610|Gloss=food
@@ -428,7 +429,7 @@
 # text_en = When you have it, you enjoy it.
 # text_ortho = When you go take am, you go enjoy yourself.
 1	#	#	PUNCT	_	_	10	punct	_	AlignBegin=103640|AlignEnd=104380|Gloss=PUNCT
-2	when	when	SCONJ	_	_	5	mark	_	AlignBegin=104380|AlignEnd=104580|Gloss=when.Q
+2	when	when	SCONJ	_	PronType=Int	5	mark	_	AlignBegin=104380|AlignEnd=104580|Gloss=when.Q
 3	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	AlignBegin=104580|AlignEnd=104640|Gloss=NOM.2
 4	go	go	AUX	_	Aspect=Prosp	5	aux	_	AlignBegin=104640|AlignEnd=104820|Gloss=PROSP
 5	take	take	VERB	_	_	10	advcl:periph	_	AlignBegin=104820|AlignEnd=105140|Gloss=take
@@ -451,15 +452,15 @@
 3	make	make	VERB	_	_	0	root	_	AlignBegin=106410|AlignEnd=106760|Gloss=make
 4	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	3	obj	_	AlignBegin=106760|AlignEnd=106950|Gloss=NOM.2
 5	dey	dey	AUX	_	Aspect=Imp	6	aux	_	AlignBegin=106950|AlignEnd=107099|Gloss=IPFV
-6	shine	shine	VERB	_	_	3	ccomp	_	AlignBegin=107099|AlignEnd=107530|Gloss=shine
+6	shine	shine	VERB	_	_	3	ccomp:pred	_	AlignBegin=107099|AlignEnd=107530|Gloss=shine
 7	//	//	PUNCT	_	_	3	punct	_	AlignBegin=107530|AlignEnd=107560|Gloss=PUNCT
 
 # sent_id = JOS_01_People-Of-Plateau_MG__21
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/JOS_01_People-Of-Plateau_MG.mp3
 # speaker_id = Sp111
 # text = # so dem dey carry # em spinach dey do am # wit eh # eh acha //
-# text_en = So they use um… spinach to do it with uh… uh... acha.
-# text_ortho = So dem dey carry em... spinach dey do am wit eh... eh... acha.
+# text_en = So they use um... spinach to do it with uh... uh... acha.
+# text_ortho = So dem dey carry em spinach dey do am wit eh eh acha.
 1	#	#	PUNCT	_	_	5	punct	_	AlignBegin=107560|AlignEnd=109260|Gloss=PUNCT
 2	so	so	ADV	_	_	5	discourse	_	AlignBegin=109260|AlignEnd=109570|Gloss=so
 3	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	AlignBegin=109570|AlignEnd=109687|Gloss=NOM.PL.3
@@ -483,8 +484,8 @@
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/JOS_01_People-Of-Plateau_MG.mp3
 # speaker_id = Sp111
 # text = # { use some || em # use } { tomatoes |c and some spice } to # you know garnish am //
-# text_en = They use uh… they use tomatoes, and some spices to, you know, garnish it.
-# text_ortho = Use some, em... use tomatoes, and some spice to you know garnish am.
+# text_en = They use uh... they use tomatoes, and some spices to, you know, garnish it.
+# text_ortho = Use some, em use tomatoes, and some spice to you know garnish am.
 1	#	#	PUNCT	_	_	3	punct	_	AlignBegin=116860|AlignEnd=118480|Gloss=PUNCT
 2	{	{	PUNCT	_	_	3	punct	_	AlignBegin=118450|AlignEnd=118480|Gloss=PUNCT
 3	use	use	VERB	_	_	0	root	_	AlignBegin=118480|AlignEnd=118750|Gloss=use
@@ -512,9 +513,9 @@
 # sent_id = JOS_01_People-Of-Plateau_MG__23
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/JOS_01_People-Of-Plateau_MG.mp3
 # speaker_id = Sp111
-# text = # em < # actually < # we get # em different types of # { dance |c or dances } # [eng so to say eng] on di Plateau //
-# text_en = Uh… actually, we have uh... different types of dance, or dances (so to speak) on the Plateau.
-# text_ortho = Em... actually, we get em... different types of dance, or dances so to say on di Plateau.
+# text = # em < # actually < # we get # em different types of # { dance |c or dances } # so to say on di Plateau //
+# text_en = Uh... actually, we have uh... different types of dance, or dances (so to speak) on the Plateau.
+# text_ortho = Em, actually, we get em different types of dance, or dances so to say on di Plateau.
 1	#	#	PUNCT	_	_	9	punct	_	AlignBegin=124680|AlignEnd=126440|Gloss=PUNCT
 2	em	em	INTJ	_	_	9	discourse	_	AlignBegin=126440|AlignEnd=127241|Gloss=em
 3	<	<	PUNCT	_	_	2	punct	_	AlignBegin=127241|AlignEnd=127271|Gloss=PUNCT
@@ -536,30 +537,28 @@
 19	or	or	CCONJ	_	_	20	cc	_	AlignBegin=136869|AlignEnd=137110|Gloss=or
 20	dances	dance	NOUN	_	Number=Plur	17	conj	_	AlignBegin=137110|AlignEnd=137790|Gloss=dance.PL
 21	}	}	PUNCT	_	_	17	punct	_	AlignBegin=137790|AlignEnd=137820|Gloss=PUNCT
-22	#	#	PUNCT	_	_	24	punct	_	AlignBegin=137820|AlignEnd=138640|Gloss=PUNCT
-23	[eng	[eng	PUNCT	_	_	24	punct	_	AlignBegin=137820|AlignEnd=138640|Gloss=PUNCT
-24	so	so	ADV	_	_	20	parataxis:discourse	_	AlignBegin=138640|AlignEnd=138870|EXTPOS=INTJ|Gloss=so
-25	to	to	ADP	_	_	24	fixed	_	AlignBegin=138870|AlignEnd=139000|Gloss=to
-26	say	say	VERB	_	_	24	fixed	_	AlignBegin=139000|AlignEnd=139210|Gloss=say
-27	eng]	eng]	PUNCT	_	_	24	punct	_	AlignBegin=139210|AlignEnd=139360|Gloss=PUNCT
-28	on	on	ADP	_	_	30	case	_	AlignBegin=139210|AlignEnd=139360|Gloss=on
-29	di	the	DET	_	Definite=Def|PronType=Art	30	det	_	AlignBegin=139360|AlignEnd=139521|Gloss=DEF.ART
-30	Plateau	Plateau	PROPN	_	_	9	obl:arg	_	AlignBegin=139521|AlignEnd=139950|Gloss=Plateau
-31	//	//	PUNCT	_	_	9	punct	_	AlignBegin=139950|AlignEnd=139980|Gloss=PUNCT
+22	#	#	PUNCT	_	_	23	punct	_	AlignBegin=137820|AlignEnd=138640|Gloss=PUNCT
+23	so	so	ADV	_	_	20	parataxis:discourse	_	AlignBegin=138640|AlignEnd=138870|Gloss=so|Lang=en
+24	to	to	ADP	_	_	23	dep	_	AlignBegin=138870|AlignEnd=139000|Gloss=to|Lang=en
+25	say	say	VERB	_	_	24	dep	_	AlignBegin=139000|AlignEnd=139210|Gloss=say|Lang=en
+26	on	on	ADP	_	_	28	case	_	AlignBegin=139210|AlignEnd=139360|Gloss=on
+27	di	di	DET	_	Definite=Def|PronType=Art	28	det	_	AlignBegin=139360|AlignEnd=139521|Gloss=DEF.ART
+28	Plateau	Plateau	PROPN	_	_	9	obl:arg	_	AlignBegin=139521|AlignEnd=139950|Gloss=Plateau
+29	//	//	PUNCT	_	_	9	punct	_	AlignBegin=139950|AlignEnd=139980|Gloss=PUNCT
 
 # sent_id = JOS_01_People-Of-Plateau_MG__24
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/JOS_01_People-Of-Plateau_MG.mp3
 # speaker_id = Sp111
 # text = # and em # e get &//
-# text_en = And uh... there is…
-# text_ortho = And em... e get…
+# text_en = And uh... there is...
+# text_ortho = And em e get...
 1	#	#	PUNCT	_	_	6	punct	_	AlignBegin=139980|AlignEnd=141020|Gloss=PUNCT
 2	and	and	CCONJ	_	_	6	cc	_	AlignBegin=141020|AlignEnd=141353|Gloss=and
 3	em	em	INTJ	_	_	6	discourse	_	AlignBegin=141353|AlignEnd=142060|Gloss=em
 4	#	#	PUNCT	_	_	6	punct	_	AlignBegin=142060|AlignEnd=143280|Gloss=PUNCT
 5	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	6	expl:subj	_	AlignBegin=143280|AlignEnd=143475|Gloss=NOM.SG.3
 6	get	get	VERB	_	_	0	root	_	AlignBegin=143475|AlignEnd=143850|Gloss=get
-7	&//	//	PUNCT	_	_	6	punct	_	AlignBegin=143850|AlignEnd=143880|Gloss=PUNCT
+7	&//	&//	PUNCT	_	_	6	punct	_	AlignBegin=143850|AlignEnd=143880|Gloss=PUNCT
 
 # sent_id = JOS_01_People-Of-Plateau_MG__25
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/JOS_01_People-Of-Plateau_MG.mp3
@@ -590,7 +589,7 @@
 # speaker_id = Sp111
 # text = # some dey use even { guinea corn |a eh # em # { di ( wetin de dey call am ?// ) || # di } stalk } //
 # text_en = Some even use guinea corn, eh... um... the (what do they call it?), the stalks.
-# text_ortho = Some dey use even guinea corn, eh... em... di (wetin de dey call am?), di stalk.
+# text_ortho = Some dey use even guinea corn, eh em di (wetin de dey call am, ), di stalk.
 1	#	#	PUNCT	_	_	4	punct	_	AlignBegin=149440|AlignEnd=150540|Gloss=PUNCT
 2	some	some	PRON	_	_	4	nsubj	_	AlignBegin=150540|AlignEnd=150800|Gloss=some
 3	dey	dey	AUX	_	Aspect=Imp	4	aux	_	AlignBegin=150800|AlignEnd=150990|Gloss=IPFV
@@ -599,13 +598,13 @@
 6	{	{	PUNCT	_	_	8	punct	_	AlignBegin=151390|AlignEnd=151969|Gloss=PUNCT
 7	guinea	guinea	NOUN	_	_	8	compound	_	AlignBegin=151969|AlignEnd=152360|Gloss=guinea
 8	corn	corn	NOUN	_	_	4	obj	_	AlignBegin=152360|AlignEnd=152670|Gloss=corn
-9	|a	|a	PUNCT	_	_	28	punct	_	AlignBegin=152670|AlignEnd=153560|Gloss=PUNCT
+9	|a	||	PUNCT	_	_	28	punct	_	AlignBegin=152670|AlignEnd=153560|Gloss=PUNCT
 10	eh	eh	INTJ	_	_	28	discourse	_	AlignBegin=152670|AlignEnd=153560|Gloss=eh
 11	#	#	PUNCT	_	_	10	punct	_	AlignBegin=153560|AlignEnd=154460|Gloss=PUNCT
 12	em	em	INTJ	_	_	28	discourse	_	AlignBegin=154460|AlignEnd=155300|Gloss=em
 13	#	#	PUNCT	_	_	12	punct	_	AlignBegin=155300|AlignEnd=157080|Gloss=PUNCT
 14	{	{	PUNCT	_	_	15	punct	_	AlignBegin=157050|AlignEnd=157080|Gloss=PUNCT
-15	di	the	DET	_	Definite=Def|PronType=Art	28	det	_	AlignBegin=157080|AlignEnd=157980|Gloss=DEF.ART
+15	di	di	DET	_	Definite=Def|PronType=Art	28	det	_	AlignBegin=157080|AlignEnd=157980|Gloss=DEF.ART
 16	(	(	PUNCT	_	_	17	punct	_	AlignBegin=157980|AlignEnd=158010|Gloss=PUNCT
 17	wetin	wetin	PRON	_	PronType=Int	15	parataxis:parenth	_	AlignBegin=158010|AlignEnd=158280|Gloss=what.Q
 18	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	20	nsubj	_	AlignBegin=158310|AlignEnd=158390|Gloss=NOM.PL.3
@@ -616,7 +615,7 @@
 23	)	)	PUNCT	_	_	17	punct	_	AlignBegin=157080|AlignEnd=160220|Gloss=PUNCT
 24	||	||	PUNCT	_	_	26	punct	_	AlignBegin=157080|AlignEnd=160220|Gloss=PUNCT
 25	#	#	PUNCT	_	_	26	punct	_	AlignBegin=157080|AlignEnd=160220|Gloss=PUNCT
-26	di	the	DET	_	Definite=Def|PronType=Art	15	conj:dicto	_	AlignBegin=159560|AlignEnd=159710|Gloss=DEF.ART
+26	di	di	DET	_	Definite=Def|PronType=Art	15	conj:dicto	_	AlignBegin=159560|AlignEnd=159710|Gloss=DEF.ART
 27	}	}	PUNCT	_	_	15	punct	_	AlignBegin=159560|AlignEnd=159710|Gloss=PUNCT
 28	stalk	stalk	NOUN	_	_	8	appos	_	AlignBegin=159710|AlignEnd=160190|Gloss=stalk
 29	}	}	PUNCT	_	_	4	punct	_	AlignBegin=160190|AlignEnd=160220|Gloss=PUNCT
@@ -627,7 +626,7 @@
 # speaker_id = Sp111
 # text = # dem dey blow am { like || eh # just like } { di horn too |a animal horn } //
 # text_en = They blow it like uh... just like the horn too, animal horn.
-# text_ortho = Dem dey blow am like eh... just like di horn too, animal horn.
+# text_ortho = Dem dey blow am like, eh just like di horn too, animal horn.
 1	#	#	PUNCT	_	_	4	punct	_	AlignBegin=160220|AlignEnd=161320|Gloss=PUNCT
 2	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	AlignBegin=161320|AlignEnd=161502|Gloss=NOM.PL.3
 3	dey	dey	AUX	_	Aspect=Imp	4	aux	_	AlignBegin=161502|AlignEnd=161620|Gloss=IPFV
@@ -642,10 +641,10 @@
 12	like	like	ADP	_	_	16	case	_	AlignBegin=163970|AlignEnd=164420|Gloss=like
 13	}	}	PUNCT	_	_	7	punct	_	AlignBegin=164420|AlignEnd=164750|Gloss=PUNCT
 14	{	{	PUNCT	_	_	16	punct	_	AlignBegin=164420|AlignEnd=164750|Gloss=PUNCT
-15	di	the	DET	_	Definite=Def|PronType=Art	16	det	_	AlignBegin=164420|AlignEnd=164750|Gloss=DEF.ART
+15	di	di	DET	_	Definite=Def|PronType=Art	16	det	_	AlignBegin=164420|AlignEnd=164750|Gloss=DEF.ART
 16	horn	horn	NOUN	_	_	7	conj:dicto	_	AlignBegin=164750|AlignEnd=165050|Gloss=horn
 17	too	too	ADV	_	_	16	advmod	_	AlignBegin=165050|AlignEnd=165340|Gloss=too
-18	|a	|a	PUNCT	_	_	20	punct	_	AlignBegin=165340|AlignEnd=165370|Gloss=PUNCT
+18	|a	||	PUNCT	_	_	20	punct	_	AlignBegin=165340|AlignEnd=165370|Gloss=PUNCT
 19	animal	animal	NOUN	_	_	20	nmod	_	AlignBegin=165370|AlignEnd=165802|Gloss=animal
 20	horn	horn	NOUN	_	_	16	appos	_	AlignBegin=165802|AlignEnd=166070|Gloss=horn
 21	}	}	PUNCT	_	_	16	punct	_	AlignBegin=166070|AlignEnd=166100|Gloss=PUNCT
@@ -656,13 +655,13 @@
 # speaker_id = Sp111
 # text = # so dem dey call dat one # em # kwarak //
 # text_en = So, they call that one uh... Kwarak.
-# text_ortho = So dem dey call dat one em... kwarak.
+# text_ortho = So dem dey call dat one em kwarak.
 1	#	#	PUNCT	_	_	5	punct	_	AlignBegin=166100|AlignEnd=166900|Gloss=PUNCT
 2	so	so	ADV	_	_	5	discourse	_	AlignBegin=166900|AlignEnd=167340|Gloss=so
 3	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	AlignBegin=167370|AlignEnd=167603|Gloss=NOM.PL.3
 4	dey	dey	AUX	_	Aspect=Imp	5	aux	_	AlignBegin=167603|AlignEnd=167820|Gloss=IPFV
 5	call	call	VERB	_	_	0	root	_	AlignBegin=167820|AlignEnd=168030|Gloss=call
-6	dat	dat	DET	_	Number=Sing|PronType=Dem	7	det	_	AlignBegin=168030|AlignEnd=168230|Gloss=SG.DIST.DEM
+6	dat	dat	DET	_	Number=Sing|PronType=Dem	7	det	_	AlignBegin=168030|AlignEnd=168230|Gloss=SG.DEM
 7	one	one	NOUN	_	_	5	obj	_	AlignBegin=168230|AlignEnd=168880|Gloss=one
 8	#	#	PUNCT	_	_	11	punct	_	AlignBegin=168880|AlignEnd=169860|Gloss=PUNCT
 9	em	em	INTJ	_	_	11	discourse	_	AlignBegin=169860|AlignEnd=170760|Gloss=em
@@ -675,7 +674,7 @@
 # speaker_id = Sp111
 # text = # some dey call am em # nari //
 # text_en = Some call it uh... Nari.
-# text_ortho = Some dey call am em... nari.
+# text_ortho = Some dey call am em nari.
 1	#	#	PUNCT	_	_	4	punct	_	AlignBegin=172340|AlignEnd=173280|Gloss=PUNCT
 2	some	some	DET	_	_	4	dep	_	AlignBegin=173280|AlignEnd=173440|Gloss=some
 3	dey	dey	AUX	_	Aspect=Imp	4	aux	_	AlignBegin=173440|AlignEnd=173560|Gloss=IPFV
@@ -683,7 +682,7 @@
 5	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	4	obj	_	AlignBegin=173810|AlignEnd=174090|Gloss=ACC.SG.3
 6	em	em	INTJ	_	_	8	discourse	_	AlignBegin=174090|AlignEnd=174980|Gloss=em
 7	#	#	PUNCT	_	_	8	punct	_	AlignBegin=174980|AlignEnd=176500|Gloss=PUNCT
-8	nari	nari	NOUN	_	_	4	obl:arg	_	AlignBegin=176500|AlignEnd=177230|Gloss=dance_sp
+8	nari	nari	NOUN	_	_	4	xcomp:pred	_	AlignBegin=176500|AlignEnd=177230|Gloss=dance_sp
 9	//	//	PUNCT	_	_	4	punct	_	AlignBegin=177230|AlignEnd=177260|Gloss=PUNCT
 
 # sent_id = JOS_01_People-Of-Plateau_MG__30
@@ -691,7 +690,7 @@
 # speaker_id = Sp111
 # text = # so we get { different |r different } eh type of dance //
 # text_en = So we have different, different uh... types of dance.
-# text_ortho = So we get different, different eh... type of dance.
+# text_ortho = So we get different, different eh type of dance.
 1	#	#	PUNCT	_	_	4	punct	_	AlignBegin=177260|AlignEnd=178600|Gloss=PUNCT
 2	so	so	ADV	_	_	4	discourse	_	AlignBegin=178600|AlignEnd=178880|Gloss=so
 3	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	AlignBegin=178880|AlignEnd=178970|Gloss=NOM.PL.1
@@ -711,24 +710,24 @@
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/JOS_01_People-Of-Plateau_MG.mp3
 # speaker_id = Sp111
 # text = # and em # as di tradition be &//
-# text_en = And uh... as the tradition is…
-# text_ortho = And em… as di tradition be...
+# text_en = And uh... as the tradition is...
+# text_ortho = And em as di tradition be...
 1	#	#	PUNCT	_	_	8	punct	_	AlignBegin=181320|AlignEnd=182000|Gloss=PUNCT
 2	and	and	CCONJ	_	_	8	cc	_	AlignBegin=182000|AlignEnd=182240|Gloss=and
 3	em	em	INTJ	_	_	8	discourse	_	AlignBegin=182240|AlignEnd=182980|Gloss=em
 4	#	#	PUNCT	_	_	8	punct	_	AlignBegin=182980|AlignEnd=184860|Gloss=PUNCT
 5	as	as	ADP	_	_	8	mark	_	AlignBegin=184860|AlignEnd=185300|Gloss=as
-6	di	the	DET	_	Definite=Def|PronType=Art	7	det	_	AlignBegin=185300|AlignEnd=185400|Gloss=DEF.ART
+6	di	di	DET	_	Definite=Def|PronType=Art	7	det	_	AlignBegin=185300|AlignEnd=185400|Gloss=DEF.ART
 7	tradition	tradition	NOUN	_	_	8	nsubj	_	AlignBegin=185400|AlignEnd=186020|Gloss=tradition
-8	be	be	VERB	_	PartType=Cop	0	root	_	AlignBegin=186020|AlignEnd=186350|Gloss=be
-9	&//	//	PUNCT	_	_	8	punct	_	AlignBegin=186350|AlignEnd=186380|Gloss=PUNCT
+8	be	be	VERB	_	PartType=Cop	0	root	_	AlignBegin=186020|AlignEnd=186350|Gloss=be1
+9	&//	&//	PUNCT	_	_	8	punct	_	AlignBegin=186350|AlignEnd=186380|Gloss=PUNCT
 
 # sent_id = JOS_01_People-Of-Plateau_MG__32
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/JOS_01_People-Of-Plateau_MG.mp3
 # speaker_id = Sp111
 # text = # and den < # as relate to di festival for # Plateau < # we get { different |r different } festival also # eh # depending on # eh # di zones //
 # text_en = And then, about the festivals of Plateau State, we have all sorts of festivals also, uh... depending on uh... the zones.
-# text_ortho = And den, as relate to di festival for Plateau, we get different, different festival also eh... depending on eh... di zones.
+# text_ortho = And den, as relate to di festival for Plateau, we get different, different festival also eh depending on eh di zones.
 1	#	#	PUNCT	_	_	17	punct	_	AlignBegin=186380|AlignEnd=187320|Gloss=PUNCT
 2	and	and	CCONJ	_	_	17	cc	_	AlignBegin=187320|AlignEnd=187550|Gloss=and
 3	den	den	ADV	_	_	17	advmod:periph	_	AlignBegin=187550|AlignEnd=188170|Gloss=den
@@ -737,7 +736,7 @@
 6	as	as	ADP	_	_	7	mark	_	AlignBegin=189380|AlignEnd=189650|Gloss=as
 7	relate	relate	VERB	_	_	17	advcl:periph	_	AlignBegin=189650|AlignEnd=190040|Gloss=relate
 8	to	to	ADP	_	_	10	case	_	AlignBegin=190040|AlignEnd=191090|Gloss=to
-9	di	the	DET	_	Definite=Def|PronType=Art	10	det	_	AlignBegin=191090|AlignEnd=191757|Gloss=DEF.ART
+9	di	di	DET	_	Definite=Def|PronType=Art	10	det	_	AlignBegin=191090|AlignEnd=191757|Gloss=DEF.ART
 10	festival	festival	NOUN	_	_	7	obl:arg	_	AlignBegin=191757|AlignEnd=192695|Gloss=festival
 11	for	for	ADP	_	_	13	case	_	AlignBegin=192695|AlignEnd=193320|Gloss=for
 12	#	#	PUNCT	_	_	13	punct	_	AlignBegin=193320|AlignEnd=194100|Gloss=PUNCT
@@ -761,7 +760,7 @@
 30	#	#	PUNCT	_	_	34	punct	_	AlignBegin=203740|AlignEnd=204840|Gloss=PUNCT
 31	eh	eh	INTJ	_	_	34	discourse	_	AlignBegin=204840|AlignEnd=205434|Gloss=eh
 32	#	#	PUNCT	_	_	34	punct	_	AlignBegin=204840|AlignEnd=206560|Gloss=PUNCT
-33	di	the	DET	_	Definite=Def|PronType=Art	34	det	_	AlignBegin=205702|AlignEnd=205916|Gloss=DEF.ART
+33	di	di	DET	_	Definite=Def|PronType=Art	34	det	_	AlignBegin=205702|AlignEnd=205916|Gloss=DEF.ART
 34	zones	zone	NOUN	_	Number=Plur	28	obl:arg	_	AlignBegin=205916|AlignEnd=206530|Gloss=zone.PL
 35	//	//	PUNCT	_	_	17	punct	_	AlignBegin=206530|AlignEnd=206560|Gloss=PUNCT
 
@@ -774,11 +773,11 @@
 1	#	#	PUNCT	_	_	11	punct	_	AlignBegin=206560|AlignEnd=207880|Gloss=PUNCT
 2	like	like	ADP	_	_	11	discourse	_	AlignBegin=207880|AlignEnd=208293|Gloss=like
 3	#	#	PUNCT	_	_	2	punct	_	AlignBegin=207880|AlignEnd=210300|Gloss=PUNCT
-4	di	the	DET	_	Definite=Def|PronType=Art	5	det	_	AlignBegin=208610|AlignEnd=208777|Gloss=DEF.ART
+4	di	di	DET	_	Definite=Def|PronType=Art	5	det	_	AlignBegin=208610|AlignEnd=208777|Gloss=DEF.ART
 5	one	one	NOUN	_	_	11	dislocated	_	AlignBegin=208777|AlignEnd=209002|Gloss=one
 6	wey	wey	SCONJ	_	_	7	mark	_	AlignBegin=209002|AlignEnd=209170|Gloss=REL
-7	dey	dey	VERB	_	VerbType=Cop	5	acl:relcl	_	AlignBegin=209170|AlignEnd=209373|Gloss=be
-8	Pankshin	Pankshin	PROPN	_	_	7	xcomp	_	AlignBegin=209373|AlignEnd=209740|Gloss=Pankshin
+7	dey	dey	VERB	_	VerbType=Cop	5	acl:relcl	_	AlignBegin=209170|AlignEnd=209373|Gloss=be2
+8	Pankshin	Pankshin	PROPN	_	_	7	xcomp:pred	_	AlignBegin=209373|AlignEnd=209740|Gloss=Pankshin
 9	<	<	PUNCT	_	_	5	punct	_	AlignBegin=209740|AlignEnd=209770|Gloss=PUNCT
 10	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	AlignBegin=209770|AlignEnd=209954|Gloss=NOM.PL.3
 11	get	get	VERB	_	_	0	root	_	AlignBegin=209954|AlignEnd=210300|Gloss=get
@@ -798,8 +797,8 @@
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/JOS_01_People-Of-Plateau_MG.mp3
 # speaker_id = Sp111
 # text = # dem dey call am # eh # { pus || # mus || # eh pus || # mus |a # sometin like dat } //
-# text_en = They call it uh... pus… mus… uh... pus… mus… something like that.
-# text_ortho = Dem dey call am eh... pus… mus... eh... pus... mus... sometin like dat.
+# text_en = They call it uh... pus... mus... uh... pus... mus... something like that.
+# text_ortho = Dem dey call am eh pus, mus, eh pus, mus, sometin like dat.
 1	#	#	PUNCT	_	_	4	punct	_	AlignBegin=215960|AlignEnd=216720|Gloss=PUNCT
 2	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	AlignBegin=216720|AlignEnd=216840|Gloss=NOM.PL.3
 3	dey	dey	AUX	_	Aspect=Imp	4	aux	_	AlignBegin=216840|AlignEnd=216970|Gloss=IPFV
@@ -820,7 +819,7 @@
 18	||	||	PUNCT	_	_	20	punct	_	AlignBegin=223870|AlignEnd=223917|Gloss=PUNCT
 19	#	#	PUNCT	_	_	20	punct	_	AlignBegin=223917|AlignEnd=224580|Gloss=PUNCT
 20	mus	mus	X	_	_	17	conj:dicto	_	AlignBegin=224580|AlignEnd=225140|Gloss=X
-21	|a	|a	PUNCT	_	_	23	punct	_	AlignBegin=225140|AlignEnd=225170|Gloss=PUNCT
+21	|a	||	PUNCT	_	_	23	punct	_	AlignBegin=225140|AlignEnd=225170|Gloss=PUNCT
 22	#	#	PUNCT	_	_	23	punct	_	AlignBegin=224580|AlignEnd=226380|Gloss=PUNCT
 23	sometin	sometin	PRON	_	_	20	appos	_	AlignBegin=225540|AlignEnd=225920|Gloss=something
 24	like	like	ADP	_	_	25	case	_	AlignBegin=225920|AlignEnd=226070|Gloss=like
@@ -832,20 +831,20 @@
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/JOS_01_People-Of-Plateau_MG.mp3
 # speaker_id = Sp111
 # text = # I no fit &//
-# text_en = I can't…
-# text_ortho = I no fit…
+# text_en = I can't...
+# text_ortho = I no fit...
 1	#	#	PUNCT	_	_	4	punct	_	AlignBegin=226380|AlignEnd=226980|Gloss=PUNCT
 2	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	AlignBegin=226980|AlignEnd=227080|Gloss=NOM.SG.1
 3	no	no	PART	_	Polarity=Neg	4	advmod	_	AlignBegin=227080|AlignEnd=227250|Gloss=NEG
 4	fit	fit	AUX	_	Mood=Pot	0	root	_	AlignBegin=227250|AlignEnd=227597|Gloss=ABIL
-5	&//	//	PUNCT	_	_	4	punct	_	AlignBegin=227597|AlignEnd=227627|Gloss=PUNCT
+5	&//	&//	PUNCT	_	_	4	punct	_	AlignBegin=227597|AlignEnd=227627|Gloss=PUNCT
 
 # sent_id = JOS_01_People-Of-Plateau_MG__36
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/JOS_01_People-Of-Plateau_MG.mp3
 # speaker_id = Sp111
 # text = mtschew { I don || I don } forget |c but I know sey [ e get # festival wey de dey organize like dat ] //
-# text_en = Mtschew I've… I've forgotten, but I know there's a festival they organize like that.
-# text_ortho = Mtschew I don... I don forget, but I know sey e get festival wey de dey organize like dat.
+# text_en = Mtschew I've... I've forgotten, but I know there's a festival they organize like that.
+# text_ortho = Mtschew I don, I don forget, but I know sey e get festival wey de dey organize like dat.
 1	mtschew	mtschew	INTJ	_	_	4	discourse	_	AlignBegin=227627|AlignEnd=228010|Gloss=sucking_of_teeth
 2	{	{	PUNCT	_	_	4	punct	_	AlignBegin=228010|AlignEnd=228040|Gloss=PUNCT
 3	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	AlignBegin=228040|AlignEnd=228201|Gloss=NOM.SG.1
@@ -862,7 +861,7 @@
 14	sey	sey	SCONJ	_	_	17	mark	_	AlignBegin=230230|AlignEnd=230490|Gloss=COMP
 15	[	[	PUNCT	_	_	17	punct	_	AlignBegin=230490|AlignEnd=230520|Gloss=PUNCT
 16	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	17	expl:subj	_	AlignBegin=230520|AlignEnd=230685|Gloss=NOM.SG.3
-17	get	get	VERB	_	_	13	ccomp	_	AlignBegin=230685|AlignEnd=231232|Gloss=get
+17	get	get	VERB	_	_	13	ccomp:obj	_	AlignBegin=230685|AlignEnd=231232|Gloss=get
 18	#	#	PUNCT	_	_	19	punct	_	AlignBegin=226980|AlignEnd=233620|Gloss=PUNCT
 19	festival	festival	NOUN	_	_	17	nsubj	_	AlignBegin=231968|AlignEnd=232404|Gloss=festival
 20	wey	wey	SCONJ	_	_	23	mark	_	AlignBegin=232404|AlignEnd=232523|Gloss=REL
@@ -956,9 +955,9 @@
 # text_ortho = E dey for Plateau.
 1	#	#	PUNCT	_	_	3	punct	_	AlignBegin=241780|AlignEnd=242460|Gloss=PUNCT
 2	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	AlignBegin=242460|AlignEnd=242627|Gloss=NOM.SG.3
-3	dey	dey	VERB	_	VerbType=Cop	0	root	_	AlignBegin=242627|AlignEnd=242830|Gloss=be
+3	dey	dey	VERB	_	VerbType=Cop	0	root	_	AlignBegin=242627|AlignEnd=242830|Gloss=be2
 4	for	for	ADP	_	_	5	case	_	AlignBegin=242830|AlignEnd=243022|Gloss=for
-5	Plateau	Plateau	PROPN	_	_	3	xcomp	_	AlignBegin=243022|AlignEnd=243530|Gloss=Plateau
+5	Plateau	Plateau	PROPN	_	_	3	xcomp:pred	_	AlignBegin=243022|AlignEnd=243530|Gloss=Plateau
 6	//	//	PUNCT	_	_	3	punct	_	AlignBegin=243530|AlignEnd=243560|Gloss=PUNCT
 
 # sent_id = JOS_01_People-Of-Plateau_MG__43
@@ -966,12 +965,12 @@
 # speaker_id = Sp111
 # text = # so # eh di languages < # we get # so many languages here on di Plateau //
 # text_en = So, uh... the languages, we have so many languages here on the Plateau.
-# text_ortho = So eh... di languages, we get so many languages here on di Plateau.
+# text_ortho = So eh di languages, we get so many languages here on di Plateau.
 1	#	#	PUNCT	_	_	10	punct	_	AlignBegin=243560|AlignEnd=244160|Gloss=PUNCT
 2	so	so	ADV	_	_	10	discourse	_	AlignBegin=244160|AlignEnd=244790|Gloss=so
 3	#	#	PUNCT	_	_	2	punct	_	AlignBegin=244160|AlignEnd=247100|Gloss=PUNCT
 4	eh	eh	INTJ	_	_	10	discourse	_	AlignBegin=245560|AlignEnd=246006|Gloss=eh
-5	di	the	DET	_	Definite=Def|PronType=Art	6	det	_	AlignBegin=246006|AlignEnd=246170|Gloss=DEF.ART
+5	di	di	DET	_	Definite=Def|PronType=Art	6	det	_	AlignBegin=246006|AlignEnd=246170|Gloss=DEF.ART
 6	languages	language	NOUN	_	Number=Plur	10	dislocated	_	AlignBegin=246170|AlignEnd=247070|Gloss=language.PL
 7	<	<	PUNCT	_	_	6	punct	_	AlignBegin=247070|AlignEnd=247100|Gloss=PUNCT
 8	#	#	PUNCT	_	_	6	punct	_	AlignBegin=247100|AlignEnd=247440|Gloss=PUNCT
@@ -983,25 +982,25 @@
 14	languages	language	NOUN	_	Number=Plur	10	obj	_	AlignBegin=248900|AlignEnd=249440|Gloss=language.PL
 15	here	here	ADV	_	_	10	advmod	_	AlignBegin=249440|AlignEnd=249580|Gloss=here
 16	on	on	ADP	_	_	18	case	_	AlignBegin=249580|AlignEnd=249690|Gloss=on
-17	di	the	DET	_	Definite=Def|PronType=Art	18	det	_	AlignBegin=249690|AlignEnd=249774|Gloss=DEF.ART
+17	di	di	DET	_	Definite=Def|PronType=Art	18	det	_	AlignBegin=249690|AlignEnd=249774|Gloss=DEF.ART
 18	Plateau	Plateau	PROPN	_	_	15	appos	_	AlignBegin=249774|AlignEnd=250230|Gloss=Plateau
 19	//	//	PUNCT	_	_	10	punct	_	AlignBegin=250230|AlignEnd=250260|Gloss=PUNCT
 
 # sent_id = JOS_01_People-Of-Plateau_MG__44
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/JOS_01_People-Of-Plateau_MG.mp3
 # speaker_id = Sp111
-# text = # eh we get { di br- || di major } languages # wey # eh dem dey speak for Plateau //
-# text_en = Uh... we have the br-… the major languages which uh… they speak in Plateau.
-# text_ortho = Eh... we get di br-... di major languages wey eh... dem dey speak for Plateau.
+# text = # eh we get { di br~ || di major } languages # wey # eh dem dey speak for Plateau //
+# text_en = Uh... we have the br~... the major languages which uh... they speak in Plateau.
+# text_ortho = Eh we get di br~... di major languages wey eh dem dey speak for Plateau.
 1	#	#	PUNCT	_	_	4	punct	_	AlignBegin=250260|AlignEnd=251160|Gloss=PUNCT
 2	eh	eh	INTJ	_	_	4	discourse	_	AlignBegin=251160|AlignEnd=252073|Gloss=eh
 3	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	AlignBegin=252073|AlignEnd=252570|Gloss=NOM.PL.1
 4	get	get	VERB	_	_	0	root	_	AlignBegin=252570|AlignEnd=252950|Gloss=get
 5	{	{	PUNCT	_	_	7	punct	_	AlignBegin=252950|AlignEnd=252980|Gloss=PUNCT
-6	di	the	DET	_	Definite=Def|PronType=Art	7	det	_	AlignBegin=252980|AlignEnd=253130|Gloss=DEF.ART
-7	br-	X	X	_	_	12	nmod	_	AlignBegin=253130|AlignEnd=253400|Gloss=X
+6	di	di	DET	_	Definite=Def|PronType=Art	7	det	_	AlignBegin=252980|AlignEnd=253130|Gloss=DEF.ART
+7	br~	X	X	_	_	12	nmod	_	AlignBegin=253130|AlignEnd=253400|Gloss=X
 8	||	||	PUNCT	_	_	10	punct	_	AlignBegin=253400|AlignEnd=253430|Gloss=PUNCT
-9	di	the	DET	_	Definite=Def|PronType=Art	10	det	_	AlignBegin=253430|AlignEnd=253560|Gloss=DEF.ART
+9	di	di	DET	_	Definite=Def|PronType=Art	10	det	_	AlignBegin=253430|AlignEnd=253560|Gloss=DEF.ART
 10	major	major	ADJ	_	_	7	conj:dicto	_	AlignBegin=253560|AlignEnd=253850|Gloss=major
 11	}	}	PUNCT	_	_	7	punct	_	AlignBegin=253850|AlignEnd=253880|Gloss=PUNCT
 12	languages	language	NOUN	_	Number=Plur	4	obj	_	AlignBegin=253880|AlignEnd=254700|Gloss=language.PL
@@ -1020,32 +1019,32 @@
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/JOS_01_People-Of-Plateau_MG.mp3
 # speaker_id = Sp111
 # text = we get { di Berom |c # di # Tarok |c di Mwaghavul |c di Mopun |c di # eh Jarawa |c # di # you know # ehn # Goemai |c # and so many of dem } //
-# text_en = We have Berom, Tarok, Mwaghavul, Mopun, uh... Jarawa, the… you know, uh... Goemai, and so many of them.
-# text_ortho = We get di Berom, di Tarok, di Mwaghavul, di Mopun, di eh... Jarawa, di you know ehn... Goemai, and so many of dem.
+# text_en = We have Berom, Tarok, Mwaghavul, Mopun, uh... Jarawa, the... you know, uh... Goemai, and so many of them.
+# text_ortho = We get di Berom, di Tarok, di Mwaghavul, di Mopun, di eh Jarawa, di you know ehn Goemai, and so many of dem.
 1	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	AlignBegin=258794|AlignEnd=259010|Gloss=NOM.PL.1
 2	get	get	VERB	_	_	0	root	_	AlignBegin=259010|AlignEnd=259276|Gloss=get
 3	{	{	PUNCT	_	_	5	punct	_	AlignBegin=259276|AlignEnd=259439|Gloss=PUNCT
-4	di	the	DET	_	Definite=Def|PronType=Art	5	det	_	AlignBegin=259276|AlignEnd=259439|Gloss=DEF.ART
+4	di	di	DET	_	Definite=Def|PronType=Art	5	det	_	AlignBegin=259276|AlignEnd=259439|Gloss=DEF.ART
 5	Berom	Berom	PROPN	_	_	2	obj	_	AlignBegin=259439|AlignEnd=259990|Gloss=Berom
 6	|c	|c	PUNCT	_	_	10	punct	_	AlignBegin=259990|AlignEnd=260020|Gloss=PUNCT
 7	#	#	PUNCT	_	_	10	punct	_	AlignBegin=260020|AlignEnd=260760|Gloss=PUNCT
-8	di	the	DET	_	Definite=Def|PronType=Art	10	det	_	AlignBegin=260760|AlignEnd=261135|Gloss=DEF.ART
+8	di	di	DET	_	Definite=Def|PronType=Art	10	det	_	AlignBegin=260760|AlignEnd=261135|Gloss=DEF.ART
 9	#	#	PUNCT	_	_	8	punct	_	AlignBegin=260760|AlignEnd=265780|Gloss=PUNCT
 10	Tarok	Tarok	PROPN	_	_	5	conj	_	AlignBegin=261470|AlignEnd=262050|Gloss=Tarok
 11	|c	|c	PUNCT	_	_	13	punct	_	AlignBegin=262050|AlignEnd=262080|Gloss=PUNCT
-12	di	the	DET	_	Definite=Def|PronType=Art	13	det	_	AlignBegin=262080|AlignEnd=262278|Gloss=DEF.ART
+12	di	di	DET	_	Definite=Def|PronType=Art	13	det	_	AlignBegin=262080|AlignEnd=262278|Gloss=DEF.ART
 13	Mwaghavul	Mwaghavul	PROPN	_	_	5	conj	_	AlignBegin=262278|AlignEnd=262990|Gloss=Mwaghavul
 14	|c	|c	PUNCT	_	_	16	punct	_	AlignBegin=262990|AlignEnd=263020|Gloss=PUNCT
-15	di	the	DET	_	Definite=Def|PronType=Art	16	det	_	AlignBegin=263020|AlignEnd=263257|Gloss=DEF.ART
+15	di	di	DET	_	Definite=Def|PronType=Art	16	det	_	AlignBegin=263020|AlignEnd=263257|Gloss=DEF.ART
 16	Mopun	Mopun	PROPN	_	_	5	conj	_	AlignBegin=263257|AlignEnd=264660|Gloss=Mopun
 17	|c	|c	PUNCT	_	_	21	punct	_	AlignBegin=264660|AlignEnd=264690|Gloss=PUNCT
-18	di	the	DET	_	Definite=Def|PronType=Art	21	det	_	AlignBegin=264690|AlignEnd=265780|Gloss=DEF.ART
+18	di	di	DET	_	Definite=Def|PronType=Art	21	det	_	AlignBegin=264690|AlignEnd=265780|Gloss=DEF.ART
 19	#	#	PUNCT	_	_	18	punct	_	AlignBegin=265780|AlignEnd=266480|Gloss=PUNCT
 20	eh	eh	INTJ	_	_	18	discourse	_	AlignBegin=266480|AlignEnd=267383|Gloss=eh
 21	Jarawa	Jarawa	PROPN	_	_	5	conj	_	AlignBegin=267383|AlignEnd=268350|Gloss=Jarawa
 22	|c	|c	PUNCT	_	_	31	punct	_	AlignBegin=268350|AlignEnd=268380|Gloss=PUNCT
 23	#	#	PUNCT	_	_	31	punct	_	AlignBegin=268380|AlignEnd=269140|Gloss=PUNCT
-24	di	the	DET	_	Definite=Def|PronType=Art	31	det	_	AlignBegin=269140|AlignEnd=270400|Gloss=DEF.ART
+24	di	di	DET	_	Definite=Def|PronType=Art	31	det	_	AlignBegin=269140|AlignEnd=270400|Gloss=DEF.ART
 25	#	#	PUNCT	_	_	27	punct	_	AlignBegin=270400|AlignEnd=271040|Gloss=PUNCT
 26	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	27	nsubj	_	AlignBegin=271040|AlignEnd=271130|Gloss=NOM.2
 27	know	know	VERB	_	_	24	parataxis:discourse	_	AlignBegin=271130|AlignEnd=271385|Gloss=know
@@ -1066,44 +1065,42 @@
 # sent_id = JOS_01_People-Of-Plateau_MG__46
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/JOS_01_People-Of-Plateau_MG.mp3
 # speaker_id = Sp111
-# text = # so # ehn < actually < # { [eng is a place eng] || na place } &//
-# text_en = So uh... actually, it's a place… it's a place…
-# text_ortho = So ehn... actually, is a place ... na place…
-1	#	#	PUNCT	_	_	13	punct	_	AlignBegin=276060|AlignEnd=277160|Gloss=PUNCT
-2	so	so	ADV	_	_	13	discourse	_	AlignBegin=277160|AlignEnd=277730|Gloss=so
+# text = # so # ehn < actually < # { is a place || na place } &//
+# text_en = So uh... actually, it's a place... it's a place...
+# text_ortho = So ehn, actually, is a place, na place...
+1	#	#	PUNCT	_	_	12	punct	_	AlignBegin=276060|AlignEnd=277160|Gloss=PUNCT
+2	so	so	ADV	_	_	12	discourse	_	AlignBegin=277160|AlignEnd=277730|Gloss=so
 3	#	#	PUNCT	_	_	2	punct	_	AlignBegin=277160|AlignEnd=279640|Gloss=PUNCT
-4	ehn	ehn	INTJ	_	_	13	discourse	_	AlignBegin=278190|AlignEnd=278718|Gloss=ehn
+4	ehn	ehn	INTJ	_	_	12	discourse	_	AlignBegin=278190|AlignEnd=278718|Gloss=ehn
 5	<	<	PUNCT	_	_	4	punct	_	AlignBegin=278718|AlignEnd=278748|Gloss=PUNCT
-6	actually	actually	ADV	_	_	13	advmod:periph	_	AlignBegin=278748|AlignEnd=279640|Gloss=actually
+6	actually	actually	ADV	_	_	12	advmod:periph	_	AlignBegin=278748|AlignEnd=279640|Gloss=actually
 7	<	<	PUNCT	_	_	6	punct	_	AlignBegin=279640|AlignEnd=279679|Gloss=PUNCT
 8	#	#	PUNCT	_	_	6	punct	_	AlignBegin=279640|AlignEnd=280320|Gloss=PUNCT
-9	{	{	PUNCT	_	_	13	punct	_	AlignBegin=279640|AlignEnd=280320|Gloss=PUNCT
-10	[eng	[eng	PUNCT	_	_	13	punct	_	AlignBegin=279640|AlignEnd=280320|Gloss=PUNCT
-11	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	AlignBegin=280320|AlignEnd=280481|Gloss=be.IND.SG.3.PRS.FIN
-12	a	a	DET	_	Definite=Ind|PronType=Art	13	det	_	AlignBegin=280481|AlignEnd=280608|Gloss=INDF.ART
-13	place	place	NOUN	_	_	0	root	_	AlignBegin=280608|AlignEnd=281030|Gloss=place
-14	eng]	eng]	PUNCT	_	_	13	punct	_	AlignBegin=281030|AlignEnd=281060|Gloss=PUNCT
-15	||	||	PUNCT	_	_	17	punct	_	AlignBegin=281030|AlignEnd=281060|Gloss=PUNCT
-16	na	na	AUX	_	PartType=Cop	17	cop	_	AlignBegin=281060|AlignEnd=281290|Gloss=be
-17	place	place	NOUN	_	_	13	conj:dicto	_	AlignBegin=281290|AlignEnd=281852|Gloss=place
-18	}	}	PUNCT	_	_	13	punct	_	AlignBegin=281852|AlignEnd=281882|Gloss=PUNCT
-19	&//	//	PUNCT	_	_	13	punct	_	AlignBegin=281852|AlignEnd=281882|Gloss=PUNCT
+9	{	{	PUNCT	_	_	12	punct	_	AlignBegin=279640|AlignEnd=280320|Gloss=PUNCT
+10	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Cop	12	cop	_	AlignBegin=280320|AlignEnd=280481|Gloss=be.IND.SG.3.PRS.FIN|Lang=en
+11	a	a	DET	_	Definite=Ind|PronType=Art	12	det	_	AlignBegin=280481|AlignEnd=280608|Gloss=INDF.ART|Lang=en
+12	place	place	NOUN	_	_	0	root	_	AlignBegin=280608|AlignEnd=281030|Gloss=place|Lang=en
+13	||	||	PUNCT	_	_	15	punct	_	AlignBegin=281030|AlignEnd=281060|Gloss=PUNCT
+14	na	na	AUX	_	PartType=Cop	15	cop	_	AlignBegin=281060|AlignEnd=281290|Gloss=be1
+15	place	place	NOUN	_	_	12	conj:dicto	_	AlignBegin=281290|AlignEnd=281852|Gloss=place
+16	}	}	PUNCT	_	_	12	punct	_	AlignBegin=281852|AlignEnd=281882|Gloss=PUNCT
+17	&//	&//	PUNCT	_	_	12	punct	_	AlignBegin=281852|AlignEnd=281882|Gloss=PUNCT
 
 # sent_id = JOS_01_People-Of-Plateau_MG__47
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/JOS_01_People-Of-Plateau_MG.mp3
 # speaker_id = Sp111
 # text = Plateau na place wey # ah different languages dey |c people dey speak am //
 # text_en = Plateau is a place which uh... has different languages that people speak.
-# text_ortho = Plateau na place wey ah... different languages dey, people dey speak am.
+# text_ortho = Plateau na place wey ah different languages dey, people dey speak am.
 1	Plateau	Plateau	PROPN	_	_	3	nsubj	_	AlignBegin=281882|AlignEnd=282220|Gloss=Plateau
-2	na	na	AUX	_	PartType=Cop	3	cop	_	AlignBegin=282220|AlignEnd=282360|Gloss=be
+2	na	na	AUX	_	PartType=Cop	3	cop	_	AlignBegin=282220|AlignEnd=282360|Gloss=be1
 3	place	place	NOUN	_	_	0	root	_	AlignBegin=282360|AlignEnd=282710|Gloss=place
 4	wey	wey	SCONJ	_	_	9	mark	_	AlignBegin=282710|AlignEnd=283200|Gloss=REL
 5	#	#	PUNCT	_	_	9	punct	_	AlignBegin=283200|AlignEnd=284560|Gloss=PUNCT
 6	ah	ah	INTJ	_	_	9	discourse	_	AlignBegin=284560|AlignEnd=285390|Gloss=ah
 7	different	different	ADJ	_	_	8	amod	_	AlignBegin=285390|AlignEnd=285780|Gloss=different
 8	languages	language	NOUN	_	Number=Plur	9	nsubj	_	AlignBegin=285780|AlignEnd=286330|Gloss=language.PL
-9	dey	dey	VERB	_	VerbType=Cop	3	acl:relcl	_	AlignBegin=286330|AlignEnd=286766|Gloss=be
+9	dey	dey	VERB	_	VerbType=Cop	3	acl:relcl	_	AlignBegin=286330|AlignEnd=286766|Gloss=be2
 10	|c	|c	PUNCT	_	_	13	punct	_	AlignBegin=286766|AlignEnd=286796|Gloss=PUNCT
 11	people	people	NOUN	_	Number=Plur	13	nsubj	_	AlignBegin=286796|AlignEnd=287120|Gloss=people.PL
 12	dey	dey	AUX	_	Aspect=Imp	13	aux	_	AlignBegin=287120|AlignEnd=287220|Gloss=IPFV

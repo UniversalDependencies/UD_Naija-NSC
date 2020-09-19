@@ -1,3 +1,4 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = LAG_37_Soap-Making_MG__1
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/LAG_37_Soap-Making_MG.mp3
 # speaker_id = Sp256
@@ -34,29 +35,29 @@
 # speaker_id = Sp256
 # text = # I dey make soap because # { I no wan steal |c and I no wan be liability for my oga } //
 # text_en = I make soap because I don't wanna steal, and I don't wanna be a liability to my husband.
-# text_ortho = I dey make soap because I no wan steal, and I no wan be liablity for my oga.
+# text_ortho = I dey make soap because I no wan steal, and I no wan be liability for my oga.
 1	#	#	PUNCT	_	_	4	punct	_	AlignBegin=7160|AlignEnd=7804|Gloss=PUNCT
 2	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	AlignBegin=7804|AlignEnd=7980|Gloss=NOM.SG.1
 3	dey	dey	AUX	_	Aspect=Imp	4	aux	_	AlignBegin=7980|AlignEnd=8143|Gloss=IPFV
 4	make	make	VERB	_	_	0	root	_	AlignBegin=8143|AlignEnd=8340|Gloss=make
-5	soap	soap	NOUN	_	_	4	xcomp	_	AlignBegin=8340|AlignEnd=8664|Gloss=soap
+5	soap	soap	NOUN	_	_	4	xcomp:pred	_	AlignBegin=8340|AlignEnd=8664|Gloss=soap
 6	because	because	SCONJ	_	_	11	mark	_	AlignBegin=8664|AlignEnd=9206|Gloss=because
 7	#	#	PUNCT	_	_	11	punct	_	AlignBegin=9206|AlignEnd=9660|Gloss=PUNCT
 8	{	{	PUNCT	_	_	11	punct	_	AlignBegin=9630|AlignEnd=9660|Gloss=PUNCT
 9	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	AlignBegin=9660|AlignEnd=9790|Gloss=NOM.SG.1
 10	no	no	PART	_	Polarity=Neg	11	advmod	_	AlignBegin=9790|AlignEnd=10024|Gloss=NEG
 11	wan	want	VERB	_	_	4	advcl	_	AlignBegin=10024|AlignEnd=10216|Gloss=want
-12	steal	steal	VERB	_	_	11	xcomp	_	AlignBegin=10216|AlignEnd=10350|Gloss=steal
+12	steal	steal	VERB	_	_	11	xcomp:obj	_	AlignBegin=10216|AlignEnd=10350|Gloss=steal
 13	|c	|c	PUNCT	_	_	17	punct	_	AlignBegin=10350|AlignEnd=10380|Gloss=PUNCT
 14	and	and	CCONJ	_	_	17	cc	_	AlignBegin=10380|AlignEnd=10540|Gloss=and
 15	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	AlignBegin=10540|AlignEnd=10654|Gloss=NOM.SG.1
 16	no	no	PART	_	Polarity=Neg	17	advmod	_	AlignBegin=10654|AlignEnd=10820|Gloss=NEG
 17	wan	want	VERB	_	_	11	conj	_	AlignBegin=10820|AlignEnd=11000|Gloss=want
 18	be	be	AUX	_	PartType=Cop	19	cop	_	AlignBegin=11000|AlignEnd=11188|Gloss=be
-19	liability	liability	NOUN	_	_	17	xcomp	_	AlignBegin=11188|AlignEnd=11780|Gloss=liability
+19	liability	liability	NOUN	_	_	17	xcomp:obj	_	AlignBegin=11188|AlignEnd=11780|Gloss=liability
 20	for	for	ADP	_	_	22	case	_	AlignBegin=11780|AlignEnd=11920|Gloss=for
 21	my	my	PRON	_	Number=Sing|Person=1|Poss=Yes	22	nmod:poss	_	AlignBegin=11920|AlignEnd=12070|Gloss=SG.1.POSS
-22	oga	oga	NOUN	_	_	19	obl:arg	_	AlignBegin=12070|AlignEnd=12370|Gloss=boss
+22	oga	oga	NOUN	_	_	19	dep:comp	_	AlignBegin=12070|AlignEnd=12370|Gloss=boss
 23	}	}	PUNCT	_	_	11	punct	_	AlignBegin=12370|AlignEnd=12400|Gloss=PUNCT
 24	//	//	PUNCT	_	_	4	punct	_	AlignBegin=12370|AlignEnd=12400|Gloss=PUNCT
 
@@ -65,14 +66,14 @@
 # speaker_id = Sp256
 # text = # and as I dey do di soap < # no be sey [ na me >+ originate di soap before ] //
 # text_en = I'm just making the soap, I'm not the one who invented the soap making process.
-# text_ortho = And as I dey do di soap, no be sey na me, originate di soap before.
+# text_ortho = And as I dey do di soap, no be sey na me originate di soap before.
 1	#	#	PUNCT	_	_	16	punct	_	AlignBegin=12400|AlignEnd=13120|Gloss=PUNCT
 2	and	and	CCONJ	_	_	16	cc	_	AlignBegin=13120|AlignEnd=13240|Gloss=and
 3	as	as	ADP	_	_	6	mark	_	AlignBegin=13240|AlignEnd=13410|Gloss=as
 4	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	AlignBegin=13410|AlignEnd=13530|Gloss=NOM.SG.1
 5	dey	dey	AUX	_	Aspect=Imp	6	aux	_	AlignBegin=13530|AlignEnd=13675|Gloss=IPFV
 6	do	do	VERB	_	_	16	advcl	_	AlignBegin=13675|AlignEnd=13837|Gloss=do
-7	di	the	DET	_	Definite=Def|PronType=Art	8	det	_	AlignBegin=13837|AlignEnd=13980|Gloss=DEF.ART
+7	di	di	DET	_	Definite=Def|PronType=Art	8	det	_	AlignBegin=13837|AlignEnd=13980|Gloss=DEF.ART
 8	soap	soap	NOUN	_	_	6	obj	_	AlignBegin=13980|AlignEnd=14210|Gloss=soap
 9	<	<	PUNCT	_	_	6	punct	_	AlignBegin=14210|AlignEnd=14240|Gloss=PUNCT
 10	#	#	PUNCT	_	_	6	punct	_	AlignBegin=14240|AlignEnd=14640|Gloss=PUNCT
@@ -84,7 +85,7 @@
 16	me	me	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	root	_	AlignBegin=15220|AlignEnd=15350|Gloss=NOM.SG.1
 17	>+	>+	PUNCT	_	_	18	punct	_	AlignBegin=15350|AlignEnd=15380|Gloss=PUNCT
 18	originate	originate	VERB	_	_	16	advcl:cleft	_	AlignBegin=15380|AlignEnd=15856|Gloss=originate
-19	di	the	DET	_	Definite=Def|PronType=Art	20	det	_	AlignBegin=15856|AlignEnd=16000|Gloss=DEF.ART
+19	di	di	DET	_	Definite=Def|PronType=Art	20	det	_	AlignBegin=15856|AlignEnd=16000|Gloss=DEF.ART
 20	soap	soap	NOUN	_	_	18	obj	_	AlignBegin=16000|AlignEnd=16213|Gloss=soap
 21	before	before	ADP	_	_	18	dep	_	AlignBegin=16213|AlignEnd=16550|Gloss=before
 22	]	]	PUNCT	_	_	16	punct	_	AlignBegin=16550|AlignEnd=16580|Gloss=PUNCT
@@ -123,7 +124,7 @@
 1	#	#	PUNCT	_	_	8	punct	_	AlignBegin=20160|AlignEnd=20600|Gloss=PUNCT
 2	but	but	CCONJ	_	_	8	cc	_	AlignBegin=20600|AlignEnd=20769|Gloss=but
 3	later	later	ADJ	_	Degree=Cmp	8	advcl:periph	_	AlignBegin=20769|AlignEnd=21220|EXTPOS=ADV|Gloss=late.CMPR
-4	on	on	ADP	_	_	3	fixed	_	AlignBegin=21220|AlignEnd=21338|Gloss=on
+4	on	on	ADP	_	_	3	dep	_	AlignBegin=21220|AlignEnd=21338|Gloss=on
 5	<	<	PUNCT	_	_	3	punct	_	AlignBegin=21338|AlignEnd=21368|Gloss=PUNCT
 6	#	#	PUNCT	_	_	3	punct	_	AlignBegin=21368|AlignEnd=21506|Gloss=PUNCT
 7	tings	tings	NOUN	_	Number=Plur	8	nsubj	_	AlignBegin=21506|AlignEnd=21764|Gloss=thing.PL
@@ -131,7 +132,7 @@
 9	as	as	ADP	_	_	11	mark	_	AlignBegin=21876|AlignEnd=22126|Gloss=as
 10	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	AlignBegin=22126|AlignEnd=22176|Gloss=NOM.SG.3
 11	wan	want	VERB	_	_	8	advcl	_	AlignBegin=22176|AlignEnd=22416|Gloss=want
-12	do	do	VERB	_	_	11	xcomp	_	AlignBegin=22416|AlignEnd=22650|Gloss=do
+12	do	do	VERB	_	_	11	xcomp:obj	_	AlignBegin=22416|AlignEnd=22650|Gloss=do
 13	//	//	PUNCT	_	_	8	punct	_	AlignBegin=22650|AlignEnd=22680|Gloss=PUNCT
 
 # sent_id = LAG_37_Soap-Making_MG__7
@@ -148,18 +149,18 @@
 6	fit	fit	AUX	_	Mood=Pot	7	aux	_	AlignBegin=23520|AlignEnd=23673|Gloss=ABIL
 7	siddon	siddon	VERB	_	_	0	root	_	AlignBegin=23673|AlignEnd=24093|Gloss=sit_down
 8	#	#	PUNCT	_	_	9	punct	_	AlignBegin=24093|AlignEnd=24412|Gloss=PUNCT
-9	idle	idle	ADJ	_	_	7	xcomp	_	AlignBegin=24412|AlignEnd=24830|Gloss=idle
+9	idle	idle	ADJ	_	_	7	xcomp:obj	_	AlignBegin=24412|AlignEnd=24830|Gloss=idle
 10	//	//	PUNCT	_	_	7	punct	_	AlignBegin=24830|AlignEnd=24860|Gloss=PUNCT
 
 # sent_id = LAG_37_Soap-Making_MG__8
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/LAG_37_Soap-Making_MG.mp3
 # speaker_id = Sp256
 # text = # dat's why one of my friend # wey im name be # Mama Funmi ( na my better friend //) # naim come tell me sey # [ im broda < # de don teach am soap for deir church //] //
-# text_en = That's why one of my friends whose name is Mama Funmi (she is my best friend)… so she told me that her brother was taught how to make soap in their church.
-# text_ortho = Dat's why one of my friend wey im name be Mama Funmi (na my better friend)... naim come tell me sey im broda, de don teach am soap for deir church.
+# text_en = That's why one of my friends whose name is Mama Funmi (she is my best friend)... so she told me that her brother was taught how to make soap in their church.
+# text_ortho = Dat'S why one of my friend wey im name be Mama Funmi (na my better friend, ) naim come tell me sey im broda, de don teach am soap for deir church.
 1	#	#	PUNCT	_	_	2	punct	_	AlignBegin=24860|AlignEnd=25240|Gloss=PUNCT
 2	dat's	dat's	VERB	_	PartType=Cop	0	root	_	AlignBegin=25240|AlignEnd=25580|Gloss=be
-3	why	why	ADV	_	PronType=Int	2	xcomp	_	AlignBegin=25580|AlignEnd=25820|Gloss=why.Q
+3	why	why	ADV	_	PronType=Int	2	xcomp:pred	_	AlignBegin=25580|AlignEnd=25820|Gloss=why.Q
 4	one	one	NUM	_	NumType=Card	25	nsubj	_	AlignBegin=25820|AlignEnd=26050|Gloss=one
 5	of	of	ADP	_	_	7	case	_	AlignBegin=26050|AlignEnd=26220|Gloss=of
 6	my	my	PRON	_	Number=Sing|Person=1|Poss=Yes	7	nmod:poss	_	AlignBegin=26220|AlignEnd=26420|Gloss=SG.1.POSS
@@ -182,21 +183,21 @@
 23	naim	naim	ADV	_	_	25	advmod	_	AlignBegin=30420|AlignEnd=30660|Gloss=then
 24	come	con	AUX	_	Aspect=Cons	25	aux	_	AlignBegin=30690|AlignEnd=30880|Gloss=CONS
 25	tell	tell	VERB	_	_	3	acl:relcl	_	AlignBegin=30880|AlignEnd=31057|Gloss=tell
-26	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	25	iobj	_	AlignBegin=31057|AlignEnd=31193|Gloss=ACC.SG.1
+26	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	25	obl:arg	_	AlignBegin=31057|AlignEnd=31193|Gloss=ACC.SG.1
 27	sey	sey	SCONJ	_	_	36	mark	_	AlignBegin=31193|AlignEnd=31481|Gloss=COMP
 28	#	#	PUNCT	_	_	36	punct	_	AlignBegin=31481|AlignEnd=31818|Gloss=PUNCT
 29	[	[	PUNCT	_	_	36	punct	_	AlignBegin=31788|AlignEnd=31818|Gloss=PUNCT
-30	im	im	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	31	nmod:poss	_	AlignBegin=31818|AlignEnd=32008|Gloss=M.SG.3.POSS
+30	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	31	nmod:poss	_	AlignBegin=31818|AlignEnd=32008|Gloss=NOM.SG.3
 31	broda	broda	NOUN	_	_	36	dislocated	_	AlignBegin=32008|AlignEnd=32482|Gloss=brother
 32	<	<	PUNCT	_	_	31	punct	_	AlignBegin=32482|AlignEnd=32512|Gloss=PUNCT
 33	#	#	PUNCT	_	_	31	punct	_	AlignBegin=32512|AlignEnd=32725|Gloss=PUNCT
 34	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	36	nsubj	_	AlignBegin=32725|AlignEnd=32855|Gloss=NOM.PL.3
 35	don	don	AUX	_	Aspect=Perf	36	aux	_	AlignBegin=32855|AlignEnd=33075|Gloss=PRF
-36	teach	teach	VERB	_	_	25	ccomp	_	AlignBegin=33075|AlignEnd=33345|Gloss=teach
+36	teach	teach	VERB	_	_	25	ccomp:obj	_	AlignBegin=33075|AlignEnd=33345|Gloss=teach
 37	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	36	obj	_	AlignBegin=33345|AlignEnd=33721|Gloss=ACC.SG.3
 38	soap	soap	NOUN	_	_	36	obj	_	AlignBegin=33721|AlignEnd=34083|Gloss=soap
 39	for	for	ADP	_	_	41	case	_	AlignBegin=34083|AlignEnd=34287|Gloss=for
-40	deir	deir	PRON	_	Number=Plur|Person=3|Poss=Yes	41	nmod:poss	_	AlignBegin=34287|AlignEnd=34543|Gloss=3.PL.POSS
+40	deir	dem	PRON	_	Number=Plur|Person=3|Poss=Yes	41	nmod:poss	_	AlignBegin=34287|AlignEnd=34543|Gloss=PL.3.POSS
 41	church	church	NOUN	_	_	36	obl:arg	_	AlignBegin=34543|AlignEnd=34830|Gloss=church
 42	//]	//]	PUNCT	_	_	36	punct	_	AlignBegin=34830|AlignEnd=34860|Gloss=PUNCT
 43	//	//	PUNCT	_	_	2	punct	_	AlignBegin=34830|AlignEnd=34860|Gloss=PUNCT
@@ -218,17 +219,17 @@
 9	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	AlignBegin=35990|AlignEnd=36094|Gloss=NOM.SG.3
 10	come	con	AUX	_	Aspect=Cons	11	aux	_	AlignBegin=36094|AlignEnd=36316|Gloss=CONS
 11	carry	carry	VERB	_	_	0	root	_	AlignBegin=36316|AlignEnd=36607|Gloss=carry
-12	di	the	DET	_	Definite=Def|PronType=Art	14	det	_	AlignBegin=36607|AlignEnd=36880|Gloss=DEF.ART
+12	di	di	DET	_	Definite=Def|PronType=Art	14	det	_	AlignBegin=36607|AlignEnd=36880|Gloss=DEF.ART
 13	#	#	PUNCT	_	_	12	punct	_	AlignBegin=36880|AlignEnd=37400|Gloss=PUNCT
 14	manual	manual	ADJ	_	_	11	obj	_	AlignBegin=37400|AlignEnd=38083|Gloss=manual
 15	give	give	VERB	_	_	11	compound:svc	_	AlignBegin=38083|AlignEnd=38240|Gloss=give
 16	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	15	obj	_	AlignBegin=38240|AlignEnd=38399|Gloss=ACC.SG.1
-17	say	say	VERB	_	_	15	xcomp	_	AlignBegin=38399|AlignEnd=38537|Gloss=say
+17	say	say	VERB	_	_	15	xcomp:obj	_	AlignBegin=38399|AlignEnd=38537|Gloss=say
 18	[	[	PUNCT	_	_	21	punct	_	AlignBegin=38537|AlignEnd=38567|Gloss=PUNCT
 19	make	make	AUX	_	Mood=Opt	21	aux	_	AlignBegin=38567|AlignEnd=38770|Gloss=SBJV
 20	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	21	nsubj	_	AlignBegin=38770|AlignEnd=38900|Gloss=NOM.SG.1
 21	go	go	VERB	_	_	17	parataxis	_	AlignBegin=38900|AlignEnd=39130|Gloss=go
-22	read	read	VERB	_	_	21	xcomp	_	AlignBegin=39130|AlignEnd=39338|Gloss=read
+22	read	read	VERB	_	_	21	xcomp:obj	_	AlignBegin=39130|AlignEnd=39338|Gloss=read
 23	]	]	PUNCT	_	_	21	punct	_	AlignBegin=39338|AlignEnd=39368|Gloss=PUNCT
 24	//	//	PUNCT	_	_	11	punct	_	AlignBegin=39338|AlignEnd=39368|Gloss=PUNCT
 
@@ -237,7 +238,7 @@
 # speaker_id = Sp256
 # text = # after I read am finish <+ # na so >+ I go buy materials //
 # text_en = When I finished reading it, I went to buy the ingredients.
-# text_ortho = After I read am finish, na so, I go buy materials.
+# text_ortho = After I read am finish, na so I go buy materials.
 1	#	#	PUNCT	_	_	10	punct	_	AlignBegin=39368|AlignEnd=39756|Gloss=PUNCT
 2	after	after	ADP	_	_	4	mark	_	AlignBegin=39756|AlignEnd=40116|Gloss=after
 3	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	AlignBegin=40116|AlignEnd=40196|Gloss=NOM.SG.1
@@ -263,7 +264,7 @@
 # text_ortho = So di material for making soap start from sulphuric acid.
 1	#	#	PUNCT	_	_	8	punct	_	AlignBegin=42480|AlignEnd=42869|Gloss=PUNCT
 2	so	so	ADV	_	_	8	discourse	_	AlignBegin=42869|AlignEnd=43065|Gloss=so
-3	di	the	DET	_	Definite=Def|PronType=Art	4	det	_	AlignBegin=43065|AlignEnd=43158|Gloss=DEF.ART
+3	di	di	DET	_	Definite=Def|PronType=Art	4	det	_	AlignBegin=43065|AlignEnd=43158|Gloss=DEF.ART
 4	material	material	NOUN	_	_	8	nsubj	_	AlignBegin=43158|AlignEnd=43612|Gloss=material
 5	for	for	ADP	_	_	6	mark	_	AlignBegin=43612|AlignEnd=43756|Gloss=for
 6	making	make	VERB	_	Tense=Pres|VerbForm=Part	4	acl	_	AlignBegin=43756|AlignEnd=44066|Gloss=make.PRS.PTCP
@@ -282,7 +283,7 @@
 # text_en = The second one is Texapon.
 # text_ortho = Di second one na Tezapen.
 1	#	#	PUNCT	_	_	6	punct	_	AlignBegin=46372|AlignEnd=46880|Gloss=PUNCT
-2	di	the	DET	_	Definite=Def|PronType=Art	4	det	_	AlignBegin=46880|AlignEnd=47005|Gloss=DEF.ART
+2	di	di	DET	_	Definite=Def|PronType=Art	4	det	_	AlignBegin=46880|AlignEnd=47005|Gloss=DEF.ART
 3	second	second	ADJ	_	NumType=Ord	4	amod	_	AlignBegin=47005|AlignEnd=47372|Gloss=second.ORD
 4	one	one	NOUN	_	_	6	nsubj	_	AlignBegin=47372|AlignEnd=47512|Gloss=one
 5	na	na	AUX	_	PartType=Cop	6	cop	_	AlignBegin=47512|AlignEnd=47694|Gloss=be
@@ -292,15 +293,15 @@
 # sent_id = LAG_37_Soap-Making_MG__13
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/LAG_37_Soap-Making_MG.mp3
 # speaker_id = Sp256
-# text = # third one na { s- || eh # caustic soda } //
-# text_en = The third one is s-... uh... caustic soda.
-# text_ortho = Third one na s-... eh... caustic soda.
+# text = # third one na { s~ || eh # caustic soda } //
+# text_en = The third one is s~... uh... caustic soda.
+# text_ortho = Third one na s~... eh caustic soda.
 1	#	#	PUNCT	_	_	6	punct	_	AlignBegin=48280|AlignEnd=48880|Gloss=PUNCT
 2	third	third	ADJ	_	NumType=Ord	3	amod	_	AlignBegin=48880|AlignEnd=49120|Gloss=third.ORD
 3	one	one	NOUN	_	_	6	nsubj	_	AlignBegin=49120|AlignEnd=49330|Gloss=one
 4	na	na	AUX	_	PartType=Cop	6	cop	_	AlignBegin=49330|AlignEnd=49550|Gloss=be
 5	{	{	PUNCT	_	_	6	punct	_	AlignBegin=49550|AlignEnd=49580|Gloss=PUNCT
-6	s-	X	X	_	_	0	root	_	AlignBegin=49580|AlignEnd=49840|Gloss=X
+6	s~	X	X	_	_	0	root	_	AlignBegin=49580|AlignEnd=49840|Gloss=X
 7	||	||	PUNCT	_	_	11	punct	_	AlignBegin=49840|AlignEnd=50045|Gloss=PUNCT
 8	eh	eh	INTJ	_	_	11	discourse	_	AlignBegin=49840|AlignEnd=50045|Gloss=eh
 9	#	#	PUNCT	_	_	11	punct	_	AlignBegin=50075|AlignEnd=50456|Gloss=PUNCT
@@ -312,18 +313,18 @@
 # sent_id = LAG_37_Soap-Making_MG__14
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/LAG_37_Soap-Making_MG.mp3
 # speaker_id = Sp256
-# text = # di fourth one # < na { ST- || # STPP } //
-# text_en = The fourth one is ST-... STPP.
-# text_ortho = Di fourth one, na ST-... STPP.
+# text = # di fourth one # < na { ST~ || # STPP } //
+# text_en = The fourth one is ST~... STPP.
+# text_ortho = Di fourth one, na ST~... STPP.
 1	#	#	PUNCT	_	_	9	punct	_	AlignBegin=51149|AlignEnd=51683|Gloss=PUNCT
-2	di	the	DET	_	Definite=Def|PronType=Art	4	det	_	AlignBegin=51683|AlignEnd=51819|Gloss=DEF.ART
+2	di	di	DET	_	Definite=Def|PronType=Art	4	det	_	AlignBegin=51683|AlignEnd=51819|Gloss=DEF.ART
 3	fourth	fourth	ADJ	_	NumType=Ord	4	amod	_	AlignBegin=51819|AlignEnd=52160|Gloss=fourth.ORD
 4	one	one	NOUN	_	_	9	dislocated	_	AlignBegin=52160|AlignEnd=52380|Gloss=one
 5	#	#	PUNCT	_	_	4	punct	_	AlignBegin=52380|AlignEnd=52800|Gloss=PUNCT
 6	<	<	PUNCT	_	_	4	punct	_	AlignBegin=52770|AlignEnd=52800|Gloss=PUNCT
 7	na	na	AUX	_	PartType=Cop	9	cop	_	AlignBegin=52800|AlignEnd=53242|Gloss=be
 8	{	{	PUNCT	_	_	9	punct	_	AlignBegin=53242|AlignEnd=53272|Gloss=PUNCT
-9	ST-	X	X	_	_	0	root	_	AlignBegin=53272|AlignEnd=53838|Gloss=X
+9	ST~	X	X	_	_	0	root	_	AlignBegin=53272|AlignEnd=53838|Gloss=X
 10	||	||	PUNCT	_	_	12	punct	_	AlignBegin=53838|AlignEnd=53868|Gloss=PUNCT
 11	#	#	PUNCT	_	_	12	punct	_	AlignBegin=53868|AlignEnd=54240|Gloss=PUNCT
 12	STPP	STPP	PROPN	_	_	9	conj:dicto	_	AlignBegin=54240|AlignEnd=55026|Gloss=STPP
@@ -335,7 +336,7 @@
 # speaker_id = Sp256
 # text = # soda ash |c # Nitrosol |c # perfume |c # liquid gel |c # or foam booster |c # or # formalin |c # wit colour |c and perfume //
 # text_en = Soda ash, nitrosol, perfume, liquid gel, or foam booster, or formalin, with colour, and perfume.
-# text_ortho = Soda ash, nitrosol, perfume, liquid gel, or foam booster, or formalin, wit colour, and perfume.
+# text_ortho = Soda ash, Nitrosol, perfume, liquid gel, or foam booster, or formalin, wit colour, and perfume.
 1	#	#	PUNCT	_	_	3	punct	_	AlignBegin=55056|AlignEnd=55380|Gloss=PUNCT
 2	soda	soda	NOUN	_	_	3	compound	_	AlignBegin=55380|AlignEnd=55850|Gloss=soda
 3	ash	ash	NOUN	_	_	0	root	_	AlignBegin=55850|AlignEnd=56120|Gloss=ash
@@ -373,7 +374,7 @@
 # speaker_id = Sp256
 # text = # na so >+ I start to dey mix soap //
 # text_en = That was how I started mixing soap.
-# text_ortho = Na so, I start to dey mix soap.
+# text_ortho = Na so I start to dey mix soap.
 1	#	#	PUNCT	_	_	3	punct	_	AlignBegin=63780|AlignEnd=64240|Gloss=PUNCT
 2	na	na	AUX	_	PartType=Cop	3	cop	_	AlignBegin=64240|AlignEnd=64390|Gloss=be
 3	so	so	ADV	_	_	0	root	_	AlignBegin=64390|AlignEnd=64480|Gloss=so
@@ -382,7 +383,7 @@
 6	start	start	VERB	_	_	3	advcl:cleft	_	AlignBegin=64640|AlignEnd=64860|Gloss=start
 7	to	to	ADP	_	_	9	mark	_	AlignBegin=64860|AlignEnd=64996|Gloss=to
 8	dey	dey	AUX	_	Aspect=Imp	9	aux	_	AlignBegin=64996|AlignEnd=65150|Gloss=IPFV
-9	mix	mix	VERB	_	_	6	ccomp	_	AlignBegin=65150|AlignEnd=65390|Gloss=mix
+9	mix	mix	VERB	_	_	6	ccomp:pred	_	AlignBegin=65150|AlignEnd=65390|Gloss=mix
 10	soap	soap	NOUN	_	_	9	obj	_	AlignBegin=65390|AlignEnd=65650|Gloss=soap
 11	//	//	PUNCT	_	_	3	punct	_	AlignBegin=65650|AlignEnd=65680|Gloss=PUNCT
 
@@ -415,13 +416,13 @@
 21	<	<	PUNCT	_	_	15	punct	_	AlignBegin=70430|AlignEnd=70570|Gloss=PUNCT
 22	but	but	CCONJ	_	_	30	cc	_	AlignBegin=70430|AlignEnd=70570|Gloss=but
 23	at	at	ADP	_	_	30	dep	_	AlignBegin=70570|AlignEnd=70860|EXTPOS=ADV|Gloss=at
-24	least	least	ADV	_	_	23	fixed	_	AlignBegin=70860|AlignEnd=71154|Gloss=least
+24	least	least	ADV	_	_	23	dep	_	AlignBegin=70860|AlignEnd=71154|Gloss=least
 25	<	<	PUNCT	_	_	23	punct	_	AlignBegin=71154|AlignEnd=71184|Gloss=PUNCT
 26	#	#	PUNCT	_	_	23	punct	_	AlignBegin=71184|AlignEnd=71560|Gloss=PUNCT
 27	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	30	nsubj	_	AlignBegin=71560|AlignEnd=71696|Gloss=NOM.SG.1
 28	still	still	ADV	_	_	30	advmod	_	AlignBegin=71696|AlignEnd=71890|Gloss=still
 29	dey	dey	AUX	_	Aspect=Imp	30	aux	_	AlignBegin=71890|AlignEnd=72015|Gloss=IPFV
-30	put	put	VERB	_	_	4	ccomp	_	AlignBegin=72015|AlignEnd=72159|Gloss=put
+30	put	put	VERB	_	_	4	ccomp:obj	_	AlignBegin=72015|AlignEnd=72159|Gloss=put
 31	something	someting	PRON	_	_	30	obj	_	AlignBegin=72159|AlignEnd=72502|Gloss=something
 32	for	for	ADP	_	_	33	case	_	AlignBegin=72502|AlignEnd=72674|Gloss=for
 33	table	table	NOUN	_	_	30	obl:arg	_	AlignBegin=72674|AlignEnd=72890|Gloss=table
@@ -435,13 +436,13 @@
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/LAG_37_Soap-Making_MG.mp3
 # speaker_id = Sp256
 # text = # and I no &//
-# text_en = And I don't…
+# text_en = And I don't...
 # text_ortho = And I no...
 1	#	#	PUNCT	_	_	4	punct	_	AlignBegin=73640|AlignEnd=74040|Gloss=PUNCT
 2	and	and	CCONJ	_	_	4	cc	_	AlignBegin=74040|AlignEnd=74270|Gloss=and
 3	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	AlignBegin=74270|AlignEnd=74390|Gloss=NOM.SG.1
 4	no	no	PART	_	Polarity=Neg	0	root	_	AlignBegin=74390|AlignEnd=74551|Gloss=NEG
-5	&//	//	PUNCT	_	_	4	punct	_	AlignBegin=74551|AlignEnd=74581|Gloss=PUNCT
+5	&//	&//	PUNCT	_	_	4	punct	_	AlignBegin=74551|AlignEnd=74581|Gloss=PUNCT
 
 # sent_id = LAG_37_Soap-Making_MG__19
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/LAG_37_Soap-Making_MG.mp3
@@ -454,7 +455,7 @@
 3	sey	sey	SCONJ	_	_	11	mark	_	AlignBegin=74894|AlignEnd=75180|Gloss=COMP
 4	#	#	PUNCT	_	_	11	punct	_	AlignBegin=75180|AlignEnd=75481|Gloss=PUNCT
 5	[	[	PUNCT	_	_	11	punct	_	AlignBegin=75451|AlignEnd=75481|Gloss=PUNCT
-6	all	all	ADV	_	_	8	advmod	_	AlignBegin=75481|AlignEnd=75630|Gloss=all
+6	all	all	ADV	_	_	8	det	_	AlignBegin=75481|AlignEnd=75630|Gloss=all
 7	my	my	PRON	_	Number=Sing|Person=1|Poss=Yes	8	nmod:poss	_	AlignBegin=75630|AlignEnd=75768|Gloss=SG.1.POSS
 8	cloth	cloth	NOUN	_	_	11	nsubj	_	AlignBegin=75768|AlignEnd=75970|Gloss=cloth
 9	go	go	AUX	_	Aspect=Prosp	11	aux	_	AlignBegin=75970|AlignEnd=76110|Gloss=PROSP
@@ -508,7 +509,7 @@
 1	#	#	PUNCT	_	_	3	punct	_	AlignBegin=80908|AlignEnd=81206|Gloss=PUNCT
 2	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	AlignBegin=81206|AlignEnd=81306|Gloss=NOM.PL.1
 3	dey	dey	VERB	_	VerbType=Cop	0	root	_	AlignBegin=81306|AlignEnd=81507|Gloss=be
-4	clean	clean	ADJ	_	_	3	xcomp	_	AlignBegin=81507|AlignEnd=81770|Gloss=clean
+4	clean	clean	ADJ	_	_	3	xcomp:pred	_	AlignBegin=81507|AlignEnd=81770|Gloss=clean
 5	//	//	PUNCT	_	_	3	punct	_	AlignBegin=81770|AlignEnd=81800|Gloss=PUNCT
 
 # sent_id = LAG_37_Soap-Making_MG__23
@@ -546,7 +547,7 @@
 # text_en = The perfumes I put into it range from Ambi Pur.
 # text_ortho = Di perfume wey I dey put start from ambipur.
 1	#	#	PUNCT	_	_	8	punct	_	AlignBegin=86372|AlignEnd=86743|Gloss=PUNCT
-2	di	the	DET	_	Definite=Def|PronType=Art	3	det	_	AlignBegin=86743|AlignEnd=86963|Gloss=DEF.ART
+2	di	di	DET	_	Definite=Def|PronType=Art	3	det	_	AlignBegin=86743|AlignEnd=86963|Gloss=DEF.ART
 3	perfume	perfume	NOUN	_	_	8	nsubj	_	AlignBegin=86963|AlignEnd=87332|Gloss=perfume
 4	wey	wey	SCONJ	_	_	7	mark	_	AlignBegin=87332|AlignEnd=87423|Gloss=REL
 5	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	AlignBegin=87423|AlignEnd=87523|Gloss=NOM.SG.1
@@ -562,7 +563,7 @@
 # speaker_id = Sp256
 # text = # I dey put lemon fruit //= # I dey put eh { banana flavour |c # and so oda # perfume like dat } //
 # text_en = I put in lemon fruit, I put in uh... flavor, and some other perfumes.
-# text_ortho = I dey put lemon fruit, I dey put eh... banana flavour, and so oda perfume like dat.
+# text_ortho = I dey put lemon fruit, I dey put eh banana flavour, and so oda perfume like dat.
 1	#	#	PUNCT	_	_	4	punct	_	AlignBegin=88918|AlignEnd=89235|Gloss=PUNCT
 2	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	AlignBegin=89235|AlignEnd=89365|Gloss=NOM.SG.1
 3	dey	dey	AUX	_	Aspect=Imp	4	aux	_	AlignBegin=89365|AlignEnd=89489|Gloss=IPFV
@@ -593,13 +594,13 @@
 # sent_id = LAG_37_Soap-Making_MG__26
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/LAG_37_Soap-Making_MG.mp3
 # speaker_id = Sp256
-# text = # wey be sey # if anybody { open my soap |c # smell am } < { e go ti- || e go see } sey # [ dis one na correct one ] //
-# text_en = This means if anyone opens up my soap and sniffs it, they will ti-... they will know it's a good one.
-# text_ortho = Wey be sey if anybody open my soap, smell am, e go ti-... e go see sey dis one na correct one.
+# text = # wey be sey # if anybody { open my soap |c # smell am } < { e go ti~ || e go see } sey # [ dis one na correct one ] //
+# text_en = This means if anyone opens up my soap and sniffs it, they will ti~... they will know it's a good one.
+# text_ortho = Wey be sey if anybody open my soap, smell am, e go ti~... e go see sey dis one na correct one.
 1	#	#	PUNCT	_	_	2	punct	_	AlignBegin=94821|AlignEnd=95143|Gloss=PUNCT
 2	wey	when	SCONJ	_	_	21	discourse	_	AlignBegin=95143|AlignEnd=95323|EXTPOS=SCONJ|Gloss=when
-3	be	be	VERB	_	PartType=Cop	2	fixed	_	AlignBegin=95323|AlignEnd=95462|Gloss=be
-4	sey	sey	SCONJ	_	_	2	fixed	_	AlignBegin=95462|AlignEnd=95740|Gloss=COMP
+3	be	be	VERB	_	PartType=Cop	2	dep	_	AlignBegin=95323|AlignEnd=95462|Gloss=be
+4	sey	sey	SCONJ	_	_	3	dep	_	AlignBegin=95462|AlignEnd=95740|Gloss=COMP
 5	#	#	PUNCT	_	_	2	punct	_	AlignBegin=95740|AlignEnd=96300|Gloss=PUNCT
 6	if	if	SCONJ	_	_	9	mark	_	AlignBegin=96300|AlignEnd=96480|Gloss=if
 7	anybody	anybody	PRON	_	_	9	nsubj	_	AlignBegin=96480|AlignEnd=96920|Gloss=anybody
@@ -616,7 +617,7 @@
 18	{	{	PUNCT	_	_	21	punct	_	AlignBegin=98510|AlignEnd=98540|Gloss=PUNCT
 19	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	AlignBegin=98540|AlignEnd=98630|Gloss=NOM.SG.3
 20	go	go	AUX	_	Aspect=Prosp	21	aux	_	AlignBegin=98630|AlignEnd=98800|Gloss=PROSP
-21	ti-	X	X	_	_	0	root	_	AlignBegin=98800|AlignEnd=99020|Gloss=X
+21	ti~	X	X	_	_	0	root	_	AlignBegin=98800|AlignEnd=99020|Gloss=X
 22	||	||	PUNCT	_	_	25	punct	_	AlignBegin=99020|AlignEnd=99050|Gloss=PUNCT
 23	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	AlignBegin=99050|AlignEnd=99155|Gloss=NOM.SG.3
 24	go	go	AUX	_	Aspect=Prosp	25	aux	_	AlignBegin=99155|AlignEnd=99290|Gloss=PROSP
@@ -625,11 +626,11 @@
 27	sey	sey	SCONJ	_	_	34	mark	_	AlignBegin=99492|AlignEnd=99720|Gloss=COMP
 28	#	#	PUNCT	_	_	34	punct	_	AlignBegin=99720|AlignEnd=100040|Gloss=PUNCT
 29	[	[	PUNCT	_	_	34	punct	_	AlignBegin=100010|AlignEnd=100040|Gloss=PUNCT
-30	dis	dis	DET	_	Number=Sing|PronType=Dem	31	det	_	AlignBegin=100040|AlignEnd=100230|Gloss=SG.PROX.DEM
+30	dis	dis	DET	_	Number=Sing|PronType=Dem	31	det	_	AlignBegin=100040|AlignEnd=100230|Gloss=SG.DEM
 31	one	one	NOUN	_	_	34	nsubj	_	AlignBegin=100230|AlignEnd=100372|Gloss=one
 32	na	na	AUX	_	PartType=Cop	34	cop	_	AlignBegin=100372|AlignEnd=100529|Gloss=be
 33	correct	correct	ADJ	_	_	34	amod	_	AlignBegin=100529|AlignEnd=100910|Gloss=correct
-34	one	one	NOUN	_	_	25	ccomp	_	AlignBegin=100910|AlignEnd=100997|Gloss=one
+34	one	one	NOUN	_	_	25	ccomp:obj	_	AlignBegin=100910|AlignEnd=100997|Gloss=one
 35	]	]	PUNCT	_	_	21	punct	_	AlignBegin=100997|AlignEnd=101027|Gloss=PUNCT
 36	//	//	PUNCT	_	_	21	punct	_	AlignBegin=100997|AlignEnd=101027|Gloss=PUNCT
 
@@ -662,7 +663,7 @@
 21	dey	dey	AUX	_	Aspect=Imp	22	aux	_	AlignBegin=104980|AlignEnd=105160|Gloss=IPFV
 22	make	make	VERB	_	_	16	parataxis:conj	_	AlignBegin=105160|AlignEnd=105343|Gloss=make
 23	cloth	cloth	NOUN	_	_	22	obj	_	AlignBegin=105343|AlignEnd=105680|Gloss=cloth
-24	beta	beta	ADJ	_	Degree=Cmp	22	xcomp	_	AlignBegin=105680|AlignEnd=106113|Gloss=good.CMPR
+24	beta	beta	ADJ	_	Degree=Cmp	22	xcomp:pred	_	AlignBegin=105680|AlignEnd=106113|Gloss=good.CMPR
 25	//	//	PUNCT	_	_	9	punct	_	AlignBegin=106113|AlignEnd=106143|Gloss=PUNCT
 
 # sent_id = LAG_37_Soap-Making_MG__28
@@ -755,7 +756,7 @@
 24	green	green	ADJ	_	_	23	obj	_	AlignBegin=117442|AlignEnd=117630|Gloss=green
 25	#	#	PUNCT	_	_	31	punct	_	AlignBegin=117660|AlignEnd=117897|Gloss=PUNCT
 26	so	so	SCONJ	_	_	31	mark	_	AlignBegin=117897|AlignEnd=118065|EXTPOS=SCONJ|Gloss=so
-27	dat	dat	SCONJ	_	_	26	fixed	_	AlignBegin=118065|AlignEnd=118190|Gloss=that
+27	dat	dat	SCONJ	_	_	31	dep	_	AlignBegin=118065|AlignEnd=118190|Gloss=COMP
 28	make	make	AUX	_	Mood=Opt	31	aux	_	AlignBegin=118190|AlignEnd=118460|Gloss=SBJV
 29	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	31	nsubj	_	AlignBegin=118460|AlignEnd=118560|Gloss=NOM.SG.3
 30	dey	dey	AUX	_	Aspect=Imp	31	aux	_	AlignBegin=118560|AlignEnd=118757|Gloss=IPFV
@@ -781,8 +782,8 @@
 9	which	which	DET	_	PronType=Int	10	det	_	AlignBegin=121243|AlignEnd=121434|Gloss=which
 10	colour	colour	NOUN	_	_	0	root	_	AlignBegin=121434|AlignEnd=121686|Gloss=colour
 11	be	be	VERB	_	PartType=Cop	10	advcl:cleft	_	AlignBegin=121686|AlignEnd=121793|Gloss=be
-12	dis	dis	DET	_	Number=Sing|PronType=Dem	13	det	_	AlignBegin=121793|AlignEnd=122003|Gloss=SG.PROX.DEM
-13	one	one	NOUN	_	_	11	dep	_	AlignBegin=122003|AlignEnd=122070|Gloss=one
+12	dis	dis	DET	_	Number=Sing|PronType=Dem	13	det	_	AlignBegin=121793|AlignEnd=122003|Gloss=SG.DEM
+13	one	one	NOUN	_	_	11	dep:comp	_	AlignBegin=122003|AlignEnd=122070|Gloss=one
 14	?//	?//	PUNCT	_	_	10	punct	_	AlignBegin=122070|AlignEnd=122100|Gloss=PUNCT
 
 # sent_id = LAG_37_Soap-Making_MG__33
@@ -838,7 +839,7 @@
 # speaker_id = Sp256
 # text = # any woman # wey e no want im husband # make e dey take # cloth dey knock im head for house < # make e engage imsef # for petty work !//= make e dey do o !//
 # text_en = Any woman who doesn't want her husband to mistreat her all around the house should find herself a bit of work... she should do something.
-# text_ortho = Any woman wey e no want im husband make e dey take cloth dey knock im head for house, make e engage imsef for petty work… make e dey do o!
+# text_ortho = Any woman wey e no want im husband make e dey take cloth dey knock im head for house, make e engage imsef for petty work, make e dey do o!
 1	#	#	PUNCT	_	_	28	punct	_	AlignBegin=127820|AlignEnd=128200|Gloss=PUNCT
 2	any	any	DET	_	_	3	det	_	AlignBegin=128200|AlignEnd=128499|Gloss=any
 3	woman	woman	NOUN	_	_	28	dislocated	_	AlignBegin=128499|AlignEnd=128900|Gloss=woman
@@ -847,18 +848,18 @@
 6	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	AlignBegin=129330|AlignEnd=129429|Gloss=NOM.SG.3
 7	no	no	PART	_	Polarity=Neg	8	advmod	_	AlignBegin=129429|AlignEnd=129657|Gloss=NEG
 8	want	want	VERB	_	_	3	acl:relcl	_	AlignBegin=129657|AlignEnd=129960|Gloss=want
-9	im	im	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	10	nmod:poss	_	AlignBegin=129960|AlignEnd=130055|Gloss=M.SG.3.POSS
+9	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	10	nmod:poss	_	AlignBegin=129960|AlignEnd=130055|Gloss=NOM.SG.3
 10	husband	husband	NOUN	_	_	8	obj	_	AlignBegin=130055|AlignEnd=130431|Gloss=husband
 11	#	#	PUNCT	_	_	15	punct	_	AlignBegin=130431|AlignEnd=130725|Gloss=PUNCT
 12	make	make	AUX	_	Mood=Opt	15	aux	_	AlignBegin=130725|AlignEnd=130925|Gloss=SBJV
 13	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	AlignBegin=130925|AlignEnd=130995|Gloss=NOM.SG.3
 14	dey	dey	AUX	_	Aspect=Imp	15	aux	_	AlignBegin=130995|AlignEnd=131155|Gloss=IPFV
-15	take	take	VERB	_	_	8	ccomp	_	AlignBegin=131155|AlignEnd=131460|Gloss=take
+15	take	take	VERB	_	_	8	ccomp:pred	_	AlignBegin=131155|AlignEnd=131460|Gloss=take
 16	#	#	PUNCT	_	_	17	punct	_	AlignBegin=131460|AlignEnd=132068|Gloss=PUNCT
 17	cloth	cloth	NOUN	_	_	15	obj	_	AlignBegin=132068|AlignEnd=132484|Gloss=cloth
 18	dey	dey	AUX	_	Aspect=Imp	19	aux	_	AlignBegin=132484|AlignEnd=132655|Gloss=IPFV
 19	knock	knock	VERB	_	_	15	advcl	_	AlignBegin=132655|AlignEnd=132948|Gloss=knock
-20	im	im	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	21	nmod:poss	_	AlignBegin=132948|AlignEnd=133123|Gloss=M.SG.3.POSS
+20	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	21	nmod:poss	_	AlignBegin=132948|AlignEnd=133123|Gloss=NOM.SG.3
 21	head	head	NOUN	_	_	19	obj	_	AlignBegin=133123|AlignEnd=133268|Gloss=head
 22	for	for	ADP	_	_	23	case	_	AlignBegin=133268|AlignEnd=133462|Gloss=for
 23	house	house	NOUN	_	_	19	obl:arg	_	AlignBegin=133462|AlignEnd=133710|Gloss=house
@@ -893,7 +894,7 @@
 5	make	make	AUX	_	Mood=Opt	7	aux	_	AlignBegin=137880|AlignEnd=138020|Gloss=SBJV
 6	person	person	NOUN	_	_	7	nsubj	_	AlignBegin=138020|AlignEnd=138350|Gloss=person
 7	dey	dey	VERB	_	VerbType=Cop	4	csubj	_	AlignBegin=138350|AlignEnd=138478|Gloss=be
-8	idle	idle	ADJ	_	_	7	xcomp	_	AlignBegin=138478|AlignEnd=138803|Gloss=idle
+8	idle	idle	ADJ	_	_	7	xcomp:pred	_	AlignBegin=138478|AlignEnd=138803|Gloss=idle
 9	//	//	PUNCT	_	_	4	punct	_	AlignBegin=138803|AlignEnd=138833|Gloss=PUNCT
 
 # sent_id = LAG_37_Soap-Making_MG__38
@@ -913,17 +914,17 @@
 # speaker_id = Sp256
 # text = # first of all < # if I want do like fifty liters < # I go buy sulphuric acid # //+ two liters //
 # text_en = First of all, if I want to do like fifty liters, I will buy two liters of sulfuric acid.
-# text_ortho = First of all, if I want do like fifty liters, I go buy sulphuric acid two liters.
+# text_ortho = First of all, if I want do like fifty liters, I go buy sulphuric acid, two liters.
 1	#	#	PUNCT	_	_	18	punct	_	AlignBegin=139800|AlignEnd=142389|Gloss=PUNCT
 2	first	first	ADJ	_	NumType=Ord	18	advcl:periph	_	AlignBegin=142389|AlignEnd=142700|EXTPOS=ADV|Gloss=first.ORD
-3	of	of	ADP	_	_	2	fixed	_	AlignBegin=142700|AlignEnd=142880|Gloss=of
-4	all	all	ADV	_	_	2	fixed	_	AlignBegin=142880|AlignEnd=143038|Gloss=all
+3	of	of	ADP	_	_	2	dep	_	AlignBegin=142700|AlignEnd=142880|Gloss=of
+4	all	all	ADV	_	_	3	dep	_	AlignBegin=142880|AlignEnd=143038|Gloss=all
 5	<	<	PUNCT	_	_	2	punct	_	AlignBegin=143038|AlignEnd=143068|Gloss=PUNCT
 6	#	#	PUNCT	_	_	2	punct	_	AlignBegin=143068|AlignEnd=143268|Gloss=PUNCT
 7	if	if	SCONJ	_	_	9	mark	_	AlignBegin=143268|AlignEnd=143418|Gloss=if
 8	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	AlignBegin=143418|AlignEnd=143538|Gloss=NOM.SG.1
 9	want	want	VERB	_	_	18	advcl:periph	_	AlignBegin=143538|AlignEnd=143758|Gloss=want
-10	do	do	VERB	_	_	9	xcomp	_	AlignBegin=143758|AlignEnd=144060|Gloss=do
+10	do	do	VERB	_	_	9	xcomp:obj	_	AlignBegin=143758|AlignEnd=144060|Gloss=do
 11	like	like	ADP	_	_	13	discourse	_	AlignBegin=144060|AlignEnd=144300|Gloss=like
 12	fifty	fifty	NUM	_	NumType=Card	13	nummod:det	_	AlignBegin=144300|AlignEnd=144670|Gloss=fifty.CARD
 13	liters	liter	NOUN	_	Number=Plur	10	obj	_	AlignBegin=144670|AlignEnd=145030|Gloss=liter.PL
@@ -948,13 +949,13 @@
 # text_ortho = And dat two liters, at di rate of one thousand, eight hundred naira.
 1	#	#	PUNCT	_	_	10	punct	_	AlignBegin=148360|AlignEnd=148720|Gloss=PUNCT
 2	and	and	CCONJ	_	_	10	cc	_	AlignBegin=148720|AlignEnd=148870|Gloss=and
-3	dat	dat	DET	_	Number=Sing|PronType=Dem	5	det	_	AlignBegin=148870|AlignEnd=149040|Gloss=SG.DIST.DEM
+3	dat	dat	DET	_	Number=Sing|PronType=Dem	5	det	_	AlignBegin=148870|AlignEnd=149040|Gloss=SG.DEM
 4	two	two	NUM	_	NumType=Card	5	nummod:mod	_	AlignBegin=149040|AlignEnd=149200|Gloss=two.CARD
 5	liters	liter	NOUN	_	Number=Plur	10	dislocated	_	AlignBegin=149200|AlignEnd=149620|Gloss=liter.PL
 6	<	<	PUNCT	_	_	5	punct	_	AlignBegin=149620|AlignEnd=149650|Gloss=PUNCT
 7	#	#	PUNCT	_	_	5	punct	_	AlignBegin=149650|AlignEnd=150007|Gloss=PUNCT
 8	at	at	ADP	_	_	10	case	_	AlignBegin=150007|AlignEnd=150149|Gloss=at
-9	di	the	DET	_	Definite=Def|PronType=Art	10	det	_	AlignBegin=150149|AlignEnd=150276|Gloss=DEF.ART
+9	di	di	DET	_	Definite=Def|PronType=Art	10	det	_	AlignBegin=150149|AlignEnd=150276|Gloss=DEF.ART
 10	rate	rate	NOUN	_	_	0	root	_	AlignBegin=150276|AlignEnd=150496|Gloss=rate
 11	of	of	ADP	_	_	21	case	_	AlignBegin=150496|AlignEnd=150762|Gloss=of
 12	#	#	PUNCT	_	_	21	punct	_	AlignBegin=150762|AlignEnd=151080|Gloss=PUNCT
@@ -972,18 +973,16 @@
 # sent_id = LAG_37_Soap-Making_MG__41
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/LAG_37_Soap-Making_MG.mp3
 # speaker_id = Sp256
-# text = [eng # one liter is nine hundred eng] //
+# text = # one liter is nine hundred //
 # text_en = A liter is nine hundred.
-# text_ortho = One liter is nine hundred .
-1	[eng	[eng	PUNCT	_	_	7	punct	_	AlignBegin=153100|AlignEnd=153480|Gloss=PUNCT
-2	#	#	PUNCT	_	_	7	punct	_	AlignBegin=153100|AlignEnd=153480|Gloss=PUNCT
-3	one	one	NUM	_	NumType=Card	4	nummod:det	_	AlignBegin=153480|AlignEnd=153700|Gloss=one
-4	liter	liter	NOUN	_	_	7	nsubj	_	AlignBegin=153700|AlignEnd=154030|Gloss=liter
-5	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	AlignBegin=154030|AlignEnd=154220|Gloss=be.IND.SG.3.PRS.FIN
-6	nine	nine	NUM	_	NumType=Card	7	compound	_	AlignBegin=154220|AlignEnd=154456|Gloss=nine.CARD
-7	hundred	hundred	NUM	_	NumType=Card	0	root	_	AlignBegin=154456|AlignEnd=154820|Gloss=hundred.CARD
-8	eng]	eng]	PUNCT	_	_	7	punct	_	AlignBegin=154820|AlignEnd=154850|Gloss=PUNCT
-9	//	//	PUNCT	_	_	7	punct	_	AlignBegin=154820|AlignEnd=154850|Gloss=PUNCT
+# text_ortho = One liter is nine hundred.
+1	#	#	PUNCT	_	_	6	punct	_	AlignBegin=153100|AlignEnd=153480|Gloss=PUNCT
+2	one	one	NUM	_	NumType=Card	3	nummod:det	_	AlignBegin=153480|AlignEnd=153700|Gloss=one|Lang=en
+3	liter	liter	NOUN	_	_	6	nsubj	_	AlignBegin=153700|AlignEnd=154030|Gloss=liter|Lang=en
+4	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	AlignBegin=154030|AlignEnd=154220|Gloss=be.IND.SG.3.PRS.FIN|Lang=en
+5	nine	nine	NUM	_	NumType=Card	6	compound	_	AlignBegin=154220|AlignEnd=154456|Gloss=nine.CARD|Lang=en
+6	hundred	hundred	NUM	_	NumType=Card	0	root	_	AlignBegin=154456|AlignEnd=154820|Gloss=hundred.CARD|Lang=en
+7	//	//	PUNCT	_	_	6	punct	_	AlignBegin=154820|AlignEnd=154850|Gloss=PUNCT
 
 # sent_id = LAG_37_Soap-Making_MG__42
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/LAG_37_Soap-Making_MG.mp3
@@ -999,37 +998,37 @@
 6	#	#	PUNCT	_	_	9	punct	_	AlignBegin=156381|AlignEnd=156618|Gloss=PUNCT
 7	six	six	NUM	_	NumType=Card	8	compound	_	AlignBegin=156618|AlignEnd=156938|Gloss=six.CARD
 8	hundred	hundred	NUM	_	NumType=Card	9	nummod:det	_	AlignBegin=156938|AlignEnd=157288|Gloss=hundred.CARD
-9	naira	naira	NOUN	_	_	4	xcomp	_	AlignBegin=157288|AlignEnd=157570|Gloss=naira
+9	naira	naira	NOUN	_	_	4	xcomp:pred	_	AlignBegin=157288|AlignEnd=157570|Gloss=naira
 10	//	//	PUNCT	_	_	4	punct	_	AlignBegin=157570|AlignEnd=157600|Gloss=PUNCT
 
 # sent_id = LAG_37_Soap-Making_MG__43
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/LAG_37_Soap-Making_MG.mp3
 # speaker_id = Sp256
 # text = # if I buy all dose tings <+ # I go &//
-# text_en = When I have bought all those things, I will…
+# text_en = When I have bought all those things, I will...
 # text_ortho = If I buy all dose tings, I go...
 1	#	#	PUNCT	_	_	11	punct	_	AlignBegin=157600|AlignEnd=157960|Gloss=PUNCT
 2	if	if	SCONJ	_	_	4	mark	_	AlignBegin=157960|AlignEnd=158110|Gloss=if
 3	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	AlignBegin=158110|AlignEnd=158210|Gloss=NOM.SG.1
 4	buy	buy	VERB	_	_	11	advcl:periph	_	AlignBegin=158210|AlignEnd=158380|Gloss=buy
-5	all	all	ADV	_	_	7	advmod	_	AlignBegin=158380|AlignEnd=158530|Gloss=all
+5	all	all	ADV	_	_	7	det	_	AlignBegin=158380|AlignEnd=158530|Gloss=all
 6	dose	dose	DET	_	Number=Plur|PronType=Dem	7	det	_	AlignBegin=158530|AlignEnd=158740|Gloss=PL.DIST.DEM
 7	tings	tings	NOUN	_	Number=Plur	4	obj	_	AlignBegin=158740|AlignEnd=159013|Gloss=thing.PL
 8	<+	<+	PUNCT	_	_	4	punct	_	AlignBegin=159013|AlignEnd=159043|Gloss=PUNCT
 9	#	#	PUNCT	_	_	4	punct	_	AlignBegin=159043|AlignEnd=159362|Gloss=PUNCT
 10	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	AlignBegin=159362|AlignEnd=159552|Gloss=NOM.SG.1
 11	go	go	AUX	_	Aspect=Prosp	0	root	_	AlignBegin=159552|AlignEnd=159842|Gloss=PROSP
-12	&//	//	PUNCT	_	_	11	punct	_	AlignBegin=159842|AlignEnd=159872|Gloss=PUNCT
+12	&//	&//	PUNCT	_	_	11	punct	_	AlignBegin=159842|AlignEnd=159872|Gloss=PUNCT
 
 # sent_id = LAG_37_Soap-Making_MG__44
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/LAG_37_Soap-Making_MG.mp3
 # speaker_id = Sp256
 # text = first of all # I go mix sulphuric acid # wit Tezapen //
 # text_en = First of all, I will mix sulfuric acid with Texapon.
-# text_ortho = First of all I go mix sulphric acid wit Tezapen.
+# text_ortho = First of all I go mix sulphuric acid wit Tezapen.
 1	first	first	ADJ	_	NumType=Ord	7	advcl:periph	_	AlignBegin=159872|AlignEnd=160152|EXTPOS=ADV|Gloss=first.ORD
-2	of	of	ADP	_	_	1	fixed	_	AlignBegin=160152|AlignEnd=160332|Gloss=of
-3	all	all	ADV	_	_	1	fixed	_	AlignBegin=160332|AlignEnd=160520|Gloss=all
+2	of	of	ADP	_	_	1	dep	_	AlignBegin=160152|AlignEnd=160332|Gloss=of
+3	all	all	ADV	_	_	2	dep	_	AlignBegin=160332|AlignEnd=160520|Gloss=all
 4	#	#	PUNCT	_	_	1	punct	_	AlignBegin=160520|AlignEnd=160860|Gloss=PUNCT
 5	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	AlignBegin=160860|AlignEnd=161020|Gloss=NOM.SG.1
 6	go	go	AUX	_	Aspect=Prosp	7	aux	_	AlignBegin=161020|AlignEnd=161222|Gloss=PROSP
@@ -1050,7 +1049,7 @@
 1	#	#	PUNCT	_	_	3	punct	_	AlignBegin=163684|AlignEnd=164020|Gloss=PUNCT
 2	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	AlignBegin=164020|AlignEnd=164180|Gloss=NOM.SG.1
 3	go	go	AUX	_	Aspect=Prosp	0	root	_	AlignBegin=164180|AlignEnd=164405|Gloss=PROSP
-4	stir	stir	VERB	_	_	3	dep	_	AlignBegin=164405|AlignEnd=164711|Gloss=stir
+4	stir	stir	VERB	_	_	3	dep:comp	_	AlignBegin=164405|AlignEnd=164711|Gloss=stir
 5	{	{	PUNCT	_	_	6	punct	_	AlignBegin=164711|AlignEnd=164741|Gloss=PUNCT
 6	well	well	ADV	_	_	4	advmod	_	AlignBegin=164741|AlignEnd=165003|Gloss=well
 7	|r	|r	PUNCT	_	_	8	punct	_	AlignBegin=165003|AlignEnd=165033|Gloss=PUNCT
@@ -1067,7 +1066,7 @@
 # speaker_id = Sp256
 # text = # because sulphuric acid < # e dey hot { well |r well } //
 # text_en = Because sulfuric acid is a very strong acid.
-# text_ortho = Because sulphiric acid, e dey hot well, well.
+# text_ortho = Because sulphuric acid, e dey hot well, well.
 1	#	#	PUNCT	_	_	8	punct	_	AlignBegin=166743|AlignEnd=167043|Gloss=PUNCT
 2	because	because	SCONJ	_	_	8	cc	_	AlignBegin=167043|AlignEnd=167402|Gloss=because
 3	sulphuric	sulphuric	ADJ	_	_	4	amod	_	AlignBegin=167402|AlignEnd=167823|Gloss=sulphuric
@@ -1076,7 +1075,7 @@
 6	#	#	PUNCT	_	_	4	punct	_	AlignBegin=168130|AlignEnd=168358|Gloss=PUNCT
 7	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	AlignBegin=168358|AlignEnd=168483|Gloss=NOM.SG.3
 8	dey	dey	VERB	_	VerbType=Cop	0	root	_	AlignBegin=168483|AlignEnd=168642|Gloss=be
-9	hot	hot	ADJ	_	_	8	xcomp	_	AlignBegin=168642|AlignEnd=168903|Gloss=hot
+9	hot	hot	ADJ	_	_	8	xcomp:pred	_	AlignBegin=168642|AlignEnd=168903|Gloss=hot
 10	{	{	PUNCT	_	_	11	punct	_	AlignBegin=168903|AlignEnd=168933|Gloss=PUNCT
 11	well	well	ADV	_	_	9	advmod	_	AlignBegin=168933|AlignEnd=169127|Gloss=well
 12	|r	|r	PUNCT	_	_	13	punct	_	AlignBegin=169127|AlignEnd=169157|Gloss=PUNCT
@@ -1087,9 +1086,9 @@
 # sent_id = LAG_37_Soap-Making_MG__47
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/LAG_37_Soap-Making_MG.mp3
 # speaker_id = Sp256
-# text = # so if I don # stir am { well |r well } # make e melt < # I go put my { st- || # caustic soda } for water //
-# text_en = So when I have stirred it very well, in order to dissolve it…
-# text_ortho = So if I don stir am well, well make e melt…
+# text = # so if I don # stir am { well |r well } # make e melt < # I go put my { st~ || # caustic soda } for water //
+# text_en = So when I have stirred it very well, in order to dissolve it...
+# text_ortho = So if I don stir am well, well make e melt, I go put my st~... caustic soda for water.
 1	#	#	PUNCT	_	_	22	punct	_	AlignBegin=169331|AlignEnd=169643|Gloss=PUNCT
 2	so	so	ADV	_	_	22	discourse	_	AlignBegin=169643|AlignEnd=169799|Gloss=so
 3	if	if	SCONJ	_	_	7	mark	_	AlignBegin=169799|AlignEnd=169877|Gloss=if
@@ -1112,9 +1111,9 @@
 20	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	22	nsubj	_	AlignBegin=172760|AlignEnd=172920|Gloss=NOM.SG.1
 21	go	go	AUX	_	Aspect=Prosp	22	aux	_	AlignBegin=172920|AlignEnd=173080|Gloss=PROSP
 22	put	put	VERB	_	_	0	root	_	AlignBegin=173080|AlignEnd=173350|Gloss=put
-23	my	my	ADJ	_	Number=Sing|Person=1|Poss=Yes	25	amod	_	AlignBegin=173350|AlignEnd=173480|Gloss=SG.1.POSS
+23	my	my	PRON	_	Number=Sing|Person=1|Poss=Yes	25	nmod	_	AlignBegin=173350|AlignEnd=173480|Gloss=SG.1.POSS
 24	{	{	PUNCT	_	_	25	punct	_	AlignBegin=173480|AlignEnd=173510|Gloss=PUNCT
-25	st-	X	X	_	_	22	obj	_	AlignBegin=173510|AlignEnd=173557|Gloss=X
+25	st~	X	X	_	_	22	obj	_	AlignBegin=173510|AlignEnd=173557|Gloss=X
 26	||	||	PUNCT	_	_	29	punct	_	AlignBegin=173557|AlignEnd=173587|Gloss=PUNCT
 27	#	#	PUNCT	_	_	29	punct	_	AlignBegin=173587|AlignEnd=173900|Gloss=PUNCT
 28	caustic	caustic	ADJ	_	_	29	amod	_	AlignBegin=173900|AlignEnd=174243|Gloss=caustic
@@ -1124,7 +1123,7 @@
 32	water	water	NOUN	_	_	22	obl:arg	_	AlignBegin=174794|AlignEnd=175145|Gloss=water
 33	//	//	PUNCT	_	_	22	punct	_	AlignBegin=175145|AlignEnd=175175|Gloss=PUNCT
 
-# sent_id = LAG_37_Soap-Making_MG__49
+# sent_id = LAG_37_Soap-Making_MG__48
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/LAG_37_Soap-Making_MG.mp3
 # speaker_id = Sp256
 # text = # because # for fifty liters of soap < # I go use ten spoon of caustic soda //
@@ -1150,7 +1149,7 @@
 18	soda	soda	NOUN	_	_	15	nmod	_	AlignBegin=180330|AlignEnd=180688|Gloss=soda
 19	//	//	PUNCT	_	_	13	punct	_	AlignBegin=180688|AlignEnd=180718|Gloss=PUNCT
 
-# sent_id = LAG_37_Soap-Making_MG__50
+# sent_id = LAG_37_Soap-Making_MG__49
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/LAG_37_Soap-Making_MG.mp3
 # speaker_id = Sp256
 # text = # I go soak am for three liters of water //
@@ -1168,7 +1167,7 @@
 10	water	water	NOUN	_	_	8	nmod	_	AlignBegin=182720|AlignEnd=183070|Gloss=water
 11	//	//	PUNCT	_	_	4	punct	_	AlignBegin=183070|AlignEnd=183100|Gloss=PUNCT
 
-# sent_id = LAG_37_Soap-Making_MG__51
+# sent_id = LAG_37_Soap-Making_MG__50
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/LAG_37_Soap-Making_MG.mp3
 # speaker_id = Sp256
 # text = # so if e don melt { well |r well } <+ # I go pour am //
@@ -1193,23 +1192,23 @@
 17	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	16	obj	_	AlignBegin=185535|AlignEnd=185676|Gloss=ACC.SG.3
 18	//	//	PUNCT	_	_	16	punct	_	AlignBegin=185676|AlignEnd=185706|Gloss=PUNCT
 
-# sent_id = LAG_37_Soap-Making_MG__52
+# sent_id = LAG_37_Soap-Making_MG__51
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/LAG_37_Soap-Making_MG.mp3
 # speaker_id = Sp256
 # text = # if I pour am { wit || wit } di ones wey I don mix # ( dat # sulphuric acid |c and Tezapen ) < # I go pour dat # caustic soda //
 # text_en = When I have poured it in with, with the stuff I've mixed earlier (that sulfuric acid, and Texapon), I will pour the caustic soda into it.
-# text_ortho = If I pour am wit wit di ones wey I don mix (dat sulphuric acid, and Tezapen), I go pour dat caustic soda.
+# text_ortho = If I pour am wit, wit di ones wey I don mix (dat sulphuric acid, and Tezapen), I go pour dat caustic soda.
 1	#	#	PUNCT	_	_	31	punct	_	AlignBegin=185706|AlignEnd=186006|Gloss=PUNCT
 2	if	if	SCONJ	_	_	4	mark	_	AlignBegin=186006|AlignEnd=186196|Gloss=if
 3	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	AlignBegin=186196|AlignEnd=186324|Gloss=NOM.SG.1
 4	pour	pour	VERB	_	_	31	advcl:periph	_	AlignBegin=186324|AlignEnd=186476|Gloss=pour
 5	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	4	obj	_	AlignBegin=186476|AlignEnd=186586|Gloss=ACC.SG.3
 6	{	{	PUNCT	_	_	7	punct	_	AlignBegin=186586|AlignEnd=186616|Gloss=PUNCT
-7	wit	wit	ADP	_	_	4	dep	_	AlignBegin=186616|AlignEnd=186806|Gloss=with
+7	wit	wit	ADP	_	_	4	dep:comp	_	AlignBegin=186616|AlignEnd=186806|Gloss=with
 8	||	||	PUNCT	_	_	12	punct	_	AlignBegin=186806|AlignEnd=186836|Gloss=PUNCT
 9	wit	wit	ADP	_	_	12	case	_	AlignBegin=186836|AlignEnd=187066|Gloss=with
 10	}	}	PUNCT	_	_	7	punct	_	AlignBegin=187066|AlignEnd=187096|Gloss=PUNCT
-11	di	the	DET	_	Definite=Def|PronType=Art	12	det	_	AlignBegin=187096|AlignEnd=187234|Gloss=DEF.ART
+11	di	di	DET	_	Definite=Def|PronType=Art	12	det	_	AlignBegin=187096|AlignEnd=187234|Gloss=DEF.ART
 12	ones	one	NOUN	_	Number=Plur	7	conj:dicto	_	AlignBegin=187234|AlignEnd=187496|Gloss=one.PL
 13	wey	wey	SCONJ	_	_	16	mark	_	AlignBegin=187496|AlignEnd=187576|Gloss=REL
 14	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	AlignBegin=187576|AlignEnd=187756|Gloss=NOM.SG.1
@@ -1217,7 +1216,7 @@
 16	mix	mix	VERB	_	_	12	acl:relcl	_	AlignBegin=187940|AlignEnd=188149|Gloss=mix
 17	#	#	PUNCT	_	_	22	punct	_	AlignBegin=188149|AlignEnd=188480|Gloss=PUNCT
 18	(	(	PUNCT	_	_	22	punct	_	AlignBegin=188450|AlignEnd=188480|Gloss=PUNCT
-19	dat	dat	DET	_	Number=Sing|PronType=Dem	22	det	_	AlignBegin=188480|AlignEnd=188768|Gloss=SG.DIST.DEM
+19	dat	dat	DET	_	Number=Sing|PronType=Dem	22	det	_	AlignBegin=188480|AlignEnd=188768|Gloss=SG.DEM
 20	#	#	PUNCT	_	_	19	punct	_	AlignBegin=188768|AlignEnd=189000|Gloss=PUNCT
 21	sulphuric	sulphuric	ADJ	_	_	22	amod	_	AlignBegin=189000|AlignEnd=189480|Gloss=sulphuric
 22	acid	acid	NOUN	_	_	16	parataxis:parenth	_	AlignBegin=189480|AlignEnd=189730|Gloss=acid
@@ -1230,13 +1229,13 @@
 29	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	31	nsubj	_	AlignBegin=190687|AlignEnd=190847|Gloss=NOM.SG.1
 30	go	go	AUX	_	Aspect=Prosp	31	aux	_	AlignBegin=190847|AlignEnd=190987|Gloss=PROSP
 31	pour	pour	VERB	_	_	0	root	_	AlignBegin=190987|AlignEnd=191199|Gloss=pour
-32	dat	dat	DET	_	Number=Sing|PronType=Dem	35	det	_	AlignBegin=191199|AlignEnd=191403|Gloss=SG.DIST.DEM
+32	dat	dat	DET	_	Number=Sing|PronType=Dem	35	det	_	AlignBegin=191199|AlignEnd=191403|Gloss=SG.DEM
 33	#	#	PUNCT	_	_	32	punct	_	AlignBegin=191403|AlignEnd=191618|Gloss=PUNCT
 34	caustic	caustic	ADJ	_	_	35	amod	_	AlignBegin=191618|AlignEnd=191964|Gloss=caustic
 35	soda	soda	NOUN	_	_	31	obj	_	AlignBegin=191964|AlignEnd=192238|Gloss=soda
 36	//	//	PUNCT	_	_	31	punct	_	AlignBegin=192238|AlignEnd=192268|Gloss=PUNCT
 
-# sent_id = LAG_37_Soap-Making_MG__53
+# sent_id = LAG_37_Soap-Making_MG__52
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/LAG_37_Soap-Making_MG.mp3
 # speaker_id = Sp256
 # text = # I go stir am { well |r well } //
@@ -1254,7 +1253,7 @@
 10	}	}	PUNCT	_	_	7	punct	_	AlignBegin=193732|AlignEnd=193762|Gloss=PUNCT
 11	//	//	PUNCT	_	_	3	punct	_	AlignBegin=193732|AlignEnd=193762|Gloss=PUNCT
 
-# sent_id = LAG_37_Soap-Making_MG__54
+# sent_id = LAG_37_Soap-Making_MG__53
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/LAG_37_Soap-Making_MG.mp3
 # speaker_id = Sp256
 # text = # even as you dey stir am < # you go dey see di smoke wey go dey come out # cause di tin dey hot { well |r well } //
@@ -1273,7 +1272,7 @@
 11	go	go	AUX	_	Aspect=Prosp	13	aux	_	AlignBegin=195682|AlignEnd=195742|Gloss=PROSP
 12	dey	dey	AUX	_	Aspect=Imp	13	aux	_	AlignBegin=195742|AlignEnd=195882|Gloss=IPFV
 13	see	see	VERB	_	_	0	root	_	AlignBegin=195882|AlignEnd=196082|Gloss=see
-14	di	the	DET	_	Definite=Def|PronType=Art	15	det	_	AlignBegin=196082|AlignEnd=196242|Gloss=DEF.ART
+14	di	di	DET	_	Definite=Def|PronType=Art	15	det	_	AlignBegin=196082|AlignEnd=196242|Gloss=DEF.ART
 15	smoke	smoke	NOUN	_	_	13	obj	_	AlignBegin=196242|AlignEnd=196652|Gloss=smoke
 16	wey	wey	SCONJ	_	_	19	mark	_	AlignBegin=196652|AlignEnd=196822|Gloss=REL
 17	go	go	AUX	_	Aspect=Prosp	19	aux	_	AlignBegin=196822|AlignEnd=196945|Gloss=PROSP
@@ -1281,11 +1280,11 @@
 19	come	come	VERB	_	_	15	acl:relcl	_	AlignBegin=197085|AlignEnd=197332|Gloss=come
 20	out	out	ADP	_	_	19	compound:prt	_	AlignBegin=197332|AlignEnd=197470|Gloss=out
 21	#	#	PUNCT	_	_	25	punct	_	AlignBegin=197500|AlignEnd=197840|Gloss=PUNCT
-22	cause	cause	SCONJ	_	_	25	mark	_	AlignBegin=197840|AlignEnd=198000|Gloss=because
-23	di	the	DET	_	Definite=Def|PronType=Art	24	det	_	AlignBegin=198000|AlignEnd=198131|Gloss=DEF.ART
+22	cause	because	SCONJ	_	_	25	mark	_	AlignBegin=197840|AlignEnd=198000|Gloss=because
+23	di	di	DET	_	Definite=Def|PronType=Art	24	det	_	AlignBegin=198000|AlignEnd=198131|Gloss=DEF.ART
 24	tin	ting	NOUN	_	_	25	nsubj	_	AlignBegin=198131|AlignEnd=198400|Gloss=thing
 25	dey	dey	VERB	_	VerbType=Cop	13	advcl	_	AlignBegin=198400|AlignEnd=198607|Gloss=be
-26	hot	hot	ADJ	_	_	25	xcomp	_	AlignBegin=198607|AlignEnd=198810|Gloss=hot
+26	hot	hot	ADJ	_	_	25	xcomp:pred	_	AlignBegin=198607|AlignEnd=198810|Gloss=hot
 27	{	{	PUNCT	_	_	28	punct	_	AlignBegin=198810|AlignEnd=198840|Gloss=PUNCT
 28	well	well	ADV	_	_	26	advmod	_	AlignBegin=198840|AlignEnd=199024|Gloss=well
 29	|r	|r	PUNCT	_	_	30	punct	_	AlignBegin=199024|AlignEnd=199054|Gloss=PUNCT
@@ -1293,7 +1292,7 @@
 31	}	}	PUNCT	_	_	28	punct	_	AlignBegin=199163|AlignEnd=199193|Gloss=PUNCT
 32	//	//	PUNCT	_	_	13	punct	_	AlignBegin=199163|AlignEnd=199193|Gloss=PUNCT
 
-# sent_id = LAG_37_Soap-Making_MG__55
+# sent_id = LAG_37_Soap-Making_MG__54
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/LAG_37_Soap-Making_MG.mp3
 # speaker_id = Sp256
 # text = # so after dat one < # I go still mix my # soda ash //
@@ -1302,7 +1301,7 @@
 1	#	#	PUNCT	_	_	11	punct	_	AlignBegin=199193|AlignEnd=199517|Gloss=PUNCT
 2	so	so	ADV	_	_	11	discourse	_	AlignBegin=199517|AlignEnd=199627|Gloss=so
 3	after	after	ADP	_	_	5	case	_	AlignBegin=199627|AlignEnd=199917|Gloss=after
-4	dat	dat	DET	_	Number=Sing|PronType=Dem	5	det	_	AlignBegin=199917|AlignEnd=200077|Gloss=SG.DIST.DEM
+4	dat	dat	DET	_	Number=Sing|PronType=Dem	5	det	_	AlignBegin=199917|AlignEnd=200077|Gloss=SG.DEM
 5	one	one	NOUN	_	_	11	obl:mod	_	AlignBegin=200077|AlignEnd=200251|Gloss=one
 6	<	<	PUNCT	_	_	5	punct	_	AlignBegin=200251|AlignEnd=200281|Gloss=PUNCT
 7	#	#	PUNCT	_	_	5	punct	_	AlignBegin=200281|AlignEnd=200537|Gloss=PUNCT
@@ -1316,7 +1315,7 @@
 15	ash	ash	NOUN	_	_	11	obj	_	AlignBegin=202415|AlignEnd=202622|Gloss=ash
 16	//	//	PUNCT	_	_	11	punct	_	AlignBegin=202622|AlignEnd=202652|Gloss=PUNCT
 
-# sent_id = LAG_37_Soap-Making_MG__56
+# sent_id = LAG_37_Soap-Making_MG__55
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/LAG_37_Soap-Making_MG.mp3
 # speaker_id = Sp256
 # text = # I go put am for three liters of water //
@@ -1334,7 +1333,7 @@
 10	water	water	NOUN	_	_	8	nmod	_	AlignBegin=204410|AlignEnd=204830|Gloss=water
 11	//	//	PUNCT	_	_	4	punct	_	AlignBegin=204830|AlignEnd=204860|Gloss=PUNCT
 
-# sent_id = LAG_37_Soap-Making_MG__57
+# sent_id = LAG_37_Soap-Making_MG__56
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/LAG_37_Soap-Making_MG.mp3
 # speaker_id = Sp256
 # text = # I go mix dat one too //
@@ -1343,13 +1342,13 @@
 1	#	#	PUNCT	_	_	3	punct	_	AlignBegin=204860|AlignEnd=205180|Gloss=PUNCT
 2	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	AlignBegin=205180|AlignEnd=205327|Gloss=NOM.SG.1
 3	go	go	AUX	_	Aspect=Prosp	0	root	_	AlignBegin=205327|AlignEnd=205474|Gloss=PROSP
-4	mix	mix	VERB	_	_	3	dep	_	AlignBegin=205474|AlignEnd=205670|Gloss=mix
-5	dat	dat	DET	_	Number=Sing|PronType=Dem	6	det	_	AlignBegin=205670|AlignEnd=205870|Gloss=SG.DIST.DEM
+4	mix	mix	VERB	_	_	3	dep:comp	_	AlignBegin=205474|AlignEnd=205670|Gloss=mix
+5	dat	dat	DET	_	Number=Sing|PronType=Dem	6	det	_	AlignBegin=205670|AlignEnd=205870|Gloss=SG.DEM
 6	one	one	NOUN	_	_	4	obj	_	AlignBegin=205870|AlignEnd=206058|Gloss=one
 7	too	too	ADV	_	_	4	advmod	_	AlignBegin=206058|AlignEnd=206213|Gloss=too
 8	//	//	PUNCT	_	_	3	punct	_	AlignBegin=206213|AlignEnd=206243|Gloss=PUNCT
 
-# sent_id = LAG_37_Soap-Making_MG__58
+# sent_id = LAG_37_Soap-Making_MG__57
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/LAG_37_Soap-Making_MG.mp3
 # speaker_id = Sp256
 # text = # if e don disolve { well |r well } <+ # I go pour am //
@@ -1373,7 +1372,7 @@
 16	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	15	obj	_	AlignBegin=208518|AlignEnd=208620|Gloss=ACC.SG.3
 17	//	//	PUNCT	_	_	15	punct	_	AlignBegin=208620|AlignEnd=208650|Gloss=PUNCT
 
-# sent_id = LAG_37_Soap-Making_MG__59
+# sent_id = LAG_37_Soap-Making_MG__58
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/LAG_37_Soap-Making_MG.mp3
 # speaker_id = Sp256
 # text = # I go stir am { well |r well } //
@@ -1391,16 +1390,16 @@
 10	}	}	PUNCT	_	_	7	punct	_	AlignBegin=209932|AlignEnd=209962|Gloss=PUNCT
 11	//	//	PUNCT	_	_	4	punct	_	AlignBegin=209932|AlignEnd=209962|Gloss=PUNCT
 
-# sent_id = LAG_37_Soap-Making_MG__60
+# sent_id = LAG_37_Soap-Making_MG__59
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/LAG_37_Soap-Making_MG.mp3
 # speaker_id = Sp256
-# text = # { after dat sulphuric || after # em soda ash } <+ # I go put { STP- || # STPP } //
-# text_en = After that sulfuric... after uh… the soda ash, I will add the STP-... STPP.
-# text_ortho = After dat sulphuric... after em... soda ash, I go put STP-... STPP.
+# text = # { after dat sulphuric || after # em soda ash } <+ # I go put { STP~ || # STPP } //
+# text_en = After that sulfuric... after uh... the soda ash, I will add the STP~... STPP.
+# text_ortho = After dat sulphuric, after em soda ash, I go put STP~... STPP.
 1	#	#	PUNCT	_	_	17	punct	_	AlignBegin=209962|AlignEnd=210250|Gloss=PUNCT
 2	{	{	PUNCT	_	_	5	punct	_	AlignBegin=210220|AlignEnd=210250|Gloss=PUNCT
 3	after	after	ADP	_	_	5	case	_	AlignBegin=210250|AlignEnd=210656|Gloss=after
-4	dat	dat	DET	_	Number=Sing|PronType=Dem	5	det	_	AlignBegin=210656|AlignEnd=210789|Gloss=SG.DIST.DEM
+4	dat	dat	DET	_	Number=Sing|PronType=Dem	5	det	_	AlignBegin=210656|AlignEnd=210789|Gloss=SG.DEM
 5	sulphuric	sulphuric	ADJ	_	_	17	obl:mod	_	AlignBegin=210789|AlignEnd=211247|Gloss=sulphuric
 6	||	||	PUNCT	_	_	11	punct	_	AlignBegin=211247|AlignEnd=211277|Gloss=PUNCT
 7	after	after	ADP	_	_	11	case	_	AlignBegin=211277|AlignEnd=211793|Gloss=after
@@ -1415,24 +1414,24 @@
 16	go	go	AUX	_	Aspect=Prosp	17	aux	_	AlignBegin=213780|AlignEnd=213940|Gloss=PROSP
 17	put	put	VERB	_	_	0	root	_	AlignBegin=213940|AlignEnd=214227|Gloss=put
 18	{	{	PUNCT	_	_	19	punct	_	AlignBegin=214227|AlignEnd=214257|Gloss=PUNCT
-19	STP-	X	X	_	_	17	obj	_	AlignBegin=214257|AlignEnd=214910|Gloss=X
+19	STP~	X	X	_	_	17	obj	_	AlignBegin=214257|AlignEnd=214910|Gloss=X
 20	||	||	PUNCT	_	_	22	punct	_	AlignBegin=214910|AlignEnd=214940|Gloss=PUNCT
 21	#	#	PUNCT	_	_	22	punct	_	AlignBegin=214940|AlignEnd=215380|Gloss=PUNCT
 22	STPP	STPP	PROPN	_	_	19	conj:dicto	_	AlignBegin=215380|AlignEnd=216166|Gloss=STPP
 23	}	}	PUNCT	_	_	19	punct	_	AlignBegin=216166|AlignEnd=216196|Gloss=PUNCT
 24	//	//	PUNCT	_	_	17	punct	_	AlignBegin=216166|AlignEnd=216196|Gloss=PUNCT
 
-# sent_id = LAG_37_Soap-Making_MG__61
+# sent_id = LAG_37_Soap-Making_MG__60
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/LAG_37_Soap-Making_MG.mp3
 # speaker_id = Sp256
 # text = # I go put dat one for three liters of water # because # I no dey like # make my soap dey watery //
 # text_en = I will put that into three liters of water because I don't like my soap to be watery.
-# text_ortho = I go put da one for three liters of water because I no dey like make my soap dey watery.
+# text_ortho = I go put dat one for three liters of water because I no dey like make my soap dey watery.
 1	#	#	PUNCT	_	_	4	punct	_	AlignBegin=216196|AlignEnd=216488|Gloss=PUNCT
 2	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	AlignBegin=216488|AlignEnd=216640|Gloss=NOM.SG.1
 3	go	go	AUX	_	Aspect=Prosp	4	aux	_	AlignBegin=216640|AlignEnd=216780|Gloss=PROSP
 4	put	put	VERB	_	_	0	root	_	AlignBegin=216780|AlignEnd=216965|Gloss=put
-5	dat	dat	DET	_	Number=Sing|PronType=Dem	6	det	_	AlignBegin=216965|AlignEnd=217110|Gloss=SG.DIST.DEM
+5	dat	dat	DET	_	Number=Sing|PronType=Dem	6	det	_	AlignBegin=216965|AlignEnd=217110|Gloss=SG.DEM
 6	one	one	NOUN	_	_	4	obj	_	AlignBegin=217110|AlignEnd=217246|Gloss=one
 7	for	for	ADP	_	_	9	case	_	AlignBegin=217246|AlignEnd=217413|Gloss=for
 8	three	three	NUM	_	NumType=Card	9	nummod:det	_	AlignBegin=217413|AlignEnd=217640|Gloss=three.CARD
@@ -1447,19 +1446,19 @@
 17	dey	dey	AUX	_	Aspect=Imp	18	aux	_	AlignBegin=219831|AlignEnd=219975|Gloss=IPFV
 18	like	like	VERB	_	_	4	advcl	_	AlignBegin=219975|AlignEnd=220293|Gloss=like
 19	#	#	PUNCT	_	_	20	punct	_	AlignBegin=220293|AlignEnd=220506|Gloss=PUNCT
-20	make	make	VERB	_	_	18	xcomp	_	AlignBegin=220506|AlignEnd=220726|Gloss=make
+20	make	make	VERB	_	_	18	xcomp:obj	_	AlignBegin=220506|AlignEnd=220726|Gloss=make
 21	my	my	PRON	_	Number=Sing|Person=1|Poss=Yes	22	nmod:poss	_	AlignBegin=220726|AlignEnd=220876|Gloss=SG.1.POSS
 22	soap	soap	NOUN	_	_	20	obj	_	AlignBegin=220876|AlignEnd=221136|Gloss=soap
-23	dey	dey	VERB	_	VerbType=Cop	20	xcomp	_	AlignBegin=221136|AlignEnd=221343|Gloss=be
-24	watery	watery	ADJ	_	_	23	xcomp	_	AlignBegin=221343|AlignEnd=221770|Gloss=watery
+23	dey	dey	VERB	_	VerbType=Cop	20	xcomp:obj	_	AlignBegin=221136|AlignEnd=221343|Gloss=be
+24	watery	watery	ADJ	_	_	23	xcomp:pred	_	AlignBegin=221343|AlignEnd=221770|Gloss=watery
 25	//	//	PUNCT	_	_	4	punct	_	AlignBegin=221770|AlignEnd=221800|Gloss=PUNCT
 
-# sent_id = LAG_37_Soap-Making_MG__62
+# sent_id = LAG_37_Soap-Making_MG__61
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/LAG_37_Soap-Making_MG.mp3
 # speaker_id = Sp256
 # text = # so if I don do am like dat < # all dose tings < na so >+ I go dey put am # { three || three } liters of water # till # e go reach # eh perfume //
-# text_en = So when I've done all that... all those things, then I'll add three liters of water at intervals till it gets to the uh… perfume.
-# text_ortho = So if I don do am like dat, all dose tings, na so, I go dey put am three three liters of water till e go reach eh... perfume.
+# text_en = So when I've done all that... all those things, then I'll add three liters of water at intervals till it gets to the uh... perfume.
+# text_ortho = So if I don do am like dat, all dose tings, na so I go dey put am three, three liters of water till e go reach eh perfume.
 1	#	#	PUNCT	_	_	17	punct	_	AlignBegin=221800|AlignEnd=222106|Gloss=PUNCT
 2	so	so	ADV	_	_	17	discourse	_	AlignBegin=222106|AlignEnd=222252|Gloss=so
 3	if	if	SCONJ	_	_	6	mark	_	AlignBegin=222252|AlignEnd=222382|Gloss=if
@@ -1471,7 +1470,7 @@
 9	dat	dat	PRON	_	Number=Sing|PronType=Dem	6	obl:mod	_	AlignBegin=223002|AlignEnd=223220|Gloss=SG.DEM
 10	<	<	PUNCT	_	_	6	punct	_	AlignBegin=223220|AlignEnd=223250|Gloss=PUNCT
 11	#	#	PUNCT	_	_	6	punct	_	AlignBegin=223250|AlignEnd=223493|Gloss=PUNCT
-12	all	all	ADV	_	_	14	advmod	_	AlignBegin=223493|AlignEnd=223713|Gloss=all
+12	all	all	ADV	_	_	14	det	_	AlignBegin=223493|AlignEnd=223713|Gloss=all
 13	dose	dose	DET	_	Number=Plur|PronType=Dem	14	det	_	AlignBegin=223713|AlignEnd=223895|Gloss=PL.DIST.DEM
 14	tings	tings	NOUN	_	Number=Plur	17	dislocated	_	AlignBegin=223895|AlignEnd=224068|Gloss=thing.PL
 15	<	<	PUNCT	_	_	14	punct	_	AlignBegin=224068|AlignEnd=224098|Gloss=PUNCT
@@ -1503,7 +1502,7 @@
 41	perfume	perfume	NOUN	_	_	38	obj	_	AlignBegin=229137|AlignEnd=229650|Gloss=perfume
 42	//	//	PUNCT	_	_	17	punct	_	AlignBegin=229650|AlignEnd=229680|Gloss=PUNCT
 
-# sent_id = LAG_37_Soap-Making_MG__63
+# sent_id = LAG_37_Soap-Making_MG__62
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/LAG_37_Soap-Making_MG.mp3
 # speaker_id = Sp256
 # text = # if I don mix everyting like dat < # if water no come reach # di amount wey I wan make e reach < # I fit add am water # because # if soap tick { well |r well } < # people go buy am //
@@ -1525,14 +1524,14 @@
 14	come	con	AUX	_	Aspect=Cons	15	aux	_	AlignBegin=232287|AlignEnd=232575|Gloss=CONS
 15	reach	reach	VERB	_	_	29	advcl:periph	_	AlignBegin=232575|AlignEnd=232820|Gloss=reach
 16	#	#	PUNCT	_	_	18	punct	_	AlignBegin=232820|AlignEnd=233160|Gloss=PUNCT
-17	di	the	DET	_	Definite=Def|PronType=Art	18	det	_	AlignBegin=233160|AlignEnd=233300|Gloss=DEF.ART
+17	di	di	DET	_	Definite=Def|PronType=Art	18	det	_	AlignBegin=233160|AlignEnd=233300|Gloss=DEF.ART
 18	amount	amount	NOUN	_	_	15	obj	_	AlignBegin=233300|AlignEnd=233685|Gloss=amount
 19	wey	wey	SCONJ	_	_	21	mark	_	AlignBegin=233685|AlignEnd=233750|Gloss=REL
 20	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	21	nsubj	_	AlignBegin=233750|AlignEnd=233930|Gloss=NOM.SG.1
 21	wan	want	VERB	_	_	18	acl:relcl	_	AlignBegin=233930|AlignEnd=234080|Gloss=want
 22	make	make	AUX	_	Mood=Opt	24	aux	_	AlignBegin=234080|AlignEnd=234320|Gloss=SBJV
 23	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	AlignBegin=234320|AlignEnd=234410|Gloss=NOM.SG.3
-24	reach	reach	VERB	_	_	21	ccomp	_	AlignBegin=234410|AlignEnd=234611|Gloss=reach
+24	reach	reach	VERB	_	_	21	ccomp:pred	_	AlignBegin=234410|AlignEnd=234611|Gloss=reach
 25	<	<	PUNCT	_	_	15	punct	_	AlignBegin=234611|AlignEnd=234641|Gloss=PUNCT
 26	#	#	PUNCT	_	_	15	punct	_	AlignBegin=234641|AlignEnd=234960|Gloss=PUNCT
 27	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	29	nsubj	_	AlignBegin=234960|AlignEnd=235080|Gloss=NOM.SG.1
@@ -1559,7 +1558,7 @@
 48	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	47	obj	_	AlignBegin=239043|AlignEnd=239217|Gloss=ACC.SG.3
 49	//	//	PUNCT	_	_	29	punct	_	AlignBegin=239217|AlignEnd=239247|Gloss=PUNCT
 
-# sent_id = LAG_37_Soap-Making_MG__64
+# sent_id = LAG_37_Soap-Making_MG__63
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/LAG_37_Soap-Making_MG.mp3
 # speaker_id = Sp256
 # text = # if e too watery < # e no go dey foam { well |r well } //
@@ -1584,12 +1583,12 @@
 17	}	}	PUNCT	_	_	14	punct	_	AlignBegin=241830|AlignEnd=241860|Gloss=PUNCT
 18	//	//	PUNCT	_	_	12	punct	_	AlignBegin=241830|AlignEnd=241860|Gloss=PUNCT
 
-# sent_id = LAG_37_Soap-Making_MG__65
+# sent_id = LAG_37_Soap-Making_MG__64
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/LAG_37_Soap-Making_MG.mp3
 # speaker_id = Sp256
 # text = # so na so >+ I dey do my own //
 # text_en = So that's how I do mine.
-# text_ortho = So na so, I dey do my own.
+# text_ortho = So na so I dey do my own.
 1	#	#	PUNCT	_	_	4	punct	_	AlignBegin=241860|AlignEnd=242144|Gloss=PUNCT
 2	so	so	ADV	_	_	4	discourse	_	AlignBegin=242144|AlignEnd=242285|Gloss=so
 3	na	na	AUX	_	PartType=Cop	4	cop	_	AlignBegin=242285|AlignEnd=242443|Gloss=be
@@ -1598,11 +1597,11 @@
 6	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	AlignBegin=242573|AlignEnd=242683|Gloss=NOM.SG.1
 7	dey	dey	AUX	_	Aspect=Imp	8	aux	_	AlignBegin=242683|AlignEnd=242816|Gloss=IPFV
 8	do	do	VERB	_	_	4	advcl:cleft	_	AlignBegin=242816|AlignEnd=242975|Gloss=do
-9	my	my	ADJ	_	Number=Sing|Person=1|Poss=Yes	10	amod	_	AlignBegin=242975|AlignEnd=243154|Gloss=SG.1.POSS
+9	my	my	PRON	_	Number=Sing|Person=1|Poss=Yes	10	nmod	_	AlignBegin=242975|AlignEnd=243154|Gloss=SG.1.POSS
 10	own	own	ADJ	_	_	8	obj	_	AlignBegin=243154|AlignEnd=243290|Gloss=own
 11	//	//	PUNCT	_	_	4	punct	_	AlignBegin=243290|AlignEnd=243320|Gloss=PUNCT
 
-# sent_id = LAG_37_Soap-Making_MG__66
+# sent_id = LAG_37_Soap-Making_MG__65
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/LAG_37_Soap-Making_MG.mp3
 # speaker_id = Sp256
 # text = # and I dey tank God for my life # because I no be liability for my husband //
@@ -1625,10 +1624,10 @@
 15	liability	liability	NOUN	_	_	5	advcl	_	AlignBegin=246430|AlignEnd=246910|Gloss=liability
 16	for	for	ADP	_	_	18	case	_	AlignBegin=246910|AlignEnd=247060|Gloss=for
 17	my	my	PRON	_	Number=Sing|Person=1|Poss=Yes	18	nmod:poss	_	AlignBegin=247060|AlignEnd=247249|Gloss=SG.1.POSS
-18	husband	husband	NOUN	_	_	15	obl:arg	_	AlignBegin=247249|AlignEnd=247590|Gloss=husband
+18	husband	husband	NOUN	_	_	15	dep:comp	_	AlignBegin=247249|AlignEnd=247590|Gloss=husband
 19	//	//	PUNCT	_	_	5	punct	_	AlignBegin=247590|AlignEnd=247620|Gloss=PUNCT
 
-# sent_id = LAG_37_Soap-Making_MG__67
+# sent_id = LAG_37_Soap-Making_MG__66
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/LAG_37_Soap-Making_MG.mp3
 # speaker_id = Sp256
 # text = # people dey buy o !//
@@ -1641,15 +1640,15 @@
 5	o	o	PART	_	PartType=Disc	4	advmod:emph	_	AlignBegin=250022|AlignEnd=250070|Gloss=EMPH
 6	!//	!//	PUNCT	_	_	4	punct	_	AlignBegin=250070|AlignEnd=250100|Gloss=PUNCT
 
-# sent_id = LAG_37_Soap-Making_MG__68
+# sent_id = LAG_37_Soap-Making_MG__67
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/LAG_37_Soap-Making_MG.mp3
 # speaker_id = Sp256
 # text = # even dis my sista < # na my soap >+ im dey use wash cloth //
 # text_en = Even this sister of mine, she uses my soap to wash clothes.
-# text_ortho = Even dis my sista, na my soap, im dey use wash cloth.
+# text_ortho = Even dis my sista, na my soap im dey use wash cloth.
 1	#	#	PUNCT	_	_	10	punct	_	AlignBegin=250100|AlignEnd=250480|Gloss=PUNCT
 2	even	even	ADV	_	_	5	advmod	_	AlignBegin=250480|AlignEnd=250740|Gloss=even
-3	dis	dis	DET	_	Number=Sing|PronType=Dem	5	det	_	AlignBegin=250740|AlignEnd=250930|Gloss=SG.PROX.DEM
+3	dis	dis	DET	_	Number=Sing|PronType=Dem	5	det	_	AlignBegin=250740|AlignEnd=250930|Gloss=SG.DEM
 4	my	my	PRON	_	Number=Sing|Person=1|Poss=Yes	5	nmod:poss	_	AlignBegin=250930|AlignEnd=251104|Gloss=SG.1.POSS
 5	sista	sista	NOUN	_	_	10	dislocated	_	AlignBegin=251104|AlignEnd=251430|Gloss=sister
 6	<	<	PUNCT	_	_	5	punct	_	AlignBegin=251430|AlignEnd=251460|Gloss=PUNCT
@@ -1665,7 +1664,7 @@
 16	cloth	cloth	NOUN	_	_	15	obj	_	AlignBegin=252990|AlignEnd=253251|Gloss=cloth
 17	//	//	PUNCT	_	_	10	punct	_	AlignBegin=253251|AlignEnd=253281|Gloss=PUNCT
 
-# sent_id = LAG_37_Soap-Making_MG__69
+# sent_id = LAG_37_Soap-Making_MG__68
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/LAG_37_Soap-Making_MG.mp3
 # speaker_id = Sp256
 # text = # all of my compound people dem dey buy # soap for my hand //
@@ -1676,7 +1675,7 @@
 3	of	of	ADP	_	_	6	case	_	AlignBegin=253920|AlignEnd=254070|Gloss=of
 4	my	my	PRON	_	Number=Sing|Person=1|Poss=Yes	6	nmod:poss	_	AlignBegin=254070|AlignEnd=254200|Gloss=SG.1.POSS
 5	compound	compound	NOUN	_	_	6	compound	_	AlignBegin=254200|AlignEnd=254610|Gloss=compound
-6	people	people	NOUN	_	Number=Plur	2	obl:mod	_	AlignBegin=254610|AlignEnd=254893|Gloss=people.PL
+6	people	people	NOUN	_	Number=Plur	2	obl	_	AlignBegin=254610|AlignEnd=254893|Gloss=people.PL
 7	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	AlignBegin=254893|AlignEnd=255050|Gloss=NOM.PL.3
 8	dey	dey	AUX	_	Aspect=Imp	9	aux	_	AlignBegin=255050|AlignEnd=255170|Gloss=IPFV
 9	buy	buy	VERB	_	_	0	root	_	AlignBegin=255170|AlignEnd=255386|Gloss=buy
@@ -1687,7 +1686,7 @@
 14	hand	hand	NOUN	_	_	9	obl:arg	_	AlignBegin=256211|AlignEnd=256442|Gloss=hand
 15	//	//	PUNCT	_	_	9	punct	_	AlignBegin=256442|AlignEnd=256472|Gloss=PUNCT
 
-# sent_id = LAG_37_Soap-Making_MG__70
+# sent_id = LAG_37_Soap-Making_MG__69
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/LAG_37_Soap-Making_MG.mp3
 # speaker_id = Sp256
 # text = # dem dey buy am //
@@ -1700,7 +1699,7 @@
 5	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	4	obj	_	AlignBegin=257575|AlignEnd=257663|Gloss=ACC.SG.3
 6	//	//	PUNCT	_	_	4	punct	_	AlignBegin=257663|AlignEnd=257693|Gloss=PUNCT
 
-# sent_id = LAG_37_Soap-Making_MG__71
+# sent_id = LAG_37_Soap-Making_MG__70
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/LAG_37_Soap-Making_MG.mp3
 # speaker_id = Sp256
 # text = # people for street sef < dem dey buy # cause de know sey [ my soap dey okay ] //
@@ -1716,19 +1715,19 @@
 8	dey	dey	AUX	_	Aspect=Imp	9	aux	_	AlignBegin=258937|AlignEnd=259092|Gloss=IPFV
 9	buy	buy	VERB	_	_	0	root	_	AlignBegin=259092|AlignEnd=259290|Gloss=buy
 10	#	#	PUNCT	_	_	13	punct	_	AlignBegin=259320|AlignEnd=259780|Gloss=PUNCT
-11	cause	cause	SCONJ	_	_	13	mark	_	AlignBegin=259780|AlignEnd=259932|Gloss=because
+11	cause	because	SCONJ	_	_	13	mark	_	AlignBegin=259780|AlignEnd=259932|Gloss=because
 12	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	13	nsubj	_	AlignBegin=259932|AlignEnd=260031|Gloss=NOM.PL.3
 13	know	know	VERB	_	_	9	advcl	_	AlignBegin=260031|AlignEnd=260232|Gloss=know
 14	sey	sey	SCONJ	_	_	18	mark	_	AlignBegin=260232|AlignEnd=260470|Gloss=COMP
 15	[	[	PUNCT	_	_	18	punct	_	AlignBegin=260470|AlignEnd=260500|Gloss=PUNCT
 16	my	my	PRON	_	Number=Sing|Person=1|Poss=Yes	17	nmod:poss	_	AlignBegin=260500|AlignEnd=260650|Gloss=SG.1.POSS
 17	soap	soap	NOUN	_	_	18	nsubj	_	AlignBegin=260650|AlignEnd=261087|Gloss=soap
-18	dey	dey	VERB	_	VerbType=Cop	13	ccomp	_	AlignBegin=261087|AlignEnd=261316|Gloss=be
-19	okay	OK	INTJ	_	_	18	xcomp	_	AlignBegin=261316|AlignEnd=261688|Gloss=OK
+18	dey	dey	VERB	_	VerbType=Cop	13	ccomp:obj	_	AlignBegin=261087|AlignEnd=261316|Gloss=be
+19	okay	OK	INTJ	_	_	18	xcomp:pred	_	AlignBegin=261316|AlignEnd=261688|Gloss=OK
 20	]	]	PUNCT	_	_	18	punct	_	AlignBegin=261688|AlignEnd=261718|Gloss=PUNCT
 21	//	//	PUNCT	_	_	9	punct	_	AlignBegin=261688|AlignEnd=261718|Gloss=PUNCT
 
-# sent_id = LAG_37_Soap-Making_MG__72
+# sent_id = LAG_37_Soap-Making_MG__71
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/LAG_37_Soap-Making_MG.mp3
 # speaker_id = Sp256
 # text = # I fit carry one # make you perceive di odour //
@@ -1743,21 +1742,21 @@
 7	make	make	AUX	_	Mood=Opt	9	aux	_	AlignBegin=263225|AlignEnd=263445|Gloss=SBJV
 8	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	9	nsubj	_	AlignBegin=263445|AlignEnd=263505|Gloss=NOM.2
 9	perceive	perceive	VERB	_	_	4	advcl	_	AlignBegin=263505|AlignEnd=263933|Gloss=perceive
-10	di	the	DET	_	Definite=Def|PronType=Art	11	det	_	AlignBegin=263933|AlignEnd=264055|Gloss=DEF.ART
+10	di	di	DET	_	Definite=Def|PronType=Art	11	det	_	AlignBegin=263933|AlignEnd=264055|Gloss=DEF.ART
 11	odour	odour	NOUN	_	_	9	obj	_	AlignBegin=264055|AlignEnd=264359|Gloss=odour
 12	//	//	PUNCT	_	_	4	punct	_	AlignBegin=264359|AlignEnd=264389|Gloss=PUNCT
 
-# sent_id = LAG_37_Soap-Making_MG__73
+# sent_id = LAG_37_Soap-Making_MG__72
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/LAG_37_Soap-Making_MG.mp3
 # speaker_id = Sp256
 # text = # di ting dey okay { well |r well } //
 # text_en = The thing is really great.
 # text_ortho = Di ting dey okay well, well.
 1	#	#	PUNCT	_	_	4	punct	_	AlignBegin=264389|AlignEnd=264662|Gloss=PUNCT
-2	di	the	DET	_	Definite=Def|PronType=Art	3	det	_	AlignBegin=264662|AlignEnd=264777|Gloss=DEF.ART
+2	di	di	DET	_	Definite=Def|PronType=Art	3	det	_	AlignBegin=264662|AlignEnd=264777|Gloss=DEF.ART
 3	ting	ting	NOUN	_	_	4	nsubj	_	AlignBegin=264777|AlignEnd=265014|Gloss=thing
 4	dey	dey	VERB	_	VerbType=Cop	0	root	_	AlignBegin=265014|AlignEnd=265177|Gloss=be
-5	okay	OK	INTJ	_	_	4	xcomp	_	AlignBegin=265177|AlignEnd=265462|Gloss=OK
+5	okay	OK	INTJ	_	_	4	xcomp:pred	_	AlignBegin=265177|AlignEnd=265462|Gloss=OK
 6	{	{	PUNCT	_	_	7	punct	_	AlignBegin=265462|AlignEnd=265492|Gloss=PUNCT
 7	well	well	ADV	_	_	5	advmod	_	AlignBegin=265492|AlignEnd=265699|Gloss=well
 8	|r	|r	PUNCT	_	_	9	punct	_	AlignBegin=265699|AlignEnd=265729|Gloss=PUNCT
@@ -1765,7 +1764,7 @@
 10	}	}	PUNCT	_	_	7	punct	_	AlignBegin=265890|AlignEnd=265920|Gloss=PUNCT
 11	//	//	PUNCT	_	_	4	punct	_	AlignBegin=265890|AlignEnd=265920|Gloss=PUNCT
 
-# sent_id = LAG_37_Soap-Making_MG__74
+# sent_id = LAG_37_Soap-Making_MG__73
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/LAG_37_Soap-Making_MG.mp3
 # speaker_id = Sp256
 # text = # you fit use am wash plate //= # you fit use am wash cloth //= # you fit use am { wash your toilet |c # mop your kitchen } //
@@ -1804,7 +1803,7 @@
 31	}	}	PUNCT	_	_	23	punct	_	AlignBegin=273563|AlignEnd=273593|Gloss=PUNCT
 32	//	//	PUNCT	_	_	4	punct	_	AlignBegin=273563|AlignEnd=273593|Gloss=PUNCT
 
-# sent_id = LAG_37_Soap-Making_MG__75
+# sent_id = LAG_37_Soap-Making_MG__74
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/LAG_37_Soap-Making_MG.mp3
 # speaker_id = Sp256
 # text = # { anywhere |r anywhere } < # { anyting |r anyting } < you fit use am do //
@@ -1831,7 +1830,7 @@
 19	do	do	VERB	_	_	17	compound:svc	_	AlignBegin=276352|AlignEnd=276498|Gloss=do
 20	//	//	PUNCT	_	_	17	punct	_	AlignBegin=276498|AlignEnd=276528|Gloss=PUNCT
 
-# sent_id = LAG_37_Soap-Making_MG__76
+# sent_id = LAG_37_Soap-Making_MG__75
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/LAG_37_Soap-Making_MG.mp3
 # speaker_id = Sp256
 # text = # nothing do am //
@@ -1843,7 +1842,7 @@
 4	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	3	obj	_	AlignBegin=277530|AlignEnd=277600|Gloss=ACC.SG.3
 5	//	//	PUNCT	_	_	3	punct	_	AlignBegin=277600|AlignEnd=277630|Gloss=PUNCT
 
-# sent_id = LAG_37_Soap-Making_MG__77
+# sent_id = LAG_37_Soap-Making_MG__76
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/LAG_37_Soap-Making_MG.mp3
 # speaker_id = Sp256
 # text = no shaking //
@@ -1853,7 +1852,7 @@
 2	shaking	shaking	VERB	_	_	0	root	_	AlignBegin=277850|AlignEnd=278299|Gloss=shaking
 3	//	//	PUNCT	_	_	2	punct	_	AlignBegin=278299|AlignEnd=278329|Gloss=PUNCT
 
-# sent_id = LAG_37_Soap-Making_MG__78
+# sent_id = LAG_37_Soap-Making_MG__77
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/LAG_37_Soap-Making_MG.mp3
 # speaker_id = Sp256
 # text = # so # I dey kampe //
@@ -1864,6 +1863,6 @@
 3	#	#	PUNCT	_	_	2	punct	_	AlignBegin=279755|AlignEnd=280386|Gloss=PUNCT
 4	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	AlignBegin=280386|AlignEnd=280551|Gloss=NOM.SG.1
 5	dey	dey	VERB	_	VerbType=Cop	0	root	_	AlignBegin=280551|AlignEnd=280769|Gloss=be
-6	kampe	kampe	ADJ	_	_	5	xcomp	_	AlignBegin=280769|AlignEnd=281170|Gloss=very_well
+6	kampe	kampe	ADJ	_	_	5	xcomp:pred	_	AlignBegin=280769|AlignEnd=281170|Gloss=very_well
 7	//	//	PUNCT	_	_	5	punct	_	AlignBegin=281170|AlignEnd=281200|Gloss=PUNCT
 

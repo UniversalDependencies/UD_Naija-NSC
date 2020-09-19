@@ -1,3 +1,4 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = ONI_27_A-Hotelier-Interview_MG__1
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_27_A-Hotelier-Interview_MG.mp3
 # speaker_id = Sp461
@@ -6,7 +7,7 @@
 # text_ortho = Who dey dere?
 1	who	who	PRON	_	PronType=Int	0	root	_	AlignBegin=720|AlignEnd=800|Gloss=who.Q
 2	dey	dey	VERB	_	VerbType=Cop	1	advcl:cleft	_	AlignBegin=800|AlignEnd=990|Gloss=be
-3	dere	dere	ADV	_	_	2	xcomp	_	AlignBegin=990|AlignEnd=1100|Gloss=there
+3	dere	dere	ADV	_	_	2	xcomp:pred	_	AlignBegin=990|AlignEnd=1100|Gloss=there
 4	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=1100|AlignEnd=1130|Gloss=PUNCT
 
 # sent_id = ONI_27_A-Hotelier-Interview_MG__2
@@ -34,7 +35,7 @@
 # speaker_id = Sp461
 # text = # na so >+ my life be now //
 # text_en = This is how my life is now.
-# text_ortho = Na so, my life be now.
+# text_ortho = Na so my life be now.
 1	#	#	PUNCT	_	_	3	punct	_	AlignBegin=2900|AlignEnd=3560|Gloss=PUNCT
 2	na	na	AUX	_	PartType=Cop	3	cop	_	AlignBegin=3560|AlignEnd=3700|Gloss=be
 3	so	so	ADV	_	_	0	root	_	AlignBegin=3700|AlignEnd=3880|Gloss=so
@@ -90,7 +91,7 @@
 # speaker_id = Sp461
 # text = na since two thousand and thirteen # >+ wey I dey here //
 # text_en = I've been here since two thousand and thirteen.
-# text_ortho = Na since two thousand and thirteen, wey I dey here.
+# text_ortho = Na since two thousand and thirteen wey I dey here.
 1	na	na	AUX	_	PartType=Cop	4	cop	_	AlignBegin=8260|AlignEnd=8420|Gloss=be
 2	since	since	ADP	_	_	4	case	_	AlignBegin=8420|AlignEnd=8640|Gloss=since
 3	two	two	NUM	_	NumType=Card	4	nummod:det	_	AlignBegin=8640|AlignEnd=8740|Gloss=two.CARD
@@ -102,7 +103,7 @@
 9	wey	when	SCONJ	_	_	11	mark	_	AlignBegin=9800|AlignEnd=9870|Gloss=when
 10	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	AlignBegin=9870|AlignEnd=9960|Gloss=NOM.SG.1
 11	dey	dey	VERB	_	VerbType=Cop	4	advcl:cleft	_	AlignBegin=9960|AlignEnd=10240|Gloss=be
-12	here	here	ADV	_	_	11	xcomp	_	AlignBegin=10240|AlignEnd=10390|Gloss=here
+12	here	here	ADV	_	_	11	xcomp:pred	_	AlignBegin=10240|AlignEnd=10390|Gloss=here
 13	//	//	PUNCT	_	_	4	punct	_	AlignBegin=10390|AlignEnd=10420|Gloss=PUNCT
 
 # sent_id = ONI_27_A-Hotelier-Interview_MG__9
@@ -123,8 +124,8 @@
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_27_A-Hotelier-Interview_MG.mp3
 # speaker_id = Sp461
 # text = # I no get any problem { for di workers |c # for di manager |c # for { di || dose } women } wey dey here //
-# text_en = I don't have any problem with the workers, the manager and the… those women here.
-# text_ortho = I no get any problem for di workers, for di manager, for di dose women wey dey here.
+# text_en = I don't have any problem with the workers, the manager and the... those women here.
+# text_ortho = I no get any problem for di workers, for di manager, for di, dose women wey dey here.
 1	#	#	PUNCT	_	_	4	punct	_	AlignBegin=12100|AlignEnd=12480|Gloss=PUNCT
 2	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	AlignBegin=12480|AlignEnd=12560|Gloss=NOM.SG.1
 3	no	no	PART	_	Polarity=Neg	4	advmod	_	AlignBegin=12560|AlignEnd=12770|Gloss=NEG
@@ -133,18 +134,18 @@
 6	problem	problem	NOUN	_	_	4	obj	_	AlignBegin=13010|AlignEnd=13680|Gloss=problem
 7	{	{	PUNCT	_	_	10	punct	_	AlignBegin=13680|AlignEnd=13710|Gloss=PUNCT
 8	for	for	ADP	_	_	10	case	_	AlignBegin=13710|AlignEnd=13960|Gloss=for
-9	di	the	DET	_	Definite=Def|PronType=Art	10	det	_	AlignBegin=13960|AlignEnd=14110|Gloss=DEF.ART
+9	di	di	DET	_	Definite=Def|PronType=Art	10	det	_	AlignBegin=13960|AlignEnd=14110|Gloss=DEF.ART
 10	workers	worker	NOUN	_	Number=Plur	4	obl:arg	_	AlignBegin=14110|AlignEnd=14690|Gloss=worker.PL
 11	|c	|c	PUNCT	_	_	15	punct	_	AlignBegin=14690|AlignEnd=14720|Gloss=PUNCT
 12	#	#	PUNCT	_	_	15	punct	_	AlignBegin=14720|AlignEnd=15100|Gloss=PUNCT
 13	for	for	ADP	_	_	15	case	_	AlignBegin=15100|AlignEnd=15180|Gloss=for
-14	di	the	DET	_	Definite=Def|PronType=Art	15	det	_	AlignBegin=15180|AlignEnd=15320|Gloss=DEF.ART
+14	di	di	DET	_	Definite=Def|PronType=Art	15	det	_	AlignBegin=15180|AlignEnd=15320|Gloss=DEF.ART
 15	manager	manager	NOUN	_	_	10	conj	_	AlignBegin=15320|AlignEnd=16010|Gloss=manager
 16	|c	|c	PUNCT	_	_	24	punct	_	AlignBegin=16010|AlignEnd=16040|Gloss=PUNCT
 17	#	#	PUNCT	_	_	24	punct	_	AlignBegin=16040|AlignEnd=16160|Gloss=PUNCT
 18	for	for	ADP	_	_	24	case	_	AlignBegin=16160|AlignEnd=16280|Gloss=for
 19	{	{	PUNCT	_	_	20	punct	_	AlignBegin=16280|AlignEnd=16480|Gloss=PUNCT
-20	di	the	DET	_	Definite=Def|PronType=Art	24	det	_	AlignBegin=16280|AlignEnd=16480|Gloss=DEF.ART
+20	di	di	DET	_	Definite=Def|PronType=Art	24	det	_	AlignBegin=16280|AlignEnd=16480|Gloss=DEF.ART
 21	||	||	PUNCT	_	_	22	punct	_	AlignBegin=16480|AlignEnd=16840|Gloss=PUNCT
 22	dose	dose	DET	_	Number=Plur|PronType=Dem	20	conj:dicto	_	AlignBegin=16480|AlignEnd=16840|Gloss=PL.DIST.DEM
 23	}	}	PUNCT	_	_	20	punct	_	AlignBegin=16480|AlignEnd=16840|Gloss=PUNCT
@@ -152,7 +153,7 @@
 25	}	}	PUNCT	_	_	10	punct	_	AlignBegin=17040|AlignEnd=17070|Gloss=PUNCT
 26	wey	wey	SCONJ	_	_	27	mark	_	AlignBegin=17070|AlignEnd=17240|Gloss=REL
 27	dey	dey	VERB	_	VerbType=Cop	24	acl:relcl	_	AlignBegin=17240|AlignEnd=17470|Gloss=be
-28	here	here	ADV	_	_	27	xcomp	_	AlignBegin=17470|AlignEnd=17590|Gloss=here
+28	here	here	ADV	_	_	27	xcomp:pred	_	AlignBegin=17470|AlignEnd=17590|Gloss=here
 29	//	//	PUNCT	_	_	4	punct	_	AlignBegin=17590|AlignEnd=17620|Gloss=PUNCT
 
 # sent_id = ONI_27_A-Hotelier-Interview_MG__11
@@ -163,7 +164,7 @@
 # text_ortho = Na dat place, na women.
 1	#	#	PUNCT	_	_	7	punct	_	AlignBegin=17620|AlignEnd=18060|Gloss=PUNCT
 2	na	na	AUX	_	PartType=Cop	7	discourse	_	AlignBegin=18060|AlignEnd=18200|Gloss=be
-3	dat	dat	DET	_	Number=Sing|PronType=Dem	4	det	_	AlignBegin=18200|AlignEnd=18430|Gloss=SG.DIST.DEM
+3	dat	dat	DET	_	Number=Sing|PronType=Dem	4	det	_	AlignBegin=18200|AlignEnd=18430|Gloss=SG.DEM
 4	place	place	NOUN	_	_	7	dislocated	_	AlignBegin=18430|AlignEnd=18770|Gloss=place
 5	<	<	PUNCT	_	_	7	punct	_	AlignBegin=18770|AlignEnd=18800|Gloss=PUNCT
 6	na	na	AUX	_	PartType=Cop	7	cop	_	AlignBegin=18800|AlignEnd=19080|Gloss=be
@@ -174,8 +175,8 @@
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_27_A-Hotelier-Interview_MG.mp3
 # speaker_id = Sp461
 # text = # na de call am ( # on child dialysis ) CWO //
-# text_en = "It's… they call it ""on child dialysis"", CWO."
-# text_ortho = "Na de call am ""on child dialysis"" CWO."
+# text_en = It's... they call it "on child dialysis", CWO.
+# text_ortho = Na de call am (on child dialysis) CWO.
 1	#	#	PUNCT	_	_	4	punct	_	AlignBegin=19560|AlignEnd=19750|Gloss=PUNCT
 2	na	na	AUX	_	PartType=Cop	4	discourse	_	AlignBegin=19750|AlignEnd=20050|Gloss=be
 3	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	AlignBegin=20050|AlignEnd=20200|Gloss=NOM.PL.3
@@ -185,9 +186,9 @@
 7	#	#	PUNCT	_	_	10	punct	_	AlignBegin=20659|AlignEnd=21274|Gloss=PUNCT
 8	on	on	ADP	_	_	10	case	_	AlignBegin=21274|AlignEnd=21434|Gloss=on
 9	child	child	NOUN	_	_	10	compound	_	AlignBegin=21434|AlignEnd=21734|Gloss=child
-10	dialysis	dialysis	NOUN	_	_	12	xcomp	_	AlignBegin=21734|AlignEnd=22194|Gloss=dialysis
+10	dialysis	dialysis	NOUN	_	_	12	xcomp:pred	_	AlignBegin=21734|AlignEnd=22194|Gloss=dialysis
 11	)	)	PUNCT	_	_	10	punct	_	AlignBegin=22194|AlignEnd=22224|Gloss=PUNCT
-12	CWO	CWO	PROPN	_	_	4	xcomp	_	AlignBegin=22224|AlignEnd=22890|Gloss=CWO
+12	CWO	CWO	PROPN	_	_	4	xcomp:pred	_	AlignBegin=22224|AlignEnd=22890|Gloss=CWO
 13	//	//	PUNCT	_	_	4	punct	_	AlignBegin=22890|AlignEnd=22920|Gloss=PUNCT
 
 # sent_id = ONI_27_A-Hotelier-Interview_MG__13
@@ -200,7 +201,7 @@
 2	high	high	ADJ	_	_	3	amod	_	AlignBegin=23300|AlignEnd=23390|Gloss=high
 3	dialysis	dialysis	NOUN	_	_	4	nsubj	_	AlignBegin=23390|AlignEnd=23990|Gloss=dialysis
 4	get	get	VERB	_	_	0	root	_	AlignBegin=23990|AlignEnd=24130|Gloss=get
-5	dat	dat	DET	_	Number=Sing|PronType=Dem	6	det	_	AlignBegin=24130|AlignEnd=24320|Gloss=SG.DIST.DEM
+5	dat	dat	DET	_	Number=Sing|PronType=Dem	6	det	_	AlignBegin=24130|AlignEnd=24320|Gloss=SG.DEM
 6	place	place	NOUN	_	_	4	obj	_	AlignBegin=24320|AlignEnd=24650|Gloss=place
 7	//	//	PUNCT	_	_	4	punct	_	AlignBegin=24650|AlignEnd=24680|Gloss=PUNCT
 
@@ -211,7 +212,7 @@
 # text_en = That place isn't a hotel, it's a guesthouse.
 # text_ortho = Dat place no be hotel, na guesthouse.
 1	#	#	PUNCT	_	_	6	punct	_	AlignBegin=24680|AlignEnd=25178|Gloss=PUNCT
-2	dat	dat	DET	_	Number=Sing|PronType=Dem	3	det	_	AlignBegin=25178|AlignEnd=25338|Gloss=SG.DIST.DEM
+2	dat	dat	DET	_	Number=Sing|PronType=Dem	3	det	_	AlignBegin=25178|AlignEnd=25338|Gloss=SG.DEM
 3	place	place	NOUN	_	_	6	nsubj	_	AlignBegin=25338|AlignEnd=25648|Gloss=place
 4	no	no	PART	_	Polarity=Neg	6	advmod	_	AlignBegin=25648|AlignEnd=25828|Gloss=NEG
 5	be	be	AUX	_	PartType=Cop	6	cop	_	AlignBegin=25828|AlignEnd=26078|Gloss=be
@@ -234,7 +235,7 @@
 4	dey	dey	AUX	_	Aspect=Imp	5	aux	_	AlignBegin=29330|AlignEnd=29390|Gloss=IPFV
 5	call	call	VERB	_	_	0	root	_	AlignBegin=29390|AlignEnd=29570|Gloss=call
 6	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	5	obj	_	AlignBegin=29570|AlignEnd=29720|Gloss=ACC.SG.3
-7	hotel	hotel	NOUN	_	_	5	xcomp	_	AlignBegin=29720|AlignEnd=30050|Gloss=hotel
+7	hotel	hotel	NOUN	_	_	5	xcomp:pred	_	AlignBegin=29720|AlignEnd=30050|Gloss=hotel
 8	//	//	PUNCT	_	_	5	punct	_	AlignBegin=30050|AlignEnd=30080|Gloss=PUNCT
 
 # sent_id = ONI_27_A-Hotelier-Interview_MG__16
@@ -242,7 +243,7 @@
 # speaker_id = Sp461
 # text = na { guesthouse || # lodging accommodation } //
 # text_en = It's a guesthouse lodging.
-# text_ortho = Na guesthouse lodging accommodation.
+# text_ortho = Na guesthouse, lodging accommodation.
 1	na	na	AUX	_	PartType=Cop	3	cop	_	AlignBegin=30080|AlignEnd=30310|Gloss=be
 2	{	{	PUNCT	_	_	3	punct	_	AlignBegin=30310|AlignEnd=30340|Gloss=PUNCT
 3	guesthouse	guesthouse	NOUN	_	_	0	root	_	AlignBegin=30340|AlignEnd=30930|Gloss=guesthouse
@@ -287,11 +288,11 @@
 # speaker_id = Sp461
 # text = # if na dat place >+ wey you go see < # go see hotel now for GRA !//
 # text_en = If it's something else that you are looking for, go look for a hotel in the GRA.
-# text_ortho = If na dat place, wey you go see, go see hotel now for GRA!
+# text_ortho = If na dat place wey you go see, go see hotel now for GRA!
 1	#	#	PUNCT	_	_	13	punct	_	AlignBegin=37000|AlignEnd=37440|Gloss=PUNCT
 2	if	if	SCONJ	_	_	5	mark	_	AlignBegin=37440|AlignEnd=37660|Gloss=if
 3	na	na	AUX	_	PartType=Cop	5	cop	_	AlignBegin=37660|AlignEnd=37820|Gloss=be
-4	dat	dat	DET	_	Number=Sing|PronType=Dem	5	det	_	AlignBegin=37820|AlignEnd=37990|Gloss=SG.DIST.DEM
+4	dat	dat	DET	_	Number=Sing|PronType=Dem	5	det	_	AlignBegin=37820|AlignEnd=37990|Gloss=SG.DEM
 5	place	place	NOUN	_	_	13	advcl:periph	_	AlignBegin=37990|AlignEnd=38170|Gloss=place
 6	>+	>+	PUNCT	_	_	10	punct	_	AlignBegin=38200|AlignEnd=38280|Gloss=PUNCT
 7	wey	when	SCONJ	_	_	10	mark	_	AlignBegin=38200|AlignEnd=38280|Gloss=when
@@ -301,7 +302,7 @@
 11	<	<	PUNCT	_	_	5	punct	_	AlignBegin=38750|AlignEnd=38780|Gloss=PUNCT
 12	#	#	PUNCT	_	_	5	punct	_	AlignBegin=38780|AlignEnd=39100|Gloss=PUNCT
 13	go	go	VERB	_	_	0	root	_	AlignBegin=39100|AlignEnd=39280|Gloss=go
-14	see	see	VERB	_	_	13	xcomp	_	AlignBegin=39280|AlignEnd=39480|Gloss=see
+14	see	see	VERB	_	_	13	xcomp:obj	_	AlignBegin=39280|AlignEnd=39480|Gloss=see
 15	hotel	hotel	NOUN	_	_	14	obj	_	AlignBegin=39480|AlignEnd=39790|Gloss=hotel
 16	now	now	ADV	_	_	14	advmod	_	AlignBegin=39790|AlignEnd=40060|Gloss=now
 17	for	for	ADP	_	_	18	case	_	AlignBegin=40060|AlignEnd=40290|Gloss=for
@@ -318,7 +319,7 @@
 2	if	if	SCONJ	_	_	4	mark	_	AlignBegin=41220|AlignEnd=41440|Gloss=if
 3	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	AlignBegin=41440|AlignEnd=41500|Gloss=NOM.2
 4	reach	reach	VERB	_	_	10	advcl:periph	_	AlignBegin=41500|AlignEnd=41710|Gloss=reach
-5	dat	dat	DET	_	Number=Sing|PronType=Dem	6	det	_	AlignBegin=41710|AlignEnd=41950|Gloss=SG.DIST.DEM
+5	dat	dat	DET	_	Number=Sing|PronType=Dem	6	det	_	AlignBegin=41710|AlignEnd=41950|Gloss=SG.DEM
 6	place	place	NOUN	_	_	4	obj	_	AlignBegin=41950|AlignEnd=42200|Gloss=place
 7	<	<	PUNCT	_	_	4	punct	_	AlignBegin=42200|AlignEnd=42230|Gloss=PUNCT
 8	people	people	NOUN	_	Number=Plur	10	nsubj	_	AlignBegin=42230|AlignEnd=42460|Gloss=people.PL
@@ -357,20 +358,20 @@
 4	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	6	nsubj	_	AlignBegin=46630|AlignEnd=46690|Gloss=NOM.2
 5	go	go	AUX	_	Aspect=Prosp	6	aux	_	AlignBegin=46690|AlignEnd=46820|Gloss=PROSP
 6	see	see	VERB	_	_	0	root	_	AlignBegin=46820|AlignEnd=46990|Gloss=see
-7	dat	dat	SCONJ	_	_	13	mark	_	AlignBegin=46990|AlignEnd=47230|Gloss=that
+7	dat	dat	SCONJ	_	_	13	mark	_	AlignBegin=46990|AlignEnd=47230|Gloss=COMP
 8	[	[	PUNCT	_	_	10	punct	_	AlignBegin=47230|AlignEnd=47360|Gloss=PUNCT
 9	two	two	NUM	_	NumType=Card	10	nummod:det	_	AlignBegin=47230|AlignEnd=47360|Gloss=two.CARD
 10	boy	boy	NOUN	_	_	13	dislocated	_	AlignBegin=47360|AlignEnd=47570|Gloss=boy
 11	<	<	PUNCT	_	_	10	punct	_	AlignBegin=47570|AlignEnd=47780|Gloss=PUNCT
 12	dem	dem	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	13	nsubj	_	AlignBegin=47570|AlignEnd=47780|Gloss=ACC.PL.3
-13	quarrel	quarrel	VERB	_	_	6	ccomp	_	AlignBegin=47780|AlignEnd=48100|Gloss=quarrel
+13	quarrel	quarrel	VERB	_	_	6	ccomp:obj	_	AlignBegin=47780|AlignEnd=48100|Gloss=quarrel
 14	|c	|c	PUNCT	_	_	17	punct	_	AlignBegin=48100|AlignEnd=48130|Gloss=PUNCT
 15	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	17	nsubj	_	AlignBegin=48130|AlignEnd=48510|Gloss=NOM.PL.3
 16	dey	dey	AUX	_	Aspect=Imp	17	aux	_	AlignBegin=48510|AlignEnd=48760|Gloss=IPFV
 17	use	use	VERB	_	_	13	parataxis:conj	_	AlignBegin=48760|AlignEnd=48950|Gloss=use
 18	bottle	bottle	NOUN	_	_	17	obj	_	AlignBegin=48950|AlignEnd=49280|Gloss=bottle
 19	dey	dey	AUX	_	Aspect=Imp	20	aux	_	AlignBegin=49310|AlignEnd=49510|Gloss=IPFV
-20	break	break	VERB	_	_	17	ccomp	_	AlignBegin=49510|AlignEnd=49850|Gloss=break
+20	break	break	VERB	_	_	17	ccomp:pred	_	AlignBegin=49510|AlignEnd=49850|Gloss=break
 21	everywhere	everywhere	ADV	_	_	20	advmod	_	AlignBegin=49850|AlignEnd=50450|Gloss=everywhere
 22	]	]	PUNCT	_	_	13	punct	_	AlignBegin=50450|AlignEnd=50480|Gloss=PUNCT
 23	//	//	PUNCT	_	_	6	punct	_	AlignBegin=50450|AlignEnd=50480|Gloss=PUNCT
@@ -386,17 +387,17 @@
 3	if	if	SCONJ	_	_	5	mark	_	AlignBegin=51020|AlignEnd=51180|Gloss=if
 4	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	AlignBegin=51180|AlignEnd=51250|Gloss=NOM.2
 5	come	come	VERB	_	_	15	advcl:periph	_	AlignBegin=51250|AlignEnd=51460|Gloss=come
-6	dat	dat	DET	_	Number=Sing|PronType=Dem	7	det	_	AlignBegin=51460|AlignEnd=51650|Gloss=SG.DIST.DEM
+6	dat	dat	DET	_	Number=Sing|PronType=Dem	7	det	_	AlignBegin=51460|AlignEnd=51650|Gloss=SG.DEM
 7	place	place	NOUN	_	_	5	obj	_	AlignBegin=51650|AlignEnd=51980|Gloss=place
-8	con	con	AUX	_	Aspect=Cons	5	ccomp	_	AlignBegin=51980|AlignEnd=52260|Gloss=CONS
-9	lodge	lodge	VERB	_	_	8	dep	_	AlignBegin=52260|AlignEnd=52570|Gloss=lodge
+8	con	con	AUX	_	Aspect=Cons	5	ccomp:pred	_	AlignBegin=51980|AlignEnd=52260|Gloss=CONS
+9	lodge	lodge	VERB	_	_	8	dep:comp	_	AlignBegin=52260|AlignEnd=52570|Gloss=lodge
 10	<	<	PUNCT	_	_	5	punct	_	AlignBegin=52570|AlignEnd=52600|Gloss=PUNCT
 11	#	#	PUNCT	_	_	5	punct	_	AlignBegin=52600|AlignEnd=53380|Gloss=PUNCT
-12	dat	dat	DET	_	Number=Sing|PronType=Dem	13	det	_	AlignBegin=53380|AlignEnd=53580|Gloss=SG.DIST.DEM
+12	dat	dat	DET	_	Number=Sing|PronType=Dem	13	det	_	AlignBegin=53380|AlignEnd=53580|Gloss=SG.DEM
 13	place	place	NOUN	_	_	15	nsubj	_	AlignBegin=53580|AlignEnd=53900|Gloss=place
 14	go	go	AUX	_	Aspect=Prosp	15	aux	_	AlignBegin=53900|AlignEnd=54020|Gloss=PROSP
 15	dey	dey	VERB	_	VerbType=Cop	0	root	_	AlignBegin=54020|AlignEnd=54230|Gloss=be
-16	cool	cool	ADJ	_	_	15	xcomp	_	AlignBegin=54230|AlignEnd=54450|Gloss=cool
+16	cool	cool	ADJ	_	_	15	xcomp:pred	_	AlignBegin=54230|AlignEnd=54450|Gloss=cool
 17	//	//	PUNCT	_	_	15	punct	_	AlignBegin=54450|AlignEnd=54480|Gloss=PUNCT
 
 # sent_id = ONI_27_A-Hotelier-Interview_MG__23
@@ -426,9 +427,9 @@
 4	go	go	AUX	_	Aspect=Prosp	5	aux	_	AlignBegin=56690|AlignEnd=56840|Gloss=PROSP
 5	come	come	VERB	_	_	0	root	_	AlignBegin=56840|AlignEnd=56990|Gloss=come
 6	for	for	ADP	_	_	8	case	_	AlignBegin=56990|AlignEnd=57150|Gloss=for
-7	dis	dis	DET	_	Number=Sing|PronType=Dem	8	det	_	AlignBegin=57150|AlignEnd=57320|Gloss=SG.PROX.DEM
+7	dis	dis	DET	_	Number=Sing|PronType=Dem	8	det	_	AlignBegin=57150|AlignEnd=57320|Gloss=SG.DEM
 8	night	night	NOUN	_	_	5	obl:mod	_	AlignBegin=57320|AlignEnd=57600|Gloss=night
-9	knock	knock	VERB	_	_	5	xcomp	_	AlignBegin=57600|AlignEnd=57870|Gloss=knock
+9	knock	knock	VERB	_	_	5	xcomp:obj	_	AlignBegin=57600|AlignEnd=57870|Gloss=knock
 10	for	for	ADP	_	_	12	case	_	AlignBegin=57870|AlignEnd=58060|Gloss=for
 11	your	your	PRON	_	Number=Plur|Person=2|Poss=Yes	12	nmod:poss	_	AlignBegin=58060|AlignEnd=58200|Gloss=PL.2.POSS
 12	door	door	NOUN	_	_	9	obl:arg	_	AlignBegin=58200|AlignEnd=58440|Gloss=door
@@ -465,7 +466,7 @@
 5	see	see	VERB	_	_	0	root	_	AlignBegin=62060|AlignEnd=62180|Gloss=see
 6	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	5	obj	_	AlignBegin=62180|AlignEnd=62230|Gloss=ACC.SG.3
 7	for	for	ADP	_	_	9	case	_	AlignBegin=62230|AlignEnd=62370|Gloss=for
-8	dat	dat	DET	_	Number=Sing|PronType=Dem	9	det	_	AlignBegin=62370|AlignEnd=62530|Gloss=SG.DIST.DEM
+8	dat	dat	DET	_	Number=Sing|PronType=Dem	9	det	_	AlignBegin=62370|AlignEnd=62530|Gloss=SG.DEM
 9	place	place	NOUN	_	_	5	obl:mod	_	AlignBegin=62530|AlignEnd=62830|Gloss=place
 10	//	//	PUNCT	_	_	5	punct	_	AlignBegin=62830|AlignEnd=62860|Gloss=PUNCT
 
@@ -513,17 +514,17 @@
 # sent_id = ONI_27_A-Hotelier-Interview_MG__28
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_27_A-Hotelier-Interview_MG.mp3
 # speaker_id = Sp461
-# text = # if { { I sle- || le- || let } || NEPA take light } < # I go run come outside //
-# text_en = If I sle-… le-…, if NEPA shuts the lights off, I'll come out here, instantly.
-# text_ortho = If I sle-... le-... let NEPA take light, I go run come outside.
+# text = # if { { I sle~ || le~ || let } || NEPA take light } < # I go run come outside //
+# text_en = If I sle~... le~..., if NEPA shuts the lights off, I'll come out here, instantly.
+# text_ortho = If I sle~... le~... let, NEPA take light, I go run come outside.
 1	#	#	PUNCT	_	_	21	punct	_	AlignBegin=69220|AlignEnd=69770|Gloss=PUNCT
 2	if	if	SCONJ	_	_	6	case	_	AlignBegin=69770|AlignEnd=70000|Gloss=if
 3	{	{	PUNCT	_	_	6	punct	_	AlignBegin=70000|AlignEnd=70030|Gloss=PUNCT
 4	{	{	PUNCT	_	_	6	punct	_	AlignBegin=70000|AlignEnd=70030|Gloss=PUNCT
 5	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	AlignBegin=70030|AlignEnd=70180|Gloss=NOM.SG.1
-6	sle-	X	X	_	_	21	advcl:periph	_	AlignBegin=70180|AlignEnd=70390|Gloss=X
+6	sle~	X	X	_	_	21	advcl:periph	_	AlignBegin=70180|AlignEnd=70390|Gloss=X
 7	||	||	PUNCT	_	_	8	punct	_	AlignBegin=70180|AlignEnd=70390|Gloss=PUNCT
-8	le-	X	X	_	_	6	conj:dicto	_	AlignBegin=70420|AlignEnd=70590|Gloss=X
+8	le~	X	X	_	_	6	conj:dicto	_	AlignBegin=70420|AlignEnd=70590|Gloss=X
 9	||	||	PUNCT	_	_	10	punct	_	AlignBegin=70590|AlignEnd=70620|Gloss=PUNCT
 10	let	let	VERB	_	_	8	conj:dicto	_	AlignBegin=70620|AlignEnd=70820|Gloss=let
 11	}	}	PUNCT	_	_	6	punct	_	AlignBegin=70820|AlignEnd=70850|Gloss=PUNCT
@@ -545,8 +546,8 @@
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_27_A-Hotelier-Interview_MG.mp3
 # speaker_id = Sp461
 # text = na so >+ my children # [ mummy < wetin you go do for di outside ?//] //
-# text_en = "And then my children say ""mummy, what have you gone to do outside?"""
-# text_ortho = "Na so, my children "" mummy wetin you go do for di outside?"""
+# text_en = And then my children say "mummy, what have you gone to do outside?"
+# text_ortho = Na so my children mummy, wetin you go do for di outside?
 1	na	na	AUX	_	PartType=Cop	2	cop	_	AlignBegin=73270|AlignEnd=73400|Gloss=be
 2	so	so	ADV	_	_	0	root	_	AlignBegin=73400|AlignEnd=73500|Gloss=so
 3	>+	>+	PUNCT	_	_	5	punct	_	AlignBegin=73500|AlignEnd=73530|Gloss=PUNCT
@@ -559,9 +560,9 @@
 10	wetin	wetin	PRON	_	PronType=Int	5	parataxis	_	AlignBegin=74700|AlignEnd=74980|Gloss=what.Q
 11	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	12	nsubj	_	AlignBegin=74980|AlignEnd=75050|Gloss=NOM.2
 12	go	go	VERB	_	_	10	advcl:cleft	_	AlignBegin=75050|AlignEnd=75110|Gloss=go
-13	do	do	VERB	_	_	12	xcomp	_	AlignBegin=75110|AlignEnd=75220|Gloss=do
-14	for	for	ADP	_	_	16	dep	_	AlignBegin=75220|AlignEnd=75430|Gloss=for
-15	di	the	DET	_	Definite=Def|PronType=Art	16	dep	_	AlignBegin=75430|AlignEnd=75540|Gloss=DEF.ART
+13	do	do	VERB	_	_	12	xcomp:obj	_	AlignBegin=75110|AlignEnd=75220|Gloss=do
+14	for	for	ADP	_	_	16	dep:comp	_	AlignBegin=75220|AlignEnd=75430|Gloss=for
+15	di	di	DET	_	Definite=Def|PronType=Art	16	dep	_	AlignBegin=75430|AlignEnd=75540|Gloss=DEF.ART
 16	outside	outside	ADP	_	_	13	dep	_	AlignBegin=75540|AlignEnd=75800|Gloss=outside
 17	?//]	?//]	PUNCT	_	_	10	punct	_	AlignBegin=75800|AlignEnd=75830|Gloss=PUNCT
 18	//	//	PUNCT	_	_	2	punct	_	AlignBegin=75800|AlignEnd=75830|Gloss=PUNCT
@@ -570,8 +571,8 @@
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_27_A-Hotelier-Interview_MG.mp3
 # speaker_id = Sp461
 # text = I say [ ah mtschew # let me sleep well for outside //] //
-# text_en = "I say, ""ah, mstchew, let me have a nice sleep outside""."
-# text_ortho = "I say ""ah mstchew let me sleep well for outside."""
+# text_en = I say, "ah, mstchew, let me have a nice sleep outside."
+# text_ortho = I say ah mtschew let me sleep well for outside.
 1	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	AlignBegin=75830|AlignEnd=75860|Gloss=NOM.SG.1
 2	say	say	VERB	_	_	0	root	_	AlignBegin=75860|AlignEnd=75960|Gloss=say
 3	[	[	PUNCT	_	_	7	punct	_	AlignBegin=75960|AlignEnd=75990|Gloss=PUNCT
@@ -580,9 +581,9 @@
 6	#	#	PUNCT	_	_	5	punct	_	AlignBegin=76320|AlignEnd=76640|Gloss=PUNCT
 7	let	let	VERB	_	_	2	parataxis	_	AlignBegin=76640|AlignEnd=76800|Gloss=let
 8	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	7	obj	_	AlignBegin=76800|AlignEnd=76940|Gloss=ACC.SG.1
-9	sleep	sleep	VERB	_	_	7	xcomp	_	AlignBegin=76940|AlignEnd=77430|Gloss=sleep
+9	sleep	sleep	VERB	_	_	7	xcomp:obj	_	AlignBegin=76940|AlignEnd=77430|Gloss=sleep
 10	well	well	ADV	_	_	9	advmod	_	AlignBegin=77430|AlignEnd=77650|Gloss=well
-11	for	for	ADP	_	_	12	dep	_	AlignBegin=77650|AlignEnd=77820|Gloss=for
+11	for	for	ADP	_	_	12	dep:comp	_	AlignBegin=77650|AlignEnd=77820|Gloss=for
 12	outside	outside	ADP	_	_	9	dep	_	AlignBegin=77820|AlignEnd=78270|Gloss=outside
 13	//]	//]	PUNCT	_	_	7	punct	_	AlignBegin=78270|AlignEnd=78300|Gloss=PUNCT
 14	//	//	PUNCT	_	_	2	punct	_	AlignBegin=78270|AlignEnd=78300|Gloss=PUNCT
@@ -608,11 +609,11 @@
 # text_en = That compound is nice.
 # text_ortho = Dat compound dey very good.
 1	#	#	PUNCT	_	_	4	punct	_	AlignBegin=79140|AlignEnd=79390|Gloss=PUNCT
-2	dat	dat	DET	_	Number=Sing|PronType=Dem	3	det	_	AlignBegin=79390|AlignEnd=79620|Gloss=SG.DIST.DEM
+2	dat	dat	DET	_	Number=Sing|PronType=Dem	3	det	_	AlignBegin=79390|AlignEnd=79620|Gloss=SG.DEM
 3	compound	compound	NOUN	_	_	4	nsubj	_	AlignBegin=79620|AlignEnd=80140|Gloss=compound
 4	dey	dey	VERB	_	VerbType=Cop	0	root	_	AlignBegin=80140|AlignEnd=80360|Gloss=be
 5	very	very	ADV	_	_	6	advmod	_	AlignBegin=80360|AlignEnd=80660|Gloss=very
-6	good	good	ADJ	_	_	4	xcomp	_	AlignBegin=80660|AlignEnd=81010|Gloss=good
+6	good	good	ADJ	_	_	4	xcomp:pred	_	AlignBegin=80660|AlignEnd=81010|Gloss=good
 7	//	//	PUNCT	_	_	4	punct	_	AlignBegin=81010|AlignEnd=81040|Gloss=PUNCT
 
 # sent_id = ONI_27_A-Hotelier-Interview_MG__33
@@ -627,12 +628,12 @@
 4	wey	wey	SCONJ	_	_	5	mark	_	AlignBegin=83220|AlignEnd=83360|Gloss=REL
 5	come	come	VERB	_	_	3	acl:relcl	_	AlignBegin=83360|AlignEnd=83670|Gloss=come
 6	here	here	ADV	_	_	5	obj	_	AlignBegin=83670|AlignEnd=83920|Gloss=here
-7	say	say	VERB	_	_	5	xcomp	_	AlignBegin=83920|AlignEnd=84120|Gloss=say
+7	say	say	VERB	_	_	5	xcomp:obj	_	AlignBegin=83920|AlignEnd=84120|Gloss=say
 8	[	[	PUNCT	_	_	11	punct	_	AlignBegin=84120|AlignEnd=84150|Gloss=PUNCT
 9	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	AlignBegin=84150|AlignEnd=84200|Gloss=NOM.SG.3
 10	no	no	PART	_	Polarity=Neg	11	advmod	_	AlignBegin=84200|AlignEnd=84340|Gloss=NEG
 11	like	like	VERB	_	_	7	parataxis	_	AlignBegin=84340|AlignEnd=84500|Gloss=like
-12	dat	dat	DET	_	Number=Sing|PronType=Dem	13	det	_	AlignBegin=84500|AlignEnd=84740|Gloss=SG.DIST.DEM
+12	dat	dat	DET	_	Number=Sing|PronType=Dem	13	det	_	AlignBegin=84500|AlignEnd=84740|Gloss=SG.DEM
 13	place	place	NOUN	_	_	11	obj	_	AlignBegin=84740|AlignEnd=84970|Gloss=place
 14	]	]	PUNCT	_	_	11	punct	_	AlignBegin=84970|AlignEnd=85000|Gloss=PUNCT
 15	<	<	PUNCT	_	_	3	punct	_	AlignBegin=84970|AlignEnd=85000|Gloss=PUNCT
@@ -645,10 +646,10 @@
 # speaker_id = Sp461
 # text = # na di problem >+ some dey get now //
 # text_en = That's a problem for some people.
-# text_ortho = Na di problem, some dey get now.
+# text_ortho = Na di problem some dey get now.
 1	#	#	PUNCT	_	_	4	punct	_	AlignBegin=85560|AlignEnd=85960|Gloss=PUNCT
 2	na	na	AUX	_	PartType=Cop	4	cop	_	AlignBegin=85960|AlignEnd=86170|Gloss=be
-3	di	the	DET	_	Definite=Def|PronType=Art	4	det	_	AlignBegin=86170|AlignEnd=86270|Gloss=DEF.ART
+3	di	di	DET	_	Definite=Def|PronType=Art	4	det	_	AlignBegin=86170|AlignEnd=86270|Gloss=DEF.ART
 4	problem	problem	NOUN	_	_	0	root	_	AlignBegin=86270|AlignEnd=86630|Gloss=problem
 5	>+	>+	PUNCT	_	_	8	punct	_	AlignBegin=86270|AlignEnd=86630|Gloss=PUNCT
 6	some	some	PRON	_	_	8	nsubj	_	AlignBegin=86630|AlignEnd=86850|Gloss=some
@@ -682,29 +683,27 @@
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_27_A-Hotelier-Interview_MG.mp3
 # speaker_id = Sp461
 # text = # sey make e stay wit &//
-# text_en = Wanting her to stay with…
+# text_en = Wanting her to stay with...
 # text_ortho = Sey make e stay wit...
 1	#	#	PUNCT	_	_	5	punct	_	AlignBegin=90200|AlignEnd=90820|Gloss=PUNCT
-2	sey	sey	SCONJ	_	_	5	cc	_	AlignBegin=90820|AlignEnd=90900|Gloss=COMP
+2	sey	sey	SCONJ	_	_	5	discourse	_	AlignBegin=90820|AlignEnd=90900|Gloss=COMP
 3	make	make	AUX	_	Mood=Opt	5	aux	_	AlignBegin=90900|AlignEnd=91200|Gloss=SBJV
 4	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	AlignBegin=91200|AlignEnd=91230|Gloss=NOM.SG.3
 5	stay	stay	VERB	_	_	0	root	_	AlignBegin=91230|AlignEnd=91480|Gloss=stay
-6	wit	wit	ADP	_	_	5	dep	_	AlignBegin=91480|AlignEnd=91890|Gloss=with
-7	&//	//	PUNCT	_	_	5	punct	_	AlignBegin=91890|AlignEnd=91920|Gloss=PUNCT
+6	wit	wit	ADP	_	_	5	dep:comp	_	AlignBegin=91480|AlignEnd=91890|Gloss=with
+7	&//	&//	PUNCT	_	_	5	punct	_	AlignBegin=91890|AlignEnd=91920|Gloss=PUNCT
 
 # sent_id = ONI_27_A-Hotelier-Interview_MG__37
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_27_A-Hotelier-Interview_MG.mp3
 # speaker_id = Sp461
-# text = [eng # de are friendly eng] //
+# text = # de are friendly //
 # text_en = They are friendly.
-# text_ortho = De are friendly .
-1	[eng	[eng	PUNCT	_	_	5	punct	_	AlignBegin=91920|AlignEnd=92110|Gloss=PUNCT
-2	#	#	PUNCT	_	_	5	punct	_	AlignBegin=91920|AlignEnd=92110|Gloss=PUNCT
-3	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	AlignBegin=92110|AlignEnd=92180|Gloss=NOM.PL.3
-4	are	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	AlignBegin=92180|AlignEnd=92280|Gloss=be.IND.PRS.FIN
-5	friendly	friendly	ADJ	_	_	0	root	_	AlignBegin=92280|AlignEnd=93080|Gloss=friendly
-6	eng]	eng]	PUNCT	_	_	5	punct	_	AlignBegin=93080|AlignEnd=93110|Gloss=PUNCT
-7	//	//	PUNCT	_	_	5	punct	_	AlignBegin=93080|AlignEnd=93110|Gloss=PUNCT
+# text_ortho = De are friendly.
+1	#	#	PUNCT	_	_	4	punct	_	AlignBegin=91920|AlignEnd=92110|Gloss=PUNCT
+2	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	AlignBegin=92110|AlignEnd=92180|Gloss=NOM.PL.3|Lang=en
+3	are	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	AlignBegin=92180|AlignEnd=92280|Gloss=be.IND.PRS.FIN|Lang=en
+4	friendly	friendly	ADJ	_	_	0	root	_	AlignBegin=92280|AlignEnd=93080|Gloss=friendly|Lang=en
+5	//	//	PUNCT	_	_	4	punct	_	AlignBegin=93080|AlignEnd=93110|Gloss=PUNCT
 
 # sent_id = ONI_27_A-Hotelier-Interview_MG__38
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_27_A-Hotelier-Interview_MG.mp3
@@ -721,7 +720,7 @@
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_27_A-Hotelier-Interview_MG.mp3
 # speaker_id = Sp461
 # text = # husbandi and wife < if una come < # una go show dem di # ring |c # go show dem someting wey go &//
-# text_en = If a couple comes in here, you will show them your wedding ring, show them something which will…
+# text_en = If a couple comes in here, you will show them your wedding ring, show them something which will...
 # text_ortho = Husbandi and wife, if una come, una go show dem di ring, go show dem someting wey go...
 1	#	#	PUNCT	_	_	13	punct	_	AlignBegin=93580|AlignEnd=93800|Gloss=PUNCT
 2	husbandi	husband	NOUN	_	_	13	dislocated	_	AlignBegin=93800|AlignEnd=94210|Gloss=husband
@@ -737,7 +736,7 @@
 12	go	go	AUX	_	Aspect=Prosp	13	aux	_	AlignBegin=95770|AlignEnd=95880|Gloss=PROSP
 13	show	show	VERB	_	_	0	root	_	AlignBegin=95880|AlignEnd=96090|Gloss=show
 14	dem	dem	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	13	obj	_	AlignBegin=96090|AlignEnd=96290|Gloss=ACC.PL.3
-15	di	the	DET	_	Definite=Def|PronType=Art	17	det	_	AlignBegin=96290|AlignEnd=96820|Gloss=DEF.ART
+15	di	di	DET	_	Definite=Def|PronType=Art	17	det	_	AlignBegin=96290|AlignEnd=96820|Gloss=DEF.ART
 16	#	#	PUNCT	_	_	15	punct	_	AlignBegin=96820|AlignEnd=97480|Gloss=PUNCT
 17	ring	ring	NOUN	_	_	13	obj	_	AlignBegin=97480|AlignEnd=97930|Gloss=ring
 18	|c	|c	PUNCT	_	_	21	punct	_	AlignBegin=97930|AlignEnd=97960|Gloss=PUNCT
@@ -748,16 +747,16 @@
 23	someting	someting	PRON	_	_	21	obj	_	AlignBegin=99810|AlignEnd=100350|Gloss=something
 24	wey	wey	SCONJ	_	_	25	mark	_	AlignBegin=100350|AlignEnd=100510|Gloss=REL
 25	go	go	AUX	_	Aspect=Prosp	23	acl:relcl	_	AlignBegin=100510|AlignEnd=100810|Gloss=PROSP
-26	&//	//	PUNCT	_	_	13	punct	_	AlignBegin=100810|AlignEnd=100840|Gloss=PUNCT
+26	&//	&//	PUNCT	_	_	13	punct	_	AlignBegin=100810|AlignEnd=100840|Gloss=PUNCT
 
 # sent_id = ONI_27_A-Hotelier-Interview_MG__40
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_27_A-Hotelier-Interview_MG.mp3
 # speaker_id = Sp461
 # text = # di person here < you go know sey [ { na dis || # na { dis man |c wit dis woman } } //= na { husbandi |c and wife } //= no be friend ] //
-# text_en = The person here… you will know that this, this man, with this woman, are husband and wife, not just friends.
-# text_ortho = Di person here, you go know sey na dis... na dis man, wit dis woman, na husbandi, and wife, no be friend.
+# text_en = The person here... you will know that this, this man, with this woman, are husband and wife, not just friends.
+# text_ortho = Di person here, you go know sey na dis, na dis man, wit dis woman, na husbandi, and wife, no be friend.
 1	#	#	PUNCT	_	_	8	punct	_	AlignBegin=100840|AlignEnd=101140|Gloss=PUNCT
-2	di	the	DET	_	Definite=Def|PronType=Art	3	det	_	AlignBegin=101140|AlignEnd=101320|Gloss=DEF.ART
+2	di	di	DET	_	Definite=Def|PronType=Art	3	det	_	AlignBegin=101140|AlignEnd=101320|Gloss=DEF.ART
 3	person	person	NOUN	_	_	8	dislocated	_	AlignBegin=101320|AlignEnd=101770|Gloss=person
 4	here	here	ADV	_	_	3	advmod	_	AlignBegin=101770|AlignEnd=101830|Gloss=here
 5	<	<	PUNCT	_	_	3	punct	_	AlignBegin=101830|AlignEnd=101860|Gloss=PUNCT
@@ -767,17 +766,17 @@
 9	sey	sey	SCONJ	_	_	12	mark	_	AlignBegin=102200|AlignEnd=102320|Gloss=COMP
 10	[	[	PUNCT	_	_	12	punct	_	AlignBegin=102320|AlignEnd=102350|Gloss=PUNCT
 11	{	{	PUNCT	_	_	12	punct	_	AlignBegin=102320|AlignEnd=102350|Gloss=PUNCT
-12	na	now	ADV	_	_	8	ccomp	_	AlignBegin=102350|AlignEnd=102550|Gloss=now
-13	dis	dis	PRON	_	Number=Sing|PronType=Dem	12	xcomp	_	AlignBegin=102550|AlignEnd=102810|Gloss=SG.PROX.DEM
+12	na	now	ADV	_	_	8	ccomp:obj	_	AlignBegin=102350|AlignEnd=102550|Gloss=now
+13	dis	dis	PRON	_	Number=Sing|PronType=Dem	12	xcomp:pred	_	AlignBegin=102550|AlignEnd=102810|Gloss=SG.DEM
 14	||	||	PUNCT	_	_	16	punct	_	AlignBegin=102810|AlignEnd=102840|Gloss=PUNCT
 15	#	#	PUNCT	_	_	16	punct	_	AlignBegin=102840|AlignEnd=103240|Gloss=PUNCT
 16	na	now	ADV	_	_	12	conj:dicto	_	AlignBegin=103240|AlignEnd=103380|Gloss=now
 17	{	{	PUNCT	_	_	19	punct	_	AlignBegin=103240|AlignEnd=103380|Gloss=PUNCT
-18	dis	dis	DET	_	Number=Sing|PronType=Dem	19	det	_	AlignBegin=103380|AlignEnd=103590|Gloss=SG.PROX.DEM
-19	man	man	NOUN	_	_	16	xcomp	_	AlignBegin=103590|AlignEnd=103820|Gloss=man
+18	dis	dis	DET	_	Number=Sing|PronType=Dem	19	det	_	AlignBegin=103380|AlignEnd=103590|Gloss=SG.DEM
+19	man	man	NOUN	_	_	16	xcomp:pred	_	AlignBegin=103590|AlignEnd=103820|Gloss=man
 20	|c	|c	PUNCT	_	_	23	punct	_	AlignBegin=103820|AlignEnd=104020|Gloss=PUNCT
 21	wit	wit	ADP	_	_	23	cc	_	AlignBegin=103820|AlignEnd=104020|Gloss=with
-22	dis	dis	DET	_	Number=Sing|PronType=Dem	23	det	_	AlignBegin=104020|AlignEnd=104240|Gloss=SG.PROX.DEM
+22	dis	dis	DET	_	Number=Sing|PronType=Dem	23	det	_	AlignBegin=104020|AlignEnd=104240|Gloss=SG.DEM
 23	woman	woman	NOUN	_	_	19	conj	_	AlignBegin=104240|AlignEnd=104460|Gloss=woman
 24	}	}	PUNCT	_	_	19	punct	_	AlignBegin=104460|AlignEnd=104490|Gloss=PUNCT
 25	}	}	PUNCT	_	_	12	punct	_	AlignBegin=104460|AlignEnd=104490|Gloss=PUNCT
@@ -805,7 +804,7 @@
 1	#	#	PUNCT	_	_	5	punct	_	AlignBegin=106160|AlignEnd=106580|Gloss=PUNCT
 2	dat	dat	PRON	_	Number=Sing|PronType=Dem	5	nsubj	_	AlignBegin=106580|AlignEnd=106690|Gloss=SG.DEM
 3	be	be	AUX	_	PartType=Cop	5	cop	_	AlignBegin=106690|AlignEnd=106770|Gloss=be
-4	di	the	DET	_	Definite=Def|PronType=Art	5	det	_	AlignBegin=106770|AlignEnd=106840|Gloss=DEF.ART
+4	di	di	DET	_	Definite=Def|PronType=Art	5	det	_	AlignBegin=106770|AlignEnd=106840|Gloss=DEF.ART
 5	problem	problem	NOUN	_	_	0	root	_	AlignBegin=106840|AlignEnd=107310|Gloss=problem
 6	//	//	PUNCT	_	_	5	punct	_	AlignBegin=107310|AlignEnd=107340|Gloss=PUNCT
 
@@ -831,8 +830,8 @@
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_27_A-Hotelier-Interview_MG.mp3
 # speaker_id = Sp461
 # text = # one day < I dey work < # one girl wit one boy come |c # and say [ auntie < see !//] //
-# text_en = "One day, I was at work when a girl came with a boy, and said, ""auntie, look!"""
-# text_ortho = "One day, I dey work, one girl wit one boy come, and say ""auntie, see!"""
+# text_en = One day, I was at work when a girl came with a boy, and said, "auntie, look!"
+# text_ortho = One day, I dey work, one girl wit one boy come, and say auntie, see!
 1	#	#	PUNCT	_	_	15	punct	_	AlignBegin=109000|AlignEnd=109560|Gloss=PUNCT
 2	one	one	DET	_	Definite=Spec|PronType=Art	3	det	_	AlignBegin=109560|AlignEnd=109760|Gloss=SPEC.ART
 3	day	day	NOUN	_	_	15	obl:mod	_	AlignBegin=109760|AlignEnd=109860|Gloss=day
@@ -875,7 +874,7 @@
 # speaker_id = Sp461
 # text = # mtschew # I greet dem //
 # text_en = Mstchew, I greeted them.
-# text_ortho = Mstchew I greet dem.
+# text_ortho = Mtschew I greet dem.
 1	#	#	PUNCT	_	_	5	punct	_	AlignBegin=115020|AlignEnd=115460|Gloss=PUNCT
 2	mtschew	mtschew	INTJ	_	_	5	discourse	_	AlignBegin=115460|AlignEnd=115570|Gloss=sucking_of_teeth
 3	#	#	PUNCT	_	_	2	punct	_	AlignBegin=115570|AlignEnd=115680|Gloss=PUNCT
@@ -891,10 +890,10 @@
 # text_en = He said he wanted to stay here.
 # text_ortho = Sey e wan lodge.
 1	#	#	PUNCT	_	_	4	punct	_	AlignBegin=116260|AlignEnd=116680|Gloss=PUNCT
-2	sey	sey	SCONJ	_	_	4	cc	_	AlignBegin=116680|AlignEnd=116750|Gloss=COMP
+2	sey	sey	SCONJ	_	_	4	discourse	_	AlignBegin=116680|AlignEnd=116750|Gloss=COMP
 3	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	AlignBegin=116750|AlignEnd=116830|Gloss=NOM.SG.3
 4	wan	want	VERB	_	_	0	root	_	AlignBegin=116830|AlignEnd=117040|Gloss=want
-5	lodge	lodge	VERB	_	_	4	xcomp	_	AlignBegin=117040|AlignEnd=117390|Gloss=lodge
+5	lodge	lodge	VERB	_	_	4	xcomp:obj	_	AlignBegin=117040|AlignEnd=117390|Gloss=lodge
 6	//	//	PUNCT	_	_	4	punct	_	AlignBegin=117390|AlignEnd=117420|Gloss=PUNCT
 
 # sent_id = ONI_27_A-Hotelier-Interview_MG__47
@@ -902,9 +901,9 @@
 # speaker_id = Sp461
 # text = # sey how much > room I get ?//
 # text_en = He asked about the rooms and the prices.
-# text_ortho = Sey how much, room I get?
+# text_ortho = Sey how much room I get?
 1	#	#	PUNCT	_	_	4	punct	_	AlignBegin=117420|AlignEnd=118460|Gloss=PUNCT
-2	sey	sey	SCONJ	_	_	4	cc	_	AlignBegin=118460|AlignEnd=118530|Gloss=COMP
+2	sey	sey	SCONJ	_	_	4	discourse	_	AlignBegin=118460|AlignEnd=118530|Gloss=COMP
 3	how	how	ADV	_	PronType=Int	4	advmod	_	AlignBegin=118530|AlignEnd=118600|Gloss=how.Q
 4	much	much	ADJ	_	_	0	root	_	AlignBegin=118600|AlignEnd=118960|Gloss=much
 5	>	>	PUNCT	_	_	6	punct	_	AlignBegin=118600|AlignEnd=118960|Gloss=PUNCT
@@ -919,7 +918,7 @@
 # text = sey I get five thousand //
 # text_en = I told him I have one for five thousand.
 # text_ortho = Sey I get five thousand.
-1	sey	sey	SCONJ	_	_	3	cc	_	AlignBegin=119600|AlignEnd=119760|Gloss=COMP
+1	sey	sey	SCONJ	_	_	3	discourse	_	AlignBegin=119600|AlignEnd=119760|Gloss=COMP
 2	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	AlignBegin=119760|AlignEnd=119850|Gloss=NOM.SG.1
 3	get	get	VERB	_	_	0	root	_	AlignBegin=119850|AlignEnd=120030|Gloss=get
 4	five	five	NUM	_	NumType=Card	5	nummod:det	_	AlignBegin=120030|AlignEnd=120330|Gloss=five.CARD
@@ -931,10 +930,10 @@
 # speaker_id = Sp461
 # text = # ah di ehn # dormitory < { one |r one } thousand //
 # text_en = Ah the uh... the dormitory is for one, one thousand.
-# text_ortho = Ah di ehn... dormitory, one, one thousand.
+# text_ortho = Ah di ehn dormitory, one, one thousand.
 1	#	#	PUNCT	_	_	13	punct	_	AlignBegin=120820|AlignEnd=121600|Gloss=PUNCT
 2	ah	ah	INTJ	_	_	13	discourse	_	AlignBegin=121600|AlignEnd=122200|Gloss=ah
-3	di	the	DET	_	Definite=Def|PronType=Art	6	det	_	AlignBegin=122200|AlignEnd=122630|Gloss=DEF.ART
+3	di	di	DET	_	Definite=Def|PronType=Art	6	det	_	AlignBegin=122200|AlignEnd=122630|Gloss=DEF.ART
 4	ehn	ehn	INTJ	_	_	3	discourse	_	AlignBegin=122630|AlignEnd=122800|Gloss=ehn
 5	#	#	PUNCT	_	_	3	punct	_	AlignBegin=122800|AlignEnd=122880|Gloss=PUNCT
 6	dormitory	dormitory	NOUN	_	_	13	dislocated	_	AlignBegin=122880|AlignEnd=123520|Gloss=dormitory
@@ -965,7 +964,7 @@
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_27_A-Hotelier-Interview_MG.mp3
 # speaker_id = Sp461
 # text = # dormitory < some < one eight //
-# text_en = Dormitory… some go for one eight.
+# text_en = Dormitory... some go for one eight.
 # text_ortho = Dormitory, some, one eight.
 1	#	#	PUNCT	_	_	7	punct	_	AlignBegin=126320|AlignEnd=127280|Gloss=PUNCT
 2	dormitory	dormitory	NOUN	_	_	7	dislocated	_	AlignBegin=127280|AlignEnd=127780|Gloss=dormitory
@@ -994,10 +993,10 @@
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_27_A-Hotelier-Interview_MG.mp3
 # speaker_id = Sp461
 # text = # for up # abi na eight //
-# text_en = Upstairs… or it's eight.
-# text_ortho = For up... abi na eight.
+# text_en = Upstairs... or it's eight.
+# text_ortho = For up abi na eight.
 1	#	#	PUNCT	_	_	7	punct	_	AlignBegin=130880|AlignEnd=131400|Gloss=PUNCT
-2	for	for	ADP	_	_	3	dep	_	AlignBegin=131400|AlignEnd=131610|Gloss=for
+2	for	for	ADP	_	_	3	dep:comp	_	AlignBegin=131400|AlignEnd=131610|Gloss=for
 3	up	up	ADP	_	_	7	dislocated	_	AlignBegin=131610|AlignEnd=131770|Gloss=up
 4	#	#	PUNCT	_	_	7	punct	_	AlignBegin=131800|AlignEnd=132080|Gloss=PUNCT
 5	abi	abi	CCONJ	_	_	7	cc	_	AlignBegin=132080|AlignEnd=132270|Gloss=or
@@ -1012,7 +1011,7 @@
 # text_en = The girl said okay.
 # text_ortho = Di girl say okay.
 1	#	#	PUNCT	_	_	4	punct	_	AlignBegin=132840|AlignEnd=133540|Gloss=PUNCT
-2	di	the	DET	_	Definite=Def|PronType=Art	3	det	_	AlignBegin=133540|AlignEnd=133620|Gloss=DEF.ART
+2	di	di	DET	_	Definite=Def|PronType=Art	3	det	_	AlignBegin=133540|AlignEnd=133620|Gloss=DEF.ART
 3	girl	girl	NOUN	_	_	4	nsubj	_	AlignBegin=133620|AlignEnd=133860|Gloss=girl
 4	say	say	VERB	_	_	0	root	_	AlignBegin=133860|AlignEnd=134140|Gloss=say
 5	okay	OK	INTJ	_	_	4	parataxis	_	AlignBegin=134140|AlignEnd=134670|Gloss=OK
@@ -1025,13 +1024,13 @@
 # text_en = She said I should go and show them the five thousand naira room.
 # text_ortho = Sey make I go show dem di room wey be five thousand.
 1	#	#	PUNCT	_	_	5	punct	_	AlignBegin=134700|AlignEnd=135360|Gloss=PUNCT
-2	sey	sey	SCONJ	_	_	5	cc	_	AlignBegin=135360|AlignEnd=135450|Gloss=COMP
+2	sey	sey	SCONJ	_	_	5	discourse	_	AlignBegin=135360|AlignEnd=135450|Gloss=COMP
 3	make	make	AUX	_	Mood=Opt	5	aux	_	AlignBegin=135450|AlignEnd=135630|Gloss=SBJV
 4	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	AlignBegin=135630|AlignEnd=135760|Gloss=NOM.SG.1
 5	go	go	VERB	_	_	0	root	_	AlignBegin=135760|AlignEnd=135950|Gloss=go
-6	show	show	VERB	_	_	5	xcomp	_	AlignBegin=135950|AlignEnd=136140|Gloss=show
+6	show	show	VERB	_	_	5	xcomp:obj	_	AlignBegin=135950|AlignEnd=136140|Gloss=show
 7	dem	dem	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	6	obj	_	AlignBegin=136140|AlignEnd=136500|Gloss=ACC.PL.3
-8	di	the	DET	_	Definite=Def|PronType=Art	9	det	_	AlignBegin=136500|AlignEnd=136740|Gloss=DEF.ART
+8	di	di	DET	_	Definite=Def|PronType=Art	9	det	_	AlignBegin=136500|AlignEnd=136740|Gloss=DEF.ART
 9	room	room	NOUN	_	_	6	obj	_	AlignBegin=136740|AlignEnd=136990|Gloss=room
 10	wey	wey	SCONJ	_	_	13	mark	_	AlignBegin=136990|AlignEnd=137080|Gloss=REL
 11	be	be	AUX	_	PartType=Cop	13	cop	_	AlignBegin=137080|AlignEnd=137200|Gloss=be
@@ -1047,7 +1046,7 @@
 # text_ortho = I go collect key.
 1	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	AlignBegin=137860|AlignEnd=138030|Gloss=NOM.SG.1
 2	go	go	VERB	_	_	0	root	_	AlignBegin=138030|AlignEnd=138210|Gloss=go
-3	collect	collect	VERB	_	_	2	xcomp	_	AlignBegin=138210|AlignEnd=138610|Gloss=collect
+3	collect	collect	VERB	_	_	2	xcomp:obj	_	AlignBegin=138210|AlignEnd=138610|Gloss=collect
 4	key	key	NOUN	_	_	3	obj	_	AlignBegin=138610|AlignEnd=138790|Gloss=key
 5	//	//	PUNCT	_	_	2	punct	_	AlignBegin=138790|AlignEnd=138820|Gloss=PUNCT
 
@@ -1062,7 +1061,7 @@
 3	talk	talk	VERB	_	_	0	root	_	AlignBegin=139830|AlignEnd=140070|Gloss=talk
 4	someting	someting	PRON	_	_	3	obj	_	AlignBegin=140070|AlignEnd=140460|Gloss=something
 5	for	for	ADP	_	_	7	case	_	AlignBegin=140460|AlignEnd=140700|Gloss=for
-6	dat	dat	DET	_	Number=Sing|PronType=Dem	7	det	_	AlignBegin=140700|AlignEnd=141320|Gloss=SG.DIST.DEM
+6	dat	dat	DET	_	Number=Sing|PronType=Dem	7	det	_	AlignBegin=140700|AlignEnd=141320|Gloss=SG.DEM
 7	boy	boy	NOUN	_	_	3	obl:arg	_	AlignBegin=141320|AlignEnd=141660|Gloss=boy
 8	for	for	ADP	_	_	9	case	_	AlignBegin=141660|AlignEnd=141870|Gloss=for
 9	English	English	PROPN	_	_	3	obl:mod	_	AlignBegin=141870|AlignEnd=142310|Gloss=English
@@ -1082,8 +1081,8 @@
 6	[	[	PUNCT	_	_	9	punct	_	AlignBegin=142910|AlignEnd=142940|Gloss=PUNCT
 7	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	AlignBegin=142940|AlignEnd=143070|Gloss=NOM.SG.1
 8	dey	dey	AUX	_	Aspect=Imp	9	aux	_	AlignBegin=143070|AlignEnd=143240|Gloss=IPFV
-9	hear	hear	VERB	_	_	4	ccomp	_	AlignBegin=143240|AlignEnd=143390|Gloss=hear
-10	dis	dis	DET	_	Number=Sing|PronType=Dem	11	det	_	AlignBegin=143390|AlignEnd=143610|Gloss=SG.PROX.DEM
+9	hear	hear	VERB	_	_	4	ccomp:obj	_	AlignBegin=143240|AlignEnd=143390|Gloss=hear
+10	dis	dis	DET	_	Number=Sing|PronType=Dem	11	det	_	AlignBegin=143390|AlignEnd=143610|Gloss=SG.DEM
 11	one	one	NOUN	_	_	9	obj	_	AlignBegin=143610|AlignEnd=143700|Gloss=one
 12	wey	wey	SCONJ	_	_	14	mark	_	AlignBegin=143700|AlignEnd=143840|Gloss=REL
 13	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	14	nsubj	_	AlignBegin=143840|AlignEnd=143970|Gloss=NOM.PL.3
@@ -1140,7 +1139,7 @@
 12	#	#	PUNCT	_	_	13	punct	_	AlignBegin=149530|AlignEnd=149700|Gloss=PUNCT
 13	let	let	VERB	_	_	10	compound:svc	_	AlignBegin=149700|AlignEnd=149820|Gloss=let
 14	me	me	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	obj	_	AlignBegin=149820|AlignEnd=149940|Gloss=NOM.SG.1
-15	hear	hear	VERB	_	_	13	xcomp	_	AlignBegin=149940|AlignEnd=150040|Gloss=hear
+15	hear	hear	VERB	_	_	13	xcomp:obj	_	AlignBegin=149940|AlignEnd=150040|Gloss=hear
 16	|c	|c	PUNCT	_	_	20	punct	_	AlignBegin=150040|AlignEnd=150070|Gloss=PUNCT
 17	but	but	CCONJ	_	_	20	cc	_	AlignBegin=150070|AlignEnd=150280|Gloss=but
 18	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	AlignBegin=150280|AlignEnd=150320|Gloss=NOM.SG.3
@@ -1159,7 +1158,7 @@
 31	ear	ear	NOUN	_	_	33	nsubj	_	AlignBegin=151750|AlignEnd=151980|Gloss=ear
 32	don	don	AUX	_	Aspect=Perf	33	aux	_	AlignBegin=151980|AlignEnd=152250|Gloss=PRF
 33	hear	hear	VERB	_	_	0	root	_	AlignBegin=152250|AlignEnd=152440|Gloss=hear
-34	di	the	DET	_	Definite=Def|PronType=Art	37	det	_	AlignBegin=152440|AlignEnd=152760|Gloss=DEF.ART
+34	di	di	DET	_	Definite=Def|PronType=Art	37	det	_	AlignBegin=152440|AlignEnd=152760|Gloss=DEF.ART
 35	#	#	PUNCT	_	_	37	punct	_	AlignBegin=152760|AlignEnd=153250|Gloss=PUNCT
 36	two	two	NUM	_	NumType=Card	37	nummod:mod	_	AlignBegin=153250|AlignEnd=153690|Gloss=two.CARD
 37	question	question	NOUN	_	_	33	obj	_	AlignBegin=153690|AlignEnd=154300|Gloss=question
@@ -1176,8 +1175,8 @@
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_27_A-Hotelier-Interview_MG.mp3
 # speaker_id = Sp461
 # text = # and I don { tell her || ask am ( di girl ) } sey [ ah wetin e dey tell dis boy X ?//] //
-# text_en = "And I told her... asked her ""ah, what is she telling this boy X…?"""
-# text_ortho = "And I don tell her... ask am (di girl) sey ""ah wetin e dey tell dis boy X?"""
+# text_en = And I told her... asked her "ah, what is she telling this boy X...?"
+# text_ortho = And I don tell her, ask am (di girl) sey ah wetin e dey tell dis boy X?
 1	#	#	PUNCT	_	_	6	punct	_	AlignBegin=155400|AlignEnd=155920|Gloss=PUNCT
 2	and	and	CCONJ	_	_	6	cc	_	AlignBegin=155920|AlignEnd=156030|Gloss=and
 3	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	AlignBegin=156030|AlignEnd=156080|Gloss=NOM.SG.1
@@ -1189,7 +1188,7 @@
 9	ask	ask	VERB	_	_	6	conj:dicto	_	AlignBegin=156730|AlignEnd=156960|Gloss=ask
 10	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	9	obj	_	AlignBegin=156960|AlignEnd=157070|Gloss=ACC.SG.3
 11	(	(	PUNCT	_	_	13	punct	_	AlignBegin=157070|AlignEnd=157100|Gloss=PUNCT
-12	di	the	DET	_	Definite=Def|PronType=Art	13	det	_	AlignBegin=157100|AlignEnd=157220|Gloss=DEF.ART
+12	di	di	DET	_	Definite=Def|PronType=Art	13	det	_	AlignBegin=157100|AlignEnd=157220|Gloss=DEF.ART
 13	girl	girl	NOUN	_	_	9	obj	_	AlignBegin=157220|AlignEnd=157390|Gloss=girl
 14	)	)	PUNCT	_	_	13	punct	_	AlignBegin=157220|AlignEnd=157390|Gloss=PUNCT
 15	}	}	PUNCT	_	_	6	punct	_	AlignBegin=157220|AlignEnd=157390|Gloss=PUNCT
@@ -1200,7 +1199,7 @@
 20	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	AlignBegin=158030|AlignEnd=158160|Gloss=NOM.SG.3
 21	dey	dey	AUX	_	Aspect=Imp	22	aux	_	AlignBegin=158160|AlignEnd=158380|Gloss=IPFV
 22	tell	tell	VERB	_	_	19	acl:relcl	_	AlignBegin=158380|AlignEnd=158720|Gloss=tell
-23	dis	dis	DET	_	Number=Sing|PronType=Dem	24	det	_	AlignBegin=158720|AlignEnd=158940|Gloss=SG.PROX.DEM
+23	dis	dis	DET	_	Number=Sing|PronType=Dem	24	det	_	AlignBegin=158720|AlignEnd=158940|Gloss=SG.DEM
 24	boy	boy	NOUN	_	_	22	obj	_	AlignBegin=158940|AlignEnd=159080|Gloss=boy
 25	X	X	X	_	_	24	dep	_	AlignBegin=159100|AlignEnd=159130|Gloss=X
 26	?//]	?//]	PUNCT	_	_	19	punct	_	AlignBegin=159100|AlignEnd=159130|Gloss=PUNCT
@@ -1210,18 +1209,18 @@
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_27_A-Hotelier-Interview_MG.mp3
 # speaker_id = Sp461
 # text = # sey oya { carry || I carry } di room wey de give four thousand //
-# text_en = She said, hurry up and take the… I picked up the key to the four thousand naira room.
-# text_ortho = Sey o ya carry... I carry di room wey de give four thousand.
+# text_en = She said, hurry up and take the... I picked up the key to the four thousand naira room.
+# text_ortho = Sey oya carry, I carry di room wey de give four thousand.
 1	#	#	PUNCT	_	_	5	punct	_	AlignBegin=159130|AlignEnd=159540|Gloss=PUNCT
-2	sey	sey	SCONJ	_	_	5	cc	_	AlignBegin=159540|AlignEnd=159620|Gloss=COMP
-3	oya	oya	INTJ	_	PartType=Disc	5	discourse	_	AlignBegin=159620|AlignEnd=159690|Gloss=come_on
+2	sey	sey	SCONJ	_	_	5	discourse	_	AlignBegin=159540|AlignEnd=159620|Gloss=COMP
+3	oya	oya	INTJ	_	_	5	discourse	_	AlignBegin=159620|AlignEnd=159690|Gloss=come_on
 4	{	{	PUNCT	_	_	5	punct	_	AlignBegin=159860|AlignEnd=159890|Gloss=PUNCT
 5	carry	carry	VERB	_	_	0	root	_	AlignBegin=159890|AlignEnd=160370|Gloss=carry
 6	||	||	PUNCT	_	_	8	punct	_	AlignBegin=160370|AlignEnd=160400|Gloss=PUNCT
 7	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	AlignBegin=160400|AlignEnd=160550|Gloss=NOM.SG.1
 8	carry	carry	VERB	_	_	5	conj:dicto	_	AlignBegin=160550|AlignEnd=160710|Gloss=carry
 9	}	}	PUNCT	_	_	5	punct	_	AlignBegin=160710|AlignEnd=160740|Gloss=PUNCT
-10	di	the	DET	_	Definite=Def|PronType=Art	11	det	_	AlignBegin=160740|AlignEnd=160970|Gloss=DEF.ART
+10	di	di	DET	_	Definite=Def|PronType=Art	11	det	_	AlignBegin=160740|AlignEnd=160970|Gloss=DEF.ART
 11	room	room	NOUN	_	_	8	obj	_	AlignBegin=160970|AlignEnd=161180|Gloss=room
 12	wey	wey	SCONJ	_	_	14	mark	_	AlignBegin=161180|AlignEnd=161310|Gloss=REL
 13	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	14	nsubj	_	AlignBegin=161310|AlignEnd=161420|Gloss=NOM.PL.3
@@ -1241,31 +1240,31 @@
 3	anoder	anoder	DET	_	_	4	det	_	AlignBegin=163480|AlignEnd=163810|Gloss=another
 4	one	one	NOUN	_	_	2	obj	_	AlignBegin=163810|AlignEnd=163960|Gloss=one
 5	five	five	NUM	_	NumType=Card	6	compound	_	AlignBegin=163960|AlignEnd=164270|Gloss=five.CARD
-6	thousand	thousand	NUM	_	NumType=Card	2	xcomp	_	AlignBegin=164270|AlignEnd=164720|Gloss=thousand.CARD
+6	thousand	thousand	NUM	_	NumType=Card	2	xcomp:pred	_	AlignBegin=164270|AlignEnd=164720|Gloss=thousand.CARD
 7	//	//	PUNCT	_	_	2	punct	_	AlignBegin=164720|AlignEnd=164750|Gloss=PUNCT
 
 # sent_id = ONI_27_A-Hotelier-Interview_MG__65
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_27_A-Hotelier-Interview_MG.mp3
 # speaker_id = Sp461
 # text = # just make I comot for di outside carry di key dey go < # di girl say [ ehn # auntie < { come || come } back !//] //
-# text_en = "Just as I was about to go out, taking the key with me, the girl said ""uh... auntie, come, come back!""."
-# text_ortho = "Just make I comot for di outside carry di key dey go, di girl say ""ehn... auntie, come come back!"""
+# text_en = Just as I was about to go out, taking the key with me, the girl said "uh... auntie, come, come back!"
+# text_ortho = Just make I comot for di outside carry di key dey go, di girl say ehn auntie, come, come back!
 1	#	#	PUNCT	_	_	18	punct	_	AlignBegin=164750|AlignEnd=164930|Gloss=PUNCT
 2	just	just	ADV	_	_	5	advmod	_	AlignBegin=164930|AlignEnd=165180|Gloss=just
 3	make	make	AUX	_	Mood=Opt	5	aux	_	AlignBegin=165180|AlignEnd=165360|Gloss=SBJV
 4	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	AlignBegin=165360|AlignEnd=165470|Gloss=NOM.SG.1
 5	comot	comot	VERB	_	_	18	parataxis:dislocated	_	AlignBegin=165470|AlignEnd=165840|Gloss=get_out
 6	for	for	ADP	_	_	8	case	_	AlignBegin=165840|AlignEnd=166000|Gloss=for
-7	di	the	DET	_	Definite=Def|PronType=Art	8	det	_	AlignBegin=166000|AlignEnd=166210|Gloss=DEF.ART
+7	di	di	DET	_	Definite=Def|PronType=Art	8	det	_	AlignBegin=166000|AlignEnd=166210|Gloss=DEF.ART
 8	outside	outside	ADP	_	_	5	obl:arg	_	AlignBegin=166210|AlignEnd=166630|Gloss=outside
 9	carry	carry	VERB	_	_	5	compound:svc	_	AlignBegin=166630|AlignEnd=166830|Gloss=carry
-10	di	the	DET	_	Definite=Def|PronType=Art	11	det	_	AlignBegin=166830|AlignEnd=166980|Gloss=DEF.ART
+10	di	di	DET	_	Definite=Def|PronType=Art	11	det	_	AlignBegin=166830|AlignEnd=166980|Gloss=DEF.ART
 11	key	key	NOUN	_	_	9	obj	_	AlignBegin=166980|AlignEnd=167150|Gloss=key
 12	dey	dey	AUX	_	Aspect=Imp	13	aux	_	AlignBegin=167150|AlignEnd=167280|Gloss=IPFV
 13	go	go	VERB	_	_	9	advcl	_	AlignBegin=167280|AlignEnd=167470|Gloss=go
 14	<	<	PUNCT	_	_	5	punct	_	AlignBegin=167470|AlignEnd=167500|Gloss=PUNCT
 15	#	#	PUNCT	_	_	5	punct	_	AlignBegin=167500|AlignEnd=167820|Gloss=PUNCT
-16	di	the	DET	_	Definite=Def|PronType=Art	17	det	_	AlignBegin=167820|AlignEnd=167890|Gloss=DEF.ART
+16	di	di	DET	_	Definite=Def|PronType=Art	17	det	_	AlignBegin=167820|AlignEnd=167890|Gloss=DEF.ART
 17	girl	girl	NOUN	_	_	18	nsubj	_	AlignBegin=167890|AlignEnd=168050|Gloss=girl
 18	say	say	VERB	_	_	0	root	_	AlignBegin=168050|AlignEnd=168230|Gloss=say
 19	[	[	PUNCT	_	_	25	punct	_	AlignBegin=168230|AlignEnd=168260|Gloss=PUNCT
@@ -1286,8 +1285,8 @@
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_27_A-Hotelier-Interview_MG.mp3
 # speaker_id = Sp461
 # text = see am !//
-# text_en = """Look!"""
-# text_ortho = """See am!"""
+# text_en = "Look!"
+# text_ortho = See am!
 1	see	see	VERB	_	_	0	root	_	AlignBegin=170320|AlignEnd=170470|Gloss=see
 2	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	1	obj	_	AlignBegin=170470|AlignEnd=170600|Gloss=ACC.SG.3
 3	!//	!//	PUNCT	_	_	1	punct	_	AlignBegin=170600|AlignEnd=170730|Gloss=PUNCT
@@ -1296,21 +1295,21 @@
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_27_A-Hotelier-Interview_MG.mp3
 # speaker_id = Sp461
 # text = we &//
-# text_en = """We…"""
-# text_ortho = """We…"""
+# text_en = "We..."
+# text_ortho = We...
 1	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	0	root	_	AlignBegin=170600|AlignEnd=170730|Gloss=NOM.PL.1
-2	&//	//	PUNCT	_	_	1	punct	_	AlignBegin=170730|AlignEnd=170760|Gloss=PUNCT
+2	&//	&//	PUNCT	_	_	1	punct	_	AlignBegin=170730|AlignEnd=170760|Gloss=PUNCT
 
 # sent_id = ONI_27_A-Hotelier-Interview_MG__68
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_27_A-Hotelier-Interview_MG.mp3
 # speaker_id = Sp461
 # text = # sey na dis boy o //
-# text_en = """It's this boy's fault."""
-# text_ortho = "Sey ""na dis boy o."""
+# text_en = "It's this boy's fault."
+# text_ortho = Sey na dis boy o.
 1	#	#	PUNCT	_	_	5	punct	_	AlignBegin=170760|AlignEnd=171930|Gloss=PUNCT
-2	sey	sey	SCONJ	_	_	5	cc	_	AlignBegin=171930|AlignEnd=172110|Gloss=COMP
+2	sey	sey	SCONJ	_	_	5	discourse	_	AlignBegin=171930|AlignEnd=172110|Gloss=COMP
 3	na	na	AUX	_	PartType=Cop	5	cop	_	AlignBegin=172110|AlignEnd=172330|Gloss=be
-4	dis	dis	DET	_	Number=Sing|PronType=Dem	5	det	_	AlignBegin=172330|AlignEnd=172580|Gloss=SG.PROX.DEM
+4	dis	dis	DET	_	Number=Sing|PronType=Dem	5	det	_	AlignBegin=172330|AlignEnd=172580|Gloss=SG.DEM
 5	boy	boy	NOUN	_	_	0	root	_	AlignBegin=172580|AlignEnd=172820|Gloss=boy
 6	o	o	PART	_	PartType=Disc	5	advmod:emph	_	AlignBegin=172820|AlignEnd=173040|Gloss=EMPH
 7	//	//	PUNCT	_	_	5	punct	_	AlignBegin=173040|AlignEnd=173070|Gloss=PUNCT
@@ -1318,12 +1317,12 @@
 # sent_id = ONI_27_A-Hotelier-Interview_MG__69
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_27_A-Hotelier-Interview_MG.mp3
 # speaker_id = Sp461
-# text = yeah na im husband //
-# text_en = """Yeah, he's her husband."""
-# text_ortho = """Yeah na im husband."""
+# text = yeah na im husband // 
+# text_en = "Yeah, he's her husband."
+# text_ortho = Yeah na im husband.
 1	yeah	yeah	INTJ	_	_	4	discourse	_	AlignBegin=173070|AlignEnd=173400|Gloss=yeah
-2	na	na	AUX	_	PartType=Cop	4	cop	_	AlignBegin=173400|AlignEnd=173570|EXTPOS=SCONJ|Gloss=be
-3	im	im	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	4	nmod:poss	_	AlignBegin=173570|AlignEnd=173600|EXTPOS=SCONJ|Gloss=M.SG.3.POSS
+2	na	na	AUX	_	PartType=Cop	4	cop	_	AlignBegin=173400|AlignEnd=173570|Gloss=be
+3	im	im	PRON	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	AlignBegin=173570|AlignEnd=173600|Gloss=POSS.SG.3
 4	husband	husband	NOUN	_	_	0	root	_	AlignBegin=173600|AlignEnd=174040|Gloss=husband
 5	//	//	PUNCT	_	_	4	punct	_	AlignBegin=174040|AlignEnd=174070|Gloss=PUNCT
 
@@ -1331,9 +1330,9 @@
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_27_A-Hotelier-Interview_MG.mp3
 # speaker_id = Sp461
 # text = sey ah na lie !//
-# text_en = """Ah, it's a lie!"""
-# text_ortho = "Sey ""ah na lie!"""
-1	sey	sey	SCONJ	_	_	4	cc	_	AlignBegin=174070|AlignEnd=174230|Gloss=COMP
+# text_en = "Ah, it's a lie!"
+# text_ortho = Sey ah na lie!
+1	sey	sey	SCONJ	_	_	4	discourse	_	AlignBegin=174070|AlignEnd=174230|Gloss=COMP
 2	ah	ah	INTJ	_	_	4	discourse	_	AlignBegin=174230|AlignEnd=174290|Gloss=ah
 3	na	na	AUX	_	PartType=Cop	4	cop	_	AlignBegin=174290|AlignEnd=174470|Gloss=be
 4	lie	lie	VERB	_	_	0	root	_	AlignBegin=174470|AlignEnd=174830|Gloss=lie
@@ -1342,22 +1341,22 @@
 # sent_id = ONI_27_A-Hotelier-Interview_MG__71
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_27_A-Hotelier-Interview_MG.mp3
 # speaker_id = Sp461
-# text = # sey and if { na dis boy >+ { be # mad- || # don marry } her |c abi una dey prepare marry } < you go show me { di || # di } evidence //
-# text_en = """And if this boy is mad-… is married to her, or you are getting ready to get married, you will show me the, the evidence."""
-# text_ortho = "Sey ""and if na dis boy, be mad-... don marry her, abi una dey prepare marry, you go show me di di evidence."
+# text = # sey and if { na dis boy >+ { be # mad~ || # don marry } her |c abi una dey prepare marry } < you go show me { di || # di } evidence //
+# text_en = "And if this boy is mad~... is married to her, or you are getting ready to get married, you will show me the, the evidence."
+# text_ortho = Sey and if na dis boy be mad~... don marry her, abi una dey prepare marry, you go show me di, di evidence.
 1	#	#	PUNCT	_	_	30	punct	_	AlignBegin=174860|AlignEnd=175760|Gloss=PUNCT
-2	sey	sey	SCONJ	_	_	30	cc	_	AlignBegin=175760|AlignEnd=175850|Gloss=COMP
+2	sey	sey	SCONJ	_	_	30	discourse	_	AlignBegin=175760|AlignEnd=175850|Gloss=COMP
 3	and	and	CCONJ	_	_	30	cc	_	AlignBegin=175850|AlignEnd=176010|Gloss=and
 4	if	if	SCONJ	_	_	8	mark	_	AlignBegin=176010|AlignEnd=176140|Gloss=if
 5	{	{	PUNCT	_	_	8	punct	_	AlignBegin=176170|AlignEnd=176390|Gloss=PUNCT
 6	na	na	AUX	_	PartType=Cop	8	cop	_	AlignBegin=176170|AlignEnd=176390|Gloss=be
-7	dis	dis	DET	_	Number=Sing|PronType=Dem	8	det	_	AlignBegin=176390|AlignEnd=176630|Gloss=SG.PROX.DEM
+7	dis	dis	DET	_	Number=Sing|PronType=Dem	8	det	_	AlignBegin=176390|AlignEnd=176630|Gloss=SG.DEM
 8	boy	boy	NOUN	_	_	30	advcl:periph	_	AlignBegin=176630|AlignEnd=176780|Gloss=boy
 9	>+	>+	PUNCT	_	_	13	punct	_	AlignBegin=176780|AlignEnd=176810|Gloss=PUNCT
 10	{	{	PUNCT	_	_	13	punct	_	AlignBegin=176780|AlignEnd=176810|Gloss=PUNCT
 11	be	be	AUX	_	PartType=Cop	13	cop	_	AlignBegin=176810|AlignEnd=177090|Gloss=be
 12	#	#	PUNCT	_	_	13	punct	_	AlignBegin=177090|AlignEnd=177390|Gloss=PUNCT
-13	mad-	X	X	_	_	8	advcl:cleft	_	AlignBegin=177390|AlignEnd=177750|Gloss=X
+13	mad~	X	X	_	_	8	advcl:cleft	_	AlignBegin=177390|AlignEnd=177750|Gloss=X
 14	||	||	PUNCT	_	_	17	punct	_	AlignBegin=177750|AlignEnd=177780|Gloss=PUNCT
 15	#	#	PUNCT	_	_	17	punct	_	AlignBegin=177780|AlignEnd=177960|Gloss=PUNCT
 16	don	don	AUX	_	Aspect=Perf	17	aux	_	AlignBegin=177960|AlignEnd=178110|Gloss=PRF
@@ -1369,7 +1368,7 @@
 22	una	una	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	24	nsubj	_	AlignBegin=178860|AlignEnd=179070|Gloss=NOM.PL.2
 23	dey	dey	AUX	_	Aspect=Imp	24	aux	_	AlignBegin=179070|AlignEnd=179190|Gloss=IPFV
 24	prepare	prepare	VERB	_	_	13	conj	_	AlignBegin=179190|AlignEnd=179580|Gloss=prepare
-25	marry	marry	VERB	_	_	24	xcomp	_	AlignBegin=179580|AlignEnd=179820|Gloss=marry
+25	marry	marry	VERB	_	_	24	xcomp:obj	_	AlignBegin=179580|AlignEnd=179820|Gloss=marry
 26	}	}	PUNCT	_	_	8	punct	_	AlignBegin=179820|AlignEnd=179850|Gloss=PUNCT
 27	<	<	PUNCT	_	_	8	punct	_	AlignBegin=179820|AlignEnd=179850|Gloss=PUNCT
 28	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	30	nsubj	_	AlignBegin=179850|AlignEnd=179910|Gloss=NOM.2
@@ -1377,10 +1376,10 @@
 30	show	show	VERB	_	_	0	root	_	AlignBegin=180070|AlignEnd=180330|Gloss=show
 31	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	30	obj	_	AlignBegin=180330|AlignEnd=180460|Gloss=ACC.SG.1
 32	{	{	PUNCT	_	_	33	punct	_	AlignBegin=180460|AlignEnd=180490|Gloss=PUNCT
-33	di	the	DET	_	Definite=Def|PronType=Art	38	det	_	AlignBegin=180490|AlignEnd=180740|Gloss=DEF.ART
+33	di	di	DET	_	Definite=Def|PronType=Art	38	det	_	AlignBegin=180490|AlignEnd=180740|Gloss=DEF.ART
 34	||	||	PUNCT	_	_	36	punct	_	AlignBegin=180740|AlignEnd=180770|Gloss=PUNCT
 35	#	#	PUNCT	_	_	36	punct	_	AlignBegin=180770|AlignEnd=181700|Gloss=PUNCT
-36	di	the	DET	_	Definite=Def|PronType=Art	33	conj:dicto	_	AlignBegin=181700|AlignEnd=181810|Gloss=DEF.ART
+36	di	di	DET	_	Definite=Def|PronType=Art	33	conj:dicto	_	AlignBegin=181700|AlignEnd=181810|Gloss=DEF.ART
 37	}	}	PUNCT	_	_	33	punct	_	AlignBegin=181810|AlignEnd=181840|Gloss=PUNCT
 38	evidence	evidence	NOUN	_	_	30	obj	_	AlignBegin=181840|AlignEnd=182440|Gloss=evidence
 39	//	//	PUNCT	_	_	30	punct	_	AlignBegin=182440|AlignEnd=182470|Gloss=PUNCT
@@ -1389,22 +1388,22 @@
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_27_A-Hotelier-Interview_MG.mp3
 # speaker_id = Sp461
 # text = # or sey why I go &//
-# text_en = """Or tell me why I will…"""
-# text_ortho = """Or sey why I go…"""
+# text_en = "Or tell me why I will..."
+# text_ortho = Or sey why I go...
 1	#	#	PUNCT	_	_	4	punct	_	AlignBegin=182470|AlignEnd=184170|Gloss=PUNCT
 2	or	or	CCONJ	_	_	4	cc	_	AlignBegin=184170|AlignEnd=184290|Gloss=or
-3	sey	sey	SCONJ	_	_	4	cc	_	AlignBegin=184290|AlignEnd=184440|Gloss=COMP
+3	sey	sey	SCONJ	_	_	4	discourse	_	AlignBegin=184290|AlignEnd=184440|Gloss=COMP
 4	why	why	ADV	_	PronType=Int	0	root	_	AlignBegin=184440|AlignEnd=184720|Gloss=why.Q
 5	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	AlignBegin=184720|AlignEnd=184750|Gloss=NOM.SG.1
 6	go	go	AUX	_	Aspect=Prosp	4	advcl:cleft	_	AlignBegin=184750|AlignEnd=184810|Gloss=PROSP
-7	&//	//	PUNCT	_	_	4	punct	_	AlignBegin=184810|AlignEnd=184840|Gloss=PUNCT
+7	&//	&//	PUNCT	_	_	4	punct	_	AlignBegin=184810|AlignEnd=184840|Gloss=PUNCT
 
 # sent_id = ONI_27_A-Hotelier-Interview_MG__73
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_27_A-Hotelier-Interview_MG.mp3
 # speaker_id = Sp461
 # text = okay na me >+ first ask dem sey [ ah # na you dat girl >+ na di same fader |c # di same moder ?//] //
-# text_en = "Okay, I was the first to ask them ""ah, are you siblings with that girl?"""
-# text_ortho = "Okay na me, first ask dem sey ""ah na you dat girl, na di same fader, di same moder?"""
+# text_en = Okay, I was the first to ask them "ah, are you siblings with that girl?"
+# text_ortho = Okay na me first ask dem sey ah na you dat girl na di same fader, di same moder?
 1	okay	OK	INTJ	_	_	3	discourse	_	AlignBegin=184840|AlignEnd=185230|Gloss=OK
 2	na	na	AUX	_	PartType=Cop	3	cop	_	AlignBegin=185230|AlignEnd=185400|Gloss=be
 3	me	me	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	root	_	AlignBegin=185400|AlignEnd=185510|Gloss=NOM.SG.1
@@ -1417,17 +1416,17 @@
 10	ah	ah	INTJ	_	_	13	discourse	_	AlignBegin=186510|AlignEnd=186710|Gloss=ah
 11	#	#	PUNCT	_	_	10	punct	_	AlignBegin=186710|AlignEnd=187420|Gloss=PUNCT
 12	na	na	AUX	_	PartType=Cop	13	cop	_	AlignBegin=187420|AlignEnd=187650|Gloss=be
-13	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	6	ccomp	_	AlignBegin=187650|AlignEnd=188020|Gloss=NOM.2
-14	dat	dat	DET	_	Number=Sing|PronType=Dem	15	det	_	AlignBegin=188050|AlignEnd=188270|Gloss=SG.DIST.DEM
+13	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	6	ccomp:obj	_	AlignBegin=187650|AlignEnd=188020|Gloss=NOM.2
+14	dat	dat	DET	_	Number=Sing|PronType=Dem	15	det	_	AlignBegin=188050|AlignEnd=188270|Gloss=SG.DEM
 15	girl	girl	NOUN	_	_	13	conj	_	AlignBegin=188270|AlignEnd=188520|Gloss=girl
 16	>+	>+	PUNCT	_	_	20	punct	_	AlignBegin=188520|AlignEnd=188550|Gloss=PUNCT
 17	na	na	AUX	_	PartType=Cop	20	cop	_	AlignBegin=188550|AlignEnd=188720|Gloss=be
-18	di	the	DET	_	Definite=Def|PronType=Art	20	det	_	AlignBegin=188750|AlignEnd=188840|Gloss=DEF.ART
+18	di	di	DET	_	Definite=Def|PronType=Art	20	det	_	AlignBegin=188750|AlignEnd=188840|Gloss=DEF.ART
 19	same	same	ADJ	_	_	20	amod	_	AlignBegin=188840|AlignEnd=189120|Gloss=same
 20	fader	fader	NOUN	_	_	13	advcl:cleft	_	AlignBegin=189120|AlignEnd=189500|Gloss=fader
 21	|c	|c	PUNCT	_	_	25	punct	_	AlignBegin=189500|AlignEnd=189530|Gloss=PUNCT
 22	#	#	PUNCT	_	_	25	punct	_	AlignBegin=189530|AlignEnd=189710|Gloss=PUNCT
-23	di	the	DET	_	Definite=Def|PronType=Art	25	det	_	AlignBegin=189710|AlignEnd=189810|Gloss=DEF.ART
+23	di	di	DET	_	Definite=Def|PronType=Art	25	det	_	AlignBegin=189710|AlignEnd=189810|Gloss=DEF.ART
 24	same	same	ADJ	_	_	25	amod	_	AlignBegin=189810|AlignEnd=190140|Gloss=same
 25	moder	moder	NOUN	_	_	20	conj	_	AlignBegin=190140|AlignEnd=190440|Gloss=mother
 26	?//]	?//]	PUNCT	_	_	13	punct	_	AlignBegin=190440|AlignEnd=190470|Gloss=PUNCT
@@ -1437,15 +1436,15 @@
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_27_A-Hotelier-Interview_MG.mp3
 # speaker_id = Sp461
 # text = di girl dey sharp say [ why again ?//= why I dey ask ?//= # why I go ?//] &//
-# text_en = "The girl demanded ""why again, why am I asking? Why will I…?"""
-# text_ortho = "Di girl dey sharp say ""why again, why I dey ask, why I go...?"""
-1	di	the	DET	_	Definite=Def|PronType=Art	2	det	_	AlignBegin=190470|AlignEnd=190620|Gloss=DEF.ART
-2	girl	girl	NOUN	_	_	5	nsubj	_	AlignBegin=190620|AlignEnd=190910|Gloss=girl
-3	dey	dey	AUX	_	VerbType=Cop	5	aux	_	AlignBegin=190910|AlignEnd=191180|Gloss=be
-4	sharp	sharp	ADJ	_	_	5	advcl	_	AlignBegin=191180|AlignEnd=191420|Gloss=sharp
-5	say	say	VERB	_	_	0	root	_	AlignBegin=191450|AlignEnd=191620|Gloss=say
+# text_en = The girl demanded "why again, why am I asking? Why will I...?"
+# text_ortho = Di girl dey sharp say why again, why I dey ask, why I go?..
+1	di	di	DET	_	Definite=Def|PronType=Art	2	det	_	AlignBegin=190470|AlignEnd=190620|Gloss=DEF.ART
+2	girl	girl	NOUN	_	_	3	nsubj	_	AlignBegin=190620|AlignEnd=190910|Gloss=girl
+3	dey	dey	VERB	_	VerbType=Cop	0	root	_	AlignBegin=190910|AlignEnd=191180|Gloss=be
+4	sharp	sharp	ADJ	_	_	3	advcl	_	AlignBegin=191180|AlignEnd=191420|Gloss=sharp
+5	say	say	VERB	_	_	3	aux	_	AlignBegin=191450|AlignEnd=191620|Gloss=say
 6	[	[	PUNCT	_	_	7	punct	_	AlignBegin=191620|AlignEnd=192020|Gloss=PUNCT
-7	why	why	ADV	_	PronType=Int	5	parataxis	_	AlignBegin=191620|AlignEnd=192020|Gloss=why.Q
+7	why	why	ADV	_	PronType=Int	3	parataxis	_	AlignBegin=191620|AlignEnd=192020|Gloss=why.Q
 8	again	again	ADV	_	_	7	advmod	_	AlignBegin=192020|AlignEnd=192370|Gloss=again
 9	?//=	?//=	PUNCT	_	_	10	punct	_	AlignBegin=192370|AlignEnd=192400|Gloss=PUNCT
 10	why	why	ADV	_	PronType=Int	7	conj:dicto	_	AlignBegin=192400|AlignEnd=192540|Gloss=why.Q
@@ -1458,7 +1457,7 @@
 17	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	AlignBegin=193510|AlignEnd=193580|Gloss=NOM.SG.1
 18	go	go	AUX	_	Aspect=Prosp	16	advcl:cleft	_	AlignBegin=193580|AlignEnd=193660|Gloss=PROSP
 19	?//]	?//]	PUNCT	_	_	7	punct	_	AlignBegin=193660|AlignEnd=193690|Gloss=PUNCT
-20	&//	//	PUNCT	_	_	5	punct	_	AlignBegin=193660|AlignEnd=193690|Gloss=PUNCT
+20	&//	&//	PUNCT	_	_	3	punct	_	AlignBegin=193660|AlignEnd=193690|Gloss=PUNCT
 
 # sent_id = ONI_27_A-Hotelier-Interview_MG__75
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_27_A-Hotelier-Interview_MG.mp3
@@ -1471,20 +1470,20 @@
 3	[	[	PUNCT	_	_	5	punct	_	AlignBegin=193840|AlignEnd=193870|Gloss=PUNCT
 4	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	AlignBegin=193870|AlignEnd=193940|Gloss=NOM.SG.1
 5	suppose	suppose	VERB	_	_	2	parataxis	_	AlignBegin=193940|AlignEnd=194350|Gloss=suppose
-6	ask	ask	VERB	_	_	5	xcomp	_	AlignBegin=194350|AlignEnd=194870|Gloss=ask
+6	ask	ask	VERB	_	_	5	xcomp:obj	_	AlignBegin=194350|AlignEnd=194870|Gloss=ask
 7	//]	//]	PUNCT	_	_	5	punct	_	AlignBegin=194870|AlignEnd=194900|Gloss=PUNCT
 8	//	//	PUNCT	_	_	2	punct	_	AlignBegin=194870|AlignEnd=194900|Gloss=PUNCT
 
 # sent_id = ONI_27_A-Hotelier-Interview_MG__76
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_27_A-Hotelier-Interview_MG.mp3
 # speaker_id = Sp461
-# text = # { na be- || na || na } my work //
-# text_en = It's be-… it's… it's my job.
-# text_ortho = Na be-... na, na my work.
+# text = # { na be~ || na || na } my work //
+# text_en = It's be~... it's... it's my job.
+# text_ortho = Na be~... na, na my work.
 1	#	#	PUNCT	_	_	4	punct	_	AlignBegin=194900|AlignEnd=195380|Gloss=PUNCT
 2	{	{	PUNCT	_	_	4	punct	_	AlignBegin=195350|AlignEnd=195380|Gloss=PUNCT
 3	na	na	AUX	_	PartType=Cop	4	cop	_	AlignBegin=195380|AlignEnd=195540|Gloss=be
-4	be-	X	X	_	_	0	root	_	AlignBegin=195540|AlignEnd=195730|Gloss=X
+4	be~	X	X	_	_	0	root	_	AlignBegin=195540|AlignEnd=195730|Gloss=X
 5	||	||	PUNCT	_	_	6	punct	_	AlignBegin=195730|AlignEnd=195760|Gloss=PUNCT
 6	na	na	AUX	_	PartType=Cop	3	conj:dicto	_	AlignBegin=195760|AlignEnd=196000|Gloss=be
 7	||	||	PUNCT	_	_	11	punct	_	AlignBegin=196000|AlignEnd=196030|Gloss=PUNCT
@@ -1498,10 +1497,10 @@
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_27_A-Hotelier-Interview_MG.mp3
 # speaker_id = Sp461
 # text = # sey how I no go ask you ?//
-# text_en = "I said, ""why wouldn't I ask you?"""
-# text_ortho = "Sey ""how I no go ask you?"""
+# text_en = I said, "why wouldn't I ask you?"
+# text_ortho = Sey how I no go ask you?
 1	#	#	PUNCT	_	_	3	punct	_	AlignBegin=196710|AlignEnd=196960|Gloss=PUNCT
-2	sey	sey	SCONJ	_	_	3	cc	_	AlignBegin=196960|AlignEnd=197070|Gloss=COMP
+2	sey	sey	SCONJ	_	_	3	discourse	_	AlignBegin=196960|AlignEnd=197070|Gloss=COMP
 3	how	how	ADV	_	PronType=Int	0	root	_	AlignBegin=197070|AlignEnd=197190|Gloss=how.Q
 4	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	AlignBegin=197190|AlignEnd=197300|Gloss=NOM.SG.1
 5	no	no	PART	_	Polarity=Neg	7	advmod	_	AlignBegin=197300|AlignEnd=197420|Gloss=NEG
@@ -1514,8 +1513,8 @@
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_27_A-Hotelier-Interview_MG.mp3
 # speaker_id = Sp461
 # text = # who e be ?//
-# text_en = """Who is she?"""
-# text_ortho = """Who e be?"""
+# text_en = "Who is she?"
+# text_ortho = Who e be?
 1	#	#	PUNCT	_	_	2	punct	_	AlignBegin=197980|AlignEnd=198600|Gloss=PUNCT
 2	who	who	PRON	_	PronType=Int	0	root	_	AlignBegin=198600|AlignEnd=198690|Gloss=who.Q
 3	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	AlignBegin=198690|AlignEnd=198770|Gloss=NOM.SG.3
@@ -1526,8 +1525,8 @@
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_27_A-Hotelier-Interview_MG.mp3
 # speaker_id = Sp461
 # text = # I say [ why I dey ask na [ since when e come here < { I see dat || I dey look dem { from ehn # leg |c from head } } ] //] //
-# text_en = I said I asked because since she came here, I noticed that… I was looking at them closely, from uh… the leg… from the head…
-# text_ortho = I say why I dey ask na since when e come here, I see dat... I dey look dem from ehn... leg... from head.
+# text_en = I said I asked because since she came here, I noticed that... I was looking at them closely, from uh... the leg... from the head...
+# text_ortho = I say why I dey ask na since when e come here, I see dat, I dey look dem from ehn leg, from head.
 1	#	#	PUNCT	_	_	3	punct	_	AlignBegin=199090|AlignEnd=199560|Gloss=PUNCT
 2	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	AlignBegin=199560|AlignEnd=199670|Gloss=NOM.SG.1
 3	say	say	VERB	_	_	0	root	_	AlignBegin=199670|AlignEnd=199780|Gloss=say
@@ -1539,7 +1538,7 @@
 9	na	na	AUX	_	PartType=Cop	19	cop	_	AlignBegin=200390|AlignEnd=200530|Gloss=be
 10	[	[	PUNCT	_	_	19	punct	_	AlignBegin=200560|AlignEnd=200990|Gloss=PUNCT
 11	since	since	ADP	_	_	12	case	_	AlignBegin=200560|AlignEnd=200990|Gloss=since
-12	when	when	ADV	_	PronType=Int	19	advmod:periph	_	AlignBegin=200990|AlignEnd=201180|Gloss=when.Q
+12	when	when	ADV	_	PronType=Int	19	obl:mod	_	AlignBegin=200990|AlignEnd=201180|Gloss=when.Q
 13	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	AlignBegin=201180|AlignEnd=201270|Gloss=NOM.SG.3
 14	come	come	VERB	_	_	12	acl:relcl	_	AlignBegin=201270|AlignEnd=201540|Gloss=come
 15	here	here	ADV	_	_	14	obj	_	AlignBegin=201540|AlignEnd=201640|Gloss=here
@@ -1547,7 +1546,7 @@
 17	{	{	PUNCT	_	_	19	punct	_	AlignBegin=201640|AlignEnd=201670|Gloss=PUNCT
 18	I	_	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	AlignBegin=201670|AlignEnd=201810|Gloss=NOM.SG.1
 19	see	see	VERB	_	_	3	parataxis	_	AlignBegin=201840|AlignEnd=202060|Gloss=see
-20	dat	dat	SCONJ	_	_	19	dep	_	AlignBegin=202060|AlignEnd=202220|Gloss=that
+20	dat	dat	SCONJ	_	_	19	dep:comp	_	AlignBegin=202060|AlignEnd=202220|Gloss=COMP
 21	||	||	PUNCT	_	_	24	punct	_	AlignBegin=202220|AlignEnd=202290|Gloss=PUNCT
 22	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	24	nsubj	_	AlignBegin=202220|AlignEnd=202290|Gloss=NOM.SG.1
 23	dey	dey	AUX	_	Aspect=Imp	24	aux	_	AlignBegin=202390|AlignEnd=202540|Gloss=IPFV
@@ -1583,8 +1582,8 @@
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_27_A-Hotelier-Interview_MG.mp3
 # speaker_id = Sp461
 # text = im say [ ah yes na your character //] //
-# text_en = "She said, ""ah, yes, it's your character""."
-# text_ortho = "Im say ""ah yes na your character."""
+# text_en = She said, "ah, yes, it's your character."
+# text_ortho = Im say ah yes na your character.
 1	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	AlignBegin=206450|AlignEnd=206510|Gloss=NOM.SG.3
 2	say	say	VERB	_	_	0	root	_	AlignBegin=206510|AlignEnd=206620|Gloss=say
 3	[	[	PUNCT	_	_	8	punct	_	AlignBegin=206620|AlignEnd=206650|Gloss=PUNCT
@@ -1600,10 +1599,10 @@
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_27_A-Hotelier-Interview_MG.mp3
 # speaker_id = Sp461
 # text = # dat boy say [ auntie < no talk too much !//] //
-# text_en = "That boy said, ""auntie, don't say too much!"""
-# text_ortho = "Dat boy say ""auntie, no talk too much!"""
+# text_en = That boy said, "auntie, don't say too much!"
+# text_ortho = Dat boy say auntie, no talk too much!
 1	#	#	PUNCT	_	_	4	punct	_	AlignBegin=207940|AlignEnd=209300|Gloss=PUNCT
-2	dat	dat	DET	_	Number=Sing|PronType=Dem	3	det	_	AlignBegin=209300|AlignEnd=209550|Gloss=SG.DIST.DEM
+2	dat	dat	DET	_	Number=Sing|PronType=Dem	3	det	_	AlignBegin=209300|AlignEnd=209550|Gloss=SG.DEM
 3	boy	boy	NOUN	_	_	4	nsubj	_	AlignBegin=209550|AlignEnd=209710|Gloss=boy
 4	say	say	VERB	_	_	0	root	_	AlignBegin=209710|AlignEnd=209850|Gloss=say
 5	[	[	PUNCT	_	_	9	punct	_	AlignBegin=209850|AlignEnd=209880|Gloss=PUNCT
@@ -1620,8 +1619,8 @@
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_27_A-Hotelier-Interview_MG.mp3
 # speaker_id = Sp461
 # text = e say [ ah # na man !//] //
-# text_en = "They said, ""ah, he's a man!"""
-# text_ortho = "E say ""ah na man!"""
+# text_en = They said, "ah, he's a man!"
+# text_ortho = E say ah na man!
 1	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	AlignBegin=211290|AlignEnd=211360|Gloss=NOM.SG.3
 2	say	say	VERB	_	_	0	root	_	AlignBegin=211360|AlignEnd=211490|Gloss=say
 3	[	[	PUNCT	_	_	7	punct	_	AlignBegin=211490|AlignEnd=211520|Gloss=PUNCT
@@ -1636,14 +1635,14 @@
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_27_A-Hotelier-Interview_MG.mp3
 # speaker_id = Sp461
 # text = # { wit || na dis || na || na { you |c wit dat girl } } < you no go sleep for one room //
-# text_en = """With… it's this… it's… it's you... you will not sleep in the same room as that girl."""
-# text_ortho = """Wit... na dis... na, na you... wit dat girl, you no go sleep for one room."""
+# text_en = "With... it's this... it's... it's you... you will not sleep in the same room as that girl."
+# text_ortho = Wit, na dis, na, na you, wit dat girl, you no go sleep for one room.
 1	#	#	PUNCT	_	_	23	punct	_	AlignBegin=212880|AlignEnd=213110|Gloss=PUNCT
 2	{	{	PUNCT	_	_	3	punct	_	AlignBegin=213080|AlignEnd=213110|Gloss=PUNCT
 3	wit	wit	ADP	_	_	23	dislocated	_	AlignBegin=213110|AlignEnd=213670|Gloss=with
 4	||	||	PUNCT	_	_	6	punct	_	AlignBegin=213670|AlignEnd=213700|Gloss=PUNCT
 5	na	now	ADV	_	_	6	discourse	_	AlignBegin=213700|AlignEnd=213960|Gloss=now
-6	dis	dis	DET	_	Number=Sing|PronType=Dem	3	conj:dicto	_	AlignBegin=213960|AlignEnd=214340|Gloss=SG.PROX.DEM
+6	dis	dis	DET	_	Number=Sing|PronType=Dem	3	conj:dicto	_	AlignBegin=213960|AlignEnd=214340|Gloss=SG.DEM
 7	||	||	PUNCT	_	_	8	punct	_	AlignBegin=214340|AlignEnd=214370|Gloss=PUNCT
 8	na	now	ADV	_	_	6	conj:dicto	_	AlignBegin=214370|AlignEnd=214680|Gloss=now
 9	||	||	PUNCT	_	_	12	punct	_	AlignBegin=214680|AlignEnd=214710|Gloss=PUNCT
@@ -1652,7 +1651,7 @@
 12	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	8	conj:dicto	_	AlignBegin=214970|AlignEnd=215050|Gloss=NOM.2
 13	|c	|c	PUNCT	_	_	16	punct	_	AlignBegin=215050|AlignEnd=215220|Gloss=PUNCT
 14	wit	wit	ADP	_	_	16	cc	_	AlignBegin=215050|AlignEnd=215220|Gloss=with
-15	dat	dat	DET	_	Number=Sing|PronType=Dem	16	det	_	AlignBegin=215250|AlignEnd=215430|Gloss=SG.DIST.DEM
+15	dat	dat	DET	_	Number=Sing|PronType=Dem	16	det	_	AlignBegin=215250|AlignEnd=215430|Gloss=SG.DEM
 16	girl	girl	NOUN	_	_	3	conj	_	AlignBegin=215430|AlignEnd=215460|Gloss=girl
 17	}	}	PUNCT	_	_	12	punct	_	AlignBegin=215460|AlignEnd=215490|Gloss=PUNCT
 18	}	}	PUNCT	_	_	3	punct	_	AlignBegin=215460|AlignEnd=215490|Gloss=PUNCT
@@ -1673,7 +1672,7 @@
 # text_en = The boy asked why
 # text_ortho = Di boy say why?
 1	#	#	PUNCT	_	_	4	punct	_	AlignBegin=216640|AlignEnd=217480|Gloss=PUNCT
-2	di	the	DET	_	Definite=Def|PronType=Art	3	det	_	AlignBegin=217480|AlignEnd=217550|Gloss=DEF.ART
+2	di	di	DET	_	Definite=Def|PronType=Art	3	det	_	AlignBegin=217480|AlignEnd=217550|Gloss=DEF.ART
 3	boy	boy	NOUN	_	_	4	nsubj	_	AlignBegin=217550|AlignEnd=217720|Gloss=boy
 4	say	say	VERB	_	_	0	root	_	AlignBegin=217720|AlignEnd=217930|Gloss=say
 5	why	why	ADV	_	PronType=Int	4	parataxis	_	AlignBegin=217930|AlignEnd=218220|Gloss=why.Q
@@ -1683,10 +1682,10 @@
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_27_A-Hotelier-Interview_MG.mp3
 # speaker_id = Sp461
 # text = # di girl bah say [ okay e no go sleep ?//] //
-# text_en = "The girl was like ""okay, he won't sleep?"""
-# text_ortho = "Di girl bah say ""okay e no go sleep?"""
+# text_en = The girl was like "okay, he won't sleep?"
+# text_ortho = Di girl bah say okay e no go sleep?
 1	#	#	PUNCT	_	_	5	punct	_	AlignBegin=218250|AlignEnd=219380|Gloss=PUNCT
-2	di	the	DET	_	Definite=Def|PronType=Art	3	det	_	AlignBegin=219380|AlignEnd=219450|Gloss=DEF.ART
+2	di	di	DET	_	Definite=Def|PronType=Art	3	det	_	AlignBegin=219380|AlignEnd=219450|Gloss=DEF.ART
 3	girl	girl	NOUN	_	_	5	nsubj	_	AlignBegin=219450|AlignEnd=219630|Gloss=girl
 4	bah	bah	PART	_	_	3	advmod:emph	_	AlignBegin=219630|AlignEnd=219790|Gloss=you_see
 5	say	say	VERB	_	_	0	root	_	AlignBegin=219790|AlignEnd=220000|Gloss=say
@@ -1703,8 +1702,8 @@
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_27_A-Hotelier-Interview_MG.mp3
 # speaker_id = Sp461
 # text = # ehn na husband !//
-# text_en = """Uh... he's her husband!"""
-# text_ortho = """Ehn... na husband!"""
+# text_en = "Uh... he's her husband!"
+# text_ortho = Ehn na husband!
 1	#	#	PUNCT	_	_	4	punct	_	AlignBegin=220940|AlignEnd=221460|Gloss=PUNCT
 2	ehn	ehn	INTJ	_	_	4	discourse	_	AlignBegin=221460|AlignEnd=221570|Gloss=ehn
 3	na	na	AUX	_	PartType=Cop	4	cop	_	AlignBegin=221570|AlignEnd=221870|Gloss=be
@@ -1715,15 +1714,15 @@
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_27_A-Hotelier-Interview_MG.mp3
 # speaker_id = Sp461
 # text = no go allow dem make e sleep here ?//
-# text_en = """Won't you let them sleep here?"""
-# text_ortho = """No go allow dem make e sleep here?"""
+# text_en = "Won't you let them sleep here?"
+# text_ortho = No go allow dem make e sleep here?
 1	no	no	PART	_	Polarity=Neg	3	advmod	_	AlignBegin=222220|AlignEnd=222410|Gloss=NEG
 2	go	go	AUX	_	Aspect=Prosp	3	aux	_	AlignBegin=222410|AlignEnd=222530|Gloss=PROSP
 3	allow	allow	VERB	_	_	0	root	_	AlignBegin=222530|AlignEnd=222770|Gloss=allow
 4	dem	dem	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	3	obj	_	AlignBegin=222770|AlignEnd=222910|Gloss=ACC.PL.3
 5	make	make	AUX	_	Mood=Opt	7	aux	_	AlignBegin=222910|AlignEnd=223140|Gloss=SBJV
 6	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	AlignBegin=223140|AlignEnd=223210|Gloss=NOM.SG.3
-7	sleep	sleep	VERB	_	_	3	ccomp	_	AlignBegin=223210|AlignEnd=223680|Gloss=sleep
+7	sleep	sleep	VERB	_	_	3	ccomp:pred	_	AlignBegin=223210|AlignEnd=223680|Gloss=sleep
 8	here	here	ADV	_	_	7	obj	_	AlignBegin=223680|AlignEnd=223850|Gloss=here
 9	?//	?//	PUNCT	_	_	3	punct	_	AlignBegin=223850|AlignEnd=223880|Gloss=PUNCT
 
@@ -1731,11 +1730,11 @@
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_27_A-Hotelier-Interview_MG.mp3
 # speaker_id = Sp461
 # text = # na dat place < no be hotel ?//
-# text_en = """Isn't this place a hotel?"""
-# text_ortho = """Na dat place, no be hotel?"""
+# text_en = "Isn't this place a hotel?"
+# text_ortho = Na dat place, no be hotel?
 1	#	#	PUNCT	_	_	8	punct	_	AlignBegin=223880|AlignEnd=224240|Gloss=PUNCT
 2	na	now	ADV	_	_	8	discourse	_	AlignBegin=224240|AlignEnd=224400|Gloss=now
-3	dat	dat	DET	_	Number=Sing|PronType=Dem	4	det	_	AlignBegin=224400|AlignEnd=224570|Gloss=SG.DIST.DEM
+3	dat	dat	DET	_	Number=Sing|PronType=Dem	4	det	_	AlignBegin=224400|AlignEnd=224570|Gloss=SG.DEM
 4	place	place	NOUN	_	_	8	dislocated	_	AlignBegin=224570|AlignEnd=224890|Gloss=place
 5	<	<	PUNCT	_	_	8	punct	_	AlignBegin=224890|AlignEnd=225010|Gloss=PUNCT
 6	no	no	PART	_	Polarity=Neg	8	advmod	_	AlignBegin=224890|AlignEnd=225010|Gloss=NEG
@@ -1748,21 +1747,21 @@
 # speaker_id = Sp461
 # text = # na di hotel >+ e husband go like sey [ make e sleep ] //
 # text_en = Her husband would like her to sleep in a hotel.
-# text_ortho = Na di hotel, e husband go like sey make e sleep.
+# text_ortho = Na di hotel e husband go like sey make e sleep.
 1	#	#	PUNCT	_	_	4	punct	_	AlignBegin=225660|AlignEnd=226020|Gloss=PUNCT
 2	na	na	AUX	_	PartType=Cop	4	cop	_	AlignBegin=226020|AlignEnd=226180|Gloss=be
-3	di	the	DET	_	Definite=Def|PronType=Art	4	det	_	AlignBegin=226180|AlignEnd=226360|Gloss=DEF.ART
+3	di	di	DET	_	Definite=Def|PronType=Art	4	det	_	AlignBegin=226180|AlignEnd=226360|Gloss=DEF.ART
 4	hotel	hotel	NOUN	_	_	0	root	_	AlignBegin=226360|AlignEnd=226640|Gloss=hotel
 5	>+	>+	PUNCT	_	_	9	punct	_	AlignBegin=226640|AlignEnd=226670|Gloss=PUNCT
-6	e	im	PRON	_	Case=Nom|Number=Sing|Person=3	7	nmod:poss	_	AlignBegin=226670|AlignEnd=226700|Gloss=SG.3.POSS
+6	e	im	PRON	_	Number=Sing|Person=3|Poss=Yes	7	nmod:poss	_	AlignBegin=226670|AlignEnd=226700|Gloss=SG.3.POSS
 7	husband	husband	NOUN	_	_	9	nsubj	_	AlignBegin=226700|AlignEnd=227190|Gloss=husband
 8	go	go	AUX	_	Aspect=Prosp	9	aux	_	AlignBegin=227190|AlignEnd=227340|Gloss=PROSP
 9	like	like	VERB	_	_	4	advcl:cleft	_	AlignBegin=227340|AlignEnd=227590|EXTPOS=SCONJ|Gloss=like
-10	sey	sey	SCONJ	_	_	9	fixed	_	AlignBegin=227590|AlignEnd=227750|Gloss=COMP
+10	sey	sey	SCONJ	_	_	9	dep	_	AlignBegin=227590|AlignEnd=227750|Gloss=COMP
 11	[	[	PUNCT	_	_	14	punct	_	AlignBegin=227750|AlignEnd=227780|Gloss=PUNCT
 12	make	make	AUX	_	Mood=Opt	14	aux	_	AlignBegin=227780|AlignEnd=228020|Gloss=SBJV
 13	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	AlignBegin=228020|AlignEnd=228050|Gloss=NOM.SG.3
-14	sleep	sleep	VERB	_	_	9	ccomp	_	AlignBegin=228050|AlignEnd=228360|Gloss=sleep
+14	sleep	sleep	VERB	_	_	9	ccomp:obj	_	AlignBegin=228050|AlignEnd=228360|Gloss=sleep
 15	]	]	PUNCT	_	_	14	punct	_	AlignBegin=228360|AlignEnd=228390|Gloss=PUNCT
 16	//	//	PUNCT	_	_	4	punct	_	AlignBegin=228360|AlignEnd=228390|Gloss=PUNCT
 
@@ -1774,7 +1773,7 @@
 # text_ortho = Im na di husband.
 1	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	AlignBegin=228390|AlignEnd=228530|Gloss=NOM.SG.3
 2	na	na	AUX	_	PartType=Cop	4	cop	_	AlignBegin=228530|AlignEnd=228740|Gloss=be
-3	di	the	DET	_	Definite=Def|PronType=Art	4	det	_	AlignBegin=228740|AlignEnd=228880|Gloss=DEF.ART
+3	di	di	DET	_	Definite=Def|PronType=Art	4	det	_	AlignBegin=228740|AlignEnd=228880|Gloss=DEF.ART
 4	husband	husband	NOUN	_	_	0	root	_	AlignBegin=228880|AlignEnd=229340|Gloss=husband
 5	//	//	PUNCT	_	_	4	punct	_	AlignBegin=229340|AlignEnd=229370|Gloss=PUNCT
 
@@ -1801,8 +1800,8 @@
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_27_A-Hotelier-Interview_MG.mp3
 # speaker_id = Sp461
 # text = # { e no dey || e no like } Catholic kids //
-# text_en = She doesn't… she doesn't like Catholic kids.
-# text_ortho = E no dey e no like Catholic kids.
+# text_en = She doesn't... she doesn't like Catholic kids.
+# text_ortho = E no dey, e no like Catholic kids.
 1	#	#	PUNCT	_	_	5	punct	_	AlignBegin=231460|AlignEnd=231880|Gloss=PUNCT
 2	{	{	PUNCT	_	_	5	punct	_	AlignBegin=231850|AlignEnd=231880|Gloss=PUNCT
 3	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	AlignBegin=231880|AlignEnd=231940|Gloss=NOM.SG.3
@@ -1822,7 +1821,7 @@
 # speaker_id = Sp461
 # text = # ehn she < mtschew dey talk am //
 # text_en = Uh... she mstchew, talks about it.
-# text_ortho = Ehn... she, mstchew, dey talk am.
+# text_ortho = Ehn she, mtschew dey talk am.
 1	#	#	PUNCT	_	_	7	punct	_	AlignBegin=233930|AlignEnd=234070|Gloss=PUNCT
 2	ehn	ehn	INTJ	_	_	7	discourse	_	AlignBegin=234070|AlignEnd=234620|Gloss=ehn
 3	she	she	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	AlignBegin=234620|AlignEnd=234990|Gloss=NOM.F.SG.3
@@ -1846,7 +1845,7 @@
 5	wetin	wetin	PRON	_	PronType=Int	4	obj	_	AlignBegin=236340|AlignEnd=236695|Gloss=what.Q
 6	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	AlignBegin=236695|AlignEnd=236780|Gloss=NOM.SG.3
 7	talk	talk	VERB	_	_	5	acl:relcl	_	AlignBegin=236780|AlignEnd=236920|Gloss=talk
-8	dat	dat	DET	_	Number=Sing|PronType=Dem	9	det	_	AlignBegin=236920|AlignEnd=237100|Gloss=SG.DIST.DEM
+8	dat	dat	DET	_	Number=Sing|PronType=Dem	9	det	_	AlignBegin=236920|AlignEnd=237100|Gloss=SG.DEM
 9	day	day	NOUN	_	_	7	obj	_	AlignBegin=237100|AlignEnd=237173|Gloss=day
 10	|c	|c	PUNCT	_	_	13	punct	_	AlignBegin=237173|AlignEnd=237203|Gloss=PUNCT
 11	but	but	CCONJ	_	_	13	cc	_	AlignBegin=237203|AlignEnd=237272|Gloss=but
@@ -1855,7 +1854,7 @@
 14	[	[	PUNCT	_	_	15	punct	_	AlignBegin=237580|AlignEnd=237610|Gloss=PUNCT
 15	na	na	AUX	_	PartType=Cop	13	parataxis	_	AlignBegin=237610|AlignEnd=237800|Gloss=be
 16	#	#	PUNCT	_	_	18	punct	_	AlignBegin=237800|AlignEnd=238120|Gloss=PUNCT
-17	e	im	PRON	_	Case=Nom|Number=Sing|Person=3	18	nmod:poss	_	AlignBegin=238120|AlignEnd=238160|Gloss=SG.3.POSS
+17	e	im	PRON	_	Number=Sing|Person=3|Poss=Yes	18	nmod:poss	_	AlignBegin=238120|AlignEnd=238160|Gloss=SG.3.POSS
 18	husband	husband	NOUN	_	_	15	advcl:cleft	_	AlignBegin=238160|AlignEnd=238530|Gloss=husband
 19	//]	//]	PUNCT	_	_	15	punct	_	AlignBegin=238530|AlignEnd=238560|Gloss=PUNCT
 20	//	//	PUNCT	_	_	4	punct	_	AlignBegin=238530|AlignEnd=238560|Gloss=PUNCT
@@ -1872,7 +1871,7 @@
 4	like	like	VERB	_	_	0	root	_	AlignBegin=238760|AlignEnd=239100|Gloss=like
 5	make	make	AUX	_	Mood=Opt	7	aux	_	AlignBegin=239100|AlignEnd=239340|Gloss=SBJV
 6	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	AlignBegin=239340|AlignEnd=239370|Gloss=NOM.SG.3
-7	sleep	sleep	VERB	_	_	4	ccomp	_	AlignBegin=239370|AlignEnd=239669|Gloss=sleep
+7	sleep	sleep	VERB	_	_	4	ccomp:obj	_	AlignBegin=239370|AlignEnd=239669|Gloss=sleep
 8	by	by	ADP	_	_	9	case	_	AlignBegin=239669|AlignEnd=239889|Gloss=by
 9	imsef	imsef	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	7	obl:mod	_	AlignBegin=239889|AlignEnd=240247|Gloss=ACC.M.SG.3.REFL
 10	//	//	PUNCT	_	_	4	punct	_	AlignBegin=240247|AlignEnd=240277|Gloss=PUNCT
@@ -1952,7 +1951,7 @@
 # text_en = Is this boy your boyfriend?
 # text_ortho = Dis boy, na your friend boy.
 1	#	#	PUNCT	_	_	8	punct	_	AlignBegin=249860|AlignEnd=251280|Gloss=PUNCT
-2	dis	dis	DET	_	Number=Sing|PronType=Dem	3	det	_	AlignBegin=251280|AlignEnd=251520|Gloss=SG.PROX.DEM
+2	dis	dis	DET	_	Number=Sing|PronType=Dem	3	det	_	AlignBegin=251280|AlignEnd=251520|Gloss=SG.DEM
 3	boy	boy	NOUN	_	_	8	dislocated	_	AlignBegin=251520|AlignEnd=251710|Gloss=boy
 4	<	<	PUNCT	_	_	3	punct	_	AlignBegin=251710|AlignEnd=251740|Gloss=PUNCT
 5	na	na	AUX	_	PartType=Cop	8	cop	_	AlignBegin=251740|AlignEnd=251920|Gloss=be
@@ -1973,7 +1972,7 @@
 4	go	go	AUX	_	Aspect=Prosp	5	aux	_	AlignBegin=253630|AlignEnd=253790|Gloss=PROSP
 5	give	give	VERB	_	_	0	root	_	AlignBegin=253790|AlignEnd=253870|Gloss=give
 6	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	5	obj	_	AlignBegin=253870|AlignEnd=253990|Gloss=NOM.2
-7	una	una	ADJ	_	Number=Plur|Person=2|Poss=Yes	8	amod	_	AlignBegin=253990|AlignEnd=254150|Gloss=PL.2.POSS
+7	una	una	PRON	_	Number=Plur|Person=2|Poss=Yes|PronType=Prs	8	nmod	_	AlignBegin=253990|AlignEnd=254150|Gloss=PL.2.POSS
 8	own	own	ADJ	_	_	5	obj	_	AlignBegin=254150|AlignEnd=254350|Gloss=own
 9	make	make	AUX	_	Mood=Opt	11	aux	_	AlignBegin=254350|AlignEnd=254610|Gloss=SBJV
 10	una	una	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	11	nsubj	_	AlignBegin=254610|AlignEnd=254780|Gloss=NOM.PL.2
@@ -1995,7 +1994,7 @@
 7	place	place	NOUN	_	_	3	obl:arg	_	AlignBegin=256740|AlignEnd=257140|Gloss=place
 8	#	#	PUNCT	_	_	9	punct	_	AlignBegin=257140|AlignEnd=257380|Gloss=PUNCT
 9	go	go	VERB	_	_	3	conj	_	AlignBegin=257380|AlignEnd=257560|Gloss=go
-10	sleep	sleep	VERB	_	_	9	xcomp	_	AlignBegin=257560|AlignEnd=257850|Gloss=sleep
+10	sleep	sleep	VERB	_	_	9	xcomp:obj	_	AlignBegin=257560|AlignEnd=257850|Gloss=sleep
 11	//	//	PUNCT	_	_	3	punct	_	AlignBegin=257850|AlignEnd=257880|Gloss=PUNCT
 
 # sent_id = ONI_27_A-Hotelier-Interview_MG__103
@@ -2005,7 +2004,7 @@
 # text_en = In as much time as I have spent speaking with you, that boy was talking to someone on a big phone, in Igbo.
 # text_ortho = Dat time wen I dey talk una, dat boy carry big phone dey call one boy for Igbo.
 1	#	#	PUNCT	_	_	12	punct	_	AlignBegin=257880|AlignEnd=258200|Gloss=PUNCT
-2	dat	dat	DET	_	Number=Sing|PronType=Dem	3	det	_	AlignBegin=258200|AlignEnd=258430|Gloss=SG.DIST.DEM
+2	dat	dat	DET	_	Number=Sing|PronType=Dem	3	det	_	AlignBegin=258200|AlignEnd=258430|Gloss=SG.DEM
 3	time	time	NOUN	_	_	12	obl:mod	_	AlignBegin=258430|AlignEnd=258780|Gloss=time
 4	wen	wey	SCONJ	_	_	7	mark	_	AlignBegin=258780|AlignEnd=258880|Gloss=REL
 5	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	AlignBegin=258880|AlignEnd=258910|Gloss=NOM.SG.1
@@ -2029,26 +2028,24 @@
 # sent_id = ONI_27_A-Hotelier-Interview_MG__104
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_27_A-Hotelier-Interview_MG.mp3
 # speaker_id = Sp461
-# text = # [igb si ya eh kee ebe ino igb] ?//
-# text_en = "<igb> Asking them, ""where are you?"" <igb>"
-# text_ortho = Si ya eh kee ebe ino ?
-1	#	#	PUNCT	_	_	3	punct	_	AlignBegin=262000|AlignEnd=262280|Gloss=PUNCT
-2	[igb	[igb	PUNCT	_	_	3	punct	_	AlignBegin=262250|AlignEnd=262280|Gloss=PUNCT
-3	si	si	X	_	_	0	root	_	AlignBegin=262280|AlignEnd=262440|Gloss=X
-4	ya	ya	X	_	_	3	flat:foreign	_	AlignBegin=262440|AlignEnd=262680|Gloss=X
-5	eh	eh	X	_	_	4	flat:foreign	_	AlignBegin=262680|AlignEnd=262980|Gloss=X
-6	kee	kee	X	_	_	5	flat:foreign	_	AlignBegin=262980|AlignEnd=263503|Gloss=X
-7	ebe	ebe	X	_	_	6	flat:foreign	_	AlignBegin=263503|AlignEnd=263790|Gloss=X
-8	ino	ino	X	_	_	7	flat:foreign	_	AlignBegin=263790|AlignEnd=264030|Gloss=X
-9	igb]	igb]	PUNCT	_	_	3	punct	_	AlignBegin=264030|AlignEnd=264060|Gloss=PUNCT
-10	?//	?//	PUNCT	_	_	3	punct	_	AlignBegin=264030|AlignEnd=264060|Gloss=PUNCT
+# text = # si ya eh kee ebe ino ?//
+# text_en = Asking them, "where are you?"
+# text_ortho = Si ya eh kee ebe ino?
+1	#	#	PUNCT	_	_	2	punct	_	AlignBegin=262000|AlignEnd=262280|Gloss=PUNCT
+2	si	si	X	_	_	0	root	_	AlignBegin=262280|AlignEnd=262440|Gloss=X|Lang=ig
+3	ya	ya	X	_	_	2	flat:foreign	_	AlignBegin=262440|AlignEnd=262680|Gloss=X|Lang=ig
+4	eh	X	X	_	_	3	flat:foreign	_	AlignBegin=262680|AlignEnd=262980|Gloss=X|Lang=ig
+5	kee	kee	X	_	_	4	flat:foreign	_	AlignBegin=262980|AlignEnd=263503|Gloss=X|Lang=ig
+6	ebe	ebe	X	_	_	5	flat:foreign	_	AlignBegin=263503|AlignEnd=263790|Gloss=X|Lang=ig
+7	ino	ino	X	_	_	6	flat:foreign	_	AlignBegin=263790|AlignEnd=264030|Gloss=X|Lang=ig
+8	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=264030|AlignEnd=264060|Gloss=PUNCT
 
 # sent_id = ONI_27_A-Hotelier-Interview_MG__105
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_27_A-Hotelier-Interview_MG.mp3
 # speaker_id = Sp461
 # text = # X < I dey look for hotel where I go sleep for Igbo //
-# text_en = """X, I am looking for an hotel where I will lodge in Igbo."""
-# text_ortho = """X, I dey look for hotel where I go sleep for Igbo."""
+# text_en = "X, I am looking for an hotel where I will lodge in Igbo."
+# text_ortho = X, I dey look for hotel where I go sleep for Igbo.
 1	#	#	PUNCT	_	_	6	punct	_	AlignBegin=264060|AlignEnd=264400|Gloss=PUNCT
 2	X	X	X	_	_	6	vocative	_	AlignBegin=264400|AlignEnd=264900|Gloss=X
 3	<	<	PUNCT	_	_	2	punct	_	AlignBegin=264900|AlignEnd=264930|Gloss=PUNCT
@@ -2069,8 +2066,8 @@
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_27_A-Hotelier-Interview_MG.mp3
 # speaker_id = Sp461
 # text = # I see am |c but I dey dat place wey de call Bethany //
-# text_en = """I've seen it, but I'm in that place they call Bethany."""
-# text_ortho = """I see am, but I dey dat place wey de call Bethany."""
+# text_en = "I've seen it, but I'm in that place they call Bethany."
+# text_ortho = I see am, but I dey dat place wey de call Bethany.
 1	#	#	PUNCT	_	_	3	punct	_	AlignBegin=266880|AlignEnd=267700|Gloss=PUNCT
 2	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	AlignBegin=267700|AlignEnd=267800|Gloss=NOM.SG.1
 3	see	see	VERB	_	_	0	root	_	AlignBegin=267800|AlignEnd=267960|Gloss=see
@@ -2079,12 +2076,12 @@
 6	but	but	CCONJ	_	_	8	cc	_	AlignBegin=268110|AlignEnd=268350|Gloss=but
 7	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	AlignBegin=268350|AlignEnd=268480|Gloss=NOM.SG.1
 8	dey	dey	VERB	_	VerbType=Cop	3	conj	_	AlignBegin=268480|AlignEnd=268690|Gloss=be
-9	dat	dat	DET	_	Number=Sing|PronType=Dem	10	det	_	AlignBegin=268690|AlignEnd=268880|Gloss=SG.DIST.DEM
-10	place	place	NOUN	_	_	8	xcomp	_	AlignBegin=268880|AlignEnd=269140|Gloss=place
+9	dat	dat	DET	_	Number=Sing|PronType=Dem	10	det	_	AlignBegin=268690|AlignEnd=268880|Gloss=SG.DEM
+10	place	place	NOUN	_	_	8	xcomp:pred	_	AlignBegin=268880|AlignEnd=269140|Gloss=place
 11	wey	wey	SCONJ	_	_	13	mark	_	AlignBegin=269140|AlignEnd=269250|Gloss=REL
 12	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	13	nsubj	_	AlignBegin=269250|AlignEnd=269350|Gloss=NOM.PL.3
 13	call	call	VERB	_	_	10	acl:relcl	_	AlignBegin=269350|AlignEnd=269620|Gloss=call
-14	Bethany	Bethany	PROPN	_	_	13	xcomp	_	AlignBegin=269620|AlignEnd=270090|Gloss=Bethany
+14	Bethany	Bethany	PROPN	_	_	13	xcomp:pred	_	AlignBegin=269620|AlignEnd=270090|Gloss=Bethany
 15	//	//	PUNCT	_	_	3	punct	_	AlignBegin=270090|AlignEnd=270120|Gloss=PUNCT
 
 # sent_id = ONI_27_A-Hotelier-Interview_MG__107
@@ -2098,7 +2095,7 @@
 3	no	no	PART	_	Polarity=Neg	4	advmod	_	AlignBegin=270500|AlignEnd=270680|Gloss=NEG
 4	know	know	VERB	_	_	0	root	_	AlignBegin=270680|AlignEnd=270920|Gloss=know
 5	wetin	wetin	PRON	_	PronType=Int	4	obj	_	AlignBegin=270920|AlignEnd=271150|Gloss=what.Q
-6	dat	dat	DET	_	Number=Sing|PronType=Dem	7	det	_	AlignBegin=271150|AlignEnd=271300|Gloss=SG.DIST.DEM
+6	dat	dat	DET	_	Number=Sing|PronType=Dem	7	det	_	AlignBegin=271150|AlignEnd=271300|Gloss=SG.DEM
 7	woman	woman	NOUN	_	_	9	nsubj	_	AlignBegin=271300|AlignEnd=271560|Gloss=woman
 8	dey	dey	AUX	_	Aspect=Imp	9	aux	_	AlignBegin=271560|AlignEnd=271730|Gloss=IPFV
 9	talk	talk	VERB	_	_	5	acl:relcl	_	AlignBegin=271730|AlignEnd=272030|Gloss=talk
@@ -2111,12 +2108,12 @@
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_27_A-Hotelier-Interview_MG.mp3
 # speaker_id = Sp461
 # text = # sey ehn di boy say [ ah # I dey # ehn ah ah ah Upper Weeka ] //
-# text_en = She said that uh... the boy that uh... I am… uh... ah, ah, ah... Upper Weeka.
-# text_ortho = Sey ehn... di boy say ah I dey ehn... ah, ah, ah... Upper Weeka.
+# text_en = She said that uh... the boy that uh... I am... uh... ah, ah, ah... Upper Weeka.
+# text_ortho = Sey ehn di boy say ah I dey ehn ah ah ah Upper Weeka.
 1	#	#	PUNCT	_	_	6	punct	_	AlignBegin=272670|AlignEnd=273090|Gloss=PUNCT
-2	sey	sey	SCONJ	_	_	6	cc	_	AlignBegin=273090|AlignEnd=273230|Gloss=COMP
+2	sey	sey	SCONJ	_	_	6	discourse	_	AlignBegin=273090|AlignEnd=273230|Gloss=COMP
 3	ehn	ehn	INTJ	_	_	6	discourse	_	AlignBegin=273230|AlignEnd=273850|Gloss=ehn
-4	di	the	DET	_	Definite=Def|PronType=Art	5	det	_	AlignBegin=273850|AlignEnd=273970|Gloss=DEF.ART
+4	di	di	DET	_	Definite=Def|PronType=Art	5	det	_	AlignBegin=273850|AlignEnd=273970|Gloss=DEF.ART
 5	boy	boy	NOUN	_	_	6	nsubj	_	AlignBegin=273970|AlignEnd=274190|Gloss=boy
 6	say	say	VERB	_	_	0	root	_	AlignBegin=274190|AlignEnd=274360|Gloss=say
 7	[	[	PUNCT	_	_	11	punct	_	AlignBegin=274360|AlignEnd=274390|Gloss=PUNCT
@@ -2129,7 +2126,7 @@
 14	ah	ah	INTJ	_	_	17	discourse	_	AlignBegin=276740|AlignEnd=276910|Gloss=ah
 15	ah	ah	INTJ	_	_	17	discourse	_	AlignBegin=276910|AlignEnd=277240|Gloss=ah
 16	ah	ah	INTJ	_	_	17	discourse	_	AlignBegin=277240|AlignEnd=277800|Gloss=ah
-17	Upper	upper	ADJ	_	_	11	xcomp	_	AlignBegin=277800|AlignEnd=278250|Gloss=upper
+17	Upper	upper	ADJ	_	_	11	xcomp:pred	_	AlignBegin=277800|AlignEnd=278250|Gloss=upper
 18	Weeka	Weeka	PROPN	_	_	17	flat	_	AlignBegin=278250|AlignEnd=278670|Gloss=Weeka
 19	]	]	PUNCT	_	_	11	punct	_	AlignBegin=278670|AlignEnd=278700|Gloss=PUNCT
 20	//	//	PUNCT	_	_	6	punct	_	AlignBegin=278670|AlignEnd=278700|Gloss=PUNCT
@@ -2139,18 +2136,18 @@
 # speaker_id = Sp461
 # text = # so ahn I no know di particular park # di boy call am //
 # text_en = So um... I don’t know the particular park he called it.
-# text_ortho = So ahn... I no know di particular park di boy call am.
+# text_ortho = So ahn I no know di particular park di boy call am.
 1	#	#	PUNCT	_	_	6	punct	_	AlignBegin=278700|AlignEnd=279310|Gloss=PUNCT
 2	so	so	ADV	_	_	6	discourse	_	AlignBegin=279310|AlignEnd=279610|Gloss=so
 3	ahn	ahn	INTJ	_	_	6	discourse	_	AlignBegin=279610|AlignEnd=280040|Gloss=ah
 4	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	AlignBegin=280040|AlignEnd=280080|Gloss=NOM.SG.1
 5	no	no	PART	_	Polarity=Neg	6	advmod	_	AlignBegin=280080|AlignEnd=280140|Gloss=NEG
 6	know	know	VERB	_	_	0	root	_	AlignBegin=280140|AlignEnd=280280|Gloss=know
-7	di	the	DET	_	Definite=Def|PronType=Art	9	det	_	AlignBegin=280280|AlignEnd=280420|Gloss=DEF.ART
+7	di	di	DET	_	Definite=Def|PronType=Art	9	det	_	AlignBegin=280280|AlignEnd=280420|Gloss=DEF.ART
 8	particular	particular	ADJ	_	_	9	amod	_	AlignBegin=280420|AlignEnd=280930|Gloss=particular
 9	park	park	NOUN	_	_	6	obj	_	AlignBegin=280930|AlignEnd=281310|Gloss=park
 10	#	#	PUNCT	_	_	13	punct	_	AlignBegin=281340|AlignEnd=281780|Gloss=PUNCT
-11	di	the	DET	_	Definite=Def|PronType=Art	12	det	_	AlignBegin=281780|AlignEnd=281870|Gloss=DEF.ART
+11	di	di	DET	_	Definite=Def|PronType=Art	12	det	_	AlignBegin=281780|AlignEnd=281870|Gloss=DEF.ART
 12	boy	boy	NOUN	_	_	13	nsubj	_	AlignBegin=281870|AlignEnd=282090|Gloss=boy
 13	call	call	VERB	_	_	9	acl:relcl	_	AlignBegin=282090|AlignEnd=282330|Gloss=call
 14	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	13	obj	_	AlignBegin=282330|AlignEnd=282430|Gloss=ACC.SG.3
@@ -2160,17 +2157,17 @@
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_27_A-Hotelier-Interview_MG.mp3
 # speaker_id = Sp461
 # text = # for see ah # make e go look for hotel for GRA //
-# text_en = Because, see… ah, he should go and look for a hotel in GRA.
-# text_ortho = For see... ah, make e go look for hotel for GRA.
+# text_en = Because, see... ah, he should go and look for a hotel in GRA.
+# text_ortho = For see ah make e go look for hotel for GRA.
 1	#	#	PUNCT	_	_	8	punct	_	AlignBegin=282430|AlignEnd=282670|Gloss=PUNCT
 2	for	for	AUX	_	Mood=Cond	8	discourse	_	AlignBegin=282670|AlignEnd=282760|Gloss=COND
-3	see	see	VERB	_	_	2	dep	_	AlignBegin=282760|AlignEnd=282930|Gloss=see
+3	see	see	VERB	_	_	2	dep:comp	_	AlignBegin=282760|AlignEnd=282930|Gloss=see
 4	ah	ah	INTJ	_	_	3	discourse	_	AlignBegin=282930|AlignEnd=283080|Gloss=ah
 5	#	#	PUNCT	_	_	2	punct	_	AlignBegin=283080|AlignEnd=283310|Gloss=PUNCT
 6	make	make	AUX	_	Mood=Opt	8	aux	_	AlignBegin=283310|AlignEnd=283520|Gloss=SBJV
 7	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	AlignBegin=283520|AlignEnd=283600|Gloss=NOM.SG.3
 8	go	go	VERB	_	_	0	root	_	AlignBegin=283600|AlignEnd=283780|Gloss=go
-9	look	look	VERB	_	_	8	xcomp	_	AlignBegin=283780|AlignEnd=283990|Gloss=look
+9	look	look	VERB	_	_	8	xcomp:obj	_	AlignBegin=283780|AlignEnd=283990|Gloss=look
 10	for	for	ADP	_	_	11	case	_	AlignBegin=283990|AlignEnd=284250|Gloss=for
 11	hotel	hotel	NOUN	_	_	9	obl:arg	_	AlignBegin=284250|AlignEnd=284590|Gloss=hotel
 12	for	for	ADP	_	_	13	case	_	AlignBegin=284590|AlignEnd=284800|Gloss=for
@@ -2182,7 +2179,7 @@
 # speaker_id = Sp461
 # text = # ehm # e call two name for hotel |c # but I no know di particular place //
 # text_en = Uh... he mentioned the two hotels but I don’t know the particular place.
-# text_ortho = Ehm... e call two name for hotel, but I no know di particular place.
+# text_ortho = Ehm e call two name for hotel, but I no know di particular place.
 1	#	#	PUNCT	_	_	5	punct	_	AlignBegin=285540|AlignEnd=285980|Gloss=PUNCT
 2	ehm	ehm	INTJ	_	_	5	discourse	_	AlignBegin=285980|AlignEnd=287020|Gloss=ehm
 3	#	#	PUNCT	_	_	2	punct	_	AlignBegin=287020|AlignEnd=287450|Gloss=PUNCT
@@ -2198,7 +2195,7 @@
 13	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	AlignBegin=290010|AlignEnd=290110|Gloss=NOM.SG.1
 14	no	no	PART	_	Polarity=Neg	15	advmod	_	AlignBegin=290110|AlignEnd=290250|Gloss=NEG
 15	know	know	VERB	_	_	5	conj	_	AlignBegin=290250|AlignEnd=290510|Gloss=know
-16	di	the	DET	_	Definite=Def|PronType=Art	18	det	_	AlignBegin=290510|AlignEnd=290890|Gloss=DEF.ART
+16	di	di	DET	_	Definite=Def|PronType=Art	18	det	_	AlignBegin=290510|AlignEnd=290890|Gloss=DEF.ART
 17	particular	particular	ADJ	_	_	18	amod	_	AlignBegin=290890|AlignEnd=291620|Gloss=particular
 18	place	place	NOUN	_	_	15	obj	_	AlignBegin=291620|AlignEnd=291990|Gloss=place
 19	//	//	PUNCT	_	_	5	punct	_	AlignBegin=291990|AlignEnd=292020|Gloss=PUNCT
@@ -2207,7 +2204,7 @@
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ONI_27_A-Hotelier-Interview_MG.mp3
 # speaker_id = Sp461
 # text = # hmhm //
-# text_en = Hmhm
+# text_en = Hmhm.
 # text_ortho = Hmhm.
 1	#	#	PUNCT	_	_	2	punct	_	AlignBegin=292020|AlignEnd=292640|Gloss=PUNCT
 2	hmhm	hmhm	INTJ	_	_	0	root	_	AlignBegin=292640|AlignEnd=292890|Gloss=hmhm

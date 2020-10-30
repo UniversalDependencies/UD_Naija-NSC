@@ -163,7 +163,7 @@ UPOS: manual native
 XPOS: not available
 Features: manual native
 Relations: converted from manual
-Contributors: Caron, Bernard; Courtin, Marine; Gerdes, Kim; Guillaume, Bruno; Kahane, Sylvain; Ajede, Chika Kennedy; Onwuegbuzia, Emeka; Tella, Samson
+Contributors: Caron, Bernard; Strickland, Emmett; Courtin, Marine; Gerdes, Kim; Guillaume, Bruno; Kahane, Sylvain; Ajede, Chika Kennedy; Onwuegbuzia, Emeka; Tella, Samson
 Contributing: here source
 Contact: kim@gerdes.fr
 ===============================================================================

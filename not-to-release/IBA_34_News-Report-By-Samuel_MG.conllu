@@ -1,21 +1,22 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = IBA_34_News-Report-By-Samuel_MG__1
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_34_News-Report-By-Samuel_MG.mp3
 # speaker_id = Sp425
 # text = na di news >+ be dis wey Afoda Samuel wan read //
 # text_en = Here's the news, which Afoda Samuel is about to read.
-# text_ortho = Na di news, be dis wey Afoda Samuel wan read.
+# text_ortho = Na di news be dis wey Afoda Samuel wan read.
 1	na	na	AUX	_	PartType=Cop	3	cop	_	AlignBegin=2000|AlignEnd=2059|Gloss=be
-2	di	the	DET	_	Definite=Def|PronType=Art	3	det	_	AlignBegin=2059|AlignEnd=2167|Gloss=DEF.ART
+2	di	di	DET	_	Definite=Def|PronType=Art	3	det	_	AlignBegin=2059|AlignEnd=2167|Gloss=DEF.ART
 3	news	news	NOUN	_	Number=Plur	0	root	_	AlignBegin=2167|AlignEnd=2300|Gloss=news.PL
-4	>+	>+	PUNCT	_	_	5	punct	_	AlignBegin=2300|AlignEnd=2330|Gloss=PUNCT
+4	>+	>+	X	_	_	5	dep	_	AlignBegin=2300|AlignEnd=2330|Gloss=PUNCT
 5	be	be	VERB	_	PartType=Cop	3	advcl:cleft	_	AlignBegin=2330|AlignEnd=2420|Gloss=be
-6	dis	dis	PRON	_	Number=Sing|PronType=Dem	5	dep	_	AlignBegin=2420|AlignEnd=2763|Gloss=SG.DEM
+6	dis	dis	PRON	_	Number=Sing|PronType=Dem	5	dep:comp	_	AlignBegin=2420|AlignEnd=2763|Gloss=SG.DEM
 7	wey	wey	SCONJ	_	_	10	mark	_	AlignBegin=2763|AlignEnd=2963|Gloss=REL
 8	Afoda	Afoda	PROPN	_	_	10	nsubj	_	AlignBegin=2963|AlignEnd=3370|Gloss=Afoda
 9	Samuel	Samuel	PROPN	_	_	8	flat	_	AlignBegin=3370|AlignEnd=3766|Gloss=Samuel
 10	wan	want	VERB	_	_	3	acl:relcl	_	AlignBegin=3766|AlignEnd=3980|Gloss=want
-11	read	read	VERB	_	_	10	xcomp	_	AlignBegin=3980|AlignEnd=4164|Gloss=read
-12	//	//	PUNCT	_	_	3	punct	_	AlignBegin=4164|AlignEnd=4194|Gloss=PUNCT
+11	read	read	VERB	_	_	10	xcomp:obj	_	AlignBegin=3980|AlignEnd=4164|Gloss=read
+12	//	//	X	_	_	3	dep	_	AlignBegin=4164|AlignEnd=4194|Gloss=PUNCT
 
 # sent_id = IBA_34_News-Report-By-Samuel_MG__2
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_34_News-Report-By-Samuel_MG.mp3
@@ -23,22 +24,22 @@
 # text = # first < make I yarn you di koko wey dey for inside di tori //
 # text_en = First, let me tell you the highlights from the news.
 # text_ortho = First, make I yarn you di koko wey dey for inside di tori.
-1	#	#	PUNCT	_	_	6	punct	_	AlignBegin=4194|AlignEnd=4498|Gloss=PUNCT
+1	#	#	X	_	_	6	dep	_	AlignBegin=4194|AlignEnd=4498|Gloss=PUNCT
 2	first	first	ADV	_	_	6	advmod:periph	_	AlignBegin=4498|AlignEnd=4862|Gloss=first
-3	<	<	PUNCT	_	_	2	punct	_	AlignBegin=4862|AlignEnd=4892|Gloss=PUNCT
+3	<	<	X	_	_	2	dep	_	AlignBegin=4862|AlignEnd=4892|Gloss=PUNCT
 4	make	make	AUX	_	Mood=Opt	6	aux	_	AlignBegin=4892|AlignEnd=5042|Gloss=SBJV
 5	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	AlignBegin=5042|AlignEnd=5122|Gloss=NOM.SG.1
 6	yarn	yarn	VERB	_	_	0	root	_	AlignBegin=5122|AlignEnd=5332|Gloss=talk
 7	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	6	obj	_	AlignBegin=5332|AlignEnd=5392|Gloss=NOM.2
-8	di	the	DET	_	Definite=Def|PronType=Art	9	det	_	AlignBegin=5392|AlignEnd=5502|Gloss=DEF.ART
+8	di	di	DET	_	Definite=Def|PronType=Art	9	det	_	AlignBegin=5392|AlignEnd=5502|Gloss=DEF.ART
 9	koko	koko	NOUN	_	_	6	obj	_	AlignBegin=5502|AlignEnd=5742|Gloss=fact
 10	wey	wey	SCONJ	_	_	11	mark	_	AlignBegin=5742|AlignEnd=5882|Gloss=REL
 11	dey	dey	VERB	_	VerbType=Cop	9	acl:relcl	_	AlignBegin=5882|AlignEnd=6062|Gloss=be
-12	for	for	ADP	_	_	15	case	_	AlignBegin=6062|AlignEnd=6262|EXTPOS=ADP|Gloss=for
+12	for	for	ADP	_	_	15	case	_	AlignBegin=6062|AlignEnd=6262|ExtPos=ADP|Gloss=for|PhraseType=Idiom
 13	inside	inside	ADP	_	_	12	fixed	_	AlignBegin=6262|AlignEnd=6592|Gloss=inside
-14	di	the	DET	_	Definite=Def|PronType=Art	15	det	_	AlignBegin=6592|AlignEnd=6739|Gloss=DEF.ART
-15	tori	tori	NOUN	_	_	11	xcomp	_	AlignBegin=6739|AlignEnd=7270|Gloss=story
-16	//	//	PUNCT	_	_	6	punct	_	AlignBegin=7270|AlignEnd=7300|Gloss=PUNCT
+14	di	di	DET	_	Definite=Def|PronType=Art	15	det	_	AlignBegin=6592|AlignEnd=6739|Gloss=DEF.ART
+15	tori	tori	NOUN	_	_	11	xcomp:pred	_	AlignBegin=6739|AlignEnd=7270|Gloss=story
+16	//	//	X	_	_	6	dep	_	AlignBegin=7270|AlignEnd=7300|Gloss=PUNCT
 
 # sent_id = IBA_34_News-Report-By-Samuel_MG__3
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_34_News-Report-By-Samuel_MG.mp3
@@ -46,55 +47,55 @@
 # text = # Senate Presido don go inspect some power plant wey dey for Berlin //
 # text_en = The Senate President has gone to inspect some power plants in Berlin.
 # text_ortho = Senate Presido don go inspect some power plant wey dey for Berlin.
-1	#	#	PUNCT	_	_	5	punct	_	AlignBegin=7300|AlignEnd=7880|Gloss=PUNCT
+1	#	#	X	_	_	5	dep	_	AlignBegin=7300|AlignEnd=7880|Gloss=PUNCT
 2	Senate	senate	NOUN	_	_	3	compound	_	AlignBegin=7880|AlignEnd=8250|Gloss=senate
 3	Presido	presido	NOUN	_	_	5	nsubj	_	AlignBegin=8250|AlignEnd=8770|Gloss=president
 4	don	don	AUX	_	Aspect=Perf	5	aux	_	AlignBegin=8770|AlignEnd=9020|Gloss=PRF
 5	go	go	VERB	_	_	0	root	_	AlignBegin=9020|AlignEnd=9210|Gloss=go
-6	inspect	inspect	VERB	_	_	5	xcomp	_	AlignBegin=9210|AlignEnd=9594|Gloss=inspect
+6	inspect	inspect	VERB	_	_	5	xcomp:obj	_	AlignBegin=9210|AlignEnd=9594|Gloss=inspect
 7	some	some	DET	_	_	9	det	_	AlignBegin=9594|AlignEnd=9800|Gloss=some
 8	power	power	NOUN	_	_	9	compound	_	AlignBegin=9800|AlignEnd=10080|Gloss=power
 9	plant	plant	NOUN	_	_	6	obj	_	AlignBegin=10080|AlignEnd=10489|Gloss=plant
 10	wey	wey	SCONJ	_	_	11	mark	_	AlignBegin=10489|AlignEnd=10652|Gloss=REL
 11	dey	dey	VERB	_	VerbType=Cop	9	acl:relcl	_	AlignBegin=10652|AlignEnd=10840|Gloss=be
 12	for	for	ADP	_	_	13	case	_	AlignBegin=10840|AlignEnd=11030|Gloss=for
-13	Berlin	Berlin	PROPN	_	_	11	xcomp	_	AlignBegin=11030|AlignEnd=11730|Gloss=Berlin
-14	//	//	PUNCT	_	_	5	punct	_	AlignBegin=11730|AlignEnd=11760|Gloss=PUNCT
+13	Berlin	Berlin	PROPN	_	_	11	xcomp:pred	_	AlignBegin=11030|AlignEnd=11730|Gloss=Berlin
+14	//	//	X	_	_	5	dep	_	AlignBegin=11730|AlignEnd=11760|Gloss=PUNCT
 
 # sent_id = IBA_34_News-Report-By-Samuel_MG__4
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_34_News-Report-By-Samuel_MG.mp3
 # speaker_id = Sp425
 # text = # FRSC don catch { six hundred |c and fifty seven } people # on top sey dem no put speed limiting machine for inside dem vehicle //
 # text_en = The FRSC has caught six hundred and fifty seven people for failing to install speed limiting devices in their vehicles.
-# text_ortho = FRSC don catch six hundred, and fifty seven people on top sey dem no put speed limiting machine for inside dem vehicle.
-1	#	#	PUNCT	_	_	4	punct	_	AlignBegin=11760|AlignEnd=12100|Gloss=PUNCT
+# text_ortho = Frsc don catch six hundred, and fifty seven people on top sey dem no put speed limiting machine for inside dem vehicle.
+1	#	#	X	_	_	4	dep	_	AlignBegin=11760|AlignEnd=12100|Gloss=PUNCT
 2	FRSC	FRSC	PROPN	_	_	4	nsubj	_	AlignBegin=12100|AlignEnd=12890|Gloss=FRSC
 3	don	don	AUX	_	Aspect=Perf	4	aux	_	AlignBegin=12890|AlignEnd=13160|Gloss=PRF
 4	catch	catch	VERB	_	_	0	root	_	AlignBegin=13160|AlignEnd=13480|Gloss=catch
-5	{	{	PUNCT	_	_	7	punct	_	AlignBegin=13480|AlignEnd=13740|Gloss=PUNCT
-6	six	six	NUM	_	NumType=Card	7	compound	_	AlignBegin=13480|AlignEnd=13740|Gloss=six.CARD
-7	hundred	hundred	NUM	_	NumType=Card	13	nummod:det	_	AlignBegin=13740|AlignEnd=14000|Gloss=hundred.CARD
-8	|c	|c	PUNCT	_	_	11	punct	_	AlignBegin=14000|AlignEnd=14190|Gloss=PUNCT
-9	and	and	CCONJ	_	_	11	cc	_	AlignBegin=14000|AlignEnd=14190|Gloss=and
-10	fifty	fifty	NUM	_	NumType=Card	11	compound	_	AlignBegin=14190|AlignEnd=14586|Gloss=fifty.CARD
-11	seven	seven	NUM	_	NumType=Card	7	conj	_	AlignBegin=14586|AlignEnd=14920|Gloss=seven.CARD
-12	}	}	PUNCT	_	_	7	punct	_	AlignBegin=14920|AlignEnd=15270|Gloss=PUNCT
+5	{	{	X	_	_	6	dep	_	AlignBegin=13480|AlignEnd=13740|Gloss=PUNCT
+6	six	six	NUM	_	NumType=Card	13	nummod:det	_	AlignBegin=13480|AlignEnd=13740|Gloss=six.CARD
+7	hundred	hundred	NUM	_	NumType=Card	6	flat	_	AlignBegin=13740|AlignEnd=14000|Gloss=hundred.CARD
+8	|c	|c	X	_	_	10	dep	_	AlignBegin=14000|AlignEnd=14190|Gloss=PUNCT
+9	and	and	CCONJ	_	_	10	cc	_	AlignBegin=14000|AlignEnd=14190|Gloss=and
+10	fifty	fifty	NUM	_	NumType=Card	7	conj	_	AlignBegin=14190|AlignEnd=14586|Gloss=fifty.CARD
+11	seven	seven	NUM	_	NumType=Card	10	flat	_	AlignBegin=14586|AlignEnd=14920|Gloss=seven.CARD
+12	}	}	X	_	_	6	dep	_	AlignBegin=14920|AlignEnd=15270|Gloss=PUNCT
 13	people	people	NOUN	_	Number=Plur	4	obj	_	AlignBegin=12100|AlignEnd=18920|Gloss=people.PL
-14	#	#	PUNCT	_	_	20	punct	_	AlignBegin=12100|AlignEnd=18920|Gloss=PUNCT
-15	on	on	ADP	_	_	20	mark	_	AlignBegin=15510|AlignEnd=15660|EXTPOS=ADP|Gloss=on
+14	#	#	X	_	_	20	dep	_	AlignBegin=12100|AlignEnd=18920|Gloss=PUNCT
+15	on	on	ADP	_	_	20	mark	_	AlignBegin=15510|AlignEnd=15660|ExtPos=ADP|Gloss=on|PhraseType=Idiom
 16	top	top	NOUN	_	_	15	fixed	_	AlignBegin=15660|AlignEnd=15886|Gloss=top
 17	sey	sey	SCONJ	_	_	15	fixed	_	AlignBegin=15886|AlignEnd=15990|Gloss=COMP
 18	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	20	nsubj	_	AlignBegin=15990|AlignEnd=16090|Gloss=NOM.PL.3
 19	no	no	PART	_	Polarity=Neg	20	advmod	_	AlignBegin=16090|AlignEnd=16310|Gloss=NEG
-20	put	put	VERB	_	_	4	ccomp	_	AlignBegin=16310|AlignEnd=16480|Gloss=put
+20	put	put	VERB	_	_	4	ccomp:obl	_	AlignBegin=16310|AlignEnd=16480|Gloss=put
 21	speed	speed	NOUN	_	_	22	compound	_	AlignBegin=16480|AlignEnd=16770|Gloss=speed
 22	limiting	limit	VERB	_	Tense=Pres|VerbForm=Part	23	acl	_	AlignBegin=16770|AlignEnd=17230|Gloss=limit.PRS.PTCP
 23	machine	machine	NOUN	_	_	20	obj	_	AlignBegin=17230|AlignEnd=17610|Gloss=machine
-24	for	for	ADP	_	_	27	case	_	AlignBegin=17610|AlignEnd=17800|EXTPOS=ADP|Gloss=for
+24	for	for	ADP	_	_	27	case	_	AlignBegin=17610|AlignEnd=17800|ExtPos=ADP|Gloss=for|PhraseType=Idiom
 25	inside	inside	ADP	_	_	24	fixed	_	AlignBegin=17800|AlignEnd=18150|Gloss=inside
 26	dem	dem	PRON	_	Number=Plur|Person=3|Poss=Yes	27	nmod:poss	_	AlignBegin=18150|AlignEnd=18370|Gloss=PL.3.POSS
 27	vehicle	vehicle	NOUN	_	_	20	obl:arg	_	AlignBegin=18370|AlignEnd=18890|Gloss=vehicle
-28	//	//	PUNCT	_	_	4	punct	_	AlignBegin=18890|AlignEnd=18920|Gloss=PUNCT
+28	//	//	X	_	_	4	dep	_	AlignBegin=18890|AlignEnd=18920|Gloss=PUNCT
 
 # sent_id = IBA_34_News-Report-By-Samuel_MG__5
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_34_News-Report-By-Samuel_MG.mp3
@@ -102,22 +103,22 @@
 # text = # dem don catch one woman for South Africa on top baby wey dem kidnap //
 # text_en = A woman has been arrested in South Africa over a baby that was kidnapped.
 # text_ortho = Dem don catch one woman for South Africa on top baby wey dem kidnap.
-1	#	#	PUNCT	_	_	4	punct	_	AlignBegin=18920|AlignEnd=19380|Gloss=PUNCT
+1	#	#	X	_	_	4	dep	_	AlignBegin=18920|AlignEnd=19380|Gloss=PUNCT
 2	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	AlignBegin=19380|AlignEnd=19550|Gloss=NOM.PL.3
 3	don	don	AUX	_	Aspect=Perf	4	aux	_	AlignBegin=19550|AlignEnd=19760|Gloss=PRF
 4	catch	catch	VERB	_	_	0	root	_	AlignBegin=19760|AlignEnd=20120|Gloss=catch
 5	one	one	DET	_	Definite=Spec|PronType=Art	6	det	_	AlignBegin=20120|AlignEnd=20260|Gloss=SPEC.ART
 6	woman	woman	NOUN	_	_	4	obj	_	AlignBegin=20260|AlignEnd=20690|Gloss=woman
 7	for	for	ADP	_	_	8	case	_	AlignBegin=20690|AlignEnd=20900|Gloss=for
-8	South	South	PROPN	_	_	4	obl:arg	_	AlignBegin=20900|AlignEnd=21260|Gloss=South
-9	Africa	Africa	PROPN	_	_	8	flat	_	AlignBegin=21260|AlignEnd=21790|Gloss=Africa
-10	on	on	ADP	_	_	12	case	_	AlignBegin=21790|AlignEnd=21930|EXTPOS=ADP|Gloss=on
+8	South	South	ADJ	_	_	4	obl:arg	_	AlignBegin=20900|AlignEnd=21260|ExtPos=PROPN|Gloss=South|PhraseType=Title
+9	Africa	Africa	PROPN	_	_	8	flat	_	AlignBegin=21260|AlignEnd=21790|Gloss=Africa|InTitle=Yes
+10	on	on	ADP	_	_	12	case	_	AlignBegin=21790|AlignEnd=21930|ExtPos=ADP|Gloss=on|PhraseType=Idiom
 11	top	top	NOUN	_	_	10	fixed	_	AlignBegin=21930|AlignEnd=22125|Gloss=top
 12	baby	baby	NOUN	_	_	4	obl:mod	_	AlignBegin=22125|AlignEnd=22455|Gloss=baby
 13	wey	wey	SCONJ	_	_	15	mark	_	AlignBegin=22455|AlignEnd=22610|Gloss=REL
 14	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	15	nsubj	_	AlignBegin=22610|AlignEnd=22810|Gloss=NOM.PL.3
 15	kidnap	kidnap	VERB	_	_	12	acl:relcl	_	AlignBegin=22810|AlignEnd=23399|Gloss=kidnap
-16	//	//	PUNCT	_	_	4	punct	_	AlignBegin=23399|AlignEnd=23512|Gloss=PUNCT
+16	//	//	X	_	_	4	dep	_	AlignBegin=23399|AlignEnd=23512|Gloss=PUNCT
 
 # sent_id = IBA_34_News-Report-By-Samuel_MG__6
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_34_News-Report-By-Samuel_MG.mp3
@@ -125,25 +126,25 @@
 # text = # Sunshine Queen < dem don ready for di new Nigeria women Premier League season wey wan start //
 # text_en = Sunshine Queens, they are ready for the new Nigeria Women Premier League Season which is about to start.
 # text_ortho = Sunshine Queen, dem don ready for di new Nigeria women Premier League season wey wan start.
-1	#	#	PUNCT	_	_	7	punct	_	AlignBegin=23512|AlignEnd=23820|Gloss=PUNCT
-2	Sunshine	sunshine	NOUN	_	_	7	dislocated	_	AlignBegin=23820|AlignEnd=24400|Gloss=sunshine
-3	Queen	queen	NOUN	_	_	2	flat	_	AlignBegin=24400|AlignEnd=24700|Gloss=queen
-4	<	<	PUNCT	_	_	2	punct	_	AlignBegin=24700|AlignEnd=24730|Gloss=PUNCT
+1	#	#	X	_	_	7	dep	_	AlignBegin=23512|AlignEnd=23820|Gloss=PUNCT
+2	Sunshine	sunshine	NOUN	_	_	7	dislocated	_	AlignBegin=23820|AlignEnd=24400|ExtPos=PROPN|Gloss=sunshine|PhraseType=Title
+3	Queen	queen	NOUN	_	_	2	flat	_	AlignBegin=24400|AlignEnd=24700|Gloss=queen|InTitle=Yes
+4	<	<	X	_	_	2	dep	_	AlignBegin=24700|AlignEnd=24730|Gloss=PUNCT
 5	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	AlignBegin=24730|AlignEnd=24874|Gloss=NOM.PL.3
 6	don	don	AUX	_	Aspect=Perf	7	aux	_	AlignBegin=24874|AlignEnd=25096|Gloss=PRF
 7	ready	ready	ADJ	_	_	0	root	_	AlignBegin=25096|AlignEnd=25490|Gloss=ready
 8	for	for	ADP	_	_	15	case	_	AlignBegin=25490|AlignEnd=25690|Gloss=for
-9	di	the	DET	_	Definite=Def|PronType=Art	15	det	_	AlignBegin=25690|AlignEnd=25830|Gloss=DEF.ART
+9	di	di	DET	_	Definite=Def|PronType=Art	15	det	_	AlignBegin=25690|AlignEnd=25830|Gloss=DEF.ART
 10	new	new	ADJ	_	_	15	amod	_	AlignBegin=25830|AlignEnd=26105|Gloss=new
-11	Nigeria	Nigeria	PROPN	_	_	13	obl:mod	_	AlignBegin=26105|AlignEnd=26607|Gloss=Nigeria
-12	women	woman	NOUN	_	Number=Plur	13	obl:mod	_	AlignBegin=26607|AlignEnd=26960|Gloss=woman.PL
-13	Premier	premier	ADJ	_	_	15	amod	_	AlignBegin=26960|AlignEnd=27370|Gloss=premier
-14	League	League	PROPN	_	_	13	flat	_	AlignBegin=27370|AlignEnd=27570|Gloss=League
+11	Nigeria	Nigeria	PROPN	_	_	13	nmod	_	AlignBegin=26105|AlignEnd=26607|Gloss=Nigeria
+12	women	woman	NOUN	_	Number=Plur	13	nmod	_	AlignBegin=26607|AlignEnd=26960|Gloss=woman.PL
+13	Premier	premier	ADJ	_	_	15	nmod	_	AlignBegin=26960|AlignEnd=27370|ExtPos=PROPN|Gloss=premier|PhraseType=Title
+14	League	League	NOUN	_	_	13	flat	_	AlignBegin=27370|AlignEnd=27570|Gloss=League|InTitle=Yes
 15	season	season	NOUN	_	_	7	obl:arg	_	AlignBegin=27570|AlignEnd=27930|Gloss=season
 16	wey	wey	SCONJ	_	_	17	mark	_	AlignBegin=27930|AlignEnd=28171|Gloss=REL
 17	wan	want	VERB	_	_	15	acl:relcl	_	AlignBegin=28171|AlignEnd=28310|Gloss=want
-18	start	start	VERB	_	_	17	xcomp	_	AlignBegin=28310|AlignEnd=28769|Gloss=start
-19	//	//	PUNCT	_	_	7	punct	_	AlignBegin=28769|AlignEnd=28860|Gloss=PUNCT
+18	start	start	VERB	_	_	17	xcomp:obj	_	AlignBegin=28310|AlignEnd=28769|Gloss=start
+19	//	//	X	_	_	7	dep	_	AlignBegin=28769|AlignEnd=28860|Gloss=PUNCT
 
 # sent_id = IBA_34_News-Report-By-Samuel_MG__7
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_34_News-Report-By-Samuel_MG.mp3
@@ -151,17 +152,17 @@
 # text = # now < make we yarn you di full tori //
 # text_en = Now, let's tell you the news in full.
 # text_ortho = Now, make we yarn you di full tori.
-1	#	#	PUNCT	_	_	6	punct	_	AlignBegin=28860|AlignEnd=31060|Gloss=PUNCT
+1	#	#	X	_	_	6	dep	_	AlignBegin=28860|AlignEnd=31060|Gloss=PUNCT
 2	now	now	ADV	_	_	6	advmod:periph	_	AlignBegin=29062|AlignEnd=29370|Gloss=now
-3	<	<	PUNCT	_	_	2	punct	_	AlignBegin=29370|AlignEnd=29400|Gloss=PUNCT
+3	<	<	X	_	_	2	dep	_	AlignBegin=29370|AlignEnd=29400|Gloss=PUNCT
 4	make	make	AUX	_	Mood=Opt	6	aux	_	AlignBegin=29400|AlignEnd=29630|Gloss=SBJV
 5	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	AlignBegin=29630|AlignEnd=29690|Gloss=NOM.PL.1
 6	yarn	yarn	VERB	_	_	0	root	_	AlignBegin=29690|AlignEnd=29950|Gloss=talk
 7	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	6	obj	_	AlignBegin=29950|AlignEnd=30040|Gloss=NOM.2
-8	di	the	DET	_	Definite=Def|PronType=Art	10	det	_	AlignBegin=30040|AlignEnd=30190|Gloss=DEF.ART
+8	di	di	DET	_	Definite=Def|PronType=Art	10	det	_	AlignBegin=30040|AlignEnd=30190|Gloss=DEF.ART
 9	full	full	ADJ	_	_	10	amod	_	AlignBegin=30190|AlignEnd=30490|Gloss=full
 10	tori	tori	NOUN	_	_	6	obj	_	AlignBegin=30490|AlignEnd=31030|Gloss=story
-11	//	//	PUNCT	_	_	6	punct	_	AlignBegin=31030|AlignEnd=31060|Gloss=PUNCT
+11	//	//	X	_	_	6	dep	_	AlignBegin=31030|AlignEnd=31060|Gloss=PUNCT
 
 # sent_id = IBA_34_News-Report-By-Samuel_MG__8
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_34_News-Report-By-Samuel_MG.mp3
@@ -169,22 +170,22 @@
 # text = # how to take handle law on { how dem take dey generate power transmission |c and how dem take dey distribute am } < # e fit di best thing wey dem fit do o to solve di current electricity problem wey dey shele for di country //
 # text_en = How to handle the law on... how they generate power, transmission and how they distribute it, can be the best thing which can be done to solve the current electricity problem facing the country.
 # text_ortho = How to take handle law on how dem take dey generate power transmission, and how dem take dey distribute am, e fit di best thing wey dem fit do o to solve di current electricity problem wey dey shele for di country.
-1	#	#	PUNCT	_	_	28	punct	_	AlignBegin=31060|AlignEnd=32900|Gloss=PUNCT
+1	#	#	X	_	_	28	dep	_	AlignBegin=31060|AlignEnd=32900|Gloss=PUNCT
 2	how	how	ADV	_	PronType=Int	28	dislocated	_	AlignBegin=32900|AlignEnd=33180|Gloss=how.Q
 3	to	to	ADP	_	_	4	mark	_	AlignBegin=33180|AlignEnd=33406|Gloss=to
 4	take	take	VERB	_	_	2	advcl	_	AlignBegin=33406|AlignEnd=33672|Gloss=take
 5	handle	handle	VERB	_	_	4	compound:svc	_	AlignBegin=33672|AlignEnd=34114|Gloss=handle
 6	law	law	NOUN	_	_	5	obj	_	AlignBegin=34114|AlignEnd=34460|Gloss=law
 7	on	on	ADP	_	_	9	case	_	AlignBegin=34460|AlignEnd=34640|Gloss=on
-8	{	{	PUNCT	_	_	9	punct	_	AlignBegin=34460|AlignEnd=34640|Gloss=PUNCT
-9	how	how	ADV	_	PronType=Int	6	advmod	_	AlignBegin=34640|AlignEnd=34830|Gloss=how.Q
+8	{	{	X	_	_	9	dep	_	AlignBegin=34460|AlignEnd=34640|Gloss=PUNCT
+9	how	how	ADV	_	PronType=Int	6	nmod	_	AlignBegin=34640|AlignEnd=34830|Gloss=how.Q
 10	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	AlignBegin=34830|AlignEnd=35010|Gloss=NOM.PL.3
 11	take	take	VERB	_	_	9	acl:relcl	_	AlignBegin=35010|AlignEnd=35170|Gloss=take
 12	dey	dey	AUX	_	Aspect=Imp	13	aux	_	AlignBegin=35170|AlignEnd=35360|Gloss=IPFV
 13	generate	generate	VERB	_	_	11	compound:svc	_	AlignBegin=35360|AlignEnd=35897|Gloss=generate
 14	power	power	NOUN	_	_	15	compound	_	AlignBegin=35897|AlignEnd=36170|Gloss=power
 15	transmission	transmission	NOUN	_	_	13	obj	_	AlignBegin=36170|AlignEnd=36810|Gloss=transmission
-16	|c	|c	PUNCT	_	_	18	punct	_	AlignBegin=36810|AlignEnd=36840|Gloss=PUNCT
+16	|c	|c	X	_	_	18	dep	_	AlignBegin=36810|AlignEnd=36840|Gloss=PUNCT
 17	and	and	CCONJ	_	_	18	cc	_	AlignBegin=36840|AlignEnd=37000|Gloss=and
 18	how	how	ADV	_	PronType=Int	9	conj	_	AlignBegin=37000|AlignEnd=37130|Gloss=how.Q
 19	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	20	nsubj	_	AlignBegin=37130|AlignEnd=37310|Gloss=NOM.PL.3
@@ -192,12 +193,12 @@
 21	dey	dey	AUX	_	Aspect=Imp	22	aux	_	AlignBegin=37410|AlignEnd=37540|Gloss=IPFV
 22	distribute	distribute	VERB	_	_	20	compound:svc	_	AlignBegin=37540|AlignEnd=38090|Gloss=distribute
 23	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	22	obj	_	AlignBegin=38090|AlignEnd=38240|Gloss=ACC.SG.3
-24	}	}	PUNCT	_	_	9	punct	_	AlignBegin=38240|AlignEnd=38270|Gloss=PUNCT
-25	<	<	PUNCT	_	_	2	punct	_	AlignBegin=38240|AlignEnd=38270|Gloss=PUNCT
-26	#	#	PUNCT	_	_	28	punct	_	AlignBegin=38270|AlignEnd=38620|Gloss=PUNCT
+24	}	}	X	_	_	9	dep	_	AlignBegin=38240|AlignEnd=38270|Gloss=PUNCT
+25	<	<	X	_	_	2	dep	_	AlignBegin=38240|AlignEnd=38270|Gloss=PUNCT
+26	#	#	X	_	_	28	dep	_	AlignBegin=38270|AlignEnd=38620|Gloss=PUNCT
 27	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	28	expl:subj	_	AlignBegin=38620|AlignEnd=38710|Gloss=NOM.SG.3
 28	fit	fit	AUX	_	Mood=Pot	0	root	_	AlignBegin=38710|AlignEnd=38890|Gloss=ABIL
-29	di	the	DET	_	Definite=Def|PronType=Art	31	det	_	AlignBegin=38890|AlignEnd=39040|Gloss=DEF.ART
+29	di	di	DET	_	Definite=Def|PronType=Art	31	det	_	AlignBegin=38890|AlignEnd=39040|Gloss=DEF.ART
 30	best	best	ADJ	_	Degree=Sup	31	amod	_	AlignBegin=39040|AlignEnd=39380|Gloss=good.SUP
 31	thing	ting	NOUN	_	_	28	nsubj	_	AlignBegin=39380|AlignEnd=39450|Gloss=thing
 32	wey	wey	SCONJ	_	_	35	mark	_	AlignBegin=39450|AlignEnd=39550|Gloss=REL
@@ -206,8 +207,8 @@
 35	do	do	VERB	_	_	31	acl:relcl	_	AlignBegin=39850|AlignEnd=40008|Gloss=do
 36	o	o	PART	_	PartType=Disc	35	advmod:emph	_	AlignBegin=40008|AlignEnd=40301|Gloss=EMPH
 37	to	to	ADP	_	_	38	mark	_	AlignBegin=40301|AlignEnd=40540|Gloss=to
-38	solve	solve	VERB	_	_	35	ccomp	_	AlignBegin=40540|AlignEnd=40840|Gloss=solve
-39	di	the	DET	_	Definite=Def|PronType=Art	42	det	_	AlignBegin=40840|AlignEnd=41040|Gloss=DEF.ART
+38	solve	solve	VERB	_	_	35	ccomp:obl	_	AlignBegin=40540|AlignEnd=40840|Gloss=solve
+39	di	di	DET	_	Definite=Def|PronType=Art	42	det	_	AlignBegin=40840|AlignEnd=41040|Gloss=DEF.ART
 40	current	current	ADJ	_	_	42	amod	_	AlignBegin=41040|AlignEnd=41659|Gloss=current
 41	electricity	electricity	NOUN	_	_	42	compound	_	AlignBegin=41659|AlignEnd=42430|Gloss=electricity
 42	problem	problem	NOUN	_	_	38	obj	_	AlignBegin=42430|AlignEnd=42893|Gloss=problem
@@ -215,56 +216,56 @@
 44	dey	dey	AUX	_	Aspect=Imp	45	aux	_	AlignBegin=43050|AlignEnd=43160|Gloss=IPFV
 45	shele	shele	VERB	_	_	42	acl:relcl	_	AlignBegin=43160|AlignEnd=43450|Gloss=happen
 46	for	for	ADP	_	_	48	case	_	AlignBegin=43450|AlignEnd=43640|Gloss=for
-47	di	the	DET	_	Definite=Def|PronType=Art	48	det	_	AlignBegin=43640|AlignEnd=43780|Gloss=DEF.ART
+47	di	di	DET	_	Definite=Def|PronType=Art	48	det	_	AlignBegin=43640|AlignEnd=43780|Gloss=DEF.ART
 48	country	country	NOUN	_	_	45	obl:arg	_	AlignBegin=43780|AlignEnd=44290|Gloss=country
-49	//	//	PUNCT	_	_	28	punct	_	AlignBegin=44290|AlignEnd=44320|Gloss=PUNCT
+49	//	//	X	_	_	28	dep	_	AlignBegin=44290|AlignEnd=44320|Gloss=PUNCT
 
 # sent_id = IBA_34_News-Report-By-Samuel_MG__9
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_34_News-Report-By-Samuel_MG.mp3
 # speaker_id = Sp425
 # text = # for one interview with { di project leader |a Warner Fortwiter } < im dey yarn sey [ Nigeria < dem go still benefit o from sey dem wan switch to renew build energy from electricity generation ] //
 # text_en = In an interview with the Project Leader, Warner Fortwiter, he said that Nigeria... they will still benefit from the plan to switch to renew-... build energy... from electricity generation.
-# text_ortho = For one interview with di project leader, Warner Fortwiter, im dey yarn sey Nigeria... dem go still benefit o from sey dem wan switch to renew-... build energy... from electricity generation.
-1	#	#	PUNCT	_	_	17	punct	_	AlignBegin=44320|AlignEnd=44720|Gloss=PUNCT
+# text_ortho = For one interview with di project leader, Warner Fortwiter, im dey yarn sey Nigeria, dem go still benefit o from sey dem wan switch to renew build energy from electricity generation.
+1	#	#	X	_	_	17	dep	_	AlignBegin=44320|AlignEnd=44720|Gloss=PUNCT
 2	for	for	ADP	_	_	4	case	_	AlignBegin=44720|AlignEnd=44890|Gloss=for
 3	one	one	DET	_	Definite=Spec|PronType=Art	4	det	_	AlignBegin=44890|AlignEnd=45140|Gloss=SPEC.ART
 4	interview	interview	NOUN	_	_	17	obl:mod	_	AlignBegin=45140|AlignEnd=45690|Gloss=interview
 5	with	wit	ADP	_	_	9	case	_	AlignBegin=45690|AlignEnd=45780|Gloss=with
-6	{	{	PUNCT	_	_	9	punct	_	AlignBegin=45780|AlignEnd=45810|Gloss=PUNCT
-7	di	the	DET	_	Definite=Def|PronType=Art	9	det	_	AlignBegin=45810|AlignEnd=45936|Gloss=DEF.ART
+6	{	{	X	_	_	9	dep	_	AlignBegin=45780|AlignEnd=45810|Gloss=PUNCT
+7	di	di	DET	_	Definite=Def|PronType=Art	9	det	_	AlignBegin=45810|AlignEnd=45936|Gloss=DEF.ART
 8	project	project	NOUN	_	_	9	compound	_	AlignBegin=45936|AlignEnd=46379|Gloss=project
 9	leader	leader	NOUN	_	_	4	nmod	_	AlignBegin=46379|AlignEnd=46774|Gloss=leader
-10	|a	|a	PUNCT	_	_	11	punct	_	AlignBegin=46774|AlignEnd=46804|Gloss=PUNCT
+10	|a	|a	X	_	_	11	dep	_	AlignBegin=46774|AlignEnd=46804|Gloss=PUNCT
 11	Warner	Warner	PROPN	_	_	9	appos	_	AlignBegin=46804|AlignEnd=47270|Gloss=Warner
 12	Fortwiter	Fortwiter	PROPN	_	_	11	flat	_	AlignBegin=47270|AlignEnd=48056|Gloss=Fortwiter
-13	}	}	PUNCT	_	_	9	punct	_	AlignBegin=48056|AlignEnd=48086|Gloss=PUNCT
-14	<	<	PUNCT	_	_	4	punct	_	AlignBegin=48056|AlignEnd=48086|Gloss=PUNCT
+13	}	}	X	_	_	9	dep	_	AlignBegin=48056|AlignEnd=48086|Gloss=PUNCT
+14	<	<	X	_	_	4	dep	_	AlignBegin=48056|AlignEnd=48086|Gloss=PUNCT
 15	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	AlignBegin=48086|AlignEnd=48440|Gloss=NOM.SG.3
 16	dey	dey	AUX	_	Aspect=Imp	17	aux	_	AlignBegin=48440|AlignEnd=48530|Gloss=IPFV
 17	yarn	yarn	VERB	_	_	0	root	_	AlignBegin=48530|AlignEnd=48820|Gloss=talk
 18	sey	sey	SCONJ	_	_	25	mark	_	AlignBegin=48820|AlignEnd=49100|Gloss=COMP
-19	[	[	PUNCT	_	_	25	punct	_	AlignBegin=49100|AlignEnd=49130|Gloss=PUNCT
+19	[	[	X	_	_	25	dep	_	AlignBegin=49100|AlignEnd=49130|Gloss=PUNCT
 20	Nigeria	Nigeria	PROPN	_	_	25	dislocated	_	AlignBegin=49130|AlignEnd=49970|Gloss=Nigeria
-21	<	<	PUNCT	_	_	20	punct	_	AlignBegin=49970|AlignEnd=50000|Gloss=PUNCT
+21	<	<	X	_	_	20	dep	_	AlignBegin=49970|AlignEnd=50000|Gloss=PUNCT
 22	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	25	nsubj	_	AlignBegin=50000|AlignEnd=50160|Gloss=NOM.PL.3
 23	go	go	AUX	_	Aspect=Prosp	25	aux	_	AlignBegin=50160|AlignEnd=50250|Gloss=PROSP
 24	still	still	ADV	_	_	25	advmod	_	AlignBegin=50250|AlignEnd=50450|Gloss=still
-25	benefit	benefit	VERB	_	_	17	ccomp	_	AlignBegin=50450|AlignEnd=50939|Gloss=benefit
+25	benefit	benefit	VERB	_	_	17	ccomp:obj	_	AlignBegin=50450|AlignEnd=50939|Gloss=benefit
 26	o	o	PART	_	PartType=Disc	25	advmod:emph	_	AlignBegin=50939|AlignEnd=51290|Gloss=EMPH
-27	from	from	ADP	_	_	30	mark	_	AlignBegin=51290|AlignEnd=51430|EXTPOS=SCONJ|Gloss=from
+27	from	from	ADP	_	_	30	mark	_	AlignBegin=51290|AlignEnd=51430|ExtPos=SCONJ|Gloss=from|PhraseType=Idiom
 28	sey	sey	SCONJ	_	_	27	fixed	_	AlignBegin=51430|AlignEnd=51628|Gloss=COMP
 29	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	30	nsubj	_	AlignBegin=51628|AlignEnd=51759|Gloss=NOM.PL.3
-30	wan	want	VERB	_	_	25	ccomp	_	AlignBegin=51759|AlignEnd=52013|Gloss=want
-31	switch	switch	VERB	_	_	30	xcomp	_	AlignBegin=52013|AlignEnd=52518|Gloss=switch
+30	wan	want	VERB	_	_	25	ccomp:obl	_	AlignBegin=51759|AlignEnd=52013|Gloss=want
+31	switch	switch	VERB	_	_	30	xcomp:obj	_	AlignBegin=52013|AlignEnd=52518|Gloss=switch
 32	to	to	ADP	_	_	33	mark	_	AlignBegin=52518|AlignEnd=52700|Gloss=to
-33	renew	renew	VERB	_	_	31	xcomp	_	AlignBegin=52700|AlignEnd=53100|Gloss=renew
-34	build	build	VERB	_	_	33	xcomp	_	AlignBegin=53100|AlignEnd=53480|Gloss=build
+33	renew	renew	VERB	_	_	31	xcomp:obl	_	AlignBegin=52700|AlignEnd=53100|Gloss=renew
+34	build	build	VERB	_	_	33	xcomp:obj	_	AlignBegin=53100|AlignEnd=53480|Gloss=build
 35	energy	energy	NOUN	_	_	34	obj	_	AlignBegin=53480|AlignEnd=53940|Gloss=energy
 36	from	from	ADP	_	_	38	case	_	AlignBegin=53940|AlignEnd=54166|Gloss=from
 37	electricity	electricity	NOUN	_	_	38	compound	_	AlignBegin=54166|AlignEnd=54880|Gloss=electricity
 38	generation	generation	NOUN	_	_	34	obl:arg	_	AlignBegin=54880|AlignEnd=55513|Gloss=generation
-39	]	]	PUNCT	_	_	25	punct	_	AlignBegin=55513|AlignEnd=55543|Gloss=PUNCT
-40	//	//	PUNCT	_	_	17	punct	_	AlignBegin=55513|AlignEnd=55543|Gloss=PUNCT
+39	]	]	X	_	_	25	dep	_	AlignBegin=55513|AlignEnd=55543|Gloss=PUNCT
+40	//	//	X	_	_	17	dep	_	AlignBegin=55513|AlignEnd=55543|Gloss=PUNCT
 
 # sent_id = IBA_34_News-Report-By-Samuel_MG__10
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_34_News-Report-By-Samuel_MG.mp3
@@ -272,40 +273,40 @@
 # text = # make we hear as e talk am //
 # text_en = Let's listen to him.
 # text_ortho = Make we hear as e talk am.
-1	#	#	PUNCT	_	_	4	punct	_	AlignBegin=55543|AlignEnd=55804|Gloss=PUNCT
+1	#	#	X	_	_	4	dep	_	AlignBegin=55543|AlignEnd=55804|Gloss=PUNCT
 2	make	make	AUX	_	Mood=Opt	4	aux	_	AlignBegin=55804|AlignEnd=55916|Gloss=SBJV
 3	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	AlignBegin=55916|AlignEnd=56114|Gloss=NOM.PL.1
 4	hear	hear	VERB	_	_	0	root	_	AlignBegin=56114|AlignEnd=56344|Gloss=hear
 5	as	as	ADP	_	_	7	mark	_	AlignBegin=56344|AlignEnd=56554|Gloss=as
 6	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	AlignBegin=56554|AlignEnd=56602|Gloss=NOM.SG.3
-7	talk	talk	VERB	_	_	4	ccomp	_	AlignBegin=56602|AlignEnd=56814|Gloss=talk
+7	talk	talk	VERB	_	_	4	ccomp:obl	_	AlignBegin=56602|AlignEnd=56814|Gloss=talk
 8	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	7	obj	_	AlignBegin=56814|AlignEnd=57030|Gloss=ACC.SG.3
-9	//	//	PUNCT	_	_	4	punct	_	AlignBegin=57030|AlignEnd=57060|Gloss=PUNCT
+9	//	//	X	_	_	4	dep	_	AlignBegin=57030|AlignEnd=57060|Gloss=PUNCT
 
 # sent_id = IBA_34_News-Report-By-Samuel_MG__11
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_34_News-Report-By-Samuel_MG.mp3
 # speaker_id = Sp425
 # text = # { di Senate Presido |a Bukola Saraki } < na im >+ dey yarn dis one when e do one kind tour wey dem follow am do for one energy self-sufficient village wey dey for Germany //
 # text_en = The Senate President, Bukola Saraki, says this while on a tour with others to an energy self sufficient village located in Germany.
-# text_ortho = Di Senate Presido, Bukola Saraki, na im, dey yarn dis one when e do one kind tour wey dem follow am do for one energy self sufficient village wey dey for Germany.
-1	#	#	PUNCT	_	_	11	punct	_	AlignBegin=57060|AlignEnd=59900|Gloss=PUNCT
-2	{	{	PUNCT	_	_	5	punct	_	AlignBegin=59870|AlignEnd=59900|Gloss=PUNCT
-3	di	the	DET	_	Definite=Def|PronType=Art	5	det	_	AlignBegin=59900|AlignEnd=60090|Gloss=DEF.ART
-4	Senate	senate	NOUN	_	_	5	compound	_	AlignBegin=60090|AlignEnd=60500|Gloss=senate
-5	Presido	presido	NOUN	_	_	11	dislocated	_	AlignBegin=60500|AlignEnd=60970|Gloss=president
-6	|a	|a	PUNCT	_	_	7	punct	_	AlignBegin=60970|AlignEnd=61000|Gloss=PUNCT
-7	Bukola	Bukola	PROPN	_	_	5	appos	_	AlignBegin=61000|AlignEnd=61460|Gloss=Bukola
+# text_ortho = Di Senate Presido, Bukola Saraki, na im dey yarn dis one when e do one kind tour wey dem follow am do for one energy self-sufficient village wey dey for Germany.
+1	#	#	X	_	_	11	dep	_	AlignBegin=57060|AlignEnd=59900|Gloss=PUNCT
+2	{	{	X	_	_	5	dep	_	AlignBegin=59870|AlignEnd=59900|Gloss=PUNCT
+3	di	di	DET	_	Definite=Def|PronType=Art	5	det	_	AlignBegin=59900|AlignEnd=60090|Gloss=DEF.ART
+4	Senate	senate	NOUN	_	_	5	compound	_	AlignBegin=60090|AlignEnd=60500|Gloss=senate|InTitle=Yes
+5	Presido	presido	NOUN	_	_	11	dislocated	_	AlignBegin=60500|AlignEnd=60970|ExtPos=PROPN|Gloss=president|PhraseType=Title
+6	|a	|a	X	_	_	7	dep	_	AlignBegin=60970|AlignEnd=61000|Gloss=PUNCT
+7	Bukola	Bukola	PROPN	_	_	5	nmod:appos	_	AlignBegin=61000|AlignEnd=61460|Gloss=Bukola
 8	Saraki	Saraki	PROPN	_	_	7	flat	_	AlignBegin=61460|AlignEnd=61950|Gloss=Saraki
-9	}	}	PUNCT	_	_	5	punct	_	AlignBegin=61950|AlignEnd=61980|Gloss=PUNCT
-10	<	<	PUNCT	_	_	5	punct	_	AlignBegin=61950|AlignEnd=61980|Gloss=PUNCT
-11	na	na	AUX	_	PartType=Cop	0	root	_	AlignBegin=61980|AlignEnd=62150|EXTPOS=SCONJ|Gloss=be
+9	}	}	X	_	_	5	dep	_	AlignBegin=61950|AlignEnd=61980|Gloss=PUNCT
+10	<	<	X	_	_	5	dep	_	AlignBegin=61950|AlignEnd=61980|Gloss=PUNCT
+11	na	na	AUX	_	PartType=Cop	0	root	_	AlignBegin=61980|AlignEnd=62150|ExtPos=SCONJ|Gloss=be|PhraseType=Idiom
 12	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	11	fixed	_	AlignBegin=62150|AlignEnd=62280|Gloss=NOM.SG.3
-13	>+	>+	PUNCT	_	_	15	punct	_	AlignBegin=62280|AlignEnd=62310|Gloss=PUNCT
+13	>+	>+	X	_	_	15	dep	_	AlignBegin=62280|AlignEnd=62310|Gloss=PUNCT
 14	dey	dey	AUX	_	Aspect=Imp	15	aux	_	AlignBegin=62310|AlignEnd=62470|Gloss=IPFV
 15	yarn	yarn	VERB	_	_	11	advcl:cleft	_	AlignBegin=62470|AlignEnd=62670|Gloss=talk
-16	dis	dis	DET	_	Number=Sing|PronType=Dem	17	det	_	AlignBegin=62670|AlignEnd=62890|Gloss=SG.PROX.DEM
+16	dis	dis	DET	_	Number=Sing|PronType=Dem	17	det	_	AlignBegin=62670|AlignEnd=62890|Gloss=SG.DEM
 17	one	one	NOUN	_	_	15	obj	_	AlignBegin=62890|AlignEnd=63380|Gloss=one
-18	when	when	SCONJ	_	_	20	mark	_	AlignBegin=63380|AlignEnd=63580|Gloss=when.Q
+18	when	when	SCONJ	_	PronType=Int	20	mark	_	AlignBegin=63380|AlignEnd=63580|Gloss=when.Q
 19	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	AlignBegin=63580|AlignEnd=63760|Gloss=NOM.SG.3
 20	do	do	VERB	_	_	15	advcl	_	AlignBegin=63760|AlignEnd=63910|Gloss=do
 21	one	one	DET	_	Definite=Spec|PronType=Art	23	det	_	AlignBegin=63910|AlignEnd=64050|Gloss=SPEC.ART
@@ -318,35 +319,35 @@
 28	do	do	VERB	_	_	26	compound:svc	_	AlignBegin=65230|AlignEnd=65750|Gloss=do
 29	for	for	ADP	_	_	33	case	_	AlignBegin=65750|AlignEnd=65900|Gloss=for
 30	one	one	DET	_	Definite=Spec|PronType=Art	33	det	_	AlignBegin=65900|AlignEnd=66090|Gloss=SPEC.ART
-31	energy	energy	NOUN	_	_	32	compound	_	AlignBegin=66090|AlignEnd=66610|Gloss=energy
+31	energy	energy	NOUN	_	_	32	obl:mod	_	AlignBegin=66090|AlignEnd=66610|Gloss=energy
 32	self-sufficient	self-sufficient	ADJ	_	_	33	amod	_	AlignBegin=66910|AlignEnd=67530|Gloss=self-sufficient
 33	village	village	NOUN	_	_	28	obl:arg	_	AlignBegin=67530|AlignEnd=67935|Gloss=village
 34	wey	wey	SCONJ	_	_	35	mark	_	AlignBegin=67935|AlignEnd=68130|Gloss=REL
 35	dey	dey	VERB	_	VerbType=Cop	33	acl:relcl	_	AlignBegin=68130|AlignEnd=68350|Gloss=be
 36	for	for	ADP	_	_	37	case	_	AlignBegin=68350|AlignEnd=68620|Gloss=for
-37	Germany	Germany	PROPN	_	_	35	xcomp	_	AlignBegin=68620|AlignEnd=69090|Gloss=Germany
-38	//	//	PUNCT	_	_	11	punct	_	AlignBegin=69090|AlignEnd=69120|Gloss=PUNCT
+37	Germany	Germany	PROPN	_	_	35	xcomp:pred	_	AlignBegin=68620|AlignEnd=69090|Gloss=Germany
+38	//	//	X	_	_	11	dep	_	AlignBegin=69090|AlignEnd=69120|Gloss=PUNCT
 
 # sent_id = IBA_34_News-Report-By-Samuel_MG__12
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_34_News-Report-By-Samuel_MG.mp3
 # speaker_id = Sp425
 # text = # e say [ di National Assembly < dem gats { to rearrange di law o wey go allow communities make dem fit dey generate energy |c and to allow people make dem dey use deir brain |c and to even involve people wey be sey dem be private business } //] //
 # text_en = He said the National Assembly must rework the law which will allow communities to generate energy, and allow people to use their brain, and involve people in the private sector as well.
-# text_ortho = E say, di National Assembly, dem gats to rearrange di law o wey go allow communities make dem fit dey generate energy, and to allow people make dem dey use deir brain, and to even involve people wey be sey dem be private business.
-1	#	#	PUNCT	_	_	3	punct	_	AlignBegin=69120|AlignEnd=69460|Gloss=PUNCT
+# text_ortho = E say di National Assembly, dem gats to rearrange di law o wey go allow communities make dem fit dey generate energy, and to allow people make dem dey use deir brain, and to even involve people wey be sey dem be private business.
+1	#	#	X	_	_	3	dep	_	AlignBegin=69120|AlignEnd=69460|Gloss=PUNCT
 2	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	AlignBegin=69460|AlignEnd=69590|Gloss=NOM.SG.3
 3	say	say	VERB	_	_	0	root	_	AlignBegin=69590|AlignEnd=69760|Gloss=say
-4	[	[	PUNCT	_	_	13	punct	_	AlignBegin=69760|AlignEnd=69790|Gloss=PUNCT
-5	di	the	DET	_	Definite=Def|PronType=Art	7	det	_	AlignBegin=69790|AlignEnd=69910|Gloss=DEF.ART
-6	National	national	ADJ	_	_	7	amod	_	AlignBegin=69910|AlignEnd=70410|Gloss=national
-7	Assembly	assembly	NOUN	_	_	13	dislocated	_	AlignBegin=70410|AlignEnd=71050|Gloss=assembly
-8	<	<	PUNCT	_	_	7	punct	_	AlignBegin=71050|AlignEnd=71080|Gloss=PUNCT
-9	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	13	nsubj	_	AlignBegin=71080|AlignEnd=71460|Gloss=NOM.PL.3
-10	gats	gats	AUX	_	Mood=Nec	13	cop	_	AlignBegin=71460|AlignEnd=71640|Gloss=OBLG
-11	{	{	PUNCT	_	_	13	punct	_	AlignBegin=71640|AlignEnd=71820|Gloss=PUNCT
+4	[	[	X	_	_	10	dep	_	AlignBegin=69760|AlignEnd=69790|Gloss=PUNCT
+5	di	di	DET	_	Definite=Def|PronType=Art	6	det	_	AlignBegin=69790|AlignEnd=69910|Gloss=DEF.ART
+6	National	national	ADJ	_	_	10	dislocated	_	AlignBegin=69910|AlignEnd=70410|ExtPos=PROPN|Gloss=national|PhraseType=Idiom
+7	Assembly	assembly	NOUN	_	_	6	flat	_	AlignBegin=70410|AlignEnd=71050|Gloss=assembly
+8	<	<	X	_	_	6	dep	_	AlignBegin=71050|AlignEnd=71080|Gloss=PUNCT
+9	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	AlignBegin=71080|AlignEnd=71460|Gloss=NOM.PL.3
+10	gats	gats	VERB	_	_	3	parataxis	_	AlignBegin=71460|AlignEnd=71640|Gloss=must
+11	{	{	X	_	_	13	dep	_	AlignBegin=71640|AlignEnd=71820|Gloss=PUNCT
 12	to	to	ADP	_	_	13	mark	_	AlignBegin=71640|AlignEnd=71820|Gloss=to
-13	rearrange	rearrange	VERB	_	_	3	parataxis	_	AlignBegin=71820|AlignEnd=72215|Gloss=rearrange
-14	di	the	DET	_	Definite=Def|PronType=Art	15	det	_	AlignBegin=72215|AlignEnd=72320|Gloss=DEF.ART
+13	rearrange	rearrange	VERB	_	_	10	xcomp:obl	_	AlignBegin=71820|AlignEnd=72215|Gloss=rearrange
+14	di	di	DET	_	Definite=Def|PronType=Art	15	det	_	AlignBegin=72215|AlignEnd=72320|Gloss=DEF.ART
 15	law	law	NOUN	_	_	13	obj	_	AlignBegin=72320|AlignEnd=72511|Gloss=law
 16	o	o	PART	_	PartType=Disc	15	advmod:emph	_	AlignBegin=72511|AlignEnd=72798|Gloss=EMPH
 17	wey	wey	SCONJ	_	_	19	mark	_	AlignBegin=72798|AlignEnd=73020|Gloss=REL
@@ -357,9 +358,9 @@
 22	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	25	nsubj	_	AlignBegin=74380|AlignEnd=74550|Gloss=NOM.PL.3
 23	fit	fit	AUX	_	Mood=Pot	25	aux	_	AlignBegin=74550|AlignEnd=74710|Gloss=ABIL
 24	dey	dey	AUX	_	Aspect=Imp	25	aux	_	AlignBegin=74710|AlignEnd=74890|Gloss=IPFV
-25	generate	generate	VERB	_	_	19	ccomp	_	AlignBegin=74890|AlignEnd=75436|Gloss=generate
+25	generate	generate	VERB	_	_	19	ccomp:pred	_	AlignBegin=74890|AlignEnd=75436|Gloss=generate
 26	energy	energy	NOUN	_	_	25	obj	_	AlignBegin=75436|AlignEnd=76100|Gloss=energy
-27	|c	|c	PUNCT	_	_	30	punct	_	AlignBegin=76100|AlignEnd=76130|Gloss=PUNCT
+27	|c	|c	X	_	_	30	dep	_	AlignBegin=76100|AlignEnd=76130|Gloss=PUNCT
 28	and	and	CCONJ	_	_	30	cc	_	AlignBegin=76130|AlignEnd=76310|Gloss=and
 29	to	to	ADP	_	_	30	mark	_	AlignBegin=76310|AlignEnd=76540|Gloss=to
 30	allow	allow	VERB	_	_	13	conj	_	AlignBegin=76540|AlignEnd=76929|Gloss=allow
@@ -367,74 +368,91 @@
 32	make	make	AUX	_	Mood=Opt	35	aux	_	AlignBegin=77160|AlignEnd=77310|Gloss=SBJV
 33	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	35	nsubj	_	AlignBegin=77310|AlignEnd=77490|Gloss=NOM.PL.3
 34	dey	dey	AUX	_	Aspect=Imp	35	aux	_	AlignBegin=77490|AlignEnd=77620|Gloss=IPFV
-35	use	use	VERB	_	_	30	ccomp	_	AlignBegin=77620|AlignEnd=77800|Gloss=use
-36	deir	deir	PRON	_	Number=Plur|Person=3|Poss=Yes	37	nmod:poss	_	AlignBegin=77800|AlignEnd=77998|Gloss=3.PL.POSS
+35	use	use	VERB	_	_	30	ccomp:pred	_	AlignBegin=77620|AlignEnd=77800|Gloss=use
+36	deir	dem	PRON	_	Number=Plur|Person=3|Poss=Yes	37	nmod:poss	_	AlignBegin=77800|AlignEnd=77998|Gloss=PL.3.POSS
 37	brain	brain	NOUN	_	_	35	obj	_	AlignBegin=77998|AlignEnd=78442|Gloss=brain
-38	|c	|c	PUNCT	_	_	42	punct	_	AlignBegin=78442|AlignEnd=78472|Gloss=PUNCT
+38	|c	|c	X	_	_	42	dep	_	AlignBegin=78442|AlignEnd=78472|Gloss=PUNCT
 39	and	and	CCONJ	_	_	42	cc	_	AlignBegin=78472|AlignEnd=78740|Gloss=and
 40	to	to	ADP	_	_	42	mark	_	AlignBegin=78740|AlignEnd=78990|Gloss=to
 41	even	even	ADV	_	_	42	advmod	_	AlignBegin=78990|AlignEnd=79351|Gloss=even
 42	involve	involve	VERB	_	_	13	conj	_	AlignBegin=79351|AlignEnd=79841|Gloss=involve
 43	people	people	NOUN	_	Number=Plur	42	obj	_	AlignBegin=79841|AlignEnd=80030|Gloss=people.PL
-44	wey	wey	SCONJ	_	_	50	mark	_	AlignBegin=80030|AlignEnd=80150|EXTPOS=SCONJ|Gloss=REL
-45	be	be	VERB	_	PartType=Cop	44	fixed	_	AlignBegin=80150|AlignEnd=80265|Gloss=be
+44	wey	wey	SCONJ	_	_	50	mark	_	AlignBegin=80030|AlignEnd=80150|ExtPos=SCONJ|Gloss=REL|PhraseType=Idiom
+45	be	be	AUX	_	PartType=Cop	44	fixed	_	AlignBegin=80150|AlignEnd=80265|Gloss=be
 46	sey	sey	SCONJ	_	_	44	fixed	_	AlignBegin=80265|AlignEnd=80510|Gloss=COMP
 47	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	50	nsubj	_	AlignBegin=80510|AlignEnd=80720|Gloss=NOM.PL.3
 48	be	be	AUX	_	PartType=Cop	50	cop	_	AlignBegin=80720|AlignEnd=80810|Gloss=be
 49	private	private	ADJ	_	_	50	amod	_	AlignBegin=80810|AlignEnd=81250|Gloss=private
 50	business	business	NOUN	_	_	43	acl:relcl	_	AlignBegin=81250|AlignEnd=81930|Gloss=business
-51	}	}	PUNCT	_	_	13	punct	_	AlignBegin=84140|AlignEnd=87560|Gloss=PUNCT
-52	//]	//]	PUNCT	_	_	13	punct	_	AlignBegin=84140|AlignEnd=87560|Gloss=PUNCT
-53	//	//	PUNCT	_	_	3	punct	_	AlignBegin=84140|AlignEnd=87560|Gloss=PUNCT
+51	}	}	X	_	_	13	dep	_	AlignBegin=84140|AlignEnd=87560|Gloss=PUNCT
+52	//]	//]	X	_	_	10	dep	_	AlignBegin=84140|AlignEnd=87560|Gloss=PUNCT
+53	//	//	X	_	_	3	dep	_	AlignBegin=84140|AlignEnd=87560|Gloss=PUNCT
 
 # sent_id = IBA_34_News-Report-By-Samuel_MG__13
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_34_News-Report-By-Samuel_MG.mp3
 # speaker_id = Sp425
+# text = make we hear as Oga Presido as e talk am //
+# text_en = Let us hear as the President says it.
+1	make	make	AUX	_	Mood=Opt	3	aux	_	Gloss=SBJV
+2	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	Gloss=NOM.PL.1
+3	hear	hear	VERB	_	_	0	root	_	Gloss=hear
+4	as	as	ADP	_	_	5	case	_	Gloss=as
+5	Oga	oga	PROPN	_	_	3	obl:mod	_	Gloss=Mr
+6	Presido	Presido	PROPN	_	_	5	flat	_	Gloss=President
+7	as	as	ADP	_	_	9	mark	_	Gloss=as
+8	e	im	PRON	_	_	9	nsubj	_	Gloss=NOM.SG.3
+9	talk	talk	VERB	_	_	3	advcl	_	Gloss=talk
+10	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	9	obj	_	Gloss=ACC.SG.3
+11	//	//	X	_	_	3	dep	_	Gloss=PUNCT
+
+# sent_id = IBA_34_News-Report-By-Samuel_MG__14
+# sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_34_News-Report-By-Samuel_MG.mp3
+# speaker_id = Sp425
 # text = { di Lake Chad Basin Commission |a LCBC } < na im >+ don identify o sey [ na dis kind ozigi wey dem dey call { insurgency |c and climate change } >+ na dem be di major gbege wey be sey e dey follow effective groundwater management for di basin //] //
 # text_en = The Lake Chad Basin Commission, LCBC, have identified that the kinds of issues known as insurgency and climate change are the major problems facing effective groundwater management in the basin.
-# text_ortho = Di Lake Chad Basin Commission, LCBC, na im, don identify o sey, na dis kind ozigi wey dem dey call insurgency, and climate change, na dem be di major gbege wey be sey e dey follow effective groundwater management for di basin.
-1	{	{	PUNCT	_	_	6	punct	_	AlignBegin=87530|AlignEnd=87560|Gloss=PUNCT
-2	di	the	DET	_	Definite=Def|PronType=Art	6	det	_	AlignBegin=87560|AlignEnd=87840|Gloss=DEF.ART
-3	Lake	lake	NOUN	_	_	5	compound	_	AlignBegin=87840|AlignEnd=88159|Gloss=lake
+# text_ortho = Di Lake Chad Basin Commission, LCBC, na im don identify o sey na dis kind ozigi wey dem dey call insurgency, and climate change na dem be di major gbege wey be sey e dey follow effective groundwater management for di basin.
+1	{	{	X	_	_	3	dep	_	AlignBegin=87530|AlignEnd=87560|Gloss=PUNCT
+2	di	di	DET	_	Definite=Def|PronType=Art	3	det	_	AlignBegin=87560|AlignEnd=87840|Gloss=DEF.ART
+3	Lake	lake	NOUN	_	_	11	dislocated	_	AlignBegin=87840|AlignEnd=88159|Gloss=lake
 4	Chad	Chad	PROPN	_	_	3	flat	_	AlignBegin=88159|AlignEnd=88397|Gloss=Chad
-5	Basin	basin	NOUN	_	_	6	compound	_	AlignBegin=88397|AlignEnd=88789|Gloss=basin
-6	Commission	commission	NOUN	_	_	11	dislocated	_	AlignBegin=88789|AlignEnd=89371|Gloss=commission
-7	|a	|a	PUNCT	_	_	8	punct	_	AlignBegin=89371|AlignEnd=89401|Gloss=PUNCT
-8	LCBC	LCBC	PROPN	_	_	6	appos	_	AlignBegin=89401|AlignEnd=90329|Gloss=LCBC
-9	}	}	PUNCT	_	_	6	punct	_	AlignBegin=90329|AlignEnd=90359|Gloss=PUNCT
-10	<	<	PUNCT	_	_	6	punct	_	AlignBegin=90329|AlignEnd=90359|Gloss=PUNCT
-11	na	na	AUX	_	PartType=Cop	0	root	_	AlignBegin=90359|AlignEnd=90550|EXTPOS=SCONJ|Gloss=be
+5	Basin	basin	NOUN	_	_	3	flat	_	AlignBegin=88397|AlignEnd=88789|Gloss=basin
+6	Commission	commission	NOUN	_	_	3	flat	_	AlignBegin=88789|AlignEnd=89371|Gloss=commission
+7	|a	|a	X	_	_	8	dep	_	AlignBegin=89371|AlignEnd=89401|Gloss=PUNCT
+8	LCBC	LCBC	PROPN	_	_	3	appos	_	AlignBegin=89401|AlignEnd=90329|Gloss=LCBC
+9	}	}	X	_	_	3	dep	_	AlignBegin=90329|AlignEnd=90359|Gloss=PUNCT
+10	<	<	X	_	_	3	dep	_	AlignBegin=90329|AlignEnd=90359|Gloss=PUNCT
+11	na	na	AUX	_	PartType=Cop	0	root	_	AlignBegin=90359|AlignEnd=90550|ExtPos=SCONJ|Gloss=be|PhraseType=Idiom
 12	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	11	fixed	_	AlignBegin=90550|AlignEnd=90660|Gloss=NOM.SG.3
-13	>+	>+	PUNCT	_	_	15	punct	_	AlignBegin=90660|AlignEnd=90690|Gloss=PUNCT
+13	>+	>+	X	_	_	15	dep	_	AlignBegin=90660|AlignEnd=90690|Gloss=PUNCT
 14	don	don	AUX	_	Aspect=Perf	15	aux	_	AlignBegin=90690|AlignEnd=90940|Gloss=PRF
 15	identify	identify	VERB	_	_	11	advcl:cleft	_	AlignBegin=90940|AlignEnd=91611|Gloss=identify
 16	o	o	PART	_	PartType=Disc	15	advmod:emph	_	AlignBegin=91611|AlignEnd=92020|Gloss=EMPH
 17	sey	sey	SCONJ	_	_	22	mark	_	AlignBegin=92020|AlignEnd=92196|Gloss=COMP
-18	[	[	PUNCT	_	_	22	punct	_	AlignBegin=92196|AlignEnd=92226|Gloss=PUNCT
+18	[	[	X	_	_	22	dep	_	AlignBegin=92196|AlignEnd=92226|Gloss=PUNCT
 19	na	na	AUX	_	PartType=Cop	22	cop	_	AlignBegin=92226|AlignEnd=92400|Gloss=be
-20	dis	dis	DET	_	Number=Sing|PronType=Dem	22	det	_	AlignBegin=92400|AlignEnd=92630|Gloss=SG.PROX.DEM
+20	dis	dis	DET	_	Number=Sing|PronType=Dem	22	det	_	AlignBegin=92400|AlignEnd=92630|Gloss=SG.DEM
 21	kind	kind	ADJ	_	_	22	amod	_	AlignBegin=92630|AlignEnd=92900|Gloss=kind
-22	ozigi	ozigi	NOUN	_	_	15	ccomp	_	AlignBegin=92900|AlignEnd=93400|Gloss=issues
+22	ozigi	ozigi	NOUN	_	_	15	ccomp:obj	_	AlignBegin=92900|AlignEnd=93400|Gloss=issues
 23	wey	wey	SCONJ	_	_	26	mark	_	AlignBegin=93400|AlignEnd=93630|Gloss=REL
 24	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	26	nsubj	_	AlignBegin=93630|AlignEnd=93770|Gloss=NOM.PL.3
 25	dey	dey	AUX	_	Aspect=Imp	26	aux	_	AlignBegin=93770|AlignEnd=93910|Gloss=IPFV
 26	call	call	VERB	_	_	22	acl:relcl	_	AlignBegin=93910|AlignEnd=94150|Gloss=call
-27	{	{	PUNCT	_	_	28	punct	_	AlignBegin=94150|AlignEnd=94180|Gloss=PUNCT
+27	{	{	X	_	_	28	dep	_	AlignBegin=94150|AlignEnd=94180|Gloss=PUNCT
 28	insurgency	insurgency	NOUN	_	_	26	obj	_	AlignBegin=94180|AlignEnd=94990|Gloss=insurgency
-29	|c	|c	PUNCT	_	_	32	punct	_	AlignBegin=94990|AlignEnd=95020|Gloss=PUNCT
+29	|c	|c	X	_	_	32	dep	_	AlignBegin=94990|AlignEnd=95020|Gloss=PUNCT
 30	and	and	CCONJ	_	_	32	cc	_	AlignBegin=95020|AlignEnd=95240|Gloss=and
 31	climate	climate	NOUN	_	_	32	nmod	_	AlignBegin=95240|AlignEnd=95730|Gloss=climate
 32	change	change	NOUN	_	_	28	conj	_	AlignBegin=95730|AlignEnd=96206|Gloss=change
-33	}	}	PUNCT	_	_	28	punct	_	AlignBegin=96206|AlignEnd=96236|Gloss=PUNCT
-34	>+	>+	PUNCT	_	_	36	punct	_	AlignBegin=96206|AlignEnd=96236|Gloss=PUNCT
+33	}	}	X	_	_	28	dep	_	AlignBegin=96206|AlignEnd=96236|Gloss=PUNCT
+34	>+	>+	X	_	_	36	dep	_	AlignBegin=96206|AlignEnd=96236|Gloss=PUNCT
 35	na	na	AUX	_	PartType=Cop	36	cop	_	AlignBegin=96236|AlignEnd=96456|Gloss=be
 36	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	22	advcl:cleft	_	AlignBegin=96456|AlignEnd=96636|Gloss=NOM.PL.3
 37	be	be	AUX	_	PartType=Cop	40	cop	_	AlignBegin=96636|AlignEnd=96726|Gloss=be
-38	di	the	DET	_	Definite=Def|PronType=Art	40	det	_	AlignBegin=96726|AlignEnd=96896|Gloss=DEF.ART
+38	di	di	DET	_	Definite=Def|PronType=Art	40	det	_	AlignBegin=96726|AlignEnd=96896|Gloss=DEF.ART
 39	major	major	ADJ	_	_	40	amod	_	AlignBegin=96896|AlignEnd=97316|Gloss=major
 40	gbege	gbege	NOUN	_	_	36	advcl:cleft	_	AlignBegin=97316|AlignEnd=97698|Gloss=trouble
-41	wey	wey	SCONJ	_	_	46	mark	_	AlignBegin=97698|AlignEnd=97836|EXTPOS=SCONJ|Gloss=REL
-42	be	be	VERB	_	PartType=Cop	41	fixed	_	AlignBegin=97836|AlignEnd=97956|Gloss=be
+41	wey	wey	SCONJ	_	_	46	mark	_	AlignBegin=97698|AlignEnd=97836|ExtPos=SCONJ|Gloss=REL|PhraseType=Idiom
+42	be	be	AUX	_	PartType=Cop	41	fixed	_	AlignBegin=97836|AlignEnd=97956|Gloss=be
 43	sey	sey	SCONJ	_	_	41	fixed	_	AlignBegin=97956|AlignEnd=98276|Gloss=COMP
 44	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	46	nsubj	_	AlignBegin=98276|AlignEnd=98376|Gloss=NOM.SG.3
 45	dey	dey	AUX	_	Aspect=Imp	46	aux	_	AlignBegin=98376|AlignEnd=98600|Gloss=IPFV
@@ -443,67 +461,67 @@
 48	groundwater	groundwater	NOUN	_	_	49	compound	_	AlignBegin=99696|AlignEnd=100236|Gloss=groundwater
 49	management	management	NOUN	_	_	46	obj	_	AlignBegin=100236|AlignEnd=100766|Gloss=management
 50	for	for	ADP	_	_	52	case	_	AlignBegin=100766|AlignEnd=100936|Gloss=for
-51	di	the	DET	_	Definite=Def|PronType=Art	52	det	_	AlignBegin=100936|AlignEnd=101046|Gloss=DEF.ART
+51	di	di	DET	_	Definite=Def|PronType=Art	52	det	_	AlignBegin=100936|AlignEnd=101046|Gloss=DEF.ART
 52	basin	basin	NOUN	_	_	46	obl:arg	_	AlignBegin=101046|AlignEnd=101550|Gloss=basin
-53	//]	//]	PUNCT	_	_	22	punct	_	AlignBegin=101550|AlignEnd=101580|Gloss=PUNCT
-54	//	//	PUNCT	_	_	11	punct	_	AlignBegin=101550|AlignEnd=101580|Gloss=PUNCT
+53	//]	//]	X	_	_	22	dep	_	AlignBegin=101550|AlignEnd=101580|Gloss=PUNCT
+54	//	//	X	_	_	11	dep	_	AlignBegin=101550|AlignEnd=101580|Gloss=PUNCT
 
-# sent_id = IBA_34_News-Report-By-Samuel_MG__14
+# sent_id = IBA_34_News-Report-By-Samuel_MG__15
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_34_News-Report-By-Samuel_MG.mp3
 # speaker_id = Sp425
 # text = # { dem technical director |a Doctor Mana Bubakari } < na im >+ dey yarn for Abuja sey [ di situation < na im >+ don pakaso by di { growth of people || number of people } wey be sey e dey increase for di region # following as people wey war don pursue comot for deir house < as dem dey plenty for dere ] //
 # text_en = In Abuja, their Technical Director, Doctor Mana Bubakari, says that the situation has become complicated by the growth of people... the number of people which keeps increasing in the region due to the many people who have been forced to leave their homes.
-# text_ortho = Dem technical director, Doctor Mana Bubakari, na im, dey yarn for Abuja sey di situation, na im, don pakaso by di growth of people number of people wey be sey e dey increase for di region following as people wey war don pursue comot for deir house, as dem dey plenty for dere.
-1	#	#	PUNCT	_	_	12	punct	_	AlignBegin=101580|AlignEnd=101900|Gloss=PUNCT
-2	{	{	PUNCT	_	_	5	punct	_	AlignBegin=101870|AlignEnd=101900|Gloss=PUNCT
+# text_ortho = Dem technical director, Doctor Mana Bubakari, na im dey yarn for Abuja sey di situation, na im don pakaso by di growth of people, number of people wey be sey e dey increase for di region following as people wey war don pursue comot for deir house, as dem dey plenty for dere.
+1	#	#	X	_	_	12	dep	_	AlignBegin=101580|AlignEnd=101900|Gloss=PUNCT
+2	{	{	X	_	_	5	dep	_	AlignBegin=101870|AlignEnd=101900|Gloss=PUNCT
 3	dem	dem	PRON	_	Number=Plur|Person=3|Poss=Yes	5	nmod:poss	_	AlignBegin=101900|AlignEnd=102120|Gloss=PL.3.POSS
 4	technical	technical	ADJ	_	_	5	amod	_	AlignBegin=102120|AlignEnd=102660|Gloss=technical
 5	director	director	NOUN	_	_	12	dislocated	_	AlignBegin=102660|AlignEnd=103200|Gloss=director
-6	|a	|a	PUNCT	_	_	7	punct	_	AlignBegin=103200|AlignEnd=103230|Gloss=PUNCT
+6	|a	|a	X	_	_	7	dep	_	AlignBegin=103200|AlignEnd=103230|Gloss=PUNCT
 7	Doctor	doctor	NOUN	_	_	5	appos	_	AlignBegin=103230|AlignEnd=103660|Gloss=doctor
 8	Mana	Mana	PROPN	_	_	7	flat	_	AlignBegin=103660|AlignEnd=104287|Gloss=Mana
 9	Bubakari	Bubakari	PROPN	_	_	7	flat	_	AlignBegin=104287|AlignEnd=105296|Gloss=Bubakari
-10	}	}	PUNCT	_	_	5	punct	_	AlignBegin=105296|AlignEnd=105326|Gloss=PUNCT
-11	<	<	PUNCT	_	_	5	punct	_	AlignBegin=105296|AlignEnd=105326|Gloss=PUNCT
-12	na	na	AUX	_	PartType=Cop	0	root	_	AlignBegin=105326|AlignEnd=105530|EXTPOS=SCONJ|Gloss=be
+10	}	}	X	_	_	5	dep	_	AlignBegin=105296|AlignEnd=105326|Gloss=PUNCT
+11	<	<	X	_	_	5	dep	_	AlignBegin=105296|AlignEnd=105326|Gloss=PUNCT
+12	na	na	AUX	_	PartType=Cop	0	root	_	AlignBegin=105326|AlignEnd=105530|ExtPos=SCONJ|Gloss=be|PhraseType=Idiom
 13	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	12	fixed	_	AlignBegin=105530|AlignEnd=105630|Gloss=NOM.SG.3
-14	>+	>+	PUNCT	_	_	16	punct	_	AlignBegin=105630|AlignEnd=105660|Gloss=PUNCT
+14	>+	>+	X	_	_	16	dep	_	AlignBegin=105630|AlignEnd=105660|Gloss=PUNCT
 15	dey	dey	AUX	_	Aspect=Imp	16	aux	_	AlignBegin=105660|AlignEnd=105760|Gloss=IPFV
 16	yarn	yarn	VERB	_	_	12	advcl:cleft	_	AlignBegin=105760|AlignEnd=105990|Gloss=talk
 17	for	for	ADP	_	_	18	case	_	AlignBegin=105990|AlignEnd=106160|Gloss=for
 18	Abuja	Abuja	PROPN	_	_	16	obl:arg	_	AlignBegin=106160|AlignEnd=106838|Gloss=Abuja
-19	sey	sey	SCONJ	_	_	24	mark	_	AlignBegin=106838|AlignEnd=107050|Gloss=COMP
-20	[	[	PUNCT	_	_	24	punct	_	AlignBegin=107050|AlignEnd=107190|Gloss=PUNCT
-21	di	the	DET	_	Definite=Def|PronType=Art	22	det	_	AlignBegin=107050|AlignEnd=107190|Gloss=DEF.ART
+19	sey	sey	SCONJ	_	_	24	dep:comp	_	AlignBegin=106838|AlignEnd=107050|Gloss=COMP
+20	[	[	X	_	_	24	dep	_	AlignBegin=107050|AlignEnd=107190|Gloss=PUNCT
+21	di	di	DET	_	Definite=Def|PronType=Art	22	det	_	AlignBegin=107050|AlignEnd=107190|Gloss=DEF.ART
 22	situation	situation	NOUN	_	_	24	dislocated	_	AlignBegin=107190|AlignEnd=107770|Gloss=situation
-23	<	<	PUNCT	_	_	22	punct	_	AlignBegin=107770|AlignEnd=107800|Gloss=PUNCT
-24	na	na	AUX	_	PartType=Cop	16	ccomp	_	AlignBegin=107800|AlignEnd=107950|EXTPOS=SCONJ|Gloss=be
+23	<	<	X	_	_	22	dep	_	AlignBegin=107770|AlignEnd=107800|Gloss=PUNCT
+24	na	na	AUX	_	PartType=Cop	16	dep:comp	_	AlignBegin=107800|AlignEnd=107950|ExtPos=SCONJ|Gloss=be|PhraseType=Idiom
 25	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	24	fixed	_	AlignBegin=107950|AlignEnd=108030|Gloss=NOM.SG.3
-26	>+	>+	PUNCT	_	_	28	punct	_	AlignBegin=108030|AlignEnd=108060|Gloss=PUNCT
+26	>+	>+	X	_	_	28	dep	_	AlignBegin=108030|AlignEnd=108060|Gloss=PUNCT
 27	don	don	AUX	_	Aspect=Perf	28	aux	_	AlignBegin=108060|AlignEnd=108240|Gloss=PRF
 28	pakaso	pakaso	VERB	_	_	24	advcl:cleft	_	AlignBegin=108240|AlignEnd=108790|Gloss=complicate
 29	by	by	ADP	_	_	32	case	_	AlignBegin=108790|AlignEnd=109000|Gloss=by
-30	di	the	DET	_	Definite=Def|PronType=Art	32	det	_	AlignBegin=109000|AlignEnd=109190|Gloss=DEF.ART
-31	{	{	PUNCT	_	_	32	punct	_	AlignBegin=109190|AlignEnd=109220|Gloss=PUNCT
+30	di	di	DET	_	Definite=Def|PronType=Art	32	det	_	AlignBegin=109000|AlignEnd=109190|Gloss=DEF.ART
+31	{	{	X	_	_	32	dep	_	AlignBegin=109190|AlignEnd=109220|Gloss=PUNCT
 32	growth	growth	NOUN	_	_	28	obl:agent	_	AlignBegin=109220|AlignEnd=109540|Gloss=growth
 33	of	of	ADP	_	_	34	case	_	AlignBegin=109540|AlignEnd=109750|Gloss=of
 34	people	people	NOUN	_	Number=Plur	32	nmod	_	AlignBegin=109750|AlignEnd=109990|Gloss=people.PL
-35	||	||	PUNCT	_	_	36	punct	_	AlignBegin=109990|AlignEnd=110020|Gloss=PUNCT
-36	number	number	NOUN	_	_	32	conj:dicto	_	AlignBegin=110020|AlignEnd=110299|Gloss=number
+35	||	||	X	_	_	36	dep	_	AlignBegin=109990|AlignEnd=110020|Gloss=PUNCT
+36	number	number	NOUN	_	_	32	reparandum	_	AlignBegin=110020|AlignEnd=110299|Gloss=number
 37	of	of	ADP	_	_	38	case	_	AlignBegin=110299|AlignEnd=110400|Gloss=of
 38	people	people	NOUN	_	Number=Plur	36	nmod	_	AlignBegin=110400|AlignEnd=110650|Gloss=people.PL
-39	}	}	PUNCT	_	_	32	punct	_	AlignBegin=110650|AlignEnd=110680|Gloss=PUNCT
-40	wey	wey	SCONJ	_	_	45	mark	_	AlignBegin=110680|AlignEnd=110790|EXTPOS=SCONJ|Gloss=REL
-41	be	be	VERB	_	PartType=Cop	40	fixed	_	AlignBegin=110790|AlignEnd=110907|Gloss=be
+39	}	}	X	_	_	32	dep	_	AlignBegin=110650|AlignEnd=110680|Gloss=PUNCT
+40	wey	wey	SCONJ	_	_	45	mark	_	AlignBegin=110680|AlignEnd=110790|ExtPos=SCONJ|Gloss=REL|PhraseType=Idiom
+41	be	be	AUX	_	PartType=Cop	40	fixed	_	AlignBegin=110790|AlignEnd=110907|Gloss=be
 42	sey	sey	SCONJ	_	_	40	fixed	_	AlignBegin=110907|AlignEnd=111190|Gloss=COMP
 43	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	45	nsubj	_	AlignBegin=111190|AlignEnd=111280|Gloss=NOM.SG.3
 44	dey	dey	AUX	_	Aspect=Imp	45	aux	_	AlignBegin=111280|AlignEnd=111490|Gloss=IPFV
 45	increase	increase	VERB	_	_	36	acl:relcl	_	AlignBegin=111490|AlignEnd=111970|Gloss=increase
 46	for	for	ADP	_	_	48	case	_	AlignBegin=111970|AlignEnd=112110|Gloss=for
-47	di	the	DET	_	Definite=Def|PronType=Art	48	det	_	AlignBegin=112110|AlignEnd=112248|Gloss=DEF.ART
+47	di	di	DET	_	Definite=Def|PronType=Art	48	det	_	AlignBegin=112110|AlignEnd=112248|Gloss=DEF.ART
 48	region	region	NOUN	_	_	45	obl:arg	_	AlignBegin=112248|AlignEnd=112701|Gloss=region
-49	#	#	PUNCT	_	_	50	punct	_	AlignBegin=101900|AlignEnd=125420|Gloss=PUNCT
-50	following	follow	VERB	_	Tense=Pres|VerbForm=Part	45	advcl	_	AlignBegin=113085|AlignEnd=113513|EXTPOS=SCONJ|Gloss=follow.PRS.PTCP
+49	#	#	X	_	_	64	dep	_	AlignBegin=101900|AlignEnd=125420|Gloss=PUNCT
+50	following	follow	VERB	_	Tense=Pres|VerbForm=Part	64	mark	_	AlignBegin=113085|AlignEnd=113513|ExtPos=SCONJ|Gloss=follow.PRS.PTCP|PhraseType=Idiom
 51	as	as	ADP	_	_	50	fixed	_	AlignBegin=113513|AlignEnd=113773|Gloss=as
 52	people	people	NOUN	_	Number=Plur	64	dislocated	_	AlignBegin=113773|AlignEnd=114093|Gloss=people.PL
 53	wey	wey	SCONJ	_	_	56	mark	_	AlignBegin=114093|AlignEnd=114302|Gloss=REL
@@ -512,70 +530,70 @@
 56	pursue	pursue	VERB	_	_	52	acl:relcl	_	AlignBegin=114803|AlignEnd=115133|Gloss=pursue
 57	comot	comot	VERB	_	_	56	compound:svc	_	AlignBegin=115133|AlignEnd=115431|Gloss=get_out
 58	for	for	ADP	_	_	60	case	_	AlignBegin=115431|AlignEnd=115603|Gloss=for
-59	deir	deir	PRON	_	Number=Plur|Person=3|Poss=Yes	60	nmod:poss	_	AlignBegin=115603|AlignEnd=115799|Gloss=3.PL.POSS
+59	deir	dem	PRON	_	Number=Plur|Person=3|Poss=Yes	60	nmod:poss	_	AlignBegin=115603|AlignEnd=115799|Gloss=PL.3.POSS
 60	house	house	NOUN	_	_	57	obl:arg	_	AlignBegin=115799|AlignEnd=116143|Gloss=house
-61	<	<	PUNCT	_	_	52	punct	_	AlignBegin=116143|AlignEnd=116293|Gloss=PUNCT
+61	<	<	X	_	_	52	dep	_	AlignBegin=116143|AlignEnd=116293|Gloss=PUNCT
 62	as	as	ADP	_	_	64	cc	_	AlignBegin=116143|AlignEnd=116293|Gloss=as
 63	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	64	nsubj	_	AlignBegin=116293|AlignEnd=116423|Gloss=NOM.PL.3
-64	dey	dey	VERB	_	VerbType=Cop	50	ccomp	_	AlignBegin=116423|AlignEnd=116578|Gloss=be
-65	plenty	plenty	ADJ	_	_	64	xcomp	_	AlignBegin=116578|AlignEnd=116923|Gloss=plenty
+64	dey	dey	VERB	_	VerbType=Cop	45	advcl	_	AlignBegin=116423|AlignEnd=116578|Gloss=be
+65	plenty	plenty	ADJ	_	_	64	xcomp:pred	_	AlignBegin=116578|AlignEnd=116923|Gloss=plenty
 66	for	for	ADP	_	_	67	case	_	AlignBegin=116923|AlignEnd=117083|Gloss=for
 67	dere	dere	ADV	_	_	64	obl:arg	_	AlignBegin=117083|AlignEnd=117591|Gloss=there
-68	]	]	PUNCT	_	_	24	punct	_	AlignBegin=117591|AlignEnd=117621|Gloss=PUNCT
-69	//	//	PUNCT	_	_	12	punct	_	AlignBegin=117591|AlignEnd=117621|Gloss=PUNCT
+68	]	]	X	_	_	24	dep	_	AlignBegin=117591|AlignEnd=117621|Gloss=PUNCT
+69	//	//	X	_	_	12	dep	_	AlignBegin=117591|AlignEnd=117621|Gloss=PUNCT
 
-# sent_id = IBA_34_News-Report-By-Samuel_MG__15
+# sent_id = IBA_34_News-Report-By-Samuel_MG__16
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_34_News-Report-By-Samuel_MG.mp3
 # speaker_id = Sp425
 # text = e say [ na like nine million people who be sey [ how dem take dey live deir life < e dey depend on top di lake ] >+ na dem dey stay for di region ] //
 # text_en = He said there are almost nine million people whose livelihoods depend on the lake staying in the region.
-# text_ortho = E say na like nine million people who be sey how dem take dey live deir life, e dey depend on top di lake, na dem dey stay for di region.
+# text_ortho = E say na like nine million people who be sey how dem take dey live deir life, e dey depend on top di lake na dem dey stay for di region.
 1	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	AlignBegin=117621|AlignEnd=117883|Gloss=NOM.SG.3
 2	say	say	VERB	_	_	0	root	_	AlignBegin=117883|AlignEnd=117973|Gloss=say
-3	[	[	PUNCT	_	_	8	punct	_	AlignBegin=117973|AlignEnd=118003|Gloss=PUNCT
+3	[	[	X	_	_	8	dep	_	AlignBegin=117973|AlignEnd=118003|Gloss=PUNCT
 4	na	na	AUX	_	PartType=Cop	8	cop	_	AlignBegin=118003|AlignEnd=118153|Gloss=be
 5	like	like	ADP	_	_	8	discourse	_	AlignBegin=118153|AlignEnd=118413|Gloss=like
-6	nine	nine	NUM	_	NumType=Card	7	compound	_	AlignBegin=118413|AlignEnd=118653|Gloss=nine.CARD
-7	million	million	NUM	_	NumType=Card	8	nummod:det	_	AlignBegin=118653|AlignEnd=119083|Gloss=million.CARD
+6	nine	nine	NUM	_	NumType=Card	8	nummod:det	_	AlignBegin=118413|AlignEnd=118653|Gloss=nine.CARD
+7	million	million	NUM	_	NumType=Card	6	flat	_	AlignBegin=118653|AlignEnd=119083|Gloss=million.CARD
 8	people	people	NOUN	_	Number=Plur	2	parataxis	_	AlignBegin=119083|AlignEnd=119543|Gloss=people.PL
 9	who	wey	SCONJ	_	_	8	acl:relcl	_	AlignBegin=119543|AlignEnd=119783|Gloss=REL
 10	be	be	AUX	_	PartType=Cop	23	cop	_	AlignBegin=119783|AlignEnd=119903|Gloss=be
 11	sey	sey	SCONJ	_	_	23	mark	_	AlignBegin=119903|AlignEnd=120173|Gloss=COMP
-12	[	[	PUNCT	_	_	23	punct	_	AlignBegin=120173|AlignEnd=120393|Gloss=PUNCT
+12	[	[	X	_	_	23	dep	_	AlignBegin=120173|AlignEnd=120393|Gloss=PUNCT
 13	how	how	ADV	_	PronType=Int	23	dislocated	_	AlignBegin=120173|AlignEnd=120393|Gloss=how.Q
 14	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	15	nsubj	_	AlignBegin=120393|AlignEnd=120573|Gloss=NOM.PL.3
 15	take	take	VERB	_	_	13	acl:relcl	_	AlignBegin=120573|AlignEnd=120733|Gloss=take
 16	dey	dey	AUX	_	Aspect=Imp	17	aux	_	AlignBegin=120733|AlignEnd=120903|Gloss=IPFV
 17	live	live	VERB	_	_	15	compound:svc	_	AlignBegin=120903|AlignEnd=121103|Gloss=live
-18	deir	deir	PRON	_	Number=Plur|Person=3|Poss=Yes	19	nmod:poss	_	AlignBegin=121103|AlignEnd=121233|Gloss=3.PL.POSS
+18	deir	dem	PRON	_	Number=Plur|Person=3|Poss=Yes	19	nmod:poss	_	AlignBegin=121103|AlignEnd=121233|Gloss=PL.3.POSS
 19	life	life	NOUN	_	_	17	obj	_	AlignBegin=121233|AlignEnd=121630|Gloss=life
-20	<	<	PUNCT	_	_	23	punct	_	AlignBegin=121630|AlignEnd=121660|Gloss=PUNCT
+20	<	<	X	_	_	23	dep	_	AlignBegin=121630|AlignEnd=121660|Gloss=PUNCT
 21	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	23	expl:subj	_	AlignBegin=121660|AlignEnd=121813|Gloss=NOM.SG.3
 22	dey	dey	AUX	_	Aspect=Imp	23	aux	_	AlignBegin=121813|AlignEnd=122003|Gloss=IPFV
 23	depend	depend	VERB	_	_	9	advcl:cleft	_	AlignBegin=122003|AlignEnd=122643|Gloss=depend
-24	on	on	ADP	_	_	27	case	_	AlignBegin=122643|AlignEnd=122803|EXTPOS=ADP|Gloss=on
+24	on	on	ADP	_	_	27	case	_	AlignBegin=122643|AlignEnd=122803|ExtPos=ADP|Gloss=on|PhraseType=Idiom
 25	top	top	NOUN	_	_	24	fixed	_	AlignBegin=122803|AlignEnd=123077|Gloss=top
-26	di	the	DET	_	Definite=Def|PronType=Art	27	det	_	AlignBegin=123077|AlignEnd=123258|Gloss=DEF.ART
+26	di	di	DET	_	Definite=Def|PronType=Art	27	det	_	AlignBegin=123077|AlignEnd=123258|Gloss=DEF.ART
 27	lake	lake	NOUN	_	_	23	obl:arg	_	AlignBegin=123258|AlignEnd=123749|Gloss=lake
-28	]	]	PUNCT	_	_	23	punct	_	AlignBegin=123749|AlignEnd=123779|Gloss=PUNCT
-29	>+	>+	PUNCT	_	_	31	punct	_	AlignBegin=123749|AlignEnd=123779|Gloss=PUNCT
+28	]	]	X	_	_	23	dep	_	AlignBegin=123749|AlignEnd=123779|Gloss=PUNCT
+29	>+	>+	X	_	_	31	dep	_	AlignBegin=123749|AlignEnd=123779|Gloss=PUNCT
 30	na	na	AUX	_	PartType=Cop	31	cop	_	AlignBegin=123779|AlignEnd=124033|Gloss=be
 31	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	advcl:cleft	_	AlignBegin=124033|AlignEnd=124203|Gloss=NOM.PL.3
 32	dey	dey	AUX	_	Aspect=Imp	33	aux	_	AlignBegin=124203|AlignEnd=124313|Gloss=IPFV
 33	stay	stay	VERB	_	_	31	acl:relcl	_	AlignBegin=124313|AlignEnd=124553|Gloss=stay
 34	for	for	ADP	_	_	36	case	_	AlignBegin=124553|AlignEnd=124733|Gloss=for
-35	di	the	DET	_	Definite=Def|PronType=Art	36	det	_	AlignBegin=124733|AlignEnd=124892|Gloss=DEF.ART
+35	di	di	DET	_	Definite=Def|PronType=Art	36	det	_	AlignBegin=124733|AlignEnd=124892|Gloss=DEF.ART
 36	region	region	NOUN	_	_	33	obl:arg	_	AlignBegin=124892|AlignEnd=125390|Gloss=region
-37	]	]	PUNCT	_	_	8	punct	_	AlignBegin=125390|AlignEnd=125420|Gloss=PUNCT
-38	//	//	PUNCT	_	_	2	punct	_	AlignBegin=125390|AlignEnd=125420|Gloss=PUNCT
+37	]	]	X	_	_	8	dep	_	AlignBegin=125390|AlignEnd=125420|Gloss=PUNCT
+38	//	//	X	_	_	2	dep	_	AlignBegin=125390|AlignEnd=125420|Gloss=PUNCT
 
-# sent_id = IBA_34_News-Report-By-Samuel_MG__16
+# sent_id = IBA_34_News-Report-By-Samuel_MG__17
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_34_News-Report-By-Samuel_MG.mp3
 # speaker_id = Sp425
 # text = # dem commission na one kind intergovernmental organisation wey be sey [ na dem >+ dey oversee { water |c and oder natural resources |c and how dem take dey use am for inside di basin } ] //
 # text_en = Their commission is a kind of intergovernmental organization that oversees water and other natural resources, and how they are used in the basin.
 # text_ortho = Dem commission na one kind intergovernmental organisation wey be sey na dem dey oversee water, and oder natural resources, and how dem take dey use am for inside di basin.
-1	#	#	PUNCT	_	_	8	punct	_	AlignBegin=125420|AlignEnd=125720|Gloss=PUNCT
+1	#	#	X	_	_	8	dep	_	AlignBegin=125420|AlignEnd=125720|Gloss=PUNCT
 2	dem	dem	PRON	_	Number=Plur|Person=3|Poss=Yes	3	nmod:poss	_	AlignBegin=125720|AlignEnd=125930|Gloss=PL.3.POSS
 3	commission	commission	NOUN	_	_	8	nsubj	_	AlignBegin=125930|AlignEnd=126580|Gloss=commission
 4	na	na	AUX	_	PartType=Cop	8	cop	_	AlignBegin=126580|AlignEnd=126810|Gloss=be
@@ -583,23 +601,23 @@
 6	kind	kind	ADJ	_	_	8	amod	_	AlignBegin=127000|AlignEnd=127210|Gloss=kind
 7	intergovernmental	intergovernmental	ADJ	_	_	8	amod	_	AlignBegin=127210|AlignEnd=128140|Gloss=intergovernmental
 8	organisation	organisation	NOUN	_	_	0	root	_	AlignBegin=128140|AlignEnd=129096|Gloss=organisation
-9	wey	wey	SCONJ	_	_	14	mark	_	AlignBegin=129096|AlignEnd=129300|EXTPOS=SCONJ|Gloss=REL
-10	be	be	VERB	_	PartType=Cop	9	fixed	_	AlignBegin=129300|AlignEnd=129390|Gloss=be
+9	wey	wey	SCONJ	_	_	14	mark	_	AlignBegin=129096|AlignEnd=129300|ExtPos=SCONJ|Gloss=REL|PhraseType=Idiom
+10	be	be	AUX	_	PartType=Cop	9	fixed	_	AlignBegin=129300|AlignEnd=129390|Gloss=be
 11	sey	sey	SCONJ	_	_	9	fixed	_	AlignBegin=129390|AlignEnd=129490|Gloss=COMP
-12	[	[	PUNCT	_	_	14	punct	_	AlignBegin=129490|AlignEnd=129520|Gloss=PUNCT
+12	[	[	X	_	_	14	dep	_	AlignBegin=129490|AlignEnd=129520|Gloss=PUNCT
 13	na	na	AUX	_	PartType=Cop	14	cop	_	AlignBegin=129520|AlignEnd=129670|Gloss=be
 14	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	acl:relcl	_	AlignBegin=129670|AlignEnd=129820|Gloss=NOM.PL.3
-15	>+	>+	PUNCT	_	_	17	punct	_	AlignBegin=129820|AlignEnd=129850|Gloss=PUNCT
+15	>+	>+	X	_	_	17	dep	_	AlignBegin=129820|AlignEnd=129850|Gloss=PUNCT
 16	dey	dey	AUX	_	Aspect=Imp	17	aux	_	AlignBegin=129850|AlignEnd=130020|Gloss=IPFV
 17	oversee	oversee	VERB	_	_	14	advcl:cleft	_	AlignBegin=130020|AlignEnd=130510|Gloss=oversee
-18	{	{	PUNCT	_	_	19	punct	_	AlignBegin=130510|AlignEnd=130540|Gloss=PUNCT
+18	{	{	X	_	_	19	dep	_	AlignBegin=130510|AlignEnd=130540|Gloss=PUNCT
 19	water	water	NOUN	_	_	17	obj	_	AlignBegin=130540|AlignEnd=130890|Gloss=water
-20	|c	|c	PUNCT	_	_	24	punct	_	AlignBegin=130890|AlignEnd=130920|Gloss=PUNCT
+20	|c	|c	X	_	_	24	dep	_	AlignBegin=130890|AlignEnd=130920|Gloss=PUNCT
 21	and	and	CCONJ	_	_	24	cc	_	AlignBegin=130920|AlignEnd=131140|Gloss=and
 22	oder	oder	ADJ	_	_	24	amod	_	AlignBegin=131140|AlignEnd=131430|Gloss=other
 23	natural	natural	ADJ	_	_	24	amod	_	AlignBegin=131430|AlignEnd=131969|Gloss=natural
 24	resources	resource	NOUN	_	Number=Plur	19	conj	_	AlignBegin=131969|AlignEnd=132540|Gloss=resource.PL
-25	|c	|c	PUNCT	_	_	27	punct	_	AlignBegin=132540|AlignEnd=132570|Gloss=PUNCT
+25	|c	|c	X	_	_	27	dep	_	AlignBegin=132540|AlignEnd=132570|Gloss=PUNCT
 26	and	and	CCONJ	_	_	27	cc	_	AlignBegin=132570|AlignEnd=132670|Gloss=and
 27	how	how	ADV	_	PronType=Int	19	conj	_	AlignBegin=132670|AlignEnd=132840|Gloss=how.Q
 28	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	29	nsubj	_	AlignBegin=132840|AlignEnd=132980|Gloss=NOM.PL.3
@@ -607,50 +625,50 @@
 30	dey	dey	AUX	_	Aspect=Imp	31	aux	_	AlignBegin=133110|AlignEnd=133260|Gloss=IPFV
 31	use	use	VERB	_	_	29	compound:svc	_	AlignBegin=133260|AlignEnd=133440|Gloss=use
 32	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	31	obj	_	AlignBegin=133440|AlignEnd=133610|Gloss=ACC.SG.3
-33	for	for	ADP	_	_	36	case	_	AlignBegin=133610|AlignEnd=133840|EXTPOS=ADP|Gloss=for
+33	for	for	ADP	_	_	36	case	_	AlignBegin=133610|AlignEnd=133840|ExtPos=ADP|Gloss=for|PhraseType=Idiom
 34	inside	inside	ADP	_	_	33	fixed	_	AlignBegin=133840|AlignEnd=134196|Gloss=inside
-35	di	the	DET	_	Definite=Def|PronType=Art	36	det	_	AlignBegin=134196|AlignEnd=134324|Gloss=DEF.ART
+35	di	di	DET	_	Definite=Def|PronType=Art	36	det	_	AlignBegin=134196|AlignEnd=134324|Gloss=DEF.ART
 36	basin	basin	NOUN	_	_	31	obl:arg	_	AlignBegin=134324|AlignEnd=134730|Gloss=basin
-37	}	}	PUNCT	_	_	19	punct	_	AlignBegin=134730|AlignEnd=134760|Gloss=PUNCT
-38	]	]	PUNCT	_	_	14	punct	_	AlignBegin=134730|AlignEnd=134760|Gloss=PUNCT
-39	//	//	PUNCT	_	_	8	punct	_	AlignBegin=134730|AlignEnd=134760|Gloss=PUNCT
+37	}	}	X	_	_	19	dep	_	AlignBegin=134730|AlignEnd=134760|Gloss=PUNCT
+38	]	]	X	_	_	14	dep	_	AlignBegin=134730|AlignEnd=134760|Gloss=PUNCT
+39	//	//	X	_	_	8	dep	_	AlignBegin=134730|AlignEnd=134760|Gloss=PUNCT
 
-# sent_id = IBA_34_News-Report-By-Samuel_MG__17
+# sent_id = IBA_34_News-Report-By-Samuel_MG__18
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_34_News-Report-By-Samuel_MG.mp3
 # speaker_id = Sp425
 # text = # di eight member government < na dem >+ just choose o # { sey || because sey } [ dem dey close to Lake Chad ] //
 # text_en = The eight member government was chosen because they are close to Lake Chad.
-# text_ortho = Di eight member government, na dem just choose o sey because sey dem dey close to Lake Chad.
-1	#	#	PUNCT	_	_	8	punct	_	AlignBegin=134760|AlignEnd=135140|Gloss=PUNCT
-2	di	the	DET	_	Definite=Def|PronType=Art	5	det	_	AlignBegin=135140|AlignEnd=135350|Gloss=DEF.ART
+# text_ortho = Di eight member government, na dem just choose o sey, because sey dem dey close to Lake Chad.
+1	#	#	X	_	_	8	dep	_	AlignBegin=134760|AlignEnd=135140|Gloss=PUNCT
+2	di	di	DET	_	Definite=Def|PronType=Art	5	det	_	AlignBegin=135140|AlignEnd=135350|Gloss=DEF.ART
 3	eight	eight	NUM	_	NumType=Card	4	nummod:det	_	AlignBegin=135350|AlignEnd=135626|Gloss=eight.CARD
 4	member	member	NOUN	_	_	5	compound	_	AlignBegin=135626|AlignEnd=136020|Gloss=member
 5	government	government	NOUN	_	_	8	dislocated	_	AlignBegin=136020|AlignEnd=136610|Gloss=government
-6	<	<	PUNCT	_	_	5	punct	_	AlignBegin=136610|AlignEnd=136640|Gloss=PUNCT
+6	<	<	X	_	_	5	dep	_	AlignBegin=136610|AlignEnd=136640|Gloss=PUNCT
 7	na	na	AUX	_	PartType=Cop	8	cop	_	AlignBegin=136640|AlignEnd=136790|Gloss=be
 8	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	root	_	AlignBegin=136790|AlignEnd=136960|Gloss=NOM.PL.3
-9	>+	>+	PUNCT	_	_	11	punct	_	AlignBegin=136960|AlignEnd=136990|Gloss=PUNCT
+9	>+	>+	X	_	_	11	dep	_	AlignBegin=136960|AlignEnd=136990|Gloss=PUNCT
 10	just	just	ADV	_	_	11	advmod	_	AlignBegin=136990|AlignEnd=137200|Gloss=just
 11	choose	choose	VERB	_	_	8	advcl:cleft	_	AlignBegin=137200|AlignEnd=137480|Gloss=choose
 12	o	o	PART	_	PartType=Disc	11	advmod:emph	_	AlignBegin=137480|AlignEnd=137602|Gloss=EMPH
-13	#	#	PUNCT	_	_	15	punct	_	AlignBegin=137602|AlignEnd=137840|Gloss=PUNCT
-14	{	{	PUNCT	_	_	15	punct	_	AlignBegin=137602|AlignEnd=137840|Gloss=PUNCT
+13	#	#	X	_	_	15	dep	_	AlignBegin=137602|AlignEnd=137840|Gloss=PUNCT
+14	{	{	X	_	_	15	dep	_	AlignBegin=137602|AlignEnd=137840|Gloss=PUNCT
 15	sey	sey	SCONJ	_	_	11	dep	_	AlignBegin=137840|AlignEnd=137950|Gloss=COMP
-16	||	||	PUNCT	_	_	22	punct	_	AlignBegin=137840|AlignEnd=137950|Gloss=PUNCT
-17	because	because	SCONJ	_	_	22	mark	_	AlignBegin=137950|AlignEnd=138230|EXTPOS=SCONJ|Gloss=because
+16	||	||	X	_	_	22	dep	_	AlignBegin=137840|AlignEnd=137950|Gloss=PUNCT
+17	because	because	SCONJ	_	_	22	mark	_	AlignBegin=137950|AlignEnd=138230|ExtPos=SCONJ|Gloss=because|PhraseType=Idiom
 18	sey	sey	SCONJ	_	_	17	fixed	_	AlignBegin=138230|AlignEnd=138340|Gloss=COMP
-19	}	}	PUNCT	_	_	15	punct	_	AlignBegin=138340|AlignEnd=138370|Gloss=PUNCT
-20	[	[	PUNCT	_	_	22	punct	_	AlignBegin=138340|AlignEnd=138370|Gloss=PUNCT
+19	}	}	X	_	_	15	dep	_	AlignBegin=138340|AlignEnd=138370|Gloss=PUNCT
+20	[	[	X	_	_	22	dep	_	AlignBegin=138340|AlignEnd=138370|Gloss=PUNCT
 21	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	22	nsubj	_	AlignBegin=138370|AlignEnd=138540|Gloss=NOM.PL.3
-22	dey	dey	VERB	_	VerbType=Cop	15	conj:dicto	_	AlignBegin=138540|AlignEnd=138800|Gloss=be
-23	close	close	ADJ	_	_	22	xcomp	_	AlignBegin=138800|AlignEnd=139198|EXTPOS=ADP|Gloss=close
+22	dey	dey	VERB	_	VerbType=Cop	15	reparandum	_	AlignBegin=138540|AlignEnd=138800|Gloss=be
+23	close	close	ADJ	_	_	25	case	_	AlignBegin=138800|AlignEnd=139198|ExtPos=ADP|Gloss=close|PhraseType=Idiom
 24	to	to	ADP	_	_	23	fixed	_	AlignBegin=139198|AlignEnd=139400|Gloss=to
-25	Lake	lake	NOUN	_	_	23	obj	_	AlignBegin=139400|AlignEnd=139634|Gloss=lake
-26	Chad	Chad	PROPN	_	_	25	flat	_	AlignBegin=139634|AlignEnd=140011|Gloss=Chad
-27	]	]	PUNCT	_	_	22	punct	_	AlignBegin=140011|AlignEnd=140041|Gloss=PUNCT
-28	//	//	PUNCT	_	_	8	punct	_	AlignBegin=140011|AlignEnd=140041|Gloss=PUNCT
+25	Lake	lake	NOUN	_	_	22	xcomp:pred	_	AlignBegin=139400|AlignEnd=139634|ExtPos=PROPN|Gloss=lake|PhraseType=Title
+26	Chad	Chad	PROPN	_	_	25	flat	_	AlignBegin=139634|AlignEnd=140011|Gloss=Chad|InTitle=Yes
+27	]	]	X	_	_	22	dep	_	AlignBegin=140011|AlignEnd=140041|Gloss=PUNCT
+28	//	//	X	_	_	8	dep	_	AlignBegin=140011|AlignEnd=140041|Gloss=PUNCT
 
-# sent_id = IBA_34_News-Report-By-Samuel_MG__18
+# sent_id = IBA_34_News-Report-By-Samuel_MG__19
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_34_News-Report-By-Samuel_MG.mp3
 # speaker_id = Sp425
 # text = dem be { Cameroon |c Chad |c Niger |c Nigeria |c Algeria |c plus including di Central African Republic |c Libya |c and Sudan } //
@@ -658,145 +676,145 @@
 # text_ortho = Dem be Cameroon, Chad, Niger, Nigeria, Algeria, plus including di Central African Republic, Libya, and Sudan.
 1	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	AlignBegin=140041|AlignEnd=140290|Gloss=NOM.PL.3
 2	be	be	AUX	_	PartType=Cop	4	cop	_	AlignBegin=140290|AlignEnd=140410|Gloss=be
-3	{	{	PUNCT	_	_	4	punct	_	AlignBegin=140410|AlignEnd=140440|Gloss=PUNCT
+3	{	{	X	_	_	4	dep	_	AlignBegin=140410|AlignEnd=140440|Gloss=PUNCT
 4	Cameroon	Cameroon	PROPN	_	_	0	root	_	AlignBegin=140440|AlignEnd=141168|Gloss=Cameroon
-5	|c	|c	PUNCT	_	_	6	punct	_	AlignBegin=141168|AlignEnd=141198|Gloss=PUNCT
+5	|c	|c	X	_	_	6	dep	_	AlignBegin=141168|AlignEnd=141198|Gloss=PUNCT
 6	Chad	Chad	PROPN	_	_	4	conj	_	AlignBegin=141198|AlignEnd=141850|Gloss=Chad
-7	|c	|c	PUNCT	_	_	8	punct	_	AlignBegin=141850|AlignEnd=141880|Gloss=PUNCT
+7	|c	|c	X	_	_	8	dep	_	AlignBegin=141850|AlignEnd=141880|Gloss=PUNCT
 8	Niger	Niger	PROPN	_	_	4	conj	_	AlignBegin=141880|AlignEnd=142630|Gloss=Niger
-9	|c	|c	PUNCT	_	_	10	punct	_	AlignBegin=142630|AlignEnd=142660|Gloss=PUNCT
+9	|c	|c	X	_	_	10	dep	_	AlignBegin=142630|AlignEnd=142660|Gloss=PUNCT
 10	Nigeria	Nigeria	PROPN	_	_	4	conj	_	AlignBegin=142660|AlignEnd=143370|Gloss=Nigeria
-11	|c	|c	PUNCT	_	_	12	punct	_	AlignBegin=143370|AlignEnd=143400|Gloss=PUNCT
+11	|c	|c	X	_	_	12	dep	_	AlignBegin=143370|AlignEnd=143400|Gloss=PUNCT
 12	Algeria	Algeria	PROPN	_	_	4	conj	_	AlignBegin=143400|AlignEnd=144310|Gloss=Algeria
-13	|c	|c	PUNCT	_	_	17	punct	_	AlignBegin=144310|AlignEnd=144340|Gloss=PUNCT
-14	plus	plus	CCONJ	_	_	17	cc	_	AlignBegin=144340|AlignEnd=144560|EXTPOS=ADP|Gloss=plus
+13	|c	|c	X	_	_	17	dep	_	AlignBegin=144310|AlignEnd=144340|Gloss=PUNCT
+14	plus	plus	CCONJ	_	_	17	cc	_	AlignBegin=144340|AlignEnd=144560|ExtPos=ADP|Gloss=plus|PhraseType=Idiom
 15	including	including	ADP	_	_	14	fixed	_	AlignBegin=144560|AlignEnd=144930|Gloss=including
-16	di	the	DET	_	Definite=Def|PronType=Art	17	det	_	AlignBegin=144930|AlignEnd=145026|Gloss=DEF.ART
-17	Central	central	ADJ	_	_	4	conj	_	AlignBegin=145026|AlignEnd=145410|Gloss=central
-18	African	African	ADJ	_	_	17	flat	_	AlignBegin=145410|AlignEnd=145910|Gloss=African
-19	Republic	Republic	PROPN	_	_	17	flat	_	AlignBegin=145910|AlignEnd=146560|Gloss=Republic
-20	|c	|c	PUNCT	_	_	21	punct	_	AlignBegin=146560|AlignEnd=146590|Gloss=PUNCT
+16	di	di	DET	_	Definite=Def|PronType=Art	17	det	_	AlignBegin=144930|AlignEnd=145026|Gloss=DEF.ART
+17	Central	central	ADJ	_	_	4	conj	_	AlignBegin=145026|AlignEnd=145410|ExtPos=PROPN|Gloss=central|PhraseType=Title
+18	African	African	ADJ	_	_	17	flat	_	AlignBegin=145410|AlignEnd=145910|Gloss=African|InTitle=Yes
+19	Republic	Republic	NOUN	_	_	17	flat	_	AlignBegin=145910|AlignEnd=146560|Gloss=Republic|InTitle=Yes
+20	|c	|c	X	_	_	21	dep	_	AlignBegin=146560|AlignEnd=146590|Gloss=PUNCT
 21	Libya	Libya	PROPN	_	_	4	conj	_	AlignBegin=146590|AlignEnd=147237|Gloss=Libya
-22	|c	|c	PUNCT	_	_	24	punct	_	AlignBegin=147237|AlignEnd=147267|Gloss=PUNCT
+22	|c	|c	X	_	_	24	dep	_	AlignBegin=147237|AlignEnd=147267|Gloss=PUNCT
 23	and	and	CCONJ	_	_	24	cc	_	AlignBegin=147267|AlignEnd=147460|Gloss=and
 24	Sudan	Sudan	PROPN	_	_	4	conj	_	AlignBegin=147460|AlignEnd=148190|Gloss=Sudan
-25	}	}	PUNCT	_	_	17	punct	_	AlignBegin=148190|AlignEnd=148220|Gloss=PUNCT
-26	//	//	PUNCT	_	_	4	punct	_	AlignBegin=148190|AlignEnd=148220|Gloss=PUNCT
-
-# sent_id = IBA_34_News-Report-By-Samuel_MG__19
-# sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_34_News-Report-By-Samuel_MG.mp3
-# speaker_id = Sp425
-# text = # di { Joint { Admission |c and Matriculation } Board |a JAMB } don yarn o # sey [ dem go start to dey sell twenty seventeen UTME form on March twenty ] //
-# text_en = The Joint Admissions and Matriculation Board, JAMB, has said that they will start selling the twenty seventeen UTME (Unified Tertiary Matriculation Examination) form on March twentieth.
-# text_ortho = Di Joint Admissions, and Matriculations Board, JAMB don yarn o sey dem go start to dey sell twenty seventeen UTME form on March twenty.
-1	#	#	PUNCT	_	_	16	punct	_	AlignBegin=148220|AlignEnd=155080|Gloss=PUNCT
-2	di	the	DET	_	Definite=Def|PronType=Art	11	det	_	AlignBegin=155080|AlignEnd=155350|Gloss=DEF.ART
-3	{	{	PUNCT	_	_	11	punct	_	AlignBegin=155350|AlignEnd=155380|Gloss=PUNCT
-4	Joint	joint	ADJ	_	_	11	amod	_	AlignBegin=155380|AlignEnd=155711|Gloss=joint
-5	{	{	PUNCT	_	_	6	punct	_	AlignBegin=155711|AlignEnd=156350|Gloss=PUNCT
-6	Admission	admission	NOUN	_	_	11	compound	_	AlignBegin=155711|AlignEnd=156350|Gloss=admission
-7	|c	|c	PUNCT	_	_	9	punct	_	AlignBegin=156350|AlignEnd=156550|Gloss=PUNCT
-8	and	and	CCONJ	_	_	9	cc	_	AlignBegin=156350|AlignEnd=156550|Gloss=and
-9	Matriculation	matriculation	NOUN	_	_	6	conj	_	AlignBegin=156550|AlignEnd=157330|Gloss=matriculation
-10	}	}	PUNCT	_	_	6	punct	_	AlignBegin=156550|AlignEnd=157330|Gloss=PUNCT
-11	Board	board	NOUN	_	_	16	nsubj	_	AlignBegin=157330|AlignEnd=157730|Gloss=board
-12	|a	|a	PUNCT	_	_	13	punct	_	AlignBegin=157730|AlignEnd=157760|Gloss=PUNCT
-13	JAMB	JAMB	PROPN	_	_	11	appos	_	AlignBegin=157760|AlignEnd=158173|Gloss=JAMB
-14	}	}	PUNCT	_	_	11	punct	_	AlignBegin=158173|AlignEnd=158203|Gloss=PUNCT
-15	don	don	AUX	_	Aspect=Perf	16	aux	_	AlignBegin=158203|AlignEnd=158360|Gloss=PRF
-16	yarn	yarn	VERB	_	_	0	root	_	AlignBegin=158360|AlignEnd=158660|Gloss=talk
-17	o	o	PART	_	PartType=Disc	16	advmod:emph	_	AlignBegin=158660|AlignEnd=158810|Gloss=EMPH
-18	#	#	PUNCT	_	_	23	punct	_	AlignBegin=158810|AlignEnd=159026|Gloss=PUNCT
-19	sey	sey	SCONJ	_	_	23	mark	_	AlignBegin=159026|AlignEnd=159127|Gloss=COMP
-20	[	[	PUNCT	_	_	23	punct	_	AlignBegin=159127|AlignEnd=159157|Gloss=PUNCT
-21	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	23	nsubj	_	AlignBegin=159157|AlignEnd=159337|Gloss=NOM.PL.3
-22	go	go	AUX	_	Aspect=Prosp	23	aux	_	AlignBegin=159337|AlignEnd=159447|Gloss=PROSP
-23	start	start	VERB	_	_	16	ccomp	_	AlignBegin=159447|AlignEnd=159727|Gloss=start
-24	to	to	ADP	_	_	26	mark	_	AlignBegin=159727|AlignEnd=159817|Gloss=to
-25	dey	dey	AUX	_	Aspect=Imp	26	aux	_	AlignBegin=159817|AlignEnd=159937|Gloss=IPFV
-26	sell	sell	VERB	_	_	23	ccomp	_	AlignBegin=159937|AlignEnd=160277|Gloss=sell
-27	twenty	twenty	NUM	_	NumType=Card	28	compound	_	AlignBegin=160277|AlignEnd=160628|Gloss=twenty.CARD
-28	seventeen	seventeen	NUM	_	NumType=Card	30	nummod:det	_	AlignBegin=160628|AlignEnd=161272|Gloss=seventeen.CARD
-29	UTME	UTME	PROPN	_	_	30	compound	_	AlignBegin=161272|AlignEnd=162187|Gloss=UTME
-30	form	form	NOUN	_	_	26	obj	_	AlignBegin=162187|AlignEnd=162677|Gloss=form
-31	on	on	ADP	_	_	32	case	_	AlignBegin=162677|AlignEnd=162867|Gloss=on
-32	March	March	PROPN	_	_	26	obl:arg	_	AlignBegin=162867|AlignEnd=163247|Gloss=March
-33	twenty	twenty	NUM	_	NumType=Card	32	nummod:mod	_	AlignBegin=163247|AlignEnd=163810|Gloss=twenty.CARD
-34	]	]	PUNCT	_	_	23	punct	_	AlignBegin=163810|AlignEnd=163840|Gloss=PUNCT
-35	//	//	PUNCT	_	_	16	punct	_	AlignBegin=163810|AlignEnd=163840|Gloss=PUNCT
+25	}	}	X	_	_	17	dep	_	AlignBegin=148190|AlignEnd=148220|Gloss=PUNCT
+26	//	//	X	_	_	4	dep	_	AlignBegin=148190|AlignEnd=148220|Gloss=PUNCT
 
 # sent_id = IBA_34_News-Report-By-Samuel_MG__20
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_34_News-Report-By-Samuel_MG.mp3
 # speaker_id = Sp425
-# text = # { di oga for JAMB { talk |r talk } |a Doctor Fabian Benjamin } < na im >+ dey yarn dis one today for Abuja //
-# text_en = The Chief spokesman for JAMB, Doctor Fabian Benjamin, said this today in Abuja.
-# text_ortho = Di oga for JAMB talk, talk, Doctor Fabian Benjamin, na im, dey yarn dis one today for Abuja.
-1	#	#	PUNCT	_	_	18	punct	_	AlignBegin=163840|AlignEnd=164180|Gloss=PUNCT
-2	{	{	PUNCT	_	_	4	punct	_	AlignBegin=164150|AlignEnd=164180|Gloss=PUNCT
-3	di	the	DET	_	Definite=Def|PronType=Art	4	det	_	AlignBegin=164180|AlignEnd=164390|Gloss=DEF.ART
-4	oga	oga	NOUN	_	_	18	nsubj	_	AlignBegin=164390|AlignEnd=164810|Gloss=boss
-5	for	for	ADP	_	_	8	case	_	AlignBegin=164810|AlignEnd=165040|Gloss=for
-6	JAMB	JAMB	PROPN	_	_	8	nmod	_	AlignBegin=165040|AlignEnd=165300|Gloss=JAMB
-7	{	{	PUNCT	_	_	8	punct	_	AlignBegin=165300|AlignEnd=165330|Gloss=PUNCT
-8	talk	talk	NOUN	_	_	4	nmod	_	AlignBegin=165330|AlignEnd=165540|Gloss=talk
-9	|r	|r	PUNCT	_	_	10	punct	_	AlignBegin=165540|AlignEnd=165570|Gloss=PUNCT
-10	talk	talk	NOUN	_	_	8	compound:redup	_	AlignBegin=165570|AlignEnd=165840|Gloss=talk
-11	}	}	PUNCT	_	_	8	punct	_	AlignBegin=165840|AlignEnd=165870|Gloss=PUNCT
-12	|a	|a	PUNCT	_	_	13	punct	_	AlignBegin=165840|AlignEnd=165870|Gloss=PUNCT
-13	Doctor	doctor	NOUN	_	_	4	appos	_	AlignBegin=165870|AlignEnd=166329|Gloss=doctor
-14	Fabian	Fabian	PROPN	_	_	13	flat	_	AlignBegin=166329|AlignEnd=166850|Gloss=Fabian
-15	Benjamin	Benjamin	PROPN	_	_	13	flat	_	AlignBegin=166850|AlignEnd=167420|Gloss=Benjamin
-16	}	}	PUNCT	_	_	4	punct	_	AlignBegin=167420|AlignEnd=167450|Gloss=PUNCT
-17	<	<	PUNCT	_	_	4	punct	_	AlignBegin=167420|AlignEnd=167450|Gloss=PUNCT
-18	na	na	AUX	_	PartType=Cop	0	root	_	AlignBegin=167450|AlignEnd=167590|EXTPOS=SCONJ|Gloss=be
-19	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	18	fixed	_	AlignBegin=167590|AlignEnd=167690|Gloss=NOM.SG.3
-20	>+	>+	PUNCT	_	_	22	punct	_	AlignBegin=167690|AlignEnd=167720|Gloss=PUNCT
-21	dey	dey	AUX	_	Aspect=Imp	22	aux	_	AlignBegin=167720|AlignEnd=167840|Gloss=IPFV
-22	yarn	yarn	VERB	_	_	18	advcl:cleft	_	AlignBegin=167840|AlignEnd=168070|Gloss=talk
-23	dis	dis	DET	_	Number=Sing|PronType=Dem	24	det	_	AlignBegin=168070|AlignEnd=168240|Gloss=SG.PROX.DEM
-24	one	one	NOUN	_	_	22	obj	_	AlignBegin=168240|AlignEnd=168370|Gloss=one
-25	today	today	NOUN	_	_	22	obl:mod	_	AlignBegin=168370|AlignEnd=168680|Gloss=today
-26	for	for	ADP	_	_	27	case	_	AlignBegin=168680|AlignEnd=168950|Gloss=for
-27	Abuja	Abuja	PROPN	_	_	22	obl:mod	_	AlignBegin=168950|AlignEnd=169510|Gloss=Abuja
-28	//	//	PUNCT	_	_	18	punct	_	AlignBegin=169510|AlignEnd=169540|Gloss=PUNCT
+# text = # di { Joint { Admission |c and Matriculation } Board |a JAMB } don yarn o # sey [ dem go start to dey sell twenty seventeen UTME form on March twenty ] //
+# text_en = The Joint Admissions and Matriculation Board, JAMB, has said that they will start selling the twenty seventeen UTME (Unified Tertiary Matriculation Examination) form on March twentieth.
+# text_ortho = Di Joint Admission, and Matriculation Board, JAMB don yarn o sey dem go start to dey sell twenty seventeen UTME form on March twenty.
+1	#	#	X	_	_	16	dep	_	AlignBegin=148220|AlignEnd=155080|Gloss=PUNCT
+2	di	di	DET	_	Definite=Def|PronType=Art	11	det	_	AlignBegin=155080|AlignEnd=155350|Gloss=DEF.ART
+3	{	{	X	_	_	11	dep	_	AlignBegin=155350|AlignEnd=155380|Gloss=PUNCT
+4	Joint	joint	ADJ	_	_	11	amod	_	AlignBegin=155380|AlignEnd=155711|Gloss=joint
+5	{	{	X	_	_	6	dep	_	AlignBegin=155711|AlignEnd=156350|Gloss=PUNCT
+6	Admission	admission	NOUN	_	_	11	compound	_	AlignBegin=155711|AlignEnd=156350|Gloss=admission
+7	|c	|c	X	_	_	9	dep	_	AlignBegin=156350|AlignEnd=156550|Gloss=PUNCT
+8	and	and	CCONJ	_	_	9	cc	_	AlignBegin=156350|AlignEnd=156550|Gloss=and
+9	Matriculation	matriculation	NOUN	_	_	6	conj	_	AlignBegin=156550|AlignEnd=157330|Gloss=matriculation
+10	}	}	X	_	_	6	dep	_	AlignBegin=156550|AlignEnd=157330|Gloss=PUNCT
+11	Board	board	NOUN	_	_	16	nsubj	_	AlignBegin=157330|AlignEnd=157730|Gloss=board
+12	|a	|a	X	_	_	13	dep	_	AlignBegin=157730|AlignEnd=157760|Gloss=PUNCT
+13	JAMB	JAMB	PROPN	_	_	11	appos	_	AlignBegin=157760|AlignEnd=158173|Gloss=JAMB
+14	}	}	X	_	_	11	dep	_	AlignBegin=158173|AlignEnd=158203|Gloss=PUNCT
+15	don	don	AUX	_	Aspect=Perf	16	aux	_	AlignBegin=158203|AlignEnd=158360|Gloss=PRF
+16	yarn	yarn	VERB	_	_	0	root	_	AlignBegin=158360|AlignEnd=158660|Gloss=talk
+17	o	o	PART	_	PartType=Disc	16	advmod:emph	_	AlignBegin=158660|AlignEnd=158810|Gloss=EMPH
+18	#	#	X	_	_	23	dep	_	AlignBegin=158810|AlignEnd=159026|Gloss=PUNCT
+19	sey	sey	SCONJ	_	_	23	mark	_	AlignBegin=159026|AlignEnd=159127|Gloss=COMP
+20	[	[	X	_	_	23	dep	_	AlignBegin=159127|AlignEnd=159157|Gloss=PUNCT
+21	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	23	nsubj	_	AlignBegin=159157|AlignEnd=159337|Gloss=NOM.PL.3
+22	go	go	AUX	_	Aspect=Prosp	23	aux	_	AlignBegin=159337|AlignEnd=159447|Gloss=PROSP
+23	start	start	VERB	_	_	16	ccomp:obj	_	AlignBegin=159447|AlignEnd=159727|Gloss=start
+24	to	to	ADP	_	_	26	mark	_	AlignBegin=159727|AlignEnd=159817|Gloss=to
+25	dey	dey	AUX	_	Aspect=Imp	26	aux	_	AlignBegin=159817|AlignEnd=159937|Gloss=IPFV
+26	sell	sell	VERB	_	_	23	ccomp:pred	_	AlignBegin=159937|AlignEnd=160277|Gloss=sell
+27	twenty	twenty	NUM	_	NumType=Card	30	nummod	_	AlignBegin=160277|AlignEnd=160628|Gloss=twenty.CARD
+28	seventeen	seventeen	NUM	_	NumType=Card	27	flat	_	AlignBegin=160628|AlignEnd=161272|Gloss=seventeen.CARD
+29	UTME	UTME	PROPN	_	_	30	compound	_	AlignBegin=161272|AlignEnd=162187|Gloss=UTME
+30	form	form	NOUN	_	_	26	obj	_	AlignBegin=162187|AlignEnd=162677|Gloss=form
+31	on	on	ADP	_	_	32	case	_	AlignBegin=162677|AlignEnd=162867|Gloss=on
+32	March	March	PROPN	_	_	26	obl:arg	_	AlignBegin=162867|AlignEnd=163247|Gloss=March
+33	twenty	twenty	NUM	_	NumType=Card	32	nmod	_	AlignBegin=163247|AlignEnd=163810|Gloss=twenty.CARD
+34	]	]	X	_	_	23	dep	_	AlignBegin=163810|AlignEnd=163840|Gloss=PUNCT
+35	//	//	X	_	_	16	dep	_	AlignBegin=163810|AlignEnd=163840|Gloss=PUNCT
 
 # sent_id = IBA_34_News-Report-By-Samuel_MG__21
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_34_News-Report-By-Samuel_MG.mp3
 # speaker_id = Sp425
+# text = # { di oga for JAMB { talk |r talk } |a Doctor Fabian Benjamin } < na im >+ dey yarn dis one today for Abuja //
+# text_en = The Chief spokesman for JAMB, Doctor Fabian Benjamin, said this today in Abuja.
+# text_ortho = Di oga for JAMB talk, talk, Doctor Fabian Benjamin, na im dey yarn dis one today for Abuja.
+1	#	#	X	_	_	18	dep	_	AlignBegin=163840|AlignEnd=164180|Gloss=PUNCT
+2	{	{	X	_	_	4	dep	_	AlignBegin=164150|AlignEnd=164180|Gloss=PUNCT
+3	di	di	DET	_	Definite=Def|PronType=Art	4	det	_	AlignBegin=164180|AlignEnd=164390|Gloss=DEF.ART
+4	oga	oga	NOUN	_	_	18	nsubj	_	AlignBegin=164390|AlignEnd=164810|Gloss=boss
+5	for	for	ADP	_	_	8	case	_	AlignBegin=164810|AlignEnd=165040|Gloss=for
+6	JAMB	JAMB	PROPN	_	_	8	nmod	_	AlignBegin=165040|AlignEnd=165300|Gloss=JAMB
+7	{	{	X	_	_	8	dep	_	AlignBegin=165300|AlignEnd=165330|Gloss=PUNCT
+8	talk	talk	NOUN	_	_	4	nmod	_	AlignBegin=165330|AlignEnd=165540|Gloss=talk
+9	|r	|r	X	_	_	10	dep	_	AlignBegin=165540|AlignEnd=165570|Gloss=PUNCT
+10	talk	talk	NOUN	_	_	8	compound:redup	_	AlignBegin=165570|AlignEnd=165840|Gloss=talk
+11	}	}	X	_	_	8	dep	_	AlignBegin=165840|AlignEnd=165870|Gloss=PUNCT
+12	|a	|a	X	_	_	13	dep	_	AlignBegin=165840|AlignEnd=165870|Gloss=PUNCT
+13	Doctor	doctor	NOUN	_	_	4	appos	_	AlignBegin=165870|AlignEnd=166329|Gloss=doctor
+14	Fabian	Fabian	PROPN	_	_	13	flat	_	AlignBegin=166329|AlignEnd=166850|Gloss=Fabian
+15	Benjamin	Benjamin	PROPN	_	_	13	flat	_	AlignBegin=166850|AlignEnd=167420|Gloss=Benjamin
+16	}	}	X	_	_	4	dep	_	AlignBegin=167420|AlignEnd=167450|Gloss=PUNCT
+17	<	<	X	_	_	4	dep	_	AlignBegin=167420|AlignEnd=167450|Gloss=PUNCT
+18	na	na	AUX	_	PartType=Cop	0	root	_	AlignBegin=167450|AlignEnd=167590|ExtPos=SCONJ|Gloss=be|PhraseType=Idiom
+19	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	18	fixed	_	AlignBegin=167590|AlignEnd=167690|Gloss=NOM.SG.3
+20	>+	>+	X	_	_	22	dep	_	AlignBegin=167690|AlignEnd=167720|Gloss=PUNCT
+21	dey	dey	AUX	_	Aspect=Imp	22	aux	_	AlignBegin=167720|AlignEnd=167840|Gloss=IPFV
+22	yarn	yarn	VERB	_	_	18	advcl:cleft	_	AlignBegin=167840|AlignEnd=168070|Gloss=talk
+23	dis	dis	DET	_	Number=Sing|PronType=Dem	24	det	_	AlignBegin=168070|AlignEnd=168240|Gloss=SG.DEM
+24	one	one	NOUN	_	_	22	obj	_	AlignBegin=168240|AlignEnd=168370|Gloss=one
+25	today	today	NOUN	_	_	22	obl:mod	_	AlignBegin=168370|AlignEnd=168680|Gloss=today
+26	for	for	ADP	_	_	27	case	_	AlignBegin=168680|AlignEnd=168950|Gloss=for
+27	Abuja	Abuja	PROPN	_	_	22	obl:mod	_	AlignBegin=168950|AlignEnd=169510|Gloss=Abuja
+28	//	//	X	_	_	18	dep	_	AlignBegin=169510|AlignEnd=169540|Gloss=PUNCT
+
+# sent_id = IBA_34_News-Report-By-Samuel_MG__22
+# sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_34_News-Report-By-Samuel_MG.mp3
+# speaker_id = Sp425
 # text = # Doctor Benjamin yarn sey [ di date < na im >+ dem fix o # following one kind agreement wey all of dem take together for di harmonisation of di examination timetable for one meeting with oder examination body for di twenty-fourth of January ] //
 # text_en = Doctor Benjamin said that the date was fixed for the twenty-fourth of January following the agreement they made on the harmonization of the examination timetable in a meeting with other examination bodies.
-# text_ortho = Doctor Benjamin yarn sey di date, na im, dem fix o following one kind agreement wey all of dem take together for di harmonisation of di examination timetable for one meeting with oder examination body for di twenty-fourth of January.
-1	#	#	PUNCT	_	_	4	punct	_	AlignBegin=169540|AlignEnd=169860|Gloss=PUNCT
+# text_ortho = Doctor Benjamin yarn sey di date, na im dem fix o following one kind agreement wey all of dem take together for di harmonisation of di examination timetable for one meeting with oder examination body for di twenty-fourth of January.
+1	#	#	X	_	_	4	dep	_	AlignBegin=169540|AlignEnd=169860|Gloss=PUNCT
 2	Doctor	doctor	NOUN	_	_	4	nsubj	_	AlignBegin=169860|AlignEnd=170200|Gloss=doctor
 3	Benjamin	Benjamin	PROPN	_	_	2	flat	_	AlignBegin=170200|AlignEnd=170688|Gloss=Benjamin
 4	yarn	yarn	VERB	_	_	0	root	_	AlignBegin=170688|AlignEnd=170900|Gloss=talk
-5	sey	sey	SCONJ	_	_	10	mark	_	AlignBegin=170900|AlignEnd=171080|Gloss=COMP
-6	[	[	PUNCT	_	_	10	punct	_	AlignBegin=171080|AlignEnd=171110|Gloss=PUNCT
-7	di	the	DET	_	Definite=Def|PronType=Art	8	det	_	AlignBegin=171110|AlignEnd=171327|Gloss=DEF.ART
+5	sey	sey	SCONJ	_	_	10	dep:comp	_	AlignBegin=170900|AlignEnd=171080|Gloss=COMP
+6	[	[	X	_	_	10	dep	_	AlignBegin=171080|AlignEnd=171110|Gloss=PUNCT
+7	di	di	DET	_	Definite=Def|PronType=Art	8	det	_	AlignBegin=171110|AlignEnd=171327|Gloss=DEF.ART
 8	date	date	NOUN	_	_	10	dislocated	_	AlignBegin=171327|AlignEnd=171650|Gloss=date
-9	<	<	PUNCT	_	_	8	punct	_	AlignBegin=171650|AlignEnd=171680|Gloss=PUNCT
-10	na	na	AUX	_	PartType=Cop	4	ccomp	_	AlignBegin=171680|AlignEnd=171830|EXTPOS=SCONJ|Gloss=be
+9	<	<	X	_	_	8	dep	_	AlignBegin=171650|AlignEnd=171680|Gloss=PUNCT
+10	na	na	AUX	_	PartType=Cop	4	dep:comp	_	AlignBegin=171680|AlignEnd=171830|ExtPos=SCONJ|Gloss=be|PhraseType=Idiom
 11	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	10	fixed	_	AlignBegin=171830|AlignEnd=171900|Gloss=NOM.SG.3
-12	>+	>+	PUNCT	_	_	14	punct	_	AlignBegin=171900|AlignEnd=171930|Gloss=PUNCT
+12	>+	>+	X	_	_	14	dep	_	AlignBegin=171900|AlignEnd=171930|Gloss=PUNCT
 13	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	14	nsubj	_	AlignBegin=171930|AlignEnd=172080|Gloss=NOM.PL.3
 14	fix	fix	VERB	_	_	10	advcl:cleft	_	AlignBegin=172080|AlignEnd=172370|Gloss=fix
 15	o	o	PART	_	PartType=Disc	14	advmod:emph	_	AlignBegin=172370|AlignEnd=172520|Gloss=EMPH
-16	#	#	PUNCT	_	_	17	punct	_	AlignBegin=169860|AlignEnd=183040|Gloss=PUNCT
+16	#	#	X	_	_	17	dep	_	AlignBegin=169860|AlignEnd=183040|Gloss=PUNCT
 17	following	follow	VERB	_	Tense=Pres|VerbForm=Part	14	advcl	_	AlignBegin=172783|AlignEnd=173080|Gloss=follow.PRS.PTCP
 18	one	one	DET	_	Definite=Spec|PronType=Art	20	det	_	AlignBegin=173080|AlignEnd=173240|Gloss=SPEC.ART
 19	kind	kind	ADJ	_	_	20	amod	_	AlignBegin=173240|AlignEnd=173440|Gloss=kind
 20	agreement	agreement	NOUN	_	_	17	obj	_	AlignBegin=173440|AlignEnd=174219|Gloss=agreement
 21	wey	wey	SCONJ	_	_	25	mark	_	AlignBegin=174219|AlignEnd=174503|Gloss=REL
-22	all	all	ADV	_	_	25	nsubj	_	AlignBegin=174503|AlignEnd=174710|Gloss=all
+22	all	all	DET	_	_	25	dep	_	AlignBegin=174503|AlignEnd=174710|Gloss=all
 23	of	of	ADP	_	_	24	case	_	AlignBegin=174710|AlignEnd=174870|Gloss=of
-24	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	22	nmod	_	AlignBegin=174870|AlignEnd=175199|Gloss=NOM.PL.3
+24	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	22	dep	_	AlignBegin=174870|AlignEnd=175199|Gloss=NOM.PL.3
 25	take	take	VERB	_	_	20	acl:relcl	_	AlignBegin=175199|AlignEnd=175514|Gloss=take
 26	together	together	ADV	_	_	25	advmod	_	AlignBegin=175514|AlignEnd=176121|Gloss=together
 27	for	for	ADP	_	_	29	case	_	AlignBegin=176121|AlignEnd=176360|Gloss=for
-28	di	the	DET	_	Definite=Def|PronType=Art	29	det	_	AlignBegin=176360|AlignEnd=176464|Gloss=DEF.ART
+28	di	di	DET	_	Definite=Def|PronType=Art	29	det	_	AlignBegin=176360|AlignEnd=176464|Gloss=DEF.ART
 29	harmonisation	harmonisation	NOUN	_	_	25	obl:mod	_	AlignBegin=176464|AlignEnd=177270|Gloss=harmonisation
 30	of	of	ADP	_	_	33	case	_	AlignBegin=177270|AlignEnd=177450|Gloss=of
-31	di	the	DET	_	Definite=Def|PronType=Art	33	det	_	AlignBegin=177450|AlignEnd=177590|Gloss=DEF.ART
+31	di	di	DET	_	Definite=Def|PronType=Art	33	det	_	AlignBegin=177450|AlignEnd=177590|Gloss=DEF.ART
 32	examination	examination	NOUN	_	_	33	compound	_	AlignBegin=177590|AlignEnd=178250|Gloss=examination
 33	timetable	timetable	NOUN	_	_	29	nmod	_	AlignBegin=178250|AlignEnd=178943|Gloss=timetable
 34	for	for	ADP	_	_	36	case	_	AlignBegin=178943|AlignEnd=179190|Gloss=for
@@ -807,39 +825,39 @@
 39	examination	examination	NOUN	_	_	40	compound	_	AlignBegin=180530|AlignEnd=181170|Gloss=examination
 40	body	body	NOUN	_	_	36	nmod	_	AlignBegin=181170|AlignEnd=181510|Gloss=body
 41	for	for	ADP	_	_	43	case	_	AlignBegin=181510|AlignEnd=181700|Gloss=for
-42	di	the	DET	_	Definite=Def|PronType=Art	43	det	_	AlignBegin=181700|AlignEnd=181790|Gloss=DEF.ART
+42	di	di	DET	_	Definite=Def|PronType=Art	43	det	_	AlignBegin=181700|AlignEnd=181790|Gloss=DEF.ART
 43	twenty-fourth	twenty-fourth	ADJ	_	NumType=Ord	36	nmod	_	AlignBegin=181790|AlignEnd=182340|Gloss=twenty-fourth
 44	of	of	ADP	_	_	45	case	_	AlignBegin=182340|AlignEnd=182470|Gloss=of
 45	January	January	PROPN	_	_	43	nmod	_	AlignBegin=182470|AlignEnd=183010|Gloss=January
-46	]	]	PUNCT	_	_	10	punct	_	AlignBegin=183010|AlignEnd=183040|Gloss=PUNCT
-47	//	//	PUNCT	_	_	4	punct	_	AlignBegin=183010|AlignEnd=183040|Gloss=PUNCT
+46	]	]	X	_	_	10	dep	_	AlignBegin=183010|AlignEnd=183040|Gloss=PUNCT
+47	//	//	X	_	_	4	dep	_	AlignBegin=183010|AlignEnd=183040|Gloss=PUNCT
 
-# sent_id = IBA_34_News-Report-By-Samuel_MG__22
+# sent_id = IBA_34_News-Report-By-Samuel_MG__23
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_34_News-Report-By-Samuel_MG.mp3
 # speaker_id = Sp425
-# text = # JAMB < recently < na im >+ de yarn sey dem go arrange one kind optional mock examination # wey anybody wey like am fit do before di twenty seventeen UTME //
+# text = # JAMB < recently < na im >+ dey yarn sey dem go arrange one kind optional mock examination # wey anybody wey like am fit do before di twenty seventeen UTME //
 # text_en = JAMB said recently that they will arrange an optional mock exam which anyone interested can sit for before the twenty seventeen UTME [Unified Tertiary Matriculation Examination].
-# text_ortho = Jamb, recently, na im, de yarn sey dem go arrange one kind optional mock examination wey anybody wey like am fit do before di twenty seventeen UTME.
-1	#	#	PUNCT	_	_	6	punct	_	AlignBegin=183040|AlignEnd=183400|Gloss=PUNCT
+# text_ortho = Jamb, recently, na im de yarn sey dem go arrange one kind optional mock examination wey anybody wey like am fit do before di twenty seventeen UTME.
+1	#	#	X	_	_	6	dep	_	AlignBegin=183040|AlignEnd=183400|Gloss=PUNCT
 2	JAMB	JAMB	PROPN	_	_	6	dislocated	_	AlignBegin=183400|AlignEnd=183770|Gloss=JAMB
-3	<	<	PUNCT	_	_	2	punct	_	AlignBegin=183770|AlignEnd=183800|Gloss=PUNCT
+3	<	<	X	_	_	2	dep	_	AlignBegin=183770|AlignEnd=183800|Gloss=PUNCT
 4	recently	recently	ADV	_	_	6	advmod:periph	_	AlignBegin=183800|AlignEnd=184270|Gloss=recently
-5	<	<	PUNCT	_	_	4	punct	_	AlignBegin=184270|AlignEnd=184300|Gloss=PUNCT
-6	na	na	AUX	_	PartType=Cop	0	root	_	AlignBegin=184300|AlignEnd=184480|EXTPOS=SCONJ|Gloss=be
+5	<	<	X	_	_	4	dep	_	AlignBegin=184270|AlignEnd=184300|Gloss=PUNCT
+6	na	na	AUX	_	PartType=Cop	0	root	_	AlignBegin=184300|AlignEnd=184480|ExtPos=SCONJ|Gloss=be|PhraseType=Idiom
 7	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	6	fixed	_	AlignBegin=184480|AlignEnd=184590|Gloss=NOM.SG.3
-8	>+	>+	PUNCT	_	_	10	punct	_	AlignBegin=184590|AlignEnd=184620|Gloss=PUNCT
-9	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	AlignBegin=184620|AlignEnd=184780|Gloss=NOM.PL.3
+8	>+	>+	X	_	_	10	dep	_	AlignBegin=184590|AlignEnd=184620|Gloss=PUNCT
+9	dey	dey	AUX	_	Aspect=Imp	10	aux	_	AlignBegin=184620|AlignEnd=184780|Gloss=IPFV
 10	yarn	yarn	VERB	_	_	6	advcl:cleft	_	AlignBegin=184780|AlignEnd=185010|Gloss=talk
 11	sey	sey	SCONJ	_	_	14	mark	_	AlignBegin=185010|AlignEnd=185260|Gloss=COMP
 12	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	14	nsubj	_	AlignBegin=185260|AlignEnd=185450|Gloss=NOM.PL.3
 13	go	go	AUX	_	Aspect=Prosp	14	aux	_	AlignBegin=185450|AlignEnd=185670|Gloss=PROSP
-14	arrange	arrange	VERB	_	_	10	ccomp	_	AlignBegin=185670|AlignEnd=186110|Gloss=arrange
+14	arrange	arrange	VERB	_	_	10	ccomp:obj	_	AlignBegin=185670|AlignEnd=186110|Gloss=arrange
 15	one	one	DET	_	Definite=Spec|PronType=Art	19	det	_	AlignBegin=186110|AlignEnd=186260|Gloss=SPEC.ART
 16	kind	kind	ADJ	_	_	19	amod	_	AlignBegin=186260|AlignEnd=186580|Gloss=kind
 17	optional	optional	ADJ	_	_	19	amod	_	AlignBegin=186580|AlignEnd=187142|Gloss=optional
 18	mock	mock	ADJ	_	_	19	amod	_	AlignBegin=187142|AlignEnd=187470|Gloss=mock
 19	examination	examination	NOUN	_	_	14	obj	_	AlignBegin=187470|AlignEnd=188315|Gloss=examination
-20	#	#	PUNCT	_	_	27	punct	_	AlignBegin=188315|AlignEnd=188548|Gloss=PUNCT
+20	#	#	X	_	_	27	dep	_	AlignBegin=188315|AlignEnd=188548|Gloss=PUNCT
 21	wey	wey	SCONJ	_	_	27	mark	_	AlignBegin=188548|AlignEnd=188719|Gloss=REL
 22	anybody	anybody	PRON	_	_	27	dislocated	_	AlignBegin=188719|AlignEnd=189229|Gloss=anybody
 23	wey	wey	SCONJ	_	_	24	mark	_	AlignBegin=189229|AlignEnd=189389|Gloss=REL
@@ -848,33 +866,33 @@
 26	fit	fit	AUX	_	Mood=Pot	27	aux	_	AlignBegin=189839|AlignEnd=190059|Gloss=ABIL
 27	do	do	VERB	_	_	19	acl:relcl	_	AlignBegin=190059|AlignEnd=190269|Gloss=do
 28	before	before	ADP	_	_	32	case	_	AlignBegin=190269|AlignEnd=190619|Gloss=before
-29	di	the	DET	_	Definite=Def|PronType=Art	32	det	_	AlignBegin=190619|AlignEnd=190750|Gloss=DEF.ART
-30	twenty	twenty	NUM	_	NumType=Card	31	compound	_	AlignBegin=190750|AlignEnd=191039|Gloss=twenty.CARD
-31	seventeen	seventeen	NUM	_	NumType=Card	32	nummod:mod	_	AlignBegin=191039|AlignEnd=191538|Gloss=seventeen.CARD
+29	di	di	DET	_	Definite=Def|PronType=Art	32	det	_	AlignBegin=190619|AlignEnd=190750|Gloss=DEF.ART
+30	twenty	twenty	NUM	_	NumType=Card	32	nummod	_	AlignBegin=190750|AlignEnd=191039|Gloss=twenty.CARD
+31	seventeen	seventeen	NUM	_	NumType=Card	30	flat	_	AlignBegin=191039|AlignEnd=191538|Gloss=seventeen.CARD
 32	UTME	UTME	PROPN	_	_	27	obl:arg	_	AlignBegin=191538|AlignEnd=192430|Gloss=UTME
-33	//	//	PUNCT	_	_	6	punct	_	AlignBegin=192430|AlignEnd=192460|Gloss=PUNCT
+33	//	//	X	_	_	6	dep	_	AlignBegin=192430|AlignEnd=192460|Gloss=PUNCT
 
-# sent_id = IBA_34_News-Report-By-Samuel_MG__23
+# sent_id = IBA_34_News-Report-By-Samuel_MG__24
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_34_News-Report-By-Samuel_MG.mp3
 # speaker_id = Sp425
 # text = # according to wetin di board yarn < # wetin dem wan take do di mock examination na to allow candidate mey dem feel o { wetin di examination || wetin e } go be like //
 # text_en = According to what the board said, what they want to do with the mock exam is to allow candidates to have a feel for what the examination... what it will look like.
-# text_ortho = According to wetin di board yarn, wetin dem wan take do di mock examination na to allow candidate mey dem feel o wetin di examination... wetin e go be like.
-1	#	#	PUNCT	_	_	20	punct	_	AlignBegin=192460|AlignEnd=192837|Gloss=PUNCT
-2	according	accord	VERB	_	Tense=Pres|VerbForm=Part	20	advcl:periph	_	AlignBegin=192837|AlignEnd=193346|EXTPOS=ADP|Gloss=accord.PRS.PTCP
+# text_ortho = According to wetin di board yarn, wetin dem wan take do di mock examination na to allow candidate mey dem feel o wetin di examination, wetin e go be like.
+1	#	#	X	_	_	20	dep	_	AlignBegin=192460|AlignEnd=192837|Gloss=PUNCT
+2	according	accord	VERB	_	Tense=Pres|VerbForm=Part	4	case	_	AlignBegin=192837|AlignEnd=193346|ExtPos=ADP|Gloss=accord.PRS.PTCP|PhraseType=Idiom
 3	to	to	ADP	_	_	2	fixed	_	AlignBegin=193346|AlignEnd=193466|Gloss=to
-4	wetin	wetin	PRON	_	PronType=Int	2	obj	_	AlignBegin=193466|AlignEnd=193766|Gloss=what.Q
-5	di	the	DET	_	Definite=Def|PronType=Art	6	det	_	AlignBegin=193766|AlignEnd=193846|Gloss=DEF.ART
+4	wetin	wetin	PRON	_	PronType=Int	20	obl:mod	_	AlignBegin=193466|AlignEnd=193766|Gloss=what.Q
+5	di	di	DET	_	Definite=Def|PronType=Art	6	det	_	AlignBegin=193766|AlignEnd=193846|Gloss=DEF.ART
 6	board	board	NOUN	_	_	7	nsubj	_	AlignBegin=193846|AlignEnd=194176|Gloss=board
 7	yarn	yarn	VERB	_	_	4	acl:relcl	_	AlignBegin=194176|AlignEnd=194368|Gloss=talk
-8	<	<	PUNCT	_	_	2	punct	_	AlignBegin=194368|AlignEnd=194398|Gloss=PUNCT
-9	#	#	PUNCT	_	_	20	punct	_	AlignBegin=194398|AlignEnd=194680|Gloss=PUNCT
+8	<	<	X	_	_	4	dep	_	AlignBegin=194368|AlignEnd=194398|Gloss=PUNCT
+9	#	#	X	_	_	20	dep	_	AlignBegin=194398|AlignEnd=194680|Gloss=PUNCT
 10	wetin	wetin	PRON	_	PronType=Int	20	nsubj	_	AlignBegin=194680|AlignEnd=194978|Gloss=what.Q
 11	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	12	nsubj	_	AlignBegin=194978|AlignEnd=195082|Gloss=NOM.PL.3
 12	wan	want	VERB	_	_	10	advcl:cleft	_	AlignBegin=195082|AlignEnd=195411|Gloss=want
-13	take	take	VERB	_	_	12	xcomp	_	AlignBegin=195411|AlignEnd=195555|Gloss=take
+13	take	take	VERB	_	_	12	xcomp:obj	_	AlignBegin=195411|AlignEnd=195555|Gloss=take
 14	do	do	VERB	_	_	13	compound:svc	_	AlignBegin=195555|AlignEnd=195728|Gloss=do
-15	di	the	DET	_	Definite=Def|PronType=Art	17	det	_	AlignBegin=195728|AlignEnd=195878|Gloss=DEF.ART
+15	di	di	DET	_	Definite=Def|PronType=Art	17	det	_	AlignBegin=195728|AlignEnd=195878|Gloss=DEF.ART
 16	mock	mock	ADJ	_	_	17	amod	_	AlignBegin=195878|AlignEnd=196158|Gloss=mock
 17	examination	examination	NOUN	_	_	14	obj	_	AlignBegin=196158|AlignEnd=196898|Gloss=examination
 18	na	na	AUX	_	PartType=Cop	20	cop	_	AlignBegin=196898|AlignEnd=197058|Gloss=be
@@ -883,314 +901,323 @@
 21	candidate	candidate	NOUN	_	_	20	obj	_	AlignBegin=197648|AlignEnd=198528|Gloss=candidate
 22	mey	make	AUX	_	Mood=Opt	24	aux	_	AlignBegin=198558|AlignEnd=198768|Gloss=SBJV
 23	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	24	nsubj	_	AlignBegin=198768|AlignEnd=198968|Gloss=NOM.PL.3
-24	feel	feel	VERB	_	_	20	ccomp	_	AlignBegin=198968|AlignEnd=199228|Gloss=feel
+24	feel	feel	VERB	_	_	20	ccomp:pred	_	AlignBegin=198968|AlignEnd=199228|Gloss=feel
 25	o	o	PART	_	PartType=Disc	24	advmod:emph	_	AlignBegin=199228|AlignEnd=199308|Gloss=EMPH
-26	{	{	PUNCT	_	_	27	punct	_	AlignBegin=199308|AlignEnd=199338|Gloss=PUNCT
+26	{	{	X	_	_	27	dep	_	AlignBegin=199308|AlignEnd=199338|Gloss=PUNCT
 27	wetin	wetin	PRON	_	PronType=Int	24	obj	_	AlignBegin=199338|AlignEnd=199598|Gloss=what.Q
-28	di	the	DET	_	Definite=Def|PronType=Art	29	det	_	AlignBegin=199598|AlignEnd=199768|Gloss=DEF.ART
+28	di	di	DET	_	Definite=Def|PronType=Art	29	det	_	AlignBegin=199598|AlignEnd=199768|Gloss=DEF.ART
 29	examination	examination	NOUN	_	_	27	obj	_	AlignBegin=199768|AlignEnd=200508|Gloss=examination
-30	||	||	PUNCT	_	_	31	punct	_	AlignBegin=200508|AlignEnd=200538|Gloss=PUNCT
-31	wetin	wetin	PRON	_	PronType=Int	27	conj:dicto	_	AlignBegin=200538|AlignEnd=200868|Gloss=what.Q
+30	||	||	X	_	_	31	dep	_	AlignBegin=200508|AlignEnd=200538|Gloss=PUNCT
+31	wetin	wetin	PRON	_	PronType=Int	27	reparandum	_	AlignBegin=200538|AlignEnd=200868|Gloss=what.Q
 32	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	36	nsubj	_	AlignBegin=200868|AlignEnd=200968|Gloss=NOM.SG.3
-33	}	}	PUNCT	_	_	27	punct	_	AlignBegin=200968|AlignEnd=200998|Gloss=PUNCT
+33	}	}	X	_	_	27	dep	_	AlignBegin=200968|AlignEnd=200998|Gloss=PUNCT
 34	go	go	AUX	_	Aspect=Prosp	36	aux	_	AlignBegin=200998|AlignEnd=201172|Gloss=PROSP
 35	be	be	AUX	_	PartType=Cop	36	cop	_	AlignBegin=201172|AlignEnd=201355|Gloss=be
 36	like	like	ADP	_	_	31	acl:relcl	_	AlignBegin=201355|AlignEnd=201657|Gloss=like
-37	//	//	PUNCT	_	_	20	punct	_	AlignBegin=201657|AlignEnd=201687|Gloss=PUNCT
+37	//	//	X	_	_	20	dep	_	AlignBegin=201657|AlignEnd=201687|Gloss=PUNCT
 
-# sent_id = IBA_34_News-Report-By-Samuel_MG__24
+# sent_id = IBA_34_News-Report-By-Samuel_MG__25
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_34_News-Report-By-Samuel_MG.mp3
 # speaker_id = Sp425
 # text = # dem say [ candidates < dem fit choose o # { wheda dem wan do di mock examination |c # abi dem no dey do } ] //
 # text_en = They said candidates can choose whether or not they want to take the mock examination.
 # text_ortho = Dem say candidates, dem fit choose o wheda dem wan do di mock examination, abi dem no dey do.
-1	#	#	PUNCT	_	_	3	punct	_	AlignBegin=201687|AlignEnd=201960|Gloss=PUNCT
+1	#	#	X	_	_	3	dep	_	AlignBegin=201687|AlignEnd=201960|Gloss=PUNCT
 2	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	AlignBegin=201960|AlignEnd=202120|Gloss=NOM.PL.3
 3	say	say	VERB	_	_	0	root	_	AlignBegin=202120|AlignEnd=202320|Gloss=say
-4	[	[	PUNCT	_	_	9	punct	_	AlignBegin=202320|AlignEnd=202350|Gloss=PUNCT
+4	[	[	X	_	_	9	dep	_	AlignBegin=202320|AlignEnd=202350|Gloss=PUNCT
 5	candidates	candidate	NOUN	_	Number=Plur	9	vocative	_	AlignBegin=202350|AlignEnd=202800|Gloss=candidate.PL
-6	<	<	PUNCT	_	_	5	punct	_	AlignBegin=202800|AlignEnd=202830|Gloss=PUNCT
+6	<	<	X	_	_	5	dep	_	AlignBegin=202800|AlignEnd=202830|Gloss=PUNCT
 7	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	AlignBegin=202830|AlignEnd=203000|Gloss=NOM.PL.3
 8	fit	fit	AUX	_	Mood=Pot	9	aux	_	AlignBegin=203000|AlignEnd=203210|Gloss=ABIL
 9	choose	choose	VERB	_	_	3	parataxis	_	AlignBegin=203210|AlignEnd=203450|Gloss=choose
 10	o	o	PART	_	PartType=Disc	9	advmod:emph	_	AlignBegin=203450|AlignEnd=203592|Gloss=EMPH
-11	#	#	PUNCT	_	_	15	punct	_	AlignBegin=203592|AlignEnd=203845|Gloss=PUNCT
-12	{	{	PUNCT	_	_	15	punct	_	AlignBegin=203815|AlignEnd=203845|Gloss=PUNCT
+11	#	#	X	_	_	15	dep	_	AlignBegin=203592|AlignEnd=203845|Gloss=PUNCT
+12	{	{	X	_	_	15	dep	_	AlignBegin=203815|AlignEnd=203845|Gloss=PUNCT
 13	wheda	wheder	SCONJ	_	_	15	mark	_	AlignBegin=203845|AlignEnd=204105|Gloss=whether
 14	dem	dem	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	15	nsubj	_	AlignBegin=204105|AlignEnd=204240|Gloss=ACC.PL.3
-15	wan	want	VERB	_	_	9	ccomp	_	AlignBegin=204240|AlignEnd=204495|Gloss=want
-16	do	do	VERB	_	_	15	xcomp	_	AlignBegin=204495|AlignEnd=204635|Gloss=do
-17	di	the	DET	_	Definite=Def|PronType=Art	19	det	_	AlignBegin=204635|AlignEnd=204795|Gloss=DEF.ART
+15	wan	want	VERB	_	_	9	ccomp:obj	_	AlignBegin=204240|AlignEnd=204495|Gloss=want
+16	do	do	VERB	_	_	15	xcomp:obj	_	AlignBegin=204495|AlignEnd=204635|Gloss=do
+17	di	di	DET	_	Definite=Def|PronType=Art	19	det	_	AlignBegin=204635|AlignEnd=204795|Gloss=DEF.ART
 18	mock	mock	ADJ	_	_	19	amod	_	AlignBegin=204795|AlignEnd=205134|Gloss=mock
 19	examination	examination	NOUN	_	_	16	obj	_	AlignBegin=205134|AlignEnd=205880|Gloss=examination
-20	|c	|c	PUNCT	_	_	26	punct	_	AlignBegin=205880|AlignEnd=205910|Gloss=PUNCT
-21	#	#	PUNCT	_	_	26	punct	_	AlignBegin=203845|AlignEnd=207260|Gloss=PUNCT
+20	|c	|c	X	_	_	26	dep	_	AlignBegin=205880|AlignEnd=205910|Gloss=PUNCT
+21	#	#	X	_	_	26	dep	_	AlignBegin=203845|AlignEnd=207260|Gloss=PUNCT
 22	abi	abi	CCONJ	_	_	26	cc	_	AlignBegin=206169|AlignEnd=206395|Gloss=or
 23	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	26	nsubj	_	AlignBegin=206395|AlignEnd=206572|Gloss=NOM.PL.3
 24	no	no	PART	_	Polarity=Neg	26	advmod	_	AlignBegin=206572|AlignEnd=206705|Gloss=NEG
 25	dey	dey	AUX	_	Aspect=Imp	26	aux	_	AlignBegin=206705|AlignEnd=206855|Gloss=IPFV
 26	do	do	VERB	_	_	15	conj	_	AlignBegin=206855|AlignEnd=207230|Gloss=do
-27	}	}	PUNCT	_	_	15	punct	_	AlignBegin=207230|AlignEnd=207260|Gloss=PUNCT
-28	]	]	PUNCT	_	_	9	punct	_	AlignBegin=207230|AlignEnd=207260|Gloss=PUNCT
-29	//	//	PUNCT	_	_	3	punct	_	AlignBegin=207230|AlignEnd=207260|Gloss=PUNCT
+27	}	}	X	_	_	15	dep	_	AlignBegin=207230|AlignEnd=207260|Gloss=PUNCT
+28	]	]	X	_	_	9	dep	_	AlignBegin=207230|AlignEnd=207260|Gloss=PUNCT
+29	//	//	X	_	_	3	dep	_	AlignBegin=207230|AlignEnd=207260|Gloss=PUNCT
 
-# sent_id = IBA_34_News-Report-By-Samuel_MG__25
+# sent_id = IBA_34_News-Report-By-Samuel_MG__26
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_34_News-Report-By-Samuel_MG.mp3
 # speaker_id = Sp425
 # text = # di { Federal Road Safety Corps |a FRSC } for Anambra don yarn sey [ dem don catch like six hundred and fifty seven people wey dey drive car # on top sey dem never put di speed limiting device for inside deir car in February ] //
 # text_en = The Federal Road Safety Corps, FRSC, in Anambra has said that they have arrested no fewer than six hundred and fifty seven motorists who have not installed the speed limiting device in their vehicles in February.
 # text_ortho = Di Federal Road Safety Corps, FRSC for Anambra don yarn sey dem don catch like six hundred and fifty seven people wey dey drive car on top sey dem never put di speed limiting device for inside deir car in February.
-1	#	#	PUNCT	_	_	14	punct	_	AlignBegin=207260|AlignEnd=213780|Gloss=PUNCT
-2	di	the	DET	_	Definite=Def|PronType=Art	7	det	_	AlignBegin=213780|AlignEnd=213980|Gloss=DEF.ART
-3	{	{	PUNCT	_	_	7	punct	_	AlignBegin=213980|AlignEnd=214010|Gloss=PUNCT
-4	Federal	federal	ADJ	_	_	7	amod	_	AlignBegin=214010|AlignEnd=214442|Gloss=federal
-5	Road	road	NOUN	_	_	6	compound	_	AlignBegin=214442|AlignEnd=214620|Gloss=road
-6	Safety	safety	NOUN	_	_	7	compound	_	AlignBegin=214620|AlignEnd=214950|Gloss=safety
-7	Corps	corps	NOUN	_	Number=Plur	14	nsubj	_	AlignBegin=214950|AlignEnd=215250|Gloss=corps.PL
-8	|a	|a	PUNCT	_	_	9	punct	_	AlignBegin=215250|AlignEnd=215280|Gloss=PUNCT
-9	FRSC	FRSC	PROPN	_	_	7	appos	_	AlignBegin=215280|AlignEnd=216010|Gloss=FRSC
-10	}	}	PUNCT	_	_	7	punct	_	AlignBegin=216010|AlignEnd=216040|Gloss=PUNCT
+1	#	#	X	_	_	14	dep	_	AlignBegin=207260|AlignEnd=213780|Gloss=PUNCT
+2	di	di	DET	_	Definite=Def|PronType=Art	4	det	_	AlignBegin=213780|AlignEnd=213980|Gloss=DEF.ART
+3	{	{	X	_	_	4	dep	_	AlignBegin=213980|AlignEnd=214010|Gloss=PUNCT
+4	Federal	federal	ADJ	_	_	14	nsubj	_	AlignBegin=214010|AlignEnd=214442|ExtPos=PROPN|Gloss=federal|PhraseType=Title
+5	Road	road	NOUN	_	_	4	flat	_	AlignBegin=214442|AlignEnd=214620|Gloss=road|InTitle=Yes
+6	Safety	safety	NOUN	_	_	4	flat	_	AlignBegin=214620|AlignEnd=214950|Gloss=safety|InTitle=Yes
+7	Corps	corps	NOUN	_	Number=Plur	4	flat	_	AlignBegin=214950|AlignEnd=215250|Gloss=corps.PL
+8	|a	|a	X	_	_	9	dep	_	AlignBegin=215250|AlignEnd=215280|Gloss=PUNCT
+9	FRSC	FRSC	PROPN	_	_	4	appos	_	AlignBegin=215280|AlignEnd=216010|Gloss=FRSC
+10	}	}	X	_	_	4	dep	_	AlignBegin=216010|AlignEnd=216040|Gloss=PUNCT
 11	for	for	ADP	_	_	12	case	_	AlignBegin=216040|AlignEnd=216270|Gloss=for
 12	Anambra	Anambra	PROPN	_	_	9	nmod	_	AlignBegin=216270|AlignEnd=216870|Gloss=Anambra
 13	don	don	AUX	_	Aspect=Perf	14	aux	_	AlignBegin=216870|AlignEnd=217067|Gloss=PRF
 14	yarn	yarn	VERB	_	_	0	root	_	AlignBegin=217067|AlignEnd=217320|Gloss=talk
 15	sey	sey	SCONJ	_	_	19	mark	_	AlignBegin=217320|AlignEnd=217540|Gloss=COMP
-16	[	[	PUNCT	_	_	19	punct	_	AlignBegin=217540|AlignEnd=217570|Gloss=PUNCT
+16	[	[	X	_	_	19	dep	_	AlignBegin=217540|AlignEnd=217570|Gloss=PUNCT
 17	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	19	nsubj	_	AlignBegin=217570|AlignEnd=217690|Gloss=NOM.PL.3
 18	don	don	AUX	_	Aspect=Perf	19	aux	_	AlignBegin=217690|AlignEnd=217920|Gloss=PRF
-19	catch	catch	VERB	_	_	14	ccomp	_	AlignBegin=217920|AlignEnd=218270|Gloss=catch
+19	catch	catch	VERB	_	_	14	ccomp:obj	_	AlignBegin=217920|AlignEnd=218270|Gloss=catch
 20	like	like	ADP	_	_	26	discourse	_	AlignBegin=218270|AlignEnd=218508|Gloss=like
-21	six	six	NUM	_	NumType=Card	22	compound	_	AlignBegin=218508|AlignEnd=218780|Gloss=six.CARD
-22	hundred	hundred	NUM	_	NumType=Card	26	nummod:det	_	AlignBegin=218780|AlignEnd=219090|Gloss=hundred.CARD
-23	and	and	CCONJ	_	_	25	cc	_	AlignBegin=219090|AlignEnd=219290|Gloss=and
-24	fifty	fifty	NUM	_	NumType=Card	25	compound	_	AlignBegin=219290|AlignEnd=219583|Gloss=fifty.CARD
-25	seven	seven	NUM	_	NumType=Card	22	conj	_	AlignBegin=219583|AlignEnd=219870|Gloss=seven.CARD
+21	six	six	NUM	_	NumType=Card	26	nummod:det	_	AlignBegin=218508|AlignEnd=218780|Gloss=six.CARD
+22	hundred	hundred	NUM	_	NumType=Card	21	flat	_	AlignBegin=218780|AlignEnd=219090|Gloss=hundred.CARD
+23	and	and	CCONJ	_	_	24	cc	_	AlignBegin=219090|AlignEnd=219290|Gloss=and
+24	fifty	fifty	NUM	_	NumType=Card	22	conj	_	AlignBegin=219290|AlignEnd=219583|Gloss=fifty.CARD
+25	seven	seven	NUM	_	NumType=Card	24	flat	_	AlignBegin=219583|AlignEnd=219870|Gloss=seven.CARD
 26	people	people	NOUN	_	Number=Plur	19	obj	_	AlignBegin=219870|AlignEnd=220140|Gloss=people.PL
 27	wey	wey	SCONJ	_	_	29	mark	_	AlignBegin=220140|AlignEnd=220270|Gloss=REL
 28	dey	dey	AUX	_	Aspect=Imp	29	aux	_	AlignBegin=220270|AlignEnd=220430|Gloss=IPFV
 29	drive	drive	VERB	_	_	26	acl:relcl	_	AlignBegin=220430|AlignEnd=220717|Gloss=drive
 30	car	car	NOUN	_	_	29	obj	_	AlignBegin=220717|AlignEnd=220980|Gloss=car
-31	#	#	PUNCT	_	_	37	punct	_	AlignBegin=213780|AlignEnd=226120|Gloss=PUNCT
-32	on	on	ADP	_	_	37	mark	_	AlignBegin=221280|AlignEnd=221430|EXTPOS=ADP|Gloss=on
+31	#	#	X	_	_	37	dep	_	AlignBegin=213780|AlignEnd=226120|Gloss=PUNCT
+32	on	on	ADP	_	_	37	mark	_	AlignBegin=221280|AlignEnd=221430|ExtPos=ADP|Gloss=on|PhraseType=Idiom
 33	top	top	NOUN	_	_	32	fixed	_	AlignBegin=221430|AlignEnd=221610|Gloss=top
 34	sey	sey	SCONJ	_	_	32	fixed	_	AlignBegin=221610|AlignEnd=221720|Gloss=COMP
 35	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	37	nsubj	_	AlignBegin=221720|AlignEnd=221830|Gloss=NOM.PL.3
 36	never	never	AUX	_	Aspect=Perf|Polarity=Neg	37	aux	_	AlignBegin=221830|AlignEnd=222190|Gloss=PRF.NEG
-37	put	put	VERB	_	_	19	ccomp	_	AlignBegin=222190|AlignEnd=222400|Gloss=put
-38	di	the	DET	_	Definite=Def|PronType=Art	41	det	_	AlignBegin=222400|AlignEnd=222610|Gloss=DEF.ART
+37	put	put	VERB	_	_	19	ccomp:obl	_	AlignBegin=222190|AlignEnd=222400|Gloss=put
+38	di	di	DET	_	Definite=Def|PronType=Art	41	det	_	AlignBegin=222400|AlignEnd=222610|Gloss=DEF.ART
 39	speed	speed	NOUN	_	_	40	compound	_	AlignBegin=222610|AlignEnd=222970|Gloss=speed
 40	limiting	limit	VERB	_	Tense=Pres|VerbForm=Part	41	acl	_	AlignBegin=222970|AlignEnd=223400|Gloss=limit.PRS.PTCP
 41	device	device	NOUN	_	_	37	obj	_	AlignBegin=223400|AlignEnd=223960|Gloss=device
-42	for	for	ADP	_	_	45	case	_	AlignBegin=223960|AlignEnd=224180|EXTPOS=ADP|Gloss=for
+42	for	for	ADP	_	_	45	case	_	AlignBegin=223960|AlignEnd=224180|ExtPos=ADP|Gloss=for|PhraseType=Idiom
 43	inside	inside	ADP	_	_	42	fixed	_	AlignBegin=224180|AlignEnd=224601|Gloss=inside
-44	deir	deir	PRON	_	Number=Plur|Person=3|Poss=Yes	45	nmod:poss	_	AlignBegin=224601|AlignEnd=224850|Gloss=3.PL.POSS
+44	deir	dem	PRON	_	Number=Plur|Person=3|Poss=Yes	45	nmod:poss	_	AlignBegin=224601|AlignEnd=224850|Gloss=PL.3.POSS
 45	car	car	NOUN	_	_	37	obl:arg	_	AlignBegin=224850|AlignEnd=225267|Gloss=car
 46	in	in	ADP	_	_	47	case	_	AlignBegin=225267|AlignEnd=225560|Gloss=in
 47	February	February	PROPN	_	_	19	obl:mod	_	AlignBegin=225560|AlignEnd=226090|Gloss=February
-48	]	]	PUNCT	_	_	19	punct	_	AlignBegin=226090|AlignEnd=226120|Gloss=PUNCT
-49	//	//	PUNCT	_	_	14	punct	_	AlignBegin=226090|AlignEnd=226120|Gloss=PUNCT
+48	]	]	X	_	_	19	dep	_	AlignBegin=226090|AlignEnd=226120|Gloss=PUNCT
+49	//	//	X	_	_	14	dep	_	AlignBegin=226090|AlignEnd=226120|Gloss=PUNCT
 
-# sent_id = IBA_34_News-Report-By-Samuel_MG__26
+# sent_id = IBA_34_News-Report-By-Samuel_MG__27
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_34_News-Report-By-Samuel_MG.mp3
 # speaker_id = Sp425
-# text = # { di oga for di area |a Mister Sunday Ajayi } < # when he dey yarn < say [ one hundred and seven people < na im >+ dem catch by one kind mobile court # |c and one hundred and two of dem o < na im >+ dem see sey [ deir hand no pure wey dem sama punishment ] ] //
+# text = # { di oga for di area |a Mister Sunday Ajayi } <  # na im >+ dey yarn dis one for one interview wen he dey yarn sey [ one hundred and seven people <  na im >+ dem catch by one kind mobile court # |c and one hundred and two of dem o <  na im >+ dem see sey [ deir hand no pure ] wey dem sama punishment ] //
 # text_en = Speaking on the subject, Area Commander, Mister Sunday Ajayi, said that while one hundred and seven people were caught by a kind of mobile court, one hundred and two of them were deemed guilty and have been handed punishments.
-# text_ortho = Di oga for di area, Mister Sunday Ajayi, when he dey yarn, say one hundred and seven people, na im, dem catch by one kind mobile court, and one hundred and two of dem o, na im, dem see sey deir hand no pure wey dem sama punishment.
-1	#	#	PUNCT	_	_	20	punct	_	AlignBegin=226120|AlignEnd=226500|Gloss=PUNCT
-2	{	{	PUNCT	_	_	4	punct	_	AlignBegin=226470|AlignEnd=226500|Gloss=PUNCT
-3	di	the	DET	_	Definite=Def|PronType=Art	4	det	_	AlignBegin=226500|AlignEnd=226730|Gloss=DEF.ART
-4	oga	oga	NOUN	_	_	20	dislocated	_	AlignBegin=226730|AlignEnd=227160|Gloss=boss
+# text_ortho = Di oga for di area, Mister Sunday Ajayi, na im dey yarn dis one for one interview wen he dey yarn sey one hundred and seven people, na im dem catch by one kind mobile court, and one hundred and two of dem o, na im dem see sey deir hand no pure wey dem sama punishment.
+1	#	#	X	_	_	16	dep	_	AlignBegin=226120|AlignEnd=226500|Gloss=PUNCT
+2	{	{	X	_	_	4	dep	_	AlignBegin=226470|AlignEnd=226500|Gloss=PUNCT
+3	di	di	DET	_	Definite=Def|PronType=Art	4	det	_	AlignBegin=226500|AlignEnd=226730|Gloss=DEF.ART
+4	oga	oga	NOUN	_	_	16	dislocated	_	AlignBegin=226730|AlignEnd=227160|Gloss=boss
 5	for	for	ADP	_	_	7	case	_	AlignBegin=227160|AlignEnd=227370|Gloss=for
-6	di	the	DET	_	Definite=Def|PronType=Art	7	det	_	AlignBegin=227370|AlignEnd=227600|Gloss=DEF.ART
+6	di	di	DET	_	Definite=Def|PronType=Art	7	det	_	AlignBegin=227370|AlignEnd=227600|Gloss=DEF.ART
 7	area	area	NOUN	_	_	4	nmod	_	AlignBegin=227600|AlignEnd=228000|Gloss=area
-8	|a	|a	PUNCT	_	_	9	punct	_	AlignBegin=228000|AlignEnd=228030|Gloss=PUNCT
+8	|a	|a	X	_	_	9	dep	_	AlignBegin=228000|AlignEnd=228030|Gloss=PUNCT
 9	Mister	Mister	NOUN	_	_	4	appos	_	AlignBegin=228030|AlignEnd=228400|Gloss=Mister
 10	Sunday	Sunday	PROPN	_	_	9	flat	_	AlignBegin=228400|AlignEnd=228820|Gloss=Sunday
 11	Ajayi	Ajayi	PROPN	_	_	9	flat	_	AlignBegin=228820|AlignEnd=229306|Gloss=Ajayi
-12	}	}	PUNCT	_	_	4	punct	_	AlignBegin=229306|AlignEnd=229336|Gloss=PUNCT
-13	<	<	PUNCT	_	_	4	punct	_	AlignBegin=229306|AlignEnd=229336|Gloss=PUNCT
-14	#	#	PUNCT	_	_	4	punct	_	AlignBegin=229336|AlignEnd=229629|Gloss=PUNCT
-15	when	when	SCONJ	_	_	18	mark	_	AlignBegin=231617|AlignEnd=231897|Gloss=when.Q
-16	he	e	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	AlignBegin=231897|AlignEnd=231987|Gloss=NOM.SG.3
-17	dey	dey	AUX	_	Aspect=Imp	18	aux	_	AlignBegin=231987|AlignEnd=232118|Gloss=IPFV
-18	yarn	yarn	VERB	_	_	20	advcl:periph	_	AlignBegin=232118|AlignEnd=232327|Gloss=talk
-19	<	<	PUNCT	_	_	18	punct	_	AlignBegin=232118|AlignEnd=232327|Gloss=PUNCT
-20	say	say	VERB	_	_	0	root	_	AlignBegin=232327|AlignEnd=232568|Gloss=say
-21	[	[	PUNCT	_	_	28	punct	_	AlignBegin=232568|AlignEnd=232598|Gloss=PUNCT
-22	one	one	NUM	_	NumType=Card	23	compound	_	AlignBegin=232598|AlignEnd=232875|Gloss=one
-23	hundred	hundred	NUM	_	NumType=Card	26	nummod:det	_	AlignBegin=232875|AlignEnd=233137|Gloss=hundred.CARD
-24	and	and	CCONJ	_	_	25	cc	_	AlignBegin=233137|AlignEnd=233317|Gloss=and
-25	seven	seven	NUM	_	NumType=Card	23	conj	_	AlignBegin=233317|AlignEnd=233567|Gloss=seven.CARD
-26	people	people	NOUN	_	Number=Plur	28	dislocated	_	AlignBegin=233567|AlignEnd=233837|Gloss=people.PL
-27	<	<	PUNCT	_	_	26	punct	_	AlignBegin=233837|AlignEnd=233867|Gloss=PUNCT
-28	na	na	AUX	_	PartType=Cop	20	ccomp	_	AlignBegin=233867|AlignEnd=234047|EXTPOS=SCONJ|Gloss=be
-29	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	28	fixed	_	AlignBegin=234047|AlignEnd=234147|Gloss=NOM.SG.3
-30	>+	>+	PUNCT	_	_	32	punct	_	AlignBegin=234147|AlignEnd=234177|Gloss=PUNCT
-31	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	32	nsubj	_	AlignBegin=234177|AlignEnd=234367|Gloss=NOM.PL.3
-32	catch	catch	VERB	_	_	28	advcl:cleft	_	AlignBegin=234367|AlignEnd=234861|Gloss=catch
-33	by	by	ADP	_	_	37	case	_	AlignBegin=234861|AlignEnd=235082|Gloss=by
-34	one	one	DET	_	Definite=Spec|PronType=Art	37	det	_	AlignBegin=235082|AlignEnd=235277|Gloss=SPEC.ART
-35	kind	kind	ADJ	_	_	37	amod	_	AlignBegin=235277|AlignEnd=235527|Gloss=kind
-36	mobile	mobile	ADJ	_	_	37	amod	_	AlignBegin=235527|AlignEnd=235947|Gloss=mobile
-37	court	court	NOUN	_	_	32	obl:agent	_	AlignBegin=235947|AlignEnd=236325|Gloss=court
-38	#	#	PUNCT	_	_	49	punct	_	AlignBegin=236325|AlignEnd=236491|Gloss=PUNCT
-39	|c	|c	PUNCT	_	_	49	punct	_	AlignBegin=236461|AlignEnd=236491|Gloss=PUNCT
-40	and	and	CCONJ	_	_	49	cc	_	AlignBegin=236491|AlignEnd=236775|Gloss=and
-41	one	one	NUM	_	NumType=Card	42	compound	_	AlignBegin=236775|AlignEnd=236935|Gloss=one
-42	hundred	hundred	NUM	_	NumType=Card	49	dislocated	_	AlignBegin=236935|AlignEnd=237335|Gloss=hundred.CARD
-43	and	and	CCONJ	_	_	44	cc	_	AlignBegin=237335|AlignEnd=237545|Gloss=and
-44	two	two	NUM	_	NumType=Card	42	conj	_	AlignBegin=237545|AlignEnd=237695|Gloss=two.CARD
-45	of	of	ADP	_	_	46	case	_	AlignBegin=237695|AlignEnd=237865|Gloss=of
-46	dem	dem	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	44	nmod	_	AlignBegin=237865|AlignEnd=238084|Gloss=ACC.PL.3
-47	o	o	PART	_	PartType=Disc	46	advmod:emph	_	AlignBegin=238084|AlignEnd=238135|Gloss=EMPH
-48	<	<	PUNCT	_	_	42	punct	_	AlignBegin=238135|AlignEnd=238165|Gloss=PUNCT
-49	na	na	AUX	_	PartType=Cop	28	conj	_	AlignBegin=238165|AlignEnd=238285|EXTPOS=SCONJ|Gloss=be
-50	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	49	fixed	_	AlignBegin=238285|AlignEnd=238325|Gloss=NOM.SG.3
-51	>+	>+	PUNCT	_	_	53	punct	_	AlignBegin=238325|AlignEnd=238355|Gloss=PUNCT
-52	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	53	nsubj	_	AlignBegin=238355|AlignEnd=238525|Gloss=NOM.PL.3
-53	see	see	VERB	_	_	49	advcl:cleft	_	AlignBegin=238525|AlignEnd=238707|Gloss=see
-54	sey	sey	SCONJ	_	_	59	mark	_	AlignBegin=238707|AlignEnd=238955|Gloss=COMP
-55	[	[	PUNCT	_	_	59	punct	_	AlignBegin=238955|AlignEnd=238985|Gloss=PUNCT
-56	deir	deir	PRON	_	Number=Plur|Person=3|Poss=Yes	57	nmod:poss	_	AlignBegin=238985|AlignEnd=239184|Gloss=3.PL.POSS
-57	hand	hand	NOUN	_	_	59	nsubj	_	AlignBegin=239184|AlignEnd=239556|Gloss=hand
-58	no	no	PART	_	Polarity=Neg	59	advmod	_	AlignBegin=239556|AlignEnd=239705|Gloss=NEG
-59	pure	pure	ADJ	_	_	53	ccomp	_	AlignBegin=239705|AlignEnd=239955|Gloss=pure
-60	wey	wey	SCONJ	_	_	62	mark	_	AlignBegin=239955|AlignEnd=240095|Gloss=REL
-61	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	62	nsubj	_	AlignBegin=240095|AlignEnd=240245|Gloss=NOM.PL.3
-62	sama	sama	VERB	_	_	57	acl:relcl	_	AlignBegin=240245|AlignEnd=240640|Gloss=give
-63	punishment	punishment	NOUN	_	_	62	obj	_	AlignBegin=240640|AlignEnd=241250|Gloss=punishment
-64	]	]	PUNCT	_	_	59	punct	_	AlignBegin=241250|AlignEnd=241280|Gloss=PUNCT
-65	]	]	PUNCT	_	_	53	punct	_	AlignBegin=241250|AlignEnd=241280|Gloss=PUNCT
-66	//	//	PUNCT	_	_	20	punct	_	AlignBegin=241250|AlignEnd=241280|Gloss=PUNCT
+12	}	}	X	_	_	4	dep	_	AlignBegin=229306|AlignEnd=229336|Gloss=PUNCT
+13	<	<	X	_	_	4	dep	_	AlignBegin=229306|AlignEnd=229336|Gloss=PUNCT
+14	#	#	X	_	_	4	dep	_	Gloss=PUNCT
+15	na	na	AUX	_	PartType=Cop	16	cop	_	Gloss=be
+16	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	0	root	_	Gloss=NOM.SG.3
+17	>+	>+	X	_	_	19	dep	_	Gloss=PUNCT
+18	dey	dey	AUX	_	Aspect=Imp	19	aux	_	Gloss=IPFV
+19	yarn	yarn	VERB	_	_	16	advcl:cleft	_	Gloss=talk
+20	dis	dis	DET	_	Number=Sing|PronType=Dem	21	det	_	Gloss=SG.DEM
+21	one	one	NOUN	_	_	19	obj	_	Gloss=one
+22	for	for	ADP	_	_	24	case	_	Gloss=in
+23	one	one	DET	_	Definite=Spec|PronType=Art	24	det	_	Gloss=SPEC.ART
+24	interview	interview	NOUN	_	_	19	obl:arg	_	Gloss=interview
+25	wen	wey	SCONJ	_	PronType=Rel	28	mark	_	AlignBegin=231617|AlignEnd=231897|Gloss=REL
+26	he	e	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	28	nsubj	_	AlignBegin=231897|AlignEnd=231987|Gloss=NOM.SG.3
+27	dey	dey	AUX	_	Aspect=Imp	28	aux	_	AlignBegin=231987|AlignEnd=232118|Gloss=IPFV
+28	yarn	yarn	VERB	_	_	24	acl:relcl	_	AlignBegin=232118|AlignEnd=232327|Gloss=talk
+29	sey	sey	SCONJ	_	_	37	dep:comp	_	AlignBegin=232327|AlignEnd=232568|Gloss=COMP
+30	[	[	X	_	_	37	dep	_	AlignBegin=232568|AlignEnd=232598|Gloss=PUNCT
+31	one	one	NUM	_	NumType=Card	35	nummod:det	_	AlignBegin=232598|AlignEnd=232875|Gloss=one
+32	hundred	hundred	NUM	_	NumType=Card	31	flat	_	AlignBegin=232875|AlignEnd=233137|Gloss=hundred.CARD
+33	and	and	CCONJ	_	_	34	cc	_	AlignBegin=233137|AlignEnd=233317|Gloss=and
+34	seven	seven	NUM	_	NumType=Card	32	conj	_	AlignBegin=233317|AlignEnd=233567|Gloss=seven.CARD
+35	people	people	NOUN	_	Number=Plur	37	dislocated	_	AlignBegin=233567|AlignEnd=233837|Gloss=people.PL
+36	<	<	X	_	_	35	dep	_	AlignBegin=233837|AlignEnd=233867|Gloss=PUNCT
+37	na	na	AUX	_	PartType=Cop	28	dep:comp	_	AlignBegin=233867|AlignEnd=234047|ExtPos=SCONJ|Gloss=be|PhraseType=Idiom
+38	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	37	fixed	_	AlignBegin=234047|AlignEnd=234147|Gloss=NOM.SG.3
+39	>+	>+	X	_	_	41	dep	_	AlignBegin=234147|AlignEnd=234177|Gloss=PUNCT
+40	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	41	nsubj	_	AlignBegin=234177|AlignEnd=234367|Gloss=NOM.PL.3
+41	catch	catch	VERB	_	_	37	advcl:cleft	_	AlignBegin=234367|AlignEnd=234861|Gloss=catch
+42	by	by	ADP	_	_	46	case	_	AlignBegin=234861|AlignEnd=235082|Gloss=by
+43	one	one	DET	_	Definite=Spec|PronType=Art	46	det	_	AlignBegin=235082|AlignEnd=235277|Gloss=SPEC.ART
+44	kind	kind	ADJ	_	_	46	amod	_	AlignBegin=235277|AlignEnd=235527|Gloss=kind
+45	mobile	mobile	ADJ	_	_	46	amod	_	AlignBegin=235527|AlignEnd=235947|Gloss=mobile
+46	court	court	NOUN	_	_	41	obl:agent	_	AlignBegin=235947|AlignEnd=236325|Gloss=court
+47	#	#	X	_	_	58	dep	_	AlignBegin=236325|AlignEnd=236491|Gloss=PUNCT
+48	|c	|c	X	_	_	58	dep	_	AlignBegin=236461|AlignEnd=236491|Gloss=PUNCT
+49	and	and	CCONJ	_	_	58	cc	_	AlignBegin=236491|AlignEnd=236775|Gloss=and
+50	one	one	NUM	_	NumType=Card	58	dislocated	_	AlignBegin=236775|AlignEnd=236935|Gloss=one
+51	hundred	hundred	NUM	_	NumType=Card	50	flat	_	AlignBegin=236935|AlignEnd=237335|Gloss=hundred.CARD
+52	and	and	CCONJ	_	_	53	cc	_	AlignBegin=237335|AlignEnd=237545|Gloss=and
+53	two	two	NUM	_	NumType=Card	51	conj	_	AlignBegin=237545|AlignEnd=237695|Gloss=two.CARD
+54	of	of	ADP	_	_	55	case	_	AlignBegin=237695|AlignEnd=237865|Gloss=of
+55	dem	dem	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	50	obl:mod	_	AlignBegin=237865|AlignEnd=238084|Gloss=ACC.PL.3
+56	o	o	PART	_	PartType=Disc	55	advmod:emph	_	AlignBegin=238084|AlignEnd=238135|Gloss=EMPH
+57	<	<	X	_	_	58	dep	_	AlignBegin=238135|AlignEnd=238165|Gloss=PUNCT
+58	na	na	AUX	_	PartType=Cop	37	conj	_	AlignBegin=238165|AlignEnd=238285|ExtPos=SCONJ|Gloss=be|PhraseType=Idiom
+59	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	58	xcomp:pred	_	AlignBegin=238285|AlignEnd=238325|Gloss=NOM.SG.3
+60	>+	>+	X	_	_	62	dep	_	AlignBegin=238325|AlignEnd=238355|Gloss=PUNCT
+61	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	62	nsubj	_	AlignBegin=238355|AlignEnd=238525|Gloss=NOM.PL.3
+62	see	see	VERB	_	_	58	advcl:cleft	_	AlignBegin=238525|AlignEnd=238707|Gloss=see
+63	sey	sey	SCONJ	_	_	68	mark	_	AlignBegin=238707|AlignEnd=238955|Gloss=COMP
+64	[	[	X	_	_	68	dep	_	AlignBegin=238955|AlignEnd=238985|Gloss=PUNCT
+65	deir	dem	PRON	_	Number=Plur|Person=3|Poss=Yes	66	nmod:poss	_	AlignBegin=238985|AlignEnd=239184|Gloss=PL.3.POSS
+66	hand	hand	NOUN	_	_	68	nsubj	_	AlignBegin=239184|AlignEnd=239556|Gloss=hand
+67	no	no	PART	_	Polarity=Neg	68	advmod	_	AlignBegin=239556|AlignEnd=239705|Gloss=NEG
+68	pure	pure	ADJ	_	_	62	ccomp:obj	_	AlignBegin=239705|AlignEnd=239955|Gloss=pure
+69	]	]	X	_	_	68	dep	_	AlignBegin=239955|AlignEnd=240095|Gloss=PUNCT
+70	wey	wey	SCONJ	_	_	72	mark	_	AlignBegin=239955|AlignEnd=240095|Gloss=wey
+71	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	72	nsubj	_	AlignBegin=240095|AlignEnd=240245|Gloss=NOM.PL.3
+72	sama	sama	VERB	_	_	50	acl:relcl	_	AlignBegin=240245|AlignEnd=240640|Gloss=give
+73	punishment	punishment	NOUN	_	_	72	obj	_	AlignBegin=240640|AlignEnd=241250|Gloss=punishment
+74	]	]	X	_	_	37	dep	_	AlignBegin=241250|AlignEnd=241280|Gloss=PUNCT
+75	//	//	X	_	_	16	dep	_	AlignBegin=241250|AlignEnd=241280|Gloss=PUNCT
 
-# sent_id = IBA_34_News-Report-By-Samuel_MG__27
+# sent_id = IBA_34_News-Report-By-Samuel_MG__28
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_34_News-Report-By-Samuel_MG.mp3
 # speaker_id = Sp425
 # text = # according to him < # fifty one of di people < # na im >+ de gats to do with sey dem no put di device # while oders na due to oder offences including sey [ dem dey pass different ways wey be sey [ dem no suppose pass ] ] //
 # text_en = According to him, fifty one of them were guilty of non-installation of the device while others were involved in other offences including passing through roads they were not supposed to.
 # text_ortho = According to him, fifty one of di people, na im de gats to do with sey dem no put di device while oders na due to oder offences including sey dem dey pass different ways wey be sey dem no suppose pass.
-1	#	#	PUNCT	_	_	14	punct	_	AlignBegin=241280|AlignEnd=241620|Gloss=PUNCT
-2	according	accord	VERB	_	Tense=Pres|VerbForm=Part	14	advcl:periph	_	AlignBegin=241620|AlignEnd=242110|EXTPOS=ADP|Gloss=accord.PRS.PTCP
+1	#	#	X	_	_	14	dep	_	AlignBegin=241280|AlignEnd=241620|Gloss=PUNCT
+2	according	accord	VERB	_	Tense=Pres|VerbForm=Part	4	case	_	AlignBegin=241620|AlignEnd=242110|ExtPos=ADP|Gloss=accord.PRS.PTCP|PhraseType=Idiom
 3	to	to	ADP	_	_	2	fixed	_	AlignBegin=242110|AlignEnd=242292|Gloss=to
-4	him	him	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	AlignBegin=242292|AlignEnd=242525|Gloss=ACC.M.SG.3
-5	<	<	PUNCT	_	_	2	punct	_	AlignBegin=242525|AlignEnd=242555|Gloss=PUNCT
-6	#	#	PUNCT	_	_	14	punct	_	AlignBegin=242555|AlignEnd=242846|Gloss=PUNCT
-7	fifty	fifty	NUM	_	NumType=Card	8	compound	_	AlignBegin=242846|AlignEnd=243072|Gloss=fifty.CARD
-8	one	one	NUM	_	NumType=Card	14	dislocated	_	AlignBegin=243072|AlignEnd=243352|Gloss=one
+4	him	him	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obl:mod	_	AlignBegin=242292|AlignEnd=242525|Gloss=ACC.M.SG.3
+5	<	<	X	_	_	4	dep	_	AlignBegin=242525|AlignEnd=242555|Gloss=PUNCT
+6	#	#	X	_	_	14	dep	_	AlignBegin=242555|AlignEnd=242846|Gloss=PUNCT
+7	fifty	fifty	NUM	_	NumType=Card	14	discourse	_	AlignBegin=242846|AlignEnd=243072|Gloss=fifty.CARD
+8	one	one	NUM	_	NumType=Card	7	flat	_	AlignBegin=243072|AlignEnd=243352|Gloss=one
 9	of	of	ADP	_	_	11	case	_	AlignBegin=243352|AlignEnd=243592|Gloss=of
-10	di	the	DET	_	Definite=Def|PronType=Art	11	det	_	AlignBegin=243592|AlignEnd=243732|Gloss=DEF.ART
-11	people	people	NOUN	_	Number=Plur	8	obl:mod	_	AlignBegin=243732|AlignEnd=244090|Gloss=people.PL
-12	<	<	PUNCT	_	_	8	punct	_	AlignBegin=244090|AlignEnd=244120|Gloss=PUNCT
-13	#	#	PUNCT	_	_	14	punct	_	AlignBegin=244120|AlignEnd=244381|Gloss=PUNCT
-14	na	na	AUX	_	PartType=Cop	0	root	_	AlignBegin=244381|AlignEnd=244547|EXTPOS=SCONJ|Gloss=be
+10	di	di	DET	_	Definite=Def|PronType=Art	11	det	_	AlignBegin=243592|AlignEnd=243732|Gloss=DEF.ART
+11	people	people	NOUN	_	Number=Plur	7	obl:mod	_	AlignBegin=243732|AlignEnd=244090|Gloss=people.PL
+12	<	<	X	_	_	7	dep	_	AlignBegin=244090|AlignEnd=244120|Gloss=PUNCT
+13	#	#	X	_	_	14	dep	_	AlignBegin=244120|AlignEnd=244381|Gloss=PUNCT
+14	na	na	AUX	_	PartType=Cop	0	root	_	AlignBegin=244381|AlignEnd=244547|ExtPos=SCONJ|Gloss=be|PhraseType=Idiom
 15	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	14	fixed	_	AlignBegin=244547|AlignEnd=244717|Gloss=NOM.SG.3
-16	>+	>+	PUNCT	_	_	20	punct	_	AlignBegin=244717|AlignEnd=244747|Gloss=PUNCT
-17	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	20	nsubj	_	AlignBegin=244747|AlignEnd=244917|Gloss=NOM.PL.3
-18	gats	gats	AUX	_	Mood=Nec	20	cop	_	AlignBegin=244917|AlignEnd=245187|Gloss=OBLG
+16	>+	>+	X	_	_	18	dep	_	AlignBegin=244717|AlignEnd=244747|Gloss=PUNCT
+17	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	18	nsubj	_	AlignBegin=244747|AlignEnd=244917|Gloss=NOM.PL.3
+18	gats	gats	VERB	_	_	14	advcl:cleft	_	AlignBegin=244917|AlignEnd=245187|Gloss=must
 19	to	to	ADP	_	_	20	mark	_	AlignBegin=245187|AlignEnd=245287|Gloss=to
-20	do	do	VERB	_	_	14	advcl:cleft	_	AlignBegin=245287|AlignEnd=245557|Gloss=do
-21	with	wit	ADP	_	_	25	mark	_	AlignBegin=245557|AlignEnd=245707|EXTPOS=SCONJ|Gloss=with
+20	do	do	VERB	_	_	18	xcomp:obl	_	AlignBegin=245287|AlignEnd=245557|Gloss=do
+21	with	wit	ADP	_	_	25	mark	_	AlignBegin=245557|AlignEnd=245707|ExtPos=SCONJ|Gloss=with|PhraseType=Idiom
 22	sey	sey	SCONJ	_	_	25	mark	_	AlignBegin=245707|AlignEnd=245877|Gloss=COMP
 23	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	25	nsubj	_	AlignBegin=245877|AlignEnd=246013|Gloss=NOM.PL.3
 24	no	no	PART	_	Polarity=Neg	25	advmod	_	AlignBegin=246013|AlignEnd=246197|Gloss=NEG
-25	put	put	VERB	_	_	20	ccomp	_	AlignBegin=246197|AlignEnd=246457|Gloss=put
-26	di	the	DET	_	Definite=Def|PronType=Art	27	det	_	AlignBegin=246457|AlignEnd=246577|Gloss=DEF.ART
+25	put	put	VERB	_	_	20	ccomp:obl	_	AlignBegin=246197|AlignEnd=246457|Gloss=put
+26	di	di	DET	_	Definite=Def|PronType=Art	27	det	_	AlignBegin=246457|AlignEnd=246577|Gloss=DEF.ART
 27	device	device	NOUN	_	_	25	obj	_	AlignBegin=246577|AlignEnd=247292|Gloss=device
-28	#	#	PUNCT	_	_	35	punct	_	AlignBegin=247292|AlignEnd=253910|Gloss=PUNCT
+28	#	#	X	_	_	35	dep	_	AlignBegin=247292|AlignEnd=253910|Gloss=PUNCT
 29	while	while	SCONJ	_	_	35	mark	_	AlignBegin=247473|AlignEnd=247892|Gloss=while
 30	oders	oder	PRON	_	Number=Plur	35	dislocated	_	AlignBegin=247892|AlignEnd=248352|Gloss=other.PL
 31	na	na	AUX	_	PartType=Cop	35	cop	_	AlignBegin=248352|AlignEnd=248582|Gloss=be
-32	due	due	ADP	_	_	35	case	_	AlignBegin=248582|AlignEnd=248792|EXTPOS=ADP|Gloss=due
+32	due	due	ADJ	_	_	35	case	_	AlignBegin=248582|AlignEnd=248792|ExtPos=ADP|Gloss=due|PhraseType=Idiom
 33	to	to	ADP	_	_	32	fixed	_	AlignBegin=248792|AlignEnd=248982|Gloss=to
 34	oder	oder	ADJ	_	_	35	amod	_	AlignBegin=248982|AlignEnd=249318|Gloss=other
 35	offences	offence	NOUN	_	Number=Plur	14	advcl	_	AlignBegin=249318|AlignEnd=249962|Gloss=offence.PL
 36	including	include	VERB	_	Tense=Pres|VerbForm=Part	35	acl:relcl	_	AlignBegin=249962|AlignEnd=250392|Gloss=include.PRS.PTCP
 37	sey	sey	SCONJ	_	_	41	mark	_	AlignBegin=250392|AlignEnd=250892|Gloss=COMP
-38	[	[	PUNCT	_	_	41	punct	_	AlignBegin=250892|AlignEnd=250922|Gloss=PUNCT
+38	[	[	X	_	_	41	dep	_	AlignBegin=250892|AlignEnd=250922|Gloss=PUNCT
 39	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	41	nsubj	_	AlignBegin=250922|AlignEnd=251072|Gloss=NOM.PL.3
 40	dey	dey	AUX	_	Aspect=Imp	41	aux	_	AlignBegin=251072|AlignEnd=251232|Gloss=IPFV
-41	pass	pass	VERB	_	_	36	ccomp	_	AlignBegin=251232|AlignEnd=251562|Gloss=pass
+41	pass	pass	VERB	_	_	36	ccomp:obj	_	AlignBegin=251232|AlignEnd=251562|Gloss=pass
 42	different	different	ADJ	_	_	43	amod	_	AlignBegin=251562|AlignEnd=252112|Gloss=different
 43	ways	way	NOUN	_	Number=Plur	41	obj	_	AlignBegin=252112|AlignEnd=252522|Gloss=way.PL
-44	wey	wey	SCONJ	_	_	50	mark	_	AlignBegin=252522|AlignEnd=252742|EXTPOS=SCONJ|Gloss=REL
-45	be	be	VERB	_	PartType=Cop	44	fixed	_	AlignBegin=252742|AlignEnd=252812|Gloss=be
+44	wey	wey	SCONJ	_	_	50	mark	_	AlignBegin=252522|AlignEnd=252742|ExtPos=SCONJ|Gloss=REL|PhraseType=Idiom
+45	be	be	AUX	_	PartType=Cop	44	fixed	_	AlignBegin=252742|AlignEnd=252812|Gloss=be
 46	sey	sey	SCONJ	_	_	44	fixed	_	AlignBegin=252812|AlignEnd=252922|Gloss=COMP
-47	[	[	PUNCT	_	_	50	punct	_	AlignBegin=252922|AlignEnd=252952|Gloss=PUNCT
+47	[	[	X	_	_	50	dep	_	AlignBegin=252922|AlignEnd=252952|Gloss=PUNCT
 48	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	50	nsubj	_	AlignBegin=252952|AlignEnd=253102|Gloss=NOM.PL.3
 49	no	no	PART	_	Polarity=Neg	50	advmod	_	AlignBegin=253102|AlignEnd=253172|Gloss=NEG
 50	suppose	suppose	VERB	_	_	43	acl:relcl	_	AlignBegin=253172|AlignEnd=253542|Gloss=suppose
-51	pass	pass	VERB	_	_	50	xcomp	_	AlignBegin=253542|AlignEnd=253846|Gloss=pass
-52	]	]	PUNCT	_	_	50	punct	_	AlignBegin=253846|AlignEnd=253910|Gloss=PUNCT
-53	]	]	PUNCT	_	_	41	punct	_	AlignBegin=253846|AlignEnd=253910|Gloss=PUNCT
-54	//	//	PUNCT	_	_	14	punct	_	AlignBegin=253846|AlignEnd=253910|Gloss=PUNCT
+51	pass	pass	VERB	_	_	50	xcomp:obj	_	AlignBegin=253542|AlignEnd=253846|Gloss=pass
+52	]	]	X	_	_	50	dep	_	AlignBegin=253846|AlignEnd=253910|Gloss=PUNCT
+53	]	]	X	_	_	41	dep	_	AlignBegin=253846|AlignEnd=253910|Gloss=PUNCT
+54	//	//	X	_	_	14	dep	_	AlignBegin=253846|AlignEnd=253910|Gloss=PUNCT
 
-# sent_id = IBA_34_News-Report-By-Samuel_MG__28
+# sent_id = IBA_34_News-Report-By-Samuel_MG__29
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_34_News-Report-By-Samuel_MG.mp3
 # speaker_id = Sp425
 # text = # dem too dey run wey Oyibo dey call overspeeding //
 # text_en = They were speeding too much, which the whites call overspeeding.
-# text_ortho = Dem too dey run wey oyibo dey call overspeeding.
-1	#	#	PUNCT	_	_	5	punct	_	AlignBegin=253910|AlignEnd=256635|Gloss=PUNCT
+# text_ortho = Dem too dey run wey Oyibo dey call overspeeding.
+1	#	#	X	_	_	5	dep	_	AlignBegin=253910|AlignEnd=256635|Gloss=PUNCT
 2	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	AlignBegin=254049|AlignEnd=254210|Gloss=NOM.PL.3
 3	too	too	ADV	_	_	5	advmod	_	AlignBegin=254210|AlignEnd=254350|Gloss=too
 4	dey	dey	AUX	_	Aspect=Imp	5	aux	_	AlignBegin=254350|AlignEnd=254560|Gloss=IPFV
 5	run	run	VERB	_	_	0	root	_	AlignBegin=254560|AlignEnd=254910|Gloss=run
 6	wey	when	SCONJ	_	_	9	mark	_	AlignBegin=254910|AlignEnd=255045|Gloss=when
-7	Oyibo	Oyibo	PROPN	_	_	9	nsubj	_	AlignBegin=255045|AlignEnd=255410|Gloss=Oyibo
+7	Oyibo	Oyinbo	PROPN	_	_	9	nsubj	_	AlignBegin=255045|AlignEnd=255410|Gloss=foreign(er)
 8	dey	dey	AUX	_	Aspect=Imp	9	aux	_	AlignBegin=255410|AlignEnd=255560|Gloss=IPFV
-9	call	call	VERB	_	_	5	ccomp	_	AlignBegin=255560|AlignEnd=255930|Gloss=call
+9	call	call	VERB	_	_	5	ccomp:obj	_	AlignBegin=255560|AlignEnd=255930|Gloss=call
 10	overspeeding	overspeeding	NOUN	_	_	9	obj	_	AlignBegin=255930|AlignEnd=256605|Gloss=speeding
-11	//	//	PUNCT	_	_	5	punct	_	AlignBegin=256605|AlignEnd=256635|Gloss=PUNCT
-
-# sent_id = IBA_34_News-Report-By-Samuel_MG__29
-# sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_34_News-Report-By-Samuel_MG.mp3
-# speaker_id = Sp425
-# text = # dem dey overload |c and dem dey drive { very |r very } dangerously //
-# text_en = They were overloading or driving recklessly.
-# text_ortho = Dem dey overload, and dem dey drive very-very dangerously.
-1	#	#	PUNCT	_	_	3	punct	_	AlignBegin=256635|AlignEnd=256892|Gloss=PUNCT
-2	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	AlignBegin=256892|AlignEnd=257014|Gloss=NOM.PL.3
-3	dey	dey	VERB	_	VerbType=Cop	0	root	_	AlignBegin=257014|AlignEnd=257254|Gloss=be
-4	overload	overload	NOUN	_	_	3	xcomp	_	AlignBegin=257254|AlignEnd=257924|Gloss=overload
-5	|c	|c	PUNCT	_	_	9	punct	_	AlignBegin=257924|AlignEnd=257954|Gloss=PUNCT
-6	and	and	CCONJ	_	_	9	cc	_	AlignBegin=257954|AlignEnd=258134|Gloss=and
-7	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	AlignBegin=258134|AlignEnd=258234|Gloss=NOM.PL.3
-8	dey	dey	AUX	_	Aspect=Imp	9	aux	_	AlignBegin=258234|AlignEnd=258394|Gloss=IPFV
-9	drive	drive	VERB	_	_	3	conj	_	AlignBegin=258394|AlignEnd=258814|Gloss=drive
-10	{	{	PUNCT	_	_	11	punct	_	AlignBegin=258814|AlignEnd=258844|Gloss=PUNCT
-11	very	very	ADV	_	_	15	advmod	_	AlignBegin=258844|AlignEnd=259124|Gloss=very
-12	|r	|r	PUNCT	_	_	13	punct	_	AlignBegin=259124|AlignEnd=259154|Gloss=PUNCT
-13	very	very	ADV	_	_	11	compound:redup	_	AlignBegin=259154|AlignEnd=259374|Gloss=very
-14	}	}	PUNCT	_	_	11	punct	_	AlignBegin=259374|AlignEnd=259404|Gloss=PUNCT
-15	dangerously	dangerously	ADV	_	_	9	advmod	_	AlignBegin=259404|AlignEnd=260092|Gloss=dangerously
-16	//	//	PUNCT	_	_	3	punct	_	AlignBegin=260092|AlignEnd=260122|Gloss=PUNCT
+11	//	//	X	_	_	5	dep	_	AlignBegin=256605|AlignEnd=256635|Gloss=PUNCT
 
 # sent_id = IBA_34_News-Report-By-Samuel_MG__30
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_34_News-Report-By-Samuel_MG.mp3
 # speaker_id = Sp425
+# text = # dem dey overload |c and dem dey drive { very |r very } dangerously //
+# text_en = They were overloading or driving recklessly.
+# text_ortho = Dem dey overload, and dem dey drive very, very dangerously.
+1	#	#	X	_	_	3	dep	_	AlignBegin=256635|AlignEnd=256892|Gloss=PUNCT
+2	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	AlignBegin=256892|AlignEnd=257014|Gloss=NOM.PL.3
+3	dey	dey	VERB	_	VerbType=Cop	0	root	_	AlignBegin=257014|AlignEnd=257254|Gloss=be
+4	overload	overload	NOUN	_	_	3	xcomp:pred	_	AlignBegin=257254|AlignEnd=257924|Gloss=overload
+5	|c	|c	X	_	_	9	dep	_	AlignBegin=257924|AlignEnd=257954|Gloss=PUNCT
+6	and	and	CCONJ	_	_	9	cc	_	AlignBegin=257954|AlignEnd=258134|Gloss=and
+7	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	AlignBegin=258134|AlignEnd=258234|Gloss=NOM.PL.3
+8	dey	dey	AUX	_	Aspect=Imp	9	aux	_	AlignBegin=258234|AlignEnd=258394|Gloss=IPFV
+9	drive	drive	VERB	_	_	3	conj	_	AlignBegin=258394|AlignEnd=258814|Gloss=drive
+10	{	{	X	_	_	11	dep	_	AlignBegin=258814|AlignEnd=258844|Gloss=PUNCT
+11	very	very	ADV	_	_	15	advmod	_	AlignBegin=258844|AlignEnd=259124|Gloss=very
+12	|r	|r	X	_	_	13	dep	_	AlignBegin=259124|AlignEnd=259154|Gloss=PUNCT
+13	very	very	ADV	_	_	11	compound:redup	_	AlignBegin=259154|AlignEnd=259374|Gloss=very
+14	}	}	X	_	_	11	dep	_	AlignBegin=259374|AlignEnd=259404|Gloss=PUNCT
+15	dangerously	dangerously	ADV	_	_	9	advmod	_	AlignBegin=259404|AlignEnd=260092|Gloss=dangerously
+16	//	//	X	_	_	3	dep	_	AlignBegin=260092|AlignEnd=260122|Gloss=PUNCT
+
+# sent_id = IBA_34_News-Report-By-Samuel_MG__31
+# sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_34_News-Report-By-Samuel_MG.mp3
+# speaker_id = Sp425
 # text = # e say [ we don X able to drive home with { road users |a # people wey be sey dem dey operate different kind of cars } //] //
 # text_en = He said we have X to drive home with road users, people who operate different kinds of cars [fleet operators].
-# text_ortho = E say we don X to drive home with road users, people wey be sey dem dey operate different kind of cars.
-1	#	#	PUNCT	_	_	3	punct	_	AlignBegin=260122|AlignEnd=260421|Gloss=PUNCT
+# text_ortho = E say we don X able to drive home with road users, people wey be sey dem dey operate different kind of cars.
+1	#	#	X	_	_	3	dep	_	AlignBegin=260122|AlignEnd=260421|Gloss=PUNCT
 2	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	AlignBegin=260421|AlignEnd=260618|Gloss=NOM.SG.3
 3	say	say	VERB	_	_	0	root	_	AlignBegin=260618|AlignEnd=260830|Gloss=say
-4	[	[	PUNCT	_	_	7	punct	_	AlignBegin=260830|AlignEnd=260860|Gloss=PUNCT
+4	[	[	X	_	_	7	dep	_	AlignBegin=260830|AlignEnd=260860|Gloss=PUNCT
 5	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	AlignBegin=260860|AlignEnd=261048|Gloss=NOM.PL.1
 6	don	don	AUX	_	Aspect=Perf	7	aux	_	AlignBegin=261048|AlignEnd=261321|Gloss=PRF
 7	X	X	X	_	_	3	parataxis	_	AlignBegin=261321|AlignEnd=261715|Gloss=X
 8	able	able	ADJ	_	_	7	obj:lvc	_	AlignBegin=261715|AlignEnd=261986|Gloss=able
 9	to	to	ADP	_	_	10	mark	_	AlignBegin=261986|AlignEnd=262148|Gloss=to
-10	drive	drive	VERB	_	_	7	ccomp	_	AlignBegin=262148|AlignEnd=262438|Gloss=drive
+10	drive	drive	VERB	_	_	7	ccomp:pred	_	AlignBegin=262148|AlignEnd=262438|Gloss=drive
 11	home	home	NOUN	_	_	10	obj	_	AlignBegin=262438|AlignEnd=262659|Gloss=home
 12	with	wit	ADP	_	_	15	case	_	AlignBegin=262659|AlignEnd=262908|Gloss=with
-13	{	{	PUNCT	_	_	15	punct	_	AlignBegin=262908|AlignEnd=263208|Gloss=PUNCT
+13	{	{	X	_	_	15	dep	_	AlignBegin=262908|AlignEnd=263208|Gloss=PUNCT
 14	road	road	NOUN	_	_	15	compound	_	AlignBegin=262908|AlignEnd=263208|Gloss=road
 15	users	user	NOUN	_	Number=Plur	10	obl:arg	_	AlignBegin=263208|AlignEnd=263690|Gloss=user.PL
-16	|a	|a	PUNCT	_	_	18	punct	_	AlignBegin=263690|AlignEnd=263712|Gloss=PUNCT
-17	#	#	PUNCT	_	_	18	punct	_	AlignBegin=263690|AlignEnd=263986|Gloss=PUNCT
+16	|a	|a	X	_	_	18	dep	_	AlignBegin=263690|AlignEnd=263712|Gloss=PUNCT
+17	#	#	X	_	_	18	dep	_	AlignBegin=263690|AlignEnd=263986|Gloss=PUNCT
 18	people	people	NOUN	_	Number=Plur	15	appos	_	AlignBegin=263986|AlignEnd=264155|Gloss=people.PL
-19	wey	wey	SCONJ	_	_	24	mark	_	AlignBegin=264155|AlignEnd=264245|EXTPOS=SCONJ|Gloss=REL
-20	be	be	VERB	_	PartType=Cop	19	fixed	_	AlignBegin=264245|AlignEnd=264335|Gloss=be
+19	wey	wey	SCONJ	_	_	24	mark	_	AlignBegin=264155|AlignEnd=264245|ExtPos=SCONJ|Gloss=REL|PhraseType=Idiom
+20	be	be	AUX	_	PartType=Cop	19	fixed	_	AlignBegin=264245|AlignEnd=264335|Gloss=be
 21	sey	sey	SCONJ	_	_	19	fixed	_	AlignBegin=264335|AlignEnd=264495|Gloss=COMP
 22	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	24	nsubj	_	AlignBegin=264495|AlignEnd=264672|Gloss=NOM.PL.3
 23	dey	dey	AUX	_	Aspect=Imp	24	aux	_	AlignBegin=264672|AlignEnd=264824|Gloss=IPFV
@@ -1199,35 +1226,35 @@
 26	kind	kind	NOUN	_	_	24	obj	_	AlignBegin=265555|AlignEnd=265775|Gloss=kind
 27	of	of	ADP	_	_	28	case	_	AlignBegin=265775|AlignEnd=265925|Gloss=of
 28	cars	car	NOUN	_	Number=Plur	26	nmod	_	AlignBegin=265925|AlignEnd=266205|Gloss=car.PL
-29	}	}	PUNCT	_	_	15	punct	_	AlignBegin=265925|AlignEnd=266205|Gloss=PUNCT
-30	//]	//]	PUNCT	_	_	7	punct	_	AlignBegin=265925|AlignEnd=266205|Gloss=PUNCT
-31	//	//	PUNCT	_	_	3	punct	_	AlignBegin=265925|AlignEnd=266205|Gloss=PUNCT
+29	}	}	X	_	_	15	dep	_	AlignBegin=265925|AlignEnd=266205|Gloss=PUNCT
+30	//]	//]	X	_	_	7	dep	_	AlignBegin=265925|AlignEnd=266205|Gloss=PUNCT
+31	//	//	X	_	_	3	dep	_	AlignBegin=265925|AlignEnd=266205|Gloss=PUNCT
 
-# sent_id = IBA_34_News-Report-By-Samuel_MG__31
+# sent_id = IBA_34_News-Report-By-Samuel_MG__32
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_34_News-Report-By-Samuel_MG.mp3
 # speaker_id = Sp425
 # text = sey for Nigerian road today < # una no fit dey drive anyhow without sey [ una put di device wey we say make una put ] //
 # text_en = On Nigerian roads today, you cannot drive in any way without installing the device we asked you to install.
 # text_ortho = Sey for Nigerian road today, una no fit dey drive anyhow without sey una put di device wey we say make una put.
-1	sey	sey	SCONJ	_	_	11	cc	_	AlignBegin=266205|AlignEnd=266345|Gloss=COMP
+1	sey	sey	SCONJ	_	_	11	discourse	_	AlignBegin=266205|AlignEnd=266345|Gloss=COMP
 2	for	for	ADP	_	_	5	case	_	AlignBegin=266345|AlignEnd=266515|Gloss=for
 3	Nigerian	Nigerian	ADJ	_	_	4	amod	_	AlignBegin=266515|AlignEnd=267015|Gloss=Nigerian
 4	road	road	NOUN	_	_	5	compound	_	AlignBegin=267015|AlignEnd=267165|Gloss=road
 5	today	today	NOUN	_	_	11	obl:mod	_	AlignBegin=267165|AlignEnd=267495|Gloss=today
-6	<	<	PUNCT	_	_	5	punct	_	AlignBegin=267495|AlignEnd=267525|Gloss=PUNCT
-7	#	#	PUNCT	_	_	5	punct	_	AlignBegin=267525|AlignEnd=267783|Gloss=PUNCT
+6	<	<	X	_	_	5	dep	_	AlignBegin=267495|AlignEnd=267525|Gloss=PUNCT
+7	#	#	X	_	_	5	dep	_	AlignBegin=267525|AlignEnd=267783|Gloss=PUNCT
 8	una	una	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	11	nsubj	_	AlignBegin=267783|AlignEnd=267924|Gloss=NOM.PL.2
 9	no	no	PART	_	Polarity=Neg	11	advmod	_	AlignBegin=267924|AlignEnd=268074|Gloss=NEG
 10	fit	fit	AUX	_	Mood=Pot	11	aux	_	AlignBegin=268074|AlignEnd=268184|Gloss=ABIL
 11	dey	dey	VERB	_	VerbType=Cop	0	root	_	AlignBegin=268184|AlignEnd=268324|Gloss=be
-12	drive	drive	VERB	_	_	11	xcomp	_	AlignBegin=268324|AlignEnd=268694|Gloss=drive
+12	drive	drive	VERB	_	_	11	xcomp:obj	_	AlignBegin=268324|AlignEnd=268694|Gloss=drive
 13	anyhow	anyhow	ADV	_	_	12	advmod	_	AlignBegin=268694|AlignEnd=269232|Gloss=anyhow
-14	without	without	ADP	_	_	18	mark	_	AlignBegin=269232|AlignEnd=269629|EXTPOS=SCONJ|Gloss=without
+14	without	without	ADP	_	_	18	mark	_	AlignBegin=269232|AlignEnd=269629|Gloss=without
 15	sey	sey	SCONJ	_	_	18	mark	_	AlignBegin=269629|AlignEnd=269944|Gloss=COMP
-16	[	[	PUNCT	_	_	18	punct	_	AlignBegin=269944|AlignEnd=269974|Gloss=PUNCT
+16	[	[	X	_	_	18	dep	_	AlignBegin=269944|AlignEnd=269974|Gloss=PUNCT
 17	una	una	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	18	nsubj	_	AlignBegin=269974|AlignEnd=270224|Gloss=NOM.PL.2
 18	put	put	VERB	_	_	12	advcl	_	AlignBegin=270224|AlignEnd=270374|Gloss=put
-19	di	the	DET	_	Definite=Def|PronType=Art	20	det	_	AlignBegin=270374|AlignEnd=270541|Gloss=DEF.ART
+19	di	di	DET	_	Definite=Def|PronType=Art	20	det	_	AlignBegin=270374|AlignEnd=270541|Gloss=DEF.ART
 20	device	device	NOUN	_	_	18	obj	_	AlignBegin=270541|AlignEnd=271054|Gloss=device
 21	wey	wey	SCONJ	_	_	23	mark	_	AlignBegin=271054|AlignEnd=271188|Gloss=REL
 22	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	23	nsubj	_	AlignBegin=271188|AlignEnd=271254|Gloss=NOM.PL.1
@@ -1235,72 +1262,72 @@
 24	make	make	AUX	_	Mood=Opt	26	aux	_	AlignBegin=271624|AlignEnd=271954|Gloss=SBJV
 25	una	una	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	26	nsubj	_	AlignBegin=271954|AlignEnd=272124|Gloss=NOM.PL.2
 26	put	put	VERB	_	_	23	parataxis	_	AlignBegin=272124|AlignEnd=272625|Gloss=put
-27	]	]	PUNCT	_	_	18	punct	_	AlignBegin=272625|AlignEnd=272655|Gloss=PUNCT
-28	//	//	PUNCT	_	_	11	punct	_	AlignBegin=272625|AlignEnd=272655|Gloss=PUNCT
+27	]	]	X	_	_	18	dep	_	AlignBegin=272625|AlignEnd=272655|Gloss=PUNCT
+28	//	//	X	_	_	11	dep	_	AlignBegin=272625|AlignEnd=272655|Gloss=PUNCT
 
-# sent_id = IBA_34_News-Report-By-Samuel_MG__32
+# sent_id = IBA_34_News-Report-By-Samuel_MG__33
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_34_News-Report-By-Samuel_MG.mp3
 # speaker_id = Sp425
 # text = # na still di six p.m. news >+ be dis on top { Lagelu ninety-six point seven FM } //
 # text_en = This is still the six PM news on Lagelu, ninety-six point seven FM.
-# text_ortho = Na still di six PM news, be dis on top Lagelu ninety-six point seven FM.
-1	#	#	PUNCT	_	_	7	punct	_	AlignBegin=272655|AlignEnd=277020|Gloss=PUNCT
+# text_ortho = Na still di six p.m. news be dis on top Lagelu ninety-six point seven FM.
+1	#	#	X	_	_	7	dep	_	AlignBegin=272655|AlignEnd=277020|Gloss=PUNCT
 2	na	na	AUX	_	PartType=Cop	7	cop	_	AlignBegin=277020|AlignEnd=277310|Gloss=be
 3	still	still	ADV	_	_	7	advmod	_	AlignBegin=277310|AlignEnd=277514|Gloss=still
-4	di	the	DET	_	Definite=Def|PronType=Art	7	det	_	AlignBegin=277514|AlignEnd=277630|Gloss=DEF.ART
-5	six	six	NUM	_	NumType=Card	7	nummod:mod	_	AlignBegin=277630|AlignEnd=277830|Gloss=six.CARD
+4	di	di	DET	_	Definite=Def|PronType=Art	7	det	_	AlignBegin=277514|AlignEnd=277630|Gloss=DEF.ART
+5	six	six	NUM	_	NumType=Card	7	nummod:det	_	AlignBegin=277630|AlignEnd=277830|Gloss=six.CARD
 6	p.m.	p.m.	ADV	_	_	5	advmod	_	AlignBegin=277830|AlignEnd=278070|Gloss=p.m.
 7	news	news	NOUN	_	Number=Plur	0	root	_	AlignBegin=278070|AlignEnd=278190|Gloss=news.PL
-8	>+	>+	PUNCT	_	_	9	punct	_	AlignBegin=278190|AlignEnd=278220|Gloss=PUNCT
+8	>+	>+	X	_	_	9	dep	_	AlignBegin=278190|AlignEnd=278220|Gloss=PUNCT
 9	be	be	VERB	_	PartType=Cop	7	advcl:cleft	_	AlignBegin=278220|AlignEnd=278320|Gloss=be
-10	dis	dis	PRON	_	Number=Sing|PronType=Dem	9	dep	_	AlignBegin=278320|AlignEnd=278570|Gloss=SG.DEM
-11	on	on	ADP	_	_	14	case	_	AlignBegin=278570|AlignEnd=278690|EXTPOS=ADP|Gloss=on
+10	dis	dis	PRON	_	Number=Sing|PronType=Dem	9	dep:comp	_	AlignBegin=278320|AlignEnd=278570|Gloss=SG.DEM
+11	on	on	ADP	_	_	14	case	_	AlignBegin=278570|AlignEnd=278690|ExtPos=ADP|Gloss=on|PhraseType=Idiom
 12	top	top	ADP	_	_	11	fixed	_	AlignBegin=278690|AlignEnd=278880|Gloss=top
-13	{	{	PUNCT	_	_	14	punct	_	AlignBegin=278880|AlignEnd=278910|Gloss=PUNCT
+13	{	{	X	_	_	14	dep	_	AlignBegin=278880|AlignEnd=278910|Gloss=PUNCT
 14	Lagelu	Lagelu	PROPN	_	_	7	obl:mod	_	AlignBegin=278910|AlignEnd=279280|Gloss=Lagelu
-15	ninety-six	ninety-six	NUM	_	NumType=Card	14	nummod:mod	_	AlignBegin=279310|AlignEnd=279775|Gloss=ninety-six
+15	ninety-six	ninety-six	NUM	_	NumType=Card	14	nmod:appos	_	AlignBegin=279310|AlignEnd=279775|Gloss=ninety-six
 16	point	point	NOUN	_	_	15	flat	_	AlignBegin=279775|AlignEnd=279962|Gloss=point
-17	seven	seven	NUM	_	NumType=Card	16	nummod:mod	_	AlignBegin=279962|AlignEnd=280268|Gloss=seven.CARD
-18	FM	FM	NOUN	_	_	17	flat	_	AlignBegin=280268|AlignEnd=280840|Gloss=FM
-19	}	}	PUNCT	_	_	14	punct	_	AlignBegin=280840|AlignEnd=280870|Gloss=PUNCT
-20	//	//	PUNCT	_	_	7	punct	_	AlignBegin=280840|AlignEnd=280870|Gloss=PUNCT
+17	seven	seven	NUM	_	NumType=Card	15	flat	_	AlignBegin=279962|AlignEnd=280268|Gloss=seven.CARD
+18	FM	FM	NOUN	_	_	15	flat	_	AlignBegin=280268|AlignEnd=280840|Gloss=FM
+19	}	}	X	_	_	14	dep	_	AlignBegin=280840|AlignEnd=280870|Gloss=PUNCT
+20	//	//	X	_	_	7	dep	_	AlignBegin=280840|AlignEnd=280870|Gloss=PUNCT
 
-# sent_id = IBA_34_News-Report-By-Samuel_MG__33
+# sent_id = IBA_34_News-Report-By-Samuel_MG__34
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_34_News-Report-By-Samuel_MG.mp3
 # speaker_id = Sp425
 # text = still for inside dis tori < # de don catch one mama on top baby wey dem kidnap for South Africa //
 # text_en = Still from this news bulletin, a woman has been arrested for the kidnapping of a baby in South Africa.
 # text_ortho = Still for inside dis tori, de don catch one mama on top baby wey dem kidnap for South Africa.
 1	still	still	ADV	_	_	5	advmod	_	AlignBegin=280870|AlignEnd=281090|Gloss=still
-2	for	for	ADP	_	_	5	case	_	AlignBegin=281090|AlignEnd=281290|EXTPOS=ADP|Gloss=for
+2	for	for	ADP	_	_	5	case	_	AlignBegin=281090|AlignEnd=281290|ExtPos=ADP|Gloss=for|PhraseType=Idiom
 3	inside	inside	ADP	_	_	2	fixed	_	AlignBegin=281290|AlignEnd=281620|Gloss=inside
-4	dis	dis	DET	_	Number=Sing|PronType=Dem	5	det	_	AlignBegin=281620|AlignEnd=281790|Gloss=SG.PROX.DEM
+4	dis	dis	DET	_	Number=Sing|PronType=Dem	5	det	_	AlignBegin=281620|AlignEnd=281790|Gloss=SG.DEM
 5	tori	tori	NOUN	_	_	10	obl:mod	_	AlignBegin=281790|AlignEnd=282156|Gloss=story
-6	<	<	PUNCT	_	_	5	punct	_	AlignBegin=282156|AlignEnd=282314|Gloss=PUNCT
-7	#	#	PUNCT	_	_	8	punct	_	AlignBegin=282314|AlignEnd=285980|Gloss=PUNCT
+6	<	<	X	_	_	5	dep	_	AlignBegin=282156|AlignEnd=282314|Gloss=PUNCT
+7	#	#	X	_	_	8	dep	_	AlignBegin=282314|AlignEnd=285980|Gloss=PUNCT
 8	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	AlignBegin=282446|AlignEnd=282524|Gloss=NOM.PL.3
 9	don	don	AUX	_	Aspect=Perf	10	aux	_	AlignBegin=282524|AlignEnd=282724|Gloss=PRF
 10	catch	catch	VERB	_	_	0	root	_	AlignBegin=282724|AlignEnd=283014|Gloss=catch
 11	one	one	DET	_	Definite=Spec|PronType=Art	12	det	_	AlignBegin=283014|AlignEnd=283133|Gloss=SPEC.ART
 12	mama	mama	NOUN	_	_	10	obj	_	AlignBegin=283133|AlignEnd=283604|Gloss=mama
-13	on	on	ADP	_	_	15	case	_	AlignBegin=283604|AlignEnd=283764|EXTPOS=ADP|Gloss=on
+13	on	on	ADP	_	_	15	case	_	AlignBegin=283604|AlignEnd=283764|ExtPos=ADP|Gloss=on|PhraseType=Idiom
 14	top	top	ADP	_	_	13	fixed	_	AlignBegin=283764|AlignEnd=283974|Gloss=top
 15	baby	baby	NOUN	_	_	10	obl:arg	_	AlignBegin=283974|AlignEnd=284284|Gloss=baby
 16	wey	wey	SCONJ	_	_	18	mark	_	AlignBegin=284284|AlignEnd=284404|Gloss=REL
 17	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	18	nsubj	_	AlignBegin=284404|AlignEnd=284564|Gloss=NOM.PL.3
 18	kidnap	kidnap	VERB	_	_	15	acl:relcl	_	AlignBegin=284564|AlignEnd=284944|Gloss=kidnap
 19	for	for	ADP	_	_	20	case	_	AlignBegin=284944|AlignEnd=285103|Gloss=for
-20	South	South	PROPN	_	_	18	obl:mod	_	AlignBegin=285103|AlignEnd=285404|Gloss=South
-21	Africa	Africa	PROPN	_	_	20	flat	_	AlignBegin=285404|AlignEnd=285950|Gloss=Africa
-22	//	//	PUNCT	_	_	10	punct	_	AlignBegin=285950|AlignEnd=285980|Gloss=PUNCT
+20	South	South	ADJ	_	_	18	obl:mod	_	AlignBegin=285103|AlignEnd=285404|ExtPos=PROPN|Gloss=South|PhraseType=Title
+21	Africa	Africa	PROPN	_	_	20	flat	_	AlignBegin=285404|AlignEnd=285950|Gloss=Africa|InTitle=Yes
+22	//	//	X	_	_	10	dep	_	AlignBegin=285950|AlignEnd=285980|Gloss=PUNCT
 
-# sent_id = IBA_34_News-Report-By-Samuel_MG__34
+# sent_id = IBA_34_News-Report-By-Samuel_MG__35
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_34_News-Report-By-Samuel_MG.mp3
 # speaker_id = Sp425
 # text = # Sunshine Queens dem don ready for New Nigeria Women Premier League season //
 # text_en = Sunshine Queens, they are ready for the New Nigeria Women Premier League Season.
-# text_ortho = Sunshine Queens, dem don ready for New Nigeria Women Premier League season.
-1	#	#	PUNCT	_	_	6	punct	_	AlignBegin=285980|AlignEnd=286280|Gloss=PUNCT
+# text_ortho = Sunshine Queens dem don ready for New Nigeria Women Premier League season.
+1	#	#	X	_	_	6	dep	_	AlignBegin=285980|AlignEnd=286280|Gloss=PUNCT
 2	Sunshine	sunshine	NOUN	_	_	6	dislocated	_	AlignBegin=286280|AlignEnd=286840|Gloss=sunshine
 3	Queens	queen	NOUN	_	Number=Plur	2	flat	_	AlignBegin=286840|AlignEnd=287200|Gloss=queen.PL
 4	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	AlignBegin=287200|AlignEnd=287360|Gloss=NOM.PL.3
@@ -1308,20 +1335,20 @@
 6	ready	ready	ADJ	_	_	0	root	_	AlignBegin=287630|AlignEnd=287990|Gloss=ready
 7	for	for	ADP	_	_	13	case	_	AlignBegin=287990|AlignEnd=288190|Gloss=for
 8	New	new	ADJ	_	_	13	amod	_	AlignBegin=288190|AlignEnd=288390|Gloss=new
-9	Nigeria	Nigeria	PROPN	_	_	11	obl:mod	_	AlignBegin=288390|AlignEnd=288906|Gloss=Nigeria
-10	Women	woman	NOUN	_	_	11	obl:mod	_	AlignBegin=288906|AlignEnd=289250|Gloss=woman.PL
-11	Premier	premier	ADJ	_	_	13	compound	_	AlignBegin=289250|AlignEnd=289657|Gloss=premier
-12	League	League	PROPN	_	_	11	flat	_	AlignBegin=289657|AlignEnd=289845|Gloss=League
+9	Nigeria	Nigeria	PROPN	_	_	13	compound	_	AlignBegin=288390|AlignEnd=288906|ExtPos=PROPN|Gloss=Nigeria|PhraseType=Title
+10	Women	woman	NOUN	_	_	9	flat	_	AlignBegin=288906|AlignEnd=289250|Gloss=woman.PL|InTitle=Yes
+11	Premier	premier	ADJ	_	_	9	flat	_	AlignBegin=289250|AlignEnd=289657|Gloss=premier|InTitle=Yes
+12	League	League	PROPN	_	_	9	flat	_	AlignBegin=289657|AlignEnd=289845|Gloss=League|InTitle=Yes
 13	season	season	NOUN	_	_	6	obl:arg	_	AlignBegin=289845|AlignEnd=290230|Gloss=season
-14	//	//	PUNCT	_	_	6	punct	_	AlignBegin=290230|AlignEnd=290260|Gloss=PUNCT
+14	//	//	X	_	_	6	dep	_	AlignBegin=290230|AlignEnd=290260|Gloss=PUNCT
 
-# sent_id = IBA_34_News-Report-By-Samuel_MG__35
+# sent_id = IBA_34_News-Report-By-Samuel_MG__36
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_34_News-Report-By-Samuel_MG.mp3
 # speaker_id = Sp425
 # text = # we go take a chikini break now //
 # text_en = We will take a short break now.
 # text_ortho = We go take a chikini break now.
-1	#	#	PUNCT	_	_	4	punct	_	AlignBegin=290260|AlignEnd=290600|Gloss=PUNCT
+1	#	#	X	_	_	4	dep	_	AlignBegin=290260|AlignEnd=290600|Gloss=PUNCT
 2	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	AlignBegin=290600|AlignEnd=290680|Gloss=NOM.PL.1
 3	go	go	AUX	_	Aspect=Prosp	4	aux	_	AlignBegin=290680|AlignEnd=290800|Gloss=PROSP
 4	take	take	VERB	_	_	0	root	_	AlignBegin=290800|AlignEnd=290981|Gloss=take
@@ -1329,15 +1356,15 @@
 6	chikini	chikini	ADJ	_	_	7	compound	_	AlignBegin=291100|AlignEnd=291400|Gloss=tiny
 7	break	break	NOUN	_	_	4	obj	_	AlignBegin=291400|AlignEnd=291670|Gloss=break
 8	now	now	ADV	_	_	4	advmod	_	AlignBegin=291670|AlignEnd=291820|Gloss=now
-9	//	//	PUNCT	_	_	4	punct	_	AlignBegin=291820|AlignEnd=291850|Gloss=PUNCT
+9	//	//	X	_	_	4	dep	_	AlignBegin=291820|AlignEnd=291850|Gloss=PUNCT
 
-# sent_id = IBA_34_News-Report-By-Samuel_MG__36
+# sent_id = IBA_34_News-Report-By-Samuel_MG__37
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_34_News-Report-By-Samuel_MG.mp3
 # speaker_id = Sp425
 # text = when we show back we go yarn una more tori //
 # text_en = When we come back, we will read you more news.
 # text_ortho = When we show back we go yarn una more tori.
-1	when	when	SCONJ	_	_	3	mark	_	AlignBegin=291850|AlignEnd=291955|Gloss=when.Q
+1	when	when	SCONJ	_	PronType=Int	3	mark	_	AlignBegin=291850|AlignEnd=291955|Gloss=when.Q
 2	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	AlignBegin=291955|AlignEnd=292040|Gloss=NOM.PL.1
 3	show	show	VERB	_	_	7	advcl:periph	_	AlignBegin=292040|AlignEnd=292200|Gloss=show
 4	back	back	ADV	_	_	3	advmod	_	AlignBegin=292200|AlignEnd=292400|Gloss=back
@@ -1347,9 +1374,9 @@
 8	una	una	PRON	_	Case=Acc|Number=Plur|Person=2|PronType=Prs	7	obj	_	AlignBegin=292750|AlignEnd=292930|Gloss=ACC.PL.2
 9	more	more	ADJ	_	Degree=Cmp	10	amod	_	AlignBegin=292930|AlignEnd=293100|Gloss=CMPR
 10	tori	tori	NOUN	_	_	7	obj	_	AlignBegin=293100|AlignEnd=293533|Gloss=story
-11	//	//	PUNCT	_	_	7	punct	_	AlignBegin=293533|AlignEnd=293563|Gloss=PUNCT
+11	//	//	X	_	_	7	dep	_	AlignBegin=293533|AlignEnd=293563|Gloss=PUNCT
 
-# sent_id = IBA_34_News-Report-By-Samuel_MG__37
+# sent_id = IBA_34_News-Report-By-Samuel_MG__38
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_34_News-Report-By-Samuel_MG.mp3
 # speaker_id = Sp425
 # text = make una never waka //
@@ -1357,7 +1384,7 @@
 # text_ortho = Make una never waka.
 1	make	make	AUX	_	Mood=Opt	4	aux	_	AlignBegin=293563|AlignEnd=293840|Gloss=SBJV
 2	una	una	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	4	nsubj	_	AlignBegin=293840|AlignEnd=294020|Gloss=NOM.PL.2
-3	never	never	AUX	_	Aspect=Perf|Polarity=Neg	4	aux	_	AlignBegin=294020|AlignEnd=294267|Gloss=PRFV.NEG
+3	never	never	AUX	_	Aspect=Perf|Polarity=Neg	4	aux	_	AlignBegin=294020|AlignEnd=294267|Gloss=PRF.NEG
 4	waka	waka	VERB	_	_	0	root	_	AlignBegin=294267|AlignEnd=294630|Gloss=walk
-5	//	//	PUNCT	_	_	4	punct	_	AlignBegin=294630|AlignEnd=294660|Gloss=PUNCT
+5	//	//	X	_	_	4	dep	_	AlignBegin=294630|AlignEnd=294660|Gloss=PUNCT
 

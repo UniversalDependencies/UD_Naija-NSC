@@ -25,7 +25,7 @@
 # text_ortho = Dere was dis eh...
 1	#	#	X	_	_	4	dep	_	AlignBegin=5880|AlignEnd=7680|Gloss=PUNCT
 2	dere	dere	PRON	_	_	4	expl:subj	_	AlignBegin=7680|AlignEnd=7873|Gloss=there|Lang=en
-3	was	be	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|VerbType=Cop	4	cop	_	AlignBegin=7873|AlignEnd=8140|Gloss=be.IND.SG.1.PST.FIN|Lang=en
+3	was	be	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	4	cop	_	AlignBegin=7873|AlignEnd=8140|Gloss=be.IND.SG.1.PST.FIN|Lang=en
 4	dis	dis	DET	_	Number=Sing|PronType=Dem	0	root	_	AlignBegin=8140|AlignEnd=8489|Gloss=SG.DEM|Lang=en
 5	eh	eh	INTJ	_	_	4	discourse	_	AlignBegin=8519|AlignEnd=8901|Gloss=eh|Lang=en
 6	&//	&//	X	_	_	4	dep	_	AlignBegin=8901|AlignEnd=8931|Gloss=PUNCT
@@ -140,7 +140,7 @@
 8	hear	hear	VERB	_	_	2	reparandum	_	AlignBegin=23016|AlignEnd=23116|Gloss=hear
 9	di	di	DET	_	Definite=Def|PronType=Art	10	det	_	AlignBegin=23116|AlignEnd=23246|Gloss=DEF.ART
 10	man	man	NOUN	_	_	8	obj	_	AlignBegin=23246|AlignEnd=23426|Gloss=man
-11	sey	sey	SCONJ	_	_	8	dep:comp	_	AlignBegin=23426|AlignEnd=23556|Gloss=COMP
+11	sey	sey	SCONJ	_	_	8	ccomp	_	AlignBegin=23426|AlignEnd=23556|Gloss=COMP
 12	&//	&//	X	_	_	3	dep	_	AlignBegin=23556|AlignEnd=23586|Gloss=PUNCT
 
 # sent_id = BEN_36_Clever-Girl_MG__9
@@ -1106,16 +1106,16 @@
 3	say	say	VERB	_	_	2	compound:svc	_	AlignBegin=151070|AlignEnd=151230|Gloss=say
 4	dis	dis	DET	_	Number=Sing|PronType=Dem	5	det	_	AlignBegin=151260|AlignEnd=151660|Gloss=SG.DEM
 5	man	man	NOUN	_	_	3	obj	_	AlignBegin=151660|AlignEnd=151847|Gloss=man
-6	#	#	X	_	_	9	dep	_	AlignBegin=151880|AlignEnd=152368|Gloss=PUNCT
-7	sey	sey	SCONJ	_	_	9	dep:comp	_	AlignBegin=152368|AlignEnd=152510|Gloss=COMP
-8	[	[	X	_	_	9	dep	_	AlignBegin=152368|AlignEnd=152510|Gloss=PUNCT
-9	na	na	AUX	_	PartType=Cop	3	dep:comp	_	AlignBegin=152510|AlignEnd=152627|ExtPos=SCONJ|Gloss=be|PhraseType=Idiom
-10	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	9	xcomp	_	AlignBegin=152627|AlignEnd=152730|Gloss=NOM.SG.3
+6	#	#	X	_	_	10	dep	_	AlignBegin=151880|AlignEnd=152368|Gloss=PUNCT
+7	sey	sey	SCONJ	_	_	10	mark	_	AlignBegin=152368|AlignEnd=152510|Gloss=COMP
+8	[	[	X	_	_	10	dep	_	AlignBegin=152368|AlignEnd=152510|Gloss=PUNCT
+9	na	na	AUX	_	PartType=Cop	10	cop	_	AlignBegin=152510|AlignEnd=152627|Gloss=be
+10	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	ccomp	_	AlignBegin=152627|AlignEnd=152730|Gloss=NOM.SG.3
 11	>+	>+	X	_	_	12	dep	_	AlignBegin=152730|AlignEnd=152760|Gloss=PUNCT
-12	give	give	VERB	_	_	9	advcl:cleft	_	AlignBegin=152760|AlignEnd=153040|Gloss=give
+12	give	give	VERB	_	_	10	advcl:cleft	_	AlignBegin=152760|AlignEnd=153040|Gloss=give
 13	dat	dat	DET	_	Number=Sing|PronType=Dem	14	det	_	AlignBegin=153040|AlignEnd=153260|Gloss=SG.DEM
 14	egg	egg	NOUN	_	_	12	obj	_	AlignBegin=153260|AlignEnd=153652|Gloss=egg
-15	]	]	X	_	_	9	dep	_	AlignBegin=153652|AlignEnd=153682|Gloss=PUNCT
+15	]	]	X	_	_	10	dep	_	AlignBegin=153652|AlignEnd=153682|Gloss=PUNCT
 16	//	//	X	_	_	2	dep	_	AlignBegin=153652|AlignEnd=153682|Gloss=PUNCT
 
 # sent_id = BEN_36_Clever-Girl_MG__51
@@ -2523,11 +2523,11 @@
 6	#	#	X	_	_	8	dep	_	AlignBegin=323240|AlignEnd=324300|Gloss=PUNCT
 7	{	{	X	_	_	8	dep	_	AlignBegin=324270|AlignEnd=324300|Gloss=PUNCT
 8	where	where	ADV	_	PronType=Int	2	ccomp	_	AlignBegin=324300|AlignEnd=324410|Gloss=where.Q|Lang=en
-9	are	be	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Cop	8	advcl:cleft	_	AlignBegin=324410|AlignEnd=324560|Gloss=be.IND.PRS.FIN|Lang=en
+9	are	be	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	advcl:cleft	_	AlignBegin=324410|AlignEnd=324560|Gloss=be.IND.PRS.FIN|Lang=en
 10	my	my	PRON	_	Number=Sing|Person=1|Poss=Yes	9	nsubj	_	AlignBegin=324560|AlignEnd=324730|Gloss=SG.1.POSS|Lang=en
 11	||	||	X	_	_	12	dep	_	AlignBegin=324730|AlignEnd=324760|Gloss=PUNCT
 12	where	where	ADV	_	PronType=Int	8	reparandum	_	AlignBegin=324760|AlignEnd=324880|Gloss=where.Q|Lang=en
-13	is	be	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Cop	12	advcl:cleft	_	AlignBegin=324880|AlignEnd=324990|Gloss=be.IND.SG.3.PRS.FIN|Lang=en
+13	is	be	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	advcl:cleft	_	AlignBegin=324880|AlignEnd=324990|Gloss=be.IND.SG.3.PRS.FIN|Lang=en
 14	my	my	PRON	_	Number=Sing|Person=1|Poss=Yes	16	nmod:poss	_	AlignBegin=324990|AlignEnd=325101|Gloss=SG.1.POSS|Lang=en
 15	}	}	X	_	_	8	dep	_	AlignBegin=325101|AlignEnd=325131|Gloss=PUNCT
 16	palace	palace	NOUN	_	_	13	nsubj	_	AlignBegin=325131|AlignEnd=325560|Gloss=palace|Lang=en
@@ -2603,9 +2603,9 @@
 2	dey	dey	AUX	_	Aspect=Imp	3	aux	_	AlignBegin=332887|AlignEnd=332928|Gloss=IPFV
 3	tell	tell	VERB	_	_	0	root	_	AlignBegin=332928|AlignEnd=333040|Gloss=tell
 4	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	3	obj	_	AlignBegin=333040|AlignEnd=333118|Gloss=NOM.2
-5	sey	sey	SCONJ	_	_	15	dep:comp	_	AlignBegin=333118|AlignEnd=333180|Gloss=COMP
-6	[	[	X	_	_	15	dep	_	AlignBegin=333180|AlignEnd=333210|Gloss=PUNCT
-7	anyting	anyting	PRON	_	_	15	dislocated	_	AlignBegin=333210|AlignEnd=333500|Gloss=anything
+5	sey	sey	SCONJ	_	_	16	mark	_	AlignBegin=333118|AlignEnd=333180|Gloss=COMP
+6	[	[	X	_	_	16	dep	_	AlignBegin=333180|AlignEnd=333210|Gloss=PUNCT
+7	anyting	anyting	PRON	_	_	16	dislocated	_	AlignBegin=333210|AlignEnd=333500|Gloss=anything
 8	wey	wey	SCONJ	_	_	9	mark	_	AlignBegin=333500|AlignEnd=333590|Gloss=REL
 9	dey	dey	VERB	_	VerbType=Cop	7	acl:relcl	_	AlignBegin=333590|AlignEnd=333680|Gloss=be
 10	precious	precious	ADJ	_	_	9	xcomp	_	AlignBegin=333680|AlignEnd=334060|Gloss=precious
@@ -2613,13 +2613,13 @@
 12	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	9	obl:arg	_	AlignBegin=334190|AlignEnd=334350|Gloss=ACC.SG.1
 13	<	<	X	_	_	7	dep	_	AlignBegin=334350|AlignEnd=334380|Gloss=PUNCT
 14	#	#	X	_	_	7	dep	_	AlignBegin=334380|AlignEnd=334920|Gloss=PUNCT
-15	na	na	AUX	_	PartType=Cop	3	dep:comp	_	AlignBegin=334920|AlignEnd=334979|ExtPos=SCONJ|Gloss=be|PhraseType=Idiom
-16	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	15	xcomp	_	AlignBegin=334979|AlignEnd=334990|Gloss=NOM.SG.3
+15	na	na	AUX	_	PartType=Cop	16	cop	_	AlignBegin=334920|AlignEnd=334979|Gloss=be
+16	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	ccomp	_	AlignBegin=334979|AlignEnd=334990|Gloss=NOM.SG.3
 17	>+	>+	X	_	_	20	dep	_	AlignBegin=334990|AlignEnd=335020|Gloss=PUNCT
 18	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	20	nsubj	_	AlignBegin=335020|AlignEnd=335100|Gloss=NOM.SG.1
 19	go	go	AUX	_	Aspect=Prosp	20	aux	_	AlignBegin=335100|AlignEnd=335230|Gloss=PROSP
-20	carry	carry	VERB	_	_	15	advcl:cleft	_	AlignBegin=335230|AlignEnd=335570|Gloss=carry
-21	]	]	X	_	_	15	dep	_	AlignBegin=335570|AlignEnd=335600|Gloss=PUNCT
+20	carry	carry	VERB	_	_	16	advcl:cleft	_	AlignBegin=335230|AlignEnd=335570|Gloss=carry
+21	]	]	X	_	_	16	dep	_	AlignBegin=335570|AlignEnd=335600|Gloss=PUNCT
 22	//	//	X	_	_	3	dep	_	AlignBegin=335570|AlignEnd=335600|Gloss=PUNCT
 
 # sent_id = BEN_36_Clever-Girl_MG__118
@@ -2695,12 +2695,12 @@
 16	}	}	X	_	_	11	dep	_	AlignBegin=343589|AlignEnd=343619|Gloss=PUNCT
 17	||	||	X	_	_	21	dep	_	AlignBegin=343589|AlignEnd=343619|Gloss=PUNCT
 18	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	21	nsubj	_	AlignBegin=343619|AlignEnd=343742|Gloss=NOM.2|Lang=en
-19	are	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Cop	21	cop	_	AlignBegin=343742|AlignEnd=343880|Gloss=be.IND.PRS.FIN|Lang=en
+19	are	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	21	cop	_	AlignBegin=343742|AlignEnd=343880|Gloss=be.IND.PRS.FIN|Lang=en
 20	#	#	X	_	_	21	dep	_	AlignBegin=343880|AlignEnd=344260|Gloss=PUNCT
 21	cle~	X	X	_	_	8	reparandum	_	AlignBegin=344260|AlignEnd=344490|Gloss=X|Lang=en
 22	||	||	X	_	_	27	dep	_	AlignBegin=344490|AlignEnd=344520|Gloss=PUNCT
 23	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	27	nsubj	_	AlignBegin=344520|AlignEnd=344630|Gloss=NOM.2|Lang=en
-24	are	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Cop	27	cop	_	AlignBegin=344630|AlignEnd=344680|Gloss=be.IND.PRS.FIN|Lang=en
+24	are	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	27	cop	_	AlignBegin=344630|AlignEnd=344680|Gloss=be.IND.PRS.FIN|Lang=en
 25	a	a	DET	_	Definite=Ind|PronType=Art	27	det	_	AlignBegin=344680|AlignEnd=344780|Gloss=INDF.ART|Lang=en
 26	clever	clever	ADJ	_	_	27	amod	_	AlignBegin=344780|AlignEnd=345237|Gloss=clever|Lang=en
 27	girl	girl	NOUN	_	_	19	reparandum	_	AlignBegin=345237|AlignEnd=345570|Gloss=girl|Lang=en

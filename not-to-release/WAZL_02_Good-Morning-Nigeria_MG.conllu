@@ -222,7 +222,7 @@
 # text_ortho = He is a confirmed kidnapper, he say I kidnap only valuable ladies says ex-soldier.
 1	#	#	X	_	_	6	dep	_	AlignBegin=33215|AlignEnd=33612|Gloss=PUNCT
 2	he	e	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	AlignBegin=33612|AlignEnd=33792|Gloss=NOM.SG.3|Lang=en
-3	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Cop	6	cop	_	AlignBegin=33792|AlignEnd=33922|Gloss=be.IND.SG.3.PRS.FIN|Lang=en
+3	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	AlignBegin=33792|AlignEnd=33922|Gloss=be.IND.SG.3.PRS.FIN|Lang=en
 4	a	a	DET	_	Definite=Ind|PronType=Art	6	det	_	AlignBegin=33922|AlignEnd=34022|Gloss=INDF.ART|Lang=en
 5	confirmed	confirm	VERB	_	Tense=Past|VerbForm=Part	6	acl	_	AlignBegin=34022|AlignEnd=34472|Gloss=confirm.PST.PTCP|Lang=en
 6	kidnapper	kidnapper	NOUN	_	_	0	root	_	AlignBegin=34472|AlignEnd=34983|Gloss=kidnapper|Lang=en
@@ -597,16 +597,16 @@
 # text = na im >+ be di tin wey dey dere //
 # text_en = That's it.
 # text_ortho = Na im be di tin wey dey dere.
-1	na	na	AUX	_	PartType=Cop	0	root	_	AlignBegin=97835|AlignEnd=98005|ExtPos=SCONJ|Gloss=be|PhraseType=Idiom
-2	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	1	xcomp	_	AlignBegin=98005|AlignEnd=98034|Gloss=NOM.SG.3
+1	na	na	AUX	_	PartType=Cop	2	cop	_	AlignBegin=97835|AlignEnd=98005|Gloss=be
+2	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	0	root	_	AlignBegin=98005|AlignEnd=98034|Gloss=NOM.SG.3
 3	>+	>+	X	_	_	6	dep	_	AlignBegin=98034|AlignEnd=98064|Gloss=PUNCT
 4	be	be	AUX	_	PartType=Cop	6	cop	_	AlignBegin=98064|AlignEnd=98135|Gloss=be
 5	di	di	DET	_	Definite=Def|PronType=Art	6	det	_	AlignBegin=98135|AlignEnd=98246|Gloss=DEF.ART
-6	tin	ting	NOUN	_	_	1	advcl:cleft	_	AlignBegin=98246|AlignEnd=98435|Gloss=thing
+6	tin	ting	NOUN	_	_	2	advcl:cleft	_	AlignBegin=98246|AlignEnd=98435|Gloss=thing
 7	wey	wey	SCONJ	_	_	8	mark	_	AlignBegin=98435|AlignEnd=98585|Gloss=REL
 8	dey	dey	VERB	_	VerbType=Cop	6	acl:relcl	_	AlignBegin=98585|AlignEnd=98765|Gloss=be
 9	dere	dere	ADV	_	_	8	xcomp	_	AlignBegin=98765|AlignEnd=99277|Gloss=there
-10	//	//	X	_	_	1	dep	_	AlignBegin=99277|AlignEnd=99307|Gloss=PUNCT
+10	//	//	X	_	_	2	dep	_	AlignBegin=99277|AlignEnd=99307|Gloss=PUNCT
 
 # sent_id = WAZL_02_Good-Morning-Nigeria_MG__27
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/WAZL_02_Good-Morning-Nigeria_MG.mp3
@@ -835,7 +835,7 @@
 # text_en = I'm very happy.
 # text_ortho = I'm very happy.
 1	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	AlignBegin=139220|AlignEnd=139300|Gloss=NOM.SG.1|Lang=en
-2	'm	be	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|VerbType=Cop	4	aux	_	AlignBegin=139220|AlignEnd=139300|Gloss=be.IND.SG.1.PRS.FIN|Lang=en
+2	'm	be	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	AlignBegin=139220|AlignEnd=139300|Gloss=be.IND.SG.1.PRS.FIN|Lang=en
 3	very	very	ADV	_	_	4	advmod	_	AlignBegin=139300|AlignEnd=139621|Gloss=very|Lang=en
 4	happy	happy	ADJ	_	_	0	root	_	AlignBegin=139621|AlignEnd=139902|Gloss=happy|Lang=en
 5	//	//	X	_	_	4	dep	_	AlignBegin=139902|AlignEnd=139932|Gloss=PUNCT
@@ -947,18 +947,18 @@
 # text = # ehn na im family >+ na im talk dat one //
 # text_en = That was announced by his family.
 # text_ortho = Ehn na im family na im talk dat one.
-1	#	#	X	_	_	3	dep	_	AlignBegin=158994|AlignEnd=159295|Gloss=PUNCT
-2	ehn	ehn	INTJ	_	_	3	discourse	_	AlignBegin=159295|AlignEnd=159465|Gloss=ehn
-3	na	na	AUX	_	PartType=Cop	0	root	_	AlignBegin=159465|AlignEnd=159565|ExtPos=SCONJ|Gloss=be|PhraseType=Idiom
+1	#	#	X	_	_	5	dep	_	AlignBegin=158994|AlignEnd=159295|Gloss=PUNCT
+2	ehn	ehn	INTJ	_	_	5	discourse	_	AlignBegin=159295|AlignEnd=159465|Gloss=ehn
+3	na	na	AUX	_	PartType=Cop	5	cop	_	AlignBegin=159465|AlignEnd=159565|Gloss=be
 4	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	5	dep	_	AlignBegin=159565|AlignEnd=159625|ExtPos=SCONJ|Gloss=NOM.SG.3|PhraseType=Idiom
-5	family	family	NOUN	_	_	3	xcomp	_	AlignBegin=159625|AlignEnd=159985|Gloss=family
-6	>+	>+	X	_	_	9	dep	_	AlignBegin=159985|AlignEnd=160015|Gloss=PUNCT
-7	na	na	AUX	_	PartType=Cop	9	mark	_	AlignBegin=160015|AlignEnd=160185|ExtPos=SCONJ|Gloss=be|PhraseType=Idiom
-8	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	7	fixed	_	AlignBegin=160015|AlignEnd=160185|Gloss=NOM.SG.3|InIdiom=Yes
-9	talk	talk	VERB	_	_	3	advcl:cleft	_	AlignBegin=160185|AlignEnd=160375|Gloss=talk
+5	family	family	NOUN	_	_	0	root	_	AlignBegin=159625|AlignEnd=159985|Gloss=family
+6	>+	>+	X	_	_	8	dep	_	AlignBegin=159985|AlignEnd=160015|Gloss=PUNCT
+7	na	na	AUX	_	PartType=Cop	8	cop	_	AlignBegin=160015|AlignEnd=160185|Gloss=be
+8	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	5	advcl:cleft	_	AlignBegin=160015|AlignEnd=160185|Gloss=NOM.SG.3|InIdiom=Yes
+9	talk	talk	VERB	_	_	8	ccomp	_	AlignBegin=160185|AlignEnd=160375|Gloss=talk
 10	dat	dat	DET	_	Number=Sing|PronType=Dem	11	det	_	AlignBegin=160375|AlignEnd=160545|Gloss=SG.DEM
 11	one	one	NOUN	_	_	9	obj	_	AlignBegin=160545|AlignEnd=160726|Gloss=one
-12	//	//	X	_	_	3	dep	_	AlignBegin=160726|AlignEnd=160756|Gloss=PUNCT
+12	//	//	X	_	_	5	dep	_	AlignBegin=160726|AlignEnd=160756|Gloss=PUNCT
 
 # sent_id = WAZL_02_Good-Morning-Nigeria_MG__45
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/WAZL_02_Good-Morning-Nigeria_MG.mp3
@@ -1200,12 +1200,12 @@
 # text = # dat was how de were able to save more dan a hundred girls > # all of dem < { # different |r different } pockets of &//
 # text_en = That was how they were able to save more than a hundred girls, all of them from different pockets of...
 # text_ortho = Dat was how de were able to save more dan a hundred girls, all of dem, different, different pockets of...
-1	#	#	X	_	_	3	dep	_	AlignBegin=203455|AlignEnd=204091|Gloss=PUNCT
-2	dat	dat	PRON	_	Number=Sing|PronType=Dem	3	nsubj	_	AlignBegin=204091|AlignEnd=204225|Gloss=SG.DEM|Lang=en
-3	was	be	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|VerbType=Cop	0	root	_	AlignBegin=204225|AlignEnd=204385|Gloss=be.IND.SG.1.PST.FIN|Lang=en
-4	how	how	ADV	_	PronType=Int	3	dep:comp	_	AlignBegin=204385|AlignEnd=204485|Gloss=how.Q|Lang=en
+1	#	#	X	_	_	4	dep	_	AlignBegin=203455|AlignEnd=204091|Gloss=PUNCT
+2	dat	dat	PRON	_	Number=Sing|PronType=Dem	4	nsubj	_	AlignBegin=204091|AlignEnd=204225|Gloss=SG.DEM|Lang=en
+3	was	be	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Past	4	cop	_	AlignBegin=204225|AlignEnd=204385|Gloss=be.IND.SG.1.PST.FIN|Lang=en
+4	how	how	ADV	_	PronType=Int	0	root	_	AlignBegin=204385|AlignEnd=204485|Gloss=how.Q|Lang=en
 5	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	AlignBegin=204485|AlignEnd=204583|Gloss=NOM.PL.3|Lang=en
-6	were	be	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|VerbType=Cop	7	cop	_	AlignBegin=204583|AlignEnd=204695|Gloss=be.IND.PST.FIN|Lang=en
+6	were	be	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	7	cop	_	AlignBegin=204583|AlignEnd=204695|Gloss=be.IND.PST.FIN|Lang=en
 7	able	able	ADJ	_	_	4	acl:relcl	_	AlignBegin=204695|AlignEnd=204885|Gloss=able|Lang=en
 8	to	to	ADP	_	_	9	mark	_	AlignBegin=204885|AlignEnd=205045|Gloss=to|Lang=en
 9	save	save	VERB	_	_	7	ccomp	_	AlignBegin=205045|AlignEnd=205415|Gloss=save|Lang=en
@@ -1228,7 +1228,7 @@
 26	}	}	X	_	_	23	dep	_	AlignBegin=209960|AlignEnd=209990|Gloss=PUNCT
 27	pockets	pocket	NOUN	_	Number=Plur	9	dislocated	_	AlignBegin=209990|AlignEnd=210330|Gloss=pocket.PL|Lang=en
 28	of	of	ADP	_	_	27	dep	_	AlignBegin=210330|AlignEnd=210466|Gloss=of|Lang=en
-29	&//	&//	X	_	_	3	dep	_	AlignBegin=210466|AlignEnd=210496|Gloss=PUNCT
+29	&//	&//	X	_	_	4	dep	_	AlignBegin=210466|AlignEnd=210496|Gloss=PUNCT
 
 # sent_id = WAZL_02_Good-Morning-Nigeria_MG__56
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/WAZL_02_Good-Morning-Nigeria_MG.mp3
@@ -1271,13 +1271,13 @@
 2	today	today	NOUN	_	_	5	obl:mod	_	AlignBegin=213530|AlignEnd=213880|Gloss=today|Lang=en
 3	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	AlignBegin=213880|AlignEnd=213972|Gloss=NOM.PL.1|Lang=en
 4	might	might	AUX	_	_	5	aux	_	AlignBegin=213972|AlignEnd=214140|Gloss=may.COND|Lang=en
-5	be	be	VERB	_	PartType=Cop	0	root	_	AlignBegin=214140|AlignEnd=214308|Gloss=be|Lang=en
+5	be	be	VERB	_	_	0	root	_	AlignBegin=214140|AlignEnd=214308|Gloss=be|Lang=en
 6	play	play	VERB	_	_	5	xcomp	_	AlignBegin=214308|AlignEnd=214626|Gloss=play|Lang=en
 7	|c	|c	X	_	_	13	dep	_	AlignBegin=214626|AlignEnd=214656|Gloss=PUNCT
 8	#	#	X	_	_	13	dep	_	AlignBegin=214656|AlignEnd=214975|Gloss=PUNCT
 9	but	but	CCONJ	_	_	13	cc	_	AlignBegin=214975|AlignEnd=215070|Gloss=but|Lang=en
 10	dis	dis	PRON	_	Number=Sing|PronType=Dem	13	nsubj	_	AlignBegin=215070|AlignEnd=215310|Gloss=SG.DEM|Lang=en
-11	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Cop	13	cop	_	AlignBegin=215310|AlignEnd=215433|Gloss=be.IND.SG.3.PRS.FIN|Lang=en
+11	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	AlignBegin=215310|AlignEnd=215433|Gloss=be.IND.SG.3.PRS.FIN|Lang=en
 12	not	not	PART	_	Polarity=Neg	13	advmod	_	AlignBegin=215433|AlignEnd=215610|Gloss=NEG|Lang=en
 13	play	play	NOUN	_	_	5	conj	_	AlignBegin=215610|AlignEnd=215879|Gloss=play|Lang=en
 14	//	//	X	_	_	5	dep	_	AlignBegin=215879|AlignEnd=215909|Gloss=PUNCT
@@ -1360,7 +1360,7 @@
 # text_en = It was such a di-... a disheartening story to read, if you're a mother.
 # text_ortho = It was such a di-... a disheartening ehn story to read if you be mama of pikin.
 1	it	it	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	AlignBegin=228075|AlignEnd=228355|Gloss=NOM.NT.SG.3|Lang=en
-2	was	be	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|VerbType=Cop	6	cop	_	AlignBegin=228355|AlignEnd=228575|Gloss=be.IND.SG.1.PST.FIN|Lang=en
+2	was	be	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	6	cop	_	AlignBegin=228355|AlignEnd=228575|Gloss=be.IND.SG.1.PST.FIN|Lang=en
 3	such	such	ADV	_	_	5	advmod	_	AlignBegin=228575|AlignEnd=228825|Gloss=such|Lang=en
 4	{	{	X	_	_	6	dep	_	AlignBegin=228825|AlignEnd=228855|Gloss=PUNCT
 5	a	a	DET	_	Definite=Ind|PronType=Art	6	det	_	AlignBegin=228855|AlignEnd=228965|Gloss=INDF.ART|Lang=en
@@ -1390,7 +1390,7 @@
 # text_ortho = I'm so happy dat Lagos State government don take dis tin up.
 1	#	#	X	_	_	5	dep	_	AlignBegin=232268|AlignEnd=232757|Gloss=PUNCT
 2	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	AlignBegin=232757|AlignEnd=232905|Gloss=NOM.SG.1|Lang=en
-3	'm	be	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|VerbType=Cop	5	aux	_	AlignBegin=232757|AlignEnd=232905|Gloss=I.be.IND.SG.1.PRS.FIN|Lang=en
+3	'm	be	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	AlignBegin=232757|AlignEnd=232905|Gloss=I.be.IND.SG.1.PRS.FIN|Lang=en
 4	so	so	ADV	_	_	5	advmod	_	AlignBegin=232905|AlignEnd=233112|Gloss=so
 5	happy	happy	ADJ	_	_	0	root	_	AlignBegin=233112|AlignEnd=233395|Gloss=happy
 6	dat	dat	PRON	_	Number=Sing|PronType=Dem	5	xcomp	_	AlignBegin=233395|AlignEnd=233525|Gloss=SG.DEM

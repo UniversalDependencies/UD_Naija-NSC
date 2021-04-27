@@ -383,9 +383,9 @@
 # text = e fit say [ im go collect two five ] //
 # text_en = He said he would collect two thousand five.
 # text_ortho = E fit say im go collect two five.
-1	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	AlignBegin=51420|AlignEnd=51450|Gloss=NOM.SG.3
-2	fit	fit	AUX	_	Mood=Pot	0	root	_	AlignBegin=51450|AlignEnd=51540|Gloss=ABIL
-3	say	say	VERB	_	_	2	dep:comp	_	AlignBegin=51540|AlignEnd=51630|Gloss=say
+1	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	AlignBegin=51420|AlignEnd=51450|Gloss=NOM.SG.3
+2	fit	fit	AUX	_	Mood=Pot	3	aux	_	AlignBegin=51450|AlignEnd=51540|Gloss=ABIL
+3	say	say	VERB	_	_	0	root	_	AlignBegin=51540|AlignEnd=51630|Gloss=say
 4	[	[	X	_	_	7	dep	_	AlignBegin=51630|AlignEnd=51660|Gloss=PUNCT
 5	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	AlignBegin=51660|AlignEnd=51790|Gloss=NOM.SG.3
 6	go	go	AUX	_	Aspect=Prosp	7	aux	_	AlignBegin=51790|AlignEnd=51890|Gloss=PROSP
@@ -393,7 +393,7 @@
 8	two	two	NUM	_	NumType=Card	7	obj	_	AlignBegin=52152|AlignEnd=52310|Gloss=two.CARD
 9	five	five	NUM	_	NumType=Card	8	flat	_	AlignBegin=52310|AlignEnd=52693|Gloss=five.CARD
 10	]	]	X	_	_	7	dep	_	AlignBegin=52693|AlignEnd=52723|Gloss=PUNCT
-11	//	//	X	_	_	2	dep	_	AlignBegin=52693|AlignEnd=52723|Gloss=PUNCT
+11	//	//	X	_	_	3	dep	_	AlignBegin=52693|AlignEnd=52723|Gloss=PUNCT
 
 # sent_id = ENU_33_A-Beg_MG__23
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ENU_33_A-Beg_MG.mp3
@@ -811,13 +811,13 @@
 # text = na im >+ dey torment us //
 # text_en = That's what's tormenting us.
 # text_ortho = Na im dey torment us.
-1	na	na	AUX	_	PartType=Cop	0	root	_	AlignBegin=104234|AlignEnd=104344|ExtPos=SCONJ|Gloss=be|PhraseType=Idiom
-2	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	1	xcomp	_	AlignBegin=104344|AlignEnd=104425|Gloss=NOM.SG.3
+1	na	na	AUX	_	PartType=Cop	2	cop	_	AlignBegin=104234|AlignEnd=104344|Gloss=be
+2	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	0	root	_	AlignBegin=104344|AlignEnd=104425|Gloss=NOM.SG.3
 3	>+	>+	X	_	_	5	dep	_	AlignBegin=104425|AlignEnd=104455|Gloss=PUNCT
 4	dey	dey	AUX	_	Aspect=Imp	5	aux	_	AlignBegin=104455|AlignEnd=104569|Gloss=IPFV
-5	torment	torment	VERB	_	_	1	advcl:cleft	_	AlignBegin=104569|AlignEnd=104914|Gloss=torment
+5	torment	torment	VERB	_	_	2	advcl:cleft	_	AlignBegin=104569|AlignEnd=104914|Gloss=torment
 6	us	us	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	5	obj	_	AlignBegin=104914|AlignEnd=105095|Gloss=ACC.PL.1
-7	//	//	X	_	_	1	dep	_	AlignBegin=105095|AlignEnd=105125|Gloss=PUNCT
+7	//	//	X	_	_	2	dep	_	AlignBegin=105095|AlignEnd=105125|Gloss=PUNCT
 
 # sent_id = ENU_33_A-Beg_MG__45
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ENU_33_A-Beg_MG.mp3
@@ -1144,7 +1144,7 @@
 7	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	obj	_	AlignBegin=140120|AlignEnd=140215|Gloss=ACC.SG.1
 8	what	what	PRON	_	PronType=Int	6	obj	_	AlignBegin=140215|AlignEnd=140408|Gloss=what.Q|Lang=en
 9	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	AlignBegin=140408|AlignEnd=140498|Gloss=NOM.SG.1|Lang=en
-10	am	be	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|VerbType=Cop	8	acl:relcl	_	AlignBegin=140498|AlignEnd=140604|Gloss=be.IND.SG.1.PRS.FIN|Lang=en
+10	am	be	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	AlignBegin=140498|AlignEnd=140604|Gloss=be.IND.SG.1.PRS.FIN|Lang=en
 11	today	today	NOUN	_	_	10	obl:mod	_	AlignBegin=140604|AlignEnd=140853|Gloss=today|Lang=en
 12	//	//	X	_	_	4	dep	_	AlignBegin=140853|AlignEnd=140883|Gloss=PUNCT
 
@@ -1293,7 +1293,7 @@
 11	dis	dis	DET	_	Number=Sing|PronType=Dem	9	reparandum	_	AlignBegin=162010|AlignEnd=162157|Gloss=SG.DEM
 12	||	||	X	_	_	13	dep	_	AlignBegin=162157|AlignEnd=162187|Gloss=PUNCT
 13	dis	dis	DET	_	Number=Sing|PronType=Dem	11	reparandum	_	AlignBegin=162187|AlignEnd=162407|Gloss=SG.DEM
-14	life	life	NOUN	_	_	4	xcomp	_	AlignBegin=162407|AlignEnd=162547|Gloss=life
+14	life	life	NOUN	_	_	4	nsubj	_	AlignBegin=162407|AlignEnd=162547|Gloss=life
 15	||	||	X	_	_	17	dep	_	AlignBegin=162547|AlignEnd=162577|Gloss=PUNCT
 16	dis	dis	DET	_	Number=Sing|PronType=Dem	17	det	_	AlignBegin=162577|AlignEnd=162847|Gloss=SG.DEM
 17	life	life	NOUN	_	_	14	reparandum	_	AlignBegin=162847|AlignEnd=163243|Gloss=life
@@ -1320,17 +1320,17 @@
 12	}	}	X	_	_	4	dep	_	AlignBegin=165515|AlignEnd=165545|Gloss=PUNCT
 13	#	#	X	_	_	15	dep	_	AlignBegin=165545|AlignEnd=165987|Gloss=PUNCT
 14	as	as	ADP	_	_	15	case	_	AlignBegin=165987|AlignEnd=166157|Gloss=as
-15	mgbe	mgbe	X	_	_	11	obj	_	AlignBegin=166187|AlignEnd=166437|Gloss=X|Lang=ig
-16	a	X	X	_	_	15	flat:foreign	_	AlignBegin=166437|AlignEnd=166510|Gloss=X|Lang=ig
-17	gasi	gas	NOUN	_	_	16	flat:foreign	_	AlignBegin=166510|AlignEnd=166717|Gloss=gas|Lang=ig
-18	na	na	X	_	_	17	flat:foreign	_	AlignBegin=166717|AlignEnd=166777|Gloss=X|Lang=ig
-19	uwa	uwa	X	_	_	18	flat:foreign	_	AlignBegin=166777|AlignEnd=166910|Gloss=X|Lang=ig
-20	ne	X	X	_	_	19	flat:foreign	_	AlignBegin=166910|AlignEnd=167007|Gloss=X|Lang=ig
-21	eme	eme	X	_	_	20	flat:foreign	_	AlignBegin=167007|AlignEnd=167127|Gloss=X|Lang=ig
-22	ntughari	ntughari	X	_	_	21	flat:foreign	_	AlignBegin=167127|AlignEnd=167832|Gloss=X|Lang=ig
-23	na	na	X	_	_	22	flat:foreign	_	AlignBegin=167832|AlignEnd=168218|Gloss=X|Lang=ig
-24	eziokwu	eziokwu	NOUN	_	_	23	flat:foreign	_	AlignBegin=168218|AlignEnd=168789|Gloss=truth|Lang=ig
-25	true	true	ADJ	_	_	24	flat:foreign	_	AlignBegin=168789|AlignEnd=168982|Gloss=true|Lang=ig
+15	mgbe	mgbe	X	_	_	11	obj	_	AlignBegin=166187|AlignEnd=166437|Gloss=X
+16	a	X	X	_	_	15	flat:foreign	_	AlignBegin=166437|AlignEnd=166510|Gloss=X
+17	gasi	gas	NOUN	_	_	16	flat:foreign	_	AlignBegin=166510|AlignEnd=166717|Gloss=gas
+18	na	na	X	_	_	17	flat:foreign	_	AlignBegin=166717|AlignEnd=166777|Gloss=X
+19	uwa	uwa	X	_	_	18	flat:foreign	_	AlignBegin=166777|AlignEnd=166910|Gloss=X
+20	ne	X	X	_	_	19	flat:foreign	_	AlignBegin=166910|AlignEnd=167007|Gloss=X
+21	eme	eme	X	_	_	20	flat:foreign	_	AlignBegin=167007|AlignEnd=167127|Gloss=X
+22	ntughari	ntughari	X	_	_	21	flat:foreign	_	AlignBegin=167127|AlignEnd=167832|Gloss=X
+23	na	na	X	_	_	22	flat:foreign	_	AlignBegin=167832|AlignEnd=168218|Gloss=X
+24	eziokwu	eziokwu	NOUN	_	_	23	flat:foreign	_	AlignBegin=168218|AlignEnd=168789|Gloss=truth
+25	true	true	ADJ	_	_	24	flat:foreign	_	AlignBegin=168789|AlignEnd=168982|Gloss=true
 26	//	//	X	_	_	4	dep	_	AlignBegin=168982|AlignEnd=169012|Gloss=PUNCT
 
 # sent_id = ENU_33_A-Beg_MG__71
@@ -1340,10 +1340,10 @@
 # text_en = O ne eme ntughari.
 # text_ortho = O ne eme ntughari.
 1	#	#	X	_	_	2	dep	_	AlignBegin=169012|AlignEnd=169246|Gloss=PUNCT
-2	o	o	PART	_	PartType=Disc	0	root	_	AlignBegin=169246|AlignEnd=169374|Gloss=EMPH|Lang=ig
-3	ne	X	X	_	_	2	flat	_	AlignBegin=169374|AlignEnd=169532|Gloss=X|Lang=ig
-4	eme	eme	X	_	_	2	flat	_	AlignBegin=169532|AlignEnd=169586|Gloss=X|Lang=ig
-5	ntughari	ntughari	X	_	_	2	flat	_	AlignBegin=169586|AlignEnd=170021|Gloss=X|Lang=ig
+2	o	o	PART	_	PartType=Disc	0	root	_	AlignBegin=169246|AlignEnd=169374|Gloss=EMPH
+3	ne	X	X	_	_	2	flat	_	AlignBegin=169374|AlignEnd=169532|Gloss=X
+4	eme	eme	X	_	_	2	flat	_	AlignBegin=169532|AlignEnd=169586|Gloss=X
+5	ntughari	ntughari	X	_	_	2	flat	_	AlignBegin=169586|AlignEnd=170021|Gloss=X
 6	//	//	X	_	_	2	dep	_	AlignBegin=170021|AlignEnd=170051|Gloss=PUNCT
 
 # sent_id = ENU_33_A-Beg_MG__72
@@ -1635,19 +1635,19 @@
 # text = # na im >+ wey we go [ God > abeg !//] //
 # text_en = That's why we go begging God.
 # text_ortho = Na im wey we go God abeg!
-1	#	#	X	_	_	2	dep	_	AlignBegin=203207|AlignEnd=204064|Gloss=PUNCT
-2	na	na	AUX	_	PartType=Cop	0	root	_	AlignBegin=204064|AlignEnd=204264|ExtPos=SCONJ|Gloss=be|PhraseType=Idiom
-3	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	xcomp	_	AlignBegin=204264|AlignEnd=204304|Gloss=NOM.SG.3
+1	#	#	X	_	_	3	dep	_	AlignBegin=203207|AlignEnd=204064|Gloss=PUNCT
+2	na	na	AUX	_	PartType=Cop	3	cop	_	AlignBegin=204064|AlignEnd=204264|Gloss=be
+3	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	0	root	_	AlignBegin=204264|AlignEnd=204304|Gloss=NOM.SG.3
 4	>+	>+	X	_	_	7	dep	_	AlignBegin=204304|AlignEnd=204334|Gloss=PUNCT
 5	wey	when	SCONJ	_	_	7	mark	_	AlignBegin=204334|AlignEnd=204451|Gloss=when
 6	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	AlignBegin=204451|AlignEnd=204630|Gloss=NOM.PL.1
-7	go	go	VERB	_	_	2	advcl:cleft	_	AlignBegin=204630|AlignEnd=204761|Gloss=go
+7	go	go	VERB	_	_	3	advcl:cleft	_	AlignBegin=204630|AlignEnd=204761|Gloss=go
 8	[	[	X	_	_	11	dep	_	AlignBegin=204761|AlignEnd=204834|Gloss=PUNCT
 9	God	God	PROPN	_	_	11	vocative	_	AlignBegin=204761|AlignEnd=204834|Gloss=God
 10	>	>	X	_	_	9	dep	_	AlignBegin=204761|AlignEnd=204834|Gloss=PUNCT
 11	abeg	abeg	INTJ	_	_	7	parataxis	_	AlignBegin=204864|AlignEnd=205424|Gloss=please
 12	!//]	!//]	X	_	_	11	dep	_	AlignBegin=205424|AlignEnd=205454|Gloss=PUNCT
-13	//	//	X	_	_	2	dep	_	AlignBegin=205424|AlignEnd=205454|Gloss=PUNCT
+13	//	//	X	_	_	3	dep	_	AlignBegin=205424|AlignEnd=205454|Gloss=PUNCT
 
 # sent_id = ENU_33_A-Beg_MG__90
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ENU_33_A-Beg_MG.mp3

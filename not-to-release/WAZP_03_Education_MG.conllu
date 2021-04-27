@@ -87,7 +87,7 @@
 2	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	expl:subj	_	AlignBegin=10440|AlignEnd=10606|Gloss=NOM.SG.3
 3	get	get	VERB	_	_	16	parataxis:dislocated	_	AlignBegin=10606|AlignEnd=10785|Gloss=get
 4	{	{	X	_	_	5	dep	_	AlignBegin=10785|AlignEnd=10815|Gloss=PUNCT
-5	w~	X	X	_	_	3	obj	_	AlignBegin=10815|AlignEnd=10985|Gloss=X
+5	w~	X	X	_	_	3	nsubj	_	AlignBegin=10815|AlignEnd=10985|Gloss=X
 6	||	||	X	_	_	7	dep	_	AlignBegin=10985|AlignEnd=11015|Gloss=PUNCT
 7	where	where	ADV	_	PronType=Int	5	reparandum	_	AlignBegin=11015|AlignEnd=11150|Gloss=where.Q
 8	}	}	X	_	_	5	dep	_	AlignBegin=11150|AlignEnd=11180|Gloss=PUNCT
@@ -837,15 +837,15 @@
 # text = # na im >+ im fader don spend //
 # text_en = That's what the father has spent.
 # text_ortho = Na im im fader don spend.
-1	#	#	X	_	_	2	dep	_	AlignBegin=119939|AlignEnd=120185|Gloss=PUNCT
-2	na	na	AUX	_	PartType=Cop	0	root	_	AlignBegin=120185|AlignEnd=120335|ExtPos=SCONJ|Gloss=be|PhraseType=Idiom
-3	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	xcomp	_	AlignBegin=120335|AlignEnd=120405|Gloss=NOM.SG.3
+1	#	#	X	_	_	3	dep	_	AlignBegin=119939|AlignEnd=120185|Gloss=PUNCT
+2	na	na	AUX	_	PartType=Cop	3	cop	_	AlignBegin=120185|AlignEnd=120335|Gloss=be
+3	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	0	root	_	AlignBegin=120335|AlignEnd=120405|Gloss=NOM.SG.3
 4	>+	>+	X	_	_	8	dep	_	AlignBegin=120405|AlignEnd=120435|Gloss=PUNCT
 5	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	6	nmod:poss	_	AlignBegin=120435|AlignEnd=120494|Gloss=NOM.SG.3
 6	fader	fader	NOUN	_	_	8	nsubj	_	AlignBegin=120494|AlignEnd=120805|Gloss=fader
 7	don	don	AUX	_	Aspect=Perf	8	aux	_	AlignBegin=120805|AlignEnd=120975|Gloss=PRF
-8	spend	spend	VERB	_	_	2	advcl:cleft	_	AlignBegin=120975|AlignEnd=121259|Gloss=spend
-9	//	//	X	_	_	2	dep	_	AlignBegin=121259|AlignEnd=121289|Gloss=PUNCT
+8	spend	spend	VERB	_	_	3	advcl:cleft	_	AlignBegin=120975|AlignEnd=121259|Gloss=spend
+9	//	//	X	_	_	3	dep	_	AlignBegin=121259|AlignEnd=121289|Gloss=PUNCT
 
 # sent_id = WAZP_03_Education_MG__37
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/WAZP_03_Education_MG.mp3
@@ -913,12 +913,12 @@
 # text = # na im >+ dem put inside head of one pikin mey e just dey alive > feeding alone //
 # text_en = That's what was spent on a child, just to keep them alive... feeding alone.
 # text_ortho = Na im dem put inside head of one pikin mey e just dey alive feeding alone.
-1	#	#	X	_	_	2	dep	_	AlignBegin=131406|AlignEnd=131842|Gloss=PUNCT
-2	na	na	AUX	_	PartType=Cop	0	root	_	AlignBegin=131842|AlignEnd=131942|ExtPos=SCONJ|Gloss=be|PhraseType=Idiom
-3	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	xcomp	_	AlignBegin=131942|AlignEnd=131962|Gloss=NOM.SG.3
+1	#	#	X	_	_	3	dep	_	AlignBegin=131406|AlignEnd=131842|Gloss=PUNCT
+2	na	na	AUX	_	PartType=Cop	3	cop	_	AlignBegin=131842|AlignEnd=131942|Gloss=be
+3	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	0	root	_	AlignBegin=131942|AlignEnd=131962|Gloss=NOM.SG.3
 4	>+	>+	X	_	_	6	dep	_	AlignBegin=131962|AlignEnd=131992|Gloss=PUNCT
 5	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	AlignBegin=131992|AlignEnd=132175|Gloss=NOM.PL.3
-6	put	put	VERB	_	_	2	advcl:cleft	_	AlignBegin=132175|AlignEnd=132452|Gloss=put
+6	put	put	VERB	_	_	3	advcl:cleft	_	AlignBegin=132175|AlignEnd=132452|Gloss=put
 7	inside	inside	ADP	_	_	8	case	_	AlignBegin=132452|AlignEnd=132822|Gloss=inside
 8	head	head	NOUN	_	_	6	obl:arg	_	AlignBegin=132822|AlignEnd=132952|Gloss=head
 9	of	of	ADP	_	_	11	case	_	AlignBegin=132952|AlignEnd=133121|Gloss=of
@@ -930,9 +930,9 @@
 15	dey	dey	VERB	_	VerbType=Cop	6	advcl	_	AlignBegin=133983|AlignEnd=134077|Gloss=be
 16	alive	alive	ADJ	_	_	15	xcomp	_	AlignBegin=134077|AlignEnd=134412|Gloss=alive
 17	>	>	X	_	_	18	dep	_	AlignBegin=134412|AlignEnd=134442|Gloss=PUNCT
-18	feeding	feeding	NOUN	_	_	2	dislocated	_	AlignBegin=134442|AlignEnd=134796|Gloss=feeding
+18	feeding	feeding	NOUN	_	_	3	dislocated	_	AlignBegin=134442|AlignEnd=134796|Gloss=feeding
 19	alone	alone	ADJ	_	_	18	amod	_	AlignBegin=134796|AlignEnd=135306|Gloss=alone
-20	//	//	X	_	_	2	dep	_	AlignBegin=135306|AlignEnd=135336|Gloss=PUNCT
+20	//	//	X	_	_	3	dep	_	AlignBegin=135306|AlignEnd=135336|Gloss=PUNCT
 
 # sent_id = WAZP_03_Education_MG__40
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/WAZP_03_Education_MG.mp3
@@ -1083,7 +1083,7 @@
 27	roam	roam	VERB	_	_	21	advcl	_	AlignBegin=156100|AlignEnd=156299|Gloss=roam
 28	about	about	ADP	_	_	27	compound:prt	_	AlignBegin=156299|AlignEnd=156662|Gloss=about
 29	#	#	X	_	_	19	dep	_	AlignBegin=156662|AlignEnd=156935|Gloss=PUNCT
-30	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Cop	31	cop	_	AlignBegin=156935|AlignEnd=157125|Gloss=be.IND.SG.3.PRS.FIN|Lang=en
+30	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	cop	_	AlignBegin=156935|AlignEnd=157125|Gloss=be.IND.SG.3.PRS.FIN|Lang=en
 31	worth	worth	ADJ	_	_	0	root	_	AlignBegin=157125|AlignEnd=157428|Gloss=worth|Lang=en
 32	over	over	ADP	_	_	35	case	_	AlignBegin=157428|AlignEnd=157655|Gloss=over|Lang=en
 33	seventy	seventy	NUM	_	NumType=Card	35	nummod	_	AlignBegin=157655|AlignEnd=158225|Gloss=seventy.CARD|Lang=en
@@ -1197,13 +1197,13 @@
 # text = # tell me < # { pikin { wey graduate |c wey worth { seventy million |c plus feeding budget |c and education } } |c # plus school wey lecturer no kuku dey } ( # na few wey just get di lecturer ) < # now wey graduate # con dey work job of fifty thousand < # if dat pikin # na truly financial investment from di parents < # na im >+ be sey [ dat pikin no go fit pay im mama till { e || e } die reincarnate even seven times ] //
 # text_en = Tell me, a chid that graduates, that is worth seventy million, and a food budget budget, and education, including schools that lack lecturers (only a few have lecturers), who graduates and gets a job for fifty thousand, if that child is truly a financial investment to their parents, it means that child will not be able to pay back their mom until they, they die and are reborn seven times over.
 # text_ortho = Tell me, pikin wey graduate, wey worth seventy million, plus feeding budget, and education, plus school wey lecturer no kuku dey (na few wey just get di lecturer), now wey graduate con dey work job of fifty thousand, if dat pikin na truly financial investment from di parents, na im be sey dat pikin no go fit pay im mama till e, e die reincarnate even seven times.
-1	#	#	X	_	_	74	dep	_	AlignBegin=172120|AlignEnd=172411|Gloss=PUNCT
-2	tell	tell	VERB	_	_	74	parataxis:discourse	_	AlignBegin=172411|AlignEnd=172580|Gloss=tell
+1	#	#	X	_	_	75	dep	_	AlignBegin=172120|AlignEnd=172411|Gloss=PUNCT
+2	tell	tell	VERB	_	_	75	parataxis:discourse	_	AlignBegin=172411|AlignEnd=172580|Gloss=tell
 3	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obj	_	AlignBegin=172580|AlignEnd=172791|Gloss=ACC.SG.1
 4	<	<	X	_	_	2	dep	_	AlignBegin=172791|AlignEnd=172933|Gloss=PUNCT
 5	#	#	X	_	_	2	dep	_	AlignBegin=172791|AlignEnd=172933|Gloss=PUNCT
 6	{	{	X	_	_	7	dep	_	AlignBegin=172791|AlignEnd=172933|Gloss=PUNCT
-7	pikin	pikin	NOUN	_	_	74	dislocated	_	AlignBegin=172933|AlignEnd=173209|Gloss=child
+7	pikin	pikin	NOUN	_	_	75	dislocated	_	AlignBegin=172933|AlignEnd=173209|Gloss=child
 8	{	{	X	_	_	10	dep	_	AlignBegin=173209|AlignEnd=173239|Gloss=PUNCT
 9	wey	wey	SCONJ	_	_	10	mark	_	AlignBegin=173239|AlignEnd=173384|Gloss=REL
 10	graduate	graduate	VERB	_	_	7	acl:relcl	_	AlignBegin=173384|AlignEnd=173974|Gloss=graduate
@@ -1244,7 +1244,7 @@
 45	)	)	X	_	_	39	dep	_	AlignBegin=180095|AlignEnd=180480|Gloss=PUNCT
 46	<	<	X	_	_	7	dep	_	AlignBegin=180095|AlignEnd=180480|Gloss=PUNCT
 47	#	#	X	_	_	7	dep	_	AlignBegin=180095|AlignEnd=180480|Gloss=PUNCT
-48	now	now	ADV	_	_	74	advmod	_	AlignBegin=180480|AlignEnd=180640|Gloss=now
+48	now	now	ADV	_	_	75	advmod	_	AlignBegin=180480|AlignEnd=180640|Gloss=now
 49	wey	wey	SCONJ	_	_	54	mark	_	AlignBegin=180640|AlignEnd=180770|Gloss=REL
 50	graduate	graduate	VERB	_	_	54	csubj	_	AlignBegin=180800|AlignEnd=181530|Gloss=graduate
 51	#	#	X	_	_	50	dep	_	AlignBegin=181560|AlignEnd=181960|Gloss=PUNCT
@@ -1264,14 +1264,14 @@
 65	na	na	AUX	_	PartType=Cop	68	cop	_	AlignBegin=184721|AlignEnd=184941|Gloss=be
 66	truly	truly	ADV	_	_	68	advmod	_	AlignBegin=184941|AlignEnd=185251|Gloss=truly
 67	financial	financial	ADJ	_	_	68	amod	_	AlignBegin=185251|AlignEnd=185821|Gloss=financial
-68	investment	investment	NOUN	_	_	74	advcl	_	AlignBegin=185821|AlignEnd=186344|Gloss=investment
+68	investment	investment	NOUN	_	_	75	advcl	_	AlignBegin=185821|AlignEnd=186344|Gloss=investment
 69	from	from	ADP	_	_	71	case	_	AlignBegin=186344|AlignEnd=186581|Gloss=from
 70	di	di	DET	_	Definite=Def|PronType=Art	71	det	_	AlignBegin=186581|AlignEnd=186711|Gloss=DEF.ART
 71	parents	parent	NOUN	_	Number=Plur	68	nmod	_	AlignBegin=186711|AlignEnd=187067|Gloss=parent.PL
 72	<	<	X	_	_	68	dep	_	AlignBegin=187067|AlignEnd=187097|Gloss=PUNCT
 73	#	#	X	_	_	68	dep	_	AlignBegin=187097|AlignEnd=187427|Gloss=PUNCT
-74	na	na	AUX	_	PartType=Cop	0	root	_	AlignBegin=187427|AlignEnd=187547|ExtPos=SCONJ|Gloss=be|PhraseType=Idiom
-75	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	74	xcomp	_	AlignBegin=187547|AlignEnd=187577|Gloss=NOM.SG.3
+74	na	na	AUX	_	PartType=Cop	75	cop	_	AlignBegin=187427|AlignEnd=187547|Gloss=be
+75	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	0	root	_	AlignBegin=187547|AlignEnd=187577|Gloss=NOM.SG.3
 76	>+	>+	X	_	_	85	dep	_	AlignBegin=187547|AlignEnd=187577|Gloss=PUNCT
 77	be	be	AUX	_	PartType=Cop	85	cop	_	AlignBegin=187577|AlignEnd=187678|Gloss=be
 78	sey	sey	SCONJ	_	_	85	mark	_	AlignBegin=187678|AlignEnd=187777|Gloss=COMP
@@ -1281,7 +1281,7 @@
 82	no	no	PART	_	Polarity=Neg	85	advmod	_	AlignBegin=188247|AlignEnd=188367|Gloss=NEG
 83	go	go	AUX	_	Aspect=Prosp	85	aux	_	AlignBegin=188367|AlignEnd=188486|Gloss=PROSP
 84	fit	fit	AUX	_	Mood=Pot	85	aux	_	AlignBegin=188486|AlignEnd=188637|Gloss=ABIL
-85	pay	pay	VERB	_	_	74	advcl:cleft	_	AlignBegin=188637|AlignEnd=188806|Gloss=pay
+85	pay	pay	VERB	_	_	75	advcl:cleft	_	AlignBegin=188637|AlignEnd=188806|Gloss=pay
 86	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	87	nmod:poss	_	AlignBegin=188806|AlignEnd=188967|Gloss=NOM.SG.3
 87	mama	mama	NOUN	_	_	85	obj	_	AlignBegin=188967|AlignEnd=189307|Gloss=mama
 88	till	till	ADP	_	_	94	mark	_	AlignBegin=189307|AlignEnd=189487|Gloss=till
@@ -1296,7 +1296,7 @@
 97	seven	seven	NUM	_	NumType=Card	98	nummod	_	AlignBegin=191091|AlignEnd=191462|Gloss=seven.CARD
 98	times	time	NOUN	_	Number=Plur	95	obl:mod	_	AlignBegin=191462|AlignEnd=191757|Gloss=time.PL
 99	]	]	X	_	_	85	dep	_	AlignBegin=191757|AlignEnd=191787|Gloss=PUNCT
-100	//	//	X	_	_	74	dep	_	AlignBegin=191757|AlignEnd=191787|Gloss=PUNCT
+100	//	//	X	_	_	75	dep	_	AlignBegin=191757|AlignEnd=191787|Gloss=PUNCT
 
 # sent_id = WAZP_03_Education_MG__53
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/WAZP_03_Education_MG.mp3
@@ -1304,14 +1304,15 @@
 # text = # so it's called wasted # investment //
 # text_en = So it's called a wasted investment.
 # text_ortho = So it's called wasted investment.
-1	#	#	X	_	_	4	dep	_	AlignBegin=191787|AlignEnd=192037|Gloss=PUNCT
-2	so	so	ADV	_	_	4	discourse	_	AlignBegin=192037|AlignEnd=192197|Gloss=so|Lang=en
-3	it's	na	AUX	_	PartType=Cop	4	cop	_	AlignBegin=192197|AlignEnd=192365|Gloss=be|Lang=en
-4	called	call	VERB	_	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	AlignBegin=192365|AlignEnd=192637|Gloss=call.PST.PTCP.PASS|Lang=en
-5	wasted	waste	VERB	_	Tense=Past|VerbForm=Part	7	compound	_	AlignBegin=192637|AlignEnd=193449|Gloss=waste.PST.PTCP|Lang=en
-6	#	#	X	_	_	7	dep	_	AlignBegin=193449|AlignEnd=193668|Gloss=PUNCT
-7	investment	investment	NOUN	_	_	4	xcomp	_	AlignBegin=193668|AlignEnd=194346|Gloss=investment|Lang=en
-8	//	//	X	_	_	4	dep	_	AlignBegin=194346|AlignEnd=194376|Gloss=PUNCT
+1	#	#	X	_	_	5	dep	_	AlignBegin=191787|AlignEnd=192037|Gloss=PUNCT
+2	so	so	ADV	_	_	5	discourse	_	AlignBegin=192037|AlignEnd=192197|Gloss=so|Lang=en
+3	it	it	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3	5	nsubj	_	AlignBegin=192197|AlignEnd=192365|Gloss=NOM.NT.SG.3|Lang=en|SpaceAfter=No
+4	's	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	AlignBegin=192197|AlignEnd=192365|Gloss=be|Lang=en
+5	called	call	VERB	_	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	AlignBegin=192365|AlignEnd=192637|Gloss=call.PST.PTCP.PASS|Lang=en
+6	wasted	waste	VERB	_	Tense=Past|VerbForm=Part	8	compound	_	AlignBegin=192637|AlignEnd=193449|Gloss=waste.PST.PTCP|Lang=en
+7	#	#	X	_	_	8	dep	_	AlignBegin=193449|AlignEnd=193668|Gloss=PUNCT
+8	investment	investment	NOUN	_	_	5	xcomp	_	AlignBegin=193668|AlignEnd=194346|Gloss=investment|Lang=en
+9	//	//	X	_	_	5	dep	_	AlignBegin=194346|AlignEnd=194376|Gloss=PUNCT
 
 # sent_id = WAZP_03_Education_MG__54
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/WAZP_03_Education_MG.mp3
@@ -2281,22 +2282,23 @@
 4	tell	tell	VERB	_	_	0	root	_	AlignBegin=334260|AlignEnd=334410|Gloss=tell|Lang=en
 5	a	a	DET	_	Definite=Ind|PronType=Art	6	det	_	AlignBegin=334410|AlignEnd=334520|Gloss=INDF.ART|Lang=en
 6	man	man	NOUN	_	_	4	obj	_	AlignBegin=334520|AlignEnd=334760|Gloss=man|Lang=en
-7	who	wey	SCONJ	_	_	9	mark	_	AlignBegin=334760|AlignEnd=334860|Gloss=REL|Lang=en
-8	cannot	cannot	AUX	_	_	9	aux	_	AlignBegin=334860|AlignEnd=335115|Gloss=can.NEG|Lang=en
-9	afford	afford	VERB	_	_	6	acl:relcl	_	AlignBegin=335115|AlignEnd=335481|Gloss=afford|Lang=en
-10	three	three	NUM	_	NumType=Card	12	nummod	_	AlignBegin=335481|AlignEnd=335632|Gloss=three.CARD|Lang=en
-11	square	square	ADJ	_	_	12	amod	_	AlignBegin=335632|AlignEnd=335861|Gloss=square|Lang=en
-12	meals	meal	NOUN	_	Number=Plur	9	obj	_	AlignBegin=335861|AlignEnd=336040|Gloss=meal.PL|Lang=en
-13	to	to	ADP	_	_	15	mark	_	AlignBegin=336040|AlignEnd=336140|Gloss=to|Lang=en
-14	{	{	X	_	_	15	dep	_	AlignBegin=336040|AlignEnd=336140|Gloss=PUNCT
-15	go	go	VERB	_	_	4	xcomp	_	AlignBegin=336140|AlignEnd=336230|Gloss=go|Lang=en
-16	|c	|c	X	_	_	18	dep	_	AlignBegin=336230|AlignEnd=336380|Gloss=PUNCT
-17	and	and	CCONJ	_	_	18	cc	_	AlignBegin=336230|AlignEnd=336380|Gloss=and|Lang=en
-18	change	change	VERB	_	_	15	conj	_	AlignBegin=336380|AlignEnd=336547|Gloss=change|Lang=en
-19	di	di	DET	_	Definite=Def|PronType=Art	20	det	_	AlignBegin=336547|AlignEnd=336667|Gloss=DEF.ART|Lang=en
-20	country	country	NOUN	_	_	18	obj	_	AlignBegin=336667|AlignEnd=336933|Gloss=country|Lang=en
-21	}	}	X	_	_	15	dep	_	AlignBegin=336933|AlignEnd=336963|Gloss=PUNCT
-22	//	//	X	_	_	4	dep	_	AlignBegin=336933|AlignEnd=336963|Gloss=PUNCT
+7	who	wey	SCONJ	_	_	10	mark	_	AlignBegin=334760|AlignEnd=334860|Gloss=REL|Lang=en
+8	can	can	AUX	_	_	10	aux	_	AlignBegin=334860|AlignEnd=335115|Gloss=can|Lang=en|SpaceAfter=No
+9	not	not	PART	_	_	10	advmod	_	AlignBegin=334860|AlignEnd=335115|Gloss=NEG|Lang=en
+10	afford	afford	VERB	_	_	6	acl:relcl	_	AlignBegin=335115|AlignEnd=335481|Gloss=afford|Lang=en
+11	three	three	NUM	_	NumType=Card	13	nummod	_	AlignBegin=335481|AlignEnd=335632|Gloss=three.CARD|Lang=en
+12	square	square	ADJ	_	_	13	amod	_	AlignBegin=335632|AlignEnd=335861|Gloss=square|Lang=en
+13	meals	meal	NOUN	_	Number=Plur	10	obj	_	AlignBegin=335861|AlignEnd=336040|Gloss=meal.PL|Lang=en
+14	to	to	ADP	_	_	16	mark	_	AlignBegin=336040|AlignEnd=336140|Gloss=to|Lang=en
+15	{	{	X	_	_	16	dep	_	AlignBegin=336040|AlignEnd=336140|Gloss=PUNCT
+16	go	go	VERB	_	_	4	xcomp	_	AlignBegin=336140|AlignEnd=336230|Gloss=go|Lang=en
+17	|c	|c	X	_	_	19	dep	_	AlignBegin=336230|AlignEnd=336380|Gloss=PUNCT
+18	and	and	CCONJ	_	_	19	cc	_	AlignBegin=336230|AlignEnd=336380|Gloss=and|Lang=en
+19	change	change	VERB	_	_	16	conj	_	AlignBegin=336380|AlignEnd=336547|Gloss=change|Lang=en
+20	di	di	DET	_	Definite=Def|PronType=Art	21	det	_	AlignBegin=336547|AlignEnd=336667|Gloss=DEF.ART|Lang=en
+21	country	country	NOUN	_	_	19	obj	_	AlignBegin=336667|AlignEnd=336933|Gloss=country|Lang=en
+22	}	}	X	_	_	16	dep	_	AlignBegin=336933|AlignEnd=336963|Gloss=PUNCT
+23	//	//	X	_	_	4	dep	_	AlignBegin=336933|AlignEnd=336963|Gloss=PUNCT
 
 # sent_id = WAZP_03_Education_MG__88
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/WAZP_03_Education_MG.mp3
@@ -2362,7 +2364,7 @@
 12	as	as	ADP	_	_	15	mark	_	AlignBegin=347032|AlignEnd=347210|Gloss=as|Lang=en
 13	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	AlignBegin=347210|AlignEnd=347320|Gloss=NOM.SG.1|Lang=en
 14	might	might	AUX	_	_	15	aux	_	AlignBegin=347320|AlignEnd=347580|Gloss=may.COND|Lang=en
-15	be	be	VERB	_	PartType=Cop	11	advcl	_	AlignBegin=347580|AlignEnd=347776|Gloss=be|Lang=en
+15	be	be	VERB	_	_	11	advcl	_	AlignBegin=347580|AlignEnd=347776|Gloss=be|Lang=en
 16	<	<	X	_	_	3	dep	_	AlignBegin=347806|AlignEnd=348121|Gloss=PUNCT
 17	#	#	X	_	_	3	dep	_	AlignBegin=347806|AlignEnd=348121|Gloss=PUNCT
 18	na	na	AUX	_	PartType=Cop	20	cop	_	AlignBegin=348121|AlignEnd=348215|Gloss=be

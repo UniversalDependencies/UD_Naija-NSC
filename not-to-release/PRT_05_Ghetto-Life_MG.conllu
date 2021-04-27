@@ -821,7 +821,7 @@
 5	<	<	X	_	_	3	dep	_	AlignBegin=95736|AlignEnd=95766|Gloss=PUNCT
 6	no	no	PART	_	Polarity=Neg	9	advmod	_	AlignBegin=95766|AlignEnd=95870|Gloss=NEG
 7	be	be	AUX	_	PartType=Cop	9	cop	_	AlignBegin=95870|AlignEnd=95980|Gloss=be
-8	childs	child	NOUN	_	Case=Gen|Number=Plur	9	compound	_	AlignBegin=95980|AlignEnd=96250|Gloss=child.PL
+8	childs	child	NOUN	_	Case=Gen	9	compound	_	AlignBegin=95980|AlignEnd=96250|Gloss=child.GEN
 9	play	play	VERB	_	_	0	root	_	AlignBegin=96250|AlignEnd=96430|Gloss=play
 10	//	//	X	_	_	9	dep	_	AlignBegin=96430|AlignEnd=96460|Gloss=PUNCT
 
@@ -858,14 +858,14 @@
 # text = na im >+ be di legit ting //
 # text_en = That’s the proper thing to do.
 # text_ortho = Na im be di legit ting.
-1	na	na	AUX	_	PartType=Cop	0	root	_	AlignBegin=99470|AlignEnd=99585|ExtPos=SCONJ|Gloss=be|PhraseType=Idiom
-2	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	1	xcomp	_	AlignBegin=99585|AlignEnd=99591|Gloss=NOM.SG.3
+1	na	na	AUX	_	PartType=Cop	2	cop	_	AlignBegin=99470|AlignEnd=99585|Gloss=be
+2	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	0	root	_	AlignBegin=99585|AlignEnd=99591|Gloss=NOM.SG.3
 3	>+	>+	X	_	_	7	dep	_	AlignBegin=99591|AlignEnd=99621|Gloss=PUNCT
 4	be	be	AUX	_	PartType=Cop	7	cop	_	AlignBegin=99621|AlignEnd=99760|Gloss=be
 5	di	di	DET	_	Definite=Def|PronType=Art	7	det	_	AlignBegin=99760|AlignEnd=99820|Gloss=DEF.ART
 6	legit	legit	ADJ	_	_	7	amod	_	AlignBegin=99820|AlignEnd=100245|Gloss=legitimate
-7	ting	ting	NOUN	_	_	1	advcl:cleft	_	AlignBegin=100245|AlignEnd=100458|Gloss=thing
-8	//	//	X	_	_	1	dep	_	AlignBegin=100458|AlignEnd=100488|Gloss=PUNCT
+7	ting	ting	NOUN	_	_	2	advcl:cleft	_	AlignBegin=100245|AlignEnd=100458|Gloss=thing
+8	//	//	X	_	_	2	dep	_	AlignBegin=100458|AlignEnd=100488|Gloss=PUNCT
 
 # sent_id = PRT_05_Ghetto-Life_MG__41
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/PRT_05_Ghetto-Life_MG.mp3
@@ -1081,13 +1081,13 @@
 6	now	now	ADV	_	_	5	advmod	_	AlignBegin=121170|AlignEnd=121280|Gloss=now
 7	{	{	X	_	_	8	dep	_	AlignBegin=121280|AlignEnd=121310|Gloss=PUNCT
 8	wey	wey	SCONJ	_	_	5	acl:relcl	_	AlignBegin=121310|AlignEnd=121392|Gloss=REL
-9	||	||	X	_	_	14	dep	_	AlignBegin=121392|AlignEnd=121422|Gloss=PUNCT
-10	wey	when	SCONJ	_	_	14	mark	_	AlignBegin=121422|AlignEnd=121500|Gloss=when
+9	||	||	X	_	_	15	dep	_	AlignBegin=121392|AlignEnd=121422|Gloss=PUNCT
+10	wey	when	SCONJ	_	_	15	mark	_	AlignBegin=121422|AlignEnd=121500|Gloss=when
 11	}	}	X	_	_	8	dep	_	AlignBegin=121500|AlignEnd=121530|Gloss=PUNCT
-12	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	14	nsubj	_	AlignBegin=121530|AlignEnd=121636|Gloss=NOM.PL.3
-13	go	go	AUX	_	Aspect=Prosp	14	aux	_	AlignBegin=121636|AlignEnd=121808|Gloss=PROSP
-14	con	con	AUX	_	Aspect=Cons	8	reparandum	_	AlignBegin=121808|AlignEnd=122040|Gloss=CONS
-15	knack	knack	VERB	_	_	14	dep:comp	_	AlignBegin=122040|AlignEnd=122370|Gloss=hit
+12	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	15	nsubj	_	AlignBegin=121530|AlignEnd=121636|Gloss=NOM.PL.3
+13	go	go	AUX	_	Aspect=Prosp	15	aux	_	AlignBegin=121636|AlignEnd=121808|Gloss=PROSP
+14	con	con	AUX	_	Aspect=Cons	15	aux	_	AlignBegin=121808|AlignEnd=122040|Gloss=CONS
+15	knack	knack	VERB	_	_	8	reparandum	_	AlignBegin=122040|AlignEnd=122370|Gloss=hit
 16	//	//	X	_	_	3	dep	_	AlignBegin=122400|AlignEnd=122660|Gloss=PUNCT
 
 # sent_id = PRT_05_Ghetto-Life_MG__55
@@ -1097,10 +1097,10 @@
 # text_en = Which means that now, as you... now... which is on the way... you're educated people.
 # text_ortho = Wey be sey now as you now wey dey come now, you be office.
 1	#	#	X	_	_	16	dep	_	AlignBegin=122400|AlignEnd=122660|Gloss=PUNCT
-2	wey	when	SCONJ	_	_	16	discourse	_	AlignBegin=122660|AlignEnd=122767|ExtPos=SCONJ|Gloss=when|PhraseType=Idiom
+2	wey	wey	SCONJ	_	_	16	discourse	_	AlignBegin=122660|AlignEnd=122767|ExtPos=SCONJ|Gloss=when|PhraseType=Idiom
 3	be	be	AUX	_	PartType=Cop	2	fixed	_	AlignBegin=122767|AlignEnd=122886|Gloss=be|InIdiom=Yes
 4	sey	sey	SCONJ	_	_	2	fixed	_	AlignBegin=122886|AlignEnd=123010|Gloss=COMP|InIdiom=Yes
-5	now	now	ADV	_	_	2	advmod	_	AlignBegin=123040|AlignEnd=123110|Gloss=now
+5	now	now	ADV	_	_	16	advmod	_	AlignBegin=123040|AlignEnd=123110|Gloss=now
 6	as	as	ADP	_	_	7	case	_	AlignBegin=123110|AlignEnd=123390|Gloss=as
 7	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	16	obl:mod	_	AlignBegin=123390|AlignEnd=123540|Gloss=NOM.2
 8	now	now	ADV	_	_	7	advmod	_	AlignBegin=123540|AlignEnd=123736|Gloss=now
@@ -1386,7 +1386,7 @@
 3	make	make	NOUN	_	_	0	root	_	AlignBegin=152800|AlignEnd=153053|Gloss=make
 4	be	be	VERB	_	PartType=Cop	3	advcl:cleft	_	AlignBegin=153053|AlignEnd=153170|Gloss=be
 5	dis	dis	DET	_	Number=Sing|PronType=Dem	6	det	_	AlignBegin=153170|AlignEnd=153389|Gloss=SG.DEM
-6	one	one	NOUN	_	_	4	dep:comp	_	AlignBegin=153389|AlignEnd=153601|Gloss=one
+6	one	one	NOUN	_	_	4	nsubj	_	AlignBegin=153389|AlignEnd=153601|Gloss=one
 7	now	now	ADV	_	_	6	advmod	_	AlignBegin=153601|AlignEnd=153790|Gloss=now
 8	?//	?//	X	_	_	3	dep	_	AlignBegin=153790|AlignEnd=153820|Gloss=PUNCT
 
@@ -1562,7 +1562,7 @@
 6	life	life	NOUN	_	_	2	advcl:cleft	_	AlignBegin=169040|AlignEnd=169270|Gloss=life
 7	>+	>+	X	_	_	8	dep	_	AlignBegin=169270|AlignEnd=169300|Gloss=PUNCT
 8	be	be	VERB	_	PartType=Cop	2	advcl:cleft	_	AlignBegin=169300|AlignEnd=169380|Gloss=be
-9	dat	dat	PRON	_	Number=Sing|PronType=Dem	8	dep:comp	_	AlignBegin=169380|AlignEnd=169613|Gloss=SG.DEM
+9	dat	dat	PRON	_	Number=Sing|PronType=Dem	8	nsubj	_	AlignBegin=169380|AlignEnd=169613|Gloss=SG.DEM
 10	//	//	X	_	_	2	dep	_	AlignBegin=169613|AlignEnd=169643|Gloss=PUNCT
 
 # sent_id = PRT_05_Ghetto-Life_MG__83
@@ -1734,7 +1734,7 @@
 5	go	go	VERB	_	_	0	root	_	AlignBegin=186770|AlignEnd=186913|Gloss=go
 6	>+	>+	X	_	_	7	dep	_	AlignBegin=186913|AlignEnd=186943|Gloss=PUNCT
 7	be	be	VERB	_	PartType=Cop	5	advcl:cleft	_	AlignBegin=186943|AlignEnd=187070|Gloss=be
-8	dat	dat	PRON	_	Number=Sing|PronType=Dem	7	dep:comp	_	AlignBegin=187070|AlignEnd=187240|Gloss=SG.DEM
+8	dat	dat	PRON	_	Number=Sing|PronType=Dem	7	nsubj	_	AlignBegin=187070|AlignEnd=187240|Gloss=SG.DEM
 9	//	//	X	_	_	5	dep	_	AlignBegin=187240|AlignEnd=187270|Gloss=PUNCT
 
 # sent_id = PRT_05_Ghetto-Life_MG__90
@@ -1743,16 +1743,16 @@
 # text = na im >+ be di ghetto life for you //
 # text_en = That's life in the ghetto.
 # text_ortho = Na im be di ghetto life for you.
-1	na	na	AUX	_	PartType=Cop	0	root	_	AlignBegin=187270|AlignEnd=187380|ExtPos=SCONJ|Gloss=be|PhraseType=Idiom
-2	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	1	xcomp	_	AlignBegin=187380|AlignEnd=187400|Gloss=NOM.SG.3
+1	na	na	AUX	_	PartType=Cop	2	cop	_	AlignBegin=187270|AlignEnd=187380|Gloss=be
+2	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	0	root	_	AlignBegin=187380|AlignEnd=187400|Gloss=NOM.SG.3
 3	>+	>+	X	_	_	7	dep	_	AlignBegin=187400|AlignEnd=187430|Gloss=PUNCT
 4	be	be	AUX	_	PartType=Cop	7	cop	_	AlignBegin=187430|AlignEnd=187530|Gloss=be
 5	di	di	DET	_	Definite=Def|PronType=Art	7	det	_	AlignBegin=187530|AlignEnd=187640|Gloss=DEF.ART
 6	ghetto	ghetto	NOUN	_	_	7	compound	_	AlignBegin=187640|AlignEnd=187950|Gloss=ghetto
-7	life	life	NOUN	_	_	1	advcl:cleft	_	AlignBegin=187950|AlignEnd=188134|Gloss=life
+7	life	life	NOUN	_	_	2	advcl:cleft	_	AlignBegin=187950|AlignEnd=188134|Gloss=life
 8	for	for	ADP	_	_	9	case	_	AlignBegin=188134|AlignEnd=188300|Gloss=for
 9	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	7	obl:arg	_	AlignBegin=188300|AlignEnd=188510|Gloss=NOM.2
-10	//	//	X	_	_	1	dep	_	AlignBegin=188510|AlignEnd=188540|Gloss=PUNCT
+10	//	//	X	_	_	2	dep	_	AlignBegin=188510|AlignEnd=188540|Gloss=PUNCT
 
 # sent_id = PRT_05_Ghetto-Life_MG__91
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/PRT_05_Ghetto-Life_MG.mp3
@@ -2479,7 +2479,7 @@
 12	kind	kind	ADJ	_	_	13	amod	_	AlignBegin=277490|AlignEnd=277690|Gloss=kind
 13	fish	fish	NOUN	_	_	7	obj	_	AlignBegin=277690|AlignEnd=277900|Gloss=fish
 14	be	be	VERB	_	PartType=Cop	13	advcl:cleft	_	AlignBegin=277900|AlignEnd=277970|Gloss=be
-15	dat	dat	PRON	_	Number=Sing|PronType=Dem	14	dep:comp	_	AlignBegin=277970|AlignEnd=278090|Gloss=SG.DEM
+15	dat	dat	PRON	_	Number=Sing|PronType=Dem	14	nsubj	_	AlignBegin=277970|AlignEnd=278090|Gloss=SG.DEM
 16	?//]	?//]	X	_	_	13	dep	_	AlignBegin=278090|AlignEnd=278120|Gloss=PUNCT
 17	//	//	X	_	_	7	dep	_	AlignBegin=278090|AlignEnd=278120|Gloss=PUNCT
 
@@ -2999,7 +2999,7 @@
 11	#	#	X	_	_	14	dep	_	AlignBegin=333260|AlignEnd=333780|Gloss=PUNCT
 12	your	your	PRON	_	Number=Plur|Person=2|Poss=Yes	13	nmod:poss	_	AlignBegin=333780|AlignEnd=333910|Gloss=PL.2.POSS|Lang=en
 13	voice	voice	NOUN	_	_	14	nsubj	_	AlignBegin=333910|AlignEnd=334235|Gloss=voice|Lang=en
-14	was	be	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|VerbType=Cop	3	parataxis	_	AlignBegin=334235|AlignEnd=334410|Gloss=be.IND.SG.1.PST.FIN|Lang=en
+14	was	be	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	parataxis	_	AlignBegin=334235|AlignEnd=334410|Gloss=be.IND.SG.1.PST.FIN|Lang=en
 15	not	not	PART	_	Polarity=Neg	14	advmod	_	AlignBegin=334410|AlignEnd=334720|Gloss=NEG|Lang=en
 16	//]	//]	X	_	_	14	dep	_	AlignBegin=334720|AlignEnd=334750|Gloss=PUNCT
 17	&//	&//	X	_	_	3	dep	_	AlignBegin=334720|AlignEnd=334750|Gloss=PUNCT
@@ -3078,7 +3078,7 @@
 3	[	[	X	_	_	7	dep	_	AlignBegin=340390|AlignEnd=340420|Gloss=PUNCT
 4	but	but	CCONJ	_	_	7	cc	_	AlignBegin=340420|AlignEnd=340591|Gloss=but|Lang=en
 5	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	7	nsubj	_	AlignBegin=340591|AlignEnd=340680|Gloss=NOM.2|Lang=en
-6	are	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Cop	7	cop	_	AlignBegin=340680|AlignEnd=340710|Gloss=be.IND.PRS.FIN|Lang=en
+6	are	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop	_	AlignBegin=340680|AlignEnd=340710|Gloss=be.IND.PRS.FIN|Lang=en
 7	okay	OK	INTJ	_	_	2	parataxis	_	AlignBegin=340710|AlignEnd=341050|Gloss=OK|Lang=en
 8	now	now	ADV	_	_	7	advmod	_	AlignBegin=341050|AlignEnd=341188|Gloss=now|Lang=en
 9	?//]	?//]	X	_	_	7	dep	_	AlignBegin=341188|AlignEnd=341218|Gloss=PUNCT
@@ -3406,15 +3406,15 @@
 # text = na im >+ make I join ghetto life //
 # text_en = So that brought me into the ghetto.
 # text_ortho = Na im make I join ghetto life.
-1	na	na	AUX	_	PartType=Cop	0	root	_	AlignBegin=372000|AlignEnd=372092|ExtPos=SCONJ|Gloss=be|PhraseType=Idiom
-2	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	1	xcomp	_	AlignBegin=372092|AlignEnd=372160|Gloss=NOM.SG.3
+1	na	na	AUX	_	PartType=Cop	2	cop	_	AlignBegin=372000|AlignEnd=372092|Gloss=be
+2	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	0	root	_	AlignBegin=372092|AlignEnd=372160|Gloss=NOM.SG.3
 3	>+	>+	X	_	_	6	dep	_	AlignBegin=372160|AlignEnd=372190|Gloss=PUNCT
 4	make	make	AUX	_	Mood=Opt	6	aux	_	AlignBegin=372190|AlignEnd=372411|Gloss=SBJV
 5	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	AlignBegin=372411|AlignEnd=372535|Gloss=NOM.SG.1
-6	join	join	VERB	_	_	1	advcl:cleft	_	AlignBegin=372535|AlignEnd=372734|Gloss=join
+6	join	join	VERB	_	_	2	advcl:cleft	_	AlignBegin=372535|AlignEnd=372734|Gloss=join
 7	ghetto	ghetto	NOUN	_	_	8	compound	_	AlignBegin=372734|AlignEnd=372990|Gloss=ghetto
 8	life	life	NOUN	_	_	6	obj	_	AlignBegin=372990|AlignEnd=373336|Gloss=life
-9	//	//	X	_	_	1	dep	_	AlignBegin=373336|AlignEnd=373366|Gloss=PUNCT
+9	//	//	X	_	_	2	dep	_	AlignBegin=373336|AlignEnd=373366|Gloss=PUNCT
 
 # sent_id = PRT_05_Ghetto-Life_MG__178
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/PRT_05_Ghetto-Life_MG.mp3

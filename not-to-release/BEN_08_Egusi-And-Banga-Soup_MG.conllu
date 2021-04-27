@@ -515,12 +515,12 @@
 26	dey	dey	AUX	_	Aspect=Imp	27	aux	_	AlignBegin=81984|AlignEnd=82131|Gloss=IPFV
 27	turn	turn	VERB	_	_	0	root	_	AlignBegin=82131|AlignEnd=82331|Gloss=turn
 28	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	27	obj	_	AlignBegin=82331|AlignEnd=82426|Gloss=ACC.SG.3
-29	so	so	SCONJ	_	_	33	mark	_	AlignBegin=82426|AlignEnd=82551|ExtPos=SCONJ|Gloss=so|PhraseType=Idiom
+29	so	so	SCONJ	_	_	34	mark	_	AlignBegin=82426|AlignEnd=82551|ExtPos=SCONJ|Gloss=so|PhraseType=Idiom
 30	that	dat	SCONJ	_	_	29	fixed	_	AlignBegin=82551|AlignEnd=82694|Gloss=that|InIdiom=Yes
-31	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	33	nsubj	_	AlignBegin=82694|AlignEnd=82772|Gloss=NOM.SG.3
-32	no	no	PART	_	Polarity=Neg	33	advmod	_	AlignBegin=82772|AlignEnd=82917|Gloss=NEG
-33	go	go	AUX	_	Aspect=Prosp	27	advcl	_	AlignBegin=82917|AlignEnd=83493|Gloss=PROSP
-34	burn	burn	VERB	_	_	33	dep:comp	_	AlignBegin=83493|AlignEnd=83838|Gloss=burn
+31	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	34	nsubj	_	AlignBegin=82694|AlignEnd=82772|Gloss=NOM.SG.3
+32	no	no	PART	_	Polarity=Neg	34	advmod	_	AlignBegin=82772|AlignEnd=82917|Gloss=NEG
+33	go	go	AUX	_	Aspect=Prosp	34	aux	_	AlignBegin=82917|AlignEnd=83493|Gloss=PROSP
+34	burn	burn	VERB	_	_	27	advcl	_	AlignBegin=83493|AlignEnd=83838|Gloss=burn
 35	//	//	X	_	_	27	dep	_	AlignBegin=83838|AlignEnd=83868|Gloss=PUNCT
 
 # sent_id = BEN_08_Egusi-And-Banga-Soup_MG__23
@@ -1159,23 +1159,23 @@
 # text = # di soup wey I like to cook < # na im >+ be banga soup //
 # text_en = The dish that I like to cook, is, it's banga.
 # text_ortho = Di soup wey I like to cook, na im be banga soup.
-1	#	#	X	_	_	11	dep	_	AlignBegin=188661|AlignEnd=190960|Gloss=PUNCT
+1	#	#	X	_	_	12	dep	_	AlignBegin=188661|AlignEnd=190960|Gloss=PUNCT
 2	di	di	DET	_	Definite=Def|PronType=Art	3	det	_	AlignBegin=190960|AlignEnd=191070|Gloss=DEF.ART
-3	soup	soup	NOUN	_	_	11	dislocated	_	AlignBegin=191070|AlignEnd=191370|Gloss=soup
+3	soup	soup	NOUN	_	_	12	dislocated	_	AlignBegin=191070|AlignEnd=191370|Gloss=soup
 4	wey	wey	SCONJ	_	_	6	mark	_	AlignBegin=191370|AlignEnd=191460|Gloss=REL
 5	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	AlignBegin=191460|AlignEnd=191590|Gloss=NOM.SG.1
 6	like	like	VERB	_	_	3	acl:relcl	_	AlignBegin=191590|AlignEnd=191800|Gloss=like
 7	to	to	ADP	_	_	8	mark	_	AlignBegin=191800|AlignEnd=192062|Gloss=to
 8	cook	cook	VERB	_	_	6	xcomp	_	AlignBegin=192062|AlignEnd=192168|Gloss=cook
 9	<	<	X	_	_	3	dep	_	AlignBegin=192168|AlignEnd=192198|Gloss=PUNCT
-10	#	#	X	_	_	11	dep	_	AlignBegin=192198|AlignEnd=192357|Gloss=PUNCT
-11	na	na	AUX	_	PartType=Cop	0	root	_	AlignBegin=192357|AlignEnd=192439|ExtPos=SCONJ|Gloss=be|PhraseType=Idiom
-12	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	11	xcomp	_	AlignBegin=192439|AlignEnd=192470|Gloss=NOM.SG.3
+10	#	#	X	_	_	12	dep	_	AlignBegin=192198|AlignEnd=192357|Gloss=PUNCT
+11	na	na	AUX	_	PartType=Cop	12	cop	_	AlignBegin=192357|AlignEnd=192439|Gloss=be
+12	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	0	root	_	AlignBegin=192439|AlignEnd=192470|Gloss=NOM.SG.3
 13	>+	>+	X	_	_	14	dep	_	AlignBegin=192470|AlignEnd=192500|Gloss=PUNCT
-14	be	be	VERB	_	PartType=Cop	11	advcl:cleft	_	AlignBegin=192500|AlignEnd=192620|Gloss=be
+14	be	be	VERB	_	PartType=Cop	12	advcl:cleft	_	AlignBegin=192500|AlignEnd=192620|Gloss=be
 15	banga	banga	NOUN	_	_	16	compound	_	AlignBegin=192620|AlignEnd=192960|Gloss=palm_kernel
-16	soup	soup	NOUN	_	_	14	dep:comp	_	AlignBegin=192960|AlignEnd=193210|Gloss=soup
-17	//	//	X	_	_	11	dep	_	AlignBegin=193210|AlignEnd=193240|Gloss=PUNCT
+16	soup	soup	NOUN	_	_	14	nsubj	_	AlignBegin=192960|AlignEnd=193210|Gloss=soup
+17	//	//	X	_	_	12	dep	_	AlignBegin=193210|AlignEnd=193240|Gloss=PUNCT
 
 # sent_id = BEN_08_Egusi-And-Banga-Soup_MG__46
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/BEN_08_Egusi-And-Banga-Soup_MG.mp3
@@ -1198,13 +1198,13 @@
 # text = # na im >+ dey banga //
 # text_en = That's what banga is.
 # text_ortho = Na im dey banga.
-1	#	#	X	_	_	2	dep	_	AlignBegin=196180|AlignEnd=196540|Gloss=PUNCT
-2	na	na	AUX	_	PartType=Cop	0	root	_	AlignBegin=196540|AlignEnd=196630|ExtPos=SCONJ|Gloss=be|PhraseType=Idiom
-3	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	xcomp	_	AlignBegin=196630|AlignEnd=196720|Gloss=NOM.SG.3
+1	#	#	X	_	_	3	dep	_	AlignBegin=196180|AlignEnd=196540|Gloss=PUNCT
+2	na	na	AUX	_	PartType=Cop	3	cop	_	AlignBegin=196540|AlignEnd=196630|Gloss=be
+3	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	0	root	_	AlignBegin=196630|AlignEnd=196720|Gloss=NOM.SG.3
 4	>+	>+	X	_	_	5	dep	_	AlignBegin=196720|AlignEnd=196750|Gloss=PUNCT
-5	dey	dey	VERB	_	VerbType=Cop	2	advcl:cleft	_	AlignBegin=196750|AlignEnd=196900|Gloss=be
+5	dey	dey	VERB	_	VerbType=Cop	3	advcl:cleft	_	AlignBegin=196750|AlignEnd=196900|Gloss=be
 6	banga	banga	NOUN	_	_	5	nsubj	_	AlignBegin=196900|AlignEnd=197269|Gloss=palm_kernel
-7	//	//	X	_	_	2	dep	_	AlignBegin=197269|AlignEnd=197299|Gloss=PUNCT
+7	//	//	X	_	_	3	dep	_	AlignBegin=197269|AlignEnd=197299|Gloss=PUNCT
 
 # sent_id = BEN_08_Egusi-And-Banga-Soup_MG__48
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/BEN_08_Egusi-And-Banga-Soup_MG.mp3
@@ -1660,11 +1660,11 @@
 # text = # but by di time wey you go use enough water take filter am well < # na im >+ di thing go come out well //
 # text_en = But by the time you have used enough water to filter it well, that is when the thing comes out well.
 # text_ortho = But by di time wey you go use enough water take filter am well, na im di thing go come out well.
-1	#	#	X	_	_	18	dep	_	AlignBegin=259601|AlignEnd=259849|Gloss=PUNCT
-2	but	but	CCONJ	_	_	18	discourse	_	AlignBegin=259849|AlignEnd=259939|Gloss=but
+1	#	#	X	_	_	19	dep	_	AlignBegin=259601|AlignEnd=259849|Gloss=PUNCT
+2	but	but	CCONJ	_	_	19	discourse	_	AlignBegin=259849|AlignEnd=259939|Gloss=but
 3	by	by	ADP	_	_	5	case	_	AlignBegin=259939|AlignEnd=260019|Gloss=by
 4	di	di	DET	_	Definite=Def|PronType=Art	5	det	_	AlignBegin=260019|AlignEnd=260079|Gloss=DEF.ART
-5	time	time	NOUN	_	_	18	obl:mod	_	AlignBegin=260079|AlignEnd=260179|Gloss=time
+5	time	time	NOUN	_	_	19	obl:mod	_	AlignBegin=260079|AlignEnd=260179|Gloss=time
 6	wey	wey	SCONJ	_	_	9	mark	_	AlignBegin=260179|AlignEnd=260316|Gloss=REL
 7	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	9	nsubj	_	AlignBegin=260316|AlignEnd=260429|Gloss=NOM.2
 8	go	go	AUX	_	Aspect=Prosp	9	aux	_	AlignBegin=260429|AlignEnd=260539|Gloss=PROSP
@@ -1676,17 +1676,17 @@
 14	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	13	obj	_	AlignBegin=261989|AlignEnd=262169|Gloss=ACC.SG.3
 15	well	well	ADV	_	_	13	advmod	_	AlignBegin=262169|AlignEnd=262381|Gloss=well
 16	<	<	X	_	_	5	dep	_	AlignBegin=262381|AlignEnd=262411|Gloss=PUNCT
-17	#	#	X	_	_	18	dep	_	AlignBegin=262411|AlignEnd=262628|Gloss=PUNCT
-18	na	na	AUX	_	PartType=Cop	0	root	_	AlignBegin=262628|AlignEnd=262718|ExtPos=SCONJ|Gloss=be|PhraseType=Idiom
-19	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	18	xcomp	_	AlignBegin=262718|AlignEnd=262748|Gloss=NOM.SG.3
+17	#	#	X	_	_	19	dep	_	AlignBegin=262411|AlignEnd=262628|Gloss=PUNCT
+18	na	na	AUX	_	PartType=Cop	19	cop	_	AlignBegin=262628|AlignEnd=262718|Gloss=be
+19	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	0	root	_	AlignBegin=262718|AlignEnd=262748|Gloss=NOM.SG.3
 20	>+	>+	X	_	_	24	dep	_	AlignBegin=262748|AlignEnd=262778|Gloss=PUNCT
 21	di	di	DET	_	Definite=Def|PronType=Art	22	det	_	AlignBegin=262778|AlignEnd=262838|Gloss=DEF.ART
 22	thing	ting	NOUN	_	_	24	nsubj	_	AlignBegin=262838|AlignEnd=262958|Gloss=thing
 23	go	go	AUX	_	Aspect=Prosp	24	aux	_	AlignBegin=262958|AlignEnd=263108|Gloss=PROSP
-24	come	come	VERB	_	_	18	advcl:cleft	_	AlignBegin=263108|AlignEnd=263278|Gloss=come
+24	come	come	VERB	_	_	19	advcl:cleft	_	AlignBegin=263108|AlignEnd=263278|Gloss=come
 25	out	out	ADP	_	_	24	compound:prt	_	AlignBegin=263278|AlignEnd=263582|Gloss=out
 26	well	well	ADV	_	_	24	advmod	_	AlignBegin=263582|AlignEnd=263835|Gloss=well
-27	//	//	X	_	_	18	dep	_	AlignBegin=263835|AlignEnd=263865|Gloss=PUNCT
+27	//	//	X	_	_	19	dep	_	AlignBegin=263835|AlignEnd=263865|Gloss=PUNCT
 
 # sent_id = BEN_08_Egusi-And-Banga-Soup_MG__67
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/BEN_08_Egusi-And-Banga-Soup_MG.mp3

@@ -154,7 +154,7 @@
 # text_en = That's not how we used to dress.
 # text_ortho = That was not how we used to dress.
 1	that	dat	DET	_	_	4	dep	_	AlignBegin=18292|AlignEnd=18491|Gloss=that|Lang=en
-2	was	be	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|VerbType=Cop	4	cop	_	AlignBegin=18491|AlignEnd=18691|Gloss=be.IND.SG.1.PST.FIN|Lang=en
+2	was	be	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	4	cop	_	AlignBegin=18491|AlignEnd=18691|Gloss=be.IND.SG.1.PST.FIN|Lang=en
 3	not	not	PART	_	Polarity=Neg	4	advmod	_	AlignBegin=18691|AlignEnd=18890|Gloss=NEG|Lang=en
 4	how	how	ADV	_	PronType=Int	0	root	_	AlignBegin=18890|AlignEnd=19090|Gloss=how.Q|Lang=en
 5	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	AlignBegin=19090|AlignEnd=19289|Gloss=NOM.PL.1|Lang=en
@@ -1016,9 +1016,10 @@
 # text = dat's it //
 # text_en = That's it.
 # text_ortho = Dat'S it.
-1	dat's	dat's	VERB	_	PartType=Cop	0	root	_	AlignBegin=117078|AlignEnd=117706|Gloss=be1|Lang=en
-2	it	it	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	xcomp	_	AlignBegin=117706|AlignEnd=118333|Gloss=NOM.NT.SG.3|Lang=en
-3	//	//	X	_	_	1	dep	_	AlignBegin=118333|AlignEnd=118333|Gloss=PUNCT
+1	dat	dat	PRON	_	_	3	nsubj	_	AlignBegin=117078|AlignEnd=117706|Gloss=that|Lang=en|SpaceAfter=No
+2	's	dat's	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	AlignBegin=117078|AlignEnd=117706|Gloss=be|Lang=en
+3	it	it	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	root	_	AlignBegin=117706|AlignEnd=118333|Gloss=NOM.NT.SG.3|Lang=en
+4	//	//	X	_	_	3	dep	_	AlignBegin=118333|AlignEnd=118333|Gloss=PUNCT
 
 # sent_id = JOS_10_Mothers-Against-Mini-Skirts_DG__69
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/JOS_10_Mothers-Against-Mini-Skirts_DG.mp3
@@ -1141,7 +1142,7 @@
 5	own	own	ADJ	_	_	6	amod	_	AlignBegin=133343|AlignEnd=133635|Gloss=own|Lang=en
 6	time	time	NOUN	_	_	17	dislocated	_	AlignBegin=133635|AlignEnd=133928|Gloss=time|Lang=en
 7	<	<	X	_	_	6	dep	_	AlignBegin=133928|AlignEnd=133928|Gloss=PUNCT
-8	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Cop	17	cop	_	AlignBegin=133928|AlignEnd=134220|Gloss=be.IND.SG.3.PRS.FIN|Lang=en
+8	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	AlignBegin=133928|AlignEnd=134220|Gloss=be.IND.SG.3.PRS.FIN|Lang=en
 9	not	not	PART	_	Polarity=Neg	17	advmod	_	AlignBegin=134220|AlignEnd=134513|Gloss=NEG|Lang=en
 10	eh	eh	INTJ	_	_	17	discourse	_	AlignBegin=134513|AlignEnd=134805|Gloss=eh|Lang=en
 11	{	{	X	_	_	12	dep	_	AlignBegin=134805|AlignEnd=134805|Gloss=PUNCT
@@ -1216,7 +1217,7 @@
 # text_en = We used to use uh... wear mini skirts.
 # text_ortho = We used to use eh, wear mini skirt o.
 1	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	AlignBegin=144296|AlignEnd=144584|Gloss=NOM.PL.1|Lang=en
-2	used	use	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	AlignBegin=144584|AlignEnd=144872|Gloss=use.IND.PST.FIN|Lang=en
+2	used	use	VERB	_	Mood=Ind|Tense=Past	0	root	_	AlignBegin=144584|AlignEnd=144872|Gloss=use.IND.PST.FIN|Lang=en
 3	to	to	ADP	_	_	5	mark	_	AlignBegin=144872|AlignEnd=145160|Gloss=to|Lang=en
 4	{	{	X	_	_	5	dep	_	AlignBegin=145160|AlignEnd=145160|Gloss=PUNCT
 5	use	use	VERB	_	_	2	xcomp	_	AlignBegin=145160|AlignEnd=145448|Gloss=use|Lang=en
@@ -1226,7 +1227,7 @@
 9	}	}	X	_	_	5	dep	_	AlignBegin=146024|AlignEnd=146024|Gloss=PUNCT
 10	mini	mini	ADJ	_	_	11	compound	_	AlignBegin=146024|AlignEnd=146312|Gloss=mini|Lang=en
 11	skirt	skirt	NOUN	_	_	8	obj	_	AlignBegin=146312|AlignEnd=146600|Gloss=skirt|Lang=en
-12	o	o	PART	_	PartType=Disc	11	advmod	_	AlignBegin=146600|AlignEnd=146888|Gloss=EMPH|Lang=en
+12	o	o	PART	_	PartType=Disc	11	advmod	_	AlignBegin=146600|AlignEnd=146888|Gloss=EMPH
 13	//	//	X	_	_	2	dep	_	AlignBegin=146888|AlignEnd=146888|Gloss=PUNCT
 
 # sent_id = JOS_10_Mothers-Against-Mini-Skirts_DG__80
@@ -1259,7 +1260,7 @@
 2	our	our	PRON	_	Number=Plur|Person=1|Poss=Yes	4	nmod:poss	_	AlignBegin=147240|AlignEnd=147591|Gloss=POSS.PL.1|Lang=en
 3	mini	mini	ADJ	_	_	4	compound	_	AlignBegin=147591|AlignEnd=147943|Gloss=mini|Lang=en
 4	skirts	skirt	NOUN	_	Number=Plur	7	nsubj	_	AlignBegin=147943|AlignEnd=148294|Gloss=skirt.PL|Lang=en
-5	were	be	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin|VerbType=Cop	7	cop	_	AlignBegin=148294|AlignEnd=148646|Gloss=be.IND.PST.FIN|Lang=en
+5	were	be	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	7	cop	_	AlignBegin=148294|AlignEnd=148646|Gloss=be.IND.PST.FIN|Lang=en
 6	very	very	ADV	_	_	7	advmod	_	AlignBegin=148646|AlignEnd=148997|Gloss=very|Lang=en
 7	comfortable	comfortable	ADJ	_	_	0	root	_	AlignBegin=148997|AlignEnd=149349|Gloss=comfortable|Lang=en
 8	//	//	X	_	_	7	dep	_	AlignBegin=149349|AlignEnd=149349|Gloss=PUNCT
@@ -1377,9 +1378,9 @@
 5	n't	not	PART	_	Polarity=Neg	6	advmod	_	AlignBegin=158251|AlignEnd=158452|Gloss=NEG|Lang=en
 6	wear	wear	VERB	_	_	0	root	_	AlignBegin=158452|AlignEnd=158652|Gloss=wear|Lang=en
 7	pant	pant	NOUN	_	_	6	obj	_	AlignBegin=158652|AlignEnd=158853|Gloss=pants|Lang=en
-8	tu	X	X	_	_	7	flat:foreign	_	AlignBegin=158853|AlignEnd=159054|Gloss=X|Lang=ha
-9	ma	X	X	_	_	8	flat:foreign	_	AlignBegin=159054|AlignEnd=159255|Gloss=X|Lang=ha
-10	fa	X	X	_	_	9	flat:foreign	_	AlignBegin=159255|AlignEnd=159456|Gloss=X|Lang=ha
+8	tu	X	X	_	_	7	flat:foreign	_	AlignBegin=158853|AlignEnd=159054|Gloss=X
+9	ma	X	X	_	_	8	flat:foreign	_	AlignBegin=159054|AlignEnd=159255|Gloss=X
+10	fa	X	X	_	_	9	flat:foreign	_	AlignBegin=159255|AlignEnd=159456|Gloss=X
 11	//	//	X	_	_	6	dep	_	AlignBegin=159456|AlignEnd=159456|Gloss=PUNCT
 
 # sent_id = JOS_10_Mothers-Against-Mini-Skirts_DG__91
@@ -1416,17 +1417,17 @@
 2	deir	dem	PRON	_	Number=Plur|Person=3|Poss=Yes	3	nmod	_	AlignBegin=162759|AlignEnd=163014|Gloss=POSS.PL.3|Lang=en
 3	own	own	ADJ	_	_	6	nsubj	_	AlignBegin=163014|AlignEnd=163269|Gloss=own|Lang=en
 4	{	{	X	_	_	6	dep	_	AlignBegin=163269|AlignEnd=163269|Gloss=PUNCT
-5	was	be	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|VerbType=Cop	6	cop	_	AlignBegin=163269|AlignEnd=163524|Gloss=be.IND.SG.1.PST.FIN|Lang=en
+5	was	be	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	6	cop	_	AlignBegin=163269|AlignEnd=163524|Gloss=be.IND.SG.1.PST.FIN|Lang=en
 6	for	for	ADP	_	_	0	root	_	AlignBegin=163524|AlignEnd=163779|Gloss=for|Lang=en
 7	||	||	X	_	_	10	dep	_	AlignBegin=163779|AlignEnd=163779|Gloss=PUNCT
-8	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Cop	10	cop	_	AlignBegin=163779|AlignEnd=164034|Gloss=be.IND.SG.3.PRS.FIN|Lang=en
+8	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	AlignBegin=163779|AlignEnd=164034|Gloss=be.IND.SG.3.PRS.FIN|Lang=en
 9	for	for	ADP	_	_	10	case	_	AlignBegin=164034|AlignEnd=164289|Gloss=for|Lang=en
 10	attraction	attraction	NOUN	_	_	5	reparandum	_	AlignBegin=164289|AlignEnd=164544|Gloss=attraction|Lang=en
 11	}	}	X	_	_	6	dep	_	AlignBegin=164544|AlignEnd=164544|Gloss=PUNCT
 12	|c	|c	X	_	_	15	dep	_	AlignBegin=164544|AlignEnd=164544|Gloss=PUNCT
 13	our	our	PRON	_	Number=Plur|Person=1|Poss=Yes	14	nmod	_	AlignBegin=164544|AlignEnd=164799|Gloss=POSS.PL.1|Lang=en
 14	own	own	ADJ	_	_	15	nsubj	_	AlignBegin=164799|AlignEnd=165054|Gloss=own|Lang=en
-15	was	be	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|VerbType=Cop	6	conj	_	AlignBegin=165054|AlignEnd=165309|Gloss=be.IND.SG.1.PST.FIN|Lang=en
+15	was	be	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	6	conj	_	AlignBegin=165054|AlignEnd=165309|Gloss=be.IND.SG.1.PST.FIN|Lang=en
 16	not	not	PART	_	Polarity=Neg	15	advmod	_	AlignBegin=165309|AlignEnd=165564|Gloss=NEG|Lang=en
 17	}	}	X	_	_	6	dep	_	AlignBegin=165564|AlignEnd=165564|Gloss=PUNCT
 18	//	//	X	_	_	6	dep	_	AlignBegin=165564|AlignEnd=165564|Gloss=PUNCT
@@ -1438,7 +1439,7 @@
 # text_en = It was the fashion.
 # text_ortho = It was di fashion.
 1	It	it	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	AlignBegin=165564|AlignEnd=165788|Gloss=NOM.NT.SG.3|Lang=en
-2	was	be	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|VerbType=Cop	4	cop	_	AlignBegin=165788|AlignEnd=166012|Gloss=be.IND.SG.1.PST.FIN|Lang=en
+2	was	be	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	4	cop	_	AlignBegin=165788|AlignEnd=166012|Gloss=be.IND.SG.1.PST.FIN|Lang=en
 3	di	di	DET	_	Definite=Def|PronType=Art	4	det	_	AlignBegin=166012|AlignEnd=166237|Gloss=DEF.ART|Lang=en
 4	fashion	fashion	NOUN	_	_	0	root	_	AlignBegin=166237|AlignEnd=166461|Gloss=fashion|Lang=en
 5	//	//	X	_	_	4	dep	_	AlignBegin=166685|AlignEnd=166685|Gloss=PUNCT
@@ -1816,9 +1817,10 @@
 # text = dat's it //
 # text_en = That's it.
 # text_ortho = Dat'S it.
-1	dat's	dat's	VERB	_	PartType=Cop	0	root	_	AlignBegin=209716|AlignEnd=210246|Gloss=be1|Lang=en
-2	it	it	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	xcomp	_	AlignBegin=210246|AlignEnd=210776|Gloss=NOM.NT.SG.3|Lang=en
-3	//	//	X	_	_	1	dep	_	AlignBegin=210776|AlignEnd=210776|Gloss=PUNCT
+1	dat	dat	PRON	_	_	3	nsubj	_	AlignBegin=209716|AlignEnd=210246|Gloss=that|Lang=en|SpaceAfter=No
+2	's	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	AlignBegin=209716|AlignEnd=210246|Gloss=be|Lang=en
+3	it	it	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	root	_	AlignBegin=210246|AlignEnd=210776|Gloss=NOM.NT.SG.3|Lang=en
+4	//	//	X	_	_	3	dep	_	AlignBegin=210776|AlignEnd=210776|Gloss=PUNCT
 
 # sent_id = JOS_10_Mothers-Against-Mini-Skirts_DG__115
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/JOS_10_Mothers-Against-Mini-Skirts_DG.mp3
@@ -1852,7 +1854,7 @@
 3	work	work	NOUN	_	_	0	root	_	AlignBegin=211680|AlignEnd=212036|Gloss=work
 4	>+	>+	X	_	_	5	dep	_	AlignBegin=212036|AlignEnd=212036|Gloss=PUNCT
 5	be	be	VERB	_	PartType=Cop	3	advcl:cleft	_	AlignBegin=212036|AlignEnd=212391|Gloss=be1
-6	dat	dat	PRON	_	Number=Sing|PronType=Dem	5	dep:comp	_	AlignBegin=212391|AlignEnd=212746|Gloss=SG.DEM
+6	dat	dat	PRON	_	Number=Sing|PronType=Dem	5	nsubj	_	AlignBegin=212391|AlignEnd=212746|Gloss=SG.DEM
 7	//	//	X	_	_	3	dep	_	AlignBegin=212746|AlignEnd=212746|Gloss=PUNCT
 
 # sent_id = JOS_10_Mothers-Against-Mini-Skirts_DG__117
@@ -1922,19 +1924,19 @@
 # text = when you don become second hand //= when you don become second hand //
 # text_en = When you've become a second hand girl, when you've become a second hand girl.
 # text_ortho = When you don become second hand, when you don become second hand.
-1	when	when	ADV	_	PronType=Int	0	root	_	AlignBegin=216477|AlignEnd=216825|Gloss=when.Q|Lang=en
-2	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	AlignBegin=216825|AlignEnd=217174|Gloss=NOM.2|Lang=en
-3	don	don	AUX	_	Aspect=Perf	4	aux	_	AlignBegin=217174|AlignEnd=217522|Gloss=PRF|Lang=en
-4	become	become	VERB	_	_	1	acl:relcl	_	AlignBegin=217522|AlignEnd=217870|Gloss=become|Lang=en
-5	second	second	ADJ	_	_	6	compound	_	AlignBegin=217870|AlignEnd=218218|Gloss=second|Lang=en
-6	hand	hand	NOUN	_	_	4	xcomp	_	AlignBegin=218218|AlignEnd=218566|Gloss=hand|Lang=en
+1	when	when	ADV	_	PronType=Int	0	root	_	AlignBegin=216477|AlignEnd=216825|Gloss=when.Q
+2	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	AlignBegin=216825|AlignEnd=217174|Gloss=NOM.2
+3	don	don	AUX	_	Aspect=Perf	4	aux	_	AlignBegin=217174|AlignEnd=217522|Gloss=PRF
+4	become	become	VERB	_	_	1	acl:relcl	_	AlignBegin=217522|AlignEnd=217870|Gloss=become
+5	second	second	ADJ	_	_	6	compound	_	AlignBegin=217870|AlignEnd=218218|Gloss=second
+6	hand	hand	NOUN	_	_	4	xcomp	_	AlignBegin=218218|AlignEnd=218566|Gloss=hand
 7	//=	//=	X	_	_	8	dep	_	AlignBegin=218566|AlignEnd=218566|Gloss=PUNCT
-8	when	when	ADV	_	PronType=Int	1	parataxis:conj	_	AlignBegin=218566|AlignEnd=218915|Gloss=when.Q|Lang=en
-9	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	11	nsubj	_	AlignBegin=218915|AlignEnd=219263|Gloss=NOM.2|Lang=en
-10	don	don	AUX	_	Aspect=Perf	11	aux	_	AlignBegin=219263|AlignEnd=219611|Gloss=PRF|Lang=en
-11	become	become	VERB	_	_	8	acl:relcl	_	AlignBegin=219611|AlignEnd=219960|Gloss=become|Lang=en
-12	second	second	ADJ	_	_	13	compound	_	AlignBegin=219960|AlignEnd=220308|Gloss=second|Lang=en
-13	hand	hand	NOUN	_	_	11	xcomp	_	AlignBegin=220308|AlignEnd=220656|Gloss=hand|Lang=en
+8	when	when	ADV	_	PronType=Int	1	parataxis:conj	_	AlignBegin=218566|AlignEnd=218915|Gloss=when.Q
+9	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	11	nsubj	_	AlignBegin=218915|AlignEnd=219263|Gloss=NOM.2
+10	don	don	AUX	_	Aspect=Perf	11	aux	_	AlignBegin=219263|AlignEnd=219611|Gloss=PRF
+11	become	become	VERB	_	_	8	acl:relcl	_	AlignBegin=219611|AlignEnd=219960|Gloss=become
+12	second	second	ADJ	_	_	13	compound	_	AlignBegin=219960|AlignEnd=220308|Gloss=second
+13	hand	hand	NOUN	_	_	11	xcomp	_	AlignBegin=220308|AlignEnd=220656|Gloss=hand
 14	//	//	X	_	_	1	dep	_	AlignBegin=220656|AlignEnd=220656|Gloss=PUNCT
 
 # sent_id = JOS_10_Mothers-Against-Mini-Skirts_DG__122
@@ -1952,7 +1954,7 @@
 7	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	obj	_	AlignBegin=221250|AlignEnd=221464|Gloss=ACC.SG.1
 8	>+	>+	X	_	_	9	dep	_	AlignBegin=221464|AlignEnd=221464|Gloss=PUNCT
 9	be	be	VERB	_	PartType=Cop	3	advcl:cleft	_	AlignBegin=221464|AlignEnd=221677|Gloss=be1
-10	dat	dat	PRON	_	Number=Sing|PronType=Dem	9	dep:comp	_	AlignBegin=221677|AlignEnd=221891|Gloss=SG.DEM
+10	dat	dat	PRON	_	Number=Sing|PronType=Dem	9	nsubj	_	AlignBegin=221677|AlignEnd=221891|Gloss=SG.DEM
 11	o	o	PART	_	PartType=Disc	10	advmod	_	AlignBegin=221891|AlignEnd=222104|Gloss=EMPH
 12	//	//	X	_	_	3	dep	_	AlignBegin=222104|AlignEnd=222104|Gloss=PUNCT
 
@@ -2281,7 +2283,7 @@
 3	<	<	X	_	_	2	dep	_	AlignBegin=248755|AlignEnd=248755|Gloss=PUNCT
 4	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	AlignBegin=248755|AlignEnd=248953|Gloss=NOM.PL.3|Lang=en
 5	will	will	AUX	_	VerbForm=Fin	7	aux	_	AlignBegin=248953|AlignEnd=249151|Gloss=FUT|Lang=en
-6	be	be	AUX	_	PartType=Cop|VerbForm=Inf	7	cop	_	AlignBegin=249151|AlignEnd=249349|Gloss=be|Lang=en
+6	be	be	AUX	_	VerbForm=Inf	7	cop	_	AlignBegin=249151|AlignEnd=249349|Gloss=be|Lang=en
 7	leaving	leave	VERB	_	Tense=Pres|VerbForm=Part	0	root	_	AlignBegin=249349|AlignEnd=249548|Gloss=leave.PRS.PTCP|Lang=en
 8	it	it	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	obj	_	AlignBegin=249548|AlignEnd=249746|Gloss=NOM.NT.SG.3|Lang=en
 9	//	//	X	_	_	7	dep	_	AlignBegin=249746|AlignEnd=249746|Gloss=PUNCT

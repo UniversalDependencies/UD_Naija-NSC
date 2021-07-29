@@ -13,14 +13,14 @@
 6	when	when	SCONJ	_	PronType=Int	8	mark	_	AlignBegin=2345|AlignEnd=2495|Gloss=when.Q
 7	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	8	nsubj	_	AlignBegin=2495|AlignEnd=2650|Gloss=NOM.2
 8	call	call	VERB	_	_	28	advcl	_	AlignBegin=2650|AlignEnd=2995|Gloss=call
-9	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	8	obj	_	AlignBegin=2995|AlignEnd=3302|Gloss=ACC.SG.1
-10	#	#	X	_	_	11	dep	_	AlignBegin=3809|AlignEnd=3985|Gloss=PUNCT
-11	say	say	VERB	_	_	8	compound:svc	_	AlignBegin=3809|AlignEnd=3985|Gloss=say
+9	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	8	iobj	_	AlignBegin=2995|AlignEnd=3302|Gloss=ACC.SG.1
+10	#	#	X	_	_	16	dep	_	AlignBegin=3809|AlignEnd=3985|Gloss=PUNCT
+11	sey	sey	SCONJ	_	_	16	mark	_	AlignBegin=3809|AlignEnd=3985|Gloss=COMP
 12	[	[	X	_	_	16	dep	_	AlignBegin=3809|AlignEnd=3985|Gloss=PUNCT
 13	your	your	PRON	_	Number=Plur|Person=2|Poss=Yes	14	nmod:poss	_	AlignBegin=3985|AlignEnd=4165|Gloss=PL.2.POSS
 14	motor	motor	NOUN	_	_	16	nsubj	_	AlignBegin=4165|AlignEnd=4515|Gloss=motor
 15	don	don	AUX	_	Aspect=Perf	16	aux	_	AlignBegin=4515|AlignEnd=4704|Gloss=PRF
-16	stop	stop	VERB	_	_	11	parataxis	_	AlignBegin=4704|AlignEnd=4932|Gloss=stop
+16	stop	stop	VERB	_	_	8	ccomp	_	AlignBegin=4704|AlignEnd=4932|Gloss=stop
 17	for	for	ADP	_	_	18	case	_	AlignBegin=4932|AlignEnd=5180|Gloss=for
 18	road	road	NOUN	_	_	16	obl:arg	_	AlignBegin=5180|AlignEnd=5570|Gloss=road
 19	#	#	X	_	_	21	dep	_	AlignBegin=5570|AlignEnd=5720|Gloss=PUNCT
@@ -93,7 +93,7 @@
 9	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	AlignBegin=21100|AlignEnd=21150|Gloss=NOM.SG.1
 10	go	go	AUX	_	Aspect=Prosp	11	aux	_	AlignBegin=21150|AlignEnd=21265|Gloss=PROSP
 11	ask	ask	VERB	_	_	0	root	_	AlignBegin=21265|AlignEnd=21630|Gloss=ask
-12	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	11	obj	_	AlignBegin=21630|AlignEnd=21980|Gloss=NOM.2
+12	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	11	iobj	_	AlignBegin=21630|AlignEnd=21980|Gloss=NOM.2
 13	[	[	X	_	_	25	dep	_	AlignBegin=21980|AlignEnd=23020|Gloss=PUNCT
 14	#	#	X	_	_	25	dep	_	AlignBegin=21980|AlignEnd=23020|Gloss=PUNCT
 15	before	before	ADP	_	_	18	mark	_	AlignBegin=23020|AlignEnd=23370|Gloss=before
@@ -114,8 +114,8 @@
 30	di	di	DET	_	Definite=Def|PronType=Art	31	det	_	AlignBegin=27220|AlignEnd=27340|Gloss=DEF.ART
 31	motor	motor	NOUN	_	_	32	nsubj	_	AlignBegin=27340|AlignEnd=27660|Gloss=motor
 32	gave	give	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	27	reparandum	_	AlignBegin=27660|AlignEnd=28020|Gloss=give.IND.PST.FIN
-33	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	32	obj	_	AlignBegin=28020|AlignEnd=28155|Gloss=NOM.2
-34	sign	sign	VERB	_	_	32	xcomp	_	AlignBegin=28155|AlignEnd=28630|Gloss=sign
+33	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	32	iobj	_	AlignBegin=28020|AlignEnd=28155|Gloss=NOM.2
+34	sign	sign	VERB	_	_	32	ccomp	_	AlignBegin=28155|AlignEnd=28630|Gloss=sign
 35	}	}	X	_	_	25	dep	_	AlignBegin=28630|AlignEnd=28660|Gloss=PUNCT
 36	?//]	?//]	X	_	_	25	dep	_	AlignBegin=28630|AlignEnd=28660|Gloss=PUNCT
 37	//	//	X	_	_	11	dep	_	AlignBegin=28630|AlignEnd=28660|Gloss=PUNCT
@@ -141,7 +141,7 @@
 1	if	if	SCONJ	_	_	3	mark	_	AlignBegin=30313|AlignEnd=30450|Gloss=if|Lang=en
 2	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	AlignBegin=30450|AlignEnd=30510|Gloss=NOM.2|Lang=en
 3	gave	give	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	13	advcl	_	AlignBegin=30510|AlignEnd=30790|Gloss=give.IND.PST.FIN|Lang=en
-4	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obj	_	AlignBegin=30790|AlignEnd=30903|Gloss=ACC.SG.1|Lang=en
+4	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	iobj	_	AlignBegin=30790|AlignEnd=30903|Gloss=ACC.SG.1|Lang=en
 5	answer	answer	NOUN	_	_	3	obj	_	AlignBegin=30903|AlignEnd=31490|Gloss=answer|Lang=en
 6	<	<	X	_	_	9	dep	_	AlignBegin=31490|AlignEnd=31520|Gloss=PUNCT
 7	#	#	X	_	_	9	dep	_	AlignBegin=31520|AlignEnd=31768|Gloss=PUNCT
@@ -171,7 +171,7 @@
 7	di	di	DET	_	Definite=Def|PronType=Art	8	det	_	AlignBegin=34910|AlignEnd=35020|Gloss=DEF.ART
 8	motor	motor	NOUN	_	_	9	nsubj	_	AlignBegin=35020|AlignEnd=35340|Gloss=motor
 9	give	give	VERB	_	_	3	reparandum	_	AlignBegin=35340|AlignEnd=35550|Gloss=give
-10	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	9	obj	_	AlignBegin=35550|AlignEnd=35693|Gloss=NOM.2
+10	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	9	iobj	_	AlignBegin=35550|AlignEnd=35693|Gloss=NOM.2
 11	sign	sign	NOUN	_	_	9	obj	_	AlignBegin=35693|AlignEnd=36210|Gloss=sign
 12	<	<	X	_	_	3	dep	_	AlignBegin=36210|AlignEnd=36240|Gloss=PUNCT
 13	#	#	X	_	_	3	dep	_	AlignBegin=36240|AlignEnd=36560|Gloss=PUNCT
@@ -179,7 +179,7 @@
 15	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	17	nsubj	_	AlignBegin=36740|AlignEnd=36907|Gloss=NOM.2
 16	fit	fit	AUX	_	Mood=Pot	17	aux	_	AlignBegin=36907|AlignEnd=37070|Gloss=ABIL
 17	tell	tell	VERB	_	_	0	root	_	AlignBegin=37070|AlignEnd=37275|Gloss=tell
-18	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	17	obj	_	AlignBegin=37275|AlignEnd=37438|Gloss=ACC.SG.1
+18	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	17	iobj	_	AlignBegin=37275|AlignEnd=37438|Gloss=ACC.SG.1
 19	sey	sey	SCONJ	_	_	24	mark	_	AlignBegin=37438|AlignEnd=37570|Gloss=COMP
 20	[	[	X	_	_	24	dep	_	AlignBegin=37570|AlignEnd=37600|Gloss=PUNCT
 21	di	di	DET	_	Definite=Def|PronType=Art	22	det	_	AlignBegin=37600|AlignEnd=37730|Gloss=DEF.ART
@@ -337,12 +337,12 @@
 30	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	32	nsubj	_	AlignBegin=67860|AlignEnd=67920|Gloss=NOM.SG.1
 31	go	go	AUX	_	Aspect=Prosp	32	aux	_	AlignBegin=67920|AlignEnd=68010|Gloss=PROSP
 32	come	come	VERB	_	_	0	root	_	AlignBegin=68010|AlignEnd=68220|Gloss=come
-33	meet	meet	VERB	_	_	32	xcomp	_	AlignBegin=68220|AlignEnd=68520|Gloss=meet
+33	meet	meet	VERB	_	_	32	ccomp	_	AlignBegin=68220|AlignEnd=68520|Gloss=meet
 34	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	33	obj	_	AlignBegin=68520|AlignEnd=68580|Gloss=NOM.2
 35	say	say	VERB	_	_	33	compound:svc	_	AlignBegin=68580|AlignEnd=68770|Gloss=say
 36	[	[	X	_	_	37	dep	_	AlignBegin=68770|AlignEnd=68800|Gloss=PUNCT
-37	get	get	VERB	_	_	35	xcomp	_	AlignBegin=68800|AlignEnd=69060|Gloss=get
-38	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	37	obj	_	AlignBegin=69060|AlignEnd=69180|Gloss=ACC.SG.1
+37	get	get	VERB	_	_	35	ccomp	_	AlignBegin=68800|AlignEnd=69060|Gloss=get
+38	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	37	iobj	_	AlignBegin=69060|AlignEnd=69180|Gloss=ACC.SG.1
 39	money	money	NOUN	_	_	37	obj	_	AlignBegin=69180|AlignEnd=69680|Gloss=money
 40	#	#	X	_	_	42	dep	_	AlignBegin=69680|AlignEnd=69850|Gloss=PUNCT
 41	{	{	X	_	_	42	dep	_	AlignBegin=69820|AlignEnd=69850|Gloss=PUNCT
@@ -350,7 +350,7 @@
 43	||	||	X	_	_	52	dep	_	AlignBegin=70110|AlignEnd=70140|Gloss=PUNCT
 44	#	#	X	_	_	52	dep	_	AlignBegin=70140|AlignEnd=70720|Gloss=PUNCT
 45	so	so	ADV	_	_	52	mark	_	AlignBegin=70720|AlignEnd=70840|ExtPos=SCONJ|Gloss=so|PhraseType=Idiom
-46	dat	dat	PRON	_	Number=Sing|PronType=Dem	45	fixed	_	AlignBegin=70870|AlignEnd=71020|Gloss=SG.DEM|InIdiom=Yes
+46	dat	dat	SCONJ	_	Number=Sing|PronType=Dem	45	fixed	_	AlignBegin=70870|AlignEnd=71020|Gloss=SG.DEM|InIdiom=Yes
 47	}	}	X	_	_	42	dep	_	AlignBegin=70870|AlignEnd=71020|Gloss=PUNCT
 48	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	52	nsubj	_	AlignBegin=71020|AlignEnd=71150|Gloss=NOM.SG.1
 49	will	will	AUX	_	VerbForm=Fin	52	aux	_	AlignBegin=71150|AlignEnd=71300|Gloss=FUT
@@ -378,7 +378,7 @@
 2	when	when	SCONJ	_	PronType=Int	4	mark	_	AlignBegin=74540|AlignEnd=74690|Gloss=when.Q
 3	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	AlignBegin=74690|AlignEnd=74796|Gloss=NOM.2
 4	call	call	VERB	_	_	33	advcl	_	AlignBegin=74796|AlignEnd=75040|Gloss=call
-5	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	obj	_	AlignBegin=75040|AlignEnd=75210|Gloss=ACC.SG.1
+5	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	iobj	_	AlignBegin=75040|AlignEnd=75210|Gloss=ACC.SG.1
 6	sey	sey	SCONJ	_	_	12	mark	_	AlignBegin=75210|AlignEnd=75740|Gloss=COMP
 7	#	#	X	_	_	12	dep	_	AlignBegin=75740|AlignEnd=76100|Gloss=PUNCT
 8	{	{	X	_	_	12	dep	_	AlignBegin=75740|AlignEnd=76100|Gloss=PUNCT
@@ -407,7 +407,7 @@
 31	will	will	AUX	_	VerbForm=Fin	33	aux	_	AlignBegin=80260|AlignEnd=80350|Gloss=FUT
 32	first	first	ADV	_	_	33	advmod	_	AlignBegin=80350|AlignEnd=80690|Gloss=first
 33	come	come	VERB	_	_	0	root	_	AlignBegin=80690|AlignEnd=81180|Gloss=come
-34	loose	loose	VERB	_	_	33	compound:svc	_	AlignBegin=81180|AlignEnd=81610|Gloss=loose
+34	loose	loose	VERB	_	_	33	ccomp	_	AlignBegin=81180|AlignEnd=81610|Gloss=loose
 35	your	your	PRON	_	Number=Plur|Person=2|Poss=Yes	36	nmod:poss	_	AlignBegin=81610|AlignEnd=81809|Gloss=PL.2.POSS
 36	plug	plug	NOUN	_	_	34	obj	_	AlignBegin=81809|AlignEnd=82330|Gloss=plug
 37	//	//	X	_	_	33	dep	_	AlignBegin=82330|AlignEnd=82360|Gloss=PUNCT
@@ -507,7 +507,7 @@
 20	dat	dat	PRON	_	Number=Sing|PronType=Dem	21	nsubj	_	AlignBegin=99883|AlignEnd=100135|Gloss=SG.DEM
 21	gave	give	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	19	acl:relcl	_	AlignBegin=100135|AlignEnd=100330|Gloss=give.IND.PST.FIN
 22	di	di	DET	_	Definite=Def|PronType=Art	23	det	_	AlignBegin=100330|AlignEnd=100510|Gloss=DEF.ART
-23	motor	motor	NOUN	_	_	21	obj	_	AlignBegin=100510|AlignEnd=101012|Gloss=motor
+23	motor	motor	NOUN	_	_	21	iobj	_	AlignBegin=100510|AlignEnd=101012|Gloss=motor
 24	fire	fire	NOUN	_	_	21	obj	_	AlignBegin=101012|AlignEnd=101420|Gloss=fire
 25	//	//	X	_	_	4	dep	_	AlignBegin=101420|AlignEnd=103420|Gloss=PUNCT
 
@@ -521,8 +521,8 @@
 2	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	AlignBegin=103420|AlignEnd=103500|Gloss=NOM.SG.3
 3	use	use	VERB	_	_	0	root	_	AlignBegin=103500|AlignEnd=103730|Gloss=use
 4	to	to	ADP	_	_	5	mark	_	AlignBegin=103730|AlignEnd=103810|Gloss=to
-5	give	give	VERB	_	_	3	xcomp	_	AlignBegin=103810|AlignEnd=104200|Gloss=give
-6	motor	motor	NOUN	_	_	5	obj	_	AlignBegin=104200|AlignEnd=104510|Gloss=motor
+5	give	give	VERB	_	_	3	ccomp	_	AlignBegin=103810|AlignEnd=104200|Gloss=give
+6	motor	motor	NOUN	_	_	5	iobj	_	AlignBegin=104200|AlignEnd=104510|Gloss=motor
 7	fire	fire	NOUN	_	_	5	obj	_	AlignBegin=104510|AlignEnd=104940|Gloss=fire
 8	when	when	SCONJ	_	PronType=Int	11	mark	_	AlignBegin=104940|AlignEnd=105100|Gloss=when.Q
 9	di	di	DET	_	Definite=Def|PronType=Art	10	det	_	AlignBegin=105100|AlignEnd=105230|Gloss=DEF.ART
@@ -548,7 +548,7 @@
 5	beginning	begin	VERB	_	Tense=Pres|VerbForm=Part	0	root	_	AlignBegin=110440|AlignEnd=110880|Gloss=begin.PRS.PTCP
 6	to	to	ADP	_	_	8	mark	_	AlignBegin=110880|AlignEnd=111220|Gloss=to
 7	#	#	X	_	_	8	dep	_	AlignBegin=111220|AlignEnd=112160|Gloss=PUNCT
-8	taking	take	VERB	_	Tense=Pres|VerbForm=Part	5	xcomp	_	AlignBegin=112160|AlignEnd=112430|Gloss=take.PRS.PTCP
+8	taking	take	VERB	_	Tense=Pres|VerbForm=Part	5	ccomp	_	AlignBegin=112160|AlignEnd=112430|Gloss=take.PRS.PTCP
 9	di	di	DET	_	Definite=Def|PronType=Art	10	det	_	AlignBegin=112430|AlignEnd=112550|Gloss=DEF.ART
 10	fuel	fuel	NOUN	_	_	8	obj	_	AlignBegin=112550|AlignEnd=112910|Gloss=fuel
 11	#	#	X	_	_	19	dep	_	AlignBegin=112910|AlignEnd=113440|Gloss=PUNCT
@@ -602,14 +602,14 @@
 # text = # di engine now # be hotting //
 # text_en = Now the engine is getting hot.
 # text_ortho = Di engine now be hotting.
-1	#	#	X	_	_	6	dep	_	AlignBegin=126300|AlignEnd=127440|Gloss=PUNCT
+1	#	#	X	_	_	7	dep	_	AlignBegin=126300|AlignEnd=127440|Gloss=PUNCT
 2	di	di	DET	_	Definite=Def|PronType=Art	3	det	_	AlignBegin=127440|AlignEnd=127520|Gloss=DEF.ART
-3	engine	engine	NOUN	_	_	6	nsubj	_	AlignBegin=127520|AlignEnd=127920|Gloss=engine
+3	engine	engine	NOUN	_	_	7	nsubj	_	AlignBegin=127520|AlignEnd=127920|Gloss=engine
 4	now	now	ADV	_	_	3	advmod	_	AlignBegin=127920|AlignEnd=128340|Gloss=now
-5	#	#	X	_	_	6	dep	_	AlignBegin=128340|AlignEnd=128760|Gloss=PUNCT
-6	be	be	VERB	_	PartType=Cop	0	root	_	AlignBegin=128760|AlignEnd=128882|Gloss=be
-7	hotting	hot	VERB	_	Tense=Pres|VerbForm=Part	6	xcomp	_	AlignBegin=128882|AlignEnd=129290|Gloss=hot.PRS.PTCP
-8	//	//	X	_	_	6	dep	_	AlignBegin=129290|AlignEnd=129320|Gloss=PUNCT
+5	#	#	X	_	_	7	dep	_	AlignBegin=128340|AlignEnd=128760|Gloss=PUNCT
+6	be	be	AUX	_	PartType=Cop	7	cop	_	AlignBegin=128760|AlignEnd=128882|Gloss=be
+7	hotting	hot	VERB	_	Tense=Pres|VerbForm=Part	0	root	_	AlignBegin=128882|AlignEnd=129290|Gloss=hot.PRS.PTCP
+8	//	//	X	_	_	7	dep	_	AlignBegin=129290|AlignEnd=129320|Gloss=PUNCT
 
 # sent_id = KAD_12_Mechanic-At-Work_MG__23
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/KAD_12_Mechanic-At-Work_MG.mp3
@@ -631,7 +631,7 @@
 12	see	see	VERB	_	_	0	root	_	AlignBegin=132590|AlignEnd=132810|Gloss=see
 13	di	di	DET	_	Definite=Def|PronType=Art	14	det	_	AlignBegin=132810|AlignEnd=132990|Gloss=DEF.ART
 14	engine	engine	NOUN	_	_	15	nsubj	_	AlignBegin=132990|AlignEnd=133380|Gloss=engine
-15	hot	hot	ADJ	_	_	12	obj	_	AlignBegin=133380|AlignEnd=133820|Gloss=hot
+15	hot	hot	ADJ	_	_	12	ccomp	_	AlignBegin=133380|AlignEnd=133820|ExtPos=VERB|Gloss=hot
 16	//	//	X	_	_	12	dep	_	AlignBegin=133820|AlignEnd=133850|Gloss=PUNCT
 
 # sent_id = KAD_12_Mechanic-At-Work_MG__24
@@ -645,7 +645,7 @@
 3	when	when	SCONJ	_	PronType=Int	5	mark	_	AlignBegin=134760|AlignEnd=134948|Gloss=when.Q
 4	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	AlignBegin=134948|AlignEnd=135060|Gloss=NOM.2
 5	call	call	VERB	_	_	27	advcl	_	AlignBegin=135060|AlignEnd=135310|Gloss=call
-6	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	obj	_	AlignBegin=135310|AlignEnd=135470|Gloss=ACC.SG.1
+6	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	iobj	_	AlignBegin=135310|AlignEnd=135470|Gloss=ACC.SG.1
 7	sey	sey	SCONJ	_	_	16	mark	_	AlignBegin=135470|AlignEnd=135850|Gloss=COMP
 8	[	[	X	_	_	16	dep	_	AlignBegin=135850|AlignEnd=135880|Gloss=PUNCT
 9	{	{	X	_	_	10	dep	_	AlignBegin=135850|AlignEnd=135880|Gloss=PUNCT
@@ -655,7 +655,7 @@
 13	your	your	ADJ	_	Number=Plur|Person=2|Poss=Yes	10	reparandum	_	AlignBegin=137420|AlignEnd=137510|Gloss=PL.2.POSS
 14	}	}	X	_	_	10	dep	_	AlignBegin=137510|AlignEnd=137540|Gloss=PUNCT
 15	leg	leg	NOUN	_	_	16	nsubj	_	AlignBegin=137540|AlignEnd=137870|Gloss=leg
-16	full	full	ADJ	_	_	5	ccomp	_	AlignBegin=137870|AlignEnd=138480|Gloss=full
+16	full	full	ADJ	_	_	5	ccomp	_	AlignBegin=137870|AlignEnd=138480|ExtPos=VERB|Gloss=full
 17	#	#	X	_	_	21	dep	_	AlignBegin=138480|AlignEnd=138920|Gloss=PUNCT
 18	when	when	SCONJ	_	PronType=Int	21	mark	_	AlignBegin=138920|AlignEnd=139050|Gloss=when.Q|Lang=en
 19	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	21	nsubj	_	AlignBegin=139050|AlignEnd=139152|Gloss=NOM.2|Lang=en
@@ -761,7 +761,7 @@
 3	when	when	SCONJ	_	PronType=Int	5	mark	_	AlignBegin=161680|AlignEnd=161870|Gloss=when.Q
 4	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	AlignBegin=161870|AlignEnd=161992|Gloss=NOM.2
 5	call	call	VERB	_	_	40	advcl	_	AlignBegin=161992|AlignEnd=162280|Gloss=call
-6	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	obj	_	AlignBegin=162280|AlignEnd=162660|Gloss=ACC.SG.1
+6	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	iobj	_	AlignBegin=162280|AlignEnd=162660|Gloss=ACC.SG.1
 7	#	#	X	_	_	17	dep	_	AlignBegin=162660|AlignEnd=162790|Gloss=PUNCT
 8	sey	sey	SCONJ	_	_	17	mark	_	AlignBegin=162790|AlignEnd=163300|Gloss=COMP
 9	#	#	X	_	_	17	dep	_	AlignBegin=163300|AlignEnd=163520|Gloss=PUNCT
@@ -815,7 +815,7 @@
 9	will	will	AUX	_	VerbForm=Fin	11	aux	_	AlignBegin=174880|AlignEnd=175020|Gloss=FUT
 10	just	just	ADV	_	_	11	advmod	_	AlignBegin=175020|AlignEnd=175430|Gloss=just
 11	carry	carry	VERB	_	_	3	parataxis:conj	_	AlignBegin=175460|AlignEnd=175790|Gloss=carry
-12	jack	jack	VERB	_	_	11	xcomp	_	AlignBegin=175790|AlignEnd=176130|Gloss=read
+12	jack	jack	VERB	_	_	11	ccomp	_	AlignBegin=175790|AlignEnd=176130|Gloss=read
 13	|c	|c	X	_	_	15	dep	_	AlignBegin=176130|AlignEnd=176160|Gloss=PUNCT
 14	#	#	X	_	_	15	dep	_	AlignBegin=176160|AlignEnd=176880|Gloss=PUNCT
 15	raise	raise	VERB	_	_	11	conj	_	AlignBegin=176880|AlignEnd=177104|Gloss=raise
@@ -913,7 +913,7 @@
 7	will	will	AUX	_	VerbForm=Fin	9	aux	_	AlignBegin=192090|AlignEnd=192290|Gloss=FUT|Lang=en
 8	now	now	ADV	_	_	9	advmod	_	AlignBegin=192290|AlignEnd=192510|Gloss=now|Lang=en
 9	tell	tell	VERB	_	_	0	root	_	AlignBegin=192510|AlignEnd=192761|Gloss=tell|Lang=en
-10	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	9	obj	_	AlignBegin=192761|AlignEnd=192940|Gloss=NOM.2|Lang=en
+10	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	9	iobj	_	AlignBegin=192761|AlignEnd=192940|Gloss=NOM.2|Lang=en
 11	what	what	PRON	_	PronType=Int	14	nsubj	_	AlignBegin=192940|AlignEnd=193140|Gloss=what.Q|Lang=en
 12	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	AlignBegin=193140|AlignEnd=193740|Gloss=be.IND.SG.3.PRS.FIN|Lang=en
 13	#	#	X	_	_	14	dep	_	AlignBegin=193740|AlignEnd=193980|Gloss=PUNCT
@@ -930,17 +930,17 @@
 # text_ortho = And den, you go give me money go and buy di part wey I will use.
 1	#	#	X	_	_	7	dep	_	AlignBegin=194760|AlignEnd=195460|Gloss=PUNCT
 2	and	and	CCONJ	_	_	7	discourse	_	AlignBegin=195460|AlignEnd=195530|Gloss=and
-3	den	dem	ADV	_	_	7	advmod	_	AlignBegin=195530|AlignEnd=195676|Gloss=den
+3	den	den	ADV	_	_	7	advmod	_	AlignBegin=195530|AlignEnd=195676|Gloss=den
 4	<	<	X	_	_	3	dep	_	AlignBegin=195676|AlignEnd=195706|Gloss=PUNCT
 5	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	7	nsubj	_	AlignBegin=195706|AlignEnd=195830|Gloss=NOM.2
 6	go	go	AUX	_	Aspect=Prosp	7	aux	_	AlignBegin=195830|AlignEnd=195930|Gloss=PROSP
 7	give	give	VERB	_	_	0	root	_	AlignBegin=195930|AlignEnd=196110|Gloss=give
-8	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	7	obj	_	AlignBegin=196110|AlignEnd=196260|Gloss=ACC.SG.1
+8	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	7	iobj	_	AlignBegin=196110|AlignEnd=196260|Gloss=ACC.SG.1
 9	money	money	NOUN	_	_	7	obj	_	AlignBegin=196260|AlignEnd=196790|Gloss=money
 10	#	#	X	_	_	11	dep	_	AlignBegin=196790|AlignEnd=197060|Gloss=PUNCT
 11	go	go	VERB	_	_	7	conj	_	AlignBegin=197060|AlignEnd=197150|Gloss=go
 12	and	and	CCONJ	_	_	13	cc	_	AlignBegin=197150|AlignEnd=197290|Gloss=and
-13	buy	buy	VERB	_	_	11	xcomp	_	AlignBegin=197290|AlignEnd=197800|Gloss=buy
+13	buy	buy	VERB	_	_	11	ccomp	_	AlignBegin=197290|AlignEnd=197800|Gloss=buy
 14	#	#	X	_	_	16	dep	_	AlignBegin=197800|AlignEnd=199140|Gloss=PUNCT
 15	di	di	DET	_	Definite=Def|PronType=Art	16	det	_	AlignBegin=199140|AlignEnd=199310|Gloss=DEF.ART
 16	part	part	NOUN	_	_	13	obj	_	AlignBegin=199310|AlignEnd=199750|Gloss=part
@@ -961,7 +961,7 @@
 3	when	when	SCONJ	_	PronType=Int	5	mark	_	AlignBegin=201490|AlignEnd=201630|Gloss=when.Q
 4	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	AlignBegin=201630|AlignEnd=201720|Gloss=NOM.2
 5	call	call	VERB	_	_	29	advcl	_	AlignBegin=201720|AlignEnd=202010|Gloss=call
-6	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	obj	_	AlignBegin=202010|AlignEnd=202382|Gloss=ACC.SG.1
+6	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	iobj	_	AlignBegin=202010|AlignEnd=202382|Gloss=ACC.SG.1
 7	sey	sey	SCONJ	_	_	18	mark	_	AlignBegin=202382|AlignEnd=202880|Gloss=COMP
 8	#	#	X	_	_	18	dep	_	AlignBegin=202880|AlignEnd=203460|Gloss=PUNCT
 9	[	[	X	_	_	18	dep	_	AlignBegin=203430|AlignEnd=203460|Gloss=PUNCT
@@ -977,9 +977,9 @@
 19	#	#	X	_	_	23	dep	_	AlignBegin=207020|AlignEnd=207740|Gloss=PUNCT
 20	di	di	DET	_	Definite=Def|PronType=Art	21	det	_	AlignBegin=207740|AlignEnd=207840|Gloss=DEF.ART
 21	car	car	NOUN	_	_	23	nsubj	_	AlignBegin=207840|AlignEnd=208000|Gloss=car
-22	no	no	PART	_	Polarity=Neg	23	advmod	_	AlignBegin=208000|AlignEnd=208160|Gloss=NEG
+22	no	no	AUX	_	Polarity=Neg	23	aux	_	AlignBegin=208000|AlignEnd=208160|Gloss=NEG
 23	gree	gree	VERB	_	_	18	conj	_	AlignBegin=208160|AlignEnd=208376|Gloss=agree
-24	start	start	VERB	_	_	23	xcomp	_	AlignBegin=208376|AlignEnd=208930|Gloss=start
+24	start	start	VERB	_	_	23	ccomp	_	AlignBegin=208376|AlignEnd=208930|Gloss=start
 25	]	]	X	_	_	18	dep	_	AlignBegin=208930|AlignEnd=208960|Gloss=PUNCT
 26	<	<	X	_	_	5	dep	_	AlignBegin=208930|AlignEnd=208960|Gloss=PUNCT
 27	#	#	X	_	_	5	dep	_	AlignBegin=208960|AlignEnd=209820|Gloss=PUNCT
@@ -1101,7 +1101,7 @@
 2	when	when	SCONJ	_	PronType=Int	4	mark	_	AlignBegin=228180|AlignEnd=228280|Gloss=when.Q
 3	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	AlignBegin=228280|AlignEnd=228360|Gloss=NOM.2
 4	call	call	VERB	_	_	29	advcl	_	AlignBegin=228360|AlignEnd=228610|Gloss=call
-5	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	obj	_	AlignBegin=228610|AlignEnd=228737|Gloss=ACC.SG.1
+5	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	iobj	_	AlignBegin=228610|AlignEnd=228737|Gloss=ACC.SG.1
 6	sey	sey	SCONJ	_	_	10	mark	_	AlignBegin=228737|AlignEnd=229016|Gloss=COMP
 7	your	your	PRON	_	Number=Plur|Person=2|Poss=Yes	8	nmod:poss	_	AlignBegin=229046|AlignEnd=229308|Gloss=PL.2.POSS|Lang=en
 8	car	car	NOUN	_	_	10	nsubj	_	AlignBegin=229308|AlignEnd=229660|Gloss=car|Lang=en
@@ -1112,15 +1112,15 @@
 13	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	15	nsubj	_	AlignBegin=231210|AlignEnd=231340|Gloss=NOM.2|Lang=en
 14	are	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	aux	_	AlignBegin=231340|AlignEnd=231720|Gloss=be.IND.PRS.FIN|Lang=en
 15	moving	move	VERB	_	Tense=Pres|VerbForm=Part	10	advcl	_	AlignBegin=231720|AlignEnd=232090|Gloss=move.PRS.PTCP|Lang=en
-16	//=	//=	X	_	_	19	dep	_	AlignBegin=232090|AlignEnd=232120|Gloss=PUNCT
+16	|c	|c	X	_	_	19	dep	_	AlignBegin=232090|AlignEnd=232120|Gloss=PUNCT
 17	#	#	X	_	_	19	dep	_	AlignBegin=232120|AlignEnd=232800|Gloss=PUNCT
 18	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	19	nsubj	_	AlignBegin=232800|AlignEnd=232847|Gloss=NOM.2|Lang=en
-19	see	see	VERB	_	_	10	parataxis:conj	_	AlignBegin=232847|AlignEnd=233030|Gloss=see|Lang=en
+19	see	see	VERB	_	_	10	conj	_	AlignBegin=232847|AlignEnd=233030|Gloss=see|Lang=en
 20	your	your	PRON	_	Number=Plur|Person=2|Poss=Yes	21	nmod:poss	_	AlignBegin=233030|AlignEnd=233200|Gloss=PL.2.POSS|Lang=en
 21	car	car	NOUN	_	_	23	compound	_	AlignBegin=233200|AlignEnd=233640|Gloss=car|Lang=en
 22	#	#	X	_	_	21	dep	_	AlignBegin=233640|AlignEnd=234020|Gloss=PUNCT
 23	temperature	temperature	NOUN	_	_	19	obj	_	AlignBegin=234020|AlignEnd=234606|Gloss=temperature|Lang=en
-24	rise	rise	VERB	_	_	19	advcl	_	AlignBegin=234606|AlignEnd=235300|Gloss=rise|Lang=en
+24	rise	rise	VERB	_	_	19	ccomp	_	AlignBegin=234606|AlignEnd=235300|Gloss=rise|Lang=en
 25	<	<	X	_	_	4	dep	_	AlignBegin=235300|AlignEnd=235330|Gloss=PUNCT
 26	#	#	X	_	_	4	dep	_	AlignBegin=235330|AlignEnd=235980|Gloss=PUNCT
 27	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	29	nsubj	_	AlignBegin=235980|AlignEnd=236050|Gloss=NOM.SG.1
@@ -1179,7 +1179,7 @@
 3	when	when	SCONJ	_	PronType=Int	5	mark	_	AlignBegin=249100|AlignEnd=249300|Gloss=when.Q
 4	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	AlignBegin=249300|AlignEnd=249425|Gloss=NOM.2
 5	call	call	VERB	_	_	36	advcl	_	AlignBegin=249425|AlignEnd=249700|Gloss=call
-6	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	obj	_	AlignBegin=249700|AlignEnd=250041|Gloss=ACC.SG.1
+6	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	iobj	_	AlignBegin=249700|AlignEnd=250041|Gloss=ACC.SG.1
 7	sey	sey	SCONJ	_	_	13	mark	_	AlignBegin=250041|AlignEnd=250540|Gloss=COMP
 8	#	#	X	_	_	13	dep	_	AlignBegin=250540|AlignEnd=251360|Gloss=PUNCT
 9	[	[	X	_	_	13	dep	_	AlignBegin=251330|AlignEnd=251360|Gloss=PUNCT
@@ -1187,11 +1187,11 @@
 11	motor	motor	NOUN	_	_	13	nsubj	_	AlignBegin=251480|AlignEnd=252100|Gloss=motor
 12	#	#	X	_	_	11	dep	_	AlignBegin=252100|AlignEnd=252570|Gloss=PUNCT
 13	misbehaving	misbehave	VERB	_	Tense=Pres|VerbForm=Part	5	ccomp	_	AlignBegin=252570|AlignEnd=253320|Gloss=misbehave.PRS.PTCP
-14	//=	//=	X	_	_	18	dep	_	AlignBegin=253320|AlignEnd=254040|Gloss=PUNCT
+14	|c	|c	X	_	_	18	dep	_	AlignBegin=253320|AlignEnd=254040|Gloss=PUNCT
 15	#	#	X	_	_	18	dep	_	AlignBegin=253320|AlignEnd=254040|Gloss=PUNCT
 16	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	AlignBegin=254040|AlignEnd=254120|Gloss=NOM.SG.3
-17	no	no	PART	_	Polarity=Neg	18	advmod	_	AlignBegin=254120|AlignEnd=254310|Gloss=NEG
-18	hold	hold	VERB	_	_	13	parataxis:conj	_	AlignBegin=254310|AlignEnd=254549|Gloss=hold
+17	no	no	AUX	_	Polarity=Neg	18	aux	_	AlignBegin=254120|AlignEnd=254310|Gloss=NEG
+18	hold	hold	VERB	_	_	13	conj	_	AlignBegin=254310|AlignEnd=254549|Gloss=hold
 19	slow	slow	VERB	_	_	18	advcl	_	AlignBegin=254549|AlignEnd=254930|Gloss=slow
 20	]	]	X	_	_	13	dep	_	AlignBegin=254930|AlignEnd=254960|Gloss=PUNCT
 21	<	<	X	_	_	5	dep	_	AlignBegin=254930|AlignEnd=254960|Gloss=PUNCT
@@ -1281,7 +1281,7 @@
 7	|c	|c	X	_	_	9	dep	_	AlignBegin=272880|AlignEnd=272910|Gloss=PUNCT
 8	and	and	CCONJ	_	_	9	cc	_	AlignBegin=272910|AlignEnd=273053|Gloss=and|Lang=en
 9	come	come	VERB	_	_	4	conj	_	AlignBegin=273053|AlignEnd=273290|Gloss=come|Lang=en
-10	and	and	CCONJ	_	_	9	orphan	_	AlignBegin=273320|AlignEnd=273570|Gloss=and|Lang=en
+10	and	and	CCONJ	_	_	9	dep	_	AlignBegin=273320|AlignEnd=273570|Gloss=and|Lang=en
 11	&//	&//	X	_	_	4	dep	_	AlignBegin=273570|AlignEnd=273600|Gloss=PUNCT
 
 # sent_id = KAD_12_Mechanic-At-Work_MG__47
@@ -1298,7 +1298,7 @@
 6	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	AlignBegin=274980|AlignEnd=275050|Gloss=NOM.SG.3
 7	use	use	VERB	_	_	0	root	_	AlignBegin=275050|AlignEnd=275300|Gloss=use
 8	to	to	ADP	_	_	9	mark	_	AlignBegin=275300|AlignEnd=275390|Gloss=to
-9	clean	clean	VERB	_	_	7	xcomp	_	AlignBegin=275390|AlignEnd=275820|Gloss=clean
+9	clean	clean	VERB	_	_	7	ccomp	_	AlignBegin=275390|AlignEnd=275820|Gloss=clean
 10	{	{	X	_	_	12	dep	_	AlignBegin=275820|AlignEnd=275850|Gloss=PUNCT
 11	di	di	DET	_	Definite=Def|PronType=Art	12	det	_	AlignBegin=275850|AlignEnd=276014|Gloss=DEF.ART
 12	dirty	dirty	ADJ	_	_	9	obj	_	AlignBegin=276014|AlignEnd=276450|Gloss=dirty
@@ -1324,7 +1324,7 @@
 1	#	#	X	_	_	2	dep	_	AlignBegin=279320|AlignEnd=279900|Gloss=PUNCT
 2	use	use	VERB	_	_	0	root	_	AlignBegin=279900|AlignEnd=280020|Gloss=use
 3	to	to	ADP	_	_	4	mark	_	AlignBegin=280020|AlignEnd=280175|Gloss=to
-4	clean	clean	VERB	_	_	2	xcomp	_	AlignBegin=280175|AlignEnd=280560|Gloss=clean
+4	clean	clean	VERB	_	_	2	ccomp	_	AlignBegin=280175|AlignEnd=280560|Gloss=clean
 5	it	IT	NOUN	_	_	4	obj	_	AlignBegin=280560|AlignEnd=280850|Gloss=internship
 6	|c	|c	X	_	_	10	dep	_	AlignBegin=280850|AlignEnd=280880|Gloss=PUNCT
 7	#	#	X	_	_	10	dep	_	AlignBegin=280880|AlignEnd=281420|Gloss=PUNCT
@@ -1358,21 +1358,21 @@
 # text = # imagine you just come say [ eh # see my motor o !//] //
 # text_en = Imagine you just came here and said, "hey, here's my car!"
 # text_ortho = Imagine you just come say eh see my motor o!
-1	#	#	X	_	_	5	dep	_	AlignBegin=285640|AlignEnd=286340|Gloss=PUNCT
-2	imagine	imagine	VERB	_	_	5	discourse	_	AlignBegin=286340|AlignEnd=286810|Gloss=imagine
+1	#	#	X	_	_	2	dep	_	AlignBegin=285640|AlignEnd=286340|Gloss=PUNCT
+2	imagine	imagine	VERB	_	_	0	root	_	AlignBegin=286340|AlignEnd=286810|Gloss=imagine
 3	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	AlignBegin=286810|AlignEnd=286940|Gloss=NOM.2
 4	just	just	ADV	_	_	5	advmod	_	AlignBegin=286940|AlignEnd=287170|Gloss=just
-5	come	come	VERB	_	_	0	root	_	AlignBegin=287170|AlignEnd=287430|Gloss=come
-6	say	say	VERB	_	_	5	xcomp	_	AlignBegin=287430|AlignEnd=287663|Gloss=say
+5	come	come	VERB	_	_	2	ccomp	_	AlignBegin=287170|AlignEnd=287430|Gloss=come
+6	say	say	VERB	_	_	5	ccomp	_	AlignBegin=287430|AlignEnd=287663|Gloss=say
 7	[	[	X	_	_	10	dep	_	AlignBegin=287663|AlignEnd=287693|Gloss=PUNCT
 8	eh	eh	INTJ	_	_	10	discourse	_	AlignBegin=287693|AlignEnd=288060|Gloss=eh
 9	#	#	X	_	_	10	dep	_	AlignBegin=288060|AlignEnd=288740|Gloss=PUNCT
 10	see	see	VERB	_	_	6	parataxis	_	AlignBegin=288740|AlignEnd=289010|Gloss=see
 11	my	my	PRON	_	Number=Sing|Person=1|Poss=Yes	12	nmod:poss	_	AlignBegin=289010|AlignEnd=289180|Gloss=SG.1.POSS
 12	motor	motor	NOUN	_	_	10	obj	_	AlignBegin=289180|AlignEnd=289658|Gloss=motor
-13	o	o	PART	_	PartType=Disc	12	advmod	_	AlignBegin=289658|AlignEnd=289910|Gloss=EMPH
+13	o	o	PART	_	PartType=Disc	10	advmod	_	AlignBegin=289658|AlignEnd=289910|Gloss=EMPH
 14	!//]	!//]	X	_	_	10	dep	_	AlignBegin=289910|AlignEnd=289940|Gloss=PUNCT
-15	//	//	X	_	_	5	dep	_	AlignBegin=289910|AlignEnd=289940|Gloss=PUNCT
+15	//	//	X	_	_	2	dep	_	AlignBegin=289910|AlignEnd=289940|Gloss=PUNCT
 
 # sent_id = KAD_12_Mechanic-At-Work_MG__51
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/KAD_12_Mechanic-At-Work_MG.mp3
@@ -1429,7 +1429,7 @@
 2	just	just	ADV	_	_	3	advmod	_	AlignBegin=295620|AlignEnd=295950|Gloss=just
 3	hear	hear	VERB	_	_	0	root	_	AlignBegin=295950|AlignEnd=296251|Gloss=hear
 4	{	{	X	_	_	5	dep	_	AlignBegin=296251|AlignEnd=296366|Gloss=PUNCT
-5	puh	puh	INTJ	_	_	3	obj	_	AlignBegin=296251|AlignEnd=296366|Gloss=puh
+5	puh	puh	INTJ	_	_	3	dep:comp	_	AlignBegin=296251|AlignEnd=296366|Gloss=puh
 6	|r	|r	X	_	_	7	dep	_	AlignBegin=296366|AlignEnd=296448|Gloss=PUNCT
 7	puh	puh	INTJ	_	_	5	compound:redup	_	AlignBegin=296366|AlignEnd=296448|Gloss=puh
 8	|r	|r	X	_	_	9	dep	_	AlignBegin=296448|AlignEnd=296550|Gloss=PUNCT
@@ -1475,27 +1475,27 @@
 20	#	#	X	_	_	22	dep	_	AlignBegin=301740|AlignEnd=301980|Gloss=PUNCT
 21	don	don	AUX	_	Aspect=Perf	22	aux	_	AlignBegin=301980|AlignEnd=302204|Gloss=PRF
 22	cut	cut	VERB	_	_	0	root	_	AlignBegin=302204|AlignEnd=302610|Gloss=cut
-23	|c	|c	X	_	_	36	dep	_	AlignBegin=302610|AlignEnd=302640|Gloss=PUNCT
-24	#	#	X	_	_	36	dep	_	AlignBegin=302640|AlignEnd=303220|Gloss=PUNCT
-25	or	or	CCONJ	_	_	36	cc	_	AlignBegin=303220|AlignEnd=303700|Gloss=or
-26	#	#	X	_	_	36	dep	_	AlignBegin=303700|AlignEnd=304300|Gloss=PUNCT
+23	|c	|c	X	_	_	30	dep	_	AlignBegin=302610|AlignEnd=302640|Gloss=PUNCT
+24	#	#	X	_	_	30	dep	_	AlignBegin=302640|AlignEnd=303220|Gloss=PUNCT
+25	or	or	CCONJ	_	_	30	cc	_	AlignBegin=303220|AlignEnd=303700|Gloss=or
+26	#	#	X	_	_	30	dep	_	AlignBegin=303700|AlignEnd=304300|Gloss=PUNCT
 27	di	di	DET	_	Definite=Def|PronType=Art	28	det	_	AlignBegin=304300|AlignEnd=304636|Gloss=DEF.ART
-28	engine	engine	NOUN	_	_	36	nsubj	_	AlignBegin=304636|AlignEnd=305010|Gloss=engine
+28	engine	engine	NOUN	_	_	30	nsubj	_	AlignBegin=304636|AlignEnd=305010|Gloss=engine
 29	{	{	X	_	_	30	dep	_	AlignBegin=305010|AlignEnd=305040|Gloss=PUNCT
-30	no	no	PART	_	Polarity=Neg	36	advmod	_	AlignBegin=305040|AlignEnd=305670|Gloss=NEG
-31	||	||	X	_	_	33	dep	_	AlignBegin=305670|AlignEnd=305700|Gloss=PUNCT
-32	#	#	X	_	_	33	dep	_	AlignBegin=305700|AlignEnd=306940|Gloss=PUNCT
-33	no	no	PART	_	Polarity=Neg	30	reparandum	_	AlignBegin=306940|AlignEnd=307301|Gloss=NEG
+30	no	no	AUX	_	Polarity=Neg	21	conj	_	AlignBegin=305040|AlignEnd=305670|Gloss=NEG
+31	||	||	X	_	_	35	dep	_	AlignBegin=305670|AlignEnd=305700|Gloss=PUNCT
+32	#	#	X	_	_	35	dep	_	AlignBegin=305700|AlignEnd=306940|Gloss=PUNCT
+33	no	no	AUX	_	Polarity=Neg	35	aux	_	AlignBegin=306940|AlignEnd=307301|Gloss=NEG
 34	}	}	X	_	_	30	dep	_	AlignBegin=307301|AlignEnd=307398|Gloss=PUNCT
-35	dey	dey	AUX	_	Aspect=Imp	36	aux	_	AlignBegin=307398|AlignEnd=307793|Gloss=IPFV
-36	set	set	VERB	_	_	22	conj	_	AlignBegin=307793|AlignEnd=308338|Gloss=set
-37	|c	|c	X	_	_	40	dep	_	AlignBegin=308338|AlignEnd=308405|Gloss=PUNCT
-38	or	or	CCONJ	_	_	40	cc	_	AlignBegin=308405|AlignEnd=308610|Gloss=or
-39	dey	dey	AUX	_	Aspect=Imp	40	aux	_	AlignBegin=308610|AlignEnd=308730|Gloss=IPFV
-40	slow	slow	VERB	_	_	22	conj	_	AlignBegin=308730|AlignEnd=309302|Gloss=slow
+35	dey	dey	VERB	_	VerbType=Cop	30	reparandum	_	AlignBegin=307398|AlignEnd=307793|Gloss=be
+36	set	set	VERB	_	Tense=Past|VerbForm=Part	35	ccomp	_	AlignBegin=307793|AlignEnd=308338|Gloss=set.PST.PTCP
+37	|c	|c	X	_	_	39	dep	_	AlignBegin=308338|AlignEnd=308405|Gloss=PUNCT
+38	or	or	CCONJ	_	_	39	cc	_	AlignBegin=308405|AlignEnd=308610|Gloss=or
+39	dey	dey	VERB	_	VerbType=Cop	35	conj	_	AlignBegin=308610|AlignEnd=308730|Gloss=be
+40	slow	slow	ADJ	_	_	39	xcomp	_	AlignBegin=308730|AlignEnd=309302|Gloss=slow
 41	|c	|c	X	_	_	43	dep	_	AlignBegin=309302|AlignEnd=309332|Gloss=PUNCT
 42	or	or	CCONJ	_	_	43	cc	_	AlignBegin=309332|AlignEnd=309570|Gloss=or
-43	someting	someting	PRON	_	_	22	conj	_	AlignBegin=309570|AlignEnd=310040|Gloss=something
+43	someting	someting	PRON	_	_	35	conj	_	AlignBegin=309570|AlignEnd=310040|Gloss=something
 44	like	like	ADP	_	_	45	case	_	AlignBegin=310040|AlignEnd=310190|Gloss=like
 45	dat	dat	PRON	_	Number=Sing|PronType=Dem	43	nmod	_	AlignBegin=310190|AlignEnd=310580|Gloss=SG.DEM
 46	//	//	X	_	_	22	dep	_	AlignBegin=310580|AlignEnd=310610|Gloss=PUNCT

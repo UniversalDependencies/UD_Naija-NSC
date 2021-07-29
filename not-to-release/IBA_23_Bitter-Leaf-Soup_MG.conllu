@@ -122,8 +122,8 @@
 1	#	#	X	_	_	3	dep	_	AlignBegin=26520|AlignEnd=27340|Gloss=PUNCT
 2	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	AlignBegin=27340|AlignEnd=27459|Gloss=NOM.SG.1
 3	want	want	VERB	_	_	0	root	_	AlignBegin=27459|AlignEnd=27630|Gloss=want
-4	teach	teach	VERB	_	_	3	xcomp	_	AlignBegin=27630|AlignEnd=28100|Gloss=teach
-5	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	4	obj	_	AlignBegin=28100|AlignEnd=28500|Gloss=NOM.2
+4	teach	teach	VERB	_	_	3	ccomp	_	AlignBegin=27630|AlignEnd=28100|Gloss=teach
+5	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	4	iobj	_	AlignBegin=28100|AlignEnd=28500|Gloss=NOM.2
 6	#	#	X	_	_	8	dep	_	AlignBegin=28500|AlignEnd=28960|Gloss=PUNCT
 7	one	one	DET	_	Definite=Spec|PronType=Art	8	det	_	AlignBegin=28960|AlignEnd=29110|Gloss=SPEC.ART
 8	kind	kind	NOUN	_	_	4	obj	_	AlignBegin=29110|AlignEnd=29340|Gloss=kind
@@ -334,11 +334,11 @@
 10	comot	comot	VERB	_	_	4	advcl	_	AlignBegin=84090|AlignEnd=84700|Gloss=get_out
 11	#	#	X	_	_	17	dep	_	AlignBegin=84700|AlignEnd=85240|Gloss=PUNCT
 12	so	so	SCONJ	_	_	17	mark	_	AlignBegin=85240|AlignEnd=85340|ExtPos=SCONJ|Gloss=so|PhraseType=Idiom
-13	dat	dat	PRON	_	Number=Sing|PronType=Dem	12	fixed	_	AlignBegin=85340|AlignEnd=85440|Gloss=SG.DEM|InIdiom=Yes
+13	dat	dat	SCONJ	_	Number=Sing|PronType=Dem	12	fixed	_	AlignBegin=85340|AlignEnd=85440|Gloss=SG.DEM|InIdiom=Yes
 14	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	AlignBegin=85440|AlignEnd=85489|Gloss=NOM.SG.3
-15	no	no	PART	_	Polarity=Neg	17	advmod	_	AlignBegin=85489|AlignEnd=85660|Gloss=NEG
+15	no	no	AUX	_	Polarity=Neg	17	aux	_	AlignBegin=85489|AlignEnd=85660|Gloss=NEG
 16	go	go	AUX	_	Aspect=Prosp	17	aux	_	AlignBegin=85660|AlignEnd=85740|Gloss=CONT
-17	bitter	bitter	ADJ	_	_	4	advcl	_	AlignBegin=85740|AlignEnd=86070|Gloss=bitter
+17	bitter	bitter	ADJ	_	_	4	advcl	_	AlignBegin=85740|AlignEnd=86070|ExtPos=VERB|Gloss=bitter
 18	for	for	ADP	_	_	20	case	_	AlignBegin=86070|AlignEnd=86220|Gloss=for
 19	di	di	DET	_	Definite=Def|PronType=Art	20	det	_	AlignBegin=86220|AlignEnd=86340|Gloss=DEF.ART
 20	soup	soup	NOUN	_	_	17	obl:arg	_	AlignBegin=86340|AlignEnd=86762|Gloss=soup
@@ -351,7 +351,7 @@
 # text_en = Then again, we need something else.
 # text_ortho = Den we need anoda ting again.
 1	#	#	X	_	_	4	dep	_	AlignBegin=86792|AlignEnd=87428|Gloss=PUNCT
-2	den	dem	ADV	_	_	4	advmod	_	AlignBegin=87428|AlignEnd=87758|Gloss=den
+2	den	den	ADV	_	_	4	advmod	_	AlignBegin=87428|AlignEnd=87758|Gloss=den
 3	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	AlignBegin=87758|AlignEnd=87878|Gloss=NOM.PL.1
 4	need	need	VERB	_	_	0	root	_	AlignBegin=87878|AlignEnd=88254|Gloss=need
 5	#	#	X	_	_	7	dep	_	AlignBegin=88254|AlignEnd=88498|Gloss=PUNCT
@@ -382,7 +382,7 @@
 2	dey	dey	AUX	_	Aspect=Imp	3	aux	_	AlignBegin=91080|AlignEnd=91168|Gloss=IPFV
 3	call	call	VERB	_	_	0	root	_	AlignBegin=91168|AlignEnd=91378|Gloss=call
 4	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	3	obj	_	AlignBegin=91378|AlignEnd=91513|Gloss=ACC.SG.3
-5	ede	ede	NOUN	_	_	3	obj:lvc	_	AlignBegin=91513|AlignEnd=91740|Gloss=crayfish
+5	ede	ede	NOUN	_	_	3	xcomp	_	AlignBegin=91513|AlignEnd=91740|Gloss=crayfish
 6	for	for	ADP	_	_	7	case	_	AlignBegin=91740|AlignEnd=91928|Gloss=for
 7	Igbo	Igbo	PROPN	_	_	3	obl:arg	_	AlignBegin=91928|AlignEnd=92218|Gloss=Igbo
 8	//	//	X	_	_	3	dep	_	AlignBegin=92218|AlignEnd=92248|Gloss=PUNCT
@@ -500,11 +500,11 @@
 20	want	want	VERB	_	_	11	advcl	_	AlignBegin=112967|AlignEnd=113121|Gloss=want
 21	make	make	AUX	_	Mood=Opt	23	aux	_	AlignBegin=113121|AlignEnd=113337|Gloss=SBJV
 22	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	AlignBegin=113337|AlignEnd=113407|Gloss=NOM.SG.3
-23	thick	thick	ADJ	_	_	20	ccomp	_	AlignBegin=113407|AlignEnd=113884|Gloss=thick
+23	thick	thick	ADJ	_	_	20	ccomp	_	AlignBegin=113407|AlignEnd=113884|ExtPos=VERB|Gloss=thick
 24	so	so	SCONJ	_	_	31	mark	_	AlignBegin=113884|AlignEnd=114092|ExtPos=SCONJ|Gloss=so|PhraseType=Idiom
 25	dat	dat	SCONJ	_	_	24	fixed	_	AlignBegin=114092|AlignEnd=114197|Gloss=COMP|InIdiom=Yes
 26	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	31	nsubj	_	AlignBegin=114197|AlignEnd=114249|Gloss=NOM.SG.3
-27	no	no	PART	_	Polarity=Neg	31	advmod	_	AlignBegin=114249|AlignEnd=114397|Gloss=NEG
+27	no	no	AUX	_	Polarity=Neg	31	aux	_	AlignBegin=114249|AlignEnd=114397|Gloss=NEG
 28	go	go	AUX	_	Aspect=Prosp	31	aux	_	AlignBegin=114397|AlignEnd=114557|Gloss=CONT
 29	be	be	AUX	_	PartType=Cop	31	cop	_	AlignBegin=114557|AlignEnd=114647|Gloss=be.COP
 30	{	{	X	_	_	31	dep	_	AlignBegin=114647|AlignEnd=114677|Gloss=PUNCT
@@ -576,7 +576,7 @@
 # text_en = Then I'll put in my tripe, my meat, and my dried fish.
 # text_ortho = Den pour my shaki, pour my meat, pour my dry fish.
 1	#	#	X	_	_	3	dep	_	AlignBegin=126100|AlignEnd=126620|Gloss=PUNCT
-2	den	dem	ADV	_	_	3	advmod	_	AlignBegin=126620|AlignEnd=126780|Gloss=den
+2	den	den	ADV	_	_	3	advmod	_	AlignBegin=126620|AlignEnd=126780|Gloss=den
 3	pour	pour	VERB	_	_	0	root	_	AlignBegin=126810|AlignEnd=127100|Gloss=pour
 4	my	my	PRON	_	Number=Sing|Person=1|Poss=Yes	5	nmod	_	AlignBegin=127100|AlignEnd=127470|Gloss=SG.1.POSS
 5	shaki	shaki	NOUN	_	_	3	obj	_	AlignBegin=127470|AlignEnd=128030|Gloss=intestine
@@ -630,7 +630,7 @@
 15	go	go	AUX	_	Aspect=Prosp	16	aux	_	AlignBegin=135780|AlignEnd=135890|Gloss=CONT
 16	leave	leave	VERB	_	_	12	parataxis:conj	_	AlignBegin=135890|AlignEnd=136120|Gloss=leave
 17	so	so	SCONJ	_	_	22	mark	_	AlignBegin=136120|AlignEnd=136240|ExtPos=SCONJ|Gloss=so|PhraseType=Idiom
-18	dat	dat	PRON	_	Number=Sing|PronType=Dem	17	fixed	_	AlignBegin=136240|AlignEnd=136360|Gloss=SG.DEM|InIdiom=Yes
+18	dat	dat	SCONJ	_	Number=Sing|PronType=Dem	17	fixed	_	AlignBegin=136240|AlignEnd=136360|Gloss=SG.DEM|InIdiom=Yes
 19	di	di	DET	_	Definite=Def|PronType=Art	20	det	_	AlignBegin=136360|AlignEnd=136430|Gloss=DEF.ART
 20	pepper	pepper	NOUN	_	_	22	nsubj	_	AlignBegin=136430|AlignEnd=136700|Gloss=pepper
 21	go	go	AUX	_	Aspect=Prosp	22	aux	_	AlignBegin=136700|AlignEnd=136860|Gloss=CONT
@@ -655,7 +655,7 @@
 4	con	con	AUX	_	Aspect=Cons	5	aux	_	AlignBegin=139160|AlignEnd=139570|Gloss=CONS
 5	leave	leave	VERB	_	_	0	root	_	AlignBegin=139570|AlignEnd=139940|Gloss=leave
 6	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	5	obj	_	AlignBegin=139940|AlignEnd=140070|Gloss=ACC.SG.3
-7	make	make	AUX	_	Mood=Opt	9	aux	_	AlignBegin=140070|AlignEnd=140250|Gloss=SBJV
+7	make	make	SCONJ	_	_	9	mark	_	AlignBegin=140070|AlignEnd=140250|Gloss=that
 8	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	AlignBegin=140250|AlignEnd=140290|Gloss=NOM.SG.3
 9	boil	boil	VERB	_	_	5	advcl	_	AlignBegin=140290|AlignEnd=140558|Gloss=boil
 10	{	{	X	_	_	11	dep	_	AlignBegin=140558|AlignEnd=140588|Gloss=PUNCT
@@ -696,7 +696,7 @@
 23	put	put	VERB	_	_	20	parataxis:conj	_	AlignBegin=145020|AlignEnd=145140|Gloss=put
 24	my	my	PRON	_	Number=Sing|Person=1|Poss=Yes	25	nmod	_	AlignBegin=145140|AlignEnd=145350|Gloss=SG.1.POSS
 25	salt	salt	NOUN	_	_	23	obj	_	AlignBegin=145350|AlignEnd=145660|Gloss=salt
-26	make	make	AUX	_	Mood=Opt	28	aux	_	AlignBegin=145660|AlignEnd=145804|Gloss=SBJV
+26	make	make	SCONJ	_	_	28	mark	_	AlignBegin=145660|AlignEnd=145804|Gloss=that
 27	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	28	nsubj	_	AlignBegin=145804|AlignEnd=145910|Gloss=NOM.SG.3
 28	taste	taste	VERB	_	_	23	advcl	_	AlignBegin=145910|AlignEnd=146300|Gloss=taste
 29	{	{	X	_	_	30	dep	_	AlignBegin=146300|AlignEnd=146330|Gloss=PUNCT
@@ -790,7 +790,7 @@
 2	so	so	ADV	_	_	13	discourse	_	AlignBegin=160020|AlignEnd=160150|Gloss=so
 3	as	as	ADP	_	_	5	mark	_	AlignBegin=160150|AlignEnd=160280|Gloss=as
 4	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	AlignBegin=160280|AlignEnd=160400|Gloss=NOM.SG.1
-5	pour	pour	VERB	_	_	13	advcl	_	AlignBegin=160400|AlignEnd=160610|Gloss=pour
+5	pour	pour	VERB	_	_	13	advcl:tempo	_	AlignBegin=160400|AlignEnd=160610|Gloss=pour
 6	my	my	PRON	_	Number=Sing|Person=1|Poss=Yes	8	nmod	_	AlignBegin=160610|AlignEnd=160740|Gloss=SG.1.POSS
 7	palm	palm	NOUN	_	_	8	compound	_	AlignBegin=160740|AlignEnd=161000|Gloss=palm
 8	oil	oil	NOUN	_	_	5	obj	_	AlignBegin=161000|AlignEnd=161080|Gloss=oil
@@ -824,7 +824,7 @@
 2	as	as	ADP	_	_	5	mark	_	AlignBegin=163660|AlignEnd=163800|Gloss=as
 3	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	AlignBegin=163800|AlignEnd=163930|Gloss=NOM.SG.1
 4	con	con	AUX	_	Aspect=Cons	5	aux	_	AlignBegin=163930|AlignEnd=164120|Gloss=CONS
-5	see	see	VERB	_	_	28	advcl	_	AlignBegin=164120|AlignEnd=164210|Gloss=see
+5	see	see	VERB	_	_	28	advcl:tempo	_	AlignBegin=164120|AlignEnd=164210|Gloss=see
 6	sey	sey	SCONJ	_	_	10	mark	_	AlignBegin=164210|AlignEnd=164300|Gloss=COMP
 7	[	[	X	_	_	10	dep	_	AlignBegin=164300|AlignEnd=164330|Gloss=PUNCT
 8	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	AlignBegin=164330|AlignEnd=164370|Gloss=NOM.SG.3
@@ -958,9 +958,9 @@
 15	fit	fit	AUX	_	Mood=Pot	16	aux	_	AlignBegin=187564|AlignEnd=187817|Gloss=ABIL
 16	eat	eat	VERB	_	_	0	root	_	AlignBegin=187817|AlignEnd=187910|Gloss=eat
 17	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	16	obj	_	AlignBegin=187910|AlignEnd=188058|Gloss=ACC.SG.3
-18	with	wit	ADP	_	_	19	case	_	AlignBegin=188058|AlignEnd=188250|Gloss=with
-19	pounded	pound	ADJ	_	_	16	obl:arg	_	AlignBegin=188250|AlignEnd=188697|Gloss=pound
-20	yam	yam	NOUN	_	_	19	obj	_	AlignBegin=188697|AlignEnd=188990|Gloss=yam
+18	with	wit	ADP	_	_	20	case	_	AlignBegin=188058|AlignEnd=188250|Gloss=with
+19	pounded	pound	ADJ	_	_	20	compound	_	AlignBegin=188250|AlignEnd=188697|Gloss=pound
+20	yam	yam	NOUN	_	_	16	obl:arg	_	AlignBegin=188697|AlignEnd=188990|Gloss=yam
 21	//=	//=	X	_	_	25	dep	_	AlignBegin=188990|AlignEnd=189020|Gloss=PUNCT
 22	#	#	X	_	_	25	dep	_	AlignBegin=189020|AlignEnd=189530|Gloss=PUNCT
 23	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	25	nsubj	_	AlignBegin=189530|AlignEnd=189630|Gloss=NOM.2
@@ -989,22 +989,22 @@
 # text = # but di soup < # di soup dey sweet { well |r well } //
 # text_en = But the dish... the dish is very tasty.
 # text_ortho = But di soup, di soup dey sweet well, well.
-1	#	#	X	_	_	10	dep	_	AlignBegin=194440|AlignEnd=194859|Gloss=PUNCT
-2	but	but	CCONJ	_	_	10	discourse	_	AlignBegin=194859|AlignEnd=195090|Gloss=but
+1	#	#	X	_	_	9	dep	_	AlignBegin=194440|AlignEnd=194859|Gloss=PUNCT
+2	but	but	CCONJ	_	_	9	discourse	_	AlignBegin=194859|AlignEnd=195090|Gloss=but
 3	di	di	DET	_	Definite=Def|PronType=Art	4	det	_	AlignBegin=195090|AlignEnd=195230|Gloss=DEF.ART
-4	soup	soup	NOUN	_	_	10	dislocated	_	AlignBegin=195230|AlignEnd=195705|Gloss=soup
+4	soup	soup	NOUN	_	_	9	dislocated	_	AlignBegin=195230|AlignEnd=195705|Gloss=soup
 5	<	<	X	_	_	4	dep	_	AlignBegin=195705|AlignEnd=195735|Gloss=PUNCT
-6	#	#	X	_	_	10	dep	_	AlignBegin=195735|AlignEnd=196180|Gloss=PUNCT
+6	#	#	X	_	_	9	dep	_	AlignBegin=195735|AlignEnd=196180|Gloss=PUNCT
 7	di	di	DET	_	Definite=Def|PronType=Art	8	det	_	AlignBegin=196180|AlignEnd=196270|Gloss=DEF.ART
-8	soup	soup	NOUN	_	_	10	nsubj	_	AlignBegin=196270|AlignEnd=196550|Gloss=soup
-9	dey	dey	AUX	_	Aspect=Imp	10	aux	_	AlignBegin=196550|AlignEnd=196670|Gloss=IPFV
-10	sweet	sweet	ADJ	_	_	0	root	_	AlignBegin=196670|AlignEnd=197010|Gloss=sweet
+8	soup	soup	NOUN	_	_	9	nsubj	_	AlignBegin=196270|AlignEnd=196550|Gloss=soup
+9	dey	dey	VERB	_	_	0	root	_	AlignBegin=196550|AlignEnd=196670|Gloss=be
+10	sweet	sweet	ADJ	_	_	9	xcomp	_	AlignBegin=196670|AlignEnd=197010|Gloss=sweet
 11	{	{	X	_	_	12	dep	_	AlignBegin=197010|AlignEnd=197040|Gloss=PUNCT
 12	well	well	ADV	_	_	10	advmod	_	AlignBegin=197040|AlignEnd=197198|Gloss=well
 13	|r	|r	X	_	_	14	dep	_	AlignBegin=197198|AlignEnd=197228|Gloss=PUNCT
 14	well	well	ADV	_	_	12	compound:redup	_	AlignBegin=197228|AlignEnd=197430|Gloss=well
 15	}	}	X	_	_	12	dep	_	AlignBegin=197430|AlignEnd=197460|Gloss=PUNCT
-16	//	//	X	_	_	10	dep	_	AlignBegin=197430|AlignEnd=197460|Gloss=PUNCT
+16	//	//	X	_	_	9	dep	_	AlignBegin=197430|AlignEnd=197460|Gloss=PUNCT
 
 # sent_id = IBA_23_Bitter-Leaf-Soup_MG__41
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_23_Bitter-Leaf-Soup_MG.mp3
@@ -1025,14 +1025,13 @@
 11	#	#	X	_	_	12	dep	_	AlignBegin=199460|AlignEnd=200120|Gloss=PUNCT
 12	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	reparandum	_	AlignBegin=200120|AlignEnd=200210|Gloss=NOM.SG.1
 13	}	}	X	_	_	9	dep	_	AlignBegin=200210|AlignEnd=200240|Gloss=PUNCT
-14	sabi	sabi	VERB	_	_	7	acl:relcl	_	AlignBegin=200240|AlignEnd=200615|Gloss=know
-15	>+	>+	X	_	_	18	dep	_	AlignBegin=200645|AlignEnd=200682|Gloss=PUNCT
-16	wey	when	SCONJ	_	_	18	mark	_	AlignBegin=200645|AlignEnd=200682|Gloss=when
-17	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	AlignBegin=200682|AlignEnd=200833|Gloss=NOM.SG.1
-18	wan	want	VERB	_	_	5	advcl:cleft	_	AlignBegin=200833|AlignEnd=200950|Gloss=want
-19	teach	teach	VERB	_	_	18	xcomp	_	AlignBegin=200950|AlignEnd=201330|Gloss=teach
-20	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	19	obj	_	AlignBegin=201330|AlignEnd=201435|Gloss=NOM.2
-21	//	//	X	_	_	5	dep	_	AlignBegin=201435|AlignEnd=201465|Gloss=PUNCT
+14	sabi	sabi	VERB	_	_	5	acl:relcl	_	AlignBegin=200240|AlignEnd=200615|Gloss=know
+15	wey	when	SCONJ	_	_	17	mark	_	AlignBegin=200645|AlignEnd=200682|Gloss=when
+16	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	AlignBegin=200682|AlignEnd=200833|Gloss=NOM.SG.1
+17	wan	want	VERB	_	_	14	conj	_	AlignBegin=200833|AlignEnd=200950|Gloss=want
+18	teach	teach	VERB	_	_	17	ccomp	_	AlignBegin=200950|AlignEnd=201330|Gloss=teach
+19	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	18	obj	_	AlignBegin=201330|AlignEnd=201435|Gloss=NOM.2
+20	//	//	X	_	_	5	dep	_	AlignBegin=201435|AlignEnd=201465|Gloss=PUNCT
 
 # sent_id = IBA_23_Bitter-Leaf-Soup_MG__42
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_23_Bitter-Leaf-Soup_MG.mp3
@@ -1043,7 +1042,7 @@
 1	#	#	X	_	_	3	dep	_	AlignBegin=201465|AlignEnd=205761|Gloss=PUNCT
 2	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	AlignBegin=205761|AlignEnd=205881|Gloss=NOM.SG.1
 3	want	want	VERB	_	_	0	root	_	AlignBegin=205881|AlignEnd=206021|Gloss=want
-4	talk	talk	VERB	_	_	3	xcomp	_	AlignBegin=206021|AlignEnd=206171|Gloss=talk
+4	talk	talk	VERB	_	_	3	ccomp	_	AlignBegin=206021|AlignEnd=206171|Gloss=talk
 5	about	about	ADP	_	_	7	case	_	AlignBegin=206171|AlignEnd=206461|Gloss=about
 6	anoder	anoder	DET	_	_	7	det	_	AlignBegin=206461|AlignEnd=206831|Gloss=another
 7	soup	soup	NOUN	_	_	4	obl:arg	_	AlignBegin=206831|AlignEnd=207181|Gloss=soup
@@ -1067,7 +1066,7 @@
 7	{	{	X	_	_	9	dep	_	AlignBegin=209530|AlignEnd=209560|Gloss=PUNCT
 8	Warri	Warri	PROPN	_	_	9	compound	_	AlignBegin=209560|AlignEnd=209950|Gloss=Warri
 9	people	people	NOUN	_	Number=Plur	0	root	_	AlignBegin=209950|AlignEnd=210150|Gloss=people.PL
-10	and	and	CCONJ	_	_	9	orphan	_	AlignBegin=210180|AlignEnd=210410|Gloss=and
+10	and	and	CCONJ	_	_	9	dep	_	AlignBegin=210180|AlignEnd=210410|Gloss=and
 11	}	}	X	_	_	9	dep	_	AlignBegin=210410|AlignEnd=210410|Gloss=PUNCT
 12	||	||	X	_	_	17	dep	_	AlignBegin=210410|AlignEnd=210410|Gloss=PUNCT
 13	ehn	ehn	INTJ	_	_	17	discourse	_	AlignBegin=210410|AlignEnd=210628|Gloss=ehn
@@ -1075,7 +1074,7 @@
 15	{	{	X	_	_	17	dep	_	AlignBegin=211817|AlignEnd=211847|Gloss=PUNCT
 16	Warri	Warri	PROPN	_	_	17	compound	_	AlignBegin=211847|AlignEnd=212237|Gloss=Warri
 17	people	people	NOUN	_	Number=Plur	9	reparandum	_	AlignBegin=212237|AlignEnd=212488|Gloss=people.PL
-18	and	and	CCONJ	_	_	17	orphan	_	AlignBegin=212518|AlignEnd=212717|Gloss=and
+18	and	and	CCONJ	_	_	17	dep	_	AlignBegin=212518|AlignEnd=212717|Gloss=and
 19	}	}	X	_	_	17	dep	_	AlignBegin=212747|AlignEnd=213289|Gloss=PUNCT
 20	||	||	X	_	_	25	dep	_	AlignBegin=213289|AlignEnd=213319|Gloss=PUNCT
 21	ehn	ehn	INTJ	_	_	25	discourse	_	AlignBegin=212717|AlignEnd=213319|Gloss=PUNCT
@@ -1203,7 +1202,7 @@
 8	tree	tree	NOUN	_	_	5	obj	_	AlignBegin=236400|AlignEnd=236550|Gloss=tree
 9	wey	wey	SCONJ	_	_	11	mark	_	AlignBegin=236550|AlignEnd=236620|Gloss=REL
 10	don	don	AUX	_	Aspect=Perf	11	aux	_	AlignBegin=236620|AlignEnd=236809|Gloss=PRF
-11	ripe	ripe	ADJ	_	_	8	acl:relcl	_	AlignBegin=236809|AlignEnd=237041|Gloss=ripe
+11	ripe	ripe	ADJ	_	_	8	acl:relcl	_	AlignBegin=236809|AlignEnd=237041|ExtPos=VERB|Gloss=ripe
 12	{	{	X	_	_	13	dep	_	AlignBegin=237041|AlignEnd=237071|Gloss=PUNCT
 13	well	well	ADV	_	_	11	advmod	_	AlignBegin=237071|AlignEnd=237153|Gloss=well
 14	|r	|r	X	_	_	15	dep	_	AlignBegin=237153|AlignEnd=237183|Gloss=PUNCT
@@ -1253,7 +1252,7 @@
 # text_en = Then the ingred-... another ingredient which I need is Banga ingredient.
 # text_ortho = Den di ingred-... anoda ingredient wey I need na banga ingredient.
 1	#	#	X	_	_	15	dep	_	AlignBegin=242152|AlignEnd=242714|Gloss=PUNCT
-2	den	dem	ADV	_	_	15	advmod	_	AlignBegin=242714|AlignEnd=242929|Gloss=den
+2	den	den	ADV	_	_	15	advmod	_	AlignBegin=242714|AlignEnd=242929|Gloss=den
 3	{	{	X	_	_	5	dep	_	AlignBegin=242714|AlignEnd=242929|Gloss=PUNCT
 4	di	di	DET	_	Definite=Def|PronType=Art	5	det	_	AlignBegin=242929|AlignEnd=243064|Gloss=DEF.ART
 5	ingred~	X	X	_	_	15	dislocated	_	AlignBegin=243094|AlignEnd=243314|Gloss=X
@@ -1340,7 +1339,7 @@
 # text_en = Then I need pepper.
 # text_ortho = Den I need pepper.
 1	#	#	X	_	_	4	dep	_	AlignBegin=253511|AlignEnd=253863|Gloss=PUNCT
-2	den	dem	ADV	_	_	4	advmod	_	AlignBegin=253863|AlignEnd=254023|Gloss=den
+2	den	den	ADV	_	_	4	advmod	_	AlignBegin=253863|AlignEnd=254023|Gloss=den
 3	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	AlignBegin=254023|AlignEnd=254166|Gloss=NOM.SG.1
 4	need	need	VERB	_	_	0	root	_	AlignBegin=254166|AlignEnd=254413|Gloss=need
 5	pepper	pepper	NOUN	_	_	4	obj	_	AlignBegin=254413|AlignEnd=254790|Gloss=pepper
@@ -1353,9 +1352,9 @@
 # text_en = Then I don't need palm oil again.
 # text_ortho = Den I no need palm oil again.
 1	#	#	X	_	_	5	dep	_	AlignBegin=254820|AlignEnd=255320|Gloss=PUNCT
-2	den	dem	ADV	_	_	5	discourse	_	AlignBegin=255320|AlignEnd=255610|Gloss=den
+2	den	den	ADV	_	_	5	discourse	_	AlignBegin=255320|AlignEnd=255610|Gloss=den
 3	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	AlignBegin=255610|AlignEnd=255750|Gloss=NOM.SG.1
-4	no	no	PART	_	Polarity=Neg	5	advmod	_	AlignBegin=255750|AlignEnd=255890|Gloss=NEG
+4	no	no	AUX	_	Polarity=Neg	5	aux	_	AlignBegin=255750|AlignEnd=255890|Gloss=NEG
 5	need	need	VERB	_	_	0	root	_	AlignBegin=255890|AlignEnd=256110|Gloss=need
 6	palm	palm	NOUN	_	_	7	compound	_	AlignBegin=256110|AlignEnd=256340|Gloss=palm
 7	oil	oil	NOUN	_	_	5	obj	_	AlignBegin=256340|AlignEnd=256513|Gloss=oil
@@ -1406,7 +1405,7 @@
 # text = no need of palm oil because di # palm fruit go bring palm oil out //
 # text_en = You don't need to add palm oil because the palm fruits will let out palm oil.
 # text_ortho = No need of palm oil because di palm fruit go bring palm oil out.
-1	no	no	PART	_	Polarity=Neg	2	advmod	_	AlignBegin=262120|AlignEnd=262486|Gloss=NEG
+1	no	no	AUX	_	Polarity=Neg	2	aux	_	AlignBegin=262120|AlignEnd=262486|Gloss=NEG
 2	need	need	VERB	_	_	0	root	_	AlignBegin=262486|AlignEnd=262640|Gloss=need
 3	of	of	ADP	_	_	5	case	_	AlignBegin=262640|AlignEnd=262770|Gloss=of
 4	palm	palm	NOUN	_	_	5	compound	_	AlignBegin=262770|AlignEnd=262950|Gloss=palm
@@ -1551,23 +1550,21 @@
 2	use	use	VERB	_	_	0	root	_	AlignBegin=290342|AlignEnd=290483|Gloss=use
 3	my	my	PRON	_	Number=Sing|Person=1|Poss=Yes	4	nmod	_	AlignBegin=290483|AlignEnd=290613|Gloss=SG.1.POSS
 4	hand	hand	NOUN	_	_	2	obj	_	AlignBegin=290613|AlignEnd=290910|Gloss=hand
-5	//=	//=	X	_	_	7	dep	_	AlignBegin=290910|AlignEnd=290940|Gloss=PUNCT
-6	#	#	X	_	_	7	dep	_	AlignBegin=290940|AlignEnd=291360|Gloss=PUNCT
-7	wash	wash	VERB	_	_	2	parataxis:conj	_	AlignBegin=291360|AlignEnd=291680|Gloss=wash
-8	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	7	obj	_	AlignBegin=291680|AlignEnd=291810|Gloss=ACC.SG.3
-9	{	{	X	_	_	10	dep	_	AlignBegin=291810|AlignEnd=291840|Gloss=PUNCT
-10	well	well	ADV	_	_	7	advmod	_	AlignBegin=291840|AlignEnd=291890|Gloss=well
-11	|r	|r	X	_	_	12	dep	_	AlignBegin=291890|AlignEnd=291920|Gloss=PUNCT
-12	well	well	ADV	_	_	10	compound:redup	_	AlignBegin=291920|AlignEnd=292000|Gloss=well
-13	}	}	X	_	_	10	dep	_	AlignBegin=292000|AlignEnd=292030|Gloss=PUNCT
-14	//=	//=	X	_	_	15	dep	_	AlignBegin=292000|AlignEnd=292030|Gloss=PUNCT
-15	comot	comot	VERB	_	_	7	parataxis:conj	_	AlignBegin=292030|AlignEnd=292440|Gloss=get_out
-16	all	all	DET	_	_	19	dep	_	AlignBegin=292440|AlignEnd=292566|Gloss=all
-17	di	di	DET	_	Definite=Def|PronType=Art	19	det	_	AlignBegin=292566|AlignEnd=293091|Gloss=DEF.ART
-18	palm	palm	NOUN	_	_	19	compound	_	AlignBegin=293091|AlignEnd=293540|Gloss=palm
-19	oil	oil	NOUN	_	_	15	obj	_	AlignBegin=293540|AlignEnd=293760|Gloss=oil
-20	inside	inside	ADP	_	_	15	iobj	_	AlignBegin=293760|AlignEnd=293990|Gloss=inside
-21	//	//	X	_	_	2	dep	_	AlignBegin=293990|AlignEnd=294020|Gloss=PUNCT
+5	#	#	X	_	_	6	dep	_	AlignBegin=290940|AlignEnd=291360|Gloss=PUNCT
+6	wash	wash	VERB	_	_	2	compound:svc	_	AlignBegin=291360|AlignEnd=291680|Gloss=wash
+7	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	6	obj	_	AlignBegin=291680|AlignEnd=291810|Gloss=ACC.SG.3
+8	{	{	X	_	_	9	dep	_	AlignBegin=291810|AlignEnd=291840|Gloss=PUNCT
+9	well	well	ADV	_	_	6	advmod	_	AlignBegin=291840|AlignEnd=291890|Gloss=well
+10	|r	|r	X	_	_	11	dep	_	AlignBegin=291890|AlignEnd=291920|Gloss=PUNCT
+11	well	well	ADV	_	_	9	compound:redup	_	AlignBegin=291920|AlignEnd=292000|Gloss=well
+12	}	}	X	_	_	9	dep	_	AlignBegin=292000|AlignEnd=292030|Gloss=PUNCT
+13	comot	comot	VERB	_	_	6	compound:svc	_	AlignBegin=292030|AlignEnd=292440|Gloss=get_out
+14	all	all	DET	_	_	17	dep	_	AlignBegin=292440|AlignEnd=292566|Gloss=all
+15	di	di	DET	_	Definite=Def|PronType=Art	17	det	_	AlignBegin=292566|AlignEnd=293091|Gloss=DEF.ART
+16	palm	palm	NOUN	_	_	17	compound	_	AlignBegin=293091|AlignEnd=293540|Gloss=palm
+17	oil	oil	NOUN	_	_	13	obj	_	AlignBegin=293540|AlignEnd=293760|Gloss=oil
+18	inside	inside	ADP	_	_	13	iobj	_	AlignBegin=293760|AlignEnd=293990|Gloss=inside
+19	//	//	X	_	_	2	dep	_	AlignBegin=293990|AlignEnd=294020|Gloss=PUNCT
 
 # sent_id = IBA_23_Bitter-Leaf-Soup_MG__64
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_23_Bitter-Leaf-Soup_MG.mp3
@@ -1606,7 +1603,7 @@
 1	#	#	X	_	_	15	dep	_	AlignBegin=298252|AlignEnd=298780|Gloss=PUNCT
 2	as	as	ADP	_	_	4	mark	_	AlignBegin=298780|AlignEnd=298900|Gloss=as
 3	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	AlignBegin=298900|AlignEnd=299000|Gloss=NOM.SG.1
-4	put	put	VERB	_	_	15	advcl	_	AlignBegin=299000|AlignEnd=299170|Gloss=put
+4	put	put	VERB	_	_	15	advcl:tempo	_	AlignBegin=299000|AlignEnd=299170|Gloss=put
 5	di	di	DET	_	Definite=Def|PronType=Art	7	det	_	AlignBegin=299170|AlignEnd=299260|Gloss=DEF.ART
 6	palm	palm	NOUN	_	_	7	compound	_	AlignBegin=299260|AlignEnd=299500|Gloss=palm
 7	oil	oil	NOUN	_	_	4	obj	_	AlignBegin=299500|AlignEnd=299646|Gloss=oil
@@ -1624,7 +1621,7 @@
 19	wey	wey	SCONJ	_	_	21	mark	_	AlignBegin=303083|AlignEnd=303275|Gloss=REL
 20	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	21	nsubj	_	AlignBegin=303275|AlignEnd=303371|Gloss=NOM.SG.1
 21	wan	want	VERB	_	_	18	acl:relcl	_	AlignBegin=303371|AlignEnd=303555|Gloss=want
-22	put	put	VERB	_	_	21	xcomp	_	AlignBegin=303555|AlignEnd=303930|Gloss=put
+22	put	put	VERB	_	_	21	ccomp	_	AlignBegin=303555|AlignEnd=303930|Gloss=put
 23	>	>	X	_	_	25	dep	_	AlignBegin=303930|AlignEnd=303960|Gloss=PUNCT
 24	fresh	fresh	ADJ	_	_	25	amod	_	AlignBegin=303960|AlignEnd=304370|Gloss=fresh
 25	pepper	pepper	NOUN	_	_	15	dislocated	_	AlignBegin=304370|AlignEnd=304600|Gloss=pepper
@@ -1695,7 +1692,7 @@
 15	#	#	X	_	_	14	dep	_	AlignBegin=311870|AlignEnd=312380|Gloss=PUNCT
 16	ingredients	ingredient	NOUN	_	Number=Plur	12	obj	_	AlignBegin=312380|AlignEnd=312970|Gloss=ingredient.PL
 17	so	so	SCONJ	_	_	21	mark	_	AlignBegin=312970|AlignEnd=313080|ExtPos=SCONJ|Gloss=so|PhraseType=Idiom
-18	dat	dat	PRON	_	Number=Sing|PronType=Dem	17	fixed	_	AlignBegin=313080|AlignEnd=313170|Gloss=SG.DEM|InIdiom=Yes
+18	dat	dat	SCONJ	_	Number=Sing|PronType=Dem	17	fixed	_	AlignBegin=313080|AlignEnd=313170|Gloss=SG.DEM|InIdiom=Yes
 19	{	{	X	_	_	21	dep	_	AlignBegin=313170|AlignEnd=313200|Gloss=PUNCT
 20	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	AlignBegin=313200|AlignEnd=313278|Gloss=NOM.SG.3
 21	go	go	VERB	_	_	12	advcl	_	AlignBegin=313278|AlignEnd=313390|Gloss=go
@@ -1718,7 +1715,7 @@
 2	so	so	ADV	_	_	11	discourse	_	AlignBegin=315229|AlignEnd=315340|Gloss=so
 3	as	as	ADP	_	_	5	mark	_	AlignBegin=315340|AlignEnd=315460|Gloss=as
 4	everything	everyting	PRON	_	_	5	nsubj	_	AlignBegin=315460|AlignEnd=315850|Gloss=everything
-5	boil	boil	VERB	_	_	11	advcl	_	AlignBegin=315850|AlignEnd=316060|Gloss=boil
+5	boil	boil	VERB	_	_	11	advcl:tempo	_	AlignBegin=315850|AlignEnd=316060|Gloss=boil
 6	together	together	ADV	_	_	5	advmod	_	AlignBegin=316060|AlignEnd=316630|Gloss=together
 7	<	<	X	_	_	5	dep	_	AlignBegin=316630|AlignEnd=316660|Gloss=PUNCT
 8	#	#	X	_	_	5	dep	_	AlignBegin=316660|AlignEnd=317300|Gloss=PUNCT
@@ -1752,7 +1749,7 @@
 17	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	AlignBegin=320490|AlignEnd=320560|Gloss=NOM.SG.3
 18	don	don	AUX	_	Aspect=Perf	20	aux	_	AlignBegin=320560|AlignEnd=320730|Gloss=PRF
 19	dey	dey	AUX	_	Aspect=Imp	20	aux	_	AlignBegin=320730|AlignEnd=320870|Gloss=IPFV
-20	thick	thick	ADJ	_	_	15	ccomp	_	AlignBegin=320870|AlignEnd=321440|Gloss=thick
+20	thick	thick	ADJ	_	_	15	ccomp	_	AlignBegin=320870|AlignEnd=321440|ExtPos=VERB|Gloss=thick
 21	|c	|c	X	_	_	26	dep	_	AlignBegin=321440|AlignEnd=321470|Gloss=PUNCT
 22	di	di	DET	_	Definite=Def|PronType=Art	23	det	_	AlignBegin=321470|AlignEnd=321790|Gloss=DEF.ART
 23	oil	oil	NOUN	_	_	26	nsubj	_	AlignBegin=321790|AlignEnd=322010|Gloss=oil
@@ -1908,7 +1905,7 @@
 5	banga	banga	NOUN	_	_	3	obj	_	AlignBegin=347030|AlignEnd=347460|Gloss=palm_kernel
 6	chop	chop	VERB	_	_	3	compound:svc	_	AlignBegin=347460|AlignEnd=347762|Gloss=eat
 7	#	#	X	_	_	6	dep	_	AlignBegin=347762|AlignEnd=348540|Gloss=PUNCT
-8	ehn	ehn	INTJ	_	_	6	obj	_	AlignBegin=348540|AlignEnd=349272|Gloss=ehn
+8	ehn	ehn	INTJ	_	_	6	dep:comp	_	AlignBegin=348540|AlignEnd=349272|Gloss=ehn
 9	&//	&//	X	_	_	3	dep	_	AlignBegin=349272|AlignEnd=349302|Gloss=PUNCT
 
 # sent_id = IBA_23_Bitter-Leaf-Soup_MG__76
@@ -1943,7 +1940,7 @@
 1	#	#	X	_	_	13	dep	_	AlignBegin=352881|AlignEnd=353152|Gloss=PUNCT
 2	if	if	SCONJ	_	_	5	mark	_	AlignBegin=353152|AlignEnd=353422|Gloss=if
 3	tomato	tomato	NOUN	_	_	5	nsubj	_	AlignBegin=353422|AlignEnd=353852|Gloss=tomato
-4	no	no	PART	_	Polarity=Neg	5	advmod	_	AlignBegin=353852|AlignEnd=354052|Gloss=NEG
+4	no	no	AUX	_	Polarity=Neg	5	aux	_	AlignBegin=353852|AlignEnd=354052|Gloss=NEG
 5	dey	dey	VERB	_	VerbType=Cop	13	advcl	_	AlignBegin=354052|AlignEnd=354314|Gloss=dey.COP
 6	<	<	X	_	_	5	dep	_	AlignBegin=354314|AlignEnd=354344|Gloss=PUNCT
 7	#	#	X	_	_	5	dep	_	AlignBegin=354344|AlignEnd=354622|Gloss=PUNCT

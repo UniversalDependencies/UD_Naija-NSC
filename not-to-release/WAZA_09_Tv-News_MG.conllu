@@ -1,4 +1,5 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = WAZA_09_Tv-News_MG__1
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/WAZA_09_Tv-News_MG.mp3
 # speaker_id = Sp338
@@ -26,7 +27,7 @@
 6	Efangha	Efangha	PROPN	_	_	5	flat	_	AlignBegin=6430|AlignEnd=7038|Gloss=Efangha
 7	inside	inside	ADP	_	_	9	case	_	AlignBegin=7038|AlignEnd=7618|Gloss=inside
 8	{	{	X	_	_	9	dep	_	AlignBegin=7618|AlignEnd=7648|Gloss=PUNCT
-9	Wazobia	Wazobia	PROPN	_	_	5	nmod	_	AlignBegin=7648|AlignEnd=8200|ExtPos=PROPN|Gloss=Wazobia|PhraseType=Title
+9	Wazobia	Wazobia	PROPN	_	_	5	nmod	_	AlignBegin=7648|AlignEnd=8200|ExtPos=PROPN|Gloss=Wazobia|Title=Yes
 10	Max	Max	PROPN	_	_	9	flat	_	AlignBegin=8200|AlignEnd=8540|Gloss=Max|InTitle=Yes
 11	TV	TV	NOUN	_	_	9	flat	_	AlignBegin=8540|AlignEnd=9180|Gloss=TV|InTitle=Yes
 12	|a	|a	X	_	_	13	dep	_	AlignBegin=9180|AlignEnd=9210|Gloss=PUNCT
@@ -84,9 +85,9 @@
 # sent_id = WAZA_09_Tv-News_MG__5
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/WAZA_09_Tv-News_MG.mp3
 # speaker_id = Sp338
-# text = alright di House of Representative don come outside advise Federal Government sey # [ make dem try to chook dem eye inside dis kind price of cement inside we country as e don begin to dey get one kind croocroo leg like dat ] //
+# text = alright di House of Representative don come outside advise Federal Government say # [ make dem try to chook dem eye inside dis kind price of cement inside we country as e don begin to dey get one kind croocroo leg like dat ] //
 # text_en = Alright, the House of Representatives has publicly advised the Federal Government to try to conduct some investigations into the prices of cement in our country, as it is becoming too high.
-# text_ortho = Alright di House of Representative don come outside advise Federal Government sey make dem try to chook dem eye inside dis kind price of cement inside we country as e don begin to dey get one kind croocroo leg like dat.
+# text_ortho = Alright di House of Representative don come outside advise Federal Government say make dem try to chook dem eye inside dis kind price of cement inside we country as e don begin to dey get one kind croocroo leg like dat.
 1	alright	alright	ADV	_	_	7	discourse	_	AlignBegin=18930|AlignEnd=19670|Gloss=alright
 2	di	di	DET	_	Definite=Def|PronType=Art	3	det	_	AlignBegin=19670|AlignEnd=19810|Gloss=DEF.ART
 3	House	house	NOUN	_	_	7	nsubj	_	AlignBegin=19810|AlignEnd=20150|Gloss=house
@@ -95,7 +96,7 @@
 6	don	don	AUX	_	Aspect=Perf	7	aux	_	AlignBegin=21210|AlignEnd=21400|Gloss=PRF
 7	come	come	VERB	_	_	0	root	_	AlignBegin=21400|AlignEnd=21550|Gloss=come
 8	outside	outside	ADP	_	_	7	compound:prt	_	AlignBegin=21550|AlignEnd=21980|Gloss=outside
-9	advise	advise	VERB	_	_	7	ccomp	_	AlignBegin=21980|AlignEnd=22430|Gloss=advise
+9	advise	advise	VERB	_	_	7	compound:svc	_	AlignBegin=21980|AlignEnd=22430|Gloss=advise
 10	Federal	federal	ADJ	_	_	11	amod	_	AlignBegin=22430|AlignEnd=22984|Gloss=federal
 11	Government	government	NOUN	_	_	9	obj	_	AlignBegin=22984|AlignEnd=23540|Gloss=government
 12	say	say	VERB	_	_	9	compound:svc	_	AlignBegin=23540|AlignEnd=23780|Gloss=say
@@ -105,7 +106,7 @@
 16	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	17	nsubj	_	AlignBegin=24214|AlignEnd=24400|Gloss=NOM.PL.3
 17	try	try	VERB	_	_	12	parataxis	_	AlignBegin=24400|AlignEnd=24590|Gloss=try
 18	to	to	ADP	_	_	19	mark	_	AlignBegin=24590|AlignEnd=24770|Gloss=to
-19	chook	chook	VERB	_	_	17	ccomp	_	AlignBegin=24770|AlignEnd=25027|Gloss=thrust
+19	chook	chook	VERB	_	_	17	xcomp	_	AlignBegin=24770|AlignEnd=25027|Gloss=thrust
 20	dem	dem	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	21	nmod:poss	_	AlignBegin=25027|AlignEnd=25316|Gloss=ACC.PL.3
 21	eye	eye	NOUN	_	_	19	obj	_	AlignBegin=25316|AlignEnd=25620|Gloss=eye
 22	inside	inside	ADP	_	_	25	case	_	AlignBegin=25620|AlignEnd=26202|Gloss=inside
@@ -120,16 +121,16 @@
 31	as	as	ADP	_	_	34	mark	_	AlignBegin=29100|AlignEnd=29300|Gloss=as
 32	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	34	nsubj	_	AlignBegin=29300|AlignEnd=29340|Gloss=NOM.SG.3
 33	don	don	AUX	_	Aspect=Perf	34	aux	_	AlignBegin=29340|AlignEnd=29500|Gloss=PRF
-34	begin	begin	VERB	_	_	19	advcl:tempo	_	AlignBegin=29500|AlignEnd=29690|Gloss=begin
+34	begin	begin	VERB	_	_	19	advcl	_	AlignBegin=29500|AlignEnd=29690|Gloss=begin
 35	to	to	ADP	_	_	37	mark	_	AlignBegin=29690|AlignEnd=29760|Gloss=to
 36	dey	dey	AUX	_	Aspect=Imp	37	aux	_	AlignBegin=29760|AlignEnd=29910|Gloss=IPFV
-37	get	get	VERB	_	_	34	ccomp	_	AlignBegin=29910|AlignEnd=30118|Gloss=get
+37	get	get	VERB	_	_	34	xcomp	_	AlignBegin=29910|AlignEnd=30118|Gloss=get
 38	one	one	DET	_	Definite=Spec|PronType=Art	41	det	_	AlignBegin=30118|AlignEnd=30380|Gloss=SPEC.ART
 39	kind	kind	ADJ	_	_	41	amod	_	AlignBegin=30380|AlignEnd=30570|Gloss=kind
 40	croocroo	korokoro	NOUN	_	_	41	compound	_	AlignBegin=30570|AlignEnd=31080|Gloss=itches
 41	leg	leg	NOUN	_	_	37	obj	_	AlignBegin=31080|AlignEnd=31270|Gloss=leg
 42	like	like	ADP	_	_	43	case	_	AlignBegin=31270|AlignEnd=31420|Gloss=like
-43	dat	dat	PRON	_	Number=Sing|PronType=Dem	19	obl:mod	_	AlignBegin=31420|AlignEnd=31837|Gloss=SG.DEM
+43	dat	dat	PRON	_	Number=Sing	19	obl:mod	_	AlignBegin=31420|AlignEnd=31837|Gloss=SG.DEM
 44	]	]	X	_	_	17	dep	_	AlignBegin=31837|AlignEnd=31867|Gloss=PUNCT
 45	//	//	X	_	_	7	dep	_	AlignBegin=31837|AlignEnd=31867|Gloss=PUNCT
 
@@ -154,9 +155,9 @@
 13	Yunusa	Yunusa	PROPN	_	_	11	flat	_	AlignBegin=36250|AlignEnd=37170|Gloss=Yunusa
 14	as	as	ADP	_	_	16	mark	_	AlignBegin=37170|AlignEnd=37480|Gloss=as
 15	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	AlignBegin=37480|AlignEnd=37559|Gloss=NOM.SG.3
-16	come	come	VERB	_	_	4	advcl:tempo	_	AlignBegin=37559|AlignEnd=37760|Gloss=come
+16	come	come	VERB	_	_	4	advcl	_	AlignBegin=37559|AlignEnd=37760|Gloss=come
 17	outside	outside	ADP	_	_	16	compound:prt	_	AlignBegin=37760|AlignEnd=38180|Gloss=outside
-18	shout	shout	VERB	_	_	16	ccomp	_	AlignBegin=38180|AlignEnd=38629|Gloss=shout
+18	shout	shout	VERB	_	_	16	compound:svc	_	AlignBegin=38180|AlignEnd=38629|Gloss=shout
 19	sey	sey	SCONJ	_	_	44	mark	_	AlignBegin=38629|AlignEnd=38812|Gloss=COMP
 20	[	[	X	_	_	44	dep	_	AlignBegin=38812|AlignEnd=38842|Gloss=PUNCT
 21	dis	dis	DET	_	Number=Sing|PronType=Dem	23	det	_	AlignBegin=38842|AlignEnd=39121|Gloss=SG.DEM
@@ -201,18 +202,18 @@
 3	come	come	VERB	_	_	0	root	_	AlignBegin=49338|AlignEnd=49540|Gloss=come
 4	outside	outside	ADP	_	_	3	compound:prt	_	AlignBegin=49540|AlignEnd=49810|Gloss=outside
 5	dey	dey	AUX	_	Aspect=Imp	6	aux	_	AlignBegin=49810|AlignEnd=49900|Gloss=IPFV
-6	express	express	VERB	_	_	3	ccomp	_	AlignBegin=49900|AlignEnd=50414|Gloss=express
-7	concern	concern	VERB	_	_	6	ccomp	_	AlignBegin=50414|AlignEnd=50977|Gloss=concern
+6	express	express	VERB	_	_	3	compound:svc	_	AlignBegin=49900|AlignEnd=50414|Gloss=express
+7	concern	concern	NOUN	_	_	6	obj	_	AlignBegin=50414|AlignEnd=50977|Gloss=concern
 8	as	as	ADP	_	_	10	mark	_	AlignBegin=50977|AlignEnd=51130|Gloss=as
 9	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	AlignBegin=51130|AlignEnd=51230|Gloss=NOM.SG.3
-10	talk	talk	VERB	_	_	6	advcl:tempo	_	AlignBegin=51230|AlignEnd=51518|Gloss=talk
+10	talk	talk	VERB	_	_	6	advcl	_	AlignBegin=51230|AlignEnd=51518|Gloss=talk
 11	sey	sey	SCONJ	_	_	13	case	_	AlignBegin=51518|AlignEnd=51960|Gloss=COMP
 12	[	[	X	_	_	13	dep	_	AlignBegin=51960|AlignEnd=51990|Gloss=PUNCT
 13	nothing	noting	PRON	_	_	10	obj	_	AlignBegin=51990|AlignEnd=52660|Gloss=nothing
 14	wey	wey	SCONJ	_	_	16	mark	_	AlignBegin=52660|AlignEnd=52779|Gloss=REL
 15	dey	dey	AUX	_	Aspect=Imp	16	aux	_	AlignBegin=52779|AlignEnd=52965|Gloss=IPFV
 16	suppose	suppose	VERB	_	_	13	acl:relcl	_	AlignBegin=52965|AlignEnd=53394|Gloss=suppose
-17	to	to	ADP	_	_	16	iobj	_	AlignBegin=53394|AlignEnd=53540|Gloss=to
+17	to	to	ADP	_	_	16	iobj	_	AlignBegin=53394|AlignEnd=53540|Gloss=to|Scrap=Yes
 18	]	]	X	_	_	13	dep	_	AlignBegin=53394|AlignEnd=53540|Gloss=PUNCT
 19	&//	&//	X	_	_	3	dep	_	AlignBegin=53394|AlignEnd=53540|Gloss=PUNCT
 
@@ -226,10 +227,10 @@
 2	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	AlignBegin=53842|AlignEnd=53971|Gloss=NOM.PL.3
 3	try	try	VERB	_	_	0	root	_	AlignBegin=53971|AlignEnd=54170|Gloss=try
 4	to	to	ADP	_	_	5	mark	_	AlignBegin=54170|AlignEnd=54350|Gloss=to
-5	address	address	VERB	_	_	3	ccomp	_	AlignBegin=54350|AlignEnd=54762|Gloss=address
+5	address	address	VERB	_	_	3	xcomp	_	AlignBegin=54350|AlignEnd=54762|Gloss=address
 6	di	di	DET	_	Definite=Def|PronType=Art	7	det	_	AlignBegin=54762|AlignEnd=54899|Gloss=DEF.ART
 7	situation	situation	NOUN	_	_	5	obj	_	AlignBegin=54899|AlignEnd=55400|Gloss=situation
-8	because	because	SCONJ	_	_	12	case	_	AlignBegin=55400|AlignEnd=55790|ExtPos=ADP|Gloss=because|PhraseType=Idiom
+8	because	because	SCONJ	_	_	12	case	_	AlignBegin=55400|AlignEnd=55790|ExtPos=ADP|Gloss=because|Idiom=Yes
 9	of	of	ADP	_	_	8	fixed	_	AlignBegin=55790|AlignEnd=55977|Gloss=of|InIdiom=Yes
 10	di	di	DET	_	Definite=Def|PronType=Art	12	det	_	AlignBegin=55977|AlignEnd=56110|Gloss=DEF.ART
 11	common	common	ADJ	_	_	12	amod	_	AlignBegin=56110|AlignEnd=56470|Gloss=common
@@ -251,7 +252,7 @@
 1	#	#	X	_	_	7	dep	_	AlignBegin=57980|AlignEnd=58464|Gloss=PUNCT
 2	as	as	ADP	_	_	4	mark	_	AlignBegin=58464|AlignEnd=58720|Gloss=as
 3	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	AlignBegin=58720|AlignEnd=58750|Gloss=NOM.SG.3
-4	come	come	VERB	_	_	7	advcl:tempo	_	AlignBegin=58750|AlignEnd=58950|Gloss=come
+4	come	come	VERB	_	_	7	advcl	_	AlignBegin=58750|AlignEnd=58950|Gloss=come
 5	outside	outside	ADP	_	_	4	iobj	_	AlignBegin=58950|AlignEnd=59209|Gloss=outside
 6	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	AlignBegin=59209|AlignEnd=59319|Gloss=NOM.SG.3
 7	say	say	VERB	_	_	0	root	_	AlignBegin=59319|AlignEnd=59530|Gloss=say
@@ -283,9 +284,9 @@
 33	di	di	DET	_	Definite=Def|PronType=Art	36	det	_	AlignBegin=64430|AlignEnd=64537|Gloss=DEF.ART
 34	small	small	ADJ	_	_	36	amod	_	AlignBegin=64537|AlignEnd=64890|Gloss=small
 35	Nigerian	Nigerian	ADJ	_	_	36	amod	_	AlignBegin=64890|AlignEnd=65407|Gloss=Nigerian
-36	man	man	NOUN	_	_	30	obl:arg	_	AlignBegin=65407|AlignEnd=65640|Gloss=man
+36	man	man	NOUN	_	_	30	obl:mod	_	AlignBegin=65407|AlignEnd=65640|Gloss=man
 37	to	to	ADP	_	_	38	mark	_	AlignBegin=65640|AlignEnd=65760|Gloss=to
-38	take	take	VERB	_	_	36	ccomp	_	AlignBegin=65760|AlignEnd=65920|Gloss=take
+38	take	take	VERB	_	_	36	xcomp	_	AlignBegin=65760|AlignEnd=65920|Gloss=take
 39	get	get	VERB	_	_	38	compound:svc	_	AlignBegin=65920|AlignEnd=66170|Gloss=get
 40	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	42	nmod:poss	_	AlignBegin=66170|AlignEnd=66330|Gloss=NOM.SG.3
 41	own	own	ADJ	_	_	42	amod	_	AlignBegin=66330|AlignEnd=66520|Gloss=own
@@ -299,16 +300,16 @@
 # sent_id = WAZA_09_Tv-News_MG__10
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/WAZA_09_Tv-News_MG.mp3
 # speaker_id = Sp338
-# text = # e con come outside advise Federal Ministry of Industry Trade and Investment # [ make dem come ouside connect wit di Cement Manufacturers Association of Nigeria and oder kain join body dem ] //
+# text = # e con come outside advise Federal Ministry of Industry Trade and Investment # [ make dem come outside connect wit di Cement Manufacturers Association of Nigeria and oder kain join body dem ] //
 # text_en = So he came out to advise the Federal Ministry of Industry, Trade and Investment to join hands with the Cement Manufacturers Association of Nigeria and other similar organizations.
-# text_ortho = E con come outside advise Federal Ministry of Industry Trade and Investment make dem come ouside connect wit di Cement Manufacturers Association of Nigeria and oder kain join body dem.
+# text_ortho = E con come outside advise Federal Ministry of Industry Trade and Investment make dem come outside connect wit di Cement Manufacturers Association of Nigeria and oder kain join body dem.
 1	#	#	X	_	_	4	dep	_	AlignBegin=67840|AlignEnd=68432|Gloss=PUNCT
 2	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	AlignBegin=68432|AlignEnd=68600|Gloss=NOM.SG.3
 3	con	con	AUX	_	Aspect=Cons	4	aux	_	AlignBegin=68600|AlignEnd=68810|Gloss=CONS
 4	come	come	VERB	_	_	0	root	_	AlignBegin=68810|AlignEnd=68970|Gloss=come
 5	outside	outside	ADP	_	_	4	compound:prt	_	AlignBegin=68970|AlignEnd=69352|Gloss=outside
-6	advise	advise	VERB	_	_	4	ccomp	_	AlignBegin=69352|AlignEnd=69865|Gloss=advise
-7	Federal	federal	ADJ	_	_	6	obj	_	AlignBegin=69865|AlignEnd=70340|ExtPos=PROPN|Gloss=federal|PhraseType=Title
+6	advise	advise	VERB	_	_	4	compound:svc	_	AlignBegin=69352|AlignEnd=69865|Gloss=advise
+7	Federal	federal	ADJ	_	_	6	obj	_	AlignBegin=69865|AlignEnd=70340|ExtPos=PROPN|Gloss=federal|Title=Yes
 8	Ministry	ministry	NOUN	_	_	7	flat	_	AlignBegin=70340|AlignEnd=70850|Gloss=ministry|InTitle=Yes
 9	of	of	ADP	_	_	7	flat	_	AlignBegin=70850|AlignEnd=71040|Gloss=of|InTitle=Yes
 10	Industry	industry	NOUN	_	_	7	flat	_	AlignBegin=71040|AlignEnd=71850|Gloss=industry|InTitle=Yes
@@ -317,14 +318,14 @@
 13	Investment	investment	NOUN	_	_	7	flat	_	AlignBegin=72450|AlignEnd=73280|Gloss=investment|InTitle=Yes
 14	#	#	X	_	_	18	dep	_	AlignBegin=73280|AlignEnd=73620|Gloss=PUNCT
 15	[	[	X	_	_	18	dep	_	AlignBegin=73590|AlignEnd=73620|Gloss=PUNCT
-16	make	make	AUX	_	Mood=Opt	18	aux	_	AlignBegin=73620|AlignEnd=73889|Gloss=SBJV
+16	make	make	SCONJ	_	_	18	mark	_	AlignBegin=73620|AlignEnd=73889|Gloss=COMP
 17	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	18	nsubj	_	AlignBegin=73889|AlignEnd=74100|Gloss=NOM.PL.3
 18	come	come	VERB	_	_	6	parataxis	_	AlignBegin=74100|AlignEnd=74280|Gloss=come
 19	outside	outside	ADP	_	_	18	compound:prt	_	AlignBegin=74280|AlignEnd=74797|Gloss=outside
-20	connect	connect	VERB	_	_	18	ccomp	_	AlignBegin=74797|AlignEnd=75380|Gloss=connect
+20	connect	connect	VERB	_	_	18	compound:svc	_	AlignBegin=74797|AlignEnd=75380|Gloss=connect
 21	wit	wit	ADP	_	_	23	case	_	AlignBegin=75380|AlignEnd=75572|Gloss=with
 22	di	di	DET	_	Definite=Def|PronType=Art	23	det	_	AlignBegin=75572|AlignEnd=75659|Gloss=DEF.ART
-23	Cement	cement	NOUN	_	_	20	obl:arg	_	AlignBegin=75659|AlignEnd=76316|ExtPos=PROPN|Gloss=cement|PhraseType=Title
+23	Cement	cement	NOUN	_	_	20	obl:arg	_	AlignBegin=75659|AlignEnd=76316|ExtPos=PROPN|Gloss=cement|Title=Yes
 24	Manufacturers	manufacturer	NOUN	_	Number=Plur	23	flat	_	AlignBegin=76316|AlignEnd=77130|Gloss=manufacturer.PL|InTitle=Yes
 25	Association	association	NOUN	_	_	23	flat	_	AlignBegin=77130|AlignEnd=77625|Gloss=association|InTitle=Yes
 26	of	of	ADP	_	_	23	flat	_	AlignBegin=77625|AlignEnd=77756|Gloss=of|InTitle=Yes
@@ -362,7 +363,7 @@
 # speaker_id = Sp338
 # text = # alright troops from inside di joint task force wey de say [ na Operation Delta save //] # dem don kill at least two kidnappers inside where dem take exchange guns ( begin shoot me //= I shoot you //) # inside where de bin kidnap one victim for Rivers State //
 # text_en = Alright, troops from the joint task force known as Operation Delta Safe have killed at least two kidnappers in an exchange of fire, at the place where they kidnapped a victim in Rivers State.
-# text_ortho = Alright troops from inside di joint task force wey de say na Operation Delta save, dem don kill at least two kidnappers inside where dem take exchange guns begin shoot me, I shoot you, inside where de bin kidnap one victim for Rivers State.
+# text_ortho = Alright troops from inside di joint task force wey de say na Operation Delta save, dem don kill at least two kidnappers inside where dem take exchange guns (begin shoot me, I shoot you) inside where de bin kidnap one victim for Rivers State.
 1	#	#	X	_	_	22	dep	_	AlignBegin=83720|AlignEnd=85300|Gloss=PUNCT
 2	alright	alright	ADV	_	_	22	discourse	_	AlignBegin=85300|AlignEnd=86390|Gloss=alright
 3	troops	troop	NOUN	_	Number=Plur	22	dislocated	_	AlignBegin=86390|AlignEnd=86894|Gloss=troop.PL
@@ -377,7 +378,7 @@
 12	say	say	VERB	_	_	9	acl:relcl	_	AlignBegin=89290|AlignEnd=89411|Gloss=say
 13	[	[	X	_	_	15	dep	_	AlignBegin=89411|AlignEnd=89441|Gloss=PUNCT
 14	na	na	AUX	_	PartType=Cop	15	cop	_	AlignBegin=89441|AlignEnd=89580|Gloss=be
-15	Operation	operation	NOUN	_	_	12	parataxis	_	AlignBegin=89580|AlignEnd=90441|ExtPos=PROPN|Gloss=operation|PhraseType=Title
+15	Operation	operation	NOUN	_	_	12	parataxis	_	AlignBegin=89580|AlignEnd=90441|ExtPos=PROPN|Gloss=operation|Title=Yes
 16	Delta	Delta	PROPN	_	_	15	flat	_	AlignBegin=90441|AlignEnd=91164|Gloss=Delta|InTitle=Yes
 17	save	save	VERB	_	_	15	flat	_	AlignBegin=91164|AlignEnd=91470|Gloss=save|InTitle=Yes
 18	//]	//]	X	_	_	15	dep	_	AlignBegin=91470|AlignEnd=91500|Gloss=PUNCT
@@ -385,7 +386,7 @@
 20	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	22	nsubj	_	AlignBegin=91920|AlignEnd=92237|Gloss=NOM.PL.3
 21	don	don	AUX	_	Aspect=Perf	22	aux	_	AlignBegin=92237|AlignEnd=92580|Gloss=PRF
 22	kill	kill	VERB	_	_	0	root	_	AlignBegin=92580|AlignEnd=92970|Gloss=kill
-23	at	at	ADP	_	_	25	advmod	_	AlignBegin=92970|AlignEnd=93100|ExtPos=ADV|Gloss=at|PhraseType=Idiom
+23	at	at	ADP	_	_	25	advmod	_	AlignBegin=92970|AlignEnd=93100|ExtPos=ADV|Gloss=at|Idiom=Yes
 24	least	least	ADV	_	_	23	fixed	_	AlignBegin=93100|AlignEnd=93383|Gloss=least|InIdiom=Yes
 25	two	two	NUM	_	NumType=Card	26	nummod	_	AlignBegin=93383|AlignEnd=93770|Gloss=two.CARD
 26	kidnappers	kidnapper	NOUN	_	Number=Plur	22	obj	_	AlignBegin=93770|AlignEnd=94447|Gloss=kidnapper.PL
@@ -397,7 +398,7 @@
 32	guns	gun	NOUN	_	Number=Plur	34	compound	_	AlignBegin=96269|AlignEnd=96891|Gloss=gun.PL
 33	(	(	X	_	_	34	dep	_	AlignBegin=96269|AlignEnd=96891|Gloss=PUNCT
 34	begin	begin	VERB	_	_	31	parataxis:parenth	_	AlignBegin=96891|AlignEnd=97206|Gloss=begin
-35	shoot	shoot	VERB	_	_	34	ccomp	_	AlignBegin=97206|AlignEnd=97451|Gloss=shoot
+35	shoot	shoot	VERB	_	_	34	xcomp	_	AlignBegin=97206|AlignEnd=97451|Gloss=shoot
 36	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	35	obj	_	AlignBegin=97451|AlignEnd=97612|Gloss=ACC.SG.1
 37	//=	//=	X	_	_	34	dep	_	AlignBegin=97612|AlignEnd=97750|Gloss=PUNCT
 38	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	39	nsubj	_	AlignBegin=97612|AlignEnd=97750|Gloss=NOM.SG.1
@@ -413,7 +414,7 @@
 48	one	one	DET	_	Definite=Spec|PronType=Art	49	det	_	AlignBegin=100411|AlignEnd=100750|Gloss=SPEC.ART
 49	victim	victim	NOUN	_	_	47	obj	_	AlignBegin=100750|AlignEnd=101199|Gloss=victim
 50	for	for	ADP	_	_	51	case	_	AlignBegin=101199|AlignEnd=101478|Gloss=for
-51	Rivers	Rivers	PROPN	_	_	47	obl:mod	_	AlignBegin=101478|AlignEnd=101899|ExtPos=PROPN|Gloss=Rivers|PhraseType=Title
+51	Rivers	Rivers	PROPN	_	_	47	obl:mod	_	AlignBegin=101478|AlignEnd=101899|ExtPos=PROPN|Gloss=Rivers|Title=Yes
 52	State	state	NOUN	_	_	51	flat	_	AlignBegin=101899|AlignEnd=102433|Gloss=state|InTitle=Yes
 53	//	//	X	_	_	22	dep	_	AlignBegin=102433|AlignEnd=102463|Gloss=PUNCT
 
@@ -427,7 +428,7 @@
 2	as	as	ADP	_	_	5	mark	_	AlignBegin=102980|AlignEnd=103170|Gloss=as
 3	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	AlignBegin=103170|AlignEnd=103320|Gloss=NOM.PL.3
 4	dey	dey	AUX	_	Aspect=Imp	5	aux	_	AlignBegin=103320|AlignEnd=103475|Gloss=IPFV
-5	yarn	yarn	VERB	_	_	35	advcl:tempo	_	AlignBegin=103475|AlignEnd=103700|Gloss=talk
+5	yarn	yarn	VERB	_	_	35	advcl	_	AlignBegin=103475|AlignEnd=103700|Gloss=talk
 6	give	give	VERB	_	_	5	compound:svc	_	AlignBegin=103700|AlignEnd=103890|Gloss=give
 7	tory	tori	NOUN	_	_	8	compound	_	AlignBegin=103890|AlignEnd=104320|Gloss=story
 8	people	people	NOUN	_	Number=Plur	6	obj	_	AlignBegin=104320|AlignEnd=104660|Gloss=people.PL
@@ -438,7 +439,7 @@
 13	headquarters	headquarter	NOUN	_	Number=Plur	6	obl:mod	_	AlignBegin=106458|AlignEnd=107216|Gloss=headquarter.PL
 14	for	for	ADP	_	_	15	case	_	AlignBegin=107216|AlignEnd=107379|Gloss=for
 15	Yenagoa	Yenagoa	PROPN	_	_	13	nmod	_	AlignBegin=107379|AlignEnd=107900|Gloss=Yenagoa
-16	Bayelsa	Bayelsa	PROPN	_	_	15	appos	_	AlignBegin=107900|AlignEnd=108480|ExtPos=PROPN|Gloss=Bayelsa|PhraseType=Title
+16	Bayelsa	Bayelsa	PROPN	_	_	15	appos	_	AlignBegin=107900|AlignEnd=108480|ExtPos=PROPN|Gloss=Bayelsa|Title=Yes
 17	State	state	NOUN	_	_	16	flat	_	AlignBegin=108480|AlignEnd=109022|Gloss=state|InTitle=Yes
 18	<	<	X	_	_	5	dep	_	AlignBegin=109052|AlignEnd=109398|Gloss=PUNCT
 19	#	#	X	_	_	5	dep	_	AlignBegin=109052|AlignEnd=109398|Gloss=PUNCT
@@ -450,7 +451,7 @@
 25	group	group	NOUN	_	_	22	nmod	_	AlignBegin=110600|AlignEnd=111060|Gloss=group
 26	|a	|a	X	_	_	28	dep	_	AlignBegin=111060|AlignEnd=111090|Gloss=PUNCT
 27	Rear	rear	NOUN	_	_	28	nmod	_	AlignBegin=111090|AlignEnd=111310|Gloss=rear|InTitle=Yes
-28	Admiral	admiral	NOUN	_	_	22	appos	_	AlignBegin=111310|AlignEnd=111810|ExtPos=PROPN|Gloss=admiral|PhraseType=Title
+28	Admiral	admiral	NOUN	_	_	22	appos	_	AlignBegin=111310|AlignEnd=111810|ExtPos=PROPN|Gloss=admiral|Title=Yes
 29	Sulaiman	Sulaiman	PROPN	_	_	28	flat	_	AlignBegin=111810|AlignEnd=112410|Gloss=Sulaiman
 30	Apochi	Apochi	PROPN	_	_	28	flat	_	AlignBegin=112410|AlignEnd=112950|Gloss=Apochi
 31	}	}	X	_	_	22	dep	_	AlignBegin=112950|AlignEnd=112980|Gloss=PUNCT
@@ -487,7 +488,7 @@
 2	Opochi	Opochi	PROPN	_	_	3	nsubj	_	AlignBegin=119380|AlignEnd=119782|Gloss=Opochi
 3	come	come	VERB	_	_	0	root	_	AlignBegin=119782|AlignEnd=119950|Gloss=come
 4	outside	outside	ADP	_	_	3	compound:prt	_	AlignBegin=119950|AlignEnd=120393|Gloss=outside
-5	say	say	VERB	_	_	3	ccomp	_	AlignBegin=120393|AlignEnd=120711|Gloss=say
+5	say	say	VERB	_	_	3	compound:svc	_	AlignBegin=120393|AlignEnd=120711|Gloss=say
 6	[	[	X	_	_	19	dep	_	AlignBegin=120711|AlignEnd=120741|Gloss=PUNCT
 7	dis	dis	DET	_	Number=Sing|PronType=Dem	8	det	_	AlignBegin=120741|AlignEnd=121186|Gloss=SG.DEM
 8	people	people	NOUN	_	Number=Plur	19	dislocated	_	AlignBegin=121186|AlignEnd=121410|Gloss=people.PL
@@ -520,7 +521,7 @@
 35	hospital	hospital	NOUN	_	_	32	nmod	_	AlignBegin=128230|AlignEnd=128680|Gloss=hospital
 36	for	for	ADP	_	_	37	case	_	AlignBegin=128680|AlignEnd=128960|Gloss=for
 37	Port-Harcourt	Port-Harcourt	PROPN	_	_	19	obl:mod	_	AlignBegin=128960|AlignEnd=129687|Gloss=Port-Harcourt
-38	Rivers	Rivers	PROPN	_	_	37	appos	_	AlignBegin=129687|AlignEnd=130027|ExtPos=PROPN|Gloss=Rivers|PhraseType=Title
+38	Rivers	Rivers	PROPN	_	_	37	appos	_	AlignBegin=129687|AlignEnd=130027|ExtPos=PROPN|Gloss=Rivers|Title=Yes
 39	State	state	NOUN	_	_	38	flat	_	AlignBegin=130027|AlignEnd=130387|Gloss=state|InTitle=Yes
 40	]	]	X	_	_	19	dep	_	AlignBegin=130387|AlignEnd=130417|Gloss=PUNCT
 41	//	//	X	_	_	3	dep	_	AlignBegin=130387|AlignEnd=130417|Gloss=PUNCT
@@ -569,10 +570,10 @@
 36	oil	oil	NOUN	_	_	37	compound	_	AlignBegin=140420|AlignEnd=140710|Gloss=oil
 37	community	community	NOUN	_	_	32	obl:arg	_	AlignBegin=140710|AlignEnd=141420|Gloss=community
 38	#	#	X	_	_	46	dep	_	AlignBegin=141420|AlignEnd=141745|Gloss=PUNCT
-39	for	for	ADP	_	_	46	case	_	AlignBegin=141745|AlignEnd=141944|ExtPos=ADP|Gloss=for|PhraseType=Idiom
+39	for	for	ADP	_	_	46	case	_	AlignBegin=141745|AlignEnd=141944|ExtPos=ADP|Gloss=for|Idiom=Yes
 40	inside	inside	ADP	_	_	39	fixed	_	AlignBegin=141944|AlignEnd=142290|Gloss=inside|InIdiom=Yes
 41	di	di	DET	_	Definite=Def|PronType=Art	46	det	_	AlignBegin=142290|AlignEnd=142432|Gloss=DEF.ART
-42	Tedida	Tedida	PROPN	_	_	46	nmod	_	AlignBegin=142432|AlignEnd=143020|ExtPos=PROPN|Gloss=Tedida|PhraseType=Title
+42	Tedida	Tedida	PROPN	_	_	46	nmod	_	AlignBegin=142432|AlignEnd=143020|ExtPos=PROPN|Gloss=Tedida|Title=Yes
 43	Oginmbiri	Oginmbiri	PROPN	_	_	42	flat	_	AlignBegin=143020|AlignEnd=143660|Gloss=Oginmbiri|InTitle=Yes
 44	Brass	brass	NOUN	_	_	42	flat	_	AlignBegin=143660|AlignEnd=144320|Gloss=brass|InTitle=Yes
 45	#	#	X	_	_	46	dep	_	AlignBegin=144320|AlignEnd=144560|Gloss=PUNCT
@@ -626,7 +627,7 @@
 38	outside	outside	ADP	_	_	39	dep	_	AlignBegin=154324|AlignEnd=155009|Gloss=outside
 39	community	community	NOUN	_	_	35	xcomp	_	AlignBegin=155009|AlignEnd=155553|Gloss=community
 40	for	for	ADP	_	_	41	case	_	AlignBegin=155553|AlignEnd=155710|Gloss=for
-41	Southern	southern	ADJ	_	_	39	nmod	_	AlignBegin=155710|AlignEnd=156370|ExtPos=PROPN|Gloss=southern|PhraseType=Title
+41	Southern	southern	ADJ	_	_	39	nmod	_	AlignBegin=155710|AlignEnd=156370|ExtPos=PROPN|Gloss=southern|Title=Yes
 42	Ijaw	Ijaw	PROPN	_	_	41	flat	_	AlignBegin=156370|AlignEnd=156780|Gloss=Ijaw|InTitle=Yes
 43	Local	local	ADJ	_	_	41	flat	_	AlignBegin=156780|AlignEnd=157030|Gloss=local|InTitle=Yes
 44	Government	government	NOUN	_	_	41	flat	_	AlignBegin=157030|AlignEnd=157538|Gloss=government|InTitle=Yes
@@ -634,7 +635,7 @@
 46	#	#	X	_	_	49	dep	_	AlignBegin=157900|AlignEnd=158240|Gloss=PUNCT
 47	inside	inside	ADP	_	_	49	case	_	AlignBegin=158240|AlignEnd=158780|Gloss=inside
 48	#	#	X	_	_	49	dep	_	AlignBegin=158780|AlignEnd=159080|Gloss=PUNCT
-49	Bayelsa	Bayelsa	PROPN	_	_	41	nmod	_	AlignBegin=159080|AlignEnd=159590|ExtPos=PROPN|Gloss=Bayelsa|PhraseType=Title
+49	Bayelsa	Bayelsa	PROPN	_	_	41	nmod	_	AlignBegin=159080|AlignEnd=159590|ExtPos=PROPN|Gloss=Bayelsa|Title=Yes
 50	State	state	NOUN	_	_	49	flat	_	AlignBegin=159590|AlignEnd=160220|Gloss=state|InTitle=Yes
 51	]	]	X	_	_	22	dep	_	AlignBegin=160220|AlignEnd=160250|Gloss=PUNCT
 52	//	//	X	_	_	18	dep	_	AlignBegin=160220|AlignEnd=160250|Gloss=PUNCT
@@ -653,7 +654,7 @@
 6	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	5	obj	_	AlignBegin=161891|AlignEnd=162100|Gloss=NOM.2
 7	jump	jump	VERB	_	_	5	compound:svc	_	AlignBegin=162100|AlignEnd=162537|Gloss=jump
 8	enter	enter	VERB	_	_	7	compound:svc	_	AlignBegin=162537|AlignEnd=162950|Gloss=enter
-9	for	for	ADP	_	_	12	case	_	AlignBegin=162950|AlignEnd=163136|ExtPos=ADP|Gloss=for|PhraseType=Idiom
+9	for	for	ADP	_	_	12	case	_	AlignBegin=162950|AlignEnd=163136|ExtPos=ADP|Gloss=for|Idiom=Yes
 10	inside	inside	ADP	_	_	9	fixed	_	AlignBegin=163136|AlignEnd=163527|Gloss=inside|InIdiom=Yes
 11	African	African	ADJ	_	_	12	amod	_	AlignBegin=163527|AlignEnd=164260|Gloss=African
 12	tory	tori	NOUN	_	_	8	obl:arg	_	AlignBegin=164260|AlignEnd=164737|Gloss=story
@@ -664,7 +665,7 @@
 # speaker_id = Sp338
 # text = # di Mozambique government don stop di importation of { fowl |c anything wey concern fowl } ( now e say e don do !//= e say e don do !//) # from all di neighbouring countries except di one wey dem talk sey e no sabi |c but dis one e concern Zimbambwe //
 # text_en = The Mozambique government has banned the importation of birds and anything related to birds (saying they've had enough... they've had enough) from the neighboring countries except the ones they said they did not know, but this has to do with Zimbabwe.
-# text_ortho = Di Mozambique government don stop di importation of fowl, anything wey concern fowl (now e say e don do, e say e don do, ) from all di neighbouring countries except di one wey dem talk sey e no sabi, but dis one e concern Zimbambwe.
+# text_ortho = Di Mozambique government don stop di importation of fowl, anything wey concern fowl (now e say e don do, e say e don do) from all di neighbouring countries except di one wey dem talk sey e no sabi, but dis one e concern Zimbambwe.
 1	#	#	X	_	_	6	dep	_	AlignBegin=164767|AlignEnd=165224|Gloss=PUNCT
 2	di	di	DET	_	Definite=Def|PronType=Art	4	det	_	AlignBegin=165224|AlignEnd=165358|Gloss=DEF.ART
 3	Mozambique	Mozambique	PROPN	_	_	4	nmod	_	AlignBegin=165358|AlignEnd=166090|Gloss=Mozambique
@@ -698,7 +699,7 @@
 31	!//)	!//)	X	_	_	21	dep	_	AlignBegin=173300|AlignEnd=173620|Gloss=PUNCT
 32	#	#	X	_	_	37	dep	_	AlignBegin=173300|AlignEnd=173620|Gloss=PUNCT
 33	from	from	ADP	_	_	37	case	_	AlignBegin=173620|AlignEnd=173928|Gloss=from
-34	all	all	DET	_	_	37	dep	_	AlignBegin=173928|AlignEnd=174449|Gloss=all
+34	all	all	DET	_	_	37	det	_	AlignBegin=173928|AlignEnd=174449|Gloss=all
 35	di	di	DET	_	Definite=Def|PronType=Art	37	det	_	AlignBegin=174449|AlignEnd=174550|Gloss=DEF.ART
 36	neighbouring	neighbouring	ADJ	_	_	37	amod	_	AlignBegin=174550|AlignEnd=175020|Gloss=neighbouring
 37	countries	country	NOUN	_	Number=Plur	8	nmod	_	AlignBegin=175020|AlignEnd=175410|Gloss=country.PL
@@ -728,7 +729,7 @@
 # text_en = According to the report in Maputo, this announcement follows an outbreak of Avian Flu as announed last week
 # text_ortho = According to di report inside Maputo, dis talk follow one outbreak of Avian Flu as dem bin announce am inside last week.
 1	#	#	X	_	_	11	dep	_	AlignBegin=180300|AlignEnd=180640|Gloss=PUNCT
-2	according	accord	VERB	_	Tense=Pres|VerbForm=Part	5	case	_	AlignBegin=180640|AlignEnd=181220|ExtPos=ADP|Gloss=accord.PRS.PTCP|PhraseType=Idiom
+2	according	accord	VERB	_	Tense=Pres|VerbForm=Part	5	case	_	AlignBegin=180640|AlignEnd=181220|ExtPos=ADP|Gloss=accord.PRS.PTCP|Idiom=Yes
 3	to	to	ADP	_	_	2	fixed	_	AlignBegin=181220|AlignEnd=181332|Gloss=to|InIdiom=Yes
 4	di	di	DET	_	Definite=Def|PronType=Art	5	det	_	AlignBegin=181332|AlignEnd=181460|Gloss=DEF.ART
 5	report	report	NOUN	_	_	11	obl:mod	_	AlignBegin=181460|AlignEnd=181870|Gloss=report
@@ -746,7 +747,7 @@
 17	as	as	ADP	_	_	20	mark	_	AlignBegin=186431|AlignEnd=186750|Gloss=as
 18	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	20	nsubj	_	AlignBegin=186750|AlignEnd=186916|Gloss=NOM.PL.3
 19	bin	bin	AUX	_	Tense=Past	20	aux	_	AlignBegin=186916|AlignEnd=187160|Gloss=PST
-20	announce	announce	VERB	_	_	11	advcl:tempo	_	AlignBegin=187160|AlignEnd=187690|Gloss=announce
+20	announce	announce	VERB	_	_	11	advcl	_	AlignBegin=187160|AlignEnd=187690|Gloss=announce
 21	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	20	obj	_	AlignBegin=187690|AlignEnd=187810|Gloss=ACC.SG.3
 22	inside	inside	ADP	_	_	24	case	_	AlignBegin=187810|AlignEnd=188326|Gloss=inside
 23	last	last	ADJ	_	_	24	amod	_	AlignBegin=188326|AlignEnd=188700|Gloss=last
@@ -766,7 +767,7 @@
 5	farm	farm	NOUN	_	_	14	obl:mod	_	AlignBegin=190260|AlignEnd=190545|Gloss=farm
 6	#	#	X	_	_	8	dep	_	AlignBegin=190545|AlignEnd=190832|Gloss=PUNCT
 7	inside	inside	ADP	_	_	8	case	_	AlignBegin=190832|AlignEnd=191283|Gloss=inside
-8	Zimbabwe	Zimbabwe	PROPN	_	_	5	nmod	_	AlignBegin=191283|AlignEnd=192090|ExtPos=PROPN|Gloss=Zimbabwe|PhraseType=Title
+8	Zimbabwe	Zimbabwe	PROPN	_	_	5	nmod	_	AlignBegin=191283|AlignEnd=192090|ExtPos=PROPN|Gloss=Zimbabwe|Title=Yes
 9	Mashonaland	Mashonaland	PROPN	_	_	8	flat	_	AlignBegin=192090|AlignEnd=192704|Gloss=Mashonaland|InTitle=Yes
 10	East	East	NOUN	_	_	8	flat	_	AlignBegin=192704|AlignEnd=193127|Gloss=East|InTitle=Yes
 11	Area	area	NOUN	_	_	8	flat	_	AlignBegin=193127|AlignEnd=193650|Gloss=area|InTitle=Yes
@@ -852,9 +853,9 @@
 12	begin	begin	VERB	_	_	0	root	_	AlignBegin=207030|AlignEnd=207260|Gloss=begin
 13	to	to	ADP	_	_	15	mark	_	AlignBegin=207260|AlignEnd=207384|Gloss=to
 14	dey	dey	AUX	_	Aspect=Imp	15	aux	_	AlignBegin=207384|AlignEnd=207496|Gloss=IPFV
-15	come	come	VERB	_	_	12	ccomp	_	AlignBegin=207496|AlignEnd=207740|Gloss=come
+15	come	come	VERB	_	_	12	xcomp	_	AlignBegin=207496|AlignEnd=207740|Gloss=come
 16	out	out	ADP	_	_	15	compound:prt	_	AlignBegin=207740|AlignEnd=207880|Gloss=out
-17	on	on	ADP	_	_	22	case	_	AlignBegin=207880|AlignEnd=207980|ExtPos=ADP|Gloss=on|PhraseType=Idiom
+17	on	on	ADP	_	_	22	case	_	AlignBegin=207880|AlignEnd=207980|ExtPos=ADP|Gloss=on|Idiom=Yes
 18	top	top	NOUN	_	_	17	fixed	_	AlignBegin=207980|AlignEnd=208150|Gloss=top|InIdiom=Yes
 19	of	of	ADP	_	_	17	fixed	_	AlignBegin=208150|AlignEnd=208320|Gloss=of|InIdiom=Yes
 20	dis	dis	DET	_	Number=Sing|PronType=Dem	22	det	_	AlignBegin=208320|AlignEnd=208535|Gloss=SG.DEM
@@ -863,7 +864,7 @@
 23	#	#	X	_	_	26	dep	_	AlignBegin=209435|AlignEnd=209727|Gloss=PUNCT
 24	as	as	ADP	_	_	26	mark	_	AlignBegin=209727|AlignEnd=209981|Gloss=as
 25	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	26	nsubj	_	AlignBegin=209981|AlignEnd=210218|Gloss=NOM.PL.3
-26	talk	talk	VERB	_	_	15	advcl:tempo	_	AlignBegin=210218|AlignEnd=210444|Gloss=talk
+26	talk	talk	VERB	_	_	15	advcl	_	AlignBegin=210218|AlignEnd=210444|Gloss=talk
 27	sey	sey	SCONJ	_	_	32	mark	_	AlignBegin=210444|AlignEnd=210870|Gloss=COMP
 28	[	[	X	_	_	32	dep	_	AlignBegin=210870|AlignEnd=210900|Gloss=PUNCT
 29	one	one	NUM	_	NumType=Card	32	nsubj	_	AlignBegin=210900|AlignEnd=211330|Gloss=one
@@ -877,15 +878,15 @@
 37	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	36	obj	_	AlignBegin=212920|AlignEnd=213020|Gloss=ACC.SG.3
 38	inside	inside	ADP	_	_	40	case	_	AlignBegin=213020|AlignEnd=213400|Gloss=inside
 39	dis	dis	DET	_	Number=Sing|PronType=Dem	40	det	_	AlignBegin=213400|AlignEnd=213702|Gloss=SG.DEM
-40	Mashonaland	Mashonaland	PROPN	_	_	36	obl:arg	_	AlignBegin=213702|AlignEnd=214400|ExtPos=PROPN|Gloss=Mashonaland|PhraseType=Title
-41	em	em	INTJ	_	_	40	discourse	_	AlignBegin=214400|AlignEnd=214557|Gloss=em
-42	eh	eh	INTJ	_	_	40	discourse	_	AlignBegin=214557|AlignEnd=214802|Gloss=eh
-43	East	East	NOUN	_	_	40	flat	_	AlignBegin=214802|AlignEnd=215071|ExtPos=PROPN|Gloss=East|InTitle=Yes|PhraseType=Idiom
-44	Area	area	NOUN	_	_	40	flat	_	AlignBegin=215071|AlignEnd=215880|Gloss=area|InTitle=Yes
+40	Mashonaland	Mashonaland	PROPN	_	_	36	obl:arg	_	AlignBegin=213702|AlignEnd=214400|ExtPos=PROPN|Gloss=Mashonaland|Title=Yes
+41	em	em	INTJ	_	_	43	discourse	_	AlignBegin=214400|AlignEnd=214557|Gloss=em
+42	eh	eh	INTJ	_	_	43	discourse	_	AlignBegin=214557|AlignEnd=214802|Gloss=eh
+43	East	East	NOUN	_	_	40	flat	_	AlignBegin=214802|AlignEnd=215071|ExtPos=PROPN|Gloss=East|Title=Yes
+44	Area	area	NOUN	_	_	43	flat	_	AlignBegin=215071|AlignEnd=215880|Gloss=area|InTitle=Yes
 45	wey	wey	SCONJ	_	_	48	mark	_	AlignBegin=215910|AlignEnd=216020|Gloss=REL
 46	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	48	nsubj	_	AlignBegin=216020|AlignEnd=216126|Gloss=NOM.PL.3
 47	don	don	AUX	_	Aspect=Perf	48	aux	_	AlignBegin=216126|AlignEnd=216410|Gloss=PRF
-48	talk	talk	VERB	_	_	40	acl:relcl	_	AlignBegin=216410|AlignEnd=216607|Gloss=talk
+48	talk	talk	VERB	_	_	43	acl:relcl	_	AlignBegin=216410|AlignEnd=216607|Gloss=talk
 49	sey	sey	SCONJ	_	_	56	mark	_	AlignBegin=216607|AlignEnd=216680|Gloss=COMP
 50	[	[	X	_	_	56	dep	_	AlignBegin=216680|AlignEnd=216710|Gloss=PUNCT
 51	di	di	DET	_	Definite=Def|PronType=Art	52	det	_	AlignBegin=216710|AlignEnd=216860|Gloss=DEF.ART
@@ -933,7 +934,7 @@
 11	don	don	AUX	_	Aspect=Perf	12	aux	_	AlignBegin=225510|AlignEnd=225766|Gloss=PRF
 12	come	come	VERB	_	_	0	root	_	AlignBegin=225766|AlignEnd=225920|Gloss=come
 13	outside	outside	ADP	_	_	12	compound:prt	_	AlignBegin=225920|AlignEnd=226240|Gloss=outside
-14	on	on	ADP	_	_	19	case	_	AlignBegin=226240|AlignEnd=226370|ExtPos=ADP|Gloss=on|PhraseType=Idiom
+14	on	on	ADP	_	_	19	case	_	AlignBegin=226240|AlignEnd=226370|ExtPos=ADP|Gloss=on|Idiom=Yes
 15	top	top	NOUN	_	_	14	fixed	_	AlignBegin=226370|AlignEnd=226530|Gloss=top|InIdiom=Yes
 16	of	of	ADP	_	_	14	fixed	_	AlignBegin=226530|AlignEnd=226620|Gloss=of|InIdiom=Yes
 17	dem	dem	PRON	_	Number=Plur|Person=3|Poss=Yes	19	nmod:poss	_	AlignBegin=226620|AlignEnd=226770|Gloss=PL.3.POSS
@@ -950,7 +951,7 @@
 1	#	#	X	_	_	13	dep	_	AlignBegin=227460|AlignEnd=227720|Gloss=PUNCT
 2	di	di	DET	_	Definite=Def|PronType=Art	3	det	_	AlignBegin=227720|AlignEnd=227953|Gloss=DEF.ART
 3	report	report	NOUN	_	_	13	dislocated	_	AlignBegin=227953|AlignEnd=228860|Gloss=report
-4	sake	sake	NOUN	_	_	9	case	_	AlignBegin=228860|AlignEnd=229130|ExtPos=ADP|Gloss=sake|PhraseType=Idiom
+4	sake	sake	NOUN	_	_	9	case	_	AlignBegin=228860|AlignEnd=229130|ExtPos=ADP|Gloss=sake|Idiom=Yes
 5	of	of	ADP	_	_	4	fixed	_	AlignBegin=229130|AlignEnd=229301|Gloss=of|InIdiom=Yes
 6	dis	dis	DET	_	Number=Sing|PronType=Dem	9	det	_	AlignBegin=229301|AlignEnd=229530|Gloss=SG.DEM
 7	kain	kind	ADJ	_	_	8	amod	_	AlignBegin=229530|AlignEnd=229710|Gloss=kind
@@ -974,7 +975,7 @@
 # text_ortho = And for inside world matter, very, very shaperly, dem talk sey two attack now for inside Iranian Parliament.
 1	#	#	X	_	_	16	dep	_	AlignBegin=232796|AlignEnd=234148|Gloss=PUNCT
 2	and	and	CCONJ	_	_	16	discourse	_	AlignBegin=234148|AlignEnd=234358|Gloss=and
-3	for	for	ADP	_	_	6	case	_	AlignBegin=234358|AlignEnd=234636|ExtPos=ADP|Gloss=for|PhraseType=Idiom
+3	for	for	ADP	_	_	6	case	_	AlignBegin=234358|AlignEnd=234636|ExtPos=ADP|Gloss=for|Idiom=Yes
 4	inside	inside	ADP	_	_	3	fixed	_	AlignBegin=234636|AlignEnd=235133|Gloss=inside|InIdiom=Yes
 5	world	world	NOUN	_	_	6	compound	_	AlignBegin=235133|AlignEnd=235580|Gloss=world
 6	matter	matter	NOUN	_	_	16	obl:mod	_	AlignBegin=235580|AlignEnd=235888|Gloss=matter
@@ -993,7 +994,7 @@
 19	two	two	NUM	_	NumType=Card	20	nummod	_	AlignBegin=238010|AlignEnd=238300|Gloss=two.CARD
 20	attack	attack	NOUN	_	_	16	obj	_	AlignBegin=238300|AlignEnd=238825|Gloss=attack
 21	now	now	ADV	_	_	20	advmod	_	AlignBegin=238825|AlignEnd=239010|Gloss=now
-22	for	for	ADP	_	_	25	case	_	AlignBegin=239010|AlignEnd=239179|ExtPos=ADP|Gloss=for|PhraseType=Idiom
+22	for	for	ADP	_	_	25	case	_	AlignBegin=239010|AlignEnd=239179|ExtPos=ADP|Gloss=for|Idiom=Yes
 23	inside	inside	ADP	_	_	22	fixed	_	AlignBegin=239179|AlignEnd=239660|Gloss=inside|InIdiom=Yes
 24	Iranian	Iranian	ADJ	_	_	25	amod	_	AlignBegin=239660|AlignEnd=240380|Gloss=Iranian
 25	Parliament	parliament	NOUN	_	_	20	nmod	_	AlignBegin=240380|AlignEnd=241050|Gloss=parliament
@@ -1027,7 +1028,7 @@
 19	one	one	NOUN	_	_	25	dislocated	_	AlignBegin=245510|AlignEnd=245550|Gloss=one
 20	<	<	X	_	_	19	dep	_	AlignBegin=245550|AlignEnd=245580|Gloss=PUNCT
 21	na	na	AUX	_	PartType=Cop	25	cop	_	AlignBegin=245580|AlignEnd=245720|Gloss=be
-22	for	for	ADP	_	_	25	case	_	AlignBegin=245720|AlignEnd=245830|ExtPos=ADP|Gloss=for|PhraseType=Idiom
+22	for	for	ADP	_	_	25	case	_	AlignBegin=245720|AlignEnd=245830|ExtPos=ADP|Gloss=for|Idiom=Yes
 23	inside	inside	ADP	_	_	22	fixed	_	AlignBegin=245830|AlignEnd=246150|Gloss=inside|InIdiom=Yes
 24	di	di	DET	_	Definite=Def|PronType=Art	25	det	_	AlignBegin=246150|AlignEnd=246282|Gloss=DEF.ART
 25	Capital	capital	NOUN	_	_	15	ccomp	_	AlignBegin=246282|AlignEnd=246940|Gloss=capital
@@ -1037,7 +1038,7 @@
 29	don	don	AUX	_	Aspect=Perf	31	aux	_	AlignBegin=247493|AlignEnd=247790|Gloss=PRF
 30	{	{	X	_	_	31	dep	_	AlignBegin=247790|AlignEnd=248020|Gloss=PUNCT
 31	kill	kill	VERB	_	_	25	advcl:cleft	_	AlignBegin=247790|AlignEnd=248020|Gloss=kill
-32	at	at	ADP	_	_	34	advmod	_	AlignBegin=248020|AlignEnd=248212|ExtPos=ADV|Gloss=at|PhraseType=Idiom
+32	at	at	ADP	_	_	34	advmod	_	AlignBegin=248020|AlignEnd=248212|ExtPos=ADV|Gloss=at|Idiom=Yes
 33	least	least	ADV	_	_	32	fixed	_	AlignBegin=248212|AlignEnd=248726|Gloss=least|InIdiom=Yes
 34	twelve	twelve	NUM	_	NumType=Card	36	nummod	_	AlignBegin=248726|AlignEnd=249360|Gloss=twelve.CARD
 35	#	#	X	_	_	34	dep	_	AlignBegin=249360|AlignEnd=249523|Gloss=PUNCT
@@ -1055,7 +1056,7 @@
 47	of	of	ADP	_	_	48	case	_	AlignBegin=252250|AlignEnd=252472|Gloss=of
 48	dem	dem	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	45	obl:mod	_	AlignBegin=252472|AlignEnd=252648|Gloss=ACC.PL.3
 49	for	for	ADP	_	_	51	case	_	AlignBegin=252648|AlignEnd=252770|Gloss=for
-50	dat	dat	DET	_	Number=Sing|PronType=Dem	51	det	_	AlignBegin=252770|AlignEnd=253070|Gloss=SG.DEM
+50	dat	dat	DET	_	Number=Sing	51	det	_	AlignBegin=252770|AlignEnd=253070|Gloss=SG.DEM
 51	area	area	NOUN	_	_	41	obl:mod	_	AlignBegin=253070|AlignEnd=253550|Gloss=area
 52	}	}	X	_	_	31	dep	_	AlignBegin=253550|AlignEnd=253580|Gloss=PUNCT
 53	]	]	X	_	_	25	dep	_	AlignBegin=253550|AlignEnd=253580|Gloss=PUNCT
@@ -1077,7 +1078,7 @@
 8	sey	sey	SCONJ	_	_	14	mark	_	AlignBegin=255357|AlignEnd=255480|Gloss=COMP
 9	[	[	X	_	_	14	dep	_	AlignBegin=255480|AlignEnd=255510|Gloss=PUNCT
 10	na	na	AUX	_	PartType=Cop	14	cop	_	AlignBegin=255510|AlignEnd=255680|Gloss=be
-11	for	for	ADP	_	_	14	case	_	AlignBegin=255680|AlignEnd=255830|ExtPos=ADP|Gloss=for|PhraseType=Idiom
+11	for	for	ADP	_	_	14	case	_	AlignBegin=255680|AlignEnd=255830|ExtPos=ADP|Gloss=for|Idiom=Yes
 12	inside	inside	ADP	_	_	11	fixed	_	AlignBegin=255830|AlignEnd=256357|Gloss=inside|InIdiom=Yes
 13	parliament	parliament	NOUN	_	_	14	compound	_	AlignBegin=256357|AlignEnd=256987|Gloss=parliament
 14	building	building	NOUN	_	_	7	ccomp	_	AlignBegin=256987|AlignEnd=257420|Gloss=building
@@ -1123,7 +1124,7 @@
 30	dey	dey	AUX	_	Aspect=Imp	31	aux	_	AlignBegin=265152|AlignEnd=265251|Gloss=IPFV
 31	happen	happen	VERB	_	_	28	acl:relcl	_	AlignBegin=265251|AlignEnd=265470|Gloss=happen
 32	for	for	ADP	_	_	34	case	_	AlignBegin=265470|AlignEnd=265610|Gloss=for
-33	dat	dat	DET	_	Number=Sing|PronType=Dem	34	det	_	AlignBegin=265610|AlignEnd=265842|Gloss=SG.DEM
+33	dat	dat	DET	_	Number=Sing	34	det	_	AlignBegin=265610|AlignEnd=265842|Gloss=SG.DEM
 34	area	area	NOUN	_	_	31	obl:arg	_	AlignBegin=265842|AlignEnd=266210|Gloss=area
 35	#	#	X	_	_	23	dep	_	AlignBegin=266240|AlignEnd=266700|Gloss=PUNCT
 36	(	(	X	_	_	39	dep	_	AlignBegin=266240|AlignEnd=266700|Gloss=PUNCT
@@ -1131,7 +1132,7 @@
 38	suicide	suicide	NOUN	_	_	39	compound	_	AlignBegin=266970|AlignEnd=267770|Gloss=suicide
 39	bomber	bomber	NOUN	_	_	34	parataxis:parenth	_	AlignBegin=267770|AlignEnd=268250|Gloss=bomber
 40	>	>	X	_	_	44	dep	_	AlignBegin=268250|AlignEnd=268280|Gloss=PUNCT
-41	according	accord	VERB	_	Tense=Pres|VerbForm=Part	44	case	_	AlignBegin=268280|AlignEnd=268540|ExtPos=ADP|Gloss=accord.PRS.PTCP|PhraseType=Idiom
+41	according	accord	VERB	_	Tense=Pres|VerbForm=Part	44	case	_	AlignBegin=268280|AlignEnd=268540|ExtPos=ADP|Gloss=accord.PRS.PTCP|Idiom=Yes
 42	to	to	ADP	_	_	41	fixed	_	AlignBegin=268540|AlignEnd=268628|Gloss=to|InIdiom=Yes
 43	di	di	DET	_	Definite=Def|PronType=Art	44	det	_	AlignBegin=268628|AlignEnd=268770|Gloss=DEF.ART
 44	report	report	NOUN	_	_	39	discourse	_	AlignBegin=268770|AlignEnd=269148|Gloss=report
@@ -1178,7 +1179,7 @@
 17	attack	attack	NOUN	_	_	13	obj	_	AlignBegin=276859|AlignEnd=277310|Gloss=attack
 18	wey	wey	SCONJ	_	_	19	mark	_	AlignBegin=277310|AlignEnd=277402|Gloss=REL
 19	suppose	suppose	VERB	_	_	17	acl:relcl	_	AlignBegin=277402|AlignEnd=277760|Gloss=suppose
-20	happen	happen	VERB	_	_	19	ccomp	_	AlignBegin=277760|AlignEnd=278210|Gloss=happen
+20	happen	happen	VERB	_	_	19	xcomp	_	AlignBegin=277760|AlignEnd=278210|Gloss=happen
 21	]	]	X	_	_	13	dep	_	AlignBegin=278210|AlignEnd=278240|Gloss=PUNCT
 22	//	//	X	_	_	7	dep	_	AlignBegin=278210|AlignEnd=278240|Gloss=PUNCT
 
@@ -1189,14 +1190,14 @@
 # text_en = The Islamic State Group has claimed that they carried out the attack
 # text_ortho = Islamic State Group don come outside dey claim sey de don carry out di attack o.
 1	#	#	X	_	_	6	dep	_	AlignBegin=278240|AlignEnd=278620|Gloss=PUNCT
-2	Islamic	Islamic	ADJ	_	_	6	nsubj	_	AlignBegin=278620|AlignEnd=279220|ExtPos=PROPN|Gloss=Islamic|PhraseType=Title
+2	Islamic	Islamic	ADJ	_	_	6	nsubj	_	AlignBegin=278620|AlignEnd=279220|ExtPos=PROPN|Gloss=Islamic|Title=Yes
 3	State	state	NOUN	_	_	2	flat	_	AlignBegin=279220|AlignEnd=279641|Gloss=state|InTitle=Yes
 4	Group	group	NOUN	_	_	2	flat	_	AlignBegin=279641|AlignEnd=280017|Gloss=group|InTitle=Yes
 5	don	don	AUX	_	Aspect=Perf	6	aux	_	AlignBegin=280017|AlignEnd=280232|Gloss=PRF
 6	come	come	VERB	_	_	0	root	_	AlignBegin=280232|AlignEnd=280410|Gloss=come
 7	outside	outside	ADP	_	_	6	compound:prt	_	AlignBegin=280410|AlignEnd=280730|Gloss=outside
 8	dey	dey	AUX	_	Aspect=Imp	9	aux	_	AlignBegin=280730|AlignEnd=280950|Gloss=IPFV
-9	claim	claim	VERB	_	_	6	ccomp	_	AlignBegin=280950|AlignEnd=281312|Gloss=claim
+9	claim	claim	VERB	_	_	6	compound:svc	_	AlignBegin=280950|AlignEnd=281312|Gloss=claim
 10	sey	sey	SCONJ	_	_	14	mark	_	AlignBegin=281312|AlignEnd=281421|Gloss=COMP
 11	[	[	X	_	_	14	dep	_	AlignBegin=281421|AlignEnd=281451|Gloss=PUNCT
 12	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	14	nsubj	_	AlignBegin=281451|AlignEnd=281597|Gloss=NOM.PL.3
@@ -1247,7 +1248,7 @@
 # text_ortho = Alright for inside entertainment gist, country star Senyatuwe, na im go play now live inside UK.
 1	#	#	X	_	_	14	dep	_	AlignBegin=288327|AlignEnd=289040|Gloss=PUNCT
 2	alright	alright	ADV	_	_	14	discourse	_	AlignBegin=289040|AlignEnd=289753|Gloss=alright
-3	for	for	ADP	_	_	6	case	_	AlignBegin=289753|AlignEnd=289966|ExtPos=ADP|Gloss=for|PhraseType=Idiom
+3	for	for	ADP	_	_	6	case	_	AlignBegin=289753|AlignEnd=289966|ExtPos=ADP|Gloss=for|Idiom=Yes
 4	inside	inside	ADP	_	_	3	fixed	_	AlignBegin=289966|AlignEnd=290400|Gloss=inside|InIdiom=Yes
 5	entertainment	entertainment	NOUN	_	_	6	compound	_	AlignBegin=290400|AlignEnd=291470|Gloss=entertainment
 6	gist	gist	NOUN	_	_	14	obl:mod	_	AlignBegin=291470|AlignEnd=291975|Gloss=gist
@@ -1284,7 +1285,7 @@
 8	years	year	NOUN	_	Number=Plur	5	nmod	_	AlignBegin=299543|AlignEnd=299890|Gloss=year.PL
 9	<	<	X	_	_	5	dep	_	AlignBegin=299890|AlignEnd=299920|Gloss=PUNCT
 10	#	#	X	_	_	5	dep	_	AlignBegin=299920|AlignEnd=300220|Gloss=PUNCT
-11	on	on	ADP	_	_	17	case	_	AlignBegin=300220|AlignEnd=300360|ExtPos=ADP|Gloss=on|PhraseType=Idiom
+11	on	on	ADP	_	_	17	case	_	AlignBegin=300220|AlignEnd=300360|ExtPos=ADP|Gloss=on|Idiom=Yes
 12	top	top	NOUN	_	_	11	fixed	_	AlignBegin=300360|AlignEnd=300470|Gloss=top|InIdiom=Yes
 13	of	of	ADP	_	_	11	fixed	_	AlignBegin=300470|AlignEnd=300680|Gloss=of|InIdiom=Yes
 14	BBC	BBC	PROPN	_	_	17	compound	_	AlignBegin=300680|AlignEnd=301419|Gloss=BBC
@@ -1296,7 +1297,7 @@
 20	day	day	NOUN	_	_	17	nmod	_	AlignBegin=303332|AlignEnd=303720|Gloss=day
 21	#	#	X	_	_	23	dep	_	AlignBegin=303720|AlignEnd=304060|Gloss=PUNCT
 22	inside	inside	ADP	_	_	23	case	_	AlignBegin=304060|AlignEnd=304660|Gloss=inside
-23	Hyde	Hyde	PROPN	_	_	17	nmod	_	AlignBegin=304660|AlignEnd=305072|ExtPos=PROPN|Gloss=Hyde|PhraseType=Title
+23	Hyde	Hyde	PROPN	_	_	17	nmod	_	AlignBegin=304660|AlignEnd=305072|ExtPos=PROPN|Gloss=Hyde|Title=Yes
 24	Park	park	NOUN	_	_	23	flat	_	AlignBegin=305072|AlignEnd=305511|Gloss=park|InTitle=Yes
 25	<	<	X	_	_	17	dep	_	AlignBegin=305511|AlignEnd=305541|Gloss=PUNCT
 26	#	#	X	_	_	17	dep	_	AlignBegin=305541|AlignEnd=305940|Gloss=PUNCT
@@ -1350,7 +1351,7 @@
 6	say	say	VERB	_	_	0	root	_	AlignBegin=314101|AlignEnd=314329|Gloss=say
 7	[	[	X	_	_	9	dep	_	AlignBegin=314329|AlignEnd=314359|Gloss=PUNCT
 8	na	na	AUX	_	PartType=Cop	9	cop	_	AlignBegin=314359|AlignEnd=314550|Gloss=be
-9	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	6	ccomp	_	AlignBegin=314550|AlignEnd=314690|Gloss=NOM.SG.3
+9	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	6	parataxis	_	AlignBegin=314550|AlignEnd=314690|Gloss=NOM.SG.3
 10	>+	>+	X	_	_	12	dep	_	AlignBegin=314690|AlignEnd=314720|Gloss=PUNCT
 11	go	go	AUX	_	Aspect=Prosp	12	aux	_	AlignBegin=314720|AlignEnd=314840|Gloss=PROSP
 12	become	become	VERB	_	_	9	advcl:cleft	_	AlignBegin=314840|AlignEnd=315217|Gloss=become
@@ -1413,7 +1414,7 @@
 26	come	come	VERB	_	_	0	root	_	AlignBegin=331240|AlignEnd=331430|Gloss=come
 27	outside	outside	ADP	_	_	26	compound:prt	_	AlignBegin=331430|AlignEnd=331730|Gloss=outside
 28	dey	dey	AUX	_	Aspect=Imp	29	aux	_	AlignBegin=331730|AlignEnd=331885|Gloss=IPFV
-29	turn	turn	VERB	_	_	26	ccomp	_	AlignBegin=331885|AlignEnd=332080|Gloss=turn
+29	turn	turn	VERB	_	_	26	compound:svc	_	AlignBegin=331885|AlignEnd=332080|Gloss=turn
 30	up	up	ADP	_	_	29	compound:prt	_	AlignBegin=332080|AlignEnd=332319|Gloss=up
 31	say	say	VERB	_	_	29	compound:svc	_	AlignBegin=332319|AlignEnd=332580|Gloss=say
 32	#	#	X	_	_	36	dep	_	AlignBegin=332580|AlignEnd=332820|Gloss=PUNCT
@@ -1423,7 +1424,7 @@
 36	begin	begin	VERB	_	_	31	parataxis	_	AlignBegin=333160|AlignEnd=333480|Gloss=begin
 37	to	to	ADP	_	_	39	mark	_	AlignBegin=333480|AlignEnd=333600|Gloss=to
 38	dey	dey	AUX	_	Aspect=Imp	39	aux	_	AlignBegin=333600|AlignEnd=333850|Gloss=IPFV
-39	add	add	VERB	_	_	36	ccomp	_	AlignBegin=333850|AlignEnd=334081|Gloss=add
+39	add	add	VERB	_	_	36	xcomp	_	AlignBegin=333850|AlignEnd=334081|Gloss=add
 40	now	now	ADV	_	_	39	advmod	_	AlignBegin=334081|AlignEnd=334240|Gloss=now
 41	{	{	X	_	_	43	dep	_	AlignBegin=334240|AlignEnd=334270|Gloss=PUNCT
 42	more	more	ADJ	_	Degree=Cmp	43	amod	_	AlignBegin=334270|AlignEnd=334510|Gloss=CMPR
@@ -1448,18 +1449,18 @@
 # text_ortho = Of all dis one wey wan happen ahead of deir all international African Cup of Nations qualifier clash against we Nigeria, di before, before Kaiser Chiefs, and SuperSport United coach, e yarn sey South Africa, de don dey ready now like puma wey wan just carry imself say e wan enter labour ward go born pikin.
 1	#	#	X	_	_	44	dep	_	AlignBegin=336541|AlignEnd=336880|Gloss=PUNCT
 2	of	of	ADP	_	_	5	case	_	AlignBegin=336880|AlignEnd=337249|Gloss=of
-3	all	all	DET	_	_	5	dep	_	AlignBegin=337249|AlignEnd=337790|Gloss=all
+3	all	all	DET	_	_	5	det	_	AlignBegin=337249|AlignEnd=337790|Gloss=all
 4	dis	dis	DET	_	Number=Sing|PronType=Dem	5	det	_	AlignBegin=337790|AlignEnd=338010|Gloss=SG.DEM
 5	one	one	NOUN	_	_	44	dislocated	_	AlignBegin=338010|AlignEnd=338120|Gloss=one
 6	wey	wey	SCONJ	_	_	7	mark	_	AlignBegin=338120|AlignEnd=338230|Gloss=REL
 7	wan	want	VERB	_	_	5	acl:relcl	_	AlignBegin=338230|AlignEnd=338340|Gloss=want
-8	happen	happen	VERB	_	_	7	ccomp	_	AlignBegin=338340|AlignEnd=338680|Gloss=happen
+8	happen	happen	VERB	_	_	7	xcomp	_	AlignBegin=338340|AlignEnd=338680|Gloss=happen
 9	ahead	ahead	ADV	_	_	8	advmod	_	AlignBegin=338680|AlignEnd=339200|Gloss=ahead
 10	of	of	ADP	_	_	19	case	_	AlignBegin=339200|AlignEnd=339531|Gloss=of
 11	deir	dem	PRON	_	Number=Plur|Person=3|Poss=Yes	19	nmod:poss	_	AlignBegin=339531|AlignEnd=339820|Gloss=PL.3.POSS
-12	all	all	DET	_	_	13	dep	_	AlignBegin=339820|AlignEnd=340235|Gloss=all
+12	all	all	DET	_	_	14	det	_	AlignBegin=339820|AlignEnd=340235|Gloss=all
 13	international	international	ADJ	_	_	14	amod	_	AlignBegin=340235|AlignEnd=341050|Gloss=international
-14	African	African	ADJ	_	_	19	nmod	_	AlignBegin=341050|AlignEnd=341650|ExtPos=PROPN|Gloss=African|PhraseType=Title
+14	African	African	ADJ	_	_	19	nmod	_	AlignBegin=341050|AlignEnd=341650|ExtPos=PROPN|Gloss=African|Title=Yes
 15	Cup	cup	NOUN	_	_	14	flat	_	AlignBegin=341650|AlignEnd=341820|Gloss=cup|InTitle=Yes
 16	of	of	ADP	_	_	14	flat	_	AlignBegin=341820|AlignEnd=341985|Gloss=of|InTitle=Yes
 17	Nations	nation	NOUN	_	Number=Plur	14	flat	_	AlignBegin=341985|AlignEnd=342460|Gloss=nation.PL|InTitle=Yes
@@ -1478,11 +1479,11 @@
 30	before	before	ADP	_	_	28	compound:redup	_	AlignBegin=345970|AlignEnd=346280|Gloss=before
 31	}	}	X	_	_	28	dep	_	AlignBegin=346280|AlignEnd=346310|Gloss=PUNCT
 32	{	{	X	_	_	33	dep	_	AlignBegin=346280|AlignEnd=346310|Gloss=PUNCT
-33	Kaiser	kind	PROPN	_	_	40	nmod	_	AlignBegin=346310|AlignEnd=346810|ExtPos=PROPN|Gloss=Kaiser|PhraseType=Title
+33	Kaiser	kind	PROPN	_	_	40	nmod	_	AlignBegin=346310|AlignEnd=346810|ExtPos=PROPN|Gloss=Kaiser|Title=Yes
 34	Chiefs	chief	NOUN	_	Number=Plur	33	flat	_	AlignBegin=346810|AlignEnd=347186|Gloss=chief.PL|InTitle=Yes
 35	|c	|c	X	_	_	37	dep	_	AlignBegin=347186|AlignEnd=347350|Gloss=PUNCT
 36	and	and	CCONJ	_	_	37	cc	_	AlignBegin=347186|AlignEnd=347350|Gloss=and
-37	SuperSport	SuperSport	PROPN	_	_	33	conj	_	AlignBegin=347350|AlignEnd=348110|ExtPos=PROPN|Gloss=SuperSport|PhraseType=Title
+37	SuperSport	SuperSport	PROPN	_	_	33	conj	_	AlignBegin=347350|AlignEnd=348110|ExtPos=PROPN|Gloss=SuperSport|Title=Yes
 38	United	United	ADJ	_	_	37	flat	_	AlignBegin=348110|AlignEnd=348688|Gloss=United|InTitle=Yes
 39	}	}	X	_	_	33	dep	_	AlignBegin=348688|AlignEnd=348965|Gloss=PUNCT
 40	coach	coach	NOUN	_	_	44	dislocated	_	AlignBegin=348688|AlignEnd=348965|Gloss=coach
@@ -1492,7 +1493,7 @@
 44	yarn	yarn	VERB	_	_	0	root	_	AlignBegin=349476|AlignEnd=349810|Gloss=talk
 45	sey	sey	SCONJ	_	_	53	mark	_	AlignBegin=349810|AlignEnd=350008|Gloss=COMP
 46	[	[	X	_	_	53	dep	_	AlignBegin=350008|AlignEnd=350038|Gloss=PUNCT
-47	South	South	PROPN	_	_	53	dislocated	_	AlignBegin=350038|AlignEnd=350470|ExtPos=PROPN|Gloss=South|PhraseType=Title
+47	South	South	PROPN	_	_	53	dislocated	_	AlignBegin=350038|AlignEnd=350470|ExtPos=PROPN|Gloss=South|Title=Yes
 48	Africa	Africa	PROPN	_	_	47	flat	_	AlignBegin=350470|AlignEnd=351310|Gloss=Africa|InTitle=Yes
 49	<	<	X	_	_	47	dep	_	AlignBegin=351310|AlignEnd=351340|Gloss=PUNCT
 50	#	#	X	_	_	47	dep	_	AlignBegin=351340|AlignEnd=351700|Gloss=PUNCT
@@ -1506,13 +1507,13 @@
 58	wey	wey	SCONJ	_	_	59	mark	_	AlignBegin=353740|AlignEnd=353823|Gloss=REL
 59	wan	want	VERB	_	_	57	acl:relcl	_	AlignBegin=353823|AlignEnd=353950|Gloss=want
 60	just	just	ADV	_	_	61	advmod	_	AlignBegin=353950|AlignEnd=354198|Gloss=just
-61	carry	carry	VERB	_	_	59	ccomp	_	AlignBegin=354198|AlignEnd=354540|Gloss=carry
+61	carry	carry	VERB	_	_	59	xcomp	_	AlignBegin=354198|AlignEnd=354540|Gloss=carry
 62	imself	imsef	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	61	obj	_	AlignBegin=354540|AlignEnd=354925|Gloss=ACC.M.SG.3.REFL
 63	say	say	VERB	_	_	61	compound:svc	_	AlignBegin=354925|AlignEnd=355070|Gloss=say
 64	[	[	X	_	_	66	dep	_	AlignBegin=355070|AlignEnd=355100|Gloss=PUNCT
 65	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	66	nsubj	_	AlignBegin=355100|AlignEnd=355270|Gloss=NOM.SG.3
 66	wan	want	VERB	_	_	63	parataxis	_	AlignBegin=355270|AlignEnd=355460|Gloss=want
-67	enter	enter	VERB	_	_	66	ccomp	_	AlignBegin=355460|AlignEnd=355720|Gloss=enter
+67	enter	enter	VERB	_	_	66	xcomp	_	AlignBegin=355460|AlignEnd=355720|Gloss=enter
 68	labour	labour	NOUN	_	_	69	compound	_	AlignBegin=355720|AlignEnd=355970|Gloss=labour
 69	ward	ward	NOUN	_	_	67	obj	_	AlignBegin=355970|AlignEnd=356190|Gloss=ward
 70	go	go	VERB	_	_	67	compound:svc	_	AlignBegin=356190|AlignEnd=356350|Gloss=go
@@ -1528,28 +1529,28 @@
 # text = # sey dis deir travel to Nigeria so < # no be to just come to come make up numbers o //
 # text_en = He said their trip to Nigeria is not goint to be a waste.
 # text_ortho = Sey dis deir travel to Nigeria so, no be to just come to come make up numbers o.
-1	#	#	X	_	_	15	dep	_	AlignBegin=357100|AlignEnd=357440|Gloss=PUNCT
-2	sey	sey	SCONJ	_	_	15	discourse	_	AlignBegin=357440|AlignEnd=357570|Gloss=COMP
+1	#	#	X	_	_	12	dep	_	AlignBegin=357100|AlignEnd=357440|Gloss=PUNCT
+2	sey	sey	SCONJ	_	_	12	discourse	_	AlignBegin=357440|AlignEnd=357570|Gloss=COMP
 3	dis	dis	DET	_	Number=Sing|PronType=Dem	5	det	_	AlignBegin=357570|AlignEnd=357826|Gloss=SG.DEM
 4	deir	dem	PRON	_	Number=Plur|Person=3|Poss=Yes	5	nmod:poss	_	AlignBegin=357826|AlignEnd=358031|Gloss=PL.3.POSS
-5	travel	travel	NOUN	_	_	15	nsubj	_	AlignBegin=358031|AlignEnd=358424|Gloss=travel
+5	travel	travel	NOUN	_	_	12	nsubj	_	AlignBegin=358031|AlignEnd=358424|Gloss=travel
 6	to	to	ADP	_	_	7	case	_	AlignBegin=358424|AlignEnd=358560|Gloss=to
 7	Nigeria	Nigeria	PROPN	_	_	5	nmod	_	AlignBegin=358560|AlignEnd=359100|Gloss=Nigeria
 8	so	so	ADV	_	_	7	advmod	_	AlignBegin=359100|AlignEnd=359430|Gloss=so
 9	<	<	X	_	_	5	dep	_	AlignBegin=359430|AlignEnd=359460|Gloss=PUNCT
 10	#	#	X	_	_	5	dep	_	AlignBegin=359460|AlignEnd=359680|Gloss=PUNCT
-11	no	no	AUX	_	Polarity=Neg	15	aux	_	AlignBegin=359680|AlignEnd=359860|Gloss=NEG
-12	be	be	AUX	_	PartType=Cop	15	cop	_	AlignBegin=359860|AlignEnd=360016|Gloss=be
+11	no	no	AUX	_	Polarity=Neg	12	aux	_	AlignBegin=359680|AlignEnd=359860|Gloss=NEG
+12	be	be	VERB	_	PartType=Cop	0	root	_	AlignBegin=359860|AlignEnd=360016|Gloss=be
 13	to	to	ADP	_	_	15	mark	_	AlignBegin=360016|AlignEnd=360144|Gloss=to
 14	just	just	ADV	_	_	15	advmod	_	AlignBegin=360144|AlignEnd=360329|Gloss=just
-15	come	come	VERB	_	_	0	root	_	AlignBegin=360329|AlignEnd=360584|Gloss=come
+15	come	come	VERB	_	_	12	advcl	_	AlignBegin=360329|AlignEnd=360584|Gloss=come
 16	to	to	ADP	_	_	18	mark	_	AlignBegin=360584|AlignEnd=360706|Gloss=to
 17	come	con	AUX	_	Aspect=Cons	18	aux	_	AlignBegin=360706|AlignEnd=360890|Gloss=CONS
-18	make	make	VERB	_	_	15	ccomp	_	AlignBegin=360890|AlignEnd=361070|Gloss=make
+18	make	make	VERB	_	_	15	advcl	_	AlignBegin=360890|AlignEnd=361070|Gloss=make
 19	up	up	ADP	_	_	18	compound:prt	_	AlignBegin=361070|AlignEnd=361200|Gloss=up
 20	numbers	number	NOUN	_	Number=Plur	18	obj	_	AlignBegin=361200|AlignEnd=361710|Gloss=number.PL
-21	o	o	PART	_	PartType=Disc	15	advmod	_	AlignBegin=361710|AlignEnd=361810|Gloss=EMPH
-22	//	//	X	_	_	15	dep	_	AlignBegin=361810|AlignEnd=361840|Gloss=PUNCT
+21	o	o	PART	_	PartType=Disc	12	advmod	_	AlignBegin=361710|AlignEnd=361810|Gloss=EMPH
+22	//	//	X	_	_	12	dep	_	AlignBegin=361810|AlignEnd=361840|Gloss=PUNCT
 
 # sent_id = WAZA_09_Tv-News_MG__39
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/WAZA_09_Tv-News_MG.mp3
@@ -1596,10 +1597,10 @@
 14	to	to	ADP	_	_	15	mark	_	AlignBegin=366100|AlignEnd=366200|Gloss=to
 15	face	face	VERB	_	_	12	advcl	_	AlignBegin=366200|AlignEnd=366490|Gloss=face
 16	di	di	DET	_	Definite=Def|PronType=Art	17	det	_	AlignBegin=366490|AlignEnd=366600|Gloss=DEF.ART
-17	Super	super	ADJ	_	_	15	obj	_	AlignBegin=366600|AlignEnd=367050|ExtPos=PROPN|Gloss=super|PhraseType=Title
+17	Super	super	ADJ	_	_	15	obj	_	AlignBegin=366600|AlignEnd=367050|ExtPos=PROPN|Gloss=super|Title=Yes
 18	Eagles	eagle	NOUN	_	Number=Plur	17	flat	_	AlignBegin=367050|AlignEnd=367400|Gloss=eagle.PL|InTitle=Yes
 19	#	#	X	_	_	23	dep	_	AlignBegin=367400|AlignEnd=367720|Gloss=PUNCT
-20	on	on	ADP	_	_	23	case	_	AlignBegin=367720|AlignEnd=367860|ExtPos=ADP|Gloss=on|PhraseType=Idiom
+20	on	on	ADP	_	_	23	case	_	AlignBegin=367720|AlignEnd=367860|ExtPos=ADP|Gloss=on|Idiom=Yes
 21	top	top	NOUN	_	_	20	fixed	_	AlignBegin=367860|AlignEnd=368110|Gloss=top|InIdiom=Yes
 22	of	of	ADP	_	_	20	fixed	_	AlignBegin=368110|AlignEnd=368272|Gloss=of|InIdiom=Yes
 23	Saturday	Saturday	PROPN	_	_	15	obl:mod	_	AlignBegin=368272|AlignEnd=368940|Gloss=Saturday
@@ -1608,7 +1609,7 @@
 26	#	#	X	_	_	29	dep	_	AlignBegin=369780|AlignEnd=370032|Gloss=PUNCT
 27	for	for	ADP	_	_	29	case	_	AlignBegin=370032|AlignEnd=370186|Gloss=for
 28	di	di	DET	_	Definite=Def|PronType=Art	29	det	_	AlignBegin=370186|AlignEnd=370270|Gloss=DEF.ART
-29	Godswill	Godswill	PROPN	_	_	15	obl:arg	_	AlignBegin=370270|AlignEnd=370858|ExtPos=PROPN|Gloss=Godswill|PhraseType=Title
+29	Godswill	Godswill	PROPN	_	_	15	obl:arg	_	AlignBegin=370270|AlignEnd=370858|ExtPos=PROPN|Gloss=Godswill|Title=Yes
 30	Akpabio	Akpabio	PROPN	_	_	29	flat	_	AlignBegin=370858|AlignEnd=371490|Gloss=Akpabio|InTitle=Yes
 31	International	international	ADJ	_	_	29	flat	_	AlignBegin=371490|AlignEnd=372330|Gloss=international|InTitle=Yes
 32	Stadium	stadium	NOUN	_	_	29	flat	_	AlignBegin=372330|AlignEnd=373073|Gloss=stadium|InTitle=Yes
@@ -1641,9 +1642,9 @@
 # text_ortho = For all of una wey dey look una eyes dey see us for here, make una still get better, better day!
 1	#	#	X	_	_	21	dep	_	AlignBegin=377940|AlignEnd=378216|Gloss=PUNCT
 2	for	for	ADP	_	_	3	case	_	AlignBegin=378216|AlignEnd=378490|Gloss=for
-3	all	all	DET	_	_	21	dep	_	AlignBegin=378490|AlignEnd=378700|Gloss=all
+3	all	all	PRON	_	_	21	obl:mod	_	AlignBegin=378490|AlignEnd=378700|Gloss=all
 4	of	of	ADP	_	_	5	case	_	AlignBegin=378700|AlignEnd=378880|Gloss=of
-5	una	una	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	3	dep	_	AlignBegin=378880|AlignEnd=378990|Gloss=NOM.PL.2
+5	una	una	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	3	nmod	_	AlignBegin=378880|AlignEnd=378990|Gloss=NOM.PL.2
 6	wey	wey	SCONJ	_	_	8	mark	_	AlignBegin=378990|AlignEnd=379050|Gloss=REL
 7	dey	dey	AUX	_	Aspect=Imp	8	aux	_	AlignBegin=379050|AlignEnd=379180|Gloss=IPFV
 8	look	look	VERB	_	_	5	acl:relcl	_	AlignBegin=379180|AlignEnd=379330|Gloss=look

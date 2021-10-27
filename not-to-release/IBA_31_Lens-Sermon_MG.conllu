@@ -1,4 +1,5 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = IBA_31_Lens-Sermon_MG__1
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/IBA_31_Lens-Sermon_MG.mp3
 # speaker_id = Sp422
@@ -61,7 +62,7 @@
 8	#	#	X	_	_	19	dep	_	AlignBegin=12233|AlignEnd=12393|Gloss=PUNCT
 9	as	as	ADP	_	_	11	mark	_	AlignBegin=12393|AlignEnd=12540|Gloss=as
 10	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	11	nsubj	_	AlignBegin=12540|AlignEnd=12610|Gloss=NOM.PL.1
-11	talk	talk	VERB	_	_	19	advcl:tempo	_	AlignBegin=12610|AlignEnd=12910|Gloss=talk
+11	talk	talk	VERB	_	_	19	advcl	_	AlignBegin=12610|AlignEnd=12910|Gloss=talk
 12	for	for	ADP	_	_	11	iobj	_	AlignBegin=12910|AlignEnd=13050|Gloss=for
 13	Ash	ash	NOUN	_	_	14	compound	_	AlignBegin=13050|AlignEnd=13290|Gloss=ash
 14	Wednesday	Wednesday	PROPN	_	_	12	iobj	_	AlignBegin=13290|AlignEnd=13790|Gloss=Wednesday
@@ -203,9 +204,9 @@
 8	ashes	ash	NOUN	_	Number=Plur	6	obj	_	AlignBegin=42690|AlignEnd=43070|Gloss=ash.PL
 9	for	for	ADP	_	_	10	case	_	AlignBegin=43070|AlignEnd=43230|Gloss=for
 10	forehead	forehead	NOUN	_	_	6	obl:arg	_	AlignBegin=43230|AlignEnd=43640|Gloss=forehead
-11	begin	begin	VERB	_	_	6	conj	_	AlignBegin=43640|AlignEnd=44060|Gloss=begin
+11	begin	begin	VERB	_	_	6	compound:svc	_	AlignBegin=43640|AlignEnd=44060|Gloss=begin
 12	dey	dey	AUX	_	Aspect=Imp	13	aux	_	AlignBegin=44060|AlignEnd=44160|Gloss=IPFV
-13	fight	fight	VERB	_	_	11	ccomp	_	AlignBegin=44160|AlignEnd=44610|Gloss=fight
+13	fight	fight	VERB	_	_	11	xcomp	_	AlignBegin=44160|AlignEnd=44610|Gloss=fight
 14	//	//	X	_	_	6	dep	_	AlignBegin=44610|AlignEnd=44640|Gloss=PUNCT
 
 # sent_id = IBA_31_Lens-Sermon_MG__9
@@ -289,7 +290,7 @@
 6	<	<	X	_	_	4	dep	_	AlignBegin=59162|AlignEnd=59192|Gloss=PUNCT
 7	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	AlignBegin=59192|AlignEnd=59232|Gloss=NOM.SG.3
 8	go	go	VERB	_	_	0	root	_	AlignBegin=59232|AlignEnd=59452|Gloss=go
-9	desert	desert	NOUN	_	_	8	obj	_	AlignBegin=59452|AlignEnd=60095|Gloss=desert
+9	desert	desert	NOUN	_	_	8	iobj	_	AlignBegin=59452|AlignEnd=60095|Gloss=desert
 10	//	//	X	_	_	8	dep	_	AlignBegin=60095|AlignEnd=60125|Gloss=PUNCT
 
 # sent_id = IBA_31_Lens-Sermon_MG__12
@@ -332,7 +333,7 @@
 # text_en = That is to show us what Hebrews four fifteen told us.
 # text_ortho = Dat na to show us wetin Hebrew four fifteen tell us.
 1	#	#	X	_	_	5	dep	_	AlignBegin=65560|AlignEnd=66140|Gloss=PUNCT
-2	dat	dat	PRON	_	Number=Sing|PronType=Dem	5	nsubj	_	AlignBegin=66140|AlignEnd=66230|Gloss=SG.DEM
+2	dat	dat	PRON	_	Number=Sing	5	nsubj	_	AlignBegin=66140|AlignEnd=66230|Gloss=SG.DEM
 3	na	na	AUX	_	PartType=Cop	5	cop	_	AlignBegin=66230|AlignEnd=66380|Gloss=be
 4	to	to	ADP	_	_	5	mark	_	AlignBegin=66380|AlignEnd=66520|Gloss=to
 5	show	show	VERB	_	_	0	root	_	AlignBegin=66520|AlignEnd=66780|Gloss=show
@@ -410,9 +411,9 @@
 # text_en = All of us will face temptations.
 # text_ortho = All of us go face temptation.
 1	#	#	X	_	_	6	dep	_	AlignBegin=79683|AlignEnd=79860|Gloss=PUNCT
-2	all	all	DET	_	_	6	dep	_	AlignBegin=79860|AlignEnd=80010|Gloss=all
+2	all	all	PRON	_	_	6	nsubj	_	AlignBegin=79860|AlignEnd=80010|Gloss=all
 3	of	of	ADP	_	_	4	case	_	AlignBegin=80010|AlignEnd=80170|Gloss=of
-4	us	us	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	2	dep	_	AlignBegin=80170|AlignEnd=80350|Gloss=ACC.PL.1
+4	us	us	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	2	nmod	_	AlignBegin=80170|AlignEnd=80350|Gloss=ACC.PL.1
 5	go	go	AUX	_	Aspect=Prosp	6	aux	_	AlignBegin=80350|AlignEnd=80470|Gloss=PROSP
 6	face	face	VERB	_	_	0	root	_	AlignBegin=80470|AlignEnd=80690|Gloss=face
 7	temptation	temptation	NOUN	_	_	6	obj	_	AlignBegin=80690|AlignEnd=81370|Gloss=temptation
@@ -495,7 +496,7 @@
 8	whether	wheder	SCONJ	_	_	10	mark	_	AlignBegin=93879|AlignEnd=94203|Gloss=whether
 9	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	nsubj	_	AlignBegin=94203|AlignEnd=94300|Gloss=NOM.PL.1
 10	wan	want	VERB	_	_	4	advcl	_	AlignBegin=94300|AlignEnd=94510|Gloss=want
-11	use	use	VERB	_	_	10	ccomp	_	AlignBegin=94510|AlignEnd=94720|Gloss=use
+11	use	use	VERB	_	_	10	xcomp	_	AlignBegin=94510|AlignEnd=94720|Gloss=use
 12	di	di	DET	_	Definite=Def|PronType=Art	13	det	_	AlignBegin=94720|AlignEnd=94833|Gloss=DEF.ART
 13	power	power	NOUN	_	_	11	obj	_	AlignBegin=94833|AlignEnd=95249|Gloss=power
 14	|c	|c	X	_	_	19	dep	_	AlignBegin=95249|AlignEnd=95279|Gloss=PUNCT
@@ -504,7 +505,7 @@
 17	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	19	nsubj	_	AlignBegin=95680|AlignEnd=95790|Gloss=NOM.PL.1
 18	no	no	AUX	_	Polarity=Neg	19	aux	_	AlignBegin=95790|AlignEnd=95980|Gloss=NEG
 19	wan	want	VERB	_	_	10	conj	_	AlignBegin=95980|AlignEnd=96141|Gloss=want
-20	use	use	VERB	_	_	19	ccomp	_	AlignBegin=96141|AlignEnd=96360|Gloss=use
+20	use	use	VERB	_	_	19	xcomp	_	AlignBegin=96141|AlignEnd=96360|Gloss=use
 21	di	di	DET	_	Definite=Def|PronType=Art	22	det	_	AlignBegin=96360|AlignEnd=96456|Gloss=DEF.ART
 22	power	power	NOUN	_	_	20	obj	_	AlignBegin=96456|AlignEnd=96840|Gloss=power
 23	}	}	X	_	_	10	dep	_	AlignBegin=96840|AlignEnd=96870|Gloss=PUNCT
@@ -555,7 +556,7 @@
 4	us	us	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	3	iobj	_	AlignBegin=102810|AlignEnd=102990|Gloss=ACC.PL.1
 5	di	di	DET	_	Definite=Def|PronType=Art	6	det	_	AlignBegin=102990|AlignEnd=103077|Gloss=DEF.ART
 6	temptation	temptation	NOUN	_	_	3	obj	_	AlignBegin=103077|AlignEnd=103620|Gloss=temptation
-7	wey	wey	SCONJ	_	_	13	mark	_	AlignBegin=103620|AlignEnd=103738|ExtPos=SCONJ|Gloss=REL|PhraseType=Idiom
+7	wey	wey	SCONJ	_	_	13	mark	_	AlignBegin=103620|AlignEnd=103738|ExtPos=SCONJ|Gloss=REL|Idiom=Yes
 8	be	be	AUX	_	PartType=Cop	7	fixed	_	AlignBegin=103738|AlignEnd=103864|Gloss=be|InIdiom=Yes
 9	sey	sey	SCONJ	_	_	7	fixed	_	AlignBegin=103864|AlignEnd=104020|Gloss=COMP|InIdiom=Yes
 10	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	13	nsubj	_	AlignBegin=104020|AlignEnd=104090|Gloss=NOM.PL.1
@@ -650,7 +651,7 @@
 # text_ortho = If you look ehm, if...
 1	#	#	X	_	_	5	dep	_	AlignBegin=116519|AlignEnd=117260|Gloss=PUNCT
 2	{	{	X	_	_	5	dep	_	AlignBegin=116519|AlignEnd=117260|Gloss=PUNCT
-3	if	if	SCONJ	_	_	5	mark	_	AlignBegin=117260|AlignEnd=117435|Gloss=if
+3	if	if	SCONJ	_	_	5	mark	_	AlignBegin=117260|AlignEnd=117435|Gloss=if|Scrap=Yes
 4	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	AlignBegin=117435|AlignEnd=117540|Gloss=NOM.2
 5	look	look	VERB	_	_	0	root	_	AlignBegin=117540|AlignEnd=117820|Gloss=look
 6	ehm	ehm	INTJ	_	_	5	discourse	_	AlignBegin=117850|AlignEnd=118097|Gloss=ehm
@@ -666,12 +667,12 @@
 # text_en = When Satan tempted her, Satan told her that if you pick the fruit, that the fruit will be sweet.
 # text_ortho = When Satan tempt her, Satan tell am sey if you pluck di fruit, sey di fruit go sweet.
 1	#	#	X	_	_	9	dep	_	AlignBegin=118500|AlignEnd=119220|Gloss=PUNCT
-2	when	when	SCONJ	_	PronType=Int	4	mark	_	AlignBegin=119220|AlignEnd=119400|Gloss=when.Q
+2	when	when	ADV	_	_	9	advmod	_	AlignBegin=119220|AlignEnd=119400|Gloss=when.Q
 3	Satan	Satan	PROPN	_	_	4	nsubj	_	AlignBegin=119400|AlignEnd=119860|Gloss=Satan
-4	tempt	tempt	VERB	_	_	9	advcl	_	AlignBegin=119860|AlignEnd=120200|Gloss=tempt
+4	tempt	tempt	VERB	_	_	2	ccomp	_	AlignBegin=119860|AlignEnd=120200|Gloss=tempt
 5	her	her	PRON	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes	4	obj	_	AlignBegin=120200|AlignEnd=120421|Gloss=F.SG.3.POSS
-6	<	<	X	_	_	4	dep	_	AlignBegin=120421|AlignEnd=120451|Gloss=PUNCT
-7	#	#	X	_	_	4	dep	_	AlignBegin=120451|AlignEnd=121080|Gloss=PUNCT
+6	<	<	X	_	_	2	dep	_	AlignBegin=120421|AlignEnd=120451|Gloss=PUNCT
+7	#	#	X	_	_	2	dep	_	AlignBegin=120451|AlignEnd=121080|Gloss=PUNCT
 8	Satan	Satan	PROPN	_	_	9	nsubj	_	AlignBegin=121080|AlignEnd=121490|Gloss=Satan
 9	tell	tell	VERB	_	_	0	root	_	AlignBegin=121490|AlignEnd=121700|Gloss=tell
 10	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	9	iobj	_	AlignBegin=121700|AlignEnd=121870|Gloss=ACC.SG.3
@@ -739,7 +740,7 @@
 3	wan	want	VERB	_	_	1	advcl:cleft	_	AlignBegin=130120|AlignEnd=130335|Gloss=want
 4	be	be	AUX	_	PartType=Cop	6	cop	_	AlignBegin=130335|AlignEnd=130480|Gloss=be
 5	like	like	ADP	_	_	6	case	_	AlignBegin=130480|AlignEnd=130710|Gloss=like
-6	God	God	PROPN	_	_	3	ccomp	_	AlignBegin=130710|AlignEnd=131050|Gloss=God
+6	God	God	PROPN	_	_	3	xcomp	_	AlignBegin=130710|AlignEnd=131050|Gloss=God
 7	?//	?//	X	_	_	1	dep	_	AlignBegin=131050|AlignEnd=131080|Gloss=PUNCT
 
 # sent_id = IBA_31_Lens-Sermon_MG__35
@@ -765,7 +766,7 @@
 # text_ortho = As e look am, e say, e say e sweet.
 1	as	as	ADP	_	_	3	mark	_	AlignBegin=133290|AlignEnd=133590|Gloss=as
 2	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	AlignBegin=133590|AlignEnd=133670|Gloss=NOM.SG.3
-3	look	look	VERB	_	_	8	advcl:tempo	_	AlignBegin=133670|AlignEnd=134060|Gloss=look
+3	look	look	VERB	_	_	8	advcl	_	AlignBegin=133670|AlignEnd=134060|Gloss=look
 4	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	3	obj	_	AlignBegin=134060|AlignEnd=134370|Gloss=ACC.SG.3
 5	<	<	X	_	_	3	dep	_	AlignBegin=134370|AlignEnd=134400|Gloss=PUNCT
 6	{	{	X	_	_	8	dep	_	AlignBegin=134370|AlignEnd=134400|Gloss=PUNCT
@@ -859,7 +860,7 @@
 11	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	12	nsubj	_	AlignBegin=146056|AlignEnd=146180|Gloss=NOM.2
 12	need	need	VERB	_	_	8	parataxis:conj	_	AlignBegin=146180|AlignEnd=146330|Gloss=need
 13	to	to	ADP	_	_	14	mark	_	AlignBegin=146330|AlignEnd=146450|Gloss=to
-14	turn	turn	VERB	_	_	12	ccomp	_	AlignBegin=146450|AlignEnd=146690|Gloss=turn
+14	turn	turn	VERB	_	_	12	xcomp	_	AlignBegin=146450|AlignEnd=146690|Gloss=turn
 15	stone	stone	NOUN	_	_	14	obj	_	AlignBegin=146690|AlignEnd=147010|Gloss=stone
 16	to	to	ADP	_	_	17	case	_	AlignBegin=147010|AlignEnd=147120|Gloss=to
 17	bread	bread	NOUN	_	_	14	obl:arg	_	AlignBegin=147120|AlignEnd=147410|Gloss=bread
@@ -882,7 +883,7 @@
 2	who	who	PRON	_	PronType=Int	0	root	_	AlignBegin=149040|AlignEnd=149100|Gloss=who.Q
 3	no	no	AUX	_	Polarity=Neg	4	aux	_	AlignBegin=149100|AlignEnd=149240|Gloss=NEG
 4	wan	want	VERB	_	_	2	advcl:cleft	_	AlignBegin=149240|AlignEnd=149490|Gloss=want
-5	chop	chop	VERB	_	_	4	ccomp	_	AlignBegin=149490|AlignEnd=149697|Gloss=eat
+5	chop	chop	VERB	_	_	4	xcomp	_	AlignBegin=149490|AlignEnd=149697|Gloss=eat
 6	food	food	NOUN	_	_	5	obj	_	AlignBegin=149697|AlignEnd=150098|Gloss=food
 7	?//	?//	X	_	_	2	dep	_	AlignBegin=150098|AlignEnd=150128|Gloss=PUNCT
 
@@ -1039,7 +1040,7 @@
 4	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	AlignBegin=169610|AlignEnd=169680|Gloss=NOM.PL.1
 5	go	go	VERB	_	_	0	root	_	AlignBegin=169680|AlignEnd=169874|Gloss=go
 6	di	di	DET	_	Definite=Def|PronType=Art	7	det	_	AlignBegin=169874|AlignEnd=170080|Gloss=DEF.ART
-7	issue	issue	NOUN	_	_	5	obj	_	AlignBegin=170080|AlignEnd=170240|Gloss=issue
+7	issue	issue	NOUN	_	_	5	iobj	_	AlignBegin=170080|AlignEnd=170240|Gloss=issue
 8	of	of	ADP	_	_	9	case	_	AlignBegin=170240|AlignEnd=170397|Gloss=of
 9	power	power	NOUN	_	_	7	nmod	_	AlignBegin=170397|AlignEnd=170791|Gloss=power
 10	//	//	X	_	_	5	dep	_	AlignBegin=170791|AlignEnd=170821|Gloss=PUNCT
@@ -1077,7 +1078,7 @@
 1	#	#	X	_	_	3	dep	_	AlignBegin=172812|AlignEnd=173483|Gloss=PUNCT
 2	husband	husband	NOUN	_	_	3	nsubj	_	AlignBegin=173483|AlignEnd=173930|Gloss=husband
 3	want	want	VERB	_	_	0	root	_	AlignBegin=173930|AlignEnd=174110|Gloss=want
-4	get	get	VERB	_	_	3	ccomp	_	AlignBegin=174110|AlignEnd=174330|Gloss=get
+4	get	get	VERB	_	_	3	xcomp	_	AlignBegin=174110|AlignEnd=174330|Gloss=get
 5	power	power	NOUN	_	_	4	obj:lvc	_	AlignBegin=174330|AlignEnd=174628|Gloss=power
 6	over	over	ADP	_	_	8	case	_	AlignBegin=174628|AlignEnd=174858|Gloss=over
 7	di	di	DET	_	Definite=Def|PronType=Art	8	det	_	AlignBegin=174858|AlignEnd=174970|Gloss=DEF.ART
@@ -1086,7 +1087,7 @@
 10	#	#	X	_	_	12	dep	_	AlignBegin=175420|AlignEnd=175760|Gloss=PUNCT
 11	wife	wife	NOUN	_	_	12	nsubj	_	AlignBegin=175760|AlignEnd=176020|Gloss=wife
 12	want	want	VERB	_	_	3	parataxis:conj	_	AlignBegin=176020|AlignEnd=176172|Gloss=want
-13	get	get	VERB	_	_	12	ccomp	_	AlignBegin=176172|AlignEnd=176320|Gloss=get
+13	get	get	VERB	_	_	12	xcomp	_	AlignBegin=176172|AlignEnd=176320|Gloss=get
 14	power	power	NOUN	_	_	13	obj:lvc	_	AlignBegin=176320|AlignEnd=176660|Gloss=power
 15	over	over	ADP	_	_	17	case	_	AlignBegin=176660|AlignEnd=176913|Gloss=over
 16	di	di	DET	_	Definite=Def|PronType=Art	17	det	_	AlignBegin=176913|AlignEnd=177060|Gloss=DEF.ART
@@ -1145,7 +1146,7 @@
 4	one	one	DET	_	Definite=Spec|PronType=Art	5	det	_	AlignBegin=183900|AlignEnd=184207|Gloss=SPEC.ART
 5	woman	woman	NOUN	_	_	0	root	_	AlignBegin=184207|AlignEnd=184570|Gloss=woman
 6	stab	stab	VERB	_	_	5	advcl:cleft	_	AlignBegin=184570|AlignEnd=184890|Gloss=stab
-7	her	her	PRON	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=PRS	8	nmod:poss	_	AlignBegin=184890|AlignEnd=185033|Gloss=F.SG.3.POSS
+7	her	her	PRON	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	AlignBegin=184890|AlignEnd=185033|Gloss=F.SG.3.POSS
 8	husband	husband	NOUN	_	_	6	obj	_	AlignBegin=185033|AlignEnd=185500|Gloss=husband
 9	di	di	DET	_	Definite=Def|PronType=Art	11	det	_	AlignBegin=185500|AlignEnd=185560|Gloss=DEF.ART
 10	oder	oder	ADJ	_	_	11	amod	_	AlignBegin=185560|AlignEnd=185780|Gloss=other
@@ -1265,7 +1266,7 @@
 15	jump	jump	VERB	_	_	10	advcl	_	AlignBegin=201810|AlignEnd=202060|Gloss=jump
 16	down	down	ADP	_	_	15	compound:prt	_	AlignBegin=202060|AlignEnd=202270|Gloss=down
 17	from	from	ADP	_	_	20	case	_	AlignBegin=202270|AlignEnd=202520|Gloss=from
-18	dat	dat	DET	_	Number=Sing|PronType=Dem	20	det	_	AlignBegin=202520|AlignEnd=202730|Gloss=SG.DEM
+18	dat	dat	DET	_	Number=Sing	20	det	_	AlignBegin=202520|AlignEnd=202730|Gloss=SG.DEM
 19	high	high	NOUN	_	_	20	compound	_	AlignBegin=202730|AlignEnd=202849|Gloss=high
 20	mountain	mountain	NOUN	_	_	15	obl:arg	_	AlignBegin=202849|AlignEnd=203390|Gloss=mountain
 21	]	]	X	_	_	10	dep	_	AlignBegin=203390|AlignEnd=203420|Gloss=PUNCT
@@ -1360,7 +1361,7 @@
 10	<	<	X	_	_	9	dep	_	AlignBegin=215710|AlignEnd=215740|Gloss=PUNCT
 11	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	12	nsubj	_	AlignBegin=215740|AlignEnd=215812|Gloss=NOM.2
 12	wan	want	VERB	_	_	0	root	_	AlignBegin=215812|AlignEnd=215990|Gloss=want
-13	get	get	VERB	_	_	12	ccomp	_	AlignBegin=215990|AlignEnd=216153|Gloss=get
+13	get	get	VERB	_	_	12	xcomp	_	AlignBegin=215990|AlignEnd=216153|Gloss=get
 14	power	power	NOUN	_	_	13	obj	_	AlignBegin=216153|AlignEnd=216435|Gloss=power
 15	//	//	X	_	_	12	dep	_	AlignBegin=216435|AlignEnd=216465|Gloss=PUNCT
 
@@ -1373,7 +1374,7 @@
 1	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	AlignBegin=216465|AlignEnd=216560|Gloss=NOM.2
 2	wan	want	VERB	_	_	0	root	_	AlignBegin=216560|AlignEnd=216730|Gloss=want
 3	dey	dey	AUX	_	Aspect=Imp	4	aux	_	AlignBegin=216730|AlignEnd=216849|Gloss=IPFV
-4	show	show	VERB	_	_	2	ccomp	_	AlignBegin=216849|AlignEnd=217117|Gloss=show
+4	show	show	VERB	_	_	2	xcomp	_	AlignBegin=216849|AlignEnd=217117|Gloss=show
 5	sey	sey	SCONJ	_	_	8	mark	_	AlignBegin=217117|AlignEnd=217270|Gloss=COMP
 6	[	[	X	_	_	8	dep	_	AlignBegin=217270|AlignEnd=217300|Gloss=PUNCT
 7	na	na	AUX	_	PartType=Cop	8	cop	_	AlignBegin=217300|AlignEnd=217454|Gloss=be
@@ -1600,7 +1601,7 @@
 4	Satan	Satan	PROPN	_	_	5	nsubj	_	AlignBegin=246133|AlignEnd=246610|Gloss=Satan
 5	tempt	tempt	VERB	_	_	0	root	_	AlignBegin=246610|AlignEnd=246925|Gloss=tempt
 6	Jesus	Jesus	PROPN	_	_	5	obj	_	AlignBegin=246925|AlignEnd=247310|Gloss=Jesus
-7	on	on	ADP	_	_	10	case	_	AlignBegin=247310|AlignEnd=247490|ExtPos=ADP|Gloss=on|PhraseType=Idiom
+7	on	on	ADP	_	_	10	case	_	AlignBegin=247310|AlignEnd=247490|ExtPos=ADP|Gloss=on|Idiom=Yes
 8	top	top	NOUN	_	_	7	fixed	_	AlignBegin=247490|AlignEnd=247680|Gloss=top|InIdiom=Yes
 9	money	money	NOUN	_	_	10	compound	_	AlignBegin=247680|AlignEnd=247950|Gloss=money
 10	issue	issue	NOUN	_	_	5	obl:arg	_	AlignBegin=247950|AlignEnd=248433|Gloss=issue
@@ -1615,7 +1616,7 @@
 1	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	AlignBegin=248463|AlignEnd=248610|Gloss=NOM.SG.3
 2	show	show	VERB	_	_	0	root	_	AlignBegin=248610|AlignEnd=248868|Gloss=show
 3	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	2	iobj	_	AlignBegin=248868|AlignEnd=249080|Gloss=ACC.SG.3
-4	all	all	DET	_	_	6	dep	_	AlignBegin=249080|AlignEnd=249190|Gloss=all
+4	all	all	DET	_	_	6	det	_	AlignBegin=249080|AlignEnd=249190|Gloss=all
 5	di	di	DET	_	Definite=Def|PronType=Art	6	det	_	AlignBegin=249190|AlignEnd=249330|Gloss=DEF.ART
 6	glory	glory	NOUN	_	_	2	obj	_	AlignBegin=249330|AlignEnd=249764|Gloss=glory
 7	//	//	X	_	_	2	dep	_	AlignBegin=249764|AlignEnd=249794|Gloss=PUNCT
@@ -1630,7 +1631,7 @@
 2	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	AlignBegin=250440|AlignEnd=250518|Gloss=NOM.SG.3
 3	show	show	VERB	_	_	0	root	_	AlignBegin=250518|AlignEnd=250693|Gloss=show
 4	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	3	iobj	_	AlignBegin=250693|AlignEnd=250880|Gloss=ACC.SG.3
-5	all	all	DET	_	_	7	dep	_	AlignBegin=250880|AlignEnd=250990|Gloss=all
+5	all	all	DET	_	_	7	det	_	AlignBegin=250880|AlignEnd=250990|Gloss=all
 6	di	di	DET	_	Definite=Def|PronType=Art	7	det	_	AlignBegin=250990|AlignEnd=251120|Gloss=DEF.ART
 7	wealth	wealth	NOUN	_	_	3	obj	_	AlignBegin=251120|AlignEnd=251606|Gloss=wealth
 8	//	//	X	_	_	3	dep	_	AlignBegin=251606|AlignEnd=251636|Gloss=PUNCT
@@ -1689,7 +1690,7 @@
 8	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	10	nsubj	_	AlignBegin=258550|AlignEnd=258650|Gloss=NOM.2
 9	go	go	AUX	_	Aspect=Prosp	10	aux	_	AlignBegin=258650|AlignEnd=258790|Gloss=PROSP
 10	get	get	VERB	_	_	0	root	_	AlignBegin=258790|AlignEnd=259020|Gloss=get
-11	all	all	DET	_	_	13	dep	_	AlignBegin=259020|AlignEnd=259161|Gloss=all
+11	all	all	DET	_	_	13	det	_	AlignBegin=259020|AlignEnd=259161|Gloss=all
 12	di	di	DET	_	Definite=Def|PronType=Art	13	det	_	AlignBegin=259161|AlignEnd=259260|Gloss=DEF.ART
 13	money	money	NOUN	_	_	10	obj	_	AlignBegin=259260|AlignEnd=259616|Gloss=money
 14	//	//	X	_	_	10	dep	_	AlignBegin=259616|AlignEnd=259646|Gloss=PUNCT
@@ -1702,9 +1703,9 @@
 # text_ortho = Wetin all of us dey bow to now?
 1	#	#	X	_	_	2	dep	_	AlignBegin=259646|AlignEnd=260260|Gloss=PUNCT
 2	wetin	wetin	PRON	_	PronType=Int	0	root	_	AlignBegin=260260|AlignEnd=260510|Gloss=what.Q
-3	all	all	DET	_	_	7	dep	_	AlignBegin=260510|AlignEnd=260610|Gloss=all
+3	all	all	PRON	_	_	7	nsubj	_	AlignBegin=260510|AlignEnd=260610|Gloss=all
 4	of	of	ADP	_	_	5	case	_	AlignBegin=260610|AlignEnd=260770|Gloss=of
-5	us	us	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	3	dep	_	AlignBegin=260770|AlignEnd=260950|Gloss=ACC.PL.1
+5	us	us	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	3	nmod	_	AlignBegin=260770|AlignEnd=260950|Gloss=ACC.PL.1
 6	dey	dey	AUX	_	Aspect=Imp	7	aux	_	AlignBegin=260950|AlignEnd=261030|Gloss=IPFV
 7	bow	bow	VERB	_	_	2	acl:relcl	_	AlignBegin=261030|AlignEnd=261300|Gloss=bow
 8	to	to	ADP	_	_	7	iobj	_	AlignBegin=261300|AlignEnd=261490|Gloss=to
@@ -1793,7 +1794,7 @@
 6	need	need	VERB	_	_	2	parataxis	_	AlignBegin=273130|AlignEnd=273380|Gloss=need
 7	to	to	ADP	_	_	9	mark	_	AlignBegin=273380|AlignEnd=273700|Gloss=to
 8	dey	dey	AUX	_	Aspect=Imp	9	aux	_	AlignBegin=273700|AlignEnd=273870|Gloss=IPFV
-9	bow	bow	VERB	_	_	6	ccomp	_	AlignBegin=273870|AlignEnd=274230|Gloss=bow
+9	bow	bow	VERB	_	_	6	xcomp	_	AlignBegin=273870|AlignEnd=274230|Gloss=bow
 10	to	to	ADP	_	_	11	case	_	AlignBegin=274230|AlignEnd=274370|Gloss=to
 11	people	people	NOUN	_	Number=Plur	9	obl:arg	_	AlignBegin=274370|AlignEnd=274784|Gloss=people.PL
 12	//=	//=	X	_	_	14	dep	_	AlignBegin=274784|AlignEnd=274814|Gloss=PUNCT
@@ -1831,9 +1832,9 @@
 3	wetin	wetin	PRON	_	PronType=Int	0	root	_	AlignBegin=278660|AlignEnd=279010|Gloss=what.Q
 4	Jesus	Jesus	PROPN	_	_	5	nsubj	_	AlignBegin=279010|AlignEnd=279390|Gloss=Jesus
 5	want	want	VERB	_	_	3	acl:relcl	_	AlignBegin=279390|AlignEnd=279495|Gloss=want
-6	make	make	AUX	_	Mood=Opt	8	aux	_	AlignBegin=279495|AlignEnd=279750|Gloss=SBJV
+6	make	make	SCONJ	_	_	8	mark	_	AlignBegin=279495|AlignEnd=279750|Gloss=COMP
 7	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	AlignBegin=279750|AlignEnd=279830|Gloss=NOM.PL.1
-8	do	do	VERB	_	_	5	ccomp	_	AlignBegin=279830|AlignEnd=280070|Gloss=do
+8	do	do	VERB	_	_	5	xcomp	_	AlignBegin=279830|AlignEnd=280070|Gloss=do
 9	//	//	X	_	_	3	dep	_	AlignBegin=280070|AlignEnd=280100|Gloss=PUNCT
 
 # sent_id = IBA_31_Lens-Sermon_MG__93
@@ -1848,7 +1849,7 @@
 4	all	all	DET	_	_	3	det	_	AlignBegin=281000|AlignEnd=281198|Gloss=all
 5	need	need	VERB	_	_	0	root	_	AlignBegin=281198|AlignEnd=281360|Gloss=need
 6	to	to	ADP	_	_	7	mark	_	AlignBegin=281360|AlignEnd=281517|Gloss=to
-7	learn	learn	VERB	_	_	5	ccomp	_	AlignBegin=281517|AlignEnd=282100|Gloss=learn
+7	learn	learn	VERB	_	_	5	xcomp	_	AlignBegin=281517|AlignEnd=282100|Gloss=learn
 8	sey	sey	SCONJ	_	_	11	mark	_	AlignBegin=282100|AlignEnd=282786|Gloss=COMP
 9	[	[	X	_	_	11	dep	_	AlignBegin=282786|AlignEnd=282816|Gloss=PUNCT
 10	nobody	nobody	PRON	_	_	11	nsubj	_	AlignBegin=282816|AlignEnd=283290|Gloss=nobody
@@ -1894,8 +1895,8 @@
 2	no	no	AUX	_	Polarity=Neg	4	aux	_	AlignBegin=290340|AlignEnd=290430|Gloss=NEG
 3	be	be	AUX	_	PartType=Cop	4	cop	_	AlignBegin=290430|AlignEnd=290545|Gloss=be
 4	sin	sin	NOUN	_	_	0	root	_	AlignBegin=290545|AlignEnd=290830|Gloss=sin
-5	at	at	ADP	_	_	4	advmod	_	AlignBegin=290830|AlignEnd=291060|ExtPos=ADV|Gloss=at|PhraseType=Idiom
-6	all	all	DET	_	_	5	fixed	_	AlignBegin=291060|AlignEnd=291385|Gloss=all|InIdiom=Yes
+5	at	at	ADP	_	_	4	advmod	_	AlignBegin=290830|AlignEnd=291060|ExtPos=ADV|Gloss=at|Idiom=Yes
+6	all	all	PRON	_	_	5	fixed	_	AlignBegin=291060|AlignEnd=291385|Gloss=all|InIdiom=Yes
 7	#	#	X	_	_	10	dep	_	AlignBegin=291385|AlignEnd=291650|Gloss=PUNCT
 8	because	because	SCONJ	_	_	10	mark	_	AlignBegin=291650|AlignEnd=291970|Gloss=because
 9	Devil	devil	NOUN	_	_	10	nsubj	_	AlignBegin=291970|AlignEnd=292320|Gloss=devil
@@ -2044,7 +2045,7 @@
 # text_en = All the bad things I did before, I do them no more.
 # text_ortho = All di bad, bad tings wey I dey do before, I do dem no more.
 1	#	#	X	_	_	18	dep	_	AlignBegin=312798|AlignEnd=313016|Gloss=PUNCT
-2	all	all	DET	_	_	9	dep	_	AlignBegin=313016|AlignEnd=313139|Gloss=all
+2	all	all	DET	_	_	9	det	_	AlignBegin=313016|AlignEnd=313139|Gloss=all
 3	di	di	DET	_	Definite=Def|PronType=Art	9	det	_	AlignBegin=313139|AlignEnd=313229|Gloss=DEF.ART
 4	{	{	X	_	_	5	dep	_	AlignBegin=313229|AlignEnd=313259|Gloss=PUNCT
 5	bad	bad	ADJ	_	_	9	amod	_	AlignBegin=313259|AlignEnd=313560|Gloss=bad
@@ -2062,8 +2063,8 @@
 17	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	AlignBegin=315600|AlignEnd=315766|Gloss=NOM.SG.1
 18	do	do	VERB	_	_	0	root	_	AlignBegin=315766|AlignEnd=315967|Gloss=do
 19	dem	dem	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	18	obj	_	AlignBegin=315967|AlignEnd=316220|Gloss=ACC.PL.3
-20	no	no	ADV	_	Polarity=Neg	21	det	_	AlignBegin=316220|AlignEnd=316370|Gloss=NEG
-21	more	more	ADJ	_	Degree=Cmp	18	obl:mod	_	AlignBegin=316370|AlignEnd=316638|Gloss=CMPR
+20	no	no	ADV	_	Polarity=Neg	21	advmod	_	AlignBegin=316220|AlignEnd=316370|Gloss=NEG
+21	more	more	ADJ	_	Degree=Cmp	18	advcl	_	AlignBegin=316370|AlignEnd=316638|Gloss=CMPR
 22	//	//	X	_	_	18	dep	_	AlignBegin=316638|AlignEnd=316668|Gloss=PUNCT
 
 # sent_id = IBA_31_Lens-Sermon_MG__104
@@ -2137,7 +2138,7 @@
 7	for	for	ADP	_	_	8	case	_	AlignBegin=328213|AlignEnd=328430|Gloss=for
 8	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	6	obl:arg	_	AlignBegin=328430|AlignEnd=328570|Gloss=ACC.SG.3
 9	to	to	ADP	_	_	10	mark	_	AlignBegin=328570|AlignEnd=328707|Gloss=to
-10	forgive	forgive	VERB	_	_	6	ccomp	_	AlignBegin=328707|AlignEnd=329250|Gloss=forgive
+10	forgive	forgive	VERB	_	_	6	xcomp	_	AlignBegin=328707|AlignEnd=329250|Gloss=forgive
 11	//	//	X	_	_	1	dep	_	AlignBegin=329250|AlignEnd=329280|Gloss=PUNCT
 
 # sent_id = IBA_31_Lens-Sermon_MG__108
@@ -2151,7 +2152,7 @@
 3	why	why	ADV	_	PronType=Int	0	root	_	AlignBegin=330130|AlignEnd=330290|Gloss=why.Q
 4	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	AlignBegin=330320|AlignEnd=330425|Gloss=NOM.SG.3
 5	say	say	VERB	_	_	3	advcl:cleft	_	AlignBegin=330425|AlignEnd=330835|Gloss=say
-6	#	#	X	_	_	23	dep	_	AlignBegin=330835|AlignEnd=331340|Gloss=PUNCT
+6	#	#	X	_	_	9	dep	_	AlignBegin=330835|AlignEnd=331340|Gloss=PUNCT
 7	(	(	X	_	_	9	dep	_	AlignBegin=330835|AlignEnd=331340|Gloss=PUNCT
 8	for	for	ADP	_	_	9	case	_	AlignBegin=331340|AlignEnd=331720|Gloss=for
 9	wetin	wetin	PRON	_	PronType=Int	5	parataxis:parenth	_	AlignBegin=331720|AlignEnd=332090|Gloss=what.Q
@@ -2376,7 +2377,7 @@
 1	#	#	X	_	_	14	dep	_	AlignBegin=368860|AlignEnd=369520|Gloss=PUNCT
 2	as	as	ADP	_	_	4	mark	_	AlignBegin=369520|AlignEnd=369700|Gloss=as
 3	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	AlignBegin=369700|AlignEnd=369760|Gloss=NOM.SG.3
-4	steal	steal	VERB	_	_	14	advcl:tempo	_	AlignBegin=369760|AlignEnd=370158|Gloss=steal
+4	steal	steal	VERB	_	_	14	advcl	_	AlignBegin=369760|AlignEnd=370158|Gloss=steal
 5	di	di	DET	_	Definite=Def|PronType=Art	6	det	_	AlignBegin=370158|AlignEnd=370311|Gloss=DEF.ART
 6	ting	ting	NOUN	_	_	4	obj	_	AlignBegin=370311|AlignEnd=370530|Gloss=thing
 7	like	like	ADP	_	_	8	case	_	AlignBegin=370530|AlignEnd=370751|Gloss=like
@@ -2436,7 +2437,7 @@
 8	con	con	AUX	_	Aspect=Cons	9	aux	_	AlignBegin=379440|AlignEnd=379640|Gloss=CONS
 9	write	write	VERB	_	_	0	root	_	AlignBegin=379640|AlignEnd=379900|Gloss=write
 10	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	9	obj	_	AlignBegin=379900|AlignEnd=380100|Gloss=ACC.SG.3
-11	for	for	ADP	_	_	13	case	_	AlignBegin=380100|AlignEnd=380270|ExtPos=ADP|Gloss=for|PhraseType=Idiom
+11	for	for	ADP	_	_	13	case	_	AlignBegin=380100|AlignEnd=380270|ExtPos=ADP|Gloss=for|Idiom=Yes
 12	inside	inside	ADP	_	_	11	fixed	_	AlignBegin=380270|AlignEnd=380605|Gloss=inside|InIdiom=Yes
 13	paper	paper	NOUN	_	_	9	obl:arg	_	AlignBegin=380605|AlignEnd=380998|Gloss=paper
 14	//	//	X	_	_	9	dep	_	AlignBegin=380998|AlignEnd=381028|Gloss=PUNCT
@@ -2484,7 +2485,7 @@
 14	pikin	pikin	NOUN	_	_	15	nsubj	_	AlignBegin=386430|AlignEnd=386834|Gloss=child
 15	show	show	VERB	_	_	5	conj	_	AlignBegin=386834|AlignEnd=387000|Gloss=show
 16	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	15	iobj	_	AlignBegin=387000|AlignEnd=387150|Gloss=NOM.2
-17	dat	dat	DET	_	Number=Sing|PronType=Dem	19	det	_	AlignBegin=387150|AlignEnd=387350|Gloss=SG.DEM
+17	dat	dat	DET	_	Number=Sing	19	det	_	AlignBegin=387150|AlignEnd=387350|Gloss=SG.DEM
 18	kind	kind	NOUN	_	_	19	nmod	_	AlignBegin=387350|AlignEnd=387590|Gloss=kind
 19	ting	ting	NOUN	_	_	15	obj	_	AlignBegin=387590|AlignEnd=387770|Gloss=thing
 20	after	after	ADP	_	_	23	mark	_	AlignBegin=387770|AlignEnd=388040|Gloss=after
@@ -2513,7 +2514,7 @@
 1	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	AlignBegin=390210|AlignEnd=390270|Gloss=NOM.2
 2	go	go	AUX	_	Aspect=Prosp	3	aux	_	AlignBegin=390270|AlignEnd=390400|Gloss=PROSP
 3	wan	want	VERB	_	_	0	root	_	AlignBegin=390400|AlignEnd=390540|Gloss=want
-4	slap	slap	VERB	_	_	3	ccomp	_	AlignBegin=390540|AlignEnd=390900|Gloss=slap
+4	slap	slap	VERB	_	_	3	xcomp	_	AlignBegin=390540|AlignEnd=390900|Gloss=slap
 5	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	4	obj	_	AlignBegin=390900|AlignEnd=391110|Gloss=ACC.SG.3
 6	//	//	X	_	_	3	dep	_	AlignBegin=391110|AlignEnd=391140|Gloss=PUNCT
 
@@ -2528,7 +2529,7 @@
 3	as	as	ADP	_	_	6	mark	_	AlignBegin=391930|AlignEnd=392080|Gloss=as
 4	e	im	PRON	_	Number=Sing|Person=3|Poss=Yes	5	nmod:poss	_	AlignBegin=392080|AlignEnd=392130|Gloss=SG.3.POSS
 5	papa	papa	NOUN	_	_	6	nsubj	_	AlignBegin=392130|AlignEnd=392470|Gloss=papa
-6	receive	receive	VERB	_	_	15	advcl:tempo	_	AlignBegin=392470|AlignEnd=392850|Gloss=receive
+6	receive	receive	VERB	_	_	15	advcl	_	AlignBegin=392470|AlignEnd=392850|Gloss=receive
 7	di	di	DET	_	Definite=Def|PronType=Art	8	det	_	AlignBegin=392850|AlignEnd=392960|Gloss=DEF.ART
 8	paper	paper	NOUN	_	_	6	obj	_	AlignBegin=392960|AlignEnd=393300|Gloss=paper
 9	read	read	VERB	_	_	6	compound:svc	_	AlignBegin=393300|AlignEnd=393460|Gloss=read
@@ -2626,7 +2627,7 @@
 # text_ortho = From dat day eh, Mahatma Ghandi love im papa no be small because e no expect wetin di papa do.
 1	#	#	X	_	_	9	dep	_	AlignBegin=408460|AlignEnd=409840|Gloss=PUNCT
 2	from	from	ADP	_	_	4	case	_	AlignBegin=409840|AlignEnd=410040|Gloss=from
-3	dat	dat	DET	_	Number=Sing|PronType=Dem	4	det	_	AlignBegin=410040|AlignEnd=410220|Gloss=SG.DEM
+3	dat	dat	DET	_	Number=Sing	4	det	_	AlignBegin=410040|AlignEnd=410220|Gloss=SG.DEM
 4	day	day	NOUN	_	_	9	obl:mod	_	AlignBegin=410220|AlignEnd=410620|Gloss=day
 5	eh	eh	INTJ	_	_	4	discourse	_	AlignBegin=410650|AlignEnd=410950|Gloss=eh
 6	<	<	X	_	_	4	dep	_	AlignBegin=410950|AlignEnd=410980|Gloss=PUNCT
@@ -2635,9 +2636,9 @@
 9	love	love	VERB	_	_	0	root	_	AlignBegin=411893|AlignEnd=412180|Gloss=love
 10	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	11	nmod:poss	_	AlignBegin=412180|AlignEnd=412300|Gloss=NOM.SG.3
 11	papa	papa	NOUN	_	_	9	obj	_	AlignBegin=412300|AlignEnd=412670|Gloss=papa
-12	no	no	AUX	_	Polarity=Neg	14	aux	_	AlignBegin=412670|AlignEnd=412820|EXTPOS=ADV|Gloss=NEG|PhraseType=Idiom
-13	be	be	AUX	_	PartType=Cop	14	cop	_	AlignBegin=412820|AlignEnd=412993|Gloss=be|InIdiom=Yes
-14	small	small	ADJ	_	_	9	advcl	_	AlignBegin=412993|AlignEnd=413646|Gloss=small|InIdiom=Yes
+12	no	no	AUX	_	Polarity=Neg	14	aux	_	AlignBegin=412670|AlignEnd=412820|Gloss=NEG
+13	be	be	AUX	_	PartType=Cop	14	cop	_	AlignBegin=412820|AlignEnd=412993|Gloss=be
+14	small	small	ADJ	_	_	9	advcl	_	AlignBegin=412993|AlignEnd=413646|Gloss=small
 15	because	because	SCONJ	_	_	18	mark	_	AlignBegin=413646|AlignEnd=413998|Gloss=because
 16	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	AlignBegin=413998|AlignEnd=414050|Gloss=NOM.SG.3
 17	no	no	AUX	_	Polarity=Neg	18	aux	_	AlignBegin=414050|AlignEnd=414240|Gloss=NEG
@@ -2663,9 +2664,9 @@
 7	dey	dey	AUX	_	Aspect=Imp	8	aux	_	AlignBegin=417410|AlignEnd=417510|Gloss=IPFV
 8	do	do	VERB	_	_	4	acl:relcl	_	AlignBegin=417510|AlignEnd=417640|Gloss=do
 9	for	for	ADP	_	_	10	case	_	AlignBegin=417640|AlignEnd=417830|Gloss=for
-10	all	all	DET	_	_	8	iobj	_	AlignBegin=417830|AlignEnd=417990|Gloss=all
+10	all	all	PRON	_	_	8	obl:arg	_	AlignBegin=417830|AlignEnd=417990|Gloss=all
 11	of	of	ADP	_	_	12	case	_	AlignBegin=417990|AlignEnd=418140|Gloss=of
-12	us	us	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	10	dep	_	AlignBegin=418140|AlignEnd=418390|Gloss=ACC.PL.1
+12	us	us	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	10	nmod	_	AlignBegin=418140|AlignEnd=418390|Gloss=ACC.PL.1
 13	//	//	X	_	_	4	dep	_	AlignBegin=418390|AlignEnd=418420|Gloss=PUNCT
 
 # sent_id = IBA_31_Lens-Sermon_MG__130
@@ -2679,7 +2680,7 @@
 3	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	AlignBegin=418980|AlignEnd=419080|Gloss=NOM.PL.1
 4	need	need	VERB	_	_	2	acl:relcl	_	AlignBegin=419080|AlignEnd=419260|Gloss=need
 5	to	to	ADP	_	_	6	mark	_	AlignBegin=419260|AlignEnd=419404|Gloss=to
-6	do	do	VERB	_	_	4	ccomp	_	AlignBegin=419404|AlignEnd=419601|Gloss=do
+6	do	do	VERB	_	_	4	xcomp	_	AlignBegin=419404|AlignEnd=419601|Gloss=do
 7	na	na	AUX	_	PartType=Cop	10	cop	_	AlignBegin=419601|AlignEnd=419750|Gloss=be
 8	make	make	AUX	_	Mood=Opt	10	aux	_	AlignBegin=419750|AlignEnd=419960|Gloss=SBJV
 9	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	nsubj	_	AlignBegin=419960|AlignEnd=420049|Gloss=NOM.PL.1
@@ -2815,14 +2816,14 @@
 3	fit	fit	AUX	_	Mood=Pot	5	aux	_	AlignBegin=436240|AlignEnd=436410|Gloss=ABIL
 4	no	no	AUX	_	Polarity=Neg	5	aux	_	AlignBegin=436410|AlignEnd=436580|Gloss=NEG
 5	forgive	forgive	VERB	_	_	0	root	_	AlignBegin=436580|AlignEnd=437020|Gloss=forgive
-6	at	at	ADP	_	_	5	advmod	_	AlignBegin=437020|AlignEnd=437230|ExtPos=ADV|Gloss=at|PhraseType=Idiom
-7	all	all	DET	_	_	6	fixed	_	AlignBegin=437230|AlignEnd=437300|Gloss=all|InIdiom=Yes
+6	at	at	ADP	_	_	5	advmod	_	AlignBegin=437020|AlignEnd=437230|ExtPos=ADV|Gloss=at|Idiom=Yes
+7	all	all	PRON	_	_	6	fixed	_	AlignBegin=437230|AlignEnd=437300|Gloss=all|InIdiom=Yes
 8	|c	|c	X	_	_	12	dep	_	AlignBegin=437300|AlignEnd=437330|Gloss=PUNCT
 9	but	but	CCONJ	_	_	12	cc	_	AlignBegin=437330|AlignEnd=437520|Gloss=but
 10	God	God	PROPN	_	_	12	nsubj	_	AlignBegin=437520|AlignEnd=437720|Gloss=God
 11	dey	dey	AUX	_	Aspect=Imp	12	aux	_	AlignBegin=437720|AlignEnd=437840|Gloss=IPFV
 12	forgive	forgive	VERB	_	_	5	conj	_	AlignBegin=437840|AlignEnd=438240|Gloss=forgive
-13	all	all	DET	_	_	15	dep	_	AlignBegin=438240|AlignEnd=438379|Gloss=all
+13	all	all	DET	_	_	15	det	_	AlignBegin=438240|AlignEnd=438379|Gloss=all
 14	di	di	DET	_	Definite=Def|PronType=Art	15	det	_	AlignBegin=438379|AlignEnd=438492|Gloss=DEF.ART
 15	sin	sin	NOUN	_	_	12	obj	_	AlignBegin=438492|AlignEnd=438789|Gloss=sin
 16	//	//	X	_	_	5	dep	_	AlignBegin=438789|AlignEnd=438819|Gloss=PUNCT
@@ -2837,7 +2838,7 @@
 2	wetin	wetin	PRON	_	PronType=Int	8	nsubj	_	AlignBegin=439400|AlignEnd=439678|Gloss=what.Q
 3	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	AlignBegin=439678|AlignEnd=439770|Gloss=NOM.PL.1
 4	need	need	VERB	_	_	2	acl:relcl	_	AlignBegin=439770|AlignEnd=439960|Gloss=need
-5	do	do	VERB	_	_	4	ccomp	_	AlignBegin=439960|AlignEnd=440099|Gloss=do
+5	do	do	VERB	_	_	4	xcomp	_	AlignBegin=439960|AlignEnd=440099|Gloss=do
 6	na	na	AUX	_	PartType=Cop	8	cop	_	AlignBegin=440099|AlignEnd=440289|Gloss=be
 7	to	to	ADP	_	_	8	mark	_	AlignBegin=440289|AlignEnd=440448|Gloss=to
 8	tell	tell	VERB	_	_	0	root	_	AlignBegin=440448|AlignEnd=440710|Gloss=tell
@@ -2864,9 +2865,9 @@
 12	best	best	ADJ	_	Degree=Sup	13	amod	_	AlignBegin=443476|AlignEnd=443710|Gloss=good.SUP
 13	time	time	NOUN	_	_	7	dislocated	_	AlignBegin=443710|AlignEnd=443960|Gloss=time
 14	for	for	ADP	_	_	15	case	_	AlignBegin=443960|AlignEnd=444141|Gloss=for
-15	all	all	DET	_	_	13	dep	_	AlignBegin=444141|AlignEnd=444350|Gloss=all
+15	all	all	PRON	_	_	13	nmod	_	AlignBegin=444141|AlignEnd=444350|Gloss=all
 16	of	of	ADP	_	_	17	case	_	AlignBegin=444350|AlignEnd=444460|Gloss=of
-17	us	us	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	15	dep	_	AlignBegin=444460|AlignEnd=444893|Gloss=ACC.PL.1
+17	us	us	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	15	nmod	_	AlignBegin=444460|AlignEnd=444893|Gloss=ACC.PL.1
 18	//	//	X	_	_	7	dep	_	AlignBegin=444893|AlignEnd=444923|Gloss=PUNCT
 
 # sent_id = IBA_31_Lens-Sermon_MG__140
@@ -2936,7 +2937,7 @@
 9	tell	tell	VERB	_	_	6	acl:relcl	_	AlignBegin=452480|AlignEnd=452659|Gloss=tell
 10	ourselves	oursef	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs|Reflex=Yes	9	iobj	_	AlignBegin=452659|AlignEnd=453210|Gloss=ACC.PL.1.REFL
 11	on	on	ADP	_	_	14	case	_	AlignBegin=453210|AlignEnd=453320|Gloss=on
-12	dat	dat	DET	_	Number=Sing|PronType=Dem	14	det	_	AlignBegin=453320|AlignEnd=453410|Gloss=SG.DEM
+12	dat	dat	DET	_	Number=Sing	14	det	_	AlignBegin=453320|AlignEnd=453410|Gloss=SG.DEM
 13	Ash	ash	NOUN	_	_	14	compound	_	AlignBegin=453410|AlignEnd=453720|Gloss=ash
 14	Wednesday	Wednesday	PROPN	_	_	9	obl:mod	_	AlignBegin=453720|AlignEnd=454214|Gloss=Wednesday
 15	#	#	X	_	_	17	dep	_	AlignBegin=454214|AlignEnd=454642|Gloss=PUNCT
@@ -2968,7 +2969,7 @@
 2	na	na	AUX	_	PartType=Cop	3	cop	_	AlignBegin=458250|AlignEnd=458370|Gloss=be
 3	dust	dust	NOUN	_	_	0	root	_	AlignBegin=458370|AlignEnd=458690|Gloss=dust
 4	>+	>+	X	_	_	8	dep	_	AlignBegin=458690|AlignEnd=458720|Gloss=PUNCT
-5	na	na	AUX	_	PartType=Cop	8	mark	_	AlignBegin=458720|AlignEnd=458849|ExtPos=SCONJ|Gloss=be|PhraseType=Idiom
+5	na	na	AUX	_	PartType=Cop	8	mark	_	AlignBegin=458720|AlignEnd=458849|ExtPos=SCONJ|Gloss=be|Idiom=Yes
 6	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	5	fixed	_	AlignBegin=458849|AlignEnd=458940|Gloss=NOM.SG.3|InIdiom=Yes
 7	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	AlignBegin=458940|AlignEnd=459103|Gloss=NOM.PL.3
 8	form	form	VERB	_	_	3	advcl:cleft	_	AlignBegin=459103|AlignEnd=459370|Gloss=form
@@ -3069,7 +3070,7 @@
 4	go	go	VERB	_	_	0	root	_	AlignBegin=474536|AlignEnd=474700|Gloss=go
 5	back	back	ADV	_	_	4	advmod	_	AlignBegin=474700|AlignEnd=474940|Gloss=back
 6	to	to	ADP	_	_	9	case	_	AlignBegin=474940|AlignEnd=475040|Gloss=to
-7	dat	dat	DET	_	Number=Sing|PronType=Dem	9	det	_	AlignBegin=475040|AlignEnd=475229|Gloss=SG.DEM
+7	dat	dat	DET	_	Number=Sing	9	det	_	AlignBegin=475040|AlignEnd=475229|Gloss=SG.DEM
 8	same	same	ADJ	_	_	9	amod	_	AlignBegin=475229|AlignEnd=475500|Gloss=same
 9	dust	dust	NOUN	_	_	4	obl:arg	_	AlignBegin=475500|AlignEnd=475774|Gloss=dust
 10	//	//	X	_	_	4	dep	_	AlignBegin=475774|AlignEnd=475804|Gloss=PUNCT
@@ -3114,9 +3115,9 @@
 # text_ortho = Make all of us dey do well.
 1	#	#	X	_	_	7	dep	_	AlignBegin=478514|AlignEnd=478920|Gloss=PUNCT
 2	make	make	AUX	_	Mood=Opt	7	aux	_	AlignBegin=478920|AlignEnd=479080|Gloss=SBJV
-3	all	all	DET	_	_	7	dep	_	AlignBegin=479080|AlignEnd=479210|Gloss=all
+3	all	all	PRON	_	_	7	nsubj	_	AlignBegin=479080|AlignEnd=479210|Gloss=all
 4	of	of	ADP	_	_	5	case	_	AlignBegin=479210|AlignEnd=479400|Gloss=of
-5	us	us	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	3	dep	_	AlignBegin=479400|AlignEnd=479590|Gloss=ACC.PL.1
+5	us	us	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	3	nmod	_	AlignBegin=479400|AlignEnd=479590|Gloss=ACC.PL.1
 6	dey	dey	AUX	_	Aspect=Imp	7	aux	_	AlignBegin=479590|AlignEnd=479710|Gloss=IPFV
 7	do	do	VERB	_	_	0	root	_	AlignBegin=479710|AlignEnd=479960|Gloss=do
 8	well	well	ADV	_	_	7	advmod	_	AlignBegin=479960|AlignEnd=480239|Gloss=well
@@ -3176,15 +3177,15 @@
 10	dey	dey	VERB	_	VerbType=Cop	8	acl:relcl	_	AlignBegin=489540|AlignEnd=489690|Gloss=be
 11	our	our	PRON	_	Number=Plur|Person=1|Poss=Yes	12	nmod:poss	_	AlignBegin=489690|AlignEnd=489790|Gloss=PL.1.POSS
 12	body	body	NOUN	_	_	10	xcomp	_	AlignBegin=489790|AlignEnd=490100|Gloss=body
-13	#	#	X	_	_	21	dep	_	AlignBegin=490130|AlignEnd=490410|Gloss=PUNCT
+13	#	#	X	_	_	18	dep	_	AlignBegin=490130|AlignEnd=490410|Gloss=PUNCT
 14	because	because	SCONJ	_	_	18	mark	_	AlignBegin=490410|AlignEnd=490591|Gloss=because
-15	all	all	DET	_	_	21	dep	_	AlignBegin=490591|AlignEnd=490710|Gloss=all
+15	all	all	PRON	_	_	18	nsubj	_	AlignBegin=490591|AlignEnd=490710|Gloss=all
 16	of	of	ADP	_	_	17	case	_	AlignBegin=490710|AlignEnd=490890|Gloss=of
-17	us	us	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	15	dep	_	AlignBegin=490890|AlignEnd=491080|Gloss=ACC.PL.1
-18	get	get	VERB	_	_	21	ccomp	_	AlignBegin=491080|AlignEnd=491216|Gloss=get
+17	us	us	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	15	nmod	_	AlignBegin=490890|AlignEnd=491080|Gloss=ACC.PL.1
+18	get	get	VERB	_	_	6	advcl	_	AlignBegin=491080|AlignEnd=491216|Gloss=get
 19	{	{	X	_	_	21	dep	_	AlignBegin=491216|AlignEnd=491246|Gloss=PUNCT
 20	one	one	DET	_	Definite=Spec|PronType=Art	21	det	_	AlignBegin=491246|AlignEnd=491406|Gloss=SPEC.ART
-21	form	form	NOUN	_	_	6	dep	_	AlignBegin=491406|AlignEnd=491640|Gloss=form
+21	form	form	NOUN	_	_	18	obj	_	AlignBegin=491406|AlignEnd=491640|Gloss=form
 22	of	of	ADP	_	_	23	case	_	AlignBegin=491640|AlignEnd=491750|Gloss=of
 23	darkness	darkness	NOUN	_	_	21	nmod	_	AlignBegin=491750|AlignEnd=492209|Gloss=darkness
 24	|c	|c	X	_	_	27	dep	_	AlignBegin=492209|AlignEnd=492239|Gloss=PUNCT
@@ -3248,7 +3249,7 @@
 3	{	{	X	_	_	6	dep	_	AlignBegin=499397|AlignEnd=499487|Gloss=PUNCT
 4	as	as	ADP	_	_	6	mark	_	AlignBegin=499487|AlignEnd=499667|Gloss=as
 5	una	una	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	6	nsubj	_	AlignBegin=499667|AlignEnd=499867|Gloss=NOM.PL.2
-6	come	come	VERB	_	_	21	advcl:tempo	_	AlignBegin=499867|AlignEnd=500141|Gloss=come
+6	come	come	VERB	_	_	21	advcl	_	AlignBegin=499867|AlignEnd=500141|Gloss=come
 7	so	so	ADV	_	_	6	advmod	_	AlignBegin=500141|AlignEnd=500430|Gloss=so
 8	|c	|c	X	_	_	14	dep	_	AlignBegin=500430|AlignEnd=500460|Gloss=PUNCT
 9	#	#	X	_	_	14	dep	_	AlignBegin=500460|AlignEnd=500925|Gloss=PUNCT
@@ -3265,7 +3266,7 @@
 20	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	21	nsubj	_	AlignBegin=503642|AlignEnd=503700|Gloss=NOM.PL.1
 21	pray	pray	VERB	_	_	0	root	_	AlignBegin=503700|AlignEnd=503880|Gloss=pray
 22	[	[	X	_	_	25	dep	_	AlignBegin=503880|AlignEnd=503910|Gloss=PUNCT
-23	make	make	AUX	_	Mood=Opt	25	aux	_	AlignBegin=503910|AlignEnd=504110|Gloss=SBJV
+23	make	make	SCONJ	_	_	25	mark	_	AlignBegin=503910|AlignEnd=504110|Gloss=COMP
 24	God	God	PROPN	_	_	25	nsubj	_	AlignBegin=504110|AlignEnd=504300|Gloss=God
 25	accept	accept	VERB	_	_	21	parataxis	_	AlignBegin=504300|AlignEnd=504660|Gloss=accept
 26	our	our	PRON	_	Number=Plur|Person=1|Poss=Yes	27	nmod:poss	_	AlignBegin=504660|AlignEnd=504766|Gloss=PL.1.POSS
@@ -3284,7 +3285,7 @@
 2	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	AlignBegin=506020|AlignEnd=506090|Gloss=NOM.PL.1
 3	pray	pray	VERB	_	_	0	root	_	AlignBegin=506090|AlignEnd=506240|Gloss=pray
 4	[	[	X	_	_	7	dep	_	AlignBegin=506270|AlignEnd=506450|Gloss=PUNCT
-5	meh	make	AUX	_	Mood=Opt	7	aux	_	AlignBegin=506270|AlignEnd=506450|Gloss=SBJV
+5	meh	make	SCONJ	_	_	7	mark	_	AlignBegin=506270|AlignEnd=506450|Gloss=COMP
 6	God	God	PROPN	_	_	7	nsubj	_	AlignBegin=506450|AlignEnd=507054|Gloss=God
 7	have	have	VERB	_	_	3	parataxis	_	AlignBegin=507054|AlignEnd=507370|Gloss=have
 8	mercy	mercy	NOUN	_	_	7	obj	_	AlignBegin=507370|AlignEnd=507760|Gloss=mercy

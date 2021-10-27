@@ -1,4 +1,5 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = ENU_02_Christmas-At-New-Berries_MG__1
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ENU_02_Christmas-At-New-Berries_MG.mp3
 # speaker_id = Sp72
@@ -7,7 +8,7 @@
 # text_ortho = Eh di day...
 1	eh	eh	INTJ	_	_	3	discourse	_	AlignBegin=1720|AlignEnd=2140|Gloss=eh
 2	di	di	DET	_	Definite=Def|PronType=Art	3	det	_	AlignBegin=2170|AlignEnd=2350|Gloss=DEF.ART
-3	day	day	NOUN	_	_	0	root	_	AlignBegin=2350|AlignEnd=2637|Gloss=day
+3	day	day	NOUN	_	_	0	root	_	AlignBegin=2350|AlignEnd=2637|Gloss=day|Scrap=Yes
 4	&//	&//	X	_	_	3	dep	_	AlignBegin=2350|AlignEnd=2637|Gloss=PUNCT
 
 # sent_id = ENU_02_Christmas-At-New-Berries_MG__2
@@ -18,7 +19,7 @@
 # text_ortho = I want talk about em di, how I spend my Christmas last year.
 1	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	AlignBegin=2667|AlignEnd=2941|Gloss=NOM.SG.1
 2	want	want	VERB	_	_	0	root	_	AlignBegin=2941|AlignEnd=3193|Gloss=want
-3	talk	talk	VERB	_	_	2	ccomp	_	AlignBegin=3193|AlignEnd=3388|Gloss=talk
+3	talk	talk	VERB	_	_	2	xcomp	_	AlignBegin=3193|AlignEnd=3388|Gloss=talk
 4	about	about	ADP	_	_	13	mark	_	AlignBegin=3388|AlignEnd=4150|Gloss=about
 5	em	em	INTJ	_	_	13	discourse	_	AlignBegin=4180|AlignEnd=4790|Gloss=em
 6	#	#	X	_	_	13	dep	_	AlignBegin=4820|AlignEnd=5319|Gloss=PUNCT
@@ -53,23 +54,23 @@
 # text = me ma < { I no sab~ || I no sabi } go out for Christmas //
 # text_en = Me, I don’t kno-... I don’t know how to go out at Christmas.
 # text_ortho = Me ma, I no sab-... I no sabi go out for Christmas.
-1	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	dislocated	_	AlignBegin=10790|AlignEnd=11020|Gloss=ACC.SG.1
+1	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	7	dislocated	_	AlignBegin=10790|AlignEnd=11020|Gloss=ACC.SG.1
 2	ma	ma	PART	_	PartType=Disc	1	advmod	_	AlignBegin=11020|AlignEnd=11130|Gloss=FOC
 3	<	<	X	_	_	1	dep	_	AlignBegin=11130|AlignEnd=11160|Gloss=PUNCT
-4	{	{	X	_	_	6	dep	_	AlignBegin=11130|AlignEnd=11160|Gloss=PUNCT
-5	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	AlignBegin=11160|AlignEnd=11250|Gloss=NOM.SG.1
-6	no	no	PART	_	Polarity=Neg	0	root	_	AlignBegin=11250|AlignEnd=11430|Gloss=NEG
-7	sab~	X	X	_	_	6	aux	_	AlignBegin=11430|AlignEnd=11725|Gloss=X
+4	{	{	X	_	_	7	dep	_	AlignBegin=11130|AlignEnd=11160|Gloss=PUNCT
+5	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	AlignBegin=11160|AlignEnd=11250|Gloss=NOM.SG.1
+6	no	no	AUX	_	Polarity=Neg	7	aux	_	AlignBegin=11250|AlignEnd=11430|Gloss=NEG
+7	sab~	X	X	_	_	0	root	_	AlignBegin=11430|AlignEnd=11725|Gloss=X
 8	||	||	X	_	_	11	dep	_	AlignBegin=11725|AlignEnd=11755|Gloss=PUNCT
 9	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	AlignBegin=11755|AlignEnd=11961|Gloss=NOM.SG.1
 10	no	no	AUX	_	Polarity=Neg	11	aux	_	AlignBegin=11961|AlignEnd=12098|Gloss=NEG
 11	sabi	sabi	VERB	_	_	6	reparandum	_	AlignBegin=12098|AlignEnd=12410|Gloss=know
-12	}	}	X	_	_	6	dep	_	AlignBegin=12410|AlignEnd=12440|Gloss=PUNCT
-13	go	go	VERB	_	_	11	ccomp	_	AlignBegin=12440|AlignEnd=12554|Gloss=go
+12	}	}	X	_	_	7	dep	_	AlignBegin=12410|AlignEnd=12440|Gloss=PUNCT
+13	go	go	VERB	_	_	11	xcomp	_	AlignBegin=12440|AlignEnd=12554|Gloss=go
 14	out	out	ADP	_	_	13	compound:prt	_	AlignBegin=12554|AlignEnd=12761|Gloss=out
 15	for	for	ADP	_	_	16	case	_	AlignBegin=12761|AlignEnd=12890|Gloss=for
 16	Christmas	Christmas	PROPN	_	_	13	obl:arg	_	AlignBegin=12890|AlignEnd=13510|Gloss=Christmas
-17	//	//	X	_	_	6	dep	_	AlignBegin=13510|AlignEnd=13540|Gloss=PUNCT
+17	//	//	X	_	_	7	dep	_	AlignBegin=13510|AlignEnd=13540|Gloss=PUNCT
 
 # sent_id = ENU_02_Christmas-At-New-Berries_MG__5
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ENU_02_Christmas-At-New-Berries_MG.mp3
@@ -85,7 +86,7 @@
 6	dey	dey	AUX	_	Aspect=Imp	7	aux	_	AlignBegin=14990|AlignEnd=15170|Gloss=IPFV
 7	like	like	VERB	_	_	0	root	_	AlignBegin=15170|AlignEnd=15570|Gloss=like
 8	#	#	X	_	_	9	dep	_	AlignBegin=15570|AlignEnd=16035|Gloss=PUNCT
-9	stay	stay	VERB	_	_	7	ccomp	_	AlignBegin=16035|AlignEnd=16434|Gloss=stay
+9	stay	stay	VERB	_	_	7	xcomp	_	AlignBegin=16035|AlignEnd=16434|Gloss=stay
 10	for	for	ADP	_	_	11	case	_	AlignBegin=16434|AlignEnd=16600|Gloss=for
 11	home	home	NOUN	_	_	9	obl:arg	_	AlignBegin=16600|AlignEnd=17002|Gloss=home
 12	//	//	X	_	_	7	dep	_	AlignBegin=17002|AlignEnd=17032|Gloss=PUNCT
@@ -119,7 +120,7 @@
 6	she	she	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	AlignBegin=19840|AlignEnd=19990|Gloss=NOM.F.SG.3
 7	no	no	AUX	_	Polarity=Neg	8	aux	_	AlignBegin=19990|AlignEnd=20120|Gloss=NEG
 8	sabi	sabi	VERB	_	_	0	root	_	AlignBegin=20120|AlignEnd=20480|Gloss=know
-9	go	go	VERB	_	_	8	ccomp	_	AlignBegin=20480|AlignEnd=20901|Gloss=go
+9	go	go	VERB	_	_	8	xcomp	_	AlignBegin=20480|AlignEnd=20901|Gloss=go
 10	out	out	ADP	_	_	9	compound:prt	_	AlignBegin=20901|AlignEnd=21140|Gloss=out
 11	in	in	ADP	_	_	12	case	_	AlignBegin=21140|AlignEnd=21380|Gloss=in
 12	Christmas	Christmas	PROPN	_	_	9	obl:arg	_	AlignBegin=21380|AlignEnd=22047|Gloss=Christmas
@@ -245,8 +246,8 @@
 2	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	AlignBegin=38584|AlignEnd=38724|Gloss=NOM.SG.1
 3	tell	tell	VERB	_	_	0	root	_	AlignBegin=38724|AlignEnd=38964|Gloss=tell
 4	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	3	iobj	_	AlignBegin=38964|AlignEnd=39171|Gloss=ACC.SG.3
-5	sey	sey	SCONJ	_	_	6	ccomp	_	AlignBegin=39171|AlignEnd=39334|Gloss=COMP
-6	okay	OK	INTJ	_	_	3	dep:comp	_	AlignBegin=39334|AlignEnd=39617|Gloss=OK
+5	sey	sey	SCONJ	_	_	6	case	_	AlignBegin=39171|AlignEnd=39334|Gloss=COMP
+6	okay	OK	INTJ	_	_	3	obj	_	AlignBegin=39334|AlignEnd=39617|Gloss=OK
 7	//	//	X	_	_	3	dep	_	AlignBegin=39617|AlignEnd=39647|Gloss=PUNCT
 
 # sent_id = ENU_02_Christmas-At-New-Berries_MG__15
@@ -261,7 +262,7 @@
 4	meh	make	AUX	_	Mood=Opt	6	aux	_	AlignBegin=39944|AlignEnd=40034|Gloss=SBJV
 5	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	AlignBegin=40034|AlignEnd=40164|Gloss=NOM.SG.1
 6	go	go	VERB	_	_	2	parataxis	_	AlignBegin=40164|AlignEnd=40424|Gloss=go
-7	prepare	prepare	VERB	_	_	6	ccomp	_	AlignBegin=40424|AlignEnd=40978|Gloss=prepare
+7	prepare	prepare	VERB	_	_	6	compound:svc	_	AlignBegin=40424|AlignEnd=40978|Gloss=prepare
 8	]	]	X	_	_	6	dep	_	AlignBegin=40978|AlignEnd=41008|Gloss=PUNCT
 9	//	//	X	_	_	2	dep	_	AlignBegin=40978|AlignEnd=41008|Gloss=PUNCT
 
@@ -307,7 +308,7 @@
 7	wear	wear	VERB	_	_	4	acl:relcl	_	AlignBegin=45650|AlignEnd=45886|Gloss=wear
 8	makeup	makeup	NOUN	_	_	7	obj	_	AlignBegin=45886|AlignEnd=46150|Gloss=makeup
 9	be	be	AUX	_	PartType=Cop	12	cop	_	AlignBegin=46350|AlignEnd=46492|Gloss=be
-10	dat	dat	DET	_	Number=Sing|PronType=Dem	12	det	_	AlignBegin=46492|AlignEnd=46716|Gloss=SG.DEM
+10	dat	dat	DET	_	Number=Sing	12	det	_	AlignBegin=46492|AlignEnd=46716|Gloss=SG.DEM
 11	last	last	ADJ	_	_	12	amod	_	AlignBegin=46716|AlignEnd=47100|Gloss=last
 12	Christmas	Christmas	PROPN	_	_	0	root	_	AlignBegin=47100|AlignEnd=47557|Gloss=Christmas
 13	//	//	X	_	_	12	dep	_	AlignBegin=47557|AlignEnd=47587|Gloss=PUNCT
@@ -369,8 +370,8 @@
 # text_en = I didn’t even...
 # text_ortho = I no even...
 1	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	AlignBegin=54748|AlignEnd=54845|Gloss=NOM.SG.1
-2	no	no	AUX	_	Polarity=Neg	0	root	_	AlignBegin=54845|AlignEnd=55017|Gloss=NEG
-3	even	even	ADV	_	_	2	advmod	_	AlignBegin=55017|AlignEnd=55595|Gloss=even
+2	no	no	AUX	_	Polarity=Neg	0	root	_	AlignBegin=54845|AlignEnd=55017|Gloss=NEG|Scrap=Yes
+3	even	even	ADV	_	_	2	advmod	_	AlignBegin=55017|AlignEnd=55595|Gloss=even|Scrap=Yes
 4	&//	&//	X	_	_	2	dep	_	AlignBegin=55595|AlignEnd=55625|Gloss=PUNCT
 
 # sent_id = ENU_02_Christmas-At-New-Berries_MG__23
@@ -394,7 +395,7 @@
 13	picture	picture	NOUN	_	_	16	dislocated	_	AlignBegin=58840|AlignEnd=59167|Gloss=picture
 14	<	<	X	_	_	13	dep	_	AlignBegin=59167|AlignEnd=59197|Gloss=PUNCT
 15	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	AlignBegin=59197|AlignEnd=59315|Gloss=NOM.SG.1
-16	no	no	PART	_	Polarity=Neg	0	root	_	AlignBegin=59315|AlignEnd=59625|Gloss=NEG
+16	no	no	AUX	_	Polarity=Neg	0	root	_	AlignBegin=59315|AlignEnd=59625|Gloss=NEG|Scrap=Yes
 17	&//	&//	X	_	_	16	dep	_	AlignBegin=59625|AlignEnd=59655|Gloss=PUNCT
 
 # sent_id = ENU_02_Christmas-At-New-Berries_MG__24
@@ -419,7 +420,7 @@
 14	>+	>+	X	_	_	15	dep	_	AlignBegin=61490|AlignEnd=61520|Gloss=PUNCT
 15	fine	fine	ADJ	_	_	13	advcl:cleft	_	AlignBegin=61520|AlignEnd=61900|Gloss=fine
 16	reach	reach	VERB	_	_	15	compound:svc	_	AlignBegin=61900|AlignEnd=62100|Gloss=reach
-17	dat	dat	DET	_	Number=Sing|PronType=Dem	18	det	_	AlignBegin=62100|AlignEnd=62310|Gloss=SG.DEM
+17	dat	dat	DET	_	Number=Sing	18	det	_	AlignBegin=62100|AlignEnd=62310|Gloss=SG.DEM
 18	one	one	NOUN	_	_	16	obj	_	AlignBegin=62310|AlignEnd=62540|Gloss=one
 19	]	]	X	_	_	13	dep	_	AlignBegin=62540|AlignEnd=62570|Gloss=PUNCT
 20	//	//	X	_	_	10	dep	_	AlignBegin=62540|AlignEnd=62570|Gloss=PUNCT
@@ -437,7 +438,7 @@
 5	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	AlignBegin=64626|AlignEnd=64776|Gloss=NOM.PL.1
 6	con	con	AUX	_	Aspect=Cons	7	aux	_	AlignBegin=64776|AlignEnd=65176|Gloss=CONS
 7	begin	begin	VERB	_	_	0	root	_	AlignBegin=65176|AlignEnd=65503|Gloss=begin
-8	go	go	VERB	_	_	7	ccomp	_	AlignBegin=65503|AlignEnd=65597|Gloss=go
+8	go	go	VERB	_	_	7	xcomp	_	AlignBegin=65503|AlignEnd=65597|Gloss=go
 9	//	//	X	_	_	7	dep	_	AlignBegin=65597|AlignEnd=65627|Gloss=PUNCT
 
 # sent_id = ENU_02_Christmas-At-New-Berries_MG__26
@@ -493,8 +494,8 @@
 2	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	AlignBegin=71410|AlignEnd=71500|Gloss=NOM.SG.1
 3	tell	tell	VERB	_	_	0	root	_	AlignBegin=71500|AlignEnd=71656|Gloss=tell
 4	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	3	iobj	_	AlignBegin=71656|AlignEnd=71820|Gloss=ACC.SG.3
-5	sey	sey	SCONJ	_	_	6	ccomp	_	AlignBegin=71820|AlignEnd=71990|Gloss=COMP
-6	okay	OK	INTJ	_	_	3	dep:comp	_	AlignBegin=71990|AlignEnd=72401|Gloss=OK
+5	sey	sey	SCONJ	_	_	6	case	_	AlignBegin=71820|AlignEnd=71990|Gloss=COMP
+6	okay	OK	INTJ	_	_	3	obj	_	AlignBegin=71990|AlignEnd=72401|Gloss=OK
 7	//	//	X	_	_	3	dep	_	AlignBegin=72401|AlignEnd=72431|Gloss=PUNCT
 
 # sent_id = ENU_02_Christmas-At-New-Berries_MG__29
@@ -531,7 +532,7 @@
 # text_en = Then she told me...
 # text_ortho = She con tell me...
 1	she	she	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	AlignBegin=75978|AlignEnd=76084|Gloss=NOM.F.SG.3
-2	con	con	AUX	_	Aspect=Cons	3	aux	_	AlignBegin=76084|AlignEnd=76267|Gloss=CONS
+2	con	con	AUX	_	Aspect=Cons	3	aux	_	AlignBegin=76084|AlignEnd=76267|Gloss=CONS|Scrap=Yes
 3	tell	tell	VERB	_	_	0	root	_	AlignBegin=76267|AlignEnd=76454|Gloss=tell
 4	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obj	_	AlignBegin=76454|AlignEnd=76774|Gloss=ACC.SG.1
 5	&//	&//	X	_	_	3	dep	_	AlignBegin=76774|AlignEnd=76804|Gloss=PUNCT
@@ -579,7 +580,7 @@
 21	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	20	obj	_	AlignBegin=84148|AlignEnd=84231|Gloss=ACC.SG.3
 22	go	go	VERB	_	_	20	compound:svc	_	AlignBegin=84231|AlignEnd=84388|Gloss=go
 23	out	out	ADP	_	_	22	compound:prt	_	AlignBegin=84388|AlignEnd=84548|Gloss=out
-24	today	today	NOUN	_	_	22	obj	_	AlignBegin=84548|AlignEnd=84928|Gloss=today
+24	today	today	NOUN	_	_	22	iobj	_	AlignBegin=84548|AlignEnd=84928|Gloss=today
 25	]	]	X	_	_	20	dep	_	AlignBegin=84928|AlignEnd=84958|Gloss=PUNCT
 26	]	]	X	_	_	15	dep	_	AlignBegin=84928|AlignEnd=84958|Gloss=PUNCT
 27	//	//	X	_	_	3	dep	_	AlignBegin=84928|AlignEnd=84958|Gloss=PUNCT
@@ -658,7 +659,7 @@
 1	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	AlignBegin=90442|AlignEnd=90572|Gloss=NOM.PL.1
 2	con	con	AUX	_	Aspect=Cons	3	aux	_	AlignBegin=90572|AlignEnd=90957|Gloss=CONS
 3	go	go	VERB	_	_	0	root	_	AlignBegin=90957|AlignEnd=91740|Gloss=go
-4	Ogui	Ogui	PROPN	_	_	3	obj	_	AlignBegin=91740|AlignEnd=92232|Gloss=Ogui
+4	Ogui	Ogui	PROPN	_	_	3	iobj	_	AlignBegin=91740|AlignEnd=92232|Gloss=Ogui
 5	Road	road	NOUN	_	_	4	flat	_	AlignBegin=92232|AlignEnd=92737|Gloss=road
 6	//	//	X	_	_	3	dep	_	AlignBegin=92737|AlignEnd=92767|Gloss=PUNCT
 
@@ -682,7 +683,7 @@
 12	|c	|c	X	_	_	16	dep	_	AlignBegin=94180|AlignEnd=94210|Gloss=PUNCT
 13	abi	abi	CCONJ	_	_	16	cc	_	AlignBegin=94210|AlignEnd=94300|Gloss=or
 14	na	na	AUX	_	PartType=Cop	16	cop	_	AlignBegin=94300|AlignEnd=94368|Gloss=be
-15	dat	dat	DET	_	Number=Sing|PronType=Dem	16	det	_	AlignBegin=94368|AlignEnd=94520|Gloss=SG.DEM
+15	dat	dat	DET	_	Number=Sing	16	det	_	AlignBegin=94368|AlignEnd=94520|Gloss=SG.DEM
 16	place	place	NOUN	_	_	7	conj	_	AlignBegin=94520|AlignEnd=94870|Gloss=place
 17	dey	dey	VERB	_	VerbType=Cop	16	advcl:cleft	_	AlignBegin=94870|AlignEnd=95010|Gloss=be
 18	]	]	X	_	_	7	dep	_	AlignBegin=95010|AlignEnd=95040|Gloss=PUNCT
@@ -702,11 +703,11 @@
 6	dey	dey	AUX	_	Aspect=Imp	7	aux	_	AlignBegin=95754|AlignEnd=95900|Gloss=IPFV
 7	go	go	VERB	_	_	3	acl:relcl	_	AlignBegin=95900|AlignEnd=96409|Gloss=go
 8	#	#	X	_	_	9	dep	_	AlignBegin=96409|AlignEnd=96973|Gloss=PUNCT
-9	New	new	ADJ	_	_	7	obj	_	AlignBegin=96973|AlignEnd=97167|ExtPos=PROPN|Gloss=new|PhraseType=Title
+9	New	new	ADJ	_	_	7	iobj	_	AlignBegin=96973|AlignEnd=97167|ExtPos=PROPN|Gloss=new|Title=Yes
 10	Berries	berry	NOUN	_	Number=Plur	9	flat	_	AlignBegin=97167|AlignEnd=97573|Gloss=berry.PL|InTitle=Yes
 11	>+	>+	X	_	_	12	dep	_	AlignBegin=97573|AlignEnd=97603|Gloss=PUNCT
 12	be	be	VERB	_	PartType=Cop	3	advcl:cleft	_	AlignBegin=97603|AlignEnd=97743|Gloss=be
-13	dat	dat	PRON	_	Number=Sing|PronType=Dem	12	nsubj	_	AlignBegin=97743|AlignEnd=98160|Gloss=SG.DEM
+13	dat	dat	PRON	_	Number=Sing	12	nsubj	_	AlignBegin=97743|AlignEnd=98160|Gloss=SG.DEM
 14	//	//	X	_	_	3	dep	_	AlignBegin=98160|AlignEnd=98190|Gloss=PUNCT
 
 # sent_id = ENU_02_Christmas-At-New-Berries_MG__42
@@ -729,7 +730,7 @@
 12	#	#	X	_	_	13	dep	_	AlignBegin=101675|AlignEnd=102931|Gloss=PUNCT
 13	trek	trek	VERB	_	_	10	parataxis:conj	_	AlignBegin=102931|AlignEnd=103361|Gloss=trek
 14	go	go	VERB	_	_	13	compound:svc	_	AlignBegin=103361|AlignEnd=104317|Gloss=go
-15	New	new	ADJ	_	_	14	obj	_	AlignBegin=104317|AlignEnd=104623|ExtPos=PROPN|Gloss=new|PhraseType=Title
+15	New	new	ADJ	_	_	14	iobj	_	AlignBegin=104317|AlignEnd=104623|ExtPos=PROPN|Gloss=new|Title=Yes
 16	Berries	berry	NOUN	_	Number=Plur	15	flat	_	AlignBegin=104623|AlignEnd=105162|Gloss=berry.PL|InTitle=Yes
 17	//	//	X	_	_	5	dep	_	AlignBegin=105162|AlignEnd=105192|Gloss=PUNCT
 
@@ -740,16 +741,16 @@
 # text_en = When we got there, there was a lot of people because it was Christmas.
 # text_ortho = When we reach, people plenty now because sey na Christmas.
 1	#	#	X	_	_	8	dep	_	AlignBegin=105192|AlignEnd=105736|Gloss=PUNCT
-2	when	when	SCONJ	_	PronType=Int	4	mark	_	AlignBegin=105736|AlignEnd=105932|Gloss=when.Q
+2	when	when	ADV	_	PronType=Int	8	advmod	_	AlignBegin=105736|AlignEnd=105932|Gloss=when.Q
 3	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	AlignBegin=105932|AlignEnd=106146|Gloss=NOM.PL.1
-4	reach	reach	VERB	_	_	8	advcl	_	AlignBegin=106146|AlignEnd=106567|Gloss=reach
-5	<	<	X	_	_	4	dep	_	AlignBegin=106567|AlignEnd=106597|Gloss=PUNCT
-6	#	#	X	_	_	4	dep	_	AlignBegin=106597|AlignEnd=106890|Gloss=PUNCT
+4	reach	reach	VERB	_	_	2	ccomp	_	AlignBegin=106146|AlignEnd=106567|Gloss=reach
+5	<	<	X	_	_	2	dep	_	AlignBegin=106567|AlignEnd=106597|Gloss=PUNCT
+6	#	#	X	_	_	2	dep	_	AlignBegin=106597|AlignEnd=106890|Gloss=PUNCT
 7	people	people	NOUN	_	Number=Plur	8	nsubj	_	AlignBegin=106890|AlignEnd=107412|Gloss=people.PL
 8	plenty	plenty	ADJ	_	_	0	root	_	AlignBegin=107412|AlignEnd=107942|ExtPos=VERB|Gloss=plenty
 9	now	now	ADV	_	_	8	advmod	_	AlignBegin=107942|AlignEnd=108218|Gloss=now
 10	#	#	X	_	_	14	dep	_	AlignBegin=108248|AlignEnd=108725|Gloss=PUNCT
-11	because	because	SCONJ	_	_	14	mark	_	AlignBegin=108725|AlignEnd=109057|ExtPos=SCONJ|Gloss=because|PhraseType=Idiom
+11	because	because	SCONJ	_	_	14	mark	_	AlignBegin=108725|AlignEnd=109057|ExtPos=SCONJ|Gloss=because|Idiom=Yes
 12	sey	sey	SCONJ	_	_	11	fixed	_	AlignBegin=109057|AlignEnd=109347|Gloss=COMP|InIdiom=Yes
 13	na	na	AUX	_	PartType=Cop	14	cop	_	AlignBegin=109377|AlignEnd=110097|Gloss=be
 14	Christmas	Christmas	PROPN	_	_	8	advcl	_	AlignBegin=110097|AlignEnd=110780|Gloss=Christmas
@@ -775,7 +776,7 @@
 # text_ortho = De dey find...
 1	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	AlignBegin=111650|AlignEnd=111896|Gloss=NOM.PL.3
 2	dey	dey	AUX	_	Aspect=Imp	3	aux	_	AlignBegin=111896|AlignEnd=112060|Gloss=IPFV
-3	find	find	VERB	_	_	0	root	_	AlignBegin=112060|AlignEnd=112508|Gloss=find
+3	find	find	VERB	_	_	0	root	_	AlignBegin=112060|AlignEnd=112508|Gloss=find|Scrap=Yes
 4	&//	&//	X	_	_	3	dep	_	AlignBegin=112060|AlignEnd=112508|Gloss=PUNCT
 
 # sent_id = ENU_02_Christmas-At-New-Berries_MG__46
@@ -857,7 +858,7 @@
 11	#	#	X	_	_	16	dep	_	AlignBegin=124479|AlignEnd=125694|Gloss=PUNCT
 12	and	and	CCONJ	_	_	16	cc	_	AlignBegin=125694|AlignEnd=126054|Gloss=and
 13	eh	eh	INTJ	_	_	16	discourse	_	AlignBegin=126084|AlignEnd=126406|Gloss=eh
-14	dat	dat	DET	_	Number=Sing|PronType=Dem	16	det	_	AlignBegin=126436|AlignEnd=126682|Gloss=SG.DEM
+14	dat	dat	DET	_	Number=Sing	16	det	_	AlignBegin=126436|AlignEnd=126682|Gloss=SG.DEM
 15	my	my	PRON	_	Number=Sing|Person=1|Poss=Yes	16	nmod:poss	_	AlignBegin=126682|AlignEnd=126886|Gloss=SG.1.POSS
 16	cousin	cousin	NOUN	_	_	5	conj	_	AlignBegin=126886|AlignEnd=127308|Gloss=cousin
 17	}	}	X	_	_	5	dep	_	AlignBegin=127308|AlignEnd=127338|Gloss=PUNCT
@@ -930,13 +931,13 @@
 1	#	#	X	_	_	9	dep	_	AlignBegin=136992|AlignEnd=137705|Gloss=PUNCT
 2	{	{	X	_	_	3	dep	_	AlignBegin=137675|AlignEnd=137705|Gloss=PUNCT
 3	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	AlignBegin=137705|AlignEnd=137860|Gloss=NOM.PL.1|Lang=en
-4	ju	ju	X	_	_	3	dep	_	AlignBegin=137860|AlignEnd=137960|Gloss=X|Lang=en
+4	ju	ju	X	_	_	3	dep	_	AlignBegin=137860|AlignEnd=137960|Gloss=X|Lang=en|Scrap=Yes
 5	||	||	X	_	_	6	dep	_	AlignBegin=137960|AlignEnd=137990|Gloss=PUNCT
 6	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	reparandum	_	AlignBegin=137990|AlignEnd=138260|Gloss=NOM.PL.1|Lang=en
 7	just	just	ADV	_	_	9	advmod	_	AlignBegin=138260|AlignEnd=138610|Gloss=just|Lang=en
 8	}	}	X	_	_	3	dep	_	AlignBegin=138610|AlignEnd=138640|Gloss=PUNCT
 9	went	go	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	AlignBegin=138640|AlignEnd=139050|Gloss=go.IND.PST.FIN|Lang=en
-10	home	home	NOUN	_	_	9	obj	_	AlignBegin=139050|AlignEnd=139240|Gloss=home|Lang=en
+10	home	home	NOUN	_	_	9	iobj	_	AlignBegin=139050|AlignEnd=139240|Gloss=home|Lang=en
 11	{	{	X	_	_	12	dep	_	AlignBegin=139240|AlignEnd=139270|Gloss=PUNCT
 12	around	around	ADP	_	_	9	dep	_	AlignBegin=139270|AlignEnd=140182|Gloss=around|Lang=en
 13	||	||	X	_	_	15	dep	_	AlignBegin=140182|AlignEnd=140212|Gloss=PUNCT
@@ -964,7 +965,7 @@
 # text_en = That's when we left New Berries.
 # text_ortho = Na im wey we comot for New Berries.
 1	#	#	X	_	_	2	dep	_	AlignBegin=145600|AlignEnd=146034|Gloss=PUNCT
-2	na	na	AUX	_	PartType=Cop	0	root	_	AlignBegin=146034|AlignEnd=146162|ExtPos=SCONJ|Gloss=be|PhraseType=Idiom
+2	na	na	AUX	_	PartType=Cop	0	root	_	AlignBegin=146034|AlignEnd=146162|ExtPos=SCONJ|Gloss=be|Idiom=Yes
 3	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	fixed	_	AlignBegin=146162|AlignEnd=146248|Gloss=NOM.SG.3|InIdiom=Yes
 4	>+	>+	X	_	_	7	dep	_	AlignBegin=146248|AlignEnd=146278|Gloss=PUNCT
 5	wey	when	SCONJ	_	_	7	mark	_	AlignBegin=146278|AlignEnd=146407|Gloss=when
@@ -988,9 +989,9 @@
 5	[	[	X	_	_	7	dep	_	AlignBegin=149244|AlignEnd=149274|Gloss=PUNCT
 6	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	AlignBegin=149274|AlignEnd=149456|Gloss=NOM.PL.3
 7	want	want	VERB	_	_	4	parataxis	_	AlignBegin=149456|AlignEnd=149787|Gloss=want
-8	do	do	VERB	_	_	7	ccomp	_	AlignBegin=149787|AlignEnd=150344|Gloss=do
+8	do	do	VERB	_	_	7	xcomp	_	AlignBegin=149787|AlignEnd=150344|Gloss=do
 9	video	video	NOUN	_	_	10	compound	_	AlignBegin=150344|AlignEnd=150975|Gloss=video
-10	chatting	chat	VERB	_	Tense=Past|VerbForm=Part	8	obj:lvc	_	AlignBegin=150975|AlignEnd=151539|Gloss=chat.PST.PTCP
+10	chatting	chat	VERB	_	Tense=Past|VerbForm=Part	8	ccomp	_	AlignBegin=150975|AlignEnd=151539|Gloss=chat.PST.PTCP
 11	for	for	ADP	_	_	13	case	_	AlignBegin=151539|AlignEnd=152436|Gloss=for
 12	#	#	X	_	_	13	dep	_	AlignBegin=152436|AlignEnd=153012|Gloss=PUNCT
 13	road	road	NOUN	_	_	8	obl:mod	_	AlignBegin=153012|AlignEnd=153460|Gloss=road
@@ -1114,8 +1115,8 @@
 18	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	20	nsubj	_	AlignBegin=171999|AlignEnd=172119|Gloss=NOM.PL.1
 19	con	con	AUX	_	Aspect=Cons	20	aux	_	AlignBegin=172119|AlignEnd=172322|Gloss=CONS
 20	begin	begin	VERB	_	_	15	conj	_	AlignBegin=172322|AlignEnd=172690|Gloss=begin
-21	go	go	VERB	_	_	20	ccomp	_	AlignBegin=172690|AlignEnd=173005|Gloss=go
-22	home	home	NOUN	_	_	21	obj	_	AlignBegin=173005|AlignEnd=173257|Gloss=home
+21	go	go	VERB	_	_	20	xcomp	_	AlignBegin=172690|AlignEnd=173005|Gloss=go
+22	home	home	NOUN	_	_	21	iobj	_	AlignBegin=173005|AlignEnd=173257|Gloss=home
 23	}	}	X	_	_	15	dep	_	AlignBegin=173257|AlignEnd=173287|Gloss=PUNCT
 24	//	//	X	_	_	2	dep	_	AlignBegin=173257|AlignEnd=173287|Gloss=PUNCT
 
@@ -1134,7 +1135,7 @@
 7	//=	//=	X	_	_	9	dep	_	AlignBegin=175492|AlignEnd=175522|Gloss=PUNCT
 8	con	con	AUX	_	Aspect=Cons	9	aux	_	AlignBegin=175522|AlignEnd=175712|Gloss=CONS
 9	begin	begin	VERB	_	_	4	parataxis:conj	_	AlignBegin=175712|AlignEnd=176032|Gloss=begin
-10	do	do	VERB	_	_	9	ccomp	_	AlignBegin=176032|AlignEnd=176150|Gloss=do
+10	do	do	VERB	_	_	9	xcomp	_	AlignBegin=176032|AlignEnd=176150|Gloss=do
 11	di	di	DET	_	Definite=Def|PronType=Art	12	det	_	AlignBegin=176150|AlignEnd=176319|Gloss=DEF.ART
 12	tin	ting	NOUN	_	_	10	obj	_	AlignBegin=176319|AlignEnd=176450|Gloss=thing
 13	//	//	X	_	_	4	dep	_	AlignBegin=176450|AlignEnd=176480|Gloss=PUNCT
@@ -1204,7 +1205,7 @@
 3	so	so	ADV	_	_	0	root	_	AlignBegin=184682|AlignEnd=184983|Gloss=so
 4	>+	>+	X	_	_	6	dep	_	AlignBegin=184983|AlignEnd=185062|Gloss=PUNCT
 5	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	AlignBegin=184983|AlignEnd=185062|Gloss=NOM.PL.1
-6	take	take	VERB	_	_	3	advcl:cleft	_	AlignBegin=185062|AlignEnd=185512|Gloss=take
+6	take	take	VERB	_	_	3	advcl:cleft	_	AlignBegin=185062|AlignEnd=185512|Gloss=take|Scrap=Yes
 7	&//	&//	X	_	_	3	dep	_	AlignBegin=185512|AlignEnd=185542|Gloss=PUNCT
 
 # sent_id = ENU_02_Christmas-At-New-Berries_MG__66

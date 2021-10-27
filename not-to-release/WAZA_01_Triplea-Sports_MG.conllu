@@ -1,4 +1,5 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = WAZA_01_Triplea-Sports_MG__1
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/WAZA_01_Triplea-Sports_MG.mp3
 # speaker_id = Sp278
@@ -19,12 +20,12 @@
 12	and	and	CCONJ	_	_	14	cc	_	AlignBegin=3863|AlignEnd=4228|Gloss=and
 13	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	14	nsubj	_	AlignBegin=4228|AlignEnd=4325|Gloss=NOM.PL.3
 14	wan	want	VERB	_	_	2	conj	_	AlignBegin=4325|AlignEnd=4410|Gloss=want
-15	meh	make	AUX	_	Mood=Opt	20	aux	_	AlignBegin=4410|AlignEnd=4500|Gloss=SBJV
+15	meh	make	SCONJ	_	_	20	mark	_	AlignBegin=4410|AlignEnd=4500|Gloss=COMP
 16	Nigerians	Nigerian	PROPN	_	Number=Plur	20	nsubj	_	AlignBegin=4500|AlignEnd=4953|Gloss=Nigerian+PL
 17	ah	ah	INTJ	_	_	20	discourse	_	AlignBegin=4953|AlignEnd=5110|Gloss=ah
 18	#	#	X	_	_	17	dep	_	AlignBegin=5110|AlignEnd=5250|Gloss=PUNCT
 19	dey	dey	AUX	_	Aspect=Imp	20	aux	_	AlignBegin=5250|AlignEnd=5483|Gloss=IPFV
-20	watch	watch	VERB	_	_	14	ccomp	_	AlignBegin=5483|AlignEnd=5708|Gloss=watch
+20	watch	watch	VERB	_	_	14	xcomp	_	AlignBegin=5483|AlignEnd=5708|Gloss=watch
 21	di	di	DET	_	Definite=Def|PronType=Art	22	det	_	AlignBegin=5708|AlignEnd=5857|Gloss=DEF.ART
 22	match	match	NOUN	_	_	20	obj	_	AlignBegin=5857|AlignEnd=6110|Gloss=match
 23	//	//	X	_	_	2	dep	_	AlignBegin=6110|AlignEnd=6140|Gloss=PUNCT
@@ -66,12 +67,12 @@
 29	{	{	X	_	_	30	dep	_	AlignBegin=11600|AlignEnd=11630|Gloss=PUNCT
 30	NNL	NNL	PROPN	_	_	28	obj	_	AlignBegin=11630|AlignEnd=12440|Gloss=NNL
 31	|a	|a	X	_	_	35	dep	_	AlignBegin=12470|AlignEnd=12880|Gloss=PUNCT
-32	Nigeria	Nigeria	PROPN	_	_	35	compound	_	AlignBegin=12470|AlignEnd=12880|ExtPos=PROPN|Gloss=Nigeria|PhraseType=Title
+32	Nigeria	Nigeria	PROPN	_	_	35	compound	_	AlignBegin=12470|AlignEnd=12880|ExtPos=PROPN|Gloss=Nigeria|Title=Yes
 33	National	national	ADJ	_	_	32	flat	_	AlignBegin=12880|AlignEnd=13260|Gloss=national|InTitle=Yes
 34	League	League	PROPN	_	_	32	flat	_	AlignBegin=13260|AlignEnd=13460|Gloss=League|InTitle=Yes
 35	side	side	NOUN	_	_	30	appos	_	AlignBegin=13460|AlignEnd=13490|Gloss=side
 36	|a	|a	X	_	_	37	dep	_	AlignBegin=13490|AlignEnd=13830|Gloss=PUNCT
-37	Osun	Osun	PROPN	_	_	35	appos	_	AlignBegin=13830|AlignEnd=14210|ExtPos=PROPN|Gloss=Osun|PhraseType=Title
+37	Osun	Osun	PROPN	_	_	35	appos	_	AlignBegin=13830|AlignEnd=14210|ExtPos=PROPN|Gloss=Osun|Title=Yes
 38	United	United	ADJ	_	_	37	flat	_	AlignBegin=14210|AlignEnd=14720|Gloss=United|InTitle=Yes
 39	}	}	X	_	_	30	dep	_	AlignBegin=14720|AlignEnd=14750|Gloss=PUNCT
 40	<	<	X	_	_	26	dep	_	AlignBegin=14720|AlignEnd=14750|Gloss=PUNCT
@@ -87,27 +88,27 @@
 50	attack	attack	VERB	_	_	22	ccomp	_	AlignBegin=17050|AlignEnd=17499|Gloss=attack
 51	dem	dem	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	50	obj	_	AlignBegin=17499|AlignEnd=17750|Gloss=ACC.PL.3
 52	#	#	X	_	_	55	dep	_	AlignBegin=17750|AlignEnd=17940|Gloss=PUNCT
-53	for	for	ADP	_	_	55	case	_	AlignBegin=17940|AlignEnd=18088|ExtPos=ADP|Gloss=for|PhraseType=Idiom
+53	for	for	ADP	_	_	55	case	_	AlignBegin=17940|AlignEnd=18088|ExtPos=ADP|Gloss=for|Idiom=Yes
 54	inside	inside	ADP	_	_	53	fixed	_	AlignBegin=18088|AlignEnd=18512|Gloss=inside|InIdiom=Yes
 55	night	night	NOUN	_	_	50	obl:mod	_	AlignBegin=18512|AlignEnd=18852|Gloss=night
 56	o	o	PART	_	PartType=Disc	50	advmod	_	AlignBegin=18852|AlignEnd=18940|Gloss=EMPH
-57	for	for	ADP	_	_	61	mark	_	AlignBegin=18970|AlignEnd=19180|Gloss=for
-58	when	when	SCONJ	_	PronType=Int	61	mark	_	AlignBegin=19180|AlignEnd=19360|Gloss=when.Q
+57	for	for	ADP	_	_	58	case	_	AlignBegin=18970|AlignEnd=19180|Gloss=for
+58	when	when	ADV	_	PronType=Int	50	advmod	_	AlignBegin=19180|AlignEnd=19360|Gloss=when.Q
 59	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	61	nsubj	_	AlignBegin=19360|AlignEnd=19444|Gloss=NOM.PL.3
 60	dey	dey	AUX	_	Aspect=Imp	61	aux	_	AlignBegin=19444|AlignEnd=19560|Gloss=IPFV
-61	travel	travel	VERB	_	_	50	advcl	_	AlignBegin=19560|AlignEnd=19880|Gloss=travel
+61	travel	travel	VERB	_	_	58	ccomp	_	AlignBegin=19560|AlignEnd=19880|Gloss=travel
 62	comot	comot	VERB	_	_	61	compound:svc	_	AlignBegin=19880|AlignEnd=20167|Gloss=get_out
 63	eh	eh	INTJ	_	_	68	discourse	_	AlignBegin=20167|AlignEnd=20320|Gloss=eh
 64	#	#	X	_	_	68	dep	_	AlignBegin=20320|AlignEnd=20494|Gloss=PUNCT
 65	from	from	ADP	_	_	68	case	_	AlignBegin=20494|AlignEnd=20975|Gloss=from
-66	of	of	ADP	_	_	68	discourse	_	AlignBegin=20975|AlignEnd=21125|ExtPos=ADV|Gloss=of|PhraseType=Idiom
+66	of	of	ADP	_	_	68	discourse	_	AlignBegin=20975|AlignEnd=21125|ExtPos=ADV|Gloss=of|Idiom=Yes
 67	course	course	NOUN	_	_	66	fixed	_	AlignBegin=21125|AlignEnd=21561|Gloss=course|InIdiom=Yes
 68	Calabar	Calabar	PROPN	_	_	62	obl:arg	_	AlignBegin=21561|AlignEnd=21935|Gloss=Calabar
 69	dey	dey	AUX	_	Aspect=Imp	70	aux	_	AlignBegin=21965|AlignEnd=22125|Gloss=IPFV
 70	go	go	VERB	_	_	62	advcl	_	AlignBegin=22125|AlignEnd=22495|Gloss=go
 71	#	#	X	_	_	73	dep	_	AlignBegin=22495|AlignEnd=22645|Gloss=PUNCT
 72	yesterday	yesterday	NOUN	_	_	73	nmod	_	AlignBegin=22645|AlignEnd=23055|Gloss=yesterday
-73	venue	venue	NOUN	_	_	70	obj	_	AlignBegin=23055|AlignEnd=23485|Gloss=venue
+73	venue	venue	NOUN	_	_	70	iobj	_	AlignBegin=23055|AlignEnd=23485|Gloss=venue
 74	]	]	X	_	_	50	dep	_	AlignBegin=23485|AlignEnd=23515|Gloss=PUNCT
 75	//	//	X	_	_	11	dep	_	AlignBegin=23485|AlignEnd=23515|Gloss=PUNCT
 
@@ -129,7 +130,7 @@
 10	Ore	Ore	PROPN	_	_	13	nmod	_	AlignBegin=24977|AlignEnd=25355|Gloss=Ore|InTitle=Yes
 11	Ondo	Ondo	PROPN	_	_	10	flat	_	AlignBegin=25355|AlignEnd=25691|Gloss=Ondo|InTitle=Yes
 12	Akure	Akure	PROPN	_	_	10	flat	_	AlignBegin=25721|AlignEnd=26065|Gloss=Akure|InTitle=Yes
-13	expressway	expressway	NOUN	_	_	7	parataxis	_	AlignBegin=26095|AlignEnd=26425|ExtPos=PROPN|Gloss=expressway|PhraseType=Title
+13	expressway	expressway	NOUN	_	_	7	parataxis	_	AlignBegin=26095|AlignEnd=26425|ExtPos=PROPN|Gloss=expressway|Title=Yes
 14	]	]	X	_	_	13	dep	_	AlignBegin=26575|AlignEnd=26605|Gloss=PUNCT
 15	//	//	X	_	_	7	dep	_	AlignBegin=26575|AlignEnd=26605|Gloss=PUNCT
 
@@ -148,7 +149,7 @@
 7	wey	wey	SCONJ	_	_	9	mark	_	AlignBegin=27655|AlignEnd=27845|Gloss=REL
 8	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	AlignBegin=27845|AlignEnd=27983|Gloss=NOM.PL.3
 9	waka	waka	VERB	_	_	6	acl:relcl	_	AlignBegin=27983|AlignEnd=28425|Gloss=walk
-10	for	for	ADP	_	_	12	case	_	AlignBegin=28425|AlignEnd=28565|ExtPos=ADP|Gloss=for|PhraseType=Idiom
+10	for	for	ADP	_	_	12	case	_	AlignBegin=28425|AlignEnd=28565|ExtPos=ADP|Gloss=for|Idiom=Yes
 11	inside	inside	ADP	_	_	10	fixed	_	AlignBegin=28565|AlignEnd=28815|Gloss=inside|InIdiom=Yes
 12	midnight	midnight	NOUN	_	_	9	obl:arg	_	AlignBegin=28815|AlignEnd=29457|Gloss=midnight
 13	come	con	AUX	_	Aspect=Cons	14	aux	_	AlignBegin=29457|AlignEnd=29715|Gloss=CONS
@@ -208,7 +209,7 @@
 13	dis	dis	DET	_	Number=Sing|PronType=Dem	14	det	_	AlignBegin=37797|AlignEnd=37876|Gloss=SG.DEM
 14	morning	morning	NOUN	_	_	12	obl:mod	_	AlignBegin=37876|AlignEnd=38171|Gloss=morning
 15	from	from	ADP	_	_	18	case	_	AlignBegin=38171|AlignEnd=38485|Gloss=from
-16	Osun	Osun	PROPN	_	_	18	nmod	_	AlignBegin=38485|AlignEnd=38735|ExtPos=PROPN|Gloss=Osun|PhraseType=Title
+16	Osun	Osun	PROPN	_	_	18	nmod	_	AlignBegin=38485|AlignEnd=38735|ExtPos=PROPN|Gloss=Osun|Title=Yes
 17	United	United	ADJ	_	_	16	flat	_	AlignBegin=38735|AlignEnd=39025|Gloss=United|InTitle=Yes
 18	spokesperson	spokesperson	NOUN	_	_	12	obl:arg	_	AlignBegin=39025|AlignEnd=39367|Gloss=spokesperson
 19	wey	wey	SCONJ	_	_	21	mark	_	AlignBegin=39367|AlignEnd=39452|Gloss=REL
@@ -233,7 +234,7 @@
 38	critical	critical	ADJ	_	_	39	amod	_	AlignBegin=43090|AlignEnd=43614|Gloss=critical
 39	situation	situation	NOUN	_	_	35	parataxis	_	AlignBegin=43614|AlignEnd=44020|Gloss=situation
 40	>+	>+	X	_	_	45	dep	_	AlignBegin=44020|AlignEnd=44050|Gloss=PUNCT
-41	na	na	AUX	_	PartType=Cop	45	mark	_	AlignBegin=44050|AlignEnd=44168|ExtPos=SCONJ|Gloss=be|PhraseType=Idiom
+41	na	na	AUX	_	PartType=Cop	45	mark	_	AlignBegin=44050|AlignEnd=44168|ExtPos=SCONJ|Gloss=be|Idiom=Yes
 42	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	41	fixed	_	AlignBegin=44168|AlignEnd=44240|Gloss=NOM.SG.3|InIdiom=Yes
 43	be	be	AUX	_	PartType=Cop	45	cop	_	AlignBegin=44240|AlignEnd=44350|Gloss=be
 44	im	im	PRON	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	45	obl:mod	_	AlignBegin=44350|AlignEnd=44440|Gloss=3.SG.POSS
@@ -259,7 +260,7 @@
 9	inside	inside	ADP	_	_	11	case	_	AlignBegin=46085|AlignEnd=46375|Gloss=inside
 10	general	general	NOUN	_	_	11	nmod	_	AlignBegin=46375|AlignEnd=46656|Gloss=general
 11	hospital	hospital	NOUN	_	_	6	nmod	_	AlignBegin=46656|AlignEnd=47308|Gloss=hospital
-12	for	for	ADP	_	_	14	case	_	AlignBegin=47308|AlignEnd=47515|ExtPos=ADP|Gloss=for|PhraseType=Idiom
+12	for	for	ADP	_	_	14	case	_	AlignBegin=47308|AlignEnd=47515|ExtPos=ADP|Gloss=for|Idiom=Yes
 13	inside	inside	ADP	_	_	12	fixed	_	AlignBegin=47515|AlignEnd=48035|Gloss=inside|InIdiom=Yes
 14	Ondo	Ondo	PROPN	_	_	11	nmod	_	AlignBegin=48035|AlignEnd=48440|Gloss=Ondo
 15	//	//	X	_	_	3	dep	_	AlignBegin=48440|AlignEnd=48470|Gloss=PUNCT
@@ -291,7 +292,7 @@
 19	level	level	NOUN	_	_	13	nmod	_	AlignBegin=51910|AlignEnd=52160|Gloss=level
 20	]	]	X	_	_	12	dep	_	AlignBegin=52160|AlignEnd=52400|Gloss=PUNCT
 21	>	>	X	_	_	22	dep	_	AlignBegin=52160|AlignEnd=52400|Gloss=PUNCT
-22	plus	plus	CCONJ	_	_	9	dislocated	_	AlignBegin=52160|AlignEnd=52400|ExtPos=ADP|Gloss=plus|PhraseType=Idiom
+22	plus	plus	CCONJ	_	_	9	dislocated	_	AlignBegin=52160|AlignEnd=52400|ExtPos=ADP|Gloss=plus|Idiom=Yes
 23	including	including	VERB	_	_	22	fixed	_	AlignBegin=52400|AlignEnd=52670|Gloss=including|InIdiom=Yes
 24	goal	goal	NOUN	_	_	25	compound	_	AlignBegin=52670|AlignEnd=52800|Gloss=goal
 25	keeper	keeper	NOUN	_	_	22	conj	_	AlignBegin=52800|AlignEnd=53055|Gloss=keeper
@@ -316,7 +317,7 @@
 11	[	[	X	_	_	18	dep	_	AlignBegin=56445|AlignEnd=56475|Gloss=PUNCT
 12	all	all	DET	_	_	18	dislocated	_	AlignBegin=56475|AlignEnd=56645|Gloss=all
 13	of	of	ADP	_	_	14	case	_	AlignBegin=56645|AlignEnd=56755|Gloss=of
-14	dem	dem	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	12	dep	_	AlignBegin=56755|AlignEnd=56995|Gloss=ACC.PL.3
+14	dem	dem	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	12	obl:mod	_	AlignBegin=56755|AlignEnd=56995|Gloss=ACC.PL.3
 15	o	o	PART	_	PartType=Disc	12	advmod	_	AlignBegin=56995|AlignEnd=57130|Gloss=EMPH
 16	<	<	X	_	_	12	dep	_	AlignBegin=57130|AlignEnd=57160|Gloss=PUNCT
 17	na	na	AUX	_	PartType=Cop	18	cop	_	AlignBegin=57160|AlignEnd=57290|Gloss=be
@@ -328,12 +329,12 @@
 23	carry	carry	VERB	_	_	18	advcl:cleft	_	AlignBegin=58140|AlignEnd=58573|Gloss=carry
 24	take	take	SCONJ	_	_	25	mark	_	AlignBegin=58573|AlignEnd=58730|Gloss=to
 25	come	come	VERB	_	_	23	advcl	_	AlignBegin=58730|AlignEnd=58893|Gloss=come
-26	butcher	butcher	VERB	_	_	25	ccomp	_	AlignBegin=58893|AlignEnd=59160|Gloss=butcher
+26	butcher	butcher	VERB	_	_	25	compound:svc	_	AlignBegin=58893|AlignEnd=59160|Gloss=butcher
 27	deir	dem	PRON	_	Number=Plur|Person=3|Poss=Yes	28	nmod:poss	_	AlignBegin=59160|AlignEnd=59303|Gloss=PL.3.POSS
 28	body	body	NOUN	_	_	26	obj	_	AlignBegin=59303|AlignEnd=59555|Gloss=body
 29	#	#	X	_	_	36	dep	_	AlignBegin=59555|AlignEnd=59785|Gloss=PUNCT
 30	ahah	ahah	INTJ	_	_	36	discourse	_	AlignBegin=59785|AlignEnd=60012|Gloss=ah
-31	for	for	ADP	_	_	36	case	_	AlignBegin=60012|AlignEnd=60125|ExtPos=ADP|Gloss=for|PhraseType=Idiom
+31	for	for	ADP	_	_	36	case	_	AlignBegin=60012|AlignEnd=60125|ExtPos=ADP|Gloss=for|Idiom=Yes
 32	inside	inside	ADP	_	_	31	fixed	_	AlignBegin=60125|AlignEnd=60395|Gloss=inside|InIdiom=Yes
 33	di	di	DET	_	Definite=Def|PronType=Art	36	det	_	AlignBegin=60395|AlignEnd=60525|Gloss=DEF.ART
 34	arm	arm	NOUN	_	_	35	compound	_	AlignBegin=60525|AlignEnd=60745|Gloss=arm
@@ -355,7 +356,7 @@
 2	yes	yes	INTJ	_	_	17	discourse	_	AlignBegin=61905|AlignEnd=62075|Gloss=yes
 3	o	o	PART	_	PartType=Disc	2	advmod	_	AlignBegin=62075|AlignEnd=62170|Gloss=EMPH
 4	{	{	X	_	_	7	dep	_	AlignBegin=62170|AlignEnd=62200|Gloss=PUNCT
-5	Osun	Osun	PROPN	_	_	7	nmod	_	AlignBegin=62200|AlignEnd=62505|ExtPos=PROPN|Gloss=Osun|PhraseType=Title
+5	Osun	Osun	PROPN	_	_	7	nmod	_	AlignBegin=62200|AlignEnd=62505|ExtPos=PROPN|Gloss=Osun|Title=Yes
 6	United	United	ADJ	_	_	5	flat	_	AlignBegin=62505|AlignEnd=62821|Gloss=United|InTitle=Yes
 7	coach	coach	NOUN	_	_	17	dislocated	_	AlignBegin=62821|AlignEnd=63045|Gloss=coach
 8	|a	|a	X	_	_	9	dep	_	AlignBegin=63045|AlignEnd=63075|Gloss=PUNCT
@@ -403,7 +404,7 @@
 16	seater	seater	NOUN	_	_	17	compound	_	AlignBegin=69210|AlignEnd=69510|Gloss=seater
 17	bus	bus	NOUN	_	_	0	root	_	AlignBegin=69510|AlignEnd=69660|Gloss=bus
 18	>+	>+	X	_	_	23	dep	_	AlignBegin=69660|AlignEnd=69690|Gloss=PUNCT
-19	na	na	AUX	_	PartType=Cop	23	mark	_	AlignBegin=69690|AlignEnd=69763|ExtPos=SCONJ|Gloss=be|PhraseType=Idiom
+19	na	na	AUX	_	PartType=Cop	23	mark	_	AlignBegin=69690|AlignEnd=69763|ExtPos=SCONJ|Gloss=be|Idiom=Yes
 20	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	19	fixed	_	AlignBegin=69763|AlignEnd=69790|Gloss=NOM.SG.3|InIdiom=Yes
 21	}	}	X	_	_	17	dep	_	AlignBegin=69790|AlignEnd=69820|Gloss=PUNCT
 22	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	23	nsubj	_	AlignBegin=69820|AlignEnd=69936|Gloss=NOM.PL.3
@@ -425,11 +426,11 @@
 38	eh	eh	INTJ	_	_	41	discourse	_	AlignBegin=73007|AlignEnd=73370|Gloss=eh
 39	#	#	X	_	_	38	dep	_	AlignBegin=73370|AlignEnd=73610|Gloss=PUNCT
 40	eh	eh	INTJ	_	_	41	discourse	_	AlignBegin=73610|AlignEnd=73862|Gloss=eh
-41	Unicem	Unicem	PROPN	_	_	36	reparandum	_	AlignBegin=73862|AlignEnd=74281|ExtPos=PROPN|Gloss=Unicem|PhraseType=Title
+41	Unicem	Unicem	PROPN	_	_	36	reparandum	_	AlignBegin=73862|AlignEnd=74281|ExtPos=PROPN|Gloss=Unicem|Title=Yes
 42	Rovers	Rovers	NOUN	_	_	41	flat	_	AlignBegin=74281|AlignEnd=74650|Gloss=Rovers|InTitle=Yes
 43	}	}	X	_	_	36	dep	_	AlignBegin=74650|AlignEnd=74680|Gloss=PUNCT
 44	for	for	ADP	_	_	45	case	_	AlignBegin=74680|AlignEnd=74800|Gloss=for
-45	UJ	UJ	PROPN	_	_	34	obl:mod	_	AlignBegin=74800|AlignEnd=74970|ExtPos=PROPN|Gloss=UJ|PhraseType=Title
+45	UJ	UJ	PROPN	_	_	34	obl:mod	_	AlignBegin=74800|AlignEnd=74970|ExtPos=PROPN|Gloss=UJ|Title=Yes
 46	External	external	ADJ	_	_	45	flat	_	AlignBegin=74970|AlignEnd=75420|Gloss=external|InTitle=Yes
 47	Stadium	stadium	NOUN	_	_	45	flat	_	AlignBegin=75420|AlignEnd=75685|Gloss=stadium|InTitle=Yes
 48	//	//	X	_	_	17	dep	_	AlignBegin=75685|AlignEnd=75715|Gloss=PUNCT
@@ -470,9 +471,9 @@
 4	make	make	VERB	_	_	2	advcl:cleft	_	AlignBegin=77945|AlignEnd=78095|Gloss=make
 5	deir	dem	PRON	_	Number=Plur|Person=3|Poss=Yes	7	nmod:poss	_	AlignBegin=78095|AlignEnd=78294|Gloss=PL.3.POSS
 6	#	#	X	_	_	5	dep	_	AlignBegin=75875|AlignEnd=79195|Gloss=PUNCT
-7	journey	journey	NOUN	_	_	9	nsubj	_	AlignBegin=78376|AlignEnd=78655|Gloss=journey
+7	journey	journey	NOUN	_	_	4	obj	_	AlignBegin=78376|AlignEnd=78655|Gloss=journey
 8	come	con	AUX	_	Aspect=Cons	9	aux	_	AlignBegin=78655|AlignEnd=78855|Gloss=CONS
-9	delay	delay	VERB	_	_	4	ccomp	_	AlignBegin=78855|AlignEnd=79165|Gloss=delay
+9	delay	delay	VERB	_	_	4	xcomp	_	AlignBegin=78855|AlignEnd=79165|Gloss=delay
 10	//	//	X	_	_	2	dep	_	AlignBegin=79165|AlignEnd=79195|Gloss=PUNCT
 
 # sent_id = WAZA_01_Triplea-Sports_MG__14
@@ -489,7 +490,7 @@
 6	come	con	AUX	_	Aspect=Cons	7	aux	_	AlignBegin=80195|AlignEnd=80355|Gloss=CONS
 7	catch	catch	VERB	_	_	4	advcl:cleft	_	AlignBegin=80355|AlignEnd=80545|Gloss=catch
 8	dem	dem	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	7	obj	_	AlignBegin=80545|AlignEnd=80715|Gloss=ACC.PL.3
-9	for	for	ADP	_	_	11	case	_	AlignBegin=80715|AlignEnd=80805|ExtPos=ADP|Gloss=for|PhraseType=Idiom
+9	for	for	ADP	_	_	11	case	_	AlignBegin=80715|AlignEnd=80805|ExtPos=ADP|Gloss=for|Idiom=Yes
 10	inside	inside	ADP	_	_	9	fixed	_	AlignBegin=80805|AlignEnd=81025|Gloss=inside|InIdiom=Yes
 11	Ondo	Ondo	PROPN	_	_	7	obl:arg	_	AlignBegin=81025|AlignEnd=81325|Gloss=Ondo
 12	//	//	X	_	_	4	dep	_	AlignBegin=81325|AlignEnd=81355|Gloss=PUNCT
@@ -567,17 +568,17 @@
 20	#	#	X	_	_	19	dep	_	AlignBegin=88460|AlignEnd=88670|Gloss=PUNCT
 21	as	as	ADP	_	_	23	mark	_	AlignBegin=88670|AlignEnd=88810|Gloss=as
 22	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	AlignBegin=88810|AlignEnd=88840|Gloss=NOM.SG.3
-23	take	take	VERB	_	_	28	advcl:tempo	_	AlignBegin=88840|AlignEnd=89000|Gloss=take
+23	take	take	VERB	_	_	28	advcl	_	AlignBegin=88840|AlignEnd=89000|Gloss=take
 24	be	be	VERB	_	PartType=Cop	23	compound:svc	_	AlignBegin=89000|AlignEnd=89130|Gloss=be
 25	so	so	ADV	_	_	24	advmod	_	AlignBegin=89130|AlignEnd=89310|Gloss=so
 26	<	<	X	_	_	23	dep	_	AlignBegin=89310|AlignEnd=89340|Gloss=PUNCT
 27	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	28	nsubj	_	AlignBegin=89340|AlignEnd=89450|Gloss=NOM.PL.3
 28	need	need	VERB	_	_	11	advcl	_	AlignBegin=89450|AlignEnd=89620|Gloss=need
 29	to	to	ADP	_	_	30	mark	_	AlignBegin=89620|AlignEnd=89700|Gloss=to
-30	continue	continue	VERB	_	_	28	ccomp	_	AlignBegin=89700|AlignEnd=90110|Gloss=continue
+30	continue	continue	VERB	_	_	28	xcomp	_	AlignBegin=89700|AlignEnd=90110|Gloss=continue
 31	to	to	ADP	_	_	33	mark	_	AlignBegin=90110|AlignEnd=90220|Gloss=to
 32	dey	dey	AUX	_	Aspect=Imp	33	aux	_	AlignBegin=90220|AlignEnd=90390|Gloss=IPFV
-33	do	do	VERB	_	_	30	ccomp	_	AlignBegin=90390|AlignEnd=90530|Gloss=do
+33	do	do	VERB	_	_	30	xcomp	_	AlignBegin=90390|AlignEnd=90530|Gloss=do
 34	deir	dem	PRON	_	Number=Plur|Person=3|Poss=Yes	35	nmod:poss	_	AlignBegin=90530|AlignEnd=90700|Gloss=PL.3.POSS
 35	trade	trade	NOUN	_	_	33	obj	_	AlignBegin=90700|AlignEnd=90920|Gloss=trade
 36	wen	wey	SCONJ	_	_	38	mark	_	AlignBegin=90920|AlignEnd=91050|Gloss=REL
@@ -601,7 +602,7 @@
 8	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	AlignBegin=93105|AlignEnd=93185|Gloss=NOM.PL.1
 9	go	go	VERB	_	_	16	advcl	_	AlignBegin=93185|AlignEnd=93285|Gloss=go
 10	dis	dis	DET	_	Number=Sing|PronType=Dem	11	det	_	AlignBegin=93285|AlignEnd=93425|Gloss=SG.DEM
-11	morning	morning	NOUN	_	_	9	obj	_	AlignBegin=93425|AlignEnd=93710|Gloss=morning
+11	morning	morning	NOUN	_	_	9	iobj	_	AlignBegin=93425|AlignEnd=93710|Gloss=morning
 12	<	<	X	_	_	9	dep	_	AlignBegin=93710|AlignEnd=93740|Gloss=PUNCT
 13	#	#	X	_	_	9	dep	_	AlignBegin=93740|AlignEnd=93910|Gloss=PUNCT
 14	meh	make	AUX	_	Mood=Opt	16	aux	_	AlignBegin=93910|AlignEnd=93980|Gloss=SBJV
@@ -618,7 +619,7 @@
 25	<	<	X	_	_	22	dep	_	AlignBegin=95767|AlignEnd=95797|Gloss=PUNCT
 26	players	player	NOUN	_	Number=Plur	33	dislocated	_	AlignBegin=95797|AlignEnd=96170|Gloss=player.PL
 27	of	of	ADP	_	_	28	case	_	AlignBegin=96170|AlignEnd=96330|Gloss=of
-28	Real	real	ADJ	_	_	26	nmod	_	AlignBegin=96330|AlignEnd=96544|ExtPos=PROPN|Gloss=real|PhraseType=Title
+28	Real	real	ADJ	_	_	26	nmod	_	AlignBegin=96330|AlignEnd=96544|ExtPos=PROPN|Gloss=real|Title=Yes
 29	Madrid	Madrid	PROPN	_	_	28	flat	_	AlignBegin=96544|AlignEnd=97005|Gloss=Madrid|InTitle=Yes
 30	<	<	X	_	_	26	dep	_	AlignBegin=97005|AlignEnd=97035|Gloss=PUNCT
 31	#	#	X	_	_	26	dep	_	AlignBegin=97035|AlignEnd=97195|Gloss=PUNCT
@@ -661,7 +662,7 @@
 11	confirmate	confirmate	VERB	_	_	0	root	_	AlignBegin=101460|AlignEnd=101930|Gloss=confirm
 12	sey	sey	SCONJ	_	_	55	mark	_	AlignBegin=101930|AlignEnd=102000|Gloss=COMP
 13	[	[	X	_	_	55	dep	_	AlignBegin=102000|AlignEnd=102030|Gloss=PUNCT
-14	because	because	SCONJ	_	_	19	mark	_	AlignBegin=102030|AlignEnd=102370|ExtPos=ADP|Gloss=because|PhraseType=Idiom
+14	because	because	SCONJ	_	_	19	mark	_	AlignBegin=102030|AlignEnd=102370|ExtPos=ADP|Gloss=because|Idiom=Yes
 15	of	of	ADP	_	_	16	case	_	AlignBegin=102370|AlignEnd=102470|ExtPos=SCONJ|Gloss=of|InIdiom=Yes
 16	sey	sey	SCONJ	_	_	19	ccomp	_	AlignBegin=102470|AlignEnd=102630|Gloss=COMP|InIdiom=Yes
 17	[	[	X	_	_	19	dep	_	AlignBegin=102630|AlignEnd=102660|Gloss=PUNCT
@@ -679,24 +680,24 @@
 29	{	{	X	_	_	30	dep	_	AlignBegin=104320|AlignEnd=104350|Gloss=PUNCT
 30	Super	super	ADJ	_	_	28	obj	_	AlignBegin=104350|AlignEnd=104678|Gloss=super
 31	||	||	X	_	_	32	dep	_	AlignBegin=104678|AlignEnd=104708|Gloss=PUNCT
-32	Europa	Europa	PROPN	_	_	30	reparandum	_	AlignBegin=104708|AlignEnd=105090|ExtPos=PROPN|Gloss=Europa|PhraseType=Title
+32	Europa	Europa	PROPN	_	_	30	reparandum	_	AlignBegin=104708|AlignEnd=105090|ExtPos=PROPN|Gloss=Europa|Title=Yes
 33	Super	super	ADJ	_	_	32	flat	_	AlignBegin=105090|AlignEnd=105363|Gloss=super|InTitle=Yes
 34	League	League	NOUN	_	_	32	flat	_	AlignBegin=105363|AlignEnd=105650|Gloss=League|InTitle=Yes
 35	}	}	X	_	_	30	dep	_	AlignBegin=105650|AlignEnd=105680|Gloss=PUNCT
 36	|c	|c	X	_	_	38	dep	_	AlignBegin=105650|AlignEnd=105680|Gloss=PUNCT
 37	#	#	X	_	_	38	dep	_	AlignBegin=105680|AlignEnd=105840|Gloss=PUNCT
 38	win	win	VERB	_	_	28	conj	_	AlignBegin=105840|AlignEnd=106030|Gloss=win
-39	FIFA	FIFA	PROPN	_	_	38	obj	_	AlignBegin=106030|AlignEnd=106340|ExtPos=PROPN|Gloss=FIFA|PhraseType=Title
+39	FIFA	FIFA	PROPN	_	_	38	obj	_	AlignBegin=106030|AlignEnd=106340|ExtPos=PROPN|Gloss=FIFA|Title=Yes
 40	Club	club	NOUN	_	_	39	flat	_	AlignBegin=106340|AlignEnd=106580|Gloss=club|InTitle=Yes
 41	World	world	NOUN	_	_	39	flat	_	AlignBegin=106580|AlignEnd=106830|Gloss=world|InTitle=Yes
 42	Cup	cup	NOUN	_	_	39	flat	_	AlignBegin=106830|AlignEnd=107179|Gloss=cup|InTitle=Yes
 43	|c	|c	X	_	_	44	dep	_	AlignBegin=107179|AlignEnd=107209|Gloss=PUNCT
 44	win	win	VERB	_	_	28	conj	_	AlignBegin=107209|AlignEnd=107520|Gloss=win
-45	La	La	X	_	_	44	obj	_	AlignBegin=107520|AlignEnd=107747|ExtPos=PROPN|Gloss=La|PhraseType=Title
+45	La	La	X	_	_	44	obj	_	AlignBegin=107520|AlignEnd=107747|ExtPos=PROPN|Gloss=La|Title=Yes
 46	Liga	Liga	X	_	_	45	flat	_	AlignBegin=107747|AlignEnd=108130|Gloss=Liga|InTitle=Yes
 47	|c	|c	X	_	_	48	dep	_	AlignBegin=108130|AlignEnd=108160|Gloss=PUNCT
 48	win	win	VERB	_	_	28	conj	_	AlignBegin=108160|AlignEnd=108380|Gloss=win
-49	Champions'	Champions'	NOUN	_	Case=Gen	48	obj	_	AlignBegin=108380|AlignEnd=108780|ExtPos=PROPN|Gloss=champion.GEN|PhraseType=Title
+49	Champions'	Champions'	NOUN	_	Case=Gen	48	obj	_	AlignBegin=108380|AlignEnd=108780|ExtPos=PROPN|Gloss=champion.GEN|Title=Yes
 50	League	League	PROPN	_	_	49	flat	_	AlignBegin=108780|AlignEnd=108886|Gloss=League|InTitle=Yes
 51	}	}	X	_	_	25	dep	_	AlignBegin=108886|AlignEnd=108916|Gloss=PUNCT
 52	]	]	X	_	_	19	dep	_	AlignBegin=108886|AlignEnd=108916|Gloss=PUNCT
@@ -741,7 +742,7 @@
 # text_ortho = Oh ontop dat money level, na im I go kput you come dis morning because anoder money level dey.
 1	oh	oh	INTJ	_	_	9	discourse	_	AlignBegin=114426|AlignEnd=114726|Gloss=oh
 2	ontop	ontop	ADP	_	_	5	case	_	AlignBegin=114726|AlignEnd=115035|Gloss=ontop
-3	dat	dat	DET	_	Number=Sing|PronType=Dem	5	det	_	AlignBegin=115035|AlignEnd=115175|Gloss=SG.DEM
+3	dat	dat	DET	_	Number=Sing	5	det	_	AlignBegin=115035|AlignEnd=115175|Gloss=SG.DEM
 4	money	money	NOUN	_	_	5	compound	_	AlignBegin=115175|AlignEnd=115365|Gloss=money
 5	level	level	NOUN	_	_	9	obl:mod	_	AlignBegin=115365|AlignEnd=115685|Gloss=level
 6	<	<	X	_	_	5	dep	_	AlignBegin=115685|AlignEnd=115715|Gloss=PUNCT
@@ -755,7 +756,7 @@
 14	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	13	obj	_	AlignBegin=116313|AlignEnd=116445|Gloss=NOM.2
 15	come	come	VERB	_	_	13	compound:svc	_	AlignBegin=116445|AlignEnd=116595|Gloss=come
 16	dis	dis	DET	_	Number=Sing|PronType=Dem	17	det	_	AlignBegin=116595|AlignEnd=116755|Gloss=SG.DEM
-17	morning	morning	NOUN	_	_	15	obj	_	AlignBegin=116755|AlignEnd=116905|Gloss=morning
+17	morning	morning	NOUN	_	_	15	iobj	_	AlignBegin=116755|AlignEnd=116905|Gloss=morning
 18	because	because	SCONJ	_	_	22	mark	_	AlignBegin=116905|AlignEnd=117426|Gloss=because
 19	anoder	anoder	DET	_	_	21	det	_	AlignBegin=117426|AlignEnd=117895|Gloss=another
 20	money	money	NOUN	_	_	21	compound	_	AlignBegin=117895|AlignEnd=118115|Gloss=money
@@ -769,7 +770,7 @@
 # text = Manchester United < oh dis ball club !//
 # text_en = Manchester United... oh, this football club!
 # text_ortho = Manchester United, oh dis ball club!
-1	Manchester	Manchester	PROPN	_	_	7	dislocated	_	AlignBegin=118620|AlignEnd=119365|ExtPos=PROPN|Gloss=Manchester|PhraseType=Title
+1	Manchester	Manchester	PROPN	_	_	7	dislocated	_	AlignBegin=118620|AlignEnd=119365|ExtPos=PROPN|Gloss=Manchester|Title=Yes
 2	United	United	ADJ	_	_	1	flat	_	AlignBegin=119365|AlignEnd=120036|Gloss=United|InTitle=Yes
 3	<	<	X	_	_	1	dep	_	AlignBegin=120036|AlignEnd=120066|Gloss=PUNCT
 4	oh	oh	INTJ	_	_	7	discourse	_	AlignBegin=120066|AlignEnd=120355|Gloss=oh
@@ -834,13 +835,13 @@
 33	>+	>+	X	_	_	34	dep	_	AlignBegin=130230|AlignEnd=130260|Gloss=PUNCT
 34	sit	sit	VERB	_	_	32	advcl:cleft	_	AlignBegin=130260|AlignEnd=130400|Gloss=sit
 35	down	down	ADP	_	_	34	compound:prt	_	AlignBegin=130400|AlignEnd=130551|Gloss=down
-36	on	on	ADP	_	_	41	case	_	AlignBegin=130581|AlignEnd=130679|ExtPos=ADP|Gloss=on|PhraseType=Idiom
+36	on	on	ADP	_	_	41	case	_	AlignBegin=130581|AlignEnd=130679|ExtPos=ADP|Gloss=on|Idiom=Yes
 37	top	top	NOUN	_	_	36	fixed	_	AlignBegin=130679|AlignEnd=131000|Gloss=top|InIdiom=Yes
 38	#	#	X	_	_	41	dep	_	AlignBegin=131000|AlignEnd=131165|Gloss=PUNCT
 39	number	number	NOUN	_	_	41	compound	_	AlignBegin=131165|AlignEnd=131425|Gloss=number
 40	one	one	NUM	_	NumType=Card	39	nummod	_	AlignBegin=131425|AlignEnd=131565|Gloss=one
 41	position	position	NOUN	_	_	34	obl:arg	_	AlignBegin=131565|AlignEnd=131905|Gloss=position
-42	on	on	ADP	_	_	45	case	_	AlignBegin=131935|AlignEnd=132065|ExtPos=ADP|Gloss=on|PhraseType=Idiom
+42	on	on	ADP	_	_	45	case	_	AlignBegin=131935|AlignEnd=132065|ExtPos=ADP|Gloss=on|Idiom=Yes
 43	top	top	NOUN	_	_	42	fixed	_	AlignBegin=132065|AlignEnd=132175|Gloss=top|InIdiom=Yes
 44	di	di	DET	_	Definite=Def|PronType=Art	45	det	_	AlignBegin=132175|AlignEnd=132315|Gloss=DEF.ART
 45	level	level	NOUN	_	_	34	obl:arg	_	AlignBegin=132315|AlignEnd=132505|Gloss=level
@@ -885,7 +886,7 @@
 5	money	money	NOUN	_	_	0	root	_	AlignBegin=138775|AlignEnd=139044|Gloss=money
 6	>	>	X	_	_	8	dep	_	AlignBegin=139044|AlignEnd=139074|Gloss=PUNCT
 7	#	#	X	_	_	8	dep	_	AlignBegin=139074|AlignEnd=139289|Gloss=PUNCT
-8	Manchester	Manchester	PROPN	_	_	5	dislocated	_	AlignBegin=139289|AlignEnd=139747|ExtPos=PROPN|Gloss=Manchester|PhraseType=Title
+8	Manchester	Manchester	PROPN	_	_	5	dislocated	_	AlignBegin=139289|AlignEnd=139747|ExtPos=PROPN|Gloss=Manchester|Title=Yes
 9	United	United	ADJ	_	_	8	flat	_	AlignBegin=139747|AlignEnd=140170|Gloss=United|InTitle=Yes
 10	!//	!//	X	_	_	5	dep	_	AlignBegin=140170|AlignEnd=140200|Gloss=PUNCT
 
@@ -935,7 +936,7 @@
 1	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	expl:subj	_	AlignBegin=142580|AlignEnd=142700|Gloss=NOM.SG.3
 2	come	come	VERB	_	_	0	root	_	AlignBegin=142700|AlignEnd=142870|Gloss=come
 3	to	to	ADP	_	_	4	mark	_	AlignBegin=142870|AlignEnd=142930|Gloss=to
-4	mean	mean	VERB	_	_	2	ccomp	_	AlignBegin=142930|AlignEnd=143020|Gloss=mean
+4	mean	mean	VERB	_	_	2	xcomp	_	AlignBegin=142930|AlignEnd=143020|Gloss=mean
 5	sey	sey	SCONJ	_	_	16	mark	_	AlignBegin=143020|AlignEnd=143130|Gloss=COMP
 6	[	[	X	_	_	16	dep	_	AlignBegin=143130|AlignEnd=143160|Gloss=PUNCT
 7	every	every	DET	_	_	16	dislocated	_	AlignBegin=143160|AlignEnd=143527|Gloss=every
@@ -949,7 +950,7 @@
 15	una	una	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	16	nsubj	_	AlignBegin=144707|AlignEnd=144937|Gloss=NOM.PL.2
 16	get	get	VERB	_	_	4	ccomp	_	AlignBegin=144937|AlignEnd=145071|Gloss=get
 17	to	to	ADP	_	_	18	mark	_	AlignBegin=145071|AlignEnd=145227|Gloss=to
-18	hear	hear	VERB	_	_	16	ccomp	_	AlignBegin=145227|AlignEnd=145347|Gloss=hear
+18	hear	hear	VERB	_	_	16	xcomp	_	AlignBegin=145227|AlignEnd=145347|Gloss=hear
 19	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	18	obj	_	AlignBegin=145347|AlignEnd=145507|Gloss=ACC.SG.3
 20	]	]	X	_	_	16	dep	_	AlignBegin=145507|AlignEnd=145537|Gloss=PUNCT
 21	//	//	X	_	_	2	dep	_	AlignBegin=145507|AlignEnd=145537|Gloss=PUNCT
@@ -960,7 +961,7 @@
 # text = on to di behalf of di biggest one ah < # my name na Triple A //
 # text_en = Most importantly, my name is Triple A.
 # text_ortho = On to di behalf of di biggest one ah, my name na Triple A.
-1	on	on	ADP	_	_	4	case	_	AlignBegin=145537|AlignEnd=145617|ExtPos=ADP|Gloss=on|PhraseType=Idiom
+1	on	on	ADP	_	_	4	case	_	AlignBegin=145537|AlignEnd=145617|ExtPos=ADP|Gloss=on|Idiom=Yes
 2	to	to	ADP	_	_	1	fixed	_	AlignBegin=145617|AlignEnd=145687|Gloss=to|InIdiom=Yes
 3	di	di	DET	_	Definite=Def|PronType=Art	4	det	_	AlignBegin=145687|AlignEnd=145757|Gloss=DEF.ART
 4	behalf	behalf	NOUN	_	_	15	obl:mod	_	AlignBegin=145757|AlignEnd=145997|Gloss=behalf
@@ -989,7 +990,7 @@
 3	#	#	X	_	_	1	dep	_	AlignBegin=148757|AlignEnd=148917|Gloss=PUNCT
 4	help	help	VERB	_	_	0	root	_	AlignBegin=148917|AlignEnd=148987|Gloss=help
 5	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	obj	_	AlignBegin=148987|AlignEnd=149137|Gloss=ACC.SG.1
-6	tell	tell	VERB	_	_	4	ccomp	_	AlignBegin=149137|AlignEnd=149217|Gloss=tell
+6	tell	tell	VERB	_	_	4	xcomp	_	AlignBegin=149137|AlignEnd=149217|Gloss=tell
 7	{	{	X	_	_	8	dep	_	AlignBegin=149217|AlignEnd=149247|Gloss=PUNCT
 8	somebody	somebody	PRON	_	_	6	obj	_	AlignBegin=149247|AlignEnd=149597|Gloss=somebody
 9	wey	wey	SCONJ	_	_	10	mark	_	AlignBegin=149597|AlignEnd=149837|Gloss=REL
@@ -1004,10 +1005,10 @@
 18	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	AlignBegin=150877|AlignEnd=150937|Gloss=NOM.SG.3
 19	far	far	ADJ	_	_	16	acl:relcl	_	AlignBegin=150937|AlignEnd=151157|ExtPos=VERB|Gloss=far
 20	}	}	X	_	_	8	dep	_	AlignBegin=151157|AlignEnd=151187|Gloss=PUNCT
-21	meh	make	AUX	_	Mood=Opt	24	aux	_	AlignBegin=151187|AlignEnd=151287|Gloss=SBJV
+21	meh	make	SCONJ	_	_	24	mark	_	AlignBegin=151187|AlignEnd=151287|Gloss=COMP
 22	people	people	NOUN	_	Number=Plur	24	nsubj	_	AlignBegin=151287|AlignEnd=151437|Gloss=people.PL
 23	no	no	AUX	_	Polarity=Neg	24	aux	_	AlignBegin=151437|AlignEnd=151517|Gloss=NEG
-24	lost	lost	VERB	_	Tense=Past|VerbForm=Part	6	ccomp	_	AlignBegin=151517|AlignEnd=151807|Gloss=lost.PST.PTCP
+24	lost	lost	VERB	_	_	6	xcomp	_	AlignBegin=151517|AlignEnd=151807|Gloss=get_lost
 25	//=	//=	X	_	_	28	dep	_	AlignBegin=151807|AlignEnd=151837|Gloss=PUNCT
 26	meh	make	AUX	_	Mood=Opt	28	aux	_	AlignBegin=151837|AlignEnd=151947|Gloss=SBJV
 27	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	28	nsubj	_	AlignBegin=151947|AlignEnd=152008|Gloss=NOM.SG.3

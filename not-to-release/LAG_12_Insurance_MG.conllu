@@ -1,4 +1,5 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = LAG_12_Insurance_MG__1
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/LAG_12_Insurance_MG.mp3
 # speaker_id = Sp226
@@ -39,7 +40,7 @@
 6	dey	dey	AUX	_	Aspect=Imp	7	aux	_	AlignBegin=6099|AlignEnd=6270|Gloss=IPFV
 7	work	work	VERB	_	_	0	root	_	AlignBegin=6270|AlignEnd=6540|Gloss=work
 8	with	wit	ADP	_	_	9	case	_	AlignBegin=6540|AlignEnd=6633|Gloss=with
-9	Lasaco	Lasaco	PROPN	_	_	7	obl:arg	_	AlignBegin=6633|AlignEnd=7152|ExtPos=PROPN|Gloss=Lasaco|PhraseType=Title
+9	Lasaco	Lasaco	PROPN	_	_	7	obl:arg	_	AlignBegin=6633|AlignEnd=7152|ExtPos=PROPN|Gloss=Lasaco|Title=Yes
 10	Assurance	assurance	NOUN	_	_	9	flat	_	AlignBegin=7152|AlignEnd=7693|Gloss=assurance|InTitle=Yes
 11	PLC	PLC	PROPN	_	_	9	flat	_	AlignBegin=7693|AlignEnd=8179|Gloss=PLC|InTitle=Yes
 12	//	//	X	_	_	7	dep	_	AlignBegin=8179|AlignEnd=8209|Gloss=PUNCT
@@ -193,9 +194,9 @@
 1	#	#	X	_	_	3	dep	_	AlignBegin=28891|AlignEnd=29306|Gloss=PUNCT
 2	na	na	AUX	_	PartType=Cop	3	cop	_	AlignBegin=29306|AlignEnd=29500|Gloss=be
 3	risk	risk	NOUN	_	_	0	root	_	AlignBegin=29500|AlignEnd=29800|Gloss=risk
-4	on	on	ADP	_	_	3	dep	_	AlignBegin=29800|AlignEnd=29970|Gloss=on
+4	on	on	ADP	_	_	6	case	_	AlignBegin=29800|AlignEnd=29970|Gloss=on
 5	its	its	ADJ	_	Number=Sing|Person=3|Poss=Yes	6	amod	_	AlignBegin=29970|AlignEnd=30150|Gloss=SG.3.POSS
-6	own	own	ADJ	_	_	4	xcomp	_	AlignBegin=30150|AlignEnd=30615|Gloss=own
+6	own	own	ADJ	_	_	3	nmod	_	AlignBegin=30150|AlignEnd=30615|Gloss=own
 7	//	//	X	_	_	3	dep	_	AlignBegin=30615|AlignEnd=30645|Gloss=PUNCT
 
 # sent_id = LAG_12_Insurance_MG__12
@@ -216,7 +217,7 @@
 10	be	be	AUX	_	PartType=Cop	38	cop	_	AlignBegin=32871|AlignEnd=32986|Gloss=be
 11	sey	sey	SCONJ	_	_	38	mark	_	AlignBegin=32986|AlignEnd=33170|Gloss=COMP
 12	[	[	X	_	_	38	dep	_	AlignBegin=33170|AlignEnd=33200|Gloss=PUNCT
-13	all	all	DET	_	_	15	dep	_	AlignBegin=33200|AlignEnd=33389|Gloss=all
+13	all	all	DET	_	_	15	det	_	AlignBegin=33200|AlignEnd=33389|Gloss=all
 14	dose	dose	DET	_	Number=Plur|PronType=Dem	15	det	_	AlignBegin=33389|AlignEnd=33669|Gloss=PL.DIST.DEM
 15	risk	risk	NOUN	_	_	38	dislocated	_	AlignBegin=33669|AlignEnd=33934|Gloss=risk
 16	wey	wey	SCONJ	_	_	19	mark	_	AlignBegin=33934|AlignEnd=34210|Gloss=REL
@@ -255,7 +256,7 @@
 # text = na im >+ we dey protect una sey [ if anyting happen < # we go give una money ] //
 # text_en = That is... we protect you so that if anything happens, we will give you money.
 # text_ortho = Na im we dey protect una sey if anyting happen, we go give una money.
-1	na	na	AUX	_	PartType=Cop	0	root	_	AlignBegin=40040|AlignEnd=40190|ExtPos=SCONJ|Gloss=be|PhraseType=Idiom
+1	na	na	AUX	_	PartType=Cop	0	root	_	AlignBegin=40040|AlignEnd=40190|ExtPos=SCONJ|Gloss=be|Idiom=Yes
 2	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	1	fixed	_	AlignBegin=40190|AlignEnd=40320|Gloss=NOM.SG.3|InIdiom=Yes
 3	>+	>+	X	_	_	6	dep	_	AlignBegin=40320|AlignEnd=40350|Gloss=PUNCT
 4	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	AlignBegin=40350|AlignEnd=40480|Gloss=NOM.PL.1
@@ -297,7 +298,7 @@
 2	insurance	insurance	NOUN	_	_	5	obl:mod	_	AlignBegin=45140|AlignEnd=45750|Gloss=insurance
 3	eh	eh	INTJ	_	_	5	discourse	_	AlignBegin=45750|AlignEnd=45879|Gloss=eh
 4	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	AlignBegin=45879|AlignEnd=46019|Gloss=NOM.2
-5	fit	fit	AUX	_	Mood=Pot	0	root	_	AlignBegin=46019|AlignEnd=46171|Gloss=ABIL
+5	fit	fit	AUX	_	Mood=Pot	0	root	_	AlignBegin=46019|AlignEnd=46171|Gloss=ABIL|Scrap=Yes
 6	&//	&//	X	_	_	5	dep	_	AlignBegin=46171|AlignEnd=46201|Gloss=PUNCT
 
 # sent_id = LAG_12_Insurance_MG__16
@@ -313,7 +314,7 @@
 5	value	value	NOUN	_	_	4	obj	_	AlignBegin=47385|AlignEnd=47680|Gloss=value
 6	<	<	X	_	_	1	dep	_	AlignBegin=47680|AlignEnd=47710|Gloss=PUNCT
 7	anyting	anyting	PRON	_	_	22	dislocated	_	AlignBegin=47710|AlignEnd=48284|Gloss=anything
-8	wey	wey	SCONJ	_	_	13	mark	_	AlignBegin=48284|AlignEnd=48410|ExtPos=SCONJ|Gloss=REL|PhraseType=Idiom
+8	wey	wey	SCONJ	_	_	13	mark	_	AlignBegin=48284|AlignEnd=48410|ExtPos=SCONJ|Gloss=REL|Idiom=Yes
 9	be	be	AUX	_	PartType=Cop	8	fixed	_	AlignBegin=48410|AlignEnd=48475|Gloss=be|InIdiom=Yes
 10	sey	sey	SCONJ	_	_	8	fixed	_	AlignBegin=48475|AlignEnd=48880|Gloss=COMP|InIdiom=Yes
 11	#	#	X	_	_	13	dep	_	AlignBegin=48880|AlignEnd=49320|Gloss=PUNCT
@@ -347,7 +348,7 @@
 8	people	people	NOUN	_	Number=Plur	6	obl:arg	_	AlignBegin=53791|AlignEnd=54066|Gloss=people.PL
 9	>+	>+	X	_	_	10	dep	_	AlignBegin=54066|AlignEnd=54096|Gloss=PUNCT
 10	be	be	VERB	_	PartType=Cop	3	advcl:cleft	_	AlignBegin=54096|AlignEnd=54205|Gloss=be
-11	dat	dat	PRON	_	Number=Sing|PronType=Dem	10	nsubj	_	AlignBegin=54205|AlignEnd=54495|Gloss=SG.DEM
+11	dat	dat	PRON	_	Number=Sing	10	nsubj	_	AlignBegin=54205|AlignEnd=54495|Gloss=SG.DEM
 12	//	//	X	_	_	3	dep	_	AlignBegin=54495|AlignEnd=54525|Gloss=PUNCT
 
 # sent_id = LAG_12_Insurance_MG__18
@@ -410,7 +411,7 @@
 # text_ortho = And all dese tings get im own benefit.
 1	#	#	X	_	_	6	dep	_	AlignBegin=63308|AlignEnd=63680|Gloss=PUNCT
 2	and	and	CCONJ	_	_	6	discourse	_	AlignBegin=63680|AlignEnd=63790|Gloss=and
-3	all	all	DET	_	_	5	dep	_	AlignBegin=63790|AlignEnd=63950|Gloss=all
+3	all	all	DET	_	_	5	det	_	AlignBegin=63790|AlignEnd=63950|Gloss=all
 4	dese	dese	DET	_	Number=Plur|PronType=Dem	5	det	_	AlignBegin=63950|AlignEnd=64129|Gloss=PL.PROX.DEM
 5	tings	tings	NOUN	_	Number=Plur	6	nsubj	_	AlignBegin=64129|AlignEnd=64401|Gloss=thing.PL
 6	get	get	VERB	_	_	0	root	_	AlignBegin=64401|AlignEnd=64650|Gloss=get
@@ -496,13 +497,13 @@
 10	[	[	X	_	_	12	dep	_	AlignBegin=75374|AlignEnd=75404|Gloss=PUNCT
 11	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	12	nsubj	_	AlignBegin=75404|AlignEnd=75620|Gloss=NOM.2
 12	want	want	VERB	_	_	5	ccomp	_	AlignBegin=75620|AlignEnd=75770|Gloss=want
-13	send	send	VERB	_	_	12	ccomp	_	AlignBegin=75770|AlignEnd=76070|Gloss=send
-14	dat	dat	DET	_	Number=Sing|PronType=Dem	17	det	_	AlignBegin=76070|AlignEnd=76240|Gloss=SG.DEM
+13	send	send	VERB	_	_	12	xcomp	_	AlignBegin=75770|AlignEnd=76070|Gloss=send
+14	dat	dat	DET	_	Number=Sing	17	det	_	AlignBegin=76070|AlignEnd=76240|Gloss=SG.DEM
 15	your	your	PRON	_	Number=Plur|Person=2|Poss=Yes	17	nmod:poss	_	AlignBegin=76240|AlignEnd=76401|Gloss=PL.2.POSS
 16	lovely	lovely	ADJ	_	_	17	amod	_	AlignBegin=76401|AlignEnd=76711|Gloss=lovely
 17	child	child	NOUN	_	_	13	obj	_	AlignBegin=76711|AlignEnd=76960|Gloss=child
 18	go	go	VERB	_	_	13	compound:svc	_	AlignBegin=76960|AlignEnd=77090|Gloss=go
-19	school	school	NOUN	_	_	18	obj	_	AlignBegin=77090|AlignEnd=77365|Gloss=school
+19	school	school	NOUN	_	_	18	iobj	_	AlignBegin=77090|AlignEnd=77365|Gloss=school
 20	]	]	X	_	_	12	dep	_	AlignBegin=77365|AlignEnd=77395|Gloss=PUNCT
 21	//	//	X	_	_	5	dep	_	AlignBegin=77365|AlignEnd=77395|Gloss=PUNCT
 
@@ -518,11 +519,11 @@
 4	guarantee	guarantee	VERB	_	_	0	root	_	AlignBegin=78656|AlignEnd=79140|Gloss=guarantee
 5	sey	sey	SCONJ	_	_	10	mark	_	AlignBegin=79140|AlignEnd=79379|Gloss=COMP
 6	[	[	X	_	_	10	dep	_	AlignBegin=79379|AlignEnd=79409|Gloss=PUNCT
-7	dat	dat	DET	_	Number=Sing|PronType=Dem	8	det	_	AlignBegin=79409|AlignEnd=79600|Gloss=SG.DEM
+7	dat	dat	DET	_	Number=Sing	8	det	_	AlignBegin=79409|AlignEnd=79600|Gloss=SG.DEM
 8	child	child	NOUN	_	_	10	nsubj	_	AlignBegin=79600|AlignEnd=79835|Gloss=child
 9	go	go	AUX	_	Aspect=Prosp	10	aux	_	AlignBegin=79835|AlignEnd=79970|Gloss=PROSP
 10	go	go	VERB	_	_	4	ccomp	_	AlignBegin=79970|AlignEnd=80158|Gloss=go
-11	school	school	NOUN	_	_	10	obj	_	AlignBegin=80158|AlignEnd=80449|Gloss=school
+11	school	school	NOUN	_	_	10	iobj	_	AlignBegin=80158|AlignEnd=80449|Gloss=school
 12	even	even	ADV	_	_	16	advmod	_	AlignBegin=80449|AlignEnd=80915|Gloss=even
 13	weda	weda	SCONJ	_	_	16	mark	_	AlignBegin=80915|AlignEnd=81267|Gloss=whether
 14	{	{	X	_	_	16	dep	_	AlignBegin=81267|AlignEnd=81297|Gloss=PUNCT
@@ -619,10 +620,10 @@
 # sent_id = LAG_12_Insurance_MG__29
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/LAG_12_Insurance_MG.mp3
 # speaker_id = Sp226
-# text = in fact no de go k~ //
+# text = in fact no dey go k~ //
 # text_en = In fact, don't be going k-...
-# text_ortho = In fact no de go k-...
-1	in	in	ADP	_	_	6	advmod	_	AlignBegin=97580|AlignEnd=97705|ExtPos=ADV|Gloss=in|PhraseType=Idiom
+# text_ortho = In fact no dey go k-...
+1	in	in	ADP	_	_	6	advmod	_	AlignBegin=97580|AlignEnd=97705|ExtPos=ADV|Gloss=in|Idiom=Yes
 2	fact	fact	NOUN	_	_	1	fixed	_	AlignBegin=97705|AlignEnd=98048|Gloss=fact|InIdiom=Yes
 3	no	no	AUX	_	Polarity=Neg	6	aux	_	AlignBegin=98048|AlignEnd=98327|Gloss=NEG
 4	dey	dey	AUX	_	Aspect=Imp	6	aux	_	AlignBegin=98327|AlignEnd=98500|Gloss=IPFV
@@ -643,7 +644,7 @@
 5	if	if	SCONJ	_	_	7	mark	_	AlignBegin=99730|AlignEnd=99879|Gloss=if
 6	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	7	nsubj	_	AlignBegin=99879|AlignEnd=100020|Gloss=NOM.2
 7	want	want	VERB	_	_	12	advcl	_	AlignBegin=100020|AlignEnd=100189|Gloss=want
-8	sleep	sleep	VERB	_	_	7	ccomp	_	AlignBegin=100189|AlignEnd=100480|Gloss=sleep
+8	sleep	sleep	VERB	_	_	7	xcomp	_	AlignBegin=100189|AlignEnd=100480|Gloss=sleep
 9	<	<	X	_	_	7	dep	_	AlignBegin=100480|AlignEnd=100510|Gloss=PUNCT
 10	make	make	AUX	_	Mood=Opt	12	aux	_	AlignBegin=100510|AlignEnd=100630|Gloss=SBJV
 11	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	12	nsubj	_	AlignBegin=100630|AlignEnd=100752|Gloss=NOM.2
@@ -715,7 +716,7 @@
 9	people	people	NOUN	_	Number=Plur	7	obl:arg	_	AlignBegin=110221|AlignEnd=110461|Gloss=people.PL
 10	>+	>+	X	_	_	11	dep	_	AlignBegin=110461|AlignEnd=110491|Gloss=PUNCT
 11	be	be	VERB	_	PartType=Cop	4	advcl:cleft	_	AlignBegin=110491|AlignEnd=110610|Gloss=be
-12	dat	dat	PRON	_	Number=Sing|PronType=Dem	11	nsubj	_	AlignBegin=110610|AlignEnd=110841|Gloss=SG.DEM
+12	dat	dat	PRON	_	Number=Sing	11	nsubj	_	AlignBegin=110610|AlignEnd=110841|Gloss=SG.DEM
 13	//	//	X	_	_	4	dep	_	AlignBegin=110841|AlignEnd=110871|Gloss=PUNCT
 
 # sent_id = LAG_12_Insurance_MG__34
@@ -888,7 +889,7 @@
 # text = in fact < na people wey no too get money >+ di ting dey benefit pass //
 # text_en = In fact, it's more beneficial to people who really don't have much money.
 # text_ortho = In fact, na people wey no too get money di ting dey benefit pass.
-1	in	in	ADP	_	_	5	advmod	_	AlignBegin=144996|AlignEnd=145268|ExtPos=ADV|Gloss=in|PhraseType=Idiom
+1	in	in	ADP	_	_	5	advmod	_	AlignBegin=144996|AlignEnd=145268|ExtPos=ADV|Gloss=in|Idiom=Yes
 2	fact	fact	NOUN	_	_	1	fixed	_	AlignBegin=145268|AlignEnd=145550|Gloss=fact|InIdiom=Yes
 3	<	<	X	_	_	1	dep	_	AlignBegin=145550|AlignEnd=145580|Gloss=PUNCT
 4	na	na	AUX	_	PartType=Cop	5	cop	_	AlignBegin=145580|AlignEnd=145850|Gloss=be
@@ -939,7 +940,7 @@
 25	pay	pay	VERB	_	_	21	acl:relcl	_	AlignBegin=154600|AlignEnd=154798|Gloss=pay
 26	us	us	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	25	obj	_	AlignBegin=154798|AlignEnd=155011|Gloss=ACC.PL.1
 27	to	to	ADP	_	_	28	mark	_	AlignBegin=155011|AlignEnd=155129|Gloss=to
-28	protect	protect	VERB	_	_	25	ccomp	_	AlignBegin=155129|AlignEnd=155640|Gloss=protect
+28	protect	protect	VERB	_	_	25	advcl	_	AlignBegin=155129|AlignEnd=155640|Gloss=protect
 29	your	your	PRON	_	Number=Plur|Person=2|Poss=Yes	30	nmod:poss	_	AlignBegin=155640|AlignEnd=155714|Gloss=PL.2.POSS
 30	house	house	NOUN	_	_	28	obj	_	AlignBegin=155714|AlignEnd=155928|Gloss=house
 31	if	if	SCONJ	_	_	33	mark	_	AlignBegin=155928|AlignEnd=156071|Gloss=if
@@ -983,7 +984,7 @@
 21	go	go	AUX	_	Aspect=Prosp	22	aux	_	AlignBegin=164417|AlignEnd=164569|Gloss=PROSP
 22	happen	happen	VERB	_	_	19	acl:relcl	_	AlignBegin=164569|AlignEnd=164950|Gloss=happen
 23	if	if	SCONJ	_	_	26	mark	_	AlignBegin=164950|AlignEnd=165070|Gloss=if
-24	dat	dat	DET	_	Number=Sing|PronType=Dem	25	det	_	AlignBegin=165070|AlignEnd=165248|Gloss=SG.DEM
+24	dat	dat	DET	_	Number=Sing	25	det	_	AlignBegin=165070|AlignEnd=165248|Gloss=SG.DEM
 25	house	house	NOUN	_	_	26	nsubj	_	AlignBegin=165248|AlignEnd=165587|Gloss=house
 26	burn	burn	VERB	_	_	22	advcl	_	AlignBegin=165587|AlignEnd=165845|Gloss=burn
 27	!//	!//	X	_	_	4	dep	_	AlignBegin=165845|AlignEnd=165875|Gloss=PUNCT
@@ -1014,7 +1015,7 @@
 18	wey	wey	SCONJ	_	_	20	mark	_	AlignBegin=169532|AlignEnd=169654|Gloss=REL
 19	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	20	nsubj	_	AlignBegin=169654|AlignEnd=169793|Gloss=NOM.2
 20	want	want	VERB	_	_	17	acl:relcl	_	AlignBegin=169793|AlignEnd=170037|Gloss=want
-21	buy	buy	VERB	_	_	20	ccomp	_	AlignBegin=170037|AlignEnd=170240|Gloss=buy
+21	buy	buy	VERB	_	_	20	xcomp	_	AlignBegin=170037|AlignEnd=170240|Gloss=buy
 22	<	<	X	_	_	17	dep	_	AlignBegin=170240|AlignEnd=170270|Gloss=PUNCT
 23	#	#	X	_	_	25	dep	_	AlignBegin=170270|AlignEnd=170783|Gloss=PUNCT
 24	na	na	AUX	_	PartType=Cop	25	cop	_	AlignBegin=170783|AlignEnd=170910|Gloss=be
@@ -1212,7 +1213,7 @@
 6	do	do	VERB	_	_	3	acl:relcl	_	AlignBegin=197860|AlignEnd=197976|Gloss=do
 7	>+	>+	X	_	_	8	dep	_	AlignBegin=197976|AlignEnd=198006|Gloss=PUNCT
 8	be	be	VERB	_	PartType=Cop	3	advcl:cleft	_	AlignBegin=198006|AlignEnd=198152|Gloss=be
-9	dat	dat	PRON	_	Number=Sing|PronType=Dem	8	nsubj	_	AlignBegin=198152|AlignEnd=198413|Gloss=SG.DEM
+9	dat	dat	PRON	_	Number=Sing	8	nsubj	_	AlignBegin=198152|AlignEnd=198413|Gloss=SG.DEM
 10	//	//	X	_	_	3	dep	_	AlignBegin=198413|AlignEnd=198443|Gloss=PUNCT
 
 # sent_id = LAG_12_Insurance_MG__52
@@ -1222,7 +1223,7 @@
 # text_en = Make...
 # text_ortho = Make...
 1	#	#	X	_	_	2	dep	_	AlignBegin=198443|AlignEnd=199325|Gloss=PUNCT
-2	make	make	AUX	_	Mood=Opt	0	root	_	AlignBegin=199325|AlignEnd=199511|Gloss=SBJV
+2	make	make	AUX	_	Mood=Opt	0	root	_	AlignBegin=199325|AlignEnd=199511|Gloss=SBJV|Scrap=Yes
 3	&//	&//	X	_	_	2	dep	_	AlignBegin=199511|AlignEnd=199541|Gloss=PUNCT
 
 # sent_id = LAG_12_Insurance_MG__53
@@ -1290,7 +1291,7 @@
 10	but	but	CCONJ	_	_	12	cc	_	AlignBegin=207364|AlignEnd=207590|Gloss=but
 11	yousef	yoursef	PRON	_	Case=Acc|Person=2|PronType=Prs|Reflex=Yes	12	nsubj	_	AlignBegin=207590|AlignEnd=207985|Gloss=ACC.2.REFL
 12	suppose	suppose	VERB	_	_	3	conj	_	AlignBegin=207985|AlignEnd=208527|Gloss=suppose
-13	do	do	VERB	_	_	12	ccomp	_	AlignBegin=208527|AlignEnd=208938|Gloss=do
+13	do	do	VERB	_	_	12	xcomp	_	AlignBegin=208527|AlignEnd=208938|Gloss=do
 14	{	{	X	_	_	15	dep	_	AlignBegin=208938|AlignEnd=208968|Gloss=PUNCT
 15	one	one	NUM	_	NumType=Card	20	nummod	_	AlignBegin=208968|AlignEnd=209218|Gloss=one
 16	|r	|r	X	_	_	18	dep	_	AlignBegin=209218|AlignEnd=209248|Gloss=PUNCT
@@ -1365,12 +1366,12 @@
 2	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	expl:subj	_	AlignBegin=219076|AlignEnd=219190|Gloss=NOM.SG.3
 3	no	no	AUX	_	Polarity=Neg	4	aux	_	AlignBegin=219190|AlignEnd=219420|Gloss=NEG
 4	good	good	ADJ	_	_	0	root	_	AlignBegin=219420|AlignEnd=219611|Gloss=good
-5	when	when	SCONJ	_	PronType=Int	10	mark	_	AlignBegin=219611|AlignEnd=219720|Gloss=when.Q
+5	when	when	ADV	_	_	4	advmod	_	AlignBegin=219611|AlignEnd=219720|Gloss=when.Q
 6	{	{	X	_	_	10	dep	_	AlignBegin=219720|AlignEnd=219750|Gloss=PUNCT
 7	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	10	nsubj	_	AlignBegin=219750|AlignEnd=219865|Gloss=NOM.2
 8	go	go	AUX	_	Aspect=Prosp	10	aux	_	AlignBegin=219865|AlignEnd=219953|Gloss=PROSP
 9	dey	dey	AUX	_	Aspect=Imp	10	aux	_	AlignBegin=219953|AlignEnd=220120|Gloss=IPFV
-10	work	work	VERB	_	_	4	advcl	_	AlignBegin=220120|AlignEnd=220440|Gloss=work
+10	work	work	VERB	_	_	5	ccomp	_	AlignBegin=220120|AlignEnd=220440|Gloss=work
 11	|c	|c	X	_	_	14	dep	_	AlignBegin=220440|AlignEnd=220470|Gloss=PUNCT
 12	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	14	nsubj	_	AlignBegin=220470|AlignEnd=220530|Gloss=NOM.2
 13	dey	dey	AUX	_	Aspect=Imp	14	aux	_	AlignBegin=220530|AlignEnd=220642|Gloss=IPFV
@@ -1411,7 +1412,7 @@
 10	insurance	insurance	NOUN	_	_	6	obl:arg	_	AlignBegin=225700|AlignEnd=226343|Gloss=insurance
 11	<	<	X	_	_	6	dep	_	AlignBegin=226343|AlignEnd=226373|Gloss=PUNCT
 12	#	#	X	_	_	6	dep	_	AlignBegin=226373|AlignEnd=226733|Gloss=PUNCT
-13	dat	dat	DET	_	Number=Sing|PronType=Dem	14	det	_	AlignBegin=226733|AlignEnd=226960|Gloss=SG.DEM
+13	dat	dat	DET	_	Number=Sing	14	det	_	AlignBegin=226733|AlignEnd=226960|Gloss=SG.DEM
 14	money	money	NOUN	_	_	27	nsubj	_	AlignBegin=226960|AlignEnd=227220|Gloss=money
 15	wey	wey	SCONJ	_	_	18	mark	_	AlignBegin=227220|AlignEnd=227320|Gloss=REL
 16	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	18	nsubj	_	AlignBegin=227320|AlignEnd=227439|Gloss=NOM.2
@@ -1451,7 +1452,7 @@
 15	#	#	X	_	_	8	dep	_	AlignBegin=234795|AlignEnd=235513|Gloss=PUNCT
 16	even	even	ADV	_	_	17	advmod	_	AlignBegin=235513|AlignEnd=235782|Gloss=even
 17	now	now	ADV	_	_	18	advmod	_	AlignBegin=235782|AlignEnd=236060|Gloss=now
-18	when	when	ADV	_	PronType=Int	4	ccomp	_	AlignBegin=236060|AlignEnd=236220|Gloss=when.Q
+18	when	when	ADV	_	PronType=Int	4	ccomp	_	AlignBegin=236060|AlignEnd=236220|Gloss=when.Q|Scrap=Yes
 19	something	someting	PRON	_	_	21	nsubj	_	AlignBegin=236220|AlignEnd=236580|Gloss=something
 20	don	don	AUX	_	Aspect=Perf	21	aux	_	AlignBegin=236580|AlignEnd=236730|Gloss=PRF
 21	happen	happen	VERB	_	_	18	acl:relcl	_	AlignBegin=236730|AlignEnd=237010|Gloss=happen
@@ -1493,9 +1494,9 @@
 # text = all of us dey pray sey [ make we live long for life //] //
 # text_en = We all pray to live a long life.
 # text_ortho = All of us dey pray sey make we live long for life.
-1	all	all	DET	_	_	5	dep	_	AlignBegin=241340|AlignEnd=241550|Gloss=all
+1	all	all	PRON	_	_	5	nsubj	_	AlignBegin=241340|AlignEnd=241550|Gloss=all
 2	of	of	ADP	_	_	3	case	_	AlignBegin=241550|AlignEnd=241670|Gloss=of
-3	us	us	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	1	dep	_	AlignBegin=241670|AlignEnd=241820|Gloss=ACC.PL.1
+3	us	us	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	1	nmod	_	AlignBegin=241670|AlignEnd=241820|Gloss=ACC.PL.1
 4	dey	dey	AUX	_	Aspect=Imp	5	aux	_	AlignBegin=241820|AlignEnd=241949|Gloss=IPFV
 5	pray	pray	VERB	_	_	0	root	_	AlignBegin=241949|AlignEnd=242090|Gloss=pray
 6	sey	sey	SCONJ	_	_	10	mark	_	AlignBegin=242090|AlignEnd=242201|Gloss=COMP
@@ -1543,7 +1544,7 @@
 15	eventually	eventually	ADV	_	_	16	advmod	_	AlignBegin=248849|AlignEnd=249665|Gloss=eventually
 16	occur	occur	VERB	_	_	27	advcl	_	AlignBegin=249665|AlignEnd=250009|Gloss=occur
 17	|c	|c	X	_	_	22	dep	_	AlignBegin=250009|AlignEnd=250039|Gloss=PUNCT
-18	sey	sey	SCONJ	_	_	22	mark	_	AlignBegin=250039|AlignEnd=250200|ExtPos=SCONJ|Gloss=COMP|PhraseType=Idiom
+18	sey	sey	SCONJ	_	_	22	mark	_	AlignBegin=250039|AlignEnd=250200|ExtPos=SCONJ|Gloss=COMP|Idiom=Yes
 19	if	if	SCONJ	_	_	18	fixed	_	AlignBegin=250200|AlignEnd=250300|Gloss=if|InIdiom=Yes
 20	di	di	DET	_	Definite=Def|PronType=Art	21	det	_	AlignBegin=250300|AlignEnd=250413|Gloss=DEF.ART
 21	ting	ting	NOUN	_	_	22	nsubj	_	AlignBegin=250413|AlignEnd=250604|Gloss=thing
@@ -1610,7 +1611,7 @@
 # text_en = Insurance can help you get what you have in mind, whether you are around or not.
 # text_ortho = Dat ting wey you get in mind, insurance fit even make you achieve am wheda you dey around, abi you no dey around.
 1	#	#	X	_	_	13	dep	_	AlignBegin=261862|AlignEnd=262260|Gloss=PUNCT
-2	dat	dat	DET	_	Number=Sing|PronType=Dem	3	det	_	AlignBegin=262260|AlignEnd=262460|Gloss=SG.DEM
+2	dat	dat	DET	_	Number=Sing	3	det	_	AlignBegin=262260|AlignEnd=262460|Gloss=SG.DEM
 3	ting	ting	NOUN	_	_	13	dislocated	_	AlignBegin=262460|AlignEnd=262610|Gloss=thing
 4	wey	wey	SCONJ	_	_	6	mark	_	AlignBegin=262610|AlignEnd=262740|Gloss=REL
 5	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	6	nsubj	_	AlignBegin=262740|AlignEnd=262873|Gloss=NOM.2
@@ -1623,7 +1624,7 @@
 12	even	even	ADV	_	_	13	advmod	_	AlignBegin=264330|AlignEnd=264470|Gloss=even
 13	make	make	VERB	_	_	0	root	_	AlignBegin=264470|AlignEnd=264690|Gloss=make
 14	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	13	obj	_	AlignBegin=264690|AlignEnd=264840|Gloss=NOM.2
-15	achieve	achieve	VERB	_	_	13	ccomp	_	AlignBegin=264840|AlignEnd=265250|Gloss=achieve
+15	achieve	achieve	VERB	_	_	13	xcomp	_	AlignBegin=264840|AlignEnd=265250|Gloss=achieve
 16	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	15	obj	_	AlignBegin=265250|AlignEnd=265402|Gloss=ACC.SG.3
 17	#	#	X	_	_	21	dep	_	AlignBegin=265402|AlignEnd=265779|Gloss=PUNCT
 18	{	{	X	_	_	21	dep	_	AlignBegin=265749|AlignEnd=265779|Gloss=PUNCT
@@ -1667,12 +1668,12 @@
 1	#	#	X	_	_	17	dep	_	AlignBegin=270600|AlignEnd=271260|Gloss=PUNCT
 2	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	AlignBegin=271260|AlignEnd=271370|Gloss=NOM.2
 3	know	know	VERB	_	_	17	parataxis:discourse	_	AlignBegin=271370|AlignEnd=271520|Gloss=know
-4	in	in	ADP	_	_	8	mark	_	AlignBegin=271550|AlignEnd=271650|ExtPos=SCONJ|Gloss=in|PhraseType=Idiom
+4	in	in	ADP	_	_	8	mark	_	AlignBegin=271550|AlignEnd=271650|ExtPos=SCONJ|Gloss=in|Idiom=Yes
 5	so	so	ADV	_	_	4	fixed	_	AlignBegin=271650|AlignEnd=271895|Gloss=so|InIdiom=Yes
 6	far	far	ADV	_	_	4	fixed	_	AlignBegin=271895|AlignEnd=272230|Gloss=far|InIdiom=Yes
 7	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	8	nsubj	_	AlignBegin=272230|AlignEnd=272396|Gloss=NOM.2
 8	love	love	VERB	_	_	17	advcl	_	AlignBegin=272396|AlignEnd=272660|Gloss=love
-9	dat	dat	DET	_	Number=Sing|PronType=Dem	10	det	_	AlignBegin=272660|AlignEnd=272900|Gloss=SG.DEM
+9	dat	dat	DET	_	Number=Sing	10	det	_	AlignBegin=272660|AlignEnd=272900|Gloss=SG.DEM
 10	ting	ting	NOUN	_	_	8	obj	_	AlignBegin=272900|AlignEnd=273086|Gloss=thing
 11	<	<	X	_	_	8	dep	_	AlignBegin=273086|AlignEnd=273116|Gloss=PUNCT
 12	{	{	X	_	_	13	dep	_	AlignBegin=273086|AlignEnd=273116|Gloss=PUNCT
@@ -1683,7 +1684,7 @@
 17	know	know	VERB	_	_	0	root	_	AlignBegin=273450|AlignEnd=273670|Gloss=know
 18	sey	sey	SCONJ	_	_	24	mark	_	AlignBegin=273670|AlignEnd=273934|Gloss=COMP
 19	[	[	X	_	_	24	dep	_	AlignBegin=273934|AlignEnd=273964|Gloss=PUNCT
-20	dat	dat	DET	_	Number=Sing|PronType=Dem	21	det	_	AlignBegin=273964|AlignEnd=274260|Gloss=SG.DEM
+20	dat	dat	DET	_	Number=Sing	21	det	_	AlignBegin=273964|AlignEnd=274260|Gloss=SG.DEM
 21	ting	ting	NOUN	_	_	24	nsubj	_	AlignBegin=274260|AlignEnd=274557|Gloss=thing
 22	eh	eh	INTJ	_	_	24	discourse	_	AlignBegin=274557|AlignEnd=274725|Gloss=eh
 23	#	#	X	_	_	24	dep	_	AlignBegin=274725|AlignEnd=275207|Gloss=PUNCT
@@ -1707,7 +1708,7 @@
 6	wey	wey	SCONJ	_	_	8	mark	_	AlignBegin=278610|AlignEnd=278738|Gloss=REL
 7	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	8	nsubj	_	AlignBegin=278738|AlignEnd=278781|Gloss=NOM.2
 8	suppose	suppose	VERB	_	_	5	acl:relcl	_	AlignBegin=278781|AlignEnd=279210|Gloss=suppose
-9	get	get	VERB	_	_	8	ccomp	_	AlignBegin=279210|AlignEnd=279489|Gloss=get
+9	get	get	VERB	_	_	8	xcomp	_	AlignBegin=279210|AlignEnd=279489|Gloss=get
 10	//	//	X	_	_	5	dep	_	AlignBegin=279489|AlignEnd=279519|Gloss=PUNCT
 
 # sent_id = LAG_12_Insurance_MG__70
@@ -1780,10 +1781,10 @@
 9	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	10	nsubj	_	AlignBegin=290604|AlignEnd=290760|Gloss=NOM.2
 10	want	want	VERB	_	_	6	acl:relcl	_	AlignBegin=290760|AlignEnd=290924|Gloss=want
 11	{	{	X	_	_	14	dep	_	AlignBegin=290924|AlignEnd=290954|Gloss=PUNCT
-12	make	make	AUX	_	Mood=Opt	14	aux	_	AlignBegin=290954|AlignEnd=291090|Gloss=SBJV
+12	make	make	SCONJ	_	_	14	mark	_	AlignBegin=290954|AlignEnd=291090|Gloss=COMP
 13	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	14	nsubj	_	AlignBegin=291090|AlignEnd=291294|Gloss=NOM.PL.3
-14	go	go	VERB	_	_	10	ccomp	_	AlignBegin=291294|AlignEnd=291460|Gloss=go
-15	school	school	NOUN	_	_	14	obj	_	AlignBegin=291460|AlignEnd=291700|Gloss=school
+14	go	go	VERB	_	_	10	xcomp	_	AlignBegin=291294|AlignEnd=291460|Gloss=go
+15	school	school	NOUN	_	_	14	iobj	_	AlignBegin=291460|AlignEnd=291700|Gloss=school
 16	|c	|c	X	_	_	19	dep	_	AlignBegin=291700|AlignEnd=291730|Gloss=PUNCT
 17	make	make	AUX	_	Mood=Opt	19	aux	_	AlignBegin=291730|AlignEnd=291911|Gloss=SBJV
 18	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	19	nsubj	_	AlignBegin=291911|AlignEnd=292054|Gloss=NOM.PL.3
@@ -1821,8 +1822,8 @@
 3	go	go	AUX	_	Aspect=Prosp	4	aux	_	AlignBegin=297227|AlignEnd=297370|Gloss=PROSP
 4	help	help	VERB	_	_	0	root	_	AlignBegin=297370|AlignEnd=297621|Gloss=help
 5	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	4	obj	_	AlignBegin=297621|AlignEnd=297746|Gloss=NOM.2
-6	achieve	achieve	VERB	_	_	4	ccomp	_	AlignBegin=297746|AlignEnd=298110|Gloss=achieve
-7	dat	dat	DET	_	Number=Sing|PronType=Dem	8	det	_	AlignBegin=298110|AlignEnd=298292|Gloss=SG.DEM
+6	achieve	achieve	VERB	_	_	4	xcomp	_	AlignBegin=297746|AlignEnd=298110|Gloss=achieve
+7	dat	dat	DET	_	Number=Sing	8	det	_	AlignBegin=298110|AlignEnd=298292|Gloss=SG.DEM
 8	one	one	NOUN	_	_	6	obj	_	AlignBegin=298292|AlignEnd=298450|Gloss=one
 9	//	//	X	_	_	4	dep	_	AlignBegin=298450|AlignEnd=298480|Gloss=PUNCT
 
@@ -1833,13 +1834,13 @@
 # text_en = In fact, if you were employed before but later became unemployed, insurance can still protect the salary you were earning, the one you were being paid by your employer.
 # text_ortho = In fact, you dey work before, work no dey again, insurance still fit protect di salary wey you dey earn before, wey you dey collect from your employer.
 1	#	#	X	_	_	21	dep	_	AlignBegin=298480|AlignEnd=299011|Gloss=PUNCT
-2	in	in	ADP	_	_	21	advmod	_	AlignBegin=299011|AlignEnd=299112|ExtPos=ADV|Gloss=in|PhraseType=Idiom
+2	in	in	ADP	_	_	21	advmod	_	AlignBegin=299011|AlignEnd=299112|ExtPos=ADV|Gloss=in|Idiom=Yes
 3	fact	fact	NOUN	_	_	2	fixed	_	AlignBegin=299112|AlignEnd=299355|Gloss=fact|InIdiom=Yes
 4	<	<	X	_	_	2	dep	_	AlignBegin=299355|AlignEnd=299385|Gloss=PUNCT
 5	{	{	X	_	_	8	dep	_	AlignBegin=299355|AlignEnd=299385|Gloss=PUNCT
 6	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	8	nsubj	_	AlignBegin=299385|AlignEnd=299533|Gloss=NOM.2
 7	dey	dey	AUX	_	Aspect=Imp	8	aux	_	AlignBegin=299533|AlignEnd=299724|Gloss=IPFV
-8	work	work	VERB	_	_	21	parataxis:dislocated	_	AlignBegin=299724|AlignEnd=299980|Gloss=work
+8	work	work	VERB	_	_	21	parataxis:mod	_	AlignBegin=299724|AlignEnd=299980|Gloss=work
 9	before	before	ADP	_	_	8	dep	_	AlignBegin=299980|AlignEnd=300430|Gloss=before
 10	|c	|c	X	_	_	13	dep	_	AlignBegin=300430|AlignEnd=300460|Gloss=PUNCT
 11	work	work	NOUN	_	_	13	nsubj	_	AlignBegin=300460|AlignEnd=300710|Gloss=work
@@ -1913,7 +1914,7 @@
 # text = in fact < after you don retire < when you don tell your employer sey [ di one wey I don do with una don do |c sey now I want rest and enjoy my money ] < insurance still fit protect dat money as well //
 # text_en = In fact, when you're retired, when you've told your employer that I've been working for you long enough, and now, I want to rest and enjoy my money, insurance can protect that money as well.
 # text_ortho = In fact, after you don retire, when you don tell your employer sey di one wey I don do with una don do, sey now I want rest and enjoy my money, insurance still fit protect dat money as well.
-1	in	in	ADP	_	_	42	advmod	_	AlignBegin=311007|AlignEnd=311192|ExtPos=ADV|Gloss=in|PhraseType=Idiom
+1	in	in	ADP	_	_	42	advmod	_	AlignBegin=311007|AlignEnd=311192|ExtPos=ADV|Gloss=in|Idiom=Yes
 2	fact	fact	NOUN	_	_	1	fixed	_	AlignBegin=311192|AlignEnd=311404|Gloss=fact|InIdiom=Yes
 3	<	<	X	_	_	1	dep	_	AlignBegin=311404|AlignEnd=311434|Gloss=PUNCT
 4	after	after	ADP	_	_	7	mark	_	AlignBegin=311434|AlignEnd=311871|Gloss=after
@@ -1921,10 +1922,10 @@
 6	don	don	AUX	_	Aspect=Perf	7	aux	_	AlignBegin=311994|AlignEnd=312238|Gloss=PRF
 7	retire	retire	VERB	_	_	42	advcl	_	AlignBegin=312238|AlignEnd=312613|Gloss=retire
 8	<	<	X	_	_	7	dep	_	AlignBegin=312613|AlignEnd=312643|Gloss=PUNCT
-9	when	when	SCONJ	_	PronType=Int	12	mark	_	AlignBegin=312643|AlignEnd=312720|Gloss=when.Q
+9	when	when	ADV	_	_	42	advmod	_	AlignBegin=312643|AlignEnd=312720|Gloss=when.Q
 10	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	12	nsubj	_	AlignBegin=312720|AlignEnd=312817|Gloss=NOM.2
 11	don	don	AUX	_	Aspect=Perf	12	aux	_	AlignBegin=312817|AlignEnd=313060|Gloss=PRF
-12	tell	tell	VERB	_	_	42	advcl	_	AlignBegin=313060|AlignEnd=313295|Gloss=tell
+12	tell	tell	VERB	_	_	9	ccomp	_	AlignBegin=313060|AlignEnd=313295|Gloss=tell
 13	your	your	PRON	_	Number=Plur|Person=2|Poss=Yes	14	nmod:poss	_	AlignBegin=313295|AlignEnd=313390|Gloss=PL.2.POSS
 14	employer	employer	NOUN	_	_	12	iobj	_	AlignBegin=313390|AlignEnd=313800|Gloss=employer
 15	sey	sey	SCONJ	_	_	26	mark	_	AlignBegin=313800|AlignEnd=314008|Gloss=COMP
@@ -1944,18 +1945,18 @@
 29	now	now	ADV	_	_	31	advmod	_	AlignBegin=316351|AlignEnd=316533|Gloss=now
 30	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	31	nsubj	_	AlignBegin=316533|AlignEnd=316710|Gloss=NOM.SG.1
 31	want	want	VERB	_	_	26	conj	_	AlignBegin=316710|AlignEnd=316930|Gloss=want
-32	rest	rest	VERB	_	_	31	ccomp	_	AlignBegin=316930|AlignEnd=317280|Gloss=rest
+32	rest	rest	VERB	_	_	31	xcomp	_	AlignBegin=316930|AlignEnd=317280|Gloss=rest
 33	and	and	CCONJ	_	_	34	cc	_	AlignBegin=317280|AlignEnd=317420|Gloss=and
 34	enjoy	enjoy	VERB	_	_	32	conj	_	AlignBegin=317420|AlignEnd=317822|Gloss=enjoy
 35	my	my	PRON	_	Number=Sing|Person=1|Poss=Yes	36	nmod:poss	_	AlignBegin=317822|AlignEnd=318015|Gloss=SG.1.POSS
 36	money	money	NOUN	_	_	34	obj	_	AlignBegin=318015|AlignEnd=318610|Gloss=money
 37	]	]	X	_	_	26	dep	_	AlignBegin=318610|AlignEnd=318640|Gloss=PUNCT
-38	<	<	X	_	_	12	dep	_	AlignBegin=318610|AlignEnd=318640|Gloss=PUNCT
+38	<	<	X	_	_	9	dep	_	AlignBegin=318610|AlignEnd=318640|Gloss=PUNCT
 39	insurance	insurance	NOUN	_	_	42	nsubj	_	AlignBegin=318640|AlignEnd=319144|Gloss=insurance
 40	still	still	ADV	_	_	42	advmod	_	AlignBegin=319144|AlignEnd=319301|Gloss=still
 41	fit	fit	AUX	_	Mood=Pot	42	aux	_	AlignBegin=319301|AlignEnd=319515|Gloss=ABIL
 42	protect	protect	VERB	_	_	0	root	_	AlignBegin=319515|AlignEnd=319925|Gloss=protect
-43	dat	dat	DET	_	Number=Sing|PronType=Dem	44	det	_	AlignBegin=319925|AlignEnd=320128|Gloss=SG.DEM
+43	dat	dat	DET	_	Number=Sing	44	det	_	AlignBegin=319925|AlignEnd=320128|Gloss=SG.DEM
 44	money	money	NOUN	_	_	42	obj	_	AlignBegin=320128|AlignEnd=320392|Gloss=money
 45	as	as	ADP	_	_	46	case	_	AlignBegin=320392|AlignEnd=320720|Gloss=as
 46	well	well	ADV	_	_	42	advmod	_	AlignBegin=320720|AlignEnd=321079|Gloss=well
@@ -1967,7 +1968,7 @@
 # text = wey be sey even if you finish di money wey dem give you < we go dey pay you dey go so far you don come tell us sey [ you want protect dat money wey you collect ] //
 # text_en = Which means that if you spent all the money they gave you, we will continue paying you as far as you've asked us to protect the money which you collected.
 # text_ortho = Wey be sey even if you finish di money wey dem give you, we go dey pay you dey go so far you don come tell us sey you want protect dat money wey you collect.
-1	wey	when	SCONJ	_	_	18	discourse	_	AlignBegin=321109|AlignEnd=321331|ExtPos=SCONJ|Gloss=when|PhraseType=Idiom
+1	wey	when	SCONJ	_	_	18	discourse	_	AlignBegin=321109|AlignEnd=321331|ExtPos=SCONJ|Gloss=when|Idiom=Yes
 2	be	be	VERB	_	PartType=Cop	1	fixed	_	AlignBegin=321331|AlignEnd=321408|Gloss=be|InIdiom=Yes
 3	sey	sey	SCONJ	_	_	1	fixed	_	AlignBegin=321408|AlignEnd=321799|Gloss=COMP|InIdiom=Yes
 4	even	even	ADV	_	_	7	advmod	_	AlignBegin=321829|AlignEnd=322155|Gloss=even
@@ -1988,7 +1989,7 @@
 19	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	18	obj	_	AlignBegin=324750|AlignEnd=324880|Gloss=NOM.2
 20	dey	dey	AUX	_	Aspect=Imp	21	aux	_	AlignBegin=324880|AlignEnd=325051|Gloss=IPFV
 21	go	go	VERB	_	_	18	advcl	_	AlignBegin=325051|AlignEnd=325390|Gloss=go
-22	so	so	ADV	_	_	27	mark	_	AlignBegin=325390|AlignEnd=325586|ExtPos=SCONJ|Gloss=so|PhraseType=Idiom
+22	so	so	ADV	_	_	27	mark	_	AlignBegin=325390|AlignEnd=325586|ExtPos=SCONJ|Gloss=so|Idiom=Yes
 23	far	far	ADV	_	_	22	fixed	_	AlignBegin=325586|AlignEnd=325900|Gloss=far|InIdiom=Yes
 24	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	27	nsubj	_	AlignBegin=325900|AlignEnd=326026|Gloss=NOM.2
 25	don	don	AUX	_	Aspect=Perf	27	aux	_	AlignBegin=326026|AlignEnd=326288|Gloss=PRF
@@ -1999,8 +2000,8 @@
 30	[	[	X	_	_	32	dep	_	AlignBegin=327230|AlignEnd=327260|Gloss=PUNCT
 31	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	32	nsubj	_	AlignBegin=327260|AlignEnd=327391|Gloss=NOM.2
 32	want	want	VERB	_	_	27	ccomp	_	AlignBegin=327391|AlignEnd=327589|Gloss=want
-33	protect	protect	VERB	_	_	32	ccomp	_	AlignBegin=327589|AlignEnd=328016|Gloss=protect
-34	dat	dat	DET	_	Number=Sing|PronType=Dem	35	det	_	AlignBegin=328016|AlignEnd=328130|Gloss=SG.DEM
+33	protect	protect	VERB	_	_	32	xcomp	_	AlignBegin=327589|AlignEnd=328016|Gloss=protect
+34	dat	dat	DET	_	Number=Sing	35	det	_	AlignBegin=328016|AlignEnd=328130|Gloss=SG.DEM
 35	money	money	NOUN	_	_	33	obj	_	AlignBegin=328130|AlignEnd=328380|Gloss=money
 36	wey	wey	SCONJ	_	_	38	mark	_	AlignBegin=328380|AlignEnd=328480|Gloss=REL
 37	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	38	nsubj	_	AlignBegin=328480|AlignEnd=328602|Gloss=NOM.2
@@ -2014,7 +2015,7 @@
 # text = dat one < we dey call am annuity //
 # text_en = We call that annuity.
 # text_ortho = Dat one, we dey call am annuity.
-1	dat	dat	DET	_	Number=Sing|PronType=Dem	2	det	_	AlignBegin=329225|AlignEnd=329624|Gloss=SG.DEM
+1	dat	dat	DET	_	Number=Sing	2	det	_	AlignBegin=329225|AlignEnd=329624|Gloss=SG.DEM
 2	one	one	NOUN	_	_	6	dislocated	_	AlignBegin=329624|AlignEnd=329749|Gloss=one
 3	<	<	X	_	_	2	dep	_	AlignBegin=329749|AlignEnd=329779|Gloss=PUNCT
 4	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	AlignBegin=329779|AlignEnd=329860|Gloss=NOM.PL.1
@@ -2076,7 +2077,7 @@
 # text = in fact e dey beautiful sotay # once you enta business with us < you go enjoy am //
 # text_en = In fact, it is so beautiful that once you enter into business with us, you will enjoy it.
 # text_ortho = In fact e dey beautiful sotay once you enta business with us, you go enjoy am.
-1	in	in	ADP	_	_	4	advmod	_	AlignBegin=337368|AlignEnd=337470|ExtPos=ADV|Gloss=in|PhraseType=Idiom
+1	in	in	ADP	_	_	4	advmod	_	AlignBegin=337368|AlignEnd=337470|ExtPos=ADV|Gloss=in|Idiom=Yes
 2	fact	fact	NOUN	_	_	1	fixed	_	AlignBegin=337470|AlignEnd=337678|Gloss=fact|InIdiom=Yes
 3	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	AlignBegin=337678|AlignEnd=337770|Gloss=NOM.SG.3
 4	dey	dey	VERB	_	VerbType=Cop	0	root	_	AlignBegin=337770|AlignEnd=337973|Gloss=be
@@ -2104,7 +2105,7 @@
 # text_ortho = Na because of una de establish us.
 1	#	#	X	_	_	5	dep	_	AlignBegin=342620|AlignEnd=343140|Gloss=PUNCT
 2	na	na	AUX	_	PartType=Cop	5	cop	_	AlignBegin=343140|AlignEnd=343285|Gloss=be
-3	because	because	SCONJ	_	_	5	case	_	AlignBegin=343285|AlignEnd=343590|ExtPos=ADP|Gloss=because|PhraseType=Idiom
+3	because	because	SCONJ	_	_	5	case	_	AlignBegin=343285|AlignEnd=343590|ExtPos=ADP|Gloss=because|Idiom=Yes
 4	of	of	ADP	_	_	3	fixed	_	AlignBegin=343590|AlignEnd=343730|Gloss=of|InIdiom=Yes
 5	una	una	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	0	root	_	AlignBegin=343730|AlignEnd=344010|Gloss=NOM.PL.2
 6	>+	>+	X	_	_	9	dep	_	AlignBegin=344010|AlignEnd=344040|Gloss=PUNCT
@@ -2125,7 +2126,7 @@
 3	>+	>+	X	_	_	5	dep	_	AlignBegin=345963|AlignEnd=345993|Gloss=PUNCT
 4	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	AlignBegin=345993|AlignEnd=346130|Gloss=NOM.PL.1
 5	come	come	VERB	_	_	2	advcl:cleft	_	AlignBegin=346130|AlignEnd=346300|Gloss=come
-6	serve	serve	VERB	_	_	5	ccomp	_	AlignBegin=346300|AlignEnd=346673|Gloss=serve
+6	serve	serve	VERB	_	_	5	compound:svc	_	AlignBegin=346300|AlignEnd=346673|Gloss=serve
 7	//	//	X	_	_	2	dep	_	AlignBegin=346673|AlignEnd=346703|Gloss=PUNCT
 
 # sent_id = LAG_12_Insurance_MG__85
@@ -2170,7 +2171,7 @@
 8	wetin	wetin	PRON	_	PronType=Int	6	obj	_	AlignBegin=353970|AlignEnd=354200|Gloss=what.Q
 9	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	10	nsubj	_	AlignBegin=354200|AlignEnd=354315|Gloss=NOM.2
 10	want	want	VERB	_	_	8	acl:relcl	_	AlignBegin=354315|AlignEnd=354449|Gloss=want
-11	protect	protect	VERB	_	_	10	ccomp	_	AlignBegin=354449|AlignEnd=354938|Gloss=protect
+11	protect	protect	VERB	_	_	10	xcomp	_	AlignBegin=354449|AlignEnd=354938|Gloss=protect
 12	<	<	X	_	_	6	dep	_	AlignBegin=354938|AlignEnd=354968|Gloss=PUNCT
 13	#	#	X	_	_	6	dep	_	AlignBegin=354968|AlignEnd=355560|Gloss=PUNCT
 14	our	our	PRON	_	Number=Plur|Person=1|Poss=Yes	15	nmod	_	AlignBegin=355560|AlignEnd=355750|Gloss=PL.1.POSS
@@ -2191,7 +2192,7 @@
 29	as	as	ADP	_	_	32	mark	_	AlignBegin=358900|AlignEnd=359119|Gloss=as
 30	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	32	nsubj	_	AlignBegin=359119|AlignEnd=359201|Gloss=NOM.2
 31	don	don	AUX	_	Aspect=Perf	32	aux	_	AlignBegin=359201|AlignEnd=359420|Gloss=PRF
-32	tell	tell	VERB	_	_	48	advcl:tempo	_	AlignBegin=359420|AlignEnd=359590|Gloss=tell
+32	tell	tell	VERB	_	_	48	advcl	_	AlignBegin=359420|AlignEnd=359590|Gloss=tell
 33	us	us	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	32	iobj	_	AlignBegin=359590|AlignEnd=359730|Gloss=ACC.PL.1
 34	sey	sey	SCONJ	_	_	38	mark	_	AlignBegin=359730|AlignEnd=359843|Gloss=COMP
 35	[	[	X	_	_	38	dep	_	AlignBegin=359843|AlignEnd=359873|Gloss=PUNCT
@@ -2201,7 +2202,7 @@
 39	>+	>+	X	_	_	41	dep	_	AlignBegin=360390|AlignEnd=360420|Gloss=PUNCT
 40	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	41	nsubj	_	AlignBegin=360420|AlignEnd=360520|Gloss=NOM.2
 41	want	want	VERB	_	_	38	advcl:cleft	_	AlignBegin=360520|AlignEnd=360717|Gloss=want
-42	protect	protect	VERB	_	_	41	ccomp	_	AlignBegin=360717|AlignEnd=361196|Gloss=protect
+42	protect	protect	VERB	_	_	41	xcomp	_	AlignBegin=360717|AlignEnd=361196|Gloss=protect
 43	]	]	X	_	_	38	dep	_	AlignBegin=361196|AlignEnd=361226|Gloss=PUNCT
 44	<	<	X	_	_	32	dep	_	AlignBegin=361196|AlignEnd=361226|Gloss=PUNCT
 45	#	#	X	_	_	32	dep	_	AlignBegin=361226|AlignEnd=361500|Gloss=PUNCT
@@ -2212,7 +2213,7 @@
 50	[	[	X	_	_	53	dep	_	AlignBegin=362056|AlignEnd=362086|Gloss=PUNCT
 51	na	na	AUX	_	PartType=Cop	53	cop	_	AlignBegin=362086|AlignEnd=362210|Gloss=be
 52	shikini	shikini	ADJ	_	_	53	amod	_	AlignBegin=362210|AlignEnd=362630|Gloss=meagre
-53	money	money	NOUN	_	_	48	ccomp	_	AlignBegin=362630|AlignEnd=362771|Gloss=money
+53	money	money	NOUN	_	_	48	parataxis	_	AlignBegin=362630|AlignEnd=362771|Gloss=money
 54	>+	>+	X	_	_	57	dep	_	AlignBegin=362771|AlignEnd=362801|Gloss=PUNCT
 55	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	57	nsubj	_	AlignBegin=362801|AlignEnd=362906|Gloss=NOM.2
 56	go	go	AUX	_	Aspect=Prosp	57	aux	_	AlignBegin=362906|AlignEnd=363071|Gloss=PROSP
@@ -2250,7 +2251,7 @@
 21	wetin	wetin	PRON	_	PronType=Int	14	conj	_	AlignBegin=368473|AlignEnd=368849|Gloss=what.Q
 22	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	23	nsubj	_	AlignBegin=368849|AlignEnd=368980|Gloss=NOM.2
 23	want	want	VERB	_	_	21	acl:relcl	_	AlignBegin=368980|AlignEnd=369154|Gloss=want
-24	protect	protect	VERB	_	_	23	ccomp	_	AlignBegin=369154|AlignEnd=369525|Gloss=protect
+24	protect	protect	VERB	_	_	23	xcomp	_	AlignBegin=369154|AlignEnd=369525|Gloss=protect
 25	}	}	X	_	_	14	dep	_	AlignBegin=369525|AlignEnd=369555|Gloss=PUNCT
 26	<	<	X	_	_	6	dep	_	AlignBegin=369525|AlignEnd=369555|Gloss=PUNCT
 27	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	29	nsubj	_	AlignBegin=369555|AlignEnd=369656|Gloss=NOM.2
@@ -2302,8 +2303,8 @@
 5	thousand	thousand	NUM	_	NumType=Card	4	flat	_	AlignBegin=377238|AlignEnd=377570|Gloss=thousand.CARD
 6	naira	naira	NOUN	_	_	3	obj	_	AlignBegin=377570|AlignEnd=377870|Gloss=naira
 7	to	to	ADP	_	_	8	mark	_	AlignBegin=377870|AlignEnd=377988|Gloss=to
-8	protect	protect	VERB	_	_	3	ccomp	_	AlignBegin=377988|AlignEnd=378395|Gloss=protect
-9	dat	dat	DET	_	Number=Sing|PronType=Dem	10	det	_	AlignBegin=378395|AlignEnd=378597|Gloss=SG.DEM
+8	protect	protect	VERB	_	_	3	advcl	_	AlignBegin=377988|AlignEnd=378395|Gloss=protect
+9	dat	dat	DET	_	Number=Sing	10	det	_	AlignBegin=378395|AlignEnd=378597|Gloss=SG.DEM
 10	car	car	NOUN	_	_	8	obj	_	AlignBegin=378597|AlignEnd=378870|Gloss=car
 11	//	//	X	_	_	3	dep	_	AlignBegin=378870|AlignEnd=378900|Gloss=PUNCT
 
@@ -2353,7 +2354,7 @@
 7	|c	|c	X	_	_	15	dep	_	AlignBegin=385220|AlignEnd=385250|Gloss=PUNCT
 8	{	{	X	_	_	15	dep	_	AlignBegin=385220|AlignEnd=385250|Gloss=PUNCT
 9	and	and	CCONJ	_	_	15	cc	_	AlignBegin=385250|AlignEnd=385350|Gloss=and
-10	person	person	NOUN	_	_	15	dep	_	AlignBegin=385350|AlignEnd=385647|Gloss=person
+10	person	person	NOUN	_	_	15	dep	_	AlignBegin=385350|AlignEnd=385647|Gloss=person|Scrap=Yes
 11	||	||	X	_	_	12	dep	_	AlignBegin=385647|AlignEnd=385677|Gloss=PUNCT
 12	or	or	CCONJ	_	_	15	reparandum	_	AlignBegin=385677|AlignEnd=385830|Gloss=or
 13	}	}	X	_	_	15	dep	_	AlignBegin=385677|AlignEnd=385830|Gloss=PUNCT
@@ -2456,7 +2457,7 @@
 37	sey	sey	SCONJ	_	_	39	discourse	_	AlignBegin=402458|AlignEnd=402680|Gloss=COMP
 38	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	39	nsubj	_	AlignBegin=402680|AlignEnd=402760|Gloss=NOM.PL.1
 39	want	want	VERB	_	_	26	conj	_	AlignBegin=402760|AlignEnd=402925|Gloss=want
-40	protect	protect	VERB	_	_	39	ccomp	_	AlignBegin=402925|AlignEnd=403394|Gloss=protect
+40	protect	protect	VERB	_	_	39	xcomp	_	AlignBegin=402925|AlignEnd=403394|Gloss=protect
 41	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	40	obj	_	AlignBegin=403394|AlignEnd=403530|Gloss=NOM.2
 42	}	}	X	_	_	26	dep	_	AlignBegin=403530|AlignEnd=403560|Gloss=PUNCT
 43	<	<	X	_	_	17	dep	_	AlignBegin=403530|AlignEnd=403560|Gloss=PUNCT
@@ -2585,7 +2586,7 @@
 8	people	people	NOUN	_	Number=Plur	6	obl:arg	_	AlignBegin=426044|AlignEnd=426249|Gloss=people.PL
 9	>+	>+	X	_	_	10	dep	_	AlignBegin=426249|AlignEnd=426279|Gloss=PUNCT
 10	be	be	VERB	_	PartType=Cop	3	advcl:cleft	_	AlignBegin=426279|AlignEnd=426429|Gloss=be
-11	dat	dat	PRON	_	Number=Sing|PronType=Dem	10	nsubj	_	AlignBegin=426429|AlignEnd=426674|Gloss=SG.DEM
+11	dat	dat	PRON	_	Number=Sing	10	nsubj	_	AlignBegin=426429|AlignEnd=426674|Gloss=SG.DEM
 12	//	//	X	_	_	3	dep	_	AlignBegin=426674|AlignEnd=426704|Gloss=PUNCT
 
 # sent_id = LAG_12_Insurance_MG__99

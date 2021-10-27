@@ -1,4 +1,5 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = JOS_20_Beauty-Of-Jos_MG__1
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/JOS_20_Beauty-Of-Jos_MG.mp3
 # speaker_id = Sp136
@@ -55,7 +56,7 @@
 12	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	10	obj	_	AlignBegin=10590|AlignEnd=10729|Gloss=ACC.SG.1
 13	come	come	VERB	_	_	10	compound:svc	_	AlignBegin=10729|AlignEnd=11020|Gloss=come
 14	dis	dis	DET	_	Number=Sing|PronType=Dem	15	det	_	AlignBegin=11020|AlignEnd=11207|Gloss=SG.DEM
-15	school	school	NOUN	_	_	13	obj	_	AlignBegin=11207|AlignEnd=11789|Gloss=school
+15	school	school	NOUN	_	_	13	iobj	_	AlignBegin=11207|AlignEnd=11789|Gloss=school
 16	wey	wey	SCONJ	_	_	18	mark	_	AlignBegin=11789|AlignEnd=11962|Gloss=REL
 17	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	18	nsubj	_	AlignBegin=11962|AlignEnd=12121|Gloss=NOM.PL.1
 18	dey	dey	VERB	_	VerbType=Cop	15	acl:relcl	_	AlignBegin=12121|AlignEnd=12410|Gloss=be
@@ -185,11 +186,11 @@
 5	dey	dey	AUX	_	Aspect=Imp	6	aux	_	AlignBegin=29477|AlignEnd=29605|Gloss=IPFV
 6	travel	travel	VERB	_	_	0	root	_	AlignBegin=29605|AlignEnd=29983|Gloss=travel
 7	go	go	VERB	_	_	6	compound:svc	_	AlignBegin=29983|AlignEnd=30202|Gloss=go
-8	Lagos	Lagos	PROPN	_	_	7	obj	_	AlignBegin=30202|AlignEnd=30900|Gloss=Lagos
+8	Lagos	Lagos	PROPN	_	_	7	iobj	_	AlignBegin=30202|AlignEnd=30900|Gloss=Lagos
 9	|c	|c	X	_	_	11	dep	_	AlignBegin=30900|AlignEnd=30933|Gloss=PUNCT
 10	#	#	X	_	_	11	dep	_	AlignBegin=30900|AlignEnd=31520|Gloss=PUNCT
 11	go	go	VERB	_	_	7	conj	_	AlignBegin=31520|AlignEnd=31694|Gloss=go
-12	buy	buy	VERB	_	_	11	ccomp	_	AlignBegin=31694|AlignEnd=31966|Gloss=buy
+12	buy	buy	VERB	_	_	11	compound:svc	_	AlignBegin=31694|AlignEnd=31966|Gloss=buy
 13	dem	dem	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	12	obj	_	AlignBegin=31966|AlignEnd=32220|Gloss=ACC.PL.3
 14	come	come	VERB	_	_	12	compound:svc	_	AlignBegin=32220|AlignEnd=32532|Gloss=come
 15	//	//	X	_	_	6	dep	_	AlignBegin=32532|AlignEnd=32620|Gloss=PUNCT
@@ -231,7 +232,7 @@
 8	Jos	Jos	PROPN	_	_	7	obj	_	AlignBegin=36790|AlignEnd=37050|Gloss=Jos
 9	|c	|c	X	_	_	10	dep	_	AlignBegin=36790|AlignEnd=37050|Gloss=PUNCT
 10	come	come	VERB	_	_	7	conj	_	AlignBegin=37050|AlignEnd=37230|Gloss=come
-11	sell	sell	VERB	_	_	10	ccomp	_	AlignBegin=37230|AlignEnd=37480|Gloss=sell
+11	sell	sell	VERB	_	_	10	compound:svc	_	AlignBegin=37230|AlignEnd=37480|Gloss=sell
 12	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	11	obj	_	AlignBegin=37480|AlignEnd=37611|Gloss=ACC.SG.3
 13	for	for	ADP	_	_	14	case	_	AlignBegin=37611|AlignEnd=37778|Gloss=for
 14	people	people	NOUN	_	Number=Plur	11	obl:arg	_	AlignBegin=37778|AlignEnd=38095|Gloss=people.PL
@@ -253,7 +254,7 @@
 7	<	<	X	_	_	6	dep	_	AlignBegin=41024|AlignEnd=41054|Gloss=PUNCT
 8	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	14	expl:subj	_	AlignBegin=41054|AlignEnd=41202|Gloss=NOM.SG.3
 9	be	be	AUX	_	PartType=Cop	14	cop	_	AlignBegin=41202|AlignEnd=41301|Gloss=be
-10	like	like	ADP	_	_	14	mark	_	AlignBegin=41301|AlignEnd=41461|ExtPos=SCONJ|Gloss=like|PhraseType=Idiom
+10	like	like	ADP	_	_	14	mark	_	AlignBegin=41301|AlignEnd=41461|ExtPos=SCONJ|Gloss=like|Idiom=Yes
 11	sey	sey	SCONJ	_	_	10	fixed	_	AlignBegin=41461|AlignEnd=41584|Gloss=COMP|InIdiom=Yes
 12	[	[	X	_	_	14	dep	_	AlignBegin=41584|AlignEnd=41614|Gloss=PUNCT
 13	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	14	nsubj	_	AlignBegin=41614|AlignEnd=41762|Gloss=NOM.PL.1
@@ -278,7 +279,7 @@
 32	wey	wey	SCONJ	_	_	34	mark	_	AlignBegin=46419|AlignEnd=46540|Gloss=REL
 33	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	34	nsubj	_	AlignBegin=46540|AlignEnd=46680|Gloss=NOM.2
 34	want	want	VERB	_	_	31	acl:relcl	_	AlignBegin=46680|AlignEnd=46926|Gloss=want
-35	buy	buy	VERB	_	_	34	ccomp	_	AlignBegin=46926|AlignEnd=47070|Gloss=buy
+35	buy	buy	VERB	_	_	34	xcomp	_	AlignBegin=46926|AlignEnd=47070|Gloss=buy
 36	}	}	X	_	_	28	dep	_	AlignBegin=47070|AlignEnd=47100|Gloss=PUNCT
 37	]	]	X	_	_	14	dep	_	AlignBegin=47070|AlignEnd=47100|Gloss=PUNCT
 38	//	//	X	_	_	14	dep	_	AlignBegin=47070|AlignEnd=47100|Gloss=PUNCT
@@ -297,7 +298,7 @@
 6	<	<	X	_	_	4	dep	_	AlignBegin=48576|AlignEnd=48596|Gloss=PUNCT
 7	#	#	X	_	_	4	dep	_	AlignBegin=48576|AlignEnd=48760|Gloss=PUNCT
 8	for	for	ADP	_	_	10	case	_	AlignBegin=48760|AlignEnd=48830|Gloss=for
-9	dat	dat	DET	_	Number=Sing|PronType=Dem	10	det	_	AlignBegin=48830|AlignEnd=48970|Gloss=SG.DEM
+9	dat	dat	DET	_	Number=Sing	10	det	_	AlignBegin=48830|AlignEnd=48970|Gloss=SG.DEM
 10	Okirika	Okirika	PROPN	_	_	14	obl:mod	_	AlignBegin=48970|AlignEnd=49358|Gloss=Okirika
 11	<	<	X	_	_	10	dep	_	AlignBegin=49358|AlignEnd=49388|Gloss=PUNCT
 12	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	14	nsubj	_	AlignBegin=49388|AlignEnd=49477|Gloss=NOM.2
@@ -318,10 +319,10 @@
 2	people	people	NOUN	_	Number=Plur	4	nsubj	_	AlignBegin=50843|AlignEnd=51081|Gloss=people.PL
 3	dey	dey	AUX	_	Aspect=Imp	4	aux	_	AlignBegin=51081|AlignEnd=51235|Gloss=IPFV
 4	go	go	VERB	_	_	0	root	_	AlignBegin=51235|AlignEnd=51438|Gloss=go
-5	dere	dere	ADV	_	_	4	obj	_	AlignBegin=51438|AlignEnd=51600|Gloss=there
+5	dere	dere	ADV	_	_	4	iobj	_	AlignBegin=51438|AlignEnd=51600|Gloss=there
 6	#	#	X	_	_	7	dep	_	AlignBegin=51600|AlignEnd=52400|Gloss=PUNCT
-7	go	go	VERB	_	_	4	ccomp	_	AlignBegin=52400|AlignEnd=52619|Gloss=go
-8	buy	buy	VERB	_	_	7	ccomp	_	AlignBegin=52619|AlignEnd=52860|Gloss=buy
+7	go	go	VERB	_	_	4	compound:svc	_	AlignBegin=52400|AlignEnd=52619|Gloss=go
+8	buy	buy	VERB	_	_	7	compound:svc	_	AlignBegin=52619|AlignEnd=52860|Gloss=buy
 9	//	//	X	_	_	4	dep	_	AlignBegin=52860|AlignEnd=52882|Gloss=PUNCT
 
 # sent_id = JOS_20_Beauty-Of-Jos_MG__16
@@ -389,8 +390,8 @@
 1	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	AlignBegin=60820|AlignEnd=60905|Gloss=NOM.SG.3
 2	no	no	AUX	_	Polarity=Neg	3	aux	_	AlignBegin=60905|AlignEnd=61095|Gloss=NEG
 3	cost	cost	ADJ	_	_	0	root	_	AlignBegin=61095|AlignEnd=61420|ExtPos=VERB|Gloss=expensive
-4	at	at	ADP	_	_	3	advmod	_	AlignBegin=61420|AlignEnd=61650|ExtPos=ADV|Gloss=at|PhraseType=Idiom
-5	all	all	DET	_	_	4	fixed	_	AlignBegin=61650|AlignEnd=61826|Gloss=all|InIdiom=Yes
+4	at	at	ADP	_	_	3	advmod	_	AlignBegin=61420|AlignEnd=61650|ExtPos=ADV|Gloss=at|Idiom=Yes
+5	all	all	PRON	_	_	4	fixed	_	AlignBegin=61650|AlignEnd=61826|Gloss=all|InIdiom=Yes
 6	{	{	X	_	_	7	dep	_	AlignBegin=61856|AlignEnd=62033|Gloss=PUNCT
 7	lai	lai	ADV	_	_	3	advmod	_	AlignBegin=61856|AlignEnd=62033|Gloss=at_all
 8	|r	|r	X	_	_	9	dep	_	AlignBegin=62063|AlignEnd=62290|Gloss=PUNCT
@@ -463,7 +464,7 @@
 3	fit	fit	AUX	_	Mood=Pot	4	aux	_	AlignBegin=74075|AlignEnd=74370|Gloss=ABIL
 4	come	come	VERB	_	_	0	root	_	AlignBegin=74370|AlignEnd=74619|Gloss=come
 5	to	to	ADP	_	_	6	case	_	AlignBegin=74619|AlignEnd=74776|Gloss=to
-6	dis	dis	PRON	_	Number=Sing|PronType=Dem	4	obl:arg	_	AlignBegin=74776|AlignEnd=74998|Gloss=SG.DEM
+6	dis	dis	PRON	_	Number=Sing|PronType=Dem	4	obl:arg	_	AlignBegin=74776|AlignEnd=74998|Gloss=SG.DEM|Scrap=Yes
 7	&//	&//	X	_	_	4	dep	_	AlignBegin=74998|AlignEnd=75028|Gloss=PUNCT
 
 # sent_id = JOS_20_Beauty-Of-Jos_MG__24
@@ -484,7 +485,7 @@
 10	dis	dis	DET	_	Number=Sing|PronType=Dem	11	det	_	AlignBegin=75950|AlignEnd=76251|Gloss=SG.DEM
 11	Jos	Jos	PROPN	_	_	9	obj	_	AlignBegin=76251|AlignEnd=76540|Gloss=Jos
 12	#	#	X	_	_	13	dep	_	AlignBegin=76540|AlignEnd=76820|Gloss=PUNCT
-13	buy	buy	VERB	_	_	9	ccomp	_	AlignBegin=76820|AlignEnd=77300|Gloss=buy
+13	buy	buy	VERB	_	_	9	compound:svc	_	AlignBegin=76820|AlignEnd=77300|Gloss=buy
 14	#	#	X	_	_	15	dep	_	AlignBegin=77300|AlignEnd=77880|Gloss=PUNCT
 15	di	di	DET	_	Definite=Def|PronType=Art	17	det	_	AlignBegin=77880|AlignEnd=78740|Gloss=DEF.ART
 16	#	#	X	_	_	15	dep	_	AlignBegin=78740|AlignEnd=78896|Gloss=PUNCT
@@ -523,8 +524,8 @@
 11	no	no	AUX	_	Polarity=Neg	12	aux	_	AlignBegin=83961|AlignEnd=84112|Gloss=NEG
 12	dey	dey	VERB	_	VerbType=Cop	0	root	_	AlignBegin=84112|AlignEnd=84303|Gloss=be
 13	costly	costly	ADJ	_	_	12	xcomp	_	AlignBegin=84303|AlignEnd=84784|Gloss=costly
-14	at	at	ADP	_	_	13	advmod	_	AlignBegin=84784|AlignEnd=85044|ExtPos=ADV|Gloss=at|PhraseType=Idiom
-15	all	all	DET	_	_	14	fixed	_	AlignBegin=85044|AlignEnd=85378|Gloss=all|InIdiom=Yes
+14	at	at	ADP	_	_	13	advmod	_	AlignBegin=84784|AlignEnd=85044|ExtPos=ADV|Gloss=at|Idiom=Yes
+15	all	all	PRON	_	_	14	fixed	_	AlignBegin=85044|AlignEnd=85378|Gloss=all|InIdiom=Yes
 16	//	//	X	_	_	12	dep	_	AlignBegin=85378|AlignEnd=85408|Gloss=PUNCT
 
 # sent_id = JOS_20_Beauty-Of-Jos_MG__27
@@ -585,19 +586,19 @@
 12	<	<	X	_	_	10	dep	_	AlignBegin=95103|AlignEnd=95133|Gloss=PUNCT
 13	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	15	nsubj	_	AlignBegin=95133|AlignEnd=95270|Gloss=NOM.2
 14	just	just	ADV	_	_	15	advmod	_	AlignBegin=95270|AlignEnd=95552|Gloss=just
-15	enter	enter	VERB	_	_	26	parataxis:dislocated	_	AlignBegin=95552|AlignEnd=95878|Gloss=enter
+15	enter	enter	VERB	_	_	26	parataxis:mod	_	AlignBegin=95552|AlignEnd=95878|Gloss=enter
 16	dis	dis	DET	_	Number=Sing|PronType=Dem	17	det	_	AlignBegin=95878|AlignEnd=96097|Gloss=SG.DEM
 17	town	town	NOUN	_	_	15	obj	_	AlignBegin=96097|AlignEnd=96400|Gloss=town
 18	<	<	X	_	_	15	dep	_	AlignBegin=96400|AlignEnd=96430|Gloss=PUNCT
 19	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	20	nsubj	_	AlignBegin=96430|AlignEnd=96569|Gloss=NOM.2
-20	meet	meet	VERB	_	_	26	parataxis:dislocated	_	AlignBegin=96569|AlignEnd=96918|Gloss=meet
+20	meet	meet	VERB	_	_	26	parataxis:mod	_	AlignBegin=96569|AlignEnd=96918|Gloss=meet
 21	stranger	stranger	NOUN	_	_	20	obj	_	AlignBegin=96918|AlignEnd=97350|Gloss=stranger
 22	<	<	X	_	_	20	dep	_	AlignBegin=97350|AlignEnd=97380|Gloss=PUNCT
 23	#	#	X	_	_	20	dep	_	AlignBegin=97380|AlignEnd=97920|Gloss=PUNCT
 24	no	no	AUX	_	Polarity=Neg	26	aux	_	AlignBegin=97920|AlignEnd=98080|Gloss=NEG
 25	go	go	AUX	_	Aspect=Prosp	26	aux	_	AlignBegin=98080|AlignEnd=98257|Gloss=PROSP
 26	want	want	VERB	_	_	0	root	_	AlignBegin=98257|AlignEnd=98799|Gloss=want
-27	carry	carry	VERB	_	_	26	ccomp	_	AlignBegin=98799|AlignEnd=99192|Gloss=carry
+27	carry	carry	VERB	_	_	26	xcomp	_	AlignBegin=98799|AlignEnd=99192|Gloss=carry
 28	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	27	obj	_	AlignBegin=99192|AlignEnd=99447|Gloss=NOM.2
 29	do	do	VERB	_	_	27	compound:svc	_	AlignBegin=99447|AlignEnd=99650|Gloss=do
 30	yeye	yeye	ADJ	_	_	29	obj	_	AlignBegin=99650|AlignEnd=100010|Gloss=useless
@@ -614,7 +615,7 @@
 3	go	go	AUX	_	Aspect=Prosp	4	aux	_	AlignBegin=100363|AlignEnd=100490|Gloss=PROSP
 4	want	want	VERB	_	_	0	root	_	AlignBegin=100490|AlignEnd=100683|Gloss=want
 5	{	{	X	_	_	6	dep	_	AlignBegin=100683|AlignEnd=100713|Gloss=PUNCT
-6	help	help	VERB	_	_	4	ccomp	_	AlignBegin=100713|AlignEnd=101020|Gloss=help
+6	help	help	VERB	_	_	4	xcomp	_	AlignBegin=100713|AlignEnd=101020|Gloss=help
 7	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	6	obj	_	AlignBegin=101020|AlignEnd=101166|Gloss=NOM.2
 8	|c	|c	X	_	_	10	dep	_	AlignBegin=101166|AlignEnd=101196|Gloss=PUNCT
 9	#	#	X	_	_	10	dep	_	AlignBegin=101196|AlignEnd=101820|Gloss=PUNCT
@@ -760,8 +761,8 @@
 4	dey	dey	AUX	_	Aspect=Imp	5	aux	_	AlignBegin=124351|AlignEnd=124490|Gloss=IPFV
 5	like	like	VERB	_	_	0	root	_	AlignBegin=124490|AlignEnd=124810|Gloss=like
 6	trouble	trouble	NOUN	_	_	5	obj	_	AlignBegin=124810|AlignEnd=125171|Gloss=trouble
-7	at	at	ADP	_	_	5	advmod	_	AlignBegin=125171|AlignEnd=125440|ExtPos=ADV|Gloss=at|PhraseType=Idiom
-8	all	all	DET	_	_	7	fixed	_	AlignBegin=125440|AlignEnd=125960|Gloss=all|InIdiom=Yes
+7	at	at	ADP	_	_	5	advmod	_	AlignBegin=125171|AlignEnd=125440|ExtPos=ADV|Gloss=at|Idiom=Yes
+8	all	all	PRON	_	_	7	fixed	_	AlignBegin=125440|AlignEnd=125960|Gloss=all|InIdiom=Yes
 9	//	//	X	_	_	5	dep	_	AlignBegin=125960|AlignEnd=126052|Gloss=PUNCT
 
 # sent_id = JOS_20_Beauty-Of-Jos_MG__38
@@ -802,7 +803,7 @@
 3	#	#	X	_	_	6	dep	_	AlignBegin=131084|AlignEnd=136808|Gloss=PUNCT
 4	to	to	ADP	_	_	6	mark	_	AlignBegin=132823|AlignEnd=132950|Gloss=to
 5	dey	dey	AUX	_	Aspect=Imp	6	aux	_	AlignBegin=132950|AlignEnd=133058|Gloss=IPFV
-6	stay	stay	VERB	_	_	2	ccomp	_	AlignBegin=133058|AlignEnd=133280|Gloss=stay
+6	stay	stay	VERB	_	_	2	xcomp	_	AlignBegin=133058|AlignEnd=133280|Gloss=stay
 7	for	for	ADP	_	_	8	case	_	AlignBegin=133280|AlignEnd=133520|Gloss=for
 8	Jos	Jos	PROPN	_	_	6	obl:arg	_	AlignBegin=133520|AlignEnd=133880|Gloss=Jos
 9	//	//	X	_	_	2	dep	_	AlignBegin=133880|AlignEnd=133910|Gloss=PUNCT
@@ -817,14 +818,14 @@
 2	if	if	SCONJ	_	_	4	mark	_	AlignBegin=134170|AlignEnd=134330|Gloss=if
 3	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	AlignBegin=134330|AlignEnd=134473|Gloss=NOM.SG.1
 4	go	go	VERB	_	_	10	advcl	_	AlignBegin=134473|AlignEnd=134714|Gloss=go
-5	Lagos	Lagos	PROPN	_	_	4	obj	_	AlignBegin=134714|AlignEnd=135352|Gloss=Lagos
+5	Lagos	Lagos	PROPN	_	_	4	iobj	_	AlignBegin=134714|AlignEnd=135352|Gloss=Lagos
 6	<	<	X	_	_	4	dep	_	AlignBegin=135352|AlignEnd=135382|Gloss=PUNCT
 7	heat	heat	NOUN	_	_	10	nsubj	_	AlignBegin=135382|AlignEnd=135858|Gloss=heat
 8	no	no	AUX	_	Polarity=Neg	10	aux	_	AlignBegin=135858|AlignEnd=135987|Gloss=NEG
 9	dey	dey	AUX	_	Aspect=Imp	10	aux	_	AlignBegin=135987|AlignEnd=136131|Gloss=IPFV
 10	gree	gree	VERB	_	_	0	root	_	AlignBegin=136131|AlignEnd=136315|Gloss=agree
 11	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	10	obj	_	AlignBegin=136315|AlignEnd=136468|Gloss=ACC.SG.1
-12	stay	stay	VERB	_	_	10	ccomp	_	AlignBegin=136468|AlignEnd=136778|Gloss=stay
+12	stay	stay	VERB	_	_	10	xcomp	_	AlignBegin=136468|AlignEnd=136778|Gloss=stay
 13	#	#	X	_	_	18	dep	_	AlignBegin=136808|AlignEnd=137984|Gloss=PUNCT
 14	because	because	SCONJ	_	_	18	mark	_	AlignBegin=137984|AlignEnd=138334|Gloss=because
 15	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	AlignBegin=138334|AlignEnd=138441|Gloss=NOM.SG.1
@@ -866,11 +867,11 @@
 6	like	like	VERB	_	_	0	root	_	AlignBegin=144637|AlignEnd=144900|Gloss=like
 7	to	to	ADP	_	_	9	mark	_	AlignBegin=144900|AlignEnd=145020|Gloss=to
 8	dey	dey	AUX	_	Aspect=Imp	9	aux	_	AlignBegin=145020|AlignEnd=145180|Gloss=IPFV
-9	leave	leave	VERB	_	_	6	ccomp	_	AlignBegin=145180|AlignEnd=145420|Gloss=leave
+9	leave	leave	VERB	_	_	6	xcomp	_	AlignBegin=145180|AlignEnd=145420|Gloss=leave
 10	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	9	obj	_	AlignBegin=145420|AlignEnd=145580|Gloss=ACC.SG.3
 11	anyhow	anyhow	ADV	_	_	9	advmod	_	AlignBegin=145580|AlignEnd=146020|Gloss=anyhow
 12	like	like	ADP	_	_	13	case	_	AlignBegin=146020|AlignEnd=146264|Gloss=like
-13	dat	dat	PRON	_	Number=Sing|PronType=Dem	9	obl:mod	_	AlignBegin=146264|AlignEnd=146491|Gloss=SG.DEM
+13	dat	dat	PRON	_	Number=Sing	9	obl:mod	_	AlignBegin=146264|AlignEnd=146491|Gloss=SG.DEM
 14	because	because	SCONJ	_	_	18	mark	_	AlignBegin=146491|AlignEnd=147172|Gloss=because
 15	#	#	X	_	_	18	dep	_	AlignBegin=147172|AlignEnd=147340|Gloss=PUNCT
 16	here	here	ADV	_	_	18	nsubj	_	AlignBegin=147340|AlignEnd=147537|Gloss=here
@@ -888,7 +889,7 @@
 2	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	AlignBegin=149220|AlignEnd=149309|Gloss=NOM.SG.3
 3	just	just	ADV	_	_	4	advmod	_	AlignBegin=149309|AlignEnd=149510|Gloss=just
 4	dey	dey	VERB	_	VerbType=Cop	0	root	_	AlignBegin=149510|AlignEnd=149624|Gloss=be
-5	like	like	ADP	_	_	9	mark	_	AlignBegin=149624|AlignEnd=149754|ExtPos=SCONJ|Gloss=like|PhraseType=Idiom
+5	like	like	ADP	_	_	9	mark	_	AlignBegin=149624|AlignEnd=149754|ExtPos=SCONJ|Gloss=like|Idiom=Yes
 6	sey	sey	SCONJ	_	_	5	fixed	_	AlignBegin=149754|AlignEnd=149886|Gloss=COMP|InIdiom=Yes
 7	[	[	X	_	_	9	dep	_	AlignBegin=149886|AlignEnd=149916|Gloss=PUNCT
 8	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	AlignBegin=149916|AlignEnd=150051|Gloss=NOM.PL.1
@@ -905,7 +906,7 @@
 # text_ortho = E no...
 1	#	#	X	_	_	3	dep	_	AlignBegin=150852|AlignEnd=151300|Gloss=PUNCT
 2	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	AlignBegin=151300|AlignEnd=151413|Gloss=NOM.SG.3
-3	no	no	PART	_	Polarity=Neg	0	root	_	AlignBegin=151413|AlignEnd=151767|Gloss=NEG
+3	no	no	AUX	_	Polarity=Neg	0	root	_	AlignBegin=151413|AlignEnd=151767|Gloss=NEG|Scrap=Yes
 4	&//	&//	X	_	_	3	dep	_	AlignBegin=151767|AlignEnd=151797|Gloss=PUNCT
 
 # sent_id = JOS_20_Beauty-Of-Jos_MG__46
@@ -920,7 +921,7 @@
 4	Jos	Jos	PROPN	_	_	5	compound	_	AlignBegin=152246|AlignEnd=152485|Gloss=Jos
 5	man	man	NOUN	_	_	6	nsubj	_	AlignBegin=152485|AlignEnd=152852|Gloss=man
 6	go	go	VERB	_	_	12	advcl	_	AlignBegin=152852|AlignEnd=153178|Gloss=go
-7	America	America	PROPN	_	_	6	obj	_	AlignBegin=153178|AlignEnd=153704|Gloss=America
+7	America	America	PROPN	_	_	6	iobj	_	AlignBegin=153178|AlignEnd=153704|Gloss=America
 8	<	<	X	_	_	6	dep	_	AlignBegin=153704|AlignEnd=153734|Gloss=PUNCT
 9	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	AlignBegin=153734|AlignEnd=153810|Gloss=NOM.SG.3
 10	no	no	AUX	_	Polarity=Neg	12	aux	_	AlignBegin=153810|AlignEnd=153940|Gloss=NEG
@@ -938,7 +939,7 @@
 22	sef	sef	PART	_	PartType=Disc	20	advmod	_	AlignBegin=157185|AlignEnd=157512|Gloss=FOC
 23	#	#	X	_	_	18	dep	_	AlignBegin=157512|AlignEnd=158400|Gloss=PUNCT
 24	be	be	AUX	_	PartType=Cop	25	cop	_	AlignBegin=158400|AlignEnd=158520|Gloss=be
-25	like	like	ADP	_	_	12	advcl	_	AlignBegin=158520|AlignEnd=158670|ExtPos=SCONJ|Gloss=like|PhraseType=Idiom
+25	like	like	ADP	_	_	12	advcl	_	AlignBegin=158520|AlignEnd=158670|ExtPos=SCONJ|Gloss=like|Idiom=Yes
 26	sey	sey	SCONJ	_	_	25	fixed	_	AlignBegin=158670|AlignEnd=158920|Gloss=COMP|InIdiom=Yes
 27	&//	&//	X	_	_	2	dep	_	AlignBegin=158920|AlignEnd=158950|Gloss=PUNCT
 
@@ -951,7 +952,7 @@
 1	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	AlignBegin=158950|AlignEnd=159073|Gloss=NOM.SG.1
 2	never	never	AUX	_	Aspect=Perf|Polarity=Neg	3	aux	_	AlignBegin=159073|AlignEnd=159330|Gloss=PRF.NEG
 3	go	go	VERB	_	_	0	root	_	AlignBegin=159330|AlignEnd=159420|Gloss=go
-4	America	America	PROPN	_	_	3	obj	_	AlignBegin=159420|AlignEnd=159920|Gloss=America
+4	America	America	PROPN	_	_	3	iobj	_	AlignBegin=159420|AlignEnd=159920|Gloss=America
 5	sha	sha	PART	_	PartType=Disc	4	advmod	_	AlignBegin=159920|AlignEnd=160302|Gloss=really
 6	o	o	PART	_	PartType=Disc	3	advmod	_	AlignBegin=160302|AlignEnd=160470|Gloss=EMPH
 7	|c	|c	X	_	_	18	dep	_	AlignBegin=160470|AlignEnd=160500|Gloss=PUNCT
@@ -987,7 +988,7 @@
 5	leave	leave	VERB	_	_	13	advcl	_	AlignBegin=166694|AlignEnd=166954|Gloss=leave
 6	Jos	Jos	PROPN	_	_	5	obj	_	AlignBegin=166954|AlignEnd=167174|Gloss=Jos
 7	go	go	VERB	_	_	5	compound:svc	_	AlignBegin=167174|AlignEnd=167300|Gloss=go
-8	America	America	PROPN	_	_	7	obj	_	AlignBegin=167300|AlignEnd=167774|Gloss=America
+8	America	America	PROPN	_	_	7	iobj	_	AlignBegin=167300|AlignEnd=167774|Gloss=America
 9	now	now	ADV	_	_	7	advmod	_	AlignBegin=167774|AlignEnd=167892|Gloss=now
 10	<	<	X	_	_	5	dep	_	AlignBegin=167892|AlignEnd=167922|Gloss=PUNCT
 11	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	AlignBegin=167922|AlignEnd=168005|Gloss=NOM.SG.3
@@ -1001,7 +1002,7 @@
 19	use	use	ADJ	_	_	18	xcomp	_	AlignBegin=169638|AlignEnd=169848|Gloss=use
 20	to	to	ADP	_	_	22	case	_	AlignBegin=169848|AlignEnd=169938|Gloss=to
 21	di	di	DET	_	Definite=Def|PronType=Art	22	det	_	AlignBegin=169938|AlignEnd=170085|Gloss=DEF.ART
-22	weather	weather	NOUN	_	_	19	obl:arg	_	AlignBegin=170085|AlignEnd=170370|Gloss=weather
+22	weather	weather	NOUN	_	_	19	obl:mod	_	AlignBegin=170085|AlignEnd=170370|Gloss=weather
 23	//	//	X	_	_	13	dep	_	AlignBegin=170370|AlignEnd=170400|Gloss=PUNCT
 
 # sent_id = JOS_20_Beauty-Of-Jos_MG__49
@@ -1031,7 +1032,7 @@
 19	like	like	VERB	_	_	15	acl:relcl	_	AlignBegin=176966|AlignEnd=177156|Gloss=like
 20	to	to	ADP	_	_	22	mark	_	AlignBegin=177156|AlignEnd=177306|Gloss=to
 21	dey	dey	AUX	_	Aspect=Imp	22	aux	_	AlignBegin=177306|AlignEnd=177462|Gloss=IPFV
-22	plait	plait	VERB	_	_	19	ccomp	_	AlignBegin=177462|AlignEnd=177776|Gloss=plait
+22	plait	plait	VERB	_	_	19	xcomp	_	AlignBegin=177462|AlignEnd=177776|Gloss=plait
 23	for	for	ADP	_	_	25	case	_	AlignBegin=177776|AlignEnd=177944|Gloss=for
 24	dis	dis	DET	_	Number=Sing|PronType=Dem	25	det	_	AlignBegin=177944|AlignEnd=178320|Gloss=SG.DEM
 25	Jos	Jos	PROPN	_	_	13	obl:arg	_	AlignBegin=178320|AlignEnd=178798|Gloss=Jos
@@ -1106,7 +1107,7 @@
 5	our	our	PRON	_	Number=Plur|Person=1|Poss=Yes	6	nmod:poss	_	AlignBegin=187610|AlignEnd=187854|Gloss=PL.1.POSS
 6	girls	girl	NOUN	_	Number=Plur	4	obj	_	AlignBegin=187854|AlignEnd=188150|Gloss=girl.PL
 7	dey	dey	AUX	_	Aspect=Imp	8	aux	_	AlignBegin=188150|AlignEnd=188300|Gloss=IPFV
-8	make	make	VERB	_	_	4	ccomp	_	AlignBegin=188300|AlignEnd=188570|Gloss=make
+8	make	make	VERB	_	_	4	xcomp	_	AlignBegin=188300|AlignEnd=188570|Gloss=make
 9	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	8	obj	_	AlignBegin=188570|AlignEnd=188801|Gloss=ACC.SG.3
 10	//	//	X	_	_	4	dep	_	AlignBegin=188801|AlignEnd=188831|Gloss=PUNCT
 
@@ -1192,8 +1193,8 @@
 9	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	AlignBegin=199790|AlignEnd=199876|Gloss=NOM.SG.3
 10	no	no	AUX	_	Polarity=Neg	11	aux	_	AlignBegin=199876|AlignEnd=200067|Gloss=NEG
 11	cost	cost	ADJ	_	_	0	root	_	AlignBegin=200067|AlignEnd=200400|ExtPos=VERB|Gloss=expensive
-12	at	at	ADP	_	_	11	advmod	_	AlignBegin=200400|AlignEnd=200650|ExtPos=ADV|Gloss=at|PhraseType=Idiom
-13	all	all	DET	_	_	12	fixed	_	AlignBegin=200650|AlignEnd=200910|Gloss=all|InIdiom=Yes
+12	at	at	ADP	_	_	11	advmod	_	AlignBegin=200400|AlignEnd=200650|ExtPos=ADV|Gloss=at|Idiom=Yes
+13	all	all	PRON	_	_	12	fixed	_	AlignBegin=200650|AlignEnd=200910|Gloss=all|InIdiom=Yes
 14	//	//	X	_	_	11	dep	_	AlignBegin=200910|AlignEnd=200940|Gloss=PUNCT
 
 # sent_id = JOS_20_Beauty-Of-Jos_MG__59
@@ -1209,7 +1210,7 @@
 5	sabi	sabi	VERB	_	_	0	root	_	AlignBegin=202523|AlignEnd=203150|Gloss=know
 6	#	#	X	_	_	8	dep	_	AlignBegin=203150|AlignEnd=203440|Gloss=PUNCT
 7	to	to	ADP	_	_	8	mark	_	AlignBegin=203440|AlignEnd=203531|Gloss=to
-8	make	make	VERB	_	_	5	ccomp	_	AlignBegin=203531|AlignEnd=203796|Gloss=make
+8	make	make	VERB	_	_	5	xcomp	_	AlignBegin=203531|AlignEnd=203796|Gloss=make
 9	hair	hair	NOUN	_	_	8	obj	_	AlignBegin=203796|AlignEnd=203970|Gloss=hair
 10	//	//	X	_	_	5	dep	_	AlignBegin=203970|AlignEnd=204000|Gloss=PUNCT
 
@@ -1233,7 +1234,7 @@
 12	go	go	AUX	_	Aspect=Prosp	14	aux	_	AlignBegin=206130|AlignEnd=206240|Gloss=PROSP
 13	fit	fit	AUX	_	Mood=Pot	14	aux	_	AlignBegin=206240|AlignEnd=206424|Gloss=ABIL
 14	go	go	VERB	_	_	10	acl:relcl	_	AlignBegin=206424|AlignEnd=206590|Gloss=go
-15	make	make	VERB	_	_	14	ccomp	_	AlignBegin=206590|AlignEnd=206850|Gloss=make
+15	make	make	VERB	_	_	14	compound:svc	_	AlignBegin=206590|AlignEnd=206850|Gloss=make
 16	una	una	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	17	nmod:poss	_	AlignBegin=206850|AlignEnd=207067|Gloss=NOM.PL.2
 17	hair	hair	NOUN	_	_	15	obj	_	AlignBegin=207067|AlignEnd=207230|Gloss=hair
 18	//	//	X	_	_	8	dep	_	AlignBegin=207230|AlignEnd=207260|Gloss=PUNCT
@@ -1342,9 +1343,9 @@
 # sent_id = JOS_20_Beauty-Of-Jos_MG__67
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/JOS_20_Beauty-Of-Jos_MG.mp3
 # speaker_id = Sp136
-# text = # but Jos < # to make hair ( # just because di hair sef < [ na im >+ be di main # business for women here ] ) < you no go fit just call your hairdresser say [ you want go make hair ] //
+# text = # but Jos < # to make hair ( # just because di hair sef < [ na im >+ be di main # business for women here ] ) < you no go fit just call your hairdresser sey [ you want go make hair ] //
 # text_en = But in Jos, dressing hair... (just because hairdressing is the main business of the women here), you can't just call up your hairdresser and say you want to get your hair done.
-# text_ortho = But Jos, to make hair (just because di hair sef, na im be di main business for women here), you no go fit just call your hairdresser say you want go make hair.
+# text_ortho = But Jos, to make hair (just because di hair sef, na im be di main business for women here), you no go fit just call your hairdresser sey you want go make hair.
 1	#	#	X	_	_	37	dep	_	AlignBegin=219860|AlignEnd=221340|Gloss=PUNCT
 2	but	but	CCONJ	_	_	37	discourse	_	AlignBegin=221340|AlignEnd=221526|Gloss=but
 3	Jos	Jos	PROPN	_	_	37	dislocated	_	AlignBegin=221526|AlignEnd=222140|Gloss=Jos
@@ -1388,8 +1389,8 @@
 41	[	[	X	_	_	43	dep	_	AlignBegin=231130|AlignEnd=231160|Gloss=PUNCT
 42	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	43	nsubj	_	AlignBegin=231160|AlignEnd=231258|Gloss=NOM.2
 43	want	want	VERB	_	_	37	ccomp	_	AlignBegin=231258|AlignEnd=231402|Gloss=want
-44	go	go	VERB	_	_	43	ccomp	_	AlignBegin=231402|AlignEnd=231560|Gloss=go
-45	make	make	VERB	_	_	44	ccomp	_	AlignBegin=231560|AlignEnd=231763|Gloss=make
+44	go	go	VERB	_	_	43	xcomp	_	AlignBegin=231402|AlignEnd=231560|Gloss=go
+45	make	make	VERB	_	_	44	compound:svc	_	AlignBegin=231560|AlignEnd=231763|Gloss=make
 46	hair	hair	NOUN	_	_	45	obj	_	AlignBegin=231763|AlignEnd=231880|Gloss=hair
 47	]	]	X	_	_	43	dep	_	AlignBegin=231880|AlignEnd=231910|Gloss=PUNCT
 48	//	//	X	_	_	37	dep	_	AlignBegin=231880|AlignEnd=231910|Gloss=PUNCT
@@ -1433,7 +1434,7 @@
 12	make	make	VERB	_	_	9	acl:relcl	_	AlignBegin=238203|AlignEnd=238458|Gloss=make
 13	hair	hair	NOUN	_	_	12	obj	_	AlignBegin=238458|AlignEnd=238628|Gloss=hair
 14	for	for	ADP	_	_	15	case	_	AlignBegin=238628|AlignEnd=238844|Gloss=for
-15	here	here	ADV	_	_	12	obl:arg	_	AlignBegin=238844|AlignEnd=238980|Gloss=here
+15	here	here	ADV	_	_	12	advmod	_	AlignBegin=238844|AlignEnd=238980|Gloss=here
 16	|c	|c	X	_	_	24	dep	_	AlignBegin=238980|AlignEnd=239010|Gloss=PUNCT
 17	but	but	CCONJ	_	_	24	cc	_	AlignBegin=239010|AlignEnd=239262|Gloss=but
 18	{	{	X	_	_	19	dep	_	AlignBegin=239262|AlignEnd=239292|Gloss=PUNCT
@@ -1443,7 +1444,7 @@
 22	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	19	reparandum	_	AlignBegin=239940|AlignEnd=240070|Gloss=NOM.2
 23	}	}	X	_	_	19	dep	_	AlignBegin=239940|AlignEnd=240070|Gloss=PUNCT
 24	go	go	VERB	_	_	3	conj	_	AlignBegin=240070|AlignEnd=240270|Gloss=go
-25	book	book	VERB	_	_	24	ccomp	_	AlignBegin=240270|AlignEnd=240520|Gloss=book
+25	book	book	VERB	_	_	24	compound:svc	_	AlignBegin=240270|AlignEnd=240520|Gloss=book
 26	first	first	ADJ	_	NumType=Ord	25	advcl	_	AlignBegin=240550|AlignEnd=241030|Gloss=first.ORD
 27	because	because	SCONJ	_	_	32	mark	_	AlignBegin=241030|AlignEnd=241360|Gloss=because
 28	#	#	X	_	_	32	dep	_	AlignBegin=241360|AlignEnd=241750|Gloss=PUNCT
@@ -1524,7 +1525,7 @@
 3	as	as	ADP	_	_	6	mark	_	AlignBegin=255280|AlignEnd=255719|Gloss=as
 4	rain	rain	NOUN	_	_	6	nsubj	_	AlignBegin=255719|AlignEnd=255826|Gloss=rain
 5	dey	dey	AUX	_	Aspect=Imp	6	aux	_	AlignBegin=255826|AlignEnd=255991|Gloss=IPFV
-6	fall	fall	VERB	_	_	13	advcl:tempo	_	AlignBegin=255991|AlignEnd=256281|Gloss=fall
+6	fall	fall	VERB	_	_	13	advcl	_	AlignBegin=255991|AlignEnd=256281|Gloss=fall
 7	sef	sef	PART	_	PartType=Disc	6	advmod	_	AlignBegin=256281|AlignEnd=256790|Gloss=FOC
 8	<	<	X	_	_	6	dep	_	AlignBegin=256790|AlignEnd=256820|Gloss=PUNCT
 9	#	#	X	_	_	6	dep	_	AlignBegin=256820|AlignEnd=257360|Gloss=PUNCT
@@ -1617,7 +1618,7 @@
 12	too	too	ADV	_	_	13	advmod	_	AlignBegin=272230|AlignEnd=272355|Gloss=too
 13	much	much	ADJ	_	_	5	advcl	_	AlignBegin=272355|AlignEnd=272580|ExtPos=VERB|Gloss=much
 14	for	for	ADP	_	_	16	case	_	AlignBegin=272580|AlignEnd=272736|Gloss=for
-15	dat	dat	DET	_	Number=Sing|PronType=Dem	16	det	_	AlignBegin=272736|AlignEnd=272890|Gloss=SG.DEM
+15	dat	dat	DET	_	Number=Sing	16	det	_	AlignBegin=272736|AlignEnd=272890|Gloss=SG.DEM
 16	side	side	NOUN	_	_	13	obl:arg	_	AlignBegin=272890|AlignEnd=273140|Gloss=side
 17	!//	!//	X	_	_	5	dep	_	AlignBegin=273140|AlignEnd=273170|Gloss=PUNCT
 
@@ -1637,9 +1638,9 @@
 8	see	see	VERB	_	_	3	parataxis:conj	_	AlignBegin=274550|AlignEnd=275020|Gloss=see
 9	#	#	X	_	_	11	dep	_	AlignBegin=275020|AlignEnd=275490|Gloss=PUNCT
 10	people	people	NOUN	_	Number=Plur	11	nmod	_	AlignBegin=275490|AlignEnd=275791|Gloss=people.PL
-11	skin	skin	NOUN	_	_	13	nsubj	_	AlignBegin=275791|AlignEnd=276118|Gloss=skin
+11	skin	skin	NOUN	_	_	8	obj	_	AlignBegin=275791|AlignEnd=276118|Gloss=skin
 12	dey	dey	AUX	_	Aspect=Imp	13	aux	_	AlignBegin=276118|AlignEnd=276286|Gloss=IPFV
-13	spoil	spoil	VERB	_	_	8	ccomp	_	AlignBegin=276286|AlignEnd=276594|Gloss=spoil
+13	spoil	spoil	VERB	_	_	8	xcomp	_	AlignBegin=276286|AlignEnd=276594|Gloss=spoil
 14	|c	|c	X	_	_	24	dep	_	AlignBegin=276594|AlignEnd=276624|Gloss=PUNCT
 15	but	but	CCONJ	_	_	24	cc	_	AlignBegin=276624|AlignEnd=276790|Gloss=but
 16	for	for	ADP	_	_	17	case	_	AlignBegin=276790|AlignEnd=277068|Gloss=for
@@ -1724,7 +1725,7 @@
 # sent_id = JOS_20_Beauty-Of-Jos_MG__82
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/JOS_20_Beauty-Of-Jos_MG.mp3
 # speaker_id = Sp136
-# text = you know sey [ if heat too much <  e dey spoil makeup ] # |c but for here <  # people wey dey do makeup <  e go last dem # because di weather dey cold //
+# text = you know sey [ if heat too much < e dey spoil makeup ] # |c but for here < # people wey dey do makeup < e go last dem # because di weather dey cold //
 # text_en = You know that if the weather is too hot, it it messes up makeup, but here, people who wear makeup wear it for longer because the weather is cold.
 # text_ortho = You know sey if heat too much, e dey spoil makeup, but for here, people wey dey do makeup, e go last dem because di weather dey cold.
 1	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	AlignBegin=290593|AlignEnd=290696|Gloss=NOM.2
@@ -1853,7 +1854,7 @@
 13	una	una	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	14	nsubj	_	AlignBegin=315660|AlignEnd=315860|Gloss=NOM.PL.2
 14	go	go	VERB	_	_	23	advcl	_	AlignBegin=315860|AlignEnd=316000|Gloss=go
 15	back	back	ADV	_	_	14	advmod	_	AlignBegin=316000|AlignEnd=316170|Gloss=back
-16	house	house	NOUN	_	_	14	obj	_	AlignBegin=316170|AlignEnd=316430|Gloss=house
+16	house	house	NOUN	_	_	14	iobj	_	AlignBegin=316170|AlignEnd=316430|Gloss=house
 17	now	now	ADV	_	_	16	advmod	_	AlignBegin=316430|AlignEnd=316632|Gloss=now
 18	sef	sef	PART	_	PartType=Disc	17	advmod	_	AlignBegin=316632|AlignEnd=316862|Gloss=FOC
 19	<	<	X	_	_	14	dep	_	AlignBegin=316862|AlignEnd=316892|Gloss=PUNCT
@@ -1906,7 +1907,7 @@
 21	dey	dey	VERB	_	VerbType=Cop	7	conj	_	AlignBegin=324378|AlignEnd=324593|Gloss=be
 22	use	use	ADJ	_	_	21	xcomp	_	AlignBegin=324593|AlignEnd=324765|Gloss=use
 23	to	to	ADP	_	_	24	case	_	AlignBegin=324765|AlignEnd=324920|Gloss=to
-24	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	22	obl:arg	_	AlignBegin=324920|AlignEnd=325070|Gloss=ACC.SG.3
+24	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	22	obl:mod	_	AlignBegin=324920|AlignEnd=325070|Gloss=ACC.SG.3
 25	//	//	X	_	_	7	dep	_	AlignBegin=325070|AlignEnd=325100|Gloss=PUNCT
 
 # sent_id = JOS_20_Beauty-Of-Jos_MG__88
@@ -1981,7 +1982,7 @@
 17	<	<	X	_	_	15	dep	_	AlignBegin=339323|AlignEnd=339353|Gloss=PUNCT
 18	if	if	SCONJ	_	_	20	mark	_	AlignBegin=339353|AlignEnd=339570|Gloss=if
 19	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	20	nsubj	_	AlignBegin=339570|AlignEnd=339669|Gloss=NOM.2
-20	lost	lost	VERB	_	Tense=Past|VerbForm=Part	27	advcl	_	AlignBegin=339669|AlignEnd=340053|Gloss=lost.PST.PTCP
+20	lost	lost	VERB	_	_	27	advcl	_	AlignBegin=339669|AlignEnd=340053|Gloss=lose
 21	your	your	PRON	_	Number=Plur|Person=2|Poss=Yes	22	nmod:poss	_	AlignBegin=340053|AlignEnd=340268|Gloss=PL.2.POSS
 22	way	way	NOUN	_	_	20	obj	_	AlignBegin=340268|AlignEnd=340406|Gloss=way
 23	sef	sef	PART	_	PartType=Disc	22	advmod	_	AlignBegin=340406|AlignEnd=340642|Gloss=FOC
@@ -2007,7 +2008,7 @@
 1	#	#	X	_	_	3	dep	_	AlignBegin=342780|AlignEnd=343240|Gloss=PUNCT
 2	nobody	nobody	PRON	_	_	3	nsubj	_	AlignBegin=343240|AlignEnd=343583|Gloss=nobody
 3	want	want	VERB	_	_	0	root	_	AlignBegin=343583|AlignEnd=343805|Gloss=want
-4	collect	collect	VERB	_	_	3	ccomp	_	AlignBegin=343805|AlignEnd=344180|Gloss=collect
+4	collect	collect	VERB	_	_	3	xcomp	_	AlignBegin=343805|AlignEnd=344180|Gloss=collect
 5	your	your	PRON	_	Number=Plur|Person=2|Poss=Yes	6	nmod:poss	_	AlignBegin=344180|AlignEnd=344338|Gloss=PL.2.POSS
 6	money	money	NOUN	_	_	4	obj	_	AlignBegin=344338|AlignEnd=344866|Gloss=money
 7	//	//	X	_	_	3	dep	_	AlignBegin=344866|AlignEnd=344896|Gloss=PUNCT
@@ -2060,12 +2061,12 @@
 2	no	no	AUX	_	Polarity=Neg	4	aux	_	AlignBegin=349380|AlignEnd=349525|Gloss=NEG
 3	dey	dey	AUX	_	Aspect=Imp	4	aux	_	AlignBegin=349525|AlignEnd=349670|Gloss=IPFV
 4	do	do	VERB	_	_	0	root	_	AlignBegin=349670|AlignEnd=349819|Gloss=do
-5	dat	dat	DET	_	Number=Sing|PronType=Dem	6	det	_	AlignBegin=349819|AlignEnd=349989|Gloss=SG.DEM
+5	dat	dat	DET	_	Number=Sing	6	det	_	AlignBegin=349819|AlignEnd=349989|Gloss=SG.DEM
 6	one	one	NOUN	_	_	4	obj	_	AlignBegin=349989|AlignEnd=350110|Gloss=one
 7	for	for	ADP	_	_	8	case	_	AlignBegin=350110|AlignEnd=350337|Gloss=for
 8	here	here	ADV	_	_	4	advmod	_	AlignBegin=350337|AlignEnd=350523|Gloss=here
-9	at	at	ADP	_	_	4	advmod	_	AlignBegin=350523|AlignEnd=350710|ExtPos=ADV|Gloss=at|PhraseType=Idiom
-10	all	all	DET	_	_	9	fixed	_	AlignBegin=350710|AlignEnd=350780|Gloss=all|InIdiom=Yes
+9	at	at	ADP	_	_	4	advmod	_	AlignBegin=350523|AlignEnd=350710|ExtPos=ADV|Gloss=at|Idiom=Yes
+10	all	all	PRON	_	_	9	fixed	_	AlignBegin=350710|AlignEnd=350780|Gloss=all|InIdiom=Yes
 11	//	//	X	_	_	4	dep	_	AlignBegin=350780|AlignEnd=350810|Gloss=PUNCT
 
 # sent_id = JOS_20_Beauty-Of-Jos_MG__97
@@ -2084,7 +2085,7 @@
 8	for	for	ADP	_	_	9	case	_	AlignBegin=352520|AlignEnd=352817|Gloss=for
 9	Jos	Jos	PROPN	_	_	4	obl:mod	_	AlignBegin=352817|AlignEnd=353070|Gloss=Jos
 10	like	like	ADP	_	_	11	case	_	AlignBegin=353070|AlignEnd=353249|Gloss=like
-11	dat	dat	PRON	_	Number=Sing|PronType=Dem	4	obl:mod	_	AlignBegin=353249|AlignEnd=353473|Gloss=SG.DEM
+11	dat	dat	PRON	_	Number=Sing	4	obl:mod	_	AlignBegin=353249|AlignEnd=353473|Gloss=SG.DEM
 12	//	//	X	_	_	4	dep	_	AlignBegin=353473|AlignEnd=353503|Gloss=PUNCT
 
 # sent_id = JOS_20_Beauty-Of-Jos_MG__98
@@ -2146,7 +2147,7 @@
 4	get	get	VERB	_	_	0	root	_	AlignBegin=363005|AlignEnd=363166|Gloss=get
 5	wahala	wahala	NOUN	_	_	4	obj	_	AlignBegin=363166|AlignEnd=363590|Gloss=trouble
 6	like	like	ADP	_	_	7	case	_	AlignBegin=363590|AlignEnd=363838|Gloss=like
-7	dat	dat	PRON	_	Number=Sing|PronType=Dem	5	nmod	_	AlignBegin=363838|AlignEnd=364310|Gloss=SG.DEM
+7	dat	dat	PRON	_	Number=Sing	5	nmod	_	AlignBegin=363838|AlignEnd=364310|Gloss=SG.DEM
 8	//	//	X	_	_	4	dep	_	AlignBegin=364310|AlignEnd=364340|Gloss=PUNCT
 
 # sent_id = JOS_20_Beauty-Of-Jos_MG__102

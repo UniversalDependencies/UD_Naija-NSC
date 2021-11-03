@@ -68,7 +68,7 @@
 4	//=	//=	X	_	_	6	dep	_	AlignBegin=8770|AlignEnd=8770|Gloss=PUNCT
 5	con	con	AUX	_	Aspect=Cons	6	aux	_	AlignBegin=8770|AlignEnd=8930|Gloss=CONS
 6	go	go	VERB	_	_	3	parataxis:conj	_	AlignBegin=8930|AlignEnd=9040|Gloss=go
-7	market	market	NOUN	_	_	6	obj	_	AlignBegin=9040|AlignEnd=9840|Gloss=market
+7	market	market	NOUN	_	_	6	iobj	_	AlignBegin=9040|AlignEnd=9840|Gloss=market
 8	//	//	X	_	_	3	dep	_	AlignBegin=9840|AlignEnd=9840|Gloss=PUNCT
 
 # sent_id = BEN_34_Tale_MG__6
@@ -94,7 +94,7 @@
 15	|c	|c	X	_	_	17	dep	_	AlignBegin=12159|AlignEnd=12159|Gloss=PUNCT
 16	don	don	AUX	_	Aspect=Perf	17	aux	_	AlignBegin=12159|AlignEnd=12360|Gloss=PRF
 17	go	go	VERB	_	_	13	conj	_	AlignBegin=12360|AlignEnd=12513|Gloss=go
-18	eat	eat	VERB	_	_	17	xcomp	_	AlignBegin=12513|AlignEnd=12850|Gloss=eat
+18	eat	eat	VERB	_	_	17	compound:svc	_	AlignBegin=12513|AlignEnd=12850|Gloss=eat
 19	everyting	everyting	PRON	_	_	18	obj	_	AlignBegin=12850|AlignEnd=13370|Gloss=everything
 20	}	}	X	_	_	13	dep	_	AlignBegin=13370|AlignEnd=13370|Gloss=PUNCT
 21	//	//	X	_	_	13	dep	_	AlignBegin=13370|AlignEnd=13370|Gloss=PUNCT
@@ -152,11 +152,11 @@
 4	say	say	VERB	_	_	0	root	_	AlignBegin=17843|AlignEnd=17972|Gloss=say
 5	[	[	X	_	_	9	dep	_	AlignBegin=17972|AlignEnd=17972|Gloss=PUNCT
 6	{	{	X	_	_	9	dep	_	AlignBegin=17972|AlignEnd=17972|Gloss=PUNCT
-7	no	no	PART	_	Polarity=Neg	9	advmod	_	AlignBegin=17972|AlignEnd=18178|Gloss=NEG
+7	no	no	AUX	_	Polarity=Neg	9	aux	_	AlignBegin=17972|AlignEnd=18178|Gloss=NEG
 8	be	be	AUX	_	PartType=Cop	9	cop	_	AlignBegin=18178|AlignEnd=18300|Gloss=be
 9	dem	dem	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	4	parataxis	_	AlignBegin=18300|AlignEnd=18489|Gloss=ACC.PL.3
 10	|r	|r	X	_	_	13	dep	_	AlignBegin=18489|AlignEnd=18489|Gloss=PUNCT
-11	no	no	PART	_	Polarity=Neg	13	advmod	_	AlignBegin=18489|AlignEnd=18660|Gloss=NEG
+11	no	no	AUX	_	Polarity=Neg	13	aux	_	AlignBegin=18489|AlignEnd=18660|Gloss=NEG
 12	be	be	AUX	_	PartType=Cop	13	cop	_	AlignBegin=18660|AlignEnd=18780|Gloss=be
 13	dem	dem	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	9	compound:redup	_	AlignBegin=18780|AlignEnd=19160|Gloss=ACC.PL.3
 14	}	}	X	_	_	9	dep	_	AlignBegin=19160|AlignEnd=19160|Gloss=PUNCT
@@ -173,7 +173,7 @@
 2	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	AlignBegin=19460|AlignEnd=19503|Gloss=NOM.SG.3
 3	con	con	AUX	_	Aspect=Cons	4	aux	_	AlignBegin=19503|AlignEnd=19650|Gloss=CONS
 4	tell	tell	VERB	_	_	0	root	_	AlignBegin=19650|AlignEnd=19720|Gloss=tell
-5	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	4	obj	_	AlignBegin=19720|AlignEnd=19775|Gloss=ACC.SG.3
+5	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	4	iobj	_	AlignBegin=19720|AlignEnd=19775|Gloss=ACC.SG.3
 6	sey	sey	SCONJ	_	_	12	mark	_	AlignBegin=19775|AlignEnd=19876|Gloss=COMP
 7	[	[	X	_	_	12	dep	_	AlignBegin=19876|AlignEnd=19876|Gloss=PUNCT
 8	but	but	CCONJ	_	_	12	cc	_	AlignBegin=19876|AlignEnd=20010|Gloss=but
@@ -182,14 +182,14 @@
 11	last	last	ADJ	_	_	12	amod	_	AlignBegin=20260|AlignEnd=20540|Gloss=last
 12	born	born	VERB	_	Tense=Past|VerbForm=Part	4	ccomp	_	AlignBegin=20540|AlignEnd=20710|Gloss=give_birth.PST.PTCP
 13	>+	>+	X	_	_	16	dep	_	AlignBegin=20710|AlignEnd=20710|Gloss=PUNCT
-14	na	na	AUX	_	PartType=Cop	16	mark	_	AlignBegin=20710|AlignEnd=20787|ExtPos=SCONJ|Gloss=be|PhraseType=Idiom
+14	na	na	AUX	_	PartType=Cop	16	mark	_	AlignBegin=20710|AlignEnd=20787|ExtPos=SCONJ|Gloss=be|Idiom=Yes
 15	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	14	fixed	_	AlignBegin=20787|AlignEnd=20864|Gloss=NOM.SG.3|InIdiom=Yes
 16	come	come	VERB	_	_	12	advcl:cleft	_	AlignBegin=20864|AlignEnd=21250|Gloss=come
-17	kitchen	kitchen	NOUN	_	_	16	obj	_	AlignBegin=21250|AlignEnd=21650|Gloss=kitchen
-18	say	say	SCONJ	_	_	21	mark	_	AlignBegin=21650|AlignEnd=21775|Gloss=COMP
+17	kitchen	kitchen	NOUN	_	_	16	iobj	_	AlignBegin=21250|AlignEnd=21650|Gloss=kitchen
+18	say	say	VERB	_	_	16	compound:svc	_	AlignBegin=21650|AlignEnd=21775|Gloss=say
 19	[	[	X	_	_	21	dep	_	AlignBegin=21775|AlignEnd=21775|Gloss=PUNCT
 20	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	AlignBegin=21775|AlignEnd=21850|Gloss=NOM.SG.3
-21	forget	forget	VERB	_	_	16	compound:svc	_	AlignBegin=21850|AlignEnd=22223|Gloss=forget
+21	forget	forget	VERB	_	_	18	ccomp	_	AlignBegin=21850|AlignEnd=22223|Gloss=forget
 22	e	im	PRON	_	Number=Sing|Person=3|Poss=Yes	23	nmod:poss	_	AlignBegin=22223|AlignEnd=22356|Gloss=SG.3.POSS
 23	cap	cap	NOUN	_	_	21	obj	_	AlignBegin=22356|AlignEnd=22540|Gloss=cap
 24	]	]	X	_	_	21	dep	_	AlignBegin=22540|AlignEnd=22540|Gloss=PUNCT
@@ -212,10 +212,10 @@
 8	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	AlignBegin=23471|AlignEnd=23612|Gloss=NOM.PL.3
 9	{	{	X	_	_	10	dep	_	AlignBegin=23612|AlignEnd=23612|Gloss=PUNCT
 10	go	go	VERB	_	_	4	parataxis	_	AlignBegin=23612|AlignEnd=23787|Gloss=go
-11	river	river	NOUN	_	_	10	obj	_	AlignBegin=23787|AlignEnd=24067|Gloss=river
+11	river	river	NOUN	_	_	10	iobj	_	AlignBegin=23787|AlignEnd=24067|Gloss=river
 12	|c	|c	X	_	_	13	dep	_	AlignBegin=24067|AlignEnd=24067|Gloss=PUNCT
 13	go	go	VERB	_	_	10	conj	_	AlignBegin=24067|AlignEnd=24247|Gloss=go
-14	swim	swim	NOUN	_	_	13	obj	_	AlignBegin=24247|AlignEnd=24580|Gloss=swim
+14	swim	swim	NOUN	_	_	13	iobj	_	AlignBegin=24247|AlignEnd=24580|Gloss=swim
 15	}	}	X	_	_	10	dep	_	AlignBegin=24580|AlignEnd=24580|Gloss=PUNCT
 16	]	]	X	_	_	10	dep	_	AlignBegin=24580|AlignEnd=24580|Gloss=PUNCT
 17	//	//	X	_	_	4	dep	_	AlignBegin=24580|AlignEnd=24580|Gloss=PUNCT
@@ -227,12 +227,12 @@
 # text_en = When they got there, the first one sang, "if I'm the one who ate this food, if I'm the one who ate this food, Kpangolo must swallow me, the fish must swallow me."
 # text_ortho = When de con reach there, di first one con sing if na me eat dis food, if na me eat dis food, Kpangolo must to swallow me, fish must to swallow me.
 1	#	#	X	_	_	12	dep	_	AlignBegin=24580|AlignEnd=25070|Gloss=PUNCT
-2	when	when	SCONJ	_	PronType=Int	5	mark	_	AlignBegin=25070|AlignEnd=25200|Gloss=when.Q
+2	when	when	ADV	_	_	12	advmod	_	AlignBegin=25070|AlignEnd=25200|Gloss=when.Q
 3	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	AlignBegin=25200|AlignEnd=25270|Gloss=NOM.PL.3
 4	con	con	AUX	_	Aspect=Cons	5	aux	_	AlignBegin=25270|AlignEnd=25451|Gloss=CONS
-5	reach	reach	VERB	_	_	12	advcl	_	AlignBegin=25451|AlignEnd=25630|Gloss=reach
+5	reach	reach	VERB	_	_	2	ccomp	_	AlignBegin=25451|AlignEnd=25630|Gloss=reach
 6	there	dere	ADV	_	_	5	advmod	_	AlignBegin=25630|AlignEnd=25776|Gloss=dere
-7	<	<	X	_	_	5	dep	_	AlignBegin=25776|AlignEnd=25776|Gloss=PUNCT
+7	<	<	X	_	_	2	dep	_	AlignBegin=25776|AlignEnd=25776|Gloss=PUNCT
 8	di	di	DET	_	Definite=Def|PronType=Art	10	det	_	AlignBegin=25776|AlignEnd=25882|Gloss=DEF.ART
 9	first	first	ADJ	_	NumType=Ord	10	amod	_	AlignBegin=25882|AlignEnd=26130|Gloss=first.ORD
 10	one	one	NOUN	_	_	12	nsubj	_	AlignBegin=26130|AlignEnd=26200|Gloss=one
@@ -381,7 +381,7 @@
 3	con	con	AUX	_	Aspect=Cons	4	aux	_	AlignBegin=45130|AlignEnd=45274|Gloss=CONS
 4	sing	sing	VERB	_	_	0	root	_	AlignBegin=45274|AlignEnd=45445|Gloss=sing
 5	[	[	X	_	_	4	dep	_	AlignBegin=45445|AlignEnd=45445|Gloss=PUNCT
-6	if	if	SCONJ	_	_	4	parataxis	_	AlignBegin=45445|AlignEnd=46270|Gloss=if
+6	if	if	SCONJ	_	_	4	parataxis	_	AlignBegin=45445|AlignEnd=46270|Gloss=if|Scrap=Yes
 7	na	na	AUX	_	PartType=Cop	8	cop	_	AlignBegin=46270|AlignEnd=46440|Gloss=be
 8	me	me	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	ccomp	_	AlignBegin=46440|AlignEnd=46732|Gloss=NOM.SG.1
 9	>+	>+	X	_	_	11	dep	_	AlignBegin=46732|AlignEnd=46732|Gloss=PUNCT
@@ -409,7 +409,7 @@
 # text_en = "If I'm the one who ate this food, if I'm..."
 # text_ortho = If na me eat dis food, if na...
 1	#	#	X	_	_	11	dep	_	AlignBegin=48327|AlignEnd=48700|Gloss=PUNCT
-2	if	if	SCONJ	_	_	11	dep	_	AlignBegin=48700|AlignEnd=49260|Gloss=if
+2	if	if	SCONJ	_	_	11	dep	_	AlignBegin=48700|AlignEnd=49260|Gloss=if|Scrap=Yes
 3	na	na	AUX	_	PartType=Cop	4	cop	_	AlignBegin=49260|AlignEnd=49460|Gloss=be
 4	me	me	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	ccomp	_	AlignBegin=49460|AlignEnd=49790|Gloss=NOM.SG.1
 5	>+	>+	X	_	_	6	dep	_	AlignBegin=49790|AlignEnd=49790|Gloss=PUNCT
@@ -417,7 +417,7 @@
 7	dis	dis	DET	_	Number=Sing|PronType=Dem	8	det	_	AlignBegin=50110|AlignEnd=50357|Gloss=SG.DEM
 8	food	food	NOUN	_	_	6	obj	_	AlignBegin=50357|AlignEnd=50854|Gloss=food
 9	<	<	X	_	_	2	dep	_	AlignBegin=50854|AlignEnd=50854|Gloss=PUNCT
-10	if	if	SCONJ	_	_	11	mark	_	AlignBegin=50854|AlignEnd=51410|Gloss=if
+10	if	if	SCONJ	_	_	11	mark	_	AlignBegin=50854|AlignEnd=51410|Gloss=if|Scrap=Yes
 11	na	na	AUX	_	PartType=Cop	0	root	_	AlignBegin=51410|AlignEnd=51564|Gloss=be
 12	&//	&//	X	_	_	11	dep	_	AlignBegin=51564|AlignEnd=51564|Gloss=PUNCT
 
@@ -460,7 +460,7 @@
 15	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	14	obj	_	AlignBegin=57053|AlignEnd=57260|Gloss=ACC.SG.1
 16	//=	//=	X	_	_	14	dep	_	AlignBegin=57260|AlignEnd=57260|Gloss=PUNCT
 17	#	#	X	_	_	14	dep	_	AlignBegin=57260|AlignEnd=57510|Gloss=PUNCT
-18	fish	fish	NOUN	_	_	14	parataxis:conj	_	AlignBegin=57510|AlignEnd=57860|Gloss=fish
+18	fish	fish	NOUN	_	_	14	parataxis:conj	_	AlignBegin=57510|AlignEnd=57860|Gloss=fish|Scrap=Yes
 19	&//	&//	X	_	_	12	dep	_	AlignBegin=57860|AlignEnd=57860|Gloss=PUNCT
 
 # sent_id = BEN_34_Tale_MG__24
@@ -531,7 +531,7 @@
 1	e	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	AlignBegin=69750|AlignEnd=69780|Gloss=NOM.SG.3
 2	con	con	AUX	_	Aspect=Cons	3	aux	_	AlignBegin=69780|AlignEnd=69890|Gloss=CONS
 3	ask	ask	VERB	_	_	0	root	_	AlignBegin=69890|AlignEnd=70070|Gloss=ask
-4	dem	dem	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	3	obj	_	AlignBegin=70070|AlignEnd=70206|Gloss=ACC.PL.3
+4	dem	dem	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	3	iobj	_	AlignBegin=70070|AlignEnd=70206|Gloss=ACC.PL.3
 5	sey	sey	SCONJ	_	_	10	mark	_	AlignBegin=70206|AlignEnd=70560|Gloss=COMP
 6	[	[	X	_	_	10	dep	_	AlignBegin=70560|AlignEnd=70560|Gloss=PUNCT
 7	eida	eida	CCONJ	_	_	10	cc	_	AlignBegin=70560|AlignEnd=70870|Gloss=either
@@ -549,14 +549,14 @@
 # text_ortho = De say no sey dem no eat.
 1	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	AlignBegin=71250|AlignEnd=71349|Gloss=NOM.PL.3
 2	say	say	VERB	_	_	0	root	_	AlignBegin=71349|AlignEnd=71580|Gloss=say
-3	[	[	X	_	_	9	dep	_	AlignBegin=71580|AlignEnd=71580|Gloss=PUNCT
-4	no	no	INTJ	_	Polarity=Neg	9	discourse	_	AlignBegin=71580|AlignEnd=71880|Gloss=NEG
+3	[	[	X	_	_	4	dep	_	AlignBegin=71580|AlignEnd=71580|Gloss=PUNCT
+4	no	no	INTJ	_	Polarity=Neg	2	parataxis	_	AlignBegin=71580|AlignEnd=71880|Gloss=NEG
 5	#	#	X	_	_	9	dep	_	AlignBegin=71880|AlignEnd=72256|Gloss=PUNCT
 6	sey	sey	SCONJ	_	_	9	cc	_	AlignBegin=72256|AlignEnd=72395|Gloss=COMP
 7	dem	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	AlignBegin=72395|AlignEnd=72474|Gloss=NOM.PL.3
-8	no	no	PART	_	Polarity=Neg	9	advmod	_	AlignBegin=72474|AlignEnd=72754|Gloss=NEG
-9	eat	eat	VERB	_	_	2	parataxis	_	AlignBegin=72754|AlignEnd=73190|Gloss=eat
-10	]	]	X	_	_	9	dep	_	AlignBegin=73190|AlignEnd=73190|Gloss=PUNCT
+8	no	no	AUX	_	Polarity=Neg	9	aux	_	AlignBegin=72474|AlignEnd=72754|Gloss=NEG
+9	eat	eat	VERB	_	_	4	parataxis:conj	_	AlignBegin=72754|AlignEnd=73190|Gloss=eat
+10	]	]	X	_	_	4	dep	_	AlignBegin=73190|AlignEnd=73190|Gloss=PUNCT
 11	//	//	X	_	_	2	dep	_	AlignBegin=73190|AlignEnd=73190|Gloss=PUNCT
 
 # sent_id = BEN_34_Tale_MG__30
@@ -576,13 +576,13 @@
 9	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	AlignBegin=74630|AlignEnd=74770|Gloss=NOM.SG.1
 10	wan	want	VERB	_	_	6	ccomp	_	AlignBegin=74770|AlignEnd=74950|Gloss=want
 11	go	go	VERB	_	_	10	xcomp	_	AlignBegin=74950|AlignEnd=75055|Gloss=go
-12	market	market	NOUN	_	_	11	obj	_	AlignBegin=75055|AlignEnd=75552|Gloss=market
+12	market	market	NOUN	_	_	11	iobj	_	AlignBegin=75055|AlignEnd=75552|Gloss=market
 13	//]	//]	X	_	_	10	dep	_	AlignBegin=75552|AlignEnd=75552|Gloss=PUNCT
 14	<	<	X	_	_	6	dep	_	AlignBegin=75552|AlignEnd=75552|Gloss=PUNCT
 15	she	she	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	AlignBegin=75552|AlignEnd=75670|Gloss=NOM.F.SG.3
 16	con	con	AUX	_	Aspect=Cons	17	aux	_	AlignBegin=75670|AlignEnd=75820|Gloss=CONS
 17	go	go	VERB	_	_	0	root	_	AlignBegin=75820|AlignEnd=75930|Gloss=go
-18	market	market	NOUN	_	_	17	obj	_	AlignBegin=75930|AlignEnd=76510|Gloss=market
+18	market	market	NOUN	_	_	17	iobj	_	AlignBegin=75930|AlignEnd=76510|Gloss=market
 19	//	//	X	_	_	17	dep	_	AlignBegin=76510|AlignEnd=76510|Gloss=PUNCT
 
 # sent_id = BEN_34_Tale_MG__31
@@ -608,7 +608,7 @@
 15	|c	|c	X	_	_	17	dep	_	AlignBegin=79460|AlignEnd=79460|Gloss=PUNCT
 16	don	don	AUX	_	Aspect=Perf	17	aux	_	AlignBegin=79460|AlignEnd=79620|Gloss=PRF
 17	go	go	VERB	_	_	13	conj	_	AlignBegin=79620|AlignEnd=79810|Gloss=go
-18	eat	eat	VERB	_	_	17	xcomp	_	AlignBegin=79810|AlignEnd=80100|Gloss=eat
+18	eat	eat	VERB	_	_	17	compound:svc	_	AlignBegin=79810|AlignEnd=80100|Gloss=eat
 19	di	di	DET	_	Definite=Def|PronType=Art	20	det	_	AlignBegin=80100|AlignEnd=80192|Gloss=DEF.ART
 20	food	food	NOUN	_	_	18	obj	_	AlignBegin=80192|AlignEnd=80650|Gloss=food
 21	}	}	X	_	_	13	dep	_	AlignBegin=80650|AlignEnd=80650|Gloss=PUNCT
@@ -645,11 +645,11 @@
 3	say	say	VERB	_	_	0	root	_	AlignBegin=84030|AlignEnd=84161|Gloss=say
 4	[	[	X	_	_	8	dep	_	AlignBegin=84161|AlignEnd=84161|Gloss=PUNCT
 5	{	{	X	_	_	8	dep	_	AlignBegin=84161|AlignEnd=84161|Gloss=PUNCT
-6	no	no	PART	_	Polarity=Neg	8	advmod	_	AlignBegin=84161|AlignEnd=84300|Gloss=NEG
+6	no	no	AUX	_	Polarity=Neg	8	aux	_	AlignBegin=84161|AlignEnd=84300|Gloss=NEG
 7	be	be	AUX	_	PartType=Cop	8	cop	_	AlignBegin=84300|AlignEnd=84430|Gloss=be
 8	dem	dem	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	3	parataxis	_	AlignBegin=84430|AlignEnd=84594|Gloss=ACC.PL.3
 9	|r	|r	X	_	_	12	dep	_	AlignBegin=84594|AlignEnd=84594|Gloss=PUNCT
-10	no	no	PART	_	Polarity=Neg	12	advmod	_	AlignBegin=84594|AlignEnd=84710|Gloss=NEG
+10	no	no	AUX	_	Polarity=Neg	12	aux	_	AlignBegin=84594|AlignEnd=84710|Gloss=NEG
 11	be	be	AUX	_	PartType=Cop	12	cop	_	AlignBegin=84710|AlignEnd=84888|Gloss=be
 12	dem	dem	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	8	compound:redup	_	AlignBegin=84888|AlignEnd=85180|Gloss=ACC.PL.3
 13	}	}	X	_	_	8	dep	_	AlignBegin=85180|AlignEnd=85180|Gloss=PUNCT
@@ -673,11 +673,11 @@
 9	moh	make	AUX	_	Mood=Opt	12	aux	_	AlignBegin=86212|AlignEnd=86330|Gloss=SBJV
 10	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	12	nsubj	_	AlignBegin=86330|AlignEnd=86401|Gloss=NOM.PL.1
 11	{	{	X	_	_	12	dep	_	AlignBegin=86401|AlignEnd=86401|Gloss=PUNCT
-12	go	go	AUX	_	Aspect=Prosp	5	ccomp	_	AlignBegin=86401|AlignEnd=86640|Gloss=PROSP
-13	river	river	NOUN	_	_	12	obj	_	AlignBegin=86640|AlignEnd=86956|Gloss=river
+12	go	go	VERB	_	_	5	ccomp	_	AlignBegin=86401|AlignEnd=86640|Gloss=go
+13	river	river	NOUN	_	_	12	iobj	_	AlignBegin=86640|AlignEnd=86956|Gloss=river
 14	|c	|c	X	_	_	15	dep	_	AlignBegin=86956|AlignEnd=86956|Gloss=PUNCT
 15	go	go	VERB	_	_	12	conj	_	AlignBegin=86956|AlignEnd=87100|Gloss=go
-16	swim	swim	NOUN	_	_	15	xcomp	_	AlignBegin=87100|AlignEnd=87480|Gloss=swim
+16	swim	swim	VERB	_	_	15	compound:svc	_	AlignBegin=87100|AlignEnd=87480|Gloss=swim
 17	}	}	X	_	_	12	dep	_	AlignBegin=87480|AlignEnd=87480|Gloss=PUNCT
 18	//]	//]	X	_	_	12	dep	_	AlignBegin=87480|AlignEnd=87480|Gloss=PUNCT
 19	//	//	X	_	_	5	dep	_	AlignBegin=87480|AlignEnd=87480|Gloss=PUNCT
@@ -691,7 +691,7 @@
 1	#	#	X	_	_	3	dep	_	AlignBegin=87480|AlignEnd=88000|Gloss=PUNCT
 2	con	con	AUX	_	Aspect=Cons	3	aux	_	AlignBegin=88000|AlignEnd=88142|Gloss=CONS
 3	go	go	VERB	_	_	0	root	_	AlignBegin=88142|AlignEnd=88305|Gloss=go
-4	river	river	NOUN	_	_	3	obj	_	AlignBegin=88305|AlignEnd=88630|Gloss=river
+4	river	river	NOUN	_	_	3	iobj	_	AlignBegin=88305|AlignEnd=88630|Gloss=river
 5	//=	//=	X	_	_	8	dep	_	AlignBegin=88630|AlignEnd=88630|Gloss=PUNCT
 6	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	AlignBegin=88630|AlignEnd=88760|Gloss=NOM.PL.3
 7	con	con	AUX	_	Aspect=Cons	8	aux	_	AlignBegin=88760|AlignEnd=88937|Gloss=CONS
@@ -785,7 +785,7 @@
 # speaker_id = Sp67
 # text = # second born # //
 # text_en = The second child.
-# text_ortho = Second born
+# text_ortho = Second born.
 1	#	#	X	_	_	3	dep	_	AlignBegin=100560|AlignEnd=100920|Gloss=PUNCT
 2	second	second	NOUN	_	_	3	obl:mod	_	AlignBegin=100920|AlignEnd=101280|Gloss=second
 3	born	born	VERB	_	_	0	root	_	AlignBegin=101280|AlignEnd=101400|Gloss=give_birth
@@ -864,7 +864,7 @@
 3	reach	reach	VERB	_	_	0	root	_	AlignBegin=109820|AlignEnd=110008|Gloss=reach
 4	di	di	DET	_	Definite=Def|PronType=Art	6	det	_	AlignBegin=110008|AlignEnd=110082|Gloss=DEF.ART
 5	last	last	ADJ	_	_	6	amod	_	AlignBegin=110082|AlignEnd=110390|Gloss=last
-6	born	born	VERB	_	Tense=Past|VerbForm=Part	3	xcomp	_	AlignBegin=110390|AlignEnd=110520|Gloss=give_birth.PST.PTCP
+6	born	born	VERB	_	Tense=Past|VerbForm=Part	3	obj	_	AlignBegin=110390|AlignEnd=110520|Gloss=give_birth.PST.PTCP
 7	//	//	X	_	_	3	dep	_	AlignBegin=110520|AlignEnd=110520|Gloss=PUNCT
 
 # sent_id = BEN_34_Tale_MG__45
@@ -874,7 +874,7 @@
 # text_en = "If I'm the one who ate this food, if I'm the one who ate this food, Kpangolo..."
 # text_ortho = If na me eat dis food, if na me eat dis food, Kpangolo...
 1	#	#	X	_	_	20	dep	_	AlignBegin=110520|AlignEnd=111120|Gloss=PUNCT
-2	if	if	SCONJ	_	_	20	dep	_	AlignBegin=111120|AlignEnd=111680|Gloss=if
+2	if	if	SCONJ	_	_	20	dep	_	AlignBegin=111120|AlignEnd=111680|Gloss=if|Scrap=Yes
 3	na	na	AUX	_	PartType=Cop	4	cop	_	AlignBegin=111680|AlignEnd=111880|Gloss=be
 4	me	me	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	ccomp	_	AlignBegin=111880|AlignEnd=112120|Gloss=NOM.SG.1
 5	>+	>+	X	_	_	6	dep	_	AlignBegin=112120|AlignEnd=112120|Gloss=PUNCT
@@ -883,7 +883,7 @@
 8	food	food	NOUN	_	_	6	obj	_	AlignBegin=112810|AlignEnd=113100|Gloss=food
 9	<	<	X	_	_	2	dep	_	AlignBegin=113100|AlignEnd=113100|Gloss=PUNCT
 10	#	#	X	_	_	2	dep	_	AlignBegin=113100|AlignEnd=113400|Gloss=PUNCT
-11	if	if	SCONJ	_	_	20	dep	_	AlignBegin=113400|AlignEnd=113980|Gloss=if
+11	if	if	SCONJ	_	_	20	dep	_	AlignBegin=113400|AlignEnd=113980|Gloss=if|Scrap=Yes
 12	na	na	AUX	_	PartType=Cop	13	cop	_	AlignBegin=113980|AlignEnd=114160|Gloss=be
 13	me	me	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	ccomp	_	AlignBegin=114160|AlignEnd=114423|Gloss=NOM.SG.1
 14	>+	>+	X	_	_	15	dep	_	AlignBegin=114423|AlignEnd=114423|Gloss=PUNCT
@@ -892,7 +892,7 @@
 17	food	food	NOUN	_	_	15	obj	_	AlignBegin=114960|AlignEnd=115300|Gloss=food
 18	<	<	X	_	_	11	dep	_	AlignBegin=115300|AlignEnd=115300|Gloss=PUNCT
 19	#	#	X	_	_	11	dep	_	AlignBegin=115300|AlignEnd=115600|Gloss=PUNCT
-20	Kpangolo	Kpangolo	PROPN	_	_	0	root	_	AlignBegin=115600|AlignEnd=115940|Gloss=Kpangolo
+20	Kpangolo	Kpangolo	PROPN	_	_	0	root	_	AlignBegin=115600|AlignEnd=115940|Gloss=Kpangolo|Scrap=Yes
 21	&//	&//	X	_	_	20	dep	_	AlignBegin=115940|AlignEnd=115940|Gloss=PUNCT
 
 # sent_id = BEN_34_Tale_MG__46
@@ -906,7 +906,7 @@
 3	loud	loud	ADJ	_	_	2	advcl	_	AlignBegin=116510|AlignEnd=116780|Gloss=loud
 4	//=	//=	X	_	_	8	dep	_	AlignBegin=116780|AlignEnd=116780|Gloss=PUNCT
 5	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	AlignBegin=116780|AlignEnd=116800|Gloss=NOM.PL.1
-6	no	no	PART	_	Polarity=Neg	8	advmod	_	AlignBegin=116800|AlignEnd=116949|Gloss=NEG
+6	no	no	AUX	_	Polarity=Neg	8	aux	_	AlignBegin=116800|AlignEnd=116949|Gloss=NEG
 7	dey	dey	AUX	_	Aspect=Imp	8	aux	_	AlignBegin=116949|AlignEnd=117120|Gloss=IPFV
 8	hear	hear	VERB	_	_	2	parataxis:conj	_	AlignBegin=117120|AlignEnd=117320|Gloss=hear
 9	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	8	obj	_	AlignBegin=117320|AlignEnd=117440|Gloss=NOM.2
@@ -919,7 +919,7 @@
 # text_en = "If I'm the one who ate this food, if..."
 # text_ortho = If na me eat dis food, if...
 1	#	#	X	_	_	2	dep	_	AlignBegin=117440|AlignEnd=118040|Gloss=PUNCT
-2	if	if	SCONJ	_	_	0	root	_	AlignBegin=118040|AlignEnd=118560|Gloss=if
+2	if	if	SCONJ	_	_	0	root	_	AlignBegin=118040|AlignEnd=118560|Gloss=if|Scrap=Yes
 3	na	na	AUX	_	PartType=Cop	4	cop	_	AlignBegin=118560|AlignEnd=118780|Gloss=be
 4	me	me	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	ccomp	_	AlignBegin=118780|AlignEnd=119180|Gloss=NOM.SG.1
 5	>+	>+	X	_	_	6	dep	_	AlignBegin=119180|AlignEnd=119180|Gloss=PUNCT
@@ -928,7 +928,7 @@
 8	food	food	NOUN	_	_	6	obj	_	AlignBegin=119760|AlignEnd=119990|Gloss=food
 9	<	<	X	_	_	2	dep	_	AlignBegin=119990|AlignEnd=119990|Gloss=PUNCT
 10	#	#	X	_	_	2	dep	_	AlignBegin=119990|AlignEnd=120340|Gloss=PUNCT
-11	if	if	SCONJ	_	_	2	mark	_	AlignBegin=120340|AlignEnd=120740|Gloss=if
+11	if	if	SCONJ	_	_	2	mark	_	AlignBegin=120340|AlignEnd=120740|Gloss=if|Scrap=Yes
 12	&//	&//	X	_	_	2	dep	_	AlignBegin=120740|AlignEnd=120740|Gloss=PUNCT
 
 # sent_id = BEN_34_Tale_MG__48
@@ -1009,7 +1009,7 @@
 5	fish	fish	NOUN	_	_	7	nsubj	_	AlignBegin=132771|AlignEnd=133030|Gloss=fish
 6	just	just	ADV	_	_	7	advmod	_	AlignBegin=133030|AlignEnd=133140|Gloss=just
 7	come	come	VERB	_	_	3	advcl:cleft	_	AlignBegin=133140|AlignEnd=133410|Gloss=come
-8	outside	outside	ADP	_	_	7	obl:arg	_	AlignBegin=133410|AlignEnd=133736|Gloss=outside
+8	outside	outside	ADP	_	_	7	iobj	_	AlignBegin=133410|AlignEnd=133736|Gloss=outside
 9	//=	//=	X	_	_	12	dep	_	AlignBegin=133736|AlignEnd=133736|Gloss=PUNCT
 10	fish	fish	NOUN	_	_	12	nsubj	_	AlignBegin=133736|AlignEnd=134000|Gloss=fish
 11	con	con	AUX	_	Aspect=Cons	12	aux	_	AlignBegin=134000|AlignEnd=134120|Gloss=CONS

@@ -187,7 +187,7 @@
 4	teach	teach	VERB	_	_	0	root	_	AlignBegin=31922|AlignEnd=32092|Gloss=teach|SyllableCount=1|WordContour=hh
 5	am	am	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	4	obj	_	AlignBegin=32092|AlignEnd=32292|Gloss=ACC.SG.3|SyllableCount=1|WordContour=hm
 6	to	to	ADP	_	_	7	mark	_	AlignBegin=32292|AlignEnd=32402|Gloss=to|SyllableCount=1|WordContour=ml
-7	pedal	pedal	VERB	_	_	4	xcomp	_	AlignBegin=32402|AlignEnd=32632|Gloss=pedal|SyllableCount=2|WordContour=llm2
+7	pedal	pedal	VERB	_	_	4	ccomp	_	AlignBegin=32402|AlignEnd=32632|Gloss=pedal|SyllableCount=2|WordContour=llm2
 8	//	//	X	_	_	4	dep	_	AlignBegin=32632|AlignEnd=32662|Gloss=PUNCT
 
 # sent_id = BEN_09_Tailoring-Immunization_MG__9
@@ -475,7 +475,7 @@
 17	go	go	AUX	_	Aspect=Prosp	18	aux	_	AlignBegin=67312|AlignEnd=67432|Gloss=PROSP|SyllableCount=1|WordContour=lm
 18	need	need	VERB	_	_	0	root	_	AlignBegin=67432|AlignEnd=67602|Gloss=need|SyllableCount=1|WordContour=mh
 19	to	to	ADP	_	_	20	mark	_	AlignBegin=67602|AlignEnd=67748|Gloss=to|SyllableCount=1|WordContour=ml
-20	take	take	VERB	_	_	18	xcomp	_	AlignBegin=67748|AlignEnd=68002|Gloss=take|SyllableCount=1|WordContour=mm
+20	take	take	VERB	_	_	18	ccomp	_	AlignBegin=67748|AlignEnd=68002|Gloss=take|SyllableCount=1|WordContour=mm
 21	time	time	NOUN	_	_	20	obj	_	AlignBegin=68002|AlignEnd=68236|Gloss=time|SyllableCount=1|WordContour=hL
 22	#	#	X	_	_	24	dep	_	AlignBegin=68236|AlignEnd=68540|Gloss=PUNCT
 23	to	to	ADP	_	_	24	mark	_	AlignBegin=68540|AlignEnd=68610|Gloss=to|SyllableCount=1|WordContour=ll
@@ -596,7 +596,7 @@
 11	go	go	AUX	_	Aspect=Prosp	12	aux	_	AlignBegin=82332|AlignEnd=82482|Gloss=PROSP|SyllableCount=1|WordContour=mm
 12	need	need	VERB	_	_	0	root	_	AlignBegin=82482|AlignEnd=82635|Gloss=need|SyllableCount=1|WordContour=mhH3
 13	to	to	ADP	_	_	14	mark	_	AlignBegin=82635|AlignEnd=82817|Gloss=to|SyllableCount=1|WordContour=ml
-14	remove	remove	VERB	_	_	12	xcomp	_	AlignBegin=82817|AlignEnd=83320|Gloss=remove|SyllableCount=2|WordContour=lh
+14	remove	remove	VERB	_	_	12	ccomp	_	AlignBegin=82817|AlignEnd=83320|Gloss=remove|SyllableCount=2|WordContour=lh
 15	#	#	X	_	_	17	dep	_	AlignBegin=83320|AlignEnd=83645|Gloss=PUNCT
 16	di	di	DET	_	Definite=Def|PronType=Art	17	det	_	AlignBegin=83645|AlignEnd=83815|Gloss=DEF.ART|SyllableCount=1|WordContour=lll2
 17	needle	needle	NOUN	_	_	14	obj	_	AlignBegin=83815|AlignEnd=84183|Gloss=needle|SyllableCount=2|WordContour=lLm2
@@ -609,7 +609,7 @@
 # text_en = Why we remove the needle that's there is so it won't crack, because if we don’t remove the needle, if it cracks and we put in thread and are sewing, our sewing... our stitchings will not be fine at all.
 # text_ortho = Why we dey remove di needle wey dey be sey so dat e no go crack dat needle because if we no remove di needle, if e crack dat needle we put thread we dey sew, our sewing, our stitching no go fine at all.
 1	#	#	X	_	_	19	dep	_	AlignBegin=84213|AlignEnd=84518|Gloss=PUNCT
-2	why	why	ADV	_	PronType=Int	19	nsubj	_	AlignBegin=84518|AlignEnd=84680|Gloss=why.Q|SyllableCount=1|WordContour=hH
+2	why	why	ADV	_	PronType=Int	19	nsubj:outer	_	AlignBegin=84518|AlignEnd=84680|Gloss=why.Q|SyllableCount=1|WordContour=hH
 3	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	AlignBegin=84680|AlignEnd=84778|Gloss=NOM.PL.1|SyllableCount=1|WordContour=Hh
 4	dey	dey	AUX	_	Aspect=Imp	5	aux	_	AlignBegin=84778|AlignEnd=84905|Gloss=IPFV|SyllableCount=1|WordContour=mm
 5	remove	remove	VERB	_	_	2	acl:relcl	_	AlignBegin=84905|AlignEnd=85198|Gloss=remove|SyllableCount=2|WordContour=mmh3
@@ -1246,7 +1246,7 @@
 # text = immunisation na [ when # you born pikin < # { you carry am go hospital |c # go give am injection } ] //
 # text_en = Immunization is when you give birth to a child, you take it to the hospital, to be given an injection.
 # text_ortho = Immunisation na when you born pikin, you carry am go hospital, go give am injection.
-1	immunisation	immunisation	NOUN	_	_	13	nsubj	_	AlignBegin=176558|AlignEnd=177110|Gloss=immunisation|SyllableCount=5|WordContour=hmH3
+1	immunisation	immunisation	NOUN	_	_	13	nsubj:outer	_	AlignBegin=176558|AlignEnd=177110|Gloss=immunisation|SyllableCount=5|WordContour=hmH3
 2	na	na	AUX	_	PartType=Cop	13	cop	_	AlignBegin=177110|AlignEnd=177245|Gloss=be|SyllableCount=1|WordContour=ml
 3	[	[	X	_	_	13	dep	_	AlignBegin=177245|AlignEnd=177275|Gloss=PUNCT
 4	when	when	ADV	_	_	13	advmod	_	AlignBegin=177275|AlignEnd=177480|Gloss=when.Q|SyllableCount=1|WordContour=lh
@@ -1312,8 +1312,8 @@
 32	<	<	X	_	_	30	dep	_	AlignBegin=188710|AlignEnd=188914|Gloss=PUNCT
 33	#	#	X	_	_	34	dep	_	AlignBegin=188914|AlignEnd=189220|Gloss=PUNCT
 34	na	na	AUX	_	PartType=Cop	26	parataxis:parenth	_	AlignBegin=189220|AlignEnd=189340|ExtPos=SCONJ|Gloss=be|Idiom=Yes|SyllableCount=1|WordContour=mh
-35	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	34	fixed	_	AlignBegin=189370|AlignEnd=189430|Gloss=NOM.SG.3|InIdiom=Yes|SyllableCount=1|WordContour=mm
-36	>+	>+	X	_	_	40	dep	_	AlignBegin=189370|AlignEnd=189430|Gloss=PUNCT
+35	im	im	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	34	fixed	_	AlignBegin=189340|AlignEnd=189370|Gloss=NOM.SG.3|InIdiom=Yes|SyllableCount=1|WordContour=mm
+36	>+	>+	X	_	_	40	dep	_	AlignBegin=189370|AlignEnd=189370|Gloss=PUNCT
 37	be	be	AUX	_	PartType=Cop	40	cop	_	AlignBegin=189370|AlignEnd=189430|Gloss=be|SyllableCount=1|WordContour=mm
 38	di	di	DET	_	Definite=Def|PronType=Art	40	det	_	AlignBegin=189430|AlignEnd=189530|Gloss=DEF.ART|SyllableCount=1|WordContour=lll1
 39	first	first	ADJ	_	NumType=Ord	40	amod	_	AlignBegin=189530|AlignEnd=189890|Gloss=first.ORD|SyllableCount=1|WordContour=lh

@@ -16,7 +16,7 @@
 9	now	now	ADV	_	_	7	advmod	_	AlignBegin=3170|AlignEnd=3752|Gloss=now|SyllableCount=1|WordContour=mml2
 10	<	<	X	_	_	7	dep	_	AlignBegin=3752|AlignEnd=3782|Gloss=PUNCT
 11	di	di	DET	_	Definite=Def|PronType=Art	12	det	_	AlignBegin=3782|AlignEnd=3960|Gloss=DEF.ART|SyllableCount=1|WordContour=mm
-12	ting	ting	NOUN	_	_	31	nsubj	_	AlignBegin=3960|AlignEnd=4130|Gloss=thing|SyllableCount=1|WordContour=mh
+12	ting	ting	NOUN	_	_	31	nsubj:outer	_	AlignBegin=3960|AlignEnd=4130|Gloss=thing|SyllableCount=1|WordContour=mh
 13	be	be	AUX	_	PartType=Cop	31	cop	_	AlignBegin=4130|AlignEnd=4260|Gloss=be|SyllableCount=1|WordContour=hm
 14	sey	sey	SCONJ	_	_	31	mark	_	AlignBegin=4260|AlignEnd=4900|Gloss=COMP|SyllableCount=1|WordContour=mm
 15	#	#	X	_	_	31	dep	_	AlignBegin=4900|AlignEnd=5800|Gloss=PUNCT
@@ -425,7 +425,7 @@
 1	#	#	X	_	_	20	dep	_	AlignBegin=69760|AlignEnd=71003|Gloss=PUNCT
 2	so	so	ADV	_	_	20	discourse	_	AlignBegin=71003|AlignEnd=71220|Gloss=so|SyllableCount=1|WordContour=mm
 3	di	di	DET	_	Definite=Def|PronType=Art	4	det	_	AlignBegin=71220|AlignEnd=71324|Gloss=DEF.ART|SyllableCount=1|WordContour=mm
-4	ting	ting	NOUN	_	_	20	nsubj	_	AlignBegin=71324|AlignEnd=71488|Gloss=thing|SyllableCount=1|WordContour=mhH2
+4	ting	ting	NOUN	_	_	20	nsubj:outer	_	AlignBegin=71324|AlignEnd=71488|Gloss=thing|SyllableCount=1|WordContour=mhH2
 5	be	be	AUX	_	PartType=Cop	20	cop	_	AlignBegin=71488|AlignEnd=71565|Gloss=be|SyllableCount=1|WordContour=hm
 6	sey	sey	SCONJ	_	_	20	mark	_	AlignBegin=71565|AlignEnd=71957|Gloss=COMP|SyllableCount=1|WordContour=mh
 7	[	[	X	_	_	20	dep	_	AlignBegin=71957|AlignEnd=71987|Gloss=PUNCT
@@ -564,7 +564,7 @@
 1	#	#	X	_	_	10	dep	_	AlignBegin=88960|AlignEnd=89600|Gloss=PUNCT
 2	so	so	ADV	_	_	10	discourse	_	AlignBegin=89600|AlignEnd=89760|Gloss=so|SyllableCount=1|WordContour=mm
 3	serious	serious	ADJ	_	_	4	amod	_	AlignBegin=89760|AlignEnd=90060|Gloss=serious|SyllableCount=3|WordContour=mhh1
-4	one	one	NOUN	_	_	10	nsubj	_	AlignBegin=90060|AlignEnd=90201|Gloss=one|SyllableCount=1|WordContour=hm
+4	one	one	NOUN	_	_	10	nsubj:outer	_	AlignBegin=90060|AlignEnd=90201|Gloss=one|SyllableCount=1|WordContour=hm
 5	be	be	AUX	_	PartType=Cop	10	cop	_	AlignBegin=90201|AlignEnd=90271|Gloss=be|SyllableCount=1|WordContour=ml
 6	sey	sey	SCONJ	_	_	10	mark	_	AlignBegin=90271|AlignEnd=90410|Gloss=COMP|SyllableCount=1|WordContour=mm
 7	[	[	X	_	_	10	dep	_	AlignBegin=90410|AlignEnd=90440|Gloss=PUNCT
@@ -695,7 +695,7 @@
 14	like	like	VERB	_	_	8	acl:relcl	_	AlignBegin=116285|AlignEnd=116500|Gloss=like|SyllableCount=1|WordContour=mm
 15	government	government	NOUN	_	_	14	obj	_	AlignBegin=116500|AlignEnd=116831|Gloss=government|SyllableCount=3|WordContour=mm
 16	make	make	SCONJ	_	_	17	mark	_	AlignBegin=116831|AlignEnd=116981|Gloss=COMP|SyllableCount=1|WordContour=mm
-17	do	do	VERB	_	_	14	xcomp	_	AlignBegin=116981|AlignEnd=117083|Gloss=do|SyllableCount=1|WordContour=ll
+17	do	do	VERB	_	_	14	ccomp	_	AlignBegin=116981|AlignEnd=117083|Gloss=do|SyllableCount=1|WordContour=ll
 18	sey	sey	SCONJ	_	_	23	discourse	_	AlignBegin=117083|AlignEnd=117567|Gloss=COMP|SyllableCount=1|WordContour=lm
 19	#	#	X	_	_	18	dep	_	AlignBegin=117567|AlignEnd=118035|Gloss=PUNCT
 20	[	[	X	_	_	23	dep	_	AlignBegin=118005|AlignEnd=118035|Gloss=PUNCT
@@ -841,8 +841,8 @@
 7	man	man	NOUN	_	_	12	nsubj	_	AlignBegin=138486|AlignEnd=138711|Gloss=man|Lang=en|SyllableCount=1|WordContour=mm
 8	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	AlignBegin=138711|AlignEnd=138860|Gloss=be.IND.SG.3.PRS.FIN|Lang=en|SyllableCount=1|WordContour=ml
 9	a	a	DET	_	Definite=Ind|PronType=Art	12	det	_	AlignBegin=138860|AlignEnd=138899|Gloss=INDF.ART|Lang=en|SyllableCount=1|WordContour=ll
-10	devil	devil	NOUN	_	_	12	nmod	_	AlignBegin=138899|AlignEnd=139210|Gloss=devil|Lang=en|SpaceAfter=No|SyllableCount=2|WordContour=llm3
-11	's	's	PART	_	_	10	case	_	AlignBegin=138899|AlignEnd=139210|Gloss=GEN|Lang=en|SyllableCount=1|WordContour=llm3
+10	devil	devil	NOUN	_	_	12	nmod	_	AlignBegin=138899|AlignEnd=139165|Gloss=devil|Lang=en|SpaceAfter=No|SyllableCount=2|WordContour=llm3
+11	's	's	PART	_	_	10	case	_	AlignBegin=139165|AlignEnd=139210|Gloss=GEN|Lang=en|SyllableCount=1|WordContour=llm3
 12	workshop	workshop	NOUN	_	_	5	parataxis	_	AlignBegin=139210|AlignEnd=139670|Gloss=workshop|Lang=en|SyllableCount=2|WordContour=lL
 13	//	//	X	_	_	5	dep	_	AlignBegin=139670|AlignEnd=139700|Gloss=PUNCT
 
@@ -1364,7 +1364,7 @@
 # text_en = That was even before Goodluck got into power.
 # text_ortho = Dat was even before Goodluck enter power o.
 1	#	#	X	_	_	7	dep	_	AlignBegin=208673|AlignEnd=209240|Gloss=PUNCT
-2	dat	dat	PRON	_	Number=Sing	7	nsubj	_	AlignBegin=209240|AlignEnd=209373|Gloss=SG.DEM|Lang=en|SyllableCount=1|WordContour=mh
+2	dat	dat	PRON	_	Number=Sing	7	nsubj:outer	_	AlignBegin=209240|AlignEnd=209373|Gloss=SG.DEM|Lang=en|SyllableCount=1|WordContour=mh
 3	was	be	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	7	cop	_	AlignBegin=209373|AlignEnd=209620|Gloss=be.IND.SG.1.PST.FIN|Lang=en|SyllableCount=1|WordContour=hm
 4	even	even	ADV	_	_	7	advmod	_	AlignBegin=209620|AlignEnd=209870|Gloss=even|Lang=en|SyllableCount=2|WordContour=mmh3
 5	before	before	ADP	_	_	7	mark	_	AlignBegin=209870|AlignEnd=210140|Gloss=before|Lang=en|SyllableCount=2|WordContour=mmm1
@@ -1406,8 +1406,8 @@
 6	go	go	AUX	_	Aspect=Prosp	8	aux	_	AlignBegin=213834|AlignEnd=213966|Gloss=PROSP|SyllableCount=1|WordContour=mm
 7	dey	dey	AUX	_	Aspect=Imp	8	aux	_	AlignBegin=213966|AlignEnd=214060|Gloss=IPFV|SyllableCount=1|WordContour=mm
 8	call	call	VERB	_	_	3	parataxis	_	AlignBegin=214060|AlignEnd=214267|Gloss=call|SyllableCount=1|WordContour=Hh
-9	]	]	X	_	_	8	dep	_	AlignBegin=214267|AlignEnd=214297|Gloss=PUNCT
-10	//	//	X	_	_	3	dep	_	AlignBegin=214267|AlignEnd=214297|Gloss=PUNCT
+9	]	]	X	_	_	8	dep	_	AlignBegin=214267|AlignEnd=214267|Gloss=PUNCT
+10	//	//	X	_	_	3	dep	_	AlignBegin=214267|AlignEnd=214267|Gloss=PUNCT
 
 # sent_id = ABJ_INF_12_Evictions_MG__54
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ABJ_INF_12_Evictions_MG.mp3
@@ -1432,7 +1432,7 @@
 15	collect	collect	VERB	_	_	14	xcomp	_	AlignBegin=216270|AlignEnd=216486|Gloss=collect|SyllableCount=2|WordContour=mm
 16	names	name	NOUN	_	Number=Plur	15	obj	_	AlignBegin=216486|AlignEnd=216702|Gloss=name.PL|SyllableCount=1|WordContour=mm
 17	]	]	X	_	_	14	dep	_	AlignBegin=216702|AlignEnd=216732|Gloss=PUNCT
-18	//	//	X	_	_	10	dep	_	AlignBegin=216702|AlignEnd=216732|Gloss=PUNCT
+18	//	//	X	_	_	10	dep	_	AlignBegin=216702|AlignEnd=216702|Gloss=PUNCT
 
 # sent_id = ABJ_INF_12_Evictions_MG__55
 # sound_url = http://www.tal.univ-paris3.fr/trameur/iTrameur-naija/mp3/ABJ_INF_12_Evictions_MG.mp3
@@ -1494,7 +1494,7 @@
 1	#	#	X	_	_	16	dep	_	AlignBegin=221751|AlignEnd=222350|Gloss=PUNCT
 2	so	so	ADV	_	_	16	discourse	_	AlignBegin=222350|AlignEnd=222490|Gloss=so|SyllableCount=1|WordContour=X
 3	di	di	DET	_	Definite=Def|PronType=Art	4	det	_	AlignBegin=222490|AlignEnd=222590|Gloss=DEF.ART|SyllableCount=1|WordContour=mm
-4	ting	ting	NOUN	_	_	16	nsubj	_	AlignBegin=222590|AlignEnd=222754|Gloss=thing|SyllableCount=1|WordContour=mhH2
+4	ting	ting	NOUN	_	_	16	nsubj:outer	_	AlignBegin=222590|AlignEnd=222754|Gloss=thing|SyllableCount=1|WordContour=mhH2
 5	be	be	AUX	_	PartType=Cop	16	cop	_	AlignBegin=222754|AlignEnd=222848|Gloss=be|SyllableCount=1|WordContour=hm
 6	sey	sey	SCONJ	_	_	16	mark	_	AlignBegin=222848|AlignEnd=223270|Gloss=COMP|SyllableCount=1|WordContour=mm
 7	[	[	X	_	_	16	dep	_	AlignBegin=223270|AlignEnd=223300|Gloss=PUNCT
@@ -1525,7 +1525,7 @@
 # text_en = The thing is that none of us is, is, is ev..., none of us is...
 # text_ortho = Wetin be sey none of us dey, dey, dey ev-... none of us dey...
 1	#	#	X	_	_	10	dep	_	AlignBegin=226060|AlignEnd=226800|Gloss=PUNCT
-2	wetin	wetin	PRON	_	PronType=Int	10	nsubj	_	AlignBegin=226800|AlignEnd=227040|Gloss=what.Q|SyllableCount=2|WordContour=Lh
+2	wetin	wetin	PRON	_	PronType=Int	10	nsubj:outer	_	AlignBegin=226800|AlignEnd=227040|Gloss=what.Q|SyllableCount=2|WordContour=Lh
 3	be	be	AUX	_	PartType=Cop	10	cop	_	AlignBegin=227040|AlignEnd=227100|Gloss=be|SyllableCount=1|WordContour=hh
 4	sey	sey	SCONJ	_	_	10	mark	_	AlignBegin=227100|AlignEnd=227195|Gloss=COMP|SyllableCount=1|WordContour=hh
 5	[	[	X	_	_	10	dep	_	AlignBegin=227195|AlignEnd=227225|Gloss=PUNCT
@@ -1673,7 +1673,7 @@
 12	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	13	nsubj	_	AlignBegin=245093|AlignEnd=245150|Gloss=NOM.PL.3|SyllableCount=1|WordContour=hm
 13	suppose	suppose	VERB	_	_	9	acl:relcl	_	AlignBegin=245150|AlignEnd=245319|Gloss=suppose|SyllableCount=2|WordContour=mm
 14	to	to	ADP	_	_	15	mark	_	AlignBegin=245319|AlignEnd=245424|Gloss=to|SyllableCount=1|WordContour=hm
-15	give	give	VERB	_	_	13	xcomp	_	AlignBegin=245424|AlignEnd=245612|Gloss=give|SyllableCount=1|WordContour=mmh2
+15	give	give	VERB	_	_	13	ccomp	_	AlignBegin=245424|AlignEnd=245612|Gloss=give|SyllableCount=1|WordContour=mmh2
 16	dem	dem	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	15	obj	_	AlignBegin=245612|AlignEnd=245900|Gloss=ACC.PL.3|SyllableCount=1|WordContour=mlm1
 17	//	//	X	_	_	6	dep	_	AlignBegin=245900|AlignEnd=245930|Gloss=PUNCT
 

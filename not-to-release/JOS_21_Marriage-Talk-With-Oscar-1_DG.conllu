@@ -83,7 +83,7 @@
 6	o	o	PART	_	PartType=Disc	5	advmod	_	AlignBegin=10978|AlignEnd=11203|Gloss=EMPH|SyllableCount=1
 7	because	because	SCONJ	_	_	16	mark	_	AlignBegin=11203|AlignEnd=11427|Gloss=because|SyllableCount=2
 8	my	my	PRON	_	Number=Sing|Person=1|Poss=Yes	9	nmod:poss	_	AlignBegin=11427|AlignEnd=11652|Gloss=POSS.SG.1|SyllableCount=1
-9	own	own	ADJ	_	_	16	nsubj	_	AlignBegin=11652|AlignEnd=11876|Gloss=own|SyllableCount=1
+9	own	own	ADJ	_	_	16	nsubj:outer	_	AlignBegin=11652|AlignEnd=11876|Gloss=own|SyllableCount=1
 10	be	be	AUX	_	PartType=Cop	16	cop	_	AlignBegin=11876|AlignEnd=12101|Gloss=be1|SyllableCount=1
 11	sey	sey	SCONJ	_	_	16	mark	_	AlignBegin=12101|AlignEnd=12325|Gloss=COMP|SyllableCount=1
 12	[	[	X	_	_	16	dep	_	AlignBegin=12325|AlignEnd=12325|Gloss=PUNCT
@@ -272,12 +272,12 @@
 17	na	na	AUX	_	PartType=Cop	19	cop	_	AlignBegin=31229|AlignEnd=31450|Gloss=be1|SyllableCount=1
 18	di	di	DET	_	Definite=Def|PronType=Art	19	det	_	AlignBegin=31450|AlignEnd=31672|Gloss=DEF.ART|SyllableCount=1
 19	daughter	daughter	NOUN	_	_	3	xcomp	_	AlignBegin=31672|AlignEnd=31893|Gloss=daughter|SyllableCount=2
-20	>+	>+	X	_	_	23	dep	_	AlignBegin=31893|AlignEnd=31893|Gloss=PUNCT
-21	dey	dey	AUX	_	Aspect=Imp	23	aux	_	AlignBegin=31893|AlignEnd=32115|Gloss=IPFV|SyllableCount=1
+20	>+	>+	X	_	_	25	dep	_	AlignBegin=31893|AlignEnd=31893|Gloss=PUNCT
+21	dey	dey	AUX	_	Aspect=Imp	25	aux	_	AlignBegin=31893|AlignEnd=32115|Gloss=IPFV|SyllableCount=1
 22	{	{	X	_	_	23	dep	_	AlignBegin=32115|AlignEnd=32115|Gloss=PUNCT
-23	fill	fill	VERB	_	_	19	advcl:cleft	_	AlignBegin=32115|AlignEnd=32336|Gloss=fill|SyllableCount=1
+23	fill	fill	VERB	_	_	25	reparandum	_	AlignBegin=32115|AlignEnd=32336|Gloss=fill|SyllableCount=1
 24	||	||	X	_	_	25	dep	_	AlignBegin=32336|AlignEnd=32336|Gloss=PUNCT
-25	rule	rule	VERB	_	_	23	reparandum	_	AlignBegin=32336|AlignEnd=32557|Gloss=rule|SyllableCount=1
+25	rule	rule	VERB	_	_	19	advcl:cleft	_	AlignBegin=32336|AlignEnd=32557|Gloss=rule|SyllableCount=1
 26	}	}	X	_	_	23	dep	_	AlignBegin=32557|AlignEnd=32557|Gloss=PUNCT
 27	house	house	NOUN	_	_	25	obj	_	AlignBegin=32557|AlignEnd=32779|Gloss=house|SyllableCount=1
 28	o	o	PART	_	PartType=Disc	19	advmod	_	AlignBegin=32779|AlignEnd=33000|Gloss=EMPH|SyllableCount=1
@@ -420,11 +420,11 @@
 4	concentrate	concentrate	VERB	_	_	1	ccomp	_	AlignBegin=45504|AlignEnd=45726|Gloss=concentrate|SyllableCount=3
 5	{	{	X	_	_	7	dep	_	AlignBegin=45726|AlignEnd=45726|Gloss=PUNCT
 6	your	your	PRON	_	Person=2|Poss=Yes	7	nmod:poss	_	AlignBegin=45726|AlignEnd=45947|Gloss=2.POSS|SyllableCount=1
-7	wife	wife	NOUN	_	_	4	obj	_	AlignBegin=45947|AlignEnd=46169|Gloss=wife|SyllableCount=1
+7	wife	wife	NOUN	_	_	11	reparandum	_	AlignBegin=45947|AlignEnd=46169|Gloss=wife|SyllableCount=1
 8	||	||	X	_	_	11	dep	_	AlignBegin=46169|AlignEnd=46169|Gloss=PUNCT
 9	for	for	ADP	_	_	11	case	_	AlignBegin=46169|AlignEnd=46390|Gloss=for|SyllableCount=1
 10	your	your	PRON	_	Number=Plur|Person=2|Poss=Yes	11	nmod:poss	_	AlignBegin=46390|AlignEnd=46611|Gloss=2.POSS|SyllableCount=1
-11	wife	wife	NOUN	_	_	7	reparandum	_	AlignBegin=46611|AlignEnd=46833|Gloss=wife|SyllableCount=1
+11	wife	wife	NOUN	_	_	4	obj	_	AlignBegin=46611|AlignEnd=46833|Gloss=wife|SyllableCount=1
 12	}	}	X	_	_	7	dep	_	AlignBegin=46833|AlignEnd=46833|Gloss=PUNCT
 13	now	now	ADV	_	_	4	advmod	_	AlignBegin=46833|AlignEnd=47054|Gloss=now|SyllableCount=1
 14	<	<	X	_	_	1	dep	_	AlignBegin=47054|AlignEnd=47054|Gloss=PUNCT
@@ -506,7 +506,7 @@
 3	<	<	X	_	_	2	dep	_	AlignBegin=51821|AlignEnd=51821|Gloss=PUNCT
 4	but	but	CCONJ	_	_	30	discourse	_	AlignBegin=51821|AlignEnd=52047|Gloss=but|SyllableCount=1
 5	di	di	DET	_	Definite=Def|PronType=Art	6	det	_	AlignBegin=52047|AlignEnd=52272|Gloss=DEF.ART|SyllableCount=1
-6	true	true	NOUN	_	_	30	nsubj	_	AlignBegin=52272|AlignEnd=52498|Gloss=truth|SyllableCount=1
+6	true	true	NOUN	_	_	30	nsubj:outer	_	AlignBegin=52272|AlignEnd=52498|Gloss=truth|SyllableCount=1
 7	be	be	AUX	_	PartType=Cop	30	cop	_	AlignBegin=52498|AlignEnd=52724|Gloss=be1|SyllableCount=1
 8	sey	sey	SCONJ	_	_	30	mark	_	AlignBegin=52724|AlignEnd=52949|Gloss=COMP|SyllableCount=1
 9	[	[	X	_	_	30	dep	_	AlignBegin=52949|AlignEnd=52949|Gloss=PUNCT
@@ -618,14 +618,14 @@
 # text_ortho = Una know, una go just dey chill dere dey say na una be di head.
 1	{	{	X	_	_	3	dep	_	AlignBegin=62380|AlignEnd=62380|Gloss=PUNCT
 2	una	una	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	3	nsubj	_	AlignBegin=62380|AlignEnd=62632|Gloss=NOM.PL.2|SyllableCount=2
-3	know	know	VERB	_	_	0	root	_	AlignBegin=62632|AlignEnd=62883|Gloss=know|SyllableCount=1
+3	know	know	VERB	_	_	10	reparandum	_	AlignBegin=62632|AlignEnd=62883|Gloss=know|SyllableCount=1
 4	||	||	X	_	_	10	dep	_	AlignBegin=62883|AlignEnd=62883|Gloss=PUNCT
 5	una	una	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	10	nsubj	_	AlignBegin=62883|AlignEnd=63135|Gloss=NOM.PL.2|SyllableCount=2
 6	go	go	AUX	_	Aspect=Prosp	10	aux	_	AlignBegin=63135|AlignEnd=63387|Gloss=PROSP|SyllableCount=1
 7	}	}	X	_	_	3	dep	_	AlignBegin=63387|AlignEnd=63387|Gloss=PUNCT
 8	just	just	ADV	_	_	10	advmod	_	AlignBegin=63387|AlignEnd=63638|Gloss=just|SyllableCount=1
 9	dey	dey	AUX	_	Aspect=Imp	10	aux	_	AlignBegin=63638|AlignEnd=63890|Gloss=IPFV|SyllableCount=1
-10	chill	chill	VERB	_	_	3	reparandum	_	AlignBegin=63890|AlignEnd=64142|Gloss=chill_out|SyllableCount=1
+10	chill	chill	VERB	_	_	0	root	_	AlignBegin=63890|AlignEnd=64142|Gloss=chill_out|SyllableCount=1
 11	dere	dere	ADV	_	_	10	advmod	_	AlignBegin=64142|AlignEnd=64393|Gloss=there|SyllableCount=2
 12	dey	dey	AUX	_	Aspect=Imp	13	aux	_	AlignBegin=64393|AlignEnd=64645|Gloss=IPFV|SyllableCount=1
 13	say	say	VERB	_	_	10	compound:svc	_	AlignBegin=64645|AlignEnd=64897|Gloss=say|SyllableCount=1
@@ -713,11 +713,11 @@
 # text_ortho = Na you, no be you wan bring wife come house?
 1	{	{	X	_	_	3	dep	_	AlignBegin=69287|AlignEnd=69287|Gloss=PUNCT
 2	na	na	AUX	_	PartType=Cop	3	cop	_	AlignBegin=69287|AlignEnd=69441|Gloss=be1|SyllableCount=1
-3	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	0	root	_	AlignBegin=69441|AlignEnd=69596|Gloss=NOM.2|SyllableCount=1
+3	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	7	reparandum	_	AlignBegin=69441|AlignEnd=69596|Gloss=NOM.2|SyllableCount=1
 4	||	||	X	_	_	7	dep	_	AlignBegin=69596|AlignEnd=69596|Gloss=PUNCT
 5	no	no	AUX	_	Polarity=Neg	7	aux	_	AlignBegin=69596|AlignEnd=69750|Gloss=NEG|SyllableCount=1
 6	be	be	AUX	_	PartType=Cop	7	cop	_	AlignBegin=69750|AlignEnd=69904|Gloss=be1|SyllableCount=1
-7	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	2	reparandum	_	AlignBegin=69904|AlignEnd=70058|Gloss=NOM.2|SyllableCount=1
+7	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	0	root	_	AlignBegin=69904|AlignEnd=70058|Gloss=NOM.2|SyllableCount=1
 8	}	}	X	_	_	3	dep	_	AlignBegin=70058|AlignEnd=70058|Gloss=PUNCT
 9	>+	>+	X	_	_	10	dep	_	AlignBegin=70058|AlignEnd=70058|Gloss=PUNCT
 10	wan	want	VERB	_	_	7	advcl:cleft	_	AlignBegin=70058|AlignEnd=70213|Gloss=want|SyllableCount=1
@@ -737,7 +737,7 @@
 2	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	AlignBegin=71187|AlignEnd=71424|Gloss=NOM.SG.1|SyllableCount=1
 3	wan	want	VERB	_	_	0	root	_	AlignBegin=71424|AlignEnd=71661|Gloss=want|SyllableCount=1
 4	to	to	ADP	_	_	5	mark	_	AlignBegin=71661|AlignEnd=71898|Gloss=to|SyllableCount=1
-5	carry	carry	VERB	_	_	3	xcomp	_	AlignBegin=71898|AlignEnd=72135|Gloss=carry|SyllableCount=2
+5	carry	carry	VERB	_	_	3	ccomp	_	AlignBegin=71898|AlignEnd=72135|Gloss=carry|SyllableCount=2
 6	wife	wife	NOUN	_	_	5	obj	_	AlignBegin=72135|AlignEnd=72372|Gloss=wife|SyllableCount=1
 7	come	come	VERB	_	_	5	compound:svc	_	AlignBegin=72372|AlignEnd=72609|Gloss=come|SyllableCount=1
 8	house	house	NOUN	_	_	7	iobj	_	AlignBegin=72609|AlignEnd=72846|Gloss=house|SyllableCount=1
@@ -853,7 +853,7 @@
 4	n't	not	PART	_	Polarity=Neg	5	advmod	_	AlignBegin=83780|AlignEnd=84005|Gloss=NEG|Lang=en|SyllableCount=1
 5	need	need	VERB	_	_	0	root	_	AlignBegin=84005|AlignEnd=84230|Gloss=need|Lang=en|SyllableCount=1
 6	to	to	ADP	_	_	7	mark	_	AlignBegin=84230|AlignEnd=84455|Gloss=to|Lang=en|SyllableCount=1
-7	use	use	VERB	_	_	5	xcomp	_	AlignBegin=84455|AlignEnd=84680|Gloss=use|Lang=en|SyllableCount=1
+7	use	use	VERB	_	_	5	ccomp	_	AlignBegin=84455|AlignEnd=84680|Gloss=use|Lang=en|SyllableCount=1
 8	plenty	plenty	ADJ	_	_	9	amod	_	AlignBegin=84680|AlignEnd=84905|Gloss=plenty|Lang=en|SyllableCount=2
 9	money	money	NOUN	_	_	7	obj	_	AlignBegin=84905|AlignEnd=85130|Gloss=money|Lang=en|SyllableCount=2
 10	now	now	ADV	_	_	7	advmod	_	AlignBegin=85130|AlignEnd=85355|Gloss=now|Lang=en|SyllableCount=1
@@ -1106,7 +1106,7 @@
 14	wedding	wedding	NOUN	_	_	12	obl:arg	_	AlignBegin=104818|AlignEnd=105043|Gloss=wedding|SyllableCount=2
 15	<	<	X	_	_	9	dep	_	AlignBegin=105043|AlignEnd=105043|Gloss=PUNCT
 16	di	di	DET	_	Definite=Def|PronType=Art	17	det	_	AlignBegin=105043|AlignEnd=105267|Gloss=DEF.ART|SyllableCount=1
-17	truth	truth	NOUN	_	_	24	nsubj	_	AlignBegin=105267|AlignEnd=105492|Gloss=truth|SyllableCount=1
+17	truth	truth	NOUN	_	_	24	nsubj:outer	_	AlignBegin=105267|AlignEnd=105492|Gloss=truth|SyllableCount=1
 18	be	be	AUX	_	PartType=Cop	24	cop	_	AlignBegin=105492|AlignEnd=105717|Gloss=be1|SyllableCount=1
 19	sey	sey	SCONJ	_	_	24	mark	_	AlignBegin=105717|AlignEnd=105942|Gloss=COMP|SyllableCount=1
 20	[	[	X	_	_	24	dep	_	AlignBegin=105942|AlignEnd=105942|Gloss=PUNCT
@@ -1141,7 +1141,7 @@
 8	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	AlignBegin=109375|AlignEnd=109519|Gloss=NOM.SG.1|SyllableCount=1
 9	need	need	VERB	_	_	6	acl:relcl	_	AlignBegin=109519|AlignEnd=109663|Gloss=need|SyllableCount=1
 10	to	to	ADP	_	_	11	mark	_	AlignBegin=109663|AlignEnd=109806|Gloss=to|SyllableCount=1
-11	do	do	VERB	_	_	9	xcomp	_	AlignBegin=109806|AlignEnd=109950|Gloss=do|SyllableCount=1
+11	do	do	VERB	_	_	9	ccomp	_	AlignBegin=109806|AlignEnd=109950|Gloss=do|SyllableCount=1
 12	//	//	X	_	_	4	dep	_	AlignBegin=109950|AlignEnd=109950|Gloss=PUNCT
 
 # sent_id = JOS_21_Marriage-Talk-With-Oscar-1_DG__67
@@ -1261,12 +1261,12 @@
 # text_ortho = You know as women, you know as una dey be now.
 1	{	{	X	_	_	3	dep	_	AlignBegin=121590|AlignEnd=121590|Gloss=PUNCT
 2	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	AlignBegin=121590|AlignEnd=121752|Gloss=NOM.2|SyllableCount=1
-3	know	know	VERB	_	_	0	root	_	AlignBegin=121752|AlignEnd=121914|Gloss=know|SyllableCount=1
+3	know	know	VERB	_	_	8	reparandum	_	AlignBegin=121752|AlignEnd=121914|Gloss=know|SyllableCount=1
 4	as	as	ADP	_	_	5	case	_	AlignBegin=121914|AlignEnd=122075|Gloss=as|SyllableCount=1
 5	women	woman	NOUN	_	Number=Plur	3	obl:mod	_	AlignBegin=122075|AlignEnd=122237|Gloss=woman.PL|Scrap=Yes|SyllableCount=2
 6	||	||	X	_	_	8	dep	_	AlignBegin=122237|AlignEnd=122237|Gloss=PUNCT
 7	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	8	nsubj	_	AlignBegin=122237|AlignEnd=122399|Gloss=NOM.2|SyllableCount=1
-8	know	know	VERB	_	_	3	reparandum	_	AlignBegin=122399|AlignEnd=122561|Gloss=know|SyllableCount=1
+8	know	know	VERB	_	_	0	root	_	AlignBegin=122399|AlignEnd=122561|Gloss=know|SyllableCount=1
 9	as	as	ADP	_	_	13	mark	_	AlignBegin=122561|AlignEnd=122723|Gloss=as|SyllableCount=1
 10	una	una	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	13	nsubj	_	AlignBegin=122723|AlignEnd=122885|Gloss=NOM.2|SyllableCount=2
 11	}	}	X	_	_	3	dep	_	AlignBegin=122885|AlignEnd=122885|Gloss=PUNCT
@@ -1383,17 +1383,17 @@
 1	{	{	X	_	_	4	dep	_	AlignBegin=132910|AlignEnd=132910|Gloss=PUNCT
 2	but	but	CCONJ	_	_	4	discourse	_	AlignBegin=132910|AlignEnd=133178|Gloss=but|SyllableCount=1
 3	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	AlignBegin=133178|AlignEnd=133446|Gloss=NOM.2|SyllableCount=1
-4	know	know	VERB	_	_	0	root	_	AlignBegin=133446|AlignEnd=133715|Gloss=know|SyllableCount=1
+4	know	know	VERB	_	_	9	reparandum	_	AlignBegin=133446|AlignEnd=133715|Gloss=know|SyllableCount=1
 5	sey	sey	SCONJ	_	_	4	ccomp	_	AlignBegin=133715|AlignEnd=133983|Gloss=COMP|SyllableCount=1
 6	||	||	X	_	_	9	dep	_	AlignBegin=133983|AlignEnd=133983|Gloss=PUNCT
 7	but	but	CCONJ	_	_	9	discourse	_	AlignBegin=133983|AlignEnd=134251|Gloss=but|SyllableCount=1
 8	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	9	nsubj	_	AlignBegin=134251|AlignEnd=134519|Gloss=NOM.2|SyllableCount=1
-9	know	know	VERB	_	_	4	reparandum	_	AlignBegin=134519|AlignEnd=134788|Gloss=know|SyllableCount=1
+9	know	know	VERB	_	_	0	root	_	AlignBegin=134519|AlignEnd=134788|Gloss=know|SyllableCount=1
 10	sey	sey	SCONJ	_	_	36	mark	_	AlignBegin=134788|AlignEnd=135056|Gloss=COMP|SyllableCount=1
 11	}	}	X	_	_	4	dep	_	AlignBegin=135056|AlignEnd=135056|Gloss=PUNCT
 12	[	[	X	_	_	36	dep	_	AlignBegin=135056|AlignEnd=135056|Gloss=PUNCT
 13	di	di	DET	_	Definite=Def|PronType=Art	14	det	_	AlignBegin=135056|AlignEnd=135324|Gloss=DEF.ART|SyllableCount=1
-14	truth	truth	NOUN	_	_	36	nsubj	_	AlignBegin=135324|AlignEnd=135592|Gloss=truth|SyllableCount=1
+14	truth	truth	NOUN	_	_	36	nsubj:outer	_	AlignBegin=135324|AlignEnd=135592|Gloss=truth|SyllableCount=1
 15	be	be	AUX	_	PartType=Cop	36	cop	_	AlignBegin=135592|AlignEnd=135860|Gloss=be1|SyllableCount=1
 16	sey	sey	SCONJ	_	_	36	mark	_	AlignBegin=135860|AlignEnd=136129|Gloss=COMP|SyllableCount=1
 17	[	[	X	_	_	36	dep	_	AlignBegin=136129|AlignEnd=136129|Gloss=PUNCT
@@ -1561,11 +1561,11 @@
 1	{	{	X	_	_	4	dep	_	AlignBegin=154350|AlignEnd=154350|Gloss=PUNCT
 2	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	AlignBegin=154350|AlignEnd=154602|Gloss=NOM.SG.1|SyllableCount=1
 3	no	no	AUX	_	Polarity=Neg	4	aux	_	AlignBegin=154602|AlignEnd=154855|Gloss=NEG|SyllableCount=1
-4	tink	tink	VERB	_	_	0	root	_	AlignBegin=154855|AlignEnd=155108|Gloss=think|SyllableCount=1
+4	tink	tink	VERB	_	_	8	reparandum	_	AlignBegin=154855|AlignEnd=155108|Gloss=think|SyllableCount=1
 5	||	||	X	_	_	8	dep	_	AlignBegin=155108|AlignEnd=155108|Gloss=PUNCT
 6	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	AlignBegin=155108|AlignEnd=155360|Gloss=NOM.SG.1|SyllableCount=1
 7	no	no	AUX	_	Polarity=Neg	8	aux	_	AlignBegin=155360|AlignEnd=155612|Gloss=NEG|SyllableCount=1
-8	tink	tink	VERB	_	_	3	reparandum	_	AlignBegin=155612|AlignEnd=155865|Gloss=think|SyllableCount=1
+8	tink	tink	VERB	_	_	0	root	_	AlignBegin=155612|AlignEnd=155865|Gloss=think|SyllableCount=1
 9	}	}	X	_	_	4	dep	_	AlignBegin=155865|AlignEnd=155865|Gloss=PUNCT
 10	so	so	ADV	_	_	8	advmod	_	AlignBegin=155865|AlignEnd=156118|Gloss=so|SyllableCount=1
 11	o	o	PART	_	PartType=Disc	4	advmod	_	AlignBegin=156118|AlignEnd=156370|Gloss=EMPH|SyllableCount=1
@@ -1658,7 +1658,7 @@
 14	de	dem	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	15	nsubj	_	AlignBegin=161637|AlignEnd=161865|Gloss=NOM.PL.3|SyllableCount=1
 15	need	need	VERB	_	_	12	parataxis:conj	_	AlignBegin=161865|AlignEnd=162093|Gloss=need|SyllableCount=1
 16	to	to	ADP	_	_	17	mark	_	AlignBegin=162093|AlignEnd=162321|Gloss=to|SyllableCount=1
-17	dey	dey	VERB	_	VerbType=Cop	15	xcomp	_	AlignBegin=162321|AlignEnd=162549|Gloss=be2|SyllableCount=1
+17	dey	dey	VERB	_	VerbType=Cop	15	ccomp	_	AlignBegin=162321|AlignEnd=162549|Gloss=be2|SyllableCount=1
 18	happy	happy	ADJ	_	_	17	xcomp	_	AlignBegin=162549|AlignEnd=162777|Gloss=happy|SyllableCount=2
 19	dat	dat	DET	_	Number=Sing	20	det	_	AlignBegin=162777|AlignEnd=163005|Gloss=SG.DEM|SyllableCount=1
 20	day	day	NOUN	_	_	17	obl:mod	_	AlignBegin=163005|AlignEnd=163233|Gloss=day|SyllableCount=1
@@ -1810,9 +1810,9 @@
 7	no	no	AUX	_	Polarity=Neg	8	aux	_	AlignBegin=177670|AlignEnd=177956|Gloss=NEG|SyllableCount=1
 8	get	get	VERB	_	_	2	conj	_	AlignBegin=177956|AlignEnd=178243|Gloss=get|SyllableCount=1
 9	{	{	X	_	_	10	dep	_	AlignBegin=178243|AlignEnd=178243|Gloss=PUNCT
-10	royal	royal	ADJ	_	_	14	compound	_	AlignBegin=178243|AlignEnd=178529|Gloss=royal|SyllableCount=2
+10	royal	royal	ADJ	_	_	12	reparandum	_	AlignBegin=178243|AlignEnd=178529|Gloss=royal|SyllableCount=2
 11	||	||	X	_	_	12	dep	_	AlignBegin=178529|AlignEnd=178529|Gloss=PUNCT
-12	royal	royal	ADJ	_	_	10	reparandum	_	AlignBegin=178529|AlignEnd=178815|Gloss=royal|SyllableCount=2
+12	royal	royal	ADJ	_	_	14	compound	_	AlignBegin=178529|AlignEnd=178815|Gloss=royal|SyllableCount=2
 13	}	}	X	_	_	10	dep	_	AlignBegin=178815|AlignEnd=178815|Gloss=PUNCT
 14	blue	blue	ADJ	_	_	15	amod	_	AlignBegin=178815|AlignEnd=179102|Gloss=blue|SyllableCount=1
 15	suit	suit	NOUN	_	_	8	obj	_	AlignBegin=179102|AlignEnd=179388|Gloss=suit|SyllableCount=1
@@ -1827,11 +1827,11 @@
 1	{	{	X	_	_	4	dep	_	AlignBegin=179440|AlignEnd=179440|Gloss=PUNCT
 2	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	AlignBegin=179440|AlignEnd=179677|Gloss=NOM.SG.1|SyllableCount=1
 3	gats	gats	AUX	_	Mood=Nec	4	aux	_	AlignBegin=179677|AlignEnd=179913|Gloss=OBLG|SyllableCount=1
-4	wear	wear	VERB	_	_	0	root	_	AlignBegin=179913|AlignEnd=180150|Gloss=wear|SyllableCount=1
+4	wear	wear	VERB	_	_	8	reparandum	_	AlignBegin=179913|AlignEnd=180150|Gloss=wear|SyllableCount=1
 5	||	||	X	_	_	8	dep	_	AlignBegin=180150|AlignEnd=180150|Gloss=PUNCT
 6	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	AlignBegin=180150|AlignEnd=180387|Gloss=NOM.SG.1|SyllableCount=1
 7	gats	gats	AUX	_	Mood=Nec	8	aux	_	AlignBegin=180387|AlignEnd=180623|Gloss=OBLG|SyllableCount=1
-8	go	go	VERB	_	_	3	reparandum	_	AlignBegin=180623|AlignEnd=180860|Gloss=go|SyllableCount=1
+8	go	go	VERB	_	_	0	root	_	AlignBegin=180623|AlignEnd=180860|Gloss=go|SyllableCount=1
 9	find	find	VERB	_	_	8	compound:svc	_	AlignBegin=180860|AlignEnd=181097|Gloss=find|SyllableCount=1
 10	}	}	X	_	_	4	dep	_	AlignBegin=181097|AlignEnd=181097|Gloss=PUNCT
 11	for	for	ADP	_	_	12	case	_	AlignBegin=181097|AlignEnd=181333|Gloss=for|SyllableCount=1
@@ -1870,12 +1870,12 @@
 2	no	no	AUX	_	Polarity=Neg	3	aux	_	AlignBegin=184155|AlignEnd=184360|Gloss=NEG|SyllableCount=1
 3	need	need	VERB	_	_	0	root	_	AlignBegin=184360|AlignEnd=184565|Gloss=need|SyllableCount=1
 4	to	to	ADP	_	_	5	mark	_	AlignBegin=184565|AlignEnd=184770|Gloss=to|SyllableCount=1
-5	buy	buy	VERB	_	_	3	xcomp	_	AlignBegin=184770|AlignEnd=184975|Gloss=buy|SyllableCount=1
+5	buy	buy	VERB	_	_	3	ccomp	_	AlignBegin=184770|AlignEnd=184975|Gloss=buy|SyllableCount=1
 6	{	{	X	_	_	7	dep	_	AlignBegin=184975|AlignEnd=184975|Gloss=PUNCT
-7	ori~	X	X	_	_	5	obj	_	AlignBegin=184975|AlignEnd=185180|Gloss=X|SyllableCount=2
+7	ori~	X	X	_	_	10	reparandum	_	AlignBegin=184975|AlignEnd=185180|Gloss=X|SyllableCount=2
 8	||	||	X	_	_	10	dep	_	AlignBegin=185180|AlignEnd=185180|Gloss=PUNCT
 9	ready	ready	ADJ	_	_	10	compound	_	AlignBegin=185180|AlignEnd=185385|Gloss=ready|SyllableCount=2
-10	made	make	VERB	_	Tense=Past|VerbForm=Part	7	reparandum	_	AlignBegin=185385|AlignEnd=185590|Gloss=make.PST.PTCP|SyllableCount=1
+10	made	make	VERB	_	Tense=Past|VerbForm=Part	5	ccomp	_	AlignBegin=185385|AlignEnd=185590|Gloss=make.PST.PTCP|SyllableCount=1
 11	}	}	X	_	_	7	dep	_	AlignBegin=185590|AlignEnd=185590|Gloss=PUNCT
 12	//	//	X	_	_	3	dep	_	AlignBegin=185590|AlignEnd=185590|Gloss=PUNCT
 
@@ -1995,7 +1995,7 @@
 # text_ortho = Di only ting be sey you go plan base on your own budget so dat if dey add na jara.
 1	di	di	DET	_	Definite=Def|PronType=Art	3	det	_	AlignBegin=200430|AlignEnd=200628|Gloss=DEF.ART|SyllableCount=1
 2	only	only	ADJ	_	_	3	amod	_	AlignBegin=200628|AlignEnd=200825|Gloss=only|SyllableCount=2
-3	ting	ting	NOUN	_	_	9	nsubj	_	AlignBegin=200825|AlignEnd=201022|Gloss=thing|SyllableCount=1
+3	ting	ting	NOUN	_	_	9	nsubj:outer	_	AlignBegin=200825|AlignEnd=201022|Gloss=thing|SyllableCount=1
 4	be	be	AUX	_	PartType=Cop	9	cop	_	AlignBegin=201022|AlignEnd=201220|Gloss=be1|SyllableCount=1
 5	sey	sey	SCONJ	_	_	9	mark	_	AlignBegin=201220|AlignEnd=201418|Gloss=COMP|SyllableCount=1
 6	[	[	X	_	_	9	dep	_	AlignBegin=201418|AlignEnd=201418|Gloss=PUNCT
@@ -2170,12 +2170,12 @@
 5	time	time	NOUN	_	_	3	nsubj	_	AlignBegin=222298|AlignEnd=222529|Gloss=time|SyllableCount=1
 6	{	{	X	_	_	8	dep	_	AlignBegin=222529|AlignEnd=222529|Gloss=PUNCT
 7	wey	wey	SCONJ	_	_	8	case	_	AlignBegin=222529|AlignEnd=222760|Gloss=REL|SyllableCount=1
-8	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	acl:relcl	_	AlignBegin=222760|AlignEnd=222991|Gloss=NOM.SG.1|Scrap=Yes|SyllableCount=1
+8	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	reparandum	_	AlignBegin=222760|AlignEnd=222991|Gloss=NOM.SG.1|Scrap=Yes|SyllableCount=1
 9	||	||	X	_	_	13	dep	_	AlignBegin=222991|AlignEnd=222991|Gloss=PUNCT
 10	wey	wey	SCONJ	_	_	13	mark	_	AlignBegin=222991|AlignEnd=223221|Gloss=REL|SyllableCount=1
 11	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	AlignBegin=223221|AlignEnd=223452|Gloss=NOM.SG.1|SyllableCount=1
 12	}	}	X	_	_	8	dep	_	AlignBegin=223452|AlignEnd=223452|Gloss=PUNCT
-13	talk	talk	VERB	_	_	7	reparandum	_	AlignBegin=223452|AlignEnd=223683|Gloss=talk|SyllableCount=1
+13	talk	talk	VERB	_	_	5	acl:relcl	_	AlignBegin=223452|AlignEnd=223683|Gloss=talk|SyllableCount=1
 14	sey	sey	SCONJ	_	_	16	case	_	AlignBegin=223683|AlignEnd=223914|Gloss=COMP|SyllableCount=1
 15	[	[	X	_	_	16	dep	_	AlignBegin=223914|AlignEnd=223914|Gloss=PUNCT
 16	please	please	INTJ	_	_	13	obj	_	AlignBegin=223914|AlignEnd=224145|Gloss=please|SyllableCount=1
@@ -2199,12 +2199,12 @@
 34	na	na	AUX	_	PartType=Cop	37	cop	_	AlignBegin=226684|AlignEnd=226914|Gloss=be1|SyllableCount=1
 35	only	only	ADV	_	_	37	advmod	_	AlignBegin=226914|AlignEnd=227145|Gloss=only|SyllableCount=2
 36	three	three	NUM	_	NumType=Card	37	nummod	_	AlignBegin=227145|AlignEnd=227376|Gloss=three.CARD|SyllableCount=1
-37	people	people	NOUN	_	Number=Plur	28	parataxis:conj	_	AlignBegin=227376|AlignEnd=227607|Gloss=people.PL|SyllableCount=2
+37	people	people	NOUN	_	Number=Plur	42	reparandum	_	AlignBegin=227376|AlignEnd=227607|Gloss=people.PL|SyllableCount=2
 38	||	||	X	_	_	42	dep	_	AlignBegin=227607|AlignEnd=227607|Gloss=PUNCT
 39	na	na	AUX	_	PartType=Cop	42	cop	_	AlignBegin=227607|AlignEnd=227838|Gloss=be1|SyllableCount=1
 40	only	only	ADV	_	_	42	advmod	_	AlignBegin=227838|AlignEnd=228068|Gloss=only|SyllableCount=2
 41	ten	ten	NUM	_	_	42	nummod	_	AlignBegin=228068|AlignEnd=228299|Gloss=ten|SyllableCount=1
-42	people	people	NOUN	_	Number=Plur	34	reparandum	_	AlignBegin=228299|AlignEnd=228530|Gloss=people.PL|SyllableCount=2
+42	people	people	NOUN	_	Number=Plur	28	parataxis:conj	_	AlignBegin=228299|AlignEnd=228530|Gloss=people.PL|SyllableCount=2
 43	}	}	X	_	_	37	dep	_	AlignBegin=228530|AlignEnd=228530|Gloss=PUNCT
 44	]	]	X	_	_	16	dep	_	AlignBegin=228530|AlignEnd=228530|Gloss=]
 45	//	//	X	_	_	3	dep	_	AlignBegin=228530|AlignEnd=228530|Gloss=PUNCT
@@ -2429,7 +2429,7 @@
 # text_ortho = And di truth about wedding be sey wetin you no get, no go borrow.
 1	and	and	CCONJ	_	_	16	discourse	_	AlignBegin=259790|AlignEnd=260025|Gloss=and|SyllableCount=1
 2	di	di	DET	_	Definite=Def|PronType=Art	3	det	_	AlignBegin=260025|AlignEnd=260260|Gloss=DEF.ART|SyllableCount=1
-3	truth	truth	NOUN	_	_	16	nsubj	_	AlignBegin=260260|AlignEnd=260495|Gloss=truth|SyllableCount=1
+3	truth	truth	NOUN	_	_	16	nsubj:outer	_	AlignBegin=260260|AlignEnd=260495|Gloss=truth|SyllableCount=1
 4	about	about	ADP	_	_	5	case	_	AlignBegin=260495|AlignEnd=260730|Gloss=about|SyllableCount=2
 5	wedding	wedding	NOUN	_	_	3	nmod	_	AlignBegin=260730|AlignEnd=260965|Gloss=wedding|SyllableCount=2
 6	be	be	AUX	_	PartType=Cop	16	cop	_	AlignBegin=260965|AlignEnd=261200|Gloss=be1|SyllableCount=1
@@ -2661,9 +2661,9 @@
 16	dey	dey	AUX	_	Aspect=Imp	17	aux	_	AlignBegin=281878|AlignEnd=282136|Gloss=IPFV|SyllableCount=1
 17	scan	scan	VERB	_	_	14	conj	_	AlignBegin=282136|AlignEnd=282393|Gloss=scan|SyllableCount=1
 18	{	{	X	_	_	19	dep	_	AlignBegin=282393|AlignEnd=282393|Gloss=PUNCT
-19	wetin	wetin	PRON	_	PronType=Int	17	obj	_	AlignBegin=282393|AlignEnd=282651|Gloss=what.Q|SyllableCount=2
+19	wetin	wetin	PRON	_	PronType=Int	21	reparandum	_	AlignBegin=282393|AlignEnd=282651|Gloss=what.Q|SyllableCount=2
 20	||	||	X	_	_	21	dep	_	AlignBegin=282651|AlignEnd=282651|Gloss=PUNCT
-21	wetin	wetin	PRON	_	PronType=Int	19	reparandum	_	AlignBegin=282651|AlignEnd=282909|Gloss=what.Q|SyllableCount=2
+21	wetin	wetin	PRON	_	PronType=Int	17	obj	_	AlignBegin=282651|AlignEnd=282909|Gloss=what.Q|SyllableCount=2
 22	}	}	X	_	_	19	dep	_	AlignBegin=282909|AlignEnd=282909|Gloss=PUNCT
 23	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	25	nsubj	_	AlignBegin=282909|AlignEnd=283167|Gloss=NOM.SG.1|SyllableCount=1
 24	never	never	AUX	_	Aspect=Perf|Polarity=Neg	25	aux	_	AlignBegin=283167|AlignEnd=283425|Gloss=PRF.NEG|SyllableCount=2
@@ -2779,16 +2779,16 @@
 2	get	get	VERB	_	_	0	root	_	AlignBegin=295427|AlignEnd=295674|Gloss=get|SyllableCount=1
 3	di	di	DET	_	Definite=Def|PronType=Art	5	det	_	AlignBegin=295674|AlignEnd=295921|Gloss=DEF.ART|SyllableCount=1
 4	{	{	X	_	_	5	dep	_	AlignBegin=295921|AlignEnd=295921|Gloss=PUNCT
-5	checkli~	X	X	_	_	2	obj	_	AlignBegin=295921|AlignEnd=296168|Gloss=checklist|SyllableCount=2
+5	checkli~	X	X	_	_	14	reparandum	_	AlignBegin=295921|AlignEnd=296168|Gloss=checklist|SyllableCount=2
 6	||	||	X	_	_	8	dep	_	AlignBegin=296168|AlignEnd=296168|Gloss=PUNCT
 7	eh	eh	INTJ	_	_	8	discourse	_	AlignBegin=296168|AlignEnd=296415|Gloss=eh|SyllableCount=1
-8	check	check	NOUN	_	_	5	reparandum	_	AlignBegin=296415|AlignEnd=296662|Gloss=check|SyllableCount=1
+8	check	check	NOUN	_	_	14	reparandum	_	AlignBegin=296415|AlignEnd=296662|Gloss=check|SyllableCount=1
 9	||	||	X	_	_	12	dep	_	AlignBegin=296662|AlignEnd=296662|Gloss=PUNCT
 10	eh	eh	INTJ	_	_	12	discourse	_	AlignBegin=296662|AlignEnd=296909|Gloss=eh|SyllableCount=1
 11	dis	dis	DET	_	Number=Sing|PronType=Dem	12	det	_	AlignBegin=296909|AlignEnd=297156|Gloss=SG.DEM|SyllableCount=1
-12	ting	ting	NOUN	_	_	8	reparandum	_	AlignBegin=297156|AlignEnd=297403|Gloss=thing|SyllableCount=1
+12	ting	ting	NOUN	_	_	14	reparandum	_	AlignBegin=297156|AlignEnd=297403|Gloss=thing|SyllableCount=1
 13	||	||	X	_	_	14	dep	_	AlignBegin=297403|AlignEnd=297403|Gloss=PUNCT
-14	list	list	NOUN	_	_	12	reparandum	_	AlignBegin=297403|AlignEnd=297650|Gloss=list|SyllableCount=1
+14	list	list	NOUN	_	_	2	obj	_	AlignBegin=297403|AlignEnd=297650|Gloss=list|SyllableCount=1
 15	}	}	X	_	_	5	dep	_	AlignBegin=297650|AlignEnd=297650|Gloss=PUNCT
 16	//	//	X	_	_	2	dep	_	AlignBegin=297650|AlignEnd=297650|Gloss=PUNCT
 
@@ -2851,12 +2851,12 @@
 1	so	so	SCONJ	_	_	14	discourse	_	AlignBegin=303399|AlignEnd=303701|ExtPos=SCONJ|Gloss=so|Idiom=Yes|SyllableCount=1
 2	dat	dat	SCONJ	_	_	1	fixed	_	AlignBegin=303701|AlignEnd=304002|Gloss=COMP|InIdiom=Yes|SyllableCount=1
 3	{	{	X	_	_	4	dep	_	AlignBegin=304002|AlignEnd=304002|Gloss=PUNCT
-4	de	dem	X	_	_	14	obl:mod	_	AlignBegin=304002|AlignEnd=304304|Gloss=X|SyllableCount=1
+4	de	dem	X	_	_	9	reparandum	_	AlignBegin=304002|AlignEnd=304304|Gloss=X|SyllableCount=1
 5	||	||	X	_	_	9	dep	_	AlignBegin=304304|AlignEnd=304304|Gloss=PUNCT
 6	after	after	ADP	_	_	9	case	_	AlignBegin=304304|AlignEnd=304605|Gloss=after|SyllableCount=2
 7	}	}	X	_	_	4	dep	_	AlignBegin=304605|AlignEnd=304605|Gloss=PUNCT
 8	di	di	DET	_	Definite=Def|PronType=Art	9	det	_	AlignBegin=304605|AlignEnd=304907|Gloss=DEF.ART|SyllableCount=1
-9	wedding	wedding	NOUN	_	_	4	reparandum	_	AlignBegin=304907|AlignEnd=305209|Gloss=wedding|SyllableCount=2
+9	wedding	wedding	NOUN	_	_	14	obl:mod	_	AlignBegin=304907|AlignEnd=305209|Gloss=wedding|SyllableCount=2
 10	<	<	X	_	_	4	dep	_	AlignBegin=305209|AlignEnd=305209|Gloss=PUNCT
 11	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	14	nsubj	_	AlignBegin=305209|AlignEnd=305510|Gloss=NOM.2|SyllableCount=1
 12	go	go	AUX	_	Aspect=Prosp	14	aux	_	AlignBegin=305510|AlignEnd=305812|Gloss=PROSP|SyllableCount=1

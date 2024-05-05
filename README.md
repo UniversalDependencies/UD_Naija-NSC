@@ -43,6 +43,10 @@ The pilot corpus was recorded in various locations in Ibadan (Nigeria) by Bukola
 
 # Changelog
 
+* 2024-05-15 v2.14
+  * added sentences metadata about speakers
+  * removed syllables specific features (this data is available [here](https://github.com/surfacesyntacticud/SUD_Naija-NSC/tree/master/not-to-release))
+
 * 2020-11-01 v2.7
   * added 8 dialogues
 

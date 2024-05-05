@@ -5,8 +5,8 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>9240</sentences><tokens>140818</tokens><words>140818</words><fused>0</fused></total>
-    <train><sentences>7278</sentences><tokens>111897</tokens><words>111897</words><fused>0</fused></train>
+    <total><sentences>9241</sentences><tokens>140842</tokens><words>140842</words><fused>0</fused></total>
+    <train><sentences>7279</sentences><tokens>111921</tokens><words>111921</words><fused>0</fused></train>
     <dev><sentences>990</sentences><tokens>14571</tokens><words>14571</words><fused>0</fused></dev>
     <test><sentences>972</sentences><tokens>14350</tokens><words>14350</words><fused>0</fused></test>
   </size>
@@ -15,26 +15,26 @@
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="15">
-    <tag name="ADJ">3539</tag><!-- small, own, kind, good, different, oder, beta, many, first, plenty -->
+    <tag name="ADJ">3546</tag><!-- small, own, kind, good, different, oder, beta, many, first, big -->
     <tag name="ADP">6931</tag><!-- for, to, of, as, like, inside, from, in, on, wit -->
-    <tag name="ADV">6159</tag><!-- so, now, just, even, when, well, how, dere, den, still -->
-    <tag name="AUX">13722</tag><!-- dey, go, na, no, con, be, don, make, fit, bin -->
+    <tag name="ADV">6160</tag><!-- so, now, just, even, when, well, how, dere, den, still -->
+    <tag name="AUX">13724</tag><!-- dey, go, na, no, con, be, don, make, fit, bin -->
     <tag name="CCONJ">1677</tag><!-- and, but, or, abi, plus, wheder, alias, cos, eider, either -->
     <tag name="DET">5577</tag><!-- di, dis, dat, all, one, some, a, anoder, dose, any -->
     <tag name="INTJ">2260</tag><!-- eh, ehn, ah, OK, ehen, mtschew, toh, hm, yes, aha -->
-    <tag name="NOUN">14743</tag><!-- ting, people, one, money, man, time, school, person, house, work -->
+    <tag name="NOUN">14747</tag><!-- ting, people, one, money, man, time, school, person, house, work -->
     <tag name="NUM">1367</tag><!-- one, two, five, three, hundred, thousand, twenty, six, seven, fifty -->
     <tag name="PART">1365</tag><!-- o, sef, no, not, sha, dem, ma, shey, ni, ba -->
     <tag name="PRON">18364</tag><!-- I, you, im, dem, we, am, me, my, your, wetin -->
     <tag name="PROPN">2187</tag><!-- God, Nigeria, Jesus, Pidgin, English, Lagos, Alaska, Jos, Abuja, WAEC -->
     <tag name="SCONJ">4930</tag><!-- sey, wey, if, because, when, make, so, dat, wheder, take -->
-    <tag name="VERB">17758</tag><!-- go, dey, do, get, say, come, want, know, see, tell -->
-    <tag name="X">40239</tag><!-- #, //, <, {, }, [, |c, ||, ], >+ -->
+    <tag name="VERB">17759</tag><!-- go, dey, do, get, say, come, want, know, see, tell -->
+    <tag name="X">40248</tag><!-- #, //, <, {, }, [, |c, ||, ], >+ -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="54">
     <feat name="Aspect" value="Cons" upos="AUX">1351</feat><!-- con, come -->
-    <feat name="Aspect" value="Imp" upos="AUX,VERB">3128</feat><!-- dey -->
+    <feat name="Aspect" value="Imp" upos="AUX,VERB">3130</feat><!-- dey -->
     <feat name="Aspect" value="Perf" upos="AUX,PRON">888</feat><!-- don, never, We, dey, done -->
     <feat name="Aspect" value="Prosp" upos="AUX">2210</feat><!-- go -->
     <feat name="Case" value="Acc" upos="PART,PRON">2841</feat><!-- am, me, dem, us, una, her, yourself, mysef, oursef, yoursef -->
@@ -63,7 +63,7 @@
     <feat name="Mood" value="Nec" upos="AUX">19</feat><!-- gats, gast -->
     <feat name="Mood" value="Opt" upos="AUX,VERB">681</feat><!-- make, meh, mah, moh, mey -->
     <feat name="Mood" value="Pot" upos="AUX">387</feat><!-- fit -->
-    <feat name="Number" value="Plur" upos="ADJ,ADV,AUX,DET,NOUN,PART,PRON,PROPN,X">7064</feat><!-- we, de, dem, your, people, us, una, our, deir, tings -->
+    <feat name="Number" value="Plur" upos="ADJ,ADV,AUX,DET,NOUN,PART,PRON,PROPN,X">7065</feat><!-- we, de, dem, your, people, us, una, our, deir, tings -->
     <feat name="Number" value="Sing" upos="ADJ,AUX,DET,PART,PRON,SCONJ,VERB,X">11233</feat><!-- I, e, am, me, dat, dis, my, im, she, is -->
     <feat name="NumType" value="Card" upos="NOUN,NUM,X">1319</feat><!-- one, two, five, three, hundred, thousand, twenty, six, seven, fifty -->
     <feat name="NumType" value="Ord" upos="ADJ">108</feat><!-- first, second, third, fourth, eleventh, tenth, eighteenth, fifth, twenty-fourth -->
@@ -71,9 +71,9 @@
     <feat name="PartType" value="Disc" upos="ADV,PART,PROPN">993</feat><!-- o, sef, sha, ma, ba, self, kuma, kwa -->
     <feat name="Person" value="1" upos="AUX,PART,PRON,VERB">6958</feat><!-- I, we, me, my, us, our, was, a, mysef, oursef -->
     <feat name="Person" value="2" upos="ADJ,PRON,X">3443</feat><!-- you, your, una, yourself, yoursef, [, yousef, youself, {, || -->
-    <feat name="Person" value="3" upos="ADJ,AUX,PART,PRON,SCONJ,VERB,X">6552</feat><!-- e, am, de, dem, im, she, deir, is, her, it -->
+    <feat name="Person" value="3" upos="ADJ,AUX,PART,PRON,SCONJ,VERB,X">6553</feat><!-- e, am, de, dem, im, she, deir, is, her, it -->
     <feat name="Polarity" value="Neg" upos="AUX,DET,INTJ,PART">1991</feat><!-- no, never, not, n't -->
-    <feat name="Poss" value="Yes" upos="ADJ,PRON">1967</feat><!-- my, your, our, deir, her, im, una, we, dem, e -->
+    <feat name="Poss" value="Yes" upos="ADJ,PRON">1968</feat><!-- my, your, our, deir, her, im, una, we, dem, e -->
     <feat name="PronType" value="Art" upos="DET">3174</feat><!-- di, one, a, the, an -->
     <feat name="PronType" value="Dem" upos="DET,PRON,X">1093</feat><!-- dis, dose, dese, those, that, da, this, } -->
     <feat name="PronType" value="Int" upos="ADV,DET,PART,PRON">1133</feat><!-- wetin, how, where, why, when, which, who, what, shey -->
@@ -85,7 +85,7 @@
     <feat name="VerbForm" value="Fin" upos="AUX,PRON,VERB">531</feat><!-- is, will, are, must, do, was, 's, 'm, means, should -->
     <feat name="VerbForm" value="Inf" upos="AUX">3</feat><!-- be -->
     <feat name="VerbForm" value="Part" upos="AUX,VERB">286</feat><!-- according, born, done, cheating, following, going, making, talking, boiled, buying -->
-    <feat name="VerbType" value="Cop" upos="AUX,VERB">972</feat><!-- dey, is, was, am, are, 'm, becoming, it's, na, were -->
+    <feat name="VerbType" value="Cop" upos="AUX,VERB">973</feat><!-- dey, is, was, am, are, 'm, becoming, it's, na, were -->
     <feat name="Voice" value="Pass" upos="VERB">8</feat><!-- called, exposed, frustrated, inbuilt, pounded, rescued, scattered, tempted -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
@@ -94,22 +94,22 @@
     <dep name="acl:relcl">2099</dep>
     <dep name="advcl">2038</dep>
     <dep name="advcl:cleft">1412</dep>
-    <dep name="advmod">5263</dep>
-    <dep name="amod">1814</dep>
+    <dep name="advmod">5264</dep>
+    <dep name="amod">1818</dep>
     <dep name="appos">218</dep>
-    <dep name="aux">10347</dep>
+    <dep name="aux">10349</dep>
     <dep name="case">4501</dep>
     <dep name="cc">947</dep>
-    <dep name="ccomp">1802</dep>
+    <dep name="ccomp">1800</dep>
     <dep name="compound">786</dep>
     <dep name="compound:prt">366</dep>
-    <dep name="compound:redup">568</dep>
+    <dep name="compound:redup">573</dep>
     <dep name="compound:svc">1277</dep>
     <dep name="conj">1963</dep>
     <dep name="cop">2672</dep>
     <dep name="csubj">61</dep>
     <dep name="csubj:outer">1</dep>
-    <dep name="dep">39974</dep>
+    <dep name="dep">39983</dep>
     <dep name="det">5352</dep>
     <dep name="discourse">4012</dep>
     <dep name="dislocated">1494</dep>
@@ -121,10 +121,10 @@
     <dep name="mark">5168</dep>
     <dep name="nmod">1339</dep>
     <dep name="nmod:poss">1895</dep>
-    <dep name="nsubj">13244</dep>
+    <dep name="nsubj">13245</dep>
     <dep name="nsubj:outer">105</dep>
     <dep name="nummod">556</dep>
-    <dep name="obj">7299</dep>
+    <dep name="obj">7300</dep>
     <dep name="obj:lvc">53</dep>
     <dep name="obl:agent">18</dep>
     <dep name="obl:arg">2567</dep>
@@ -137,8 +137,8 @@
     <dep name="parataxis:mod">28</dep>
     <dep name="parataxis:parenth">129</dep>
     <dep name="reparandum">1599</dep>
-    <dep name="root">9240</dep>
+    <dep name="root">9241</dep>
     <dep name="vocative">220</dep>
-    <dep name="xcomp">1738</dep>
+    <dep name="xcomp">1740</dep>
   </deps>
 </treebank>

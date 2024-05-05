@@ -1,13 +1,13 @@
 Running the following version of UD tools:
-commit e9726a6a7d6913193d90edb45a4cb549235c5b16
+commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat Nov 4 17:10:55 2023 +0100
+Date:   Sun May 5 09:21:16 2024 +0200
 Evaluating the following revision of UD_Naija-NSC:
-commit abac355e88c17927f7eee367207db2d32756ec03
-Merge: 77fccdd ac2e257
+commit 7e102304b1ca9f18600a8406c49f03195a7427d2
+Merge: 5833a36 09d22e5
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Size: counted 140818 of 140818 words (nodes).
-Size: min(0, log((N/1000)**2)) = 9.89493655292416.
+Size: counted 140842 of 140842 words (nodes).
+Size: min(0, log((N/1000)**2)) = 9.89527738939449.
 Size: maximum value 13.815511 is for 1000000 words or more.
 Split: Found more than 10000 training words.
 Split: Found at least 10000 development words.
@@ -15,30 +15,66 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.4.
 Universal POS tags: 15 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 1.
-Features: 44504 out of 140818 total words have one or more features.
+Features: 44508 out of 140842 total words have one or more features.
 Features: source of annotation (from README) factor is 1.
 Universal relations: 33 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Udapi:
                TOTAL      21996
 Udapi: found 21996 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 140818 words.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 140842 words.
 Genres: found 1 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang pcm --max-err=10 UD_Naija-NSC/pcm_nsc-ud-dev.conllu
+[Line 9605 Sent ABJ_NOU_02_Gimba-Lifestory_MG__61 Node 31]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 9604 Sent ABJ_NOU_02_Gimba-Lifestory_MG__61 Node 30]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 9608 Sent ABJ_NOU_02_Gimba-Lifestory_MG__61 Node 34]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 9607 Sent ABJ_NOU_02_Gimba-Lifestory_MG__61 Node 33]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 13260 Sent IBA_23_Bitter-Leaf-Soup_MG__11 Node 10]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 13259 Sent IBA_23_Bitter-Leaf-Soup_MG__11 Node 9]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 23847 Sent KAD_22_Chatting-At-The-Restaurant_DG__85 Node 27]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 23846 Sent KAD_22_Chatting-At-The-Restaurant_DG__85 Node 26]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 23848 Sent KAD_22_Chatting-At-The-Restaurant_DG__85 Node 28]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 23846 Sent KAD_22_Chatting-At-The-Restaurant_DG__85 Node 26]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+...suppressing further errors regarding Warning
+Warnings: 12
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang pcm --max-err=10 UD_Naija-NSC/pcm_nsc-ud-test.conllu
+[Line 3335 Sent IBA_15_Electrician_MG__2 Node 12]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 3334 Sent IBA_15_Electrician_MG__2 Node 11]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 14679 Sent KAD_17_Turkeys_MG__52 Node 4]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 14677 Sent KAD_17_Turkeys_MG__52 Node 2]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 14680 Sent KAD_17_Turkeys_MG__52 Node 5]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 14677 Sent KAD_17_Turkeys_MG__52 Node 2]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 17904 Sent WAZK_07_As-E-Dey-Hot-News-Read_MG__7 Node 9]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 17903 Sent WAZK_07_As-E-Dey-Hot-News-Read_MG__7 Node 8]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 27809 Sent WAZL_15_MC-Abi_MG__191 Node 2]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 27808 Sent WAZL_15_MC-Abi_MG__191 Node 1]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+...suppressing further errors regarding Warning
+Warnings: 12
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang pcm --max-err=10 UD_Naija-NSC/pcm_nsc-ud-train.conllu
+[Line 58450 Sent ENU_33_A-Beg_MG__70 Node 16]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 58449 Sent ENU_33_A-Beg_MG__70 Node 15]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 58451 Sent ENU_33_A-Beg_MG__70 Node 17]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 58449 Sent ENU_33_A-Beg_MG__70 Node 15]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 58452 Sent ENU_33_A-Beg_MG__70 Node 18]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 58449 Sent ENU_33_A-Beg_MG__70 Node 15]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 58453 Sent ENU_33_A-Beg_MG__70 Node 19]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 58449 Sent ENU_33_A-Beg_MG__70 Node 15]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 58454 Sent ENU_33_A-Beg_MG__70 Node 20]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 58449 Sent ENU_33_A-Beg_MG__70 Node 15]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+...suppressing further errors regarding Warning
+Warnings: 316
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.3) = 0.0230769230769231
 (weight=0.0769230769230769) * (score{genres}=0.0588235294117647) = 0.00452488687782805
 (weight=0.0769230769230769) * (score{lemmas}=0.4) = 0.0307692307692308
-(weight=0.256410256410256) * (score{size}=0.716219390619625) = 0.183645997594776
+(weight=0.256410256410256) * (score{size}=0.716244061186007) = 0.183652323381027
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.882352941176471) = 0.0678733031674208
 (weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
 (weight=0.0769230769230769) * (score{udeprels}=0.713513513513514) = 0.0548856548856549
-(TOTAL score=0.419134970730808) * (availability=1) * (validity=1) = 0.419134970730808
+(TOTAL score=0.419141296517059) * (availability=1) * (validity=1) = 0.419141296517059
 STARS = 2
-UD_Naija-NSC	0.419134970730808	2
+UD_Naija-NSC	0.419141296517059	2

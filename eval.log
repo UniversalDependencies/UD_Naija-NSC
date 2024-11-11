@@ -1,13 +1,13 @@
 Running the following version of UD tools:
-commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
+commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 09:21:16 2024 +0200
+Date:   Sun Nov 10 10:33:45 2024 +0100
 Evaluating the following revision of UD_Naija-NSC:
-commit 7e102304b1ca9f18600a8406c49f03195a7427d2
-Merge: 5833a36 09d22e5
+commit 03f593072104be00a9d4f9e4e76a7b9fcc4f059d
+Merge: 4f05b1f 9272d06
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Size: counted 140842 of 140842 words (nodes).
-Size: min(0, log((N/1000)**2)) = 9.89527738939449.
+Size: counted 140837 of 140837 words (nodes).
+Size: min(0, log((N/1000)**2)) = 9.89520638658632.
 Size: maximum value 13.815511 is for 1000000 words or more.
 Split: Found more than 10000 training words.
 Split: Found at least 10000 development words.
@@ -15,66 +15,66 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.4.
 Universal POS tags: 15 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 1.
-Features: 44508 out of 140842 total words have one or more features.
+Features: 44505 out of 140837 total words have one or more features.
 Features: source of annotation (from README) factor is 1.
 Universal relations: 33 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Udapi:
-               TOTAL      21996
-Udapi: found 21996 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 140842 words.
+               TOTAL      21995
+Udapi: found 21995 bugs.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 140837 words.
 Genres: found 1 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang pcm --max-err=10 UD_Naija-NSC/pcm_nsc-ud-dev.conllu
+[Line 1000 Sent ABJ_GWA_08_David-Lifestory_MG__35 Node 3]: [L3 Warning leaf-det] 'det' not expected to have children (3:dat:det --> 4:#:dep)
+[Line 5380 Sent ABJ_INF_10_Women-Battering_MG__4 Node 4]: [L3 Warning leaf-det] 'det' not expected to have children (4:di:det --> 3:||:dep)
+[Line 8323 Sent ABJ_NOU_02_Gimba-Lifestory_MG__17 Node 7]: [L3 Warning leaf-det] 'det' not expected to have children (7:di:det --> 5:||:dep)
+[Line 8324 Sent ABJ_NOU_02_Gimba-Lifestory_MG__17 Node 7]: [L3 Warning leaf-det] 'det' not expected to have children (7:di:det --> 6:#:dep)
+[Line 8651 Sent ABJ_NOU_02_Gimba-Lifestory_MG__29 Node 11]: [L3 Warning leaf-det] 'det' not expected to have children (11:my:det --> 10:||:dep)
+[Line 9127 Sent ABJ_NOU_02_Gimba-Lifestory_MG__47 Node 5]: [L3 Warning leaf-det] 'det' not expected to have children (5:di:det --> 4:||:dep)
 [Line 9605 Sent ABJ_NOU_02_Gimba-Lifestory_MG__61 Node 31]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 [Line 9604 Sent ABJ_NOU_02_Gimba-Lifestory_MG__61 Node 30]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 [Line 9608 Sent ABJ_NOU_02_Gimba-Lifestory_MG__61 Node 34]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 [Line 9607 Sent ABJ_NOU_02_Gimba-Lifestory_MG__61 Node 33]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 13260 Sent IBA_23_Bitter-Leaf-Soup_MG__11 Node 10]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 13259 Sent IBA_23_Bitter-Leaf-Soup_MG__11 Node 9]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 23847 Sent KAD_22_Chatting-At-The-Restaurant_DG__85 Node 27]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 23846 Sent KAD_22_Chatting-At-The-Restaurant_DG__85 Node 26]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 23848 Sent KAD_22_Chatting-At-The-Restaurant_DG__85 Node 28]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 23846 Sent KAD_22_Chatting-At-The-Restaurant_DG__85 Node 26]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 ...suppressing further errors regarding Warning
-Warnings: 12
+Warnings: 27
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang pcm --max-err=10 UD_Naija-NSC/pcm_nsc-ud-test.conllu
+[Line 3329 Sent IBA_15_Electrician_MG__2 Node 7]: [L3 Warning leaf-det] 'det' not expected to have children (7:which:det --> 6:#:dep)
+[Line 3333 Sent IBA_15_Electrician_MG__2 Node 7]: [L3 Warning leaf-det] 'det' not expected to have children (7:which:det --> 10:call:acl)
 [Line 3335 Sent IBA_15_Electrician_MG__2 Node 12]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 [Line 3334 Sent IBA_15_Electrician_MG__2 Node 11]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 14679 Sent KAD_17_Turkeys_MG__52 Node 4]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 14677 Sent KAD_17_Turkeys_MG__52 Node 2]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 14680 Sent KAD_17_Turkeys_MG__52 Node 5]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 14677 Sent KAD_17_Turkeys_MG__52 Node 2]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 17904 Sent WAZK_07_As-E-Dey-Hot-News-Read_MG__7 Node 9]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 17903 Sent WAZK_07_As-E-Dey-Hot-News-Read_MG__7 Node 8]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 27809 Sent WAZL_15_MC-Abi_MG__191 Node 2]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 27808 Sent WAZL_15_MC-Abi_MG__191 Node 1]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 3597 Sent IBA_15_Electrician_MG__11 Node 34]: [L3 Warning leaf-det] 'det' not expected to have children (34:di:det --> 35:#:dep)
+[Line 6841 Sent IBA_21_Obodo-Barracks_MG__46 Node 3]: [L3 Warning leaf-det] 'det' not expected to have children (3:di:det --> 4:#:dep)
+[Line 11800 Sent KAD_12_Mechanic-At-Work_MG__9 Node 27]: [L3 Warning leaf-det] 'det' not expected to have children (27:di:det --> 28:#:dep)
+[Line 11892 Sent KAD_12_Mechanic-At-Work_MG__12 Node 24]: [L3 Warning leaf-det] 'det' not expected to have children (24:dis:det --> 23:||:dep)
+[Line 12026 Sent KAD_12_Mechanic-At-Work_MG__15 Node 4]: [L3 Warning leaf-det] 'det' not expected to have children (4:di:det --> 5:#:dep)
+[Line 12102 Sent KAD_12_Mechanic-At-Work_MG__18 Node 13]: [L3 Warning leaf-det] 'det' not expected to have children (13:di:det --> 11:||:dep)
 ...suppressing further errors regarding Warning
-Warnings: 12
+Warnings: 35
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang pcm --max-err=10 UD_Naija-NSC/pcm_nsc-ud-train.conllu
-[Line 58450 Sent ENU_33_A-Beg_MG__70 Node 16]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 58449 Sent ENU_33_A-Beg_MG__70 Node 15]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 58451 Sent ENU_33_A-Beg_MG__70 Node 17]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 58449 Sent ENU_33_A-Beg_MG__70 Node 15]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 58452 Sent ENU_33_A-Beg_MG__70 Node 18]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 58449 Sent ENU_33_A-Beg_MG__70 Node 15]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 58453 Sent ENU_33_A-Beg_MG__70 Node 19]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 58449 Sent ENU_33_A-Beg_MG__70 Node 15]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 58454 Sent ENU_33_A-Beg_MG__70 Node 20]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 58449 Sent ENU_33_A-Beg_MG__70 Node 15]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 8919 Sent ABJ_GWA_06_Ugo-Lifestory_MG__28 Node 11]: [L3 Warning leaf-det] 'det' not expected to have children (11:di:det --> 10:||:dep)
+[Line 9103 Sent ABJ_GWA_06_Ugo-Lifestory_MG__35 Node 17]: [L3 Warning leaf-det] 'det' not expected to have children (17:which:det --> 16://+:dep)
+[Line 9106 Sent ABJ_GWA_06_Ugo-Lifestory_MG__35 Node 17]: [L3 Warning leaf-det] 'det' not expected to have children (17:which:det --> 19:give:acl)
+[Line 9374 Sent ABJ_GWA_06_Ugo-Lifestory_MG__42 Node 9]: [L3 Warning leaf-det] 'det' not expected to have children (9:some:det --> 10:#:dep)
+[Line 11010 Sent ABJ_GWA_06_Ugo-Lifestory_MG__93 Node 21]: [L3 Warning leaf-det] 'det' not expected to have children (21:dat:det --> 19:||:dep)
+[Line 11011 Sent ABJ_GWA_06_Ugo-Lifestory_MG__93 Node 21]: [L3 Warning leaf-det] 'det' not expected to have children (21:dat:det --> 20:#:dep)
+[Line 12570 Sent ABJ_GWA_09_Journalism_MG__48 Node 4]: [L3 Warning leaf-det] 'det' not expected to have children (4:some:det --> 3:||:dep)
+[Line 13575 Sent ABJ_GWA_10_Steven-Lifestory_MG__30 Node 2]: [L3 Warning leaf-det] 'det' not expected to have children (2:dose:det --> 3:#:dep)
+[Line 15725 Sent ABJ_GWA_10_Steven-Lifestory_MG__104 Node 5]: [L3 Warning leaf-det] 'det' not expected to have children (5:my:det --> 4:||:dep)
+[Line 15995 Sent ABJ_GWA_10_Steven-Lifestory_MG__114 Node 21]: [L3 Warning leaf-det] 'det' not expected to have children (21:di:det --> 22:#:dep)
 ...suppressing further errors regarding Warning
-Warnings: 316
+Warnings: 423
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.3) = 0.0230769230769231
 (weight=0.0769230769230769) * (score{genres}=0.0588235294117647) = 0.00452488687782805
 (weight=0.0769230769230769) * (score{lemmas}=0.4) = 0.0307692307692308
-(weight=0.256410256410256) * (score{size}=0.716244061186007) = 0.183652323381027
+(weight=0.256410256410256) * (score{size}=0.716238921831376) = 0.183651005597789
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.882352941176471) = 0.0678733031674208
 (weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
 (weight=0.0769230769230769) * (score{udeprels}=0.713513513513514) = 0.0548856548856549
-(TOTAL score=0.419141296517059) * (availability=1) * (validity=1) = 0.419141296517059
+(TOTAL score=0.419139978733821) * (availability=1) * (validity=1) = 0.419139978733821
 STARS = 2
-UD_Naija-NSC	0.419141296517059	2
+UD_Naija-NSC	0.419139978733821	2

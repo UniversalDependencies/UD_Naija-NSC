@@ -160,6 +160,7 @@ The train file is composed of the following samples:
 === Machine-readable metadata (DO NOT REMOVE!) ================================
 Data available since: UD v2.2
 Includes text: yes
+Parallel: no
 License: CC BY-SA 4.0
 Genre: spoken
 Lemmas: automatic

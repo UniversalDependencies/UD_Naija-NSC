@@ -22,7 +22,7 @@ The text has been transcribed mostly following English spelling conventions for 
 
 The text is segmented into illocutionary units. The end of illocutionary units is indicated by a double slash (//). The sentence nucleus containing the predicate is separated from dislocated units by "lesser than" signs (<) from left-dislocated elements, and by "greater than" signs (>) from right-dislocated units. Paradigmatic lists (coordinations, appositions, and disfluencies) are marked with curly breackets, each conjunct being separated by the pipe symbol (|). Further details can be found on the "Macrosyntactic annotation guide".
 
-The treebank is developed in SUD (https://surfacesyntacticud.github.io/) and is converted automatically into UD.
+The treebank is developed in SUD (https://surfacesyntacticud.org/) and is converted automatically into UD.
 
 
 # Deviations from UD

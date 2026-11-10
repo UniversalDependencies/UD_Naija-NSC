@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
+commit 59781c63b5b1c2ba74cd2b965d93f371e1c9d36a
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 5 17:01:41 2026 +0200
+Date:   Tue Nov 10 13:08:27 2026 +0100
 Evaluating the following revision of UD_Naija-NSC:
-commit 2f4e194938ade86fedeabbcfcaeb4b791c023c5f
-Merge: be1b510 9c2d0bf
+commit d80fb0f1bd62a42f2af6ffb9477b5e5095c52f2b
+Merge: e1208eb 48ce3c7
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'pcm_nsc'
@@ -25,44 +25,44 @@ Universal relations: 34 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang pcm --max-err=10 UD_Naija-NSC/pcm_nsc-ud-dev.conllu
-[Line 24 Sent ABJ_GWA_08_David-Lifestory_MG__1]: [L3 WARNING pron-det-without-prontype] The word 'my' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 27 Sent ABJ_GWA_08_David-Lifestory_MG__1]: [L3 WARNING pron-det-without-prontype] The word 'my' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 48 Sent ABJ_GWA_08_David-Lifestory_MG__1]: [L3 WARNING pron-det-without-prontype] The word 'my' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 100 Sent ABJ_GWA_08_David-Lifestory_MG__3]: [L3 WARNING pron-det-without-prontype] The word 'my' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 135 Sent ABJ_GWA_08_David-Lifestory_MG__4]: [L3 WARNING pron-det-without-prontype] The word 'dat' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 169 Sent ABJ_GWA_08_David-Lifestory_MG__5]: [L3 WARNING pron-det-without-prontype] The word 'my' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 228 Sent ABJ_GWA_08_David-Lifestory_MG__7]: [L3 WARNING pron-det-without-prontype] The word 'my' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 282 Sent ABJ_GWA_08_David-Lifestory_MG__9]: [L3 WARNING pron-det-without-prontype] The word 'dat' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 287 Sent ABJ_GWA_08_David-Lifestory_MG__9]: [L3 WARNING pron-det-without-prontype] The word 'my' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 326 Sent ABJ_GWA_08_David-Lifestory_MG__10]: [L3 WARNING pron-det-without-prontype] The word 'some' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 23 Sent ABJ_GWA_08_David-Lifestory_MG__1]: [L3 WARNING pron-det-without-prontype] The word 'my' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 26 Sent ABJ_GWA_08_David-Lifestory_MG__1]: [L3 WARNING pron-det-without-prontype] The word 'my' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 47 Sent ABJ_GWA_08_David-Lifestory_MG__1]: [L3 WARNING pron-det-without-prontype] The word 'my' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 99 Sent ABJ_GWA_08_David-Lifestory_MG__3]: [L3 WARNING pron-det-without-prontype] The word 'my' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 134 Sent ABJ_GWA_08_David-Lifestory_MG__4]: [L3 WARNING pron-det-without-prontype] The word 'dat' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 168 Sent ABJ_GWA_08_David-Lifestory_MG__5]: [L3 WARNING pron-det-without-prontype] The word 'my' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 227 Sent ABJ_GWA_08_David-Lifestory_MG__7]: [L3 WARNING pron-det-without-prontype] The word 'my' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 281 Sent ABJ_GWA_08_David-Lifestory_MG__9]: [L3 WARNING pron-det-without-prontype] The word 'dat' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 286 Sent ABJ_GWA_08_David-Lifestory_MG__9]: [L3 WARNING pron-det-without-prontype] The word 'my' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 325 Sent ABJ_GWA_08_David-Lifestory_MG__10]: [L3 WARNING pron-det-without-prontype] The word 'some' is tagged 'DET' but it lacks the 'PronType' feature
 ...suppressing further messages regarding WARNING/MORPHO
 Warnings: 511
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang pcm --max-err=10 UD_Naija-NSC/pcm_nsc-ud-test.conllu
-[Line 60 Sent ABJ_GWA_14_Mary-Lifestory_MG__3]: [L3 WARNING pron-det-without-prontype] The word 'my' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 169 Sent ABJ_GWA_14_Mary-Lifestory_MG__7]: [L3 WARNING pron-det-without-prontype] The word 'my' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 199 Sent ABJ_GWA_14_Mary-Lifestory_MG__8]: [L3 WARNING pron-det-without-prontype] The word 'all' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 202 Sent ABJ_GWA_14_Mary-Lifestory_MG__8]: [L3 WARNING pron-det-without-prontype] The word 'all' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 221 Sent ABJ_GWA_14_Mary-Lifestory_MG__9]: [L3 WARNING pron-det-without-prontype] The word 'dat' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 231 Sent ABJ_GWA_14_Mary-Lifestory_MG__9]: [L3 WARNING pron-det-without-prontype] The word 'any' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 251 Sent ABJ_GWA_14_Mary-Lifestory_MG__10]: [L3 WARNING pron-det-without-prontype] The word 'anytin' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 267 Sent ABJ_GWA_14_Mary-Lifestory_MG__11]: [L3 WARNING pron-det-without-prontype] The word 'my' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 295 Sent ABJ_GWA_14_Mary-Lifestory_MG__12]: [L3 WARNING pron-det-without-prontype] The word 'some' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 314 Sent ABJ_GWA_14_Mary-Lifestory_MG__13]: [L3 WARNING pron-det-without-prontype] The word 'our' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 59 Sent ABJ_GWA_14_Mary-Lifestory_MG__3]: [L3 WARNING pron-det-without-prontype] The word 'my' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 168 Sent ABJ_GWA_14_Mary-Lifestory_MG__7]: [L3 WARNING pron-det-without-prontype] The word 'my' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 198 Sent ABJ_GWA_14_Mary-Lifestory_MG__8]: [L3 WARNING pron-det-without-prontype] The word 'all' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 201 Sent ABJ_GWA_14_Mary-Lifestory_MG__8]: [L3 WARNING pron-det-without-prontype] The word 'all' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 220 Sent ABJ_GWA_14_Mary-Lifestory_MG__9]: [L3 WARNING pron-det-without-prontype] The word 'dat' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 230 Sent ABJ_GWA_14_Mary-Lifestory_MG__9]: [L3 WARNING pron-det-without-prontype] The word 'any' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 250 Sent ABJ_GWA_14_Mary-Lifestory_MG__10]: [L3 WARNING pron-det-without-prontype] The word 'anytin' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 266 Sent ABJ_GWA_14_Mary-Lifestory_MG__11]: [L3 WARNING pron-det-without-prontype] The word 'my' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 294 Sent ABJ_GWA_14_Mary-Lifestory_MG__12]: [L3 WARNING pron-det-without-prontype] The word 'some' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 313 Sent ABJ_GWA_14_Mary-Lifestory_MG__13]: [L3 WARNING pron-det-without-prontype] The word 'our' is tagged 'PRON' but it lacks the 'PronType' feature
 ...suppressing further messages regarding WARNING/MORPHO
 Warnings: 446
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang pcm --max-err=10 UD_Naija-NSC/pcm_nsc-ud-train.conllu
-[Line 89 Sent ABJ_GWA_02_Market-Food-Church_DG__5]: [L3 WARNING pron-det-without-prontype] The word 'your' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 147 Sent ABJ_GWA_02_Market-Food-Church_DG__8]: [L3 WARNING pron-det-without-prontype] The word 'my' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 278 Sent ABJ_GWA_02_Market-Food-Church_DG__14]: [L3 WARNING pron-det-without-prontype] The word 'my' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 347 Sent ABJ_GWA_02_Market-Food-Church_DG__17]: [L3 WARNING pron-det-without-prontype] The word 'our' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 367 Sent ABJ_GWA_02_Market-Food-Church_DG__18]: [L3 WARNING pron-det-without-prontype] The word 'dat' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 370 Sent ABJ_GWA_02_Market-Food-Church_DG__18]: [L3 WARNING pron-det-without-prontype] The word 'anoder' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 391 Sent ABJ_GWA_02_Market-Food-Church_DG__19]: [L3 WARNING pron-det-without-prontype] The word 'my' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 441 Sent ABJ_GWA_02_Market-Food-Church_DG__21]: [L3 WARNING pron-det-without-prontype] The word 'my' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 548 Sent ABJ_GWA_02_Market-Food-Church_DG__26]: [L3 WARNING pron-det-without-prontype] The word 'my' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 588 Sent ABJ_GWA_02_Market-Food-Church_DG__28]: [L3 WARNING pron-det-without-prontype] The word 'your' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 88 Sent ABJ_GWA_02_Market-Food-Church_DG__5]: [L3 WARNING pron-det-without-prontype] The word 'your' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 146 Sent ABJ_GWA_02_Market-Food-Church_DG__8]: [L3 WARNING pron-det-without-prontype] The word 'my' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 277 Sent ABJ_GWA_02_Market-Food-Church_DG__14]: [L3 WARNING pron-det-without-prontype] The word 'my' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 346 Sent ABJ_GWA_02_Market-Food-Church_DG__17]: [L3 WARNING pron-det-without-prontype] The word 'our' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 366 Sent ABJ_GWA_02_Market-Food-Church_DG__18]: [L3 WARNING pron-det-without-prontype] The word 'dat' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 369 Sent ABJ_GWA_02_Market-Food-Church_DG__18]: [L3 WARNING pron-det-without-prontype] The word 'anoder' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 390 Sent ABJ_GWA_02_Market-Food-Church_DG__19]: [L3 WARNING pron-det-without-prontype] The word 'my' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 440 Sent ABJ_GWA_02_Market-Food-Church_DG__21]: [L3 WARNING pron-det-without-prontype] The word 'my' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 547 Sent ABJ_GWA_02_Market-Food-Church_DG__26]: [L3 WARNING pron-det-without-prontype] The word 'my' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 587 Sent ABJ_GWA_02_Market-Food-Church_DG__28]: [L3 WARNING pron-det-without-prontype] The word 'your' is tagged 'PRON' but it lacks the 'PronType' feature
 ...suppressing further messages regarding WARNING/MORPHO
 Warnings: 3799
 *** PASSED ***
